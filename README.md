@@ -22,7 +22,7 @@ The centre of the system is each episode's `03-scenes.json`: a scene spec the re
 | `assets/` | Reusable library: `characters/` (one SVG per pose + `character.json`), `backgrounds/`, `props/`, `overlays/` |
 | `templates/episode/` | Starting files for a new episode |
 | `studio/` | Remotion renderer + voice scripts |
-| `.claude/skills/` | Claude Code commands for each stage (`/new-episode`, `/research`, `/script`, `/storyboard`, `/characters`, `/publish-kit`) |
+| `.claude/skills/` | Claude Code commands for each stage (`/new-episode`, `/research`, `/script`, `/storyboard`, `/assets`, `/voice`, `/render`, `/publish-kit`) |
 
 ## Render an episode
 Requires Node.js.

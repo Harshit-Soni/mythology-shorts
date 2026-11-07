@@ -38,7 +38,7 @@ Every new idea goes through the same 8 stages. Each stage writes a file into the
 **Creates:** `03-scenes.json` (the scene spec Remotion renders from) and an **asset list**: the characters, backgrounds and props needed, each marked as already in the library or new.
 
 ## Stage 4: Assets
-**Run:** `/characters <episode-id>`
+**Run:** `/assets <episode-id>` (`brief` → `concepts` → `review <delivery>` → `file`)
 **Creates/reuses:** SVG characters in `assets/characters/`, backgrounds in `assets/backgrounds/`, props in `assets/props/`, overlays in `assets/overlays/`. Always reuse from the library first. Every character follows `assets/characters/SPEC.md`.
 
 How it runs (worked out on S01E01):
@@ -50,6 +50,7 @@ How it runs (worked out on S01E01):
 6. **File:** approved assets go into the library with a `character.json`, ready for every later episode.
 
 ## Stage 5: Voice ✅ *(built 2026-11-07)*
+**Run:** `/voice <episode-id> [en|hi]`
 **Voice:** ElevenLabs voice `5gaEGrWSk4v20HMfIhgC`, model `eleven_v4`, for both languages (one narrator across EN and HI is part of the channel's identity).
 
 **Creates:** `audio/<lang>.mp3` plus `audio/<lang>.timestamps.json` (every script word with its beat, start and end in seconds). The renderer uses them automatically: scene timing, captions, word cues, lip-sync and the audio track all follow the voice.
@@ -70,6 +71,7 @@ npm run voice:import -- S01E01 en take.mp3 scribe-words.json  exact: word times 
 **Length check:** the import prints where the speech ends. Aim for ≤ 60 s including the 1 s sting; S01E01 EN came out at 61.7 s.
 
 ## Stage 6: Render ✅ *(built 2026-11-07, `studio/`)*
+**Run:** `/render <episode-id> [en|hi] [final]` (the scene spec vocabulary is in `studio/SCENE_SPEC.md`)
 **Run** (from `studio/`):
 ```
 npm run render -- S01E01 en               preview with debug labels  → render/S01E01-en-preview.mp4
@@ -98,7 +100,15 @@ Fill in `08-review.md`: views, average % viewed, swipe-away rate, and what you'd
 
 | You have... | Do this |
 |---|---|
-| A new idea | `/new-episode ...` |
+| A new idea | `/new-episode ...`, then `/research` → `/script` → `/storyboard` → `/assets` → `/voice` → `/render` → `/publish-kit` |
 | An idea for a whole series | Add it to `series/` (copy an existing `series.md`), then `/new-episode` for each episode |
-| An episode stuck partway | Open its folder. The highest-numbered file tells you the last stage finished |
+| An episode stuck partway | Open its folder and `00-idea.md` → Status / Open items. The highest-numbered file tells you the last stage finished |
+| An asset delivery in `asset outputs/` | `/assets <ID> review <path>` |
+| A new background | Measure its ground line (`/render` → Grid check) into `assets/backgrounds/GROUND_LINES.md` |
 | A finished video with bad retention | Read `08-review.md`, update `LEARNINGS.md` |
+| A new domain (e.g. Roman mythology) | Same stages and studio; new `series/`, sources, style notes and assets. Run a concept round first (`/assets <ID> concepts`) |
+
+## Tools and accounts
+- **Node.js** from Homebrew (`/opt/homebrew/bin`); the studio pins Remotion 4.0.538.
+- **ElevenLabs**: via the ElevenLabs connector in Claude (generation + Scribe), or an API key in your shell for `npm run voice`. On the free tier the shared queue is often busy: retry later; nothing is charged for a take that didn't start.
+- **GitHub**: https://github.com/Harshit-Soni/mythology-shorts. Renders, `node_modules`, voice caches and raw deliveries are git-ignored.
