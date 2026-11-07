@@ -1,0 +1,32 @@
+{
+  "id": "{{ID}}",
+  "title": { "en": "", "hi": "" },
+  "format": "short",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "sourceCredit": { "en": "", "hi": "" },
+  "scenes": [
+    {
+      "id": "s01",
+      "beat": 1,
+      "type": "character",
+      "background": "background-id",
+      "characters": [
+        { "id": "character-id", "pose": "standing", "expression": "neutral", "x": 0.5, "y": 0.62, "scale": 1, "flip": false, "action": "idle" }
+      ],
+      "props": [],
+      "camera": { "move": "slow-zoom-in", "from": 1.0, "to": 1.08 },
+      "narration": { "en": "", "hi": "" },
+      "onScreenText": null,
+      "sfx": [],
+      "transition": "cut",
+      "notes": ""
+    }
+  ],
+  "assets": {
+    "characters": [{ "id": "", "status": "new | library" }],
+    "backgrounds": [{ "id": "", "status": "new | library" }],
+    "props": [{ "id": "", "status": "new | library" }]
+  }
+}

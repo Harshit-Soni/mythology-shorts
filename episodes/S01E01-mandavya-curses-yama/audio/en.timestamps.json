@@ -1,0 +1,897 @@
+{
+ "episode": "S01E01",
+ "lang": "en",
+ "source": "elevenlabs-flow, pause-aligned",
+ "matched": "auto (pause-based, no transcript)",
+ "total": 61.84,
+ "words": [
+  {
+   "beat": 1,
+   "text": "The",
+   "start": 1.15,
+   "end": 1.451
+  },
+  {
+   "beat": 1,
+   "text": "god",
+   "start": 1.452,
+   "end": 1.753
+  },
+  {
+   "beat": 1,
+   "text": "who",
+   "start": 1.754,
+   "end": 2.055
+  },
+  {
+   "beat": 1,
+   "text": "judges",
+   "start": 2.056,
+   "end": 2.538
+  },
+  {
+   "beat": 1,
+   "text": "every",
+   "start": 2.539,
+   "end": 2.961
+  },
+  {
+   "beat": 1,
+   "text": "soul…",
+   "start": 2.962,
+   "end": 3.324
+  },
+  {
+   "beat": 1,
+   "text": "was",
+   "start": 3.325,
+   "end": 4.173
+  },
+  {
+   "beat": 1,
+   "text": "once",
+   "start": 4.174,
+   "end": 4.535
+  },
+  {
+   "beat": 1,
+   "text": "put",
+   "start": 4.536,
+   "end": 4.837
+  },
+  {
+   "beat": 1,
+   "text": "on",
+   "start": 4.838,
+   "end": 5.079
+  },
+  {
+   "beat": 1,
+   "text": "trial.",
+   "start": 5.08,
+   "end": 5.502
+  },
+  {
+   "beat": 2,
+   "text": "Sage",
+   "start": 6.342,
+   "end": 6.689
+  },
+  {
+   "beat": 2,
+   "text": "Mandavya",
+   "start": 6.69,
+   "end": 7.27
+  },
+  {
+   "beat": 2,
+   "text": "had",
+   "start": 7.271,
+   "end": 7.56
+  },
+  {
+   "beat": 2,
+   "text": "taken",
+   "start": 7.561,
+   "end": 7.966
+  },
+  {
+   "beat": 2,
+   "text": "a",
+   "start": 7.967,
+   "end": 8.141
+  },
+  {
+   "beat": 2,
+   "text": "vow",
+   "start": 8.142,
+   "end": 8.431
+  },
+  {
+   "beat": 2,
+   "text": "of",
+   "start": 8.432,
+   "end": 8.663
+  },
+  {
+   "beat": 2,
+   "text": "silence.",
+   "start": 8.664,
+   "end": 9.186
+  },
+  {
+   "beat": 3,
+   "text": "Thieves,",
+   "start": 9.705,
+   "end": 10.195
+  },
+  {
+   "beat": 3,
+   "text": "fleeing",
+   "start": 10.196,
+   "end": 10.686
+  },
+  {
+   "beat": 3,
+   "text": "the",
+   "start": 10.687,
+   "end": 10.959
+  },
+  {
+   "beat": 3,
+   "text": "king's",
+   "start": 10.96,
+   "end": 11.341
+  },
+  {
+   "beat": 3,
+   "text": "guards,",
+   "start": 11.342,
+   "end": 11.778
+  },
+  {
+   "beat": 3,
+   "text": "hid",
+   "start": 11.779,
+   "end": 12.051
+  },
+  {
+   "beat": 3,
+   "text": "in",
+   "start": 12.052,
+   "end": 12.269
+  },
+  {
+   "beat": 3,
+   "text": "his",
+   "start": 12.27,
+   "end": 12.542
+  },
+  {
+   "beat": 3,
+   "text": "hermitage.",
+   "start": 12.543,
+   "end": 13.142
+  },
+  {
+   "beat": 4,
+   "text": "\"Which",
+   "start": 13.608,
+   "end": 13.881
+  },
+  {
+   "beat": 4,
+   "text": "way",
+   "start": 13.882,
+   "end": 14.077
+  },
+  {
+   "beat": 4,
+   "text": "did",
+   "start": 14.078,
+   "end": 14.273
+  },
+  {
+   "beat": 4,
+   "text": "they",
+   "start": 14.274,
+   "end": 14.508
+  },
+  {
+   "beat": 4,
+   "text": "go?\"",
+   "start": 14.509,
+   "end": 15.193
+  },
+  {
+   "beat": 4,
+   "text": "He",
+   "start": 15.194,
+   "end": 15.35
+  },
+  {
+   "beat": 4,
+   "text": "said",
+   "start": 15.351,
+   "end": 15.585
+  },
+  {
+   "beat": 4,
+   "text": "nothing.",
+   "start": 15.586,
+   "end": 15.938
+  },
+  {
+   "beat": 5,
+   "text": "The",
+   "start": 16.512,
+   "end": 16.767
+  },
+  {
+   "beat": 5,
+   "text": "guards",
+   "start": 16.768,
+   "end": 17.176
+  },
+  {
+   "beat": 5,
+   "text": "found",
+   "start": 17.177,
+   "end": 17.534
+  },
+  {
+   "beat": 5,
+   "text": "the",
+   "start": 17.535,
+   "end": 17.79
+  },
+  {
+   "beat": 5,
+   "text": "loot,",
+   "start": 17.791,
+   "end": 18.097
+  },
+  {
+   "beat": 5,
+   "text": "and",
+   "start": 18.098,
+   "end": 18.353
+  },
+  {
+   "beat": 5,
+   "text": "arrested",
+   "start": 18.354,
+   "end": 18.864
+  },
+  {
+   "beat": 5,
+   "text": "him",
+   "start": 18.865,
+   "end": 19.12
+  },
+  {
+   "beat": 5,
+   "text": "too.",
+   "start": 19.121,
+   "end": 19.376
+  },
+  {
+   "beat": 6,
+   "text": "His",
+   "start": 19.829,
+   "end": 20.103
+  },
+  {
+   "beat": 6,
+   "text": "sentence:",
+   "start": 20.104,
+   "end": 20.975
+  },
+  {
+   "beat": 6,
+   "text": "death",
+   "start": 20.976,
+   "end": 21.36
+  },
+  {
+   "beat": 6,
+   "text": "on",
+   "start": 21.361,
+   "end": 21.58
+  },
+  {
+   "beat": 6,
+   "text": "a",
+   "start": 21.581,
+   "end": 21.746
+  },
+  {
+   "beat": 6,
+   "text": "stake.",
+   "start": 21.747,
+   "end": 22.131
+  },
+  {
+   "beat": 7,
+   "text": "But",
+   "start": 22.679,
+   "end": 22.973
+  },
+  {
+   "beat": 7,
+   "text": "Mandavya…",
+   "start": 22.974,
+   "end": 23.929
+  },
+  {
+   "beat": 7,
+   "text": "didn't",
+   "start": 23.93,
+   "end": 24.343
+  },
+  {
+   "beat": 7,
+   "text": "die.",
+   "start": 24.344,
+   "end": 24.638
+  },
+  {
+   "beat": 8,
+   "text": "The",
+   "start": 25.172,
+   "end": 25.398
+  },
+  {
+   "beat": 8,
+   "text": "king",
+   "start": 25.399,
+   "end": 25.67
+  },
+  {
+   "beat": 8,
+   "text": "begged",
+   "start": 25.671,
+   "end": 26.032
+  },
+  {
+   "beat": 8,
+   "text": "forgiveness,",
+   "start": 26.033,
+   "end": 26.622
+  },
+  {
+   "beat": 8,
+   "text": "but",
+   "start": 26.623,
+   "end": 27.092
+  },
+  {
+   "beat": 8,
+   "text": "the",
+   "start": 27.093,
+   "end": 27.319
+  },
+  {
+   "beat": 8,
+   "text": "stake",
+   "start": 27.32,
+   "end": 27.636
+  },
+  {
+   "beat": 8,
+   "text": "wouldn't",
+   "start": 27.637,
+   "end": 28.044
+  },
+  {
+   "beat": 8,
+   "text": "come",
+   "start": 28.045,
+   "end": 28.316
+  },
+  {
+   "beat": 8,
+   "text": "out.",
+   "start": 28.317,
+   "end": 28.543
+  },
+  {
+   "beat": 9,
+   "text": "Still",
+   "start": 28.994,
+   "end": 29.364
+  },
+  {
+   "beat": 9,
+   "text": "carrying",
+   "start": 29.365,
+   "end": 29.895
+  },
+  {
+   "beat": 9,
+   "text": "its",
+   "start": 29.896,
+   "end": 30.161
+  },
+  {
+   "beat": 9,
+   "text": "tip,",
+   "start": 30.162,
+   "end": 30.426
+  },
+  {
+   "beat": 9,
+   "text": "he",
+   "start": 30.427,
+   "end": 30.876
+  },
+  {
+   "beat": 9,
+   "text": "marched",
+   "start": 30.877,
+   "end": 31.354
+  },
+  {
+   "beat": 9,
+   "text": "to",
+   "start": 31.355,
+   "end": 31.566
+  },
+  {
+   "beat": 9,
+   "text": "Dharma,",
+   "start": 31.567,
+   "end": 31.991
+  },
+  {
+   "beat": 9,
+   "text": "the",
+   "start": 31.992,
+   "end": 32.502
+  },
+  {
+   "beat": 9,
+   "text": "god",
+   "start": 32.503,
+   "end": 32.768
+  },
+  {
+   "beat": 9,
+   "text": "of",
+   "start": 32.769,
+   "end": 32.98
+  },
+  {
+   "beat": 9,
+   "text": "justice.",
+   "start": 32.981,
+   "end": 33.458
+  },
+  {
+   "beat": 10,
+   "text": "\"What",
+   "start": 33.886,
+   "end": 34.229
+  },
+  {
+   "beat": 10,
+   "text": "was",
+   "start": 34.23,
+   "end": 34.516
+  },
+  {
+   "beat": 10,
+   "text": "my",
+   "start": 34.517,
+   "end": 34.746
+  },
+  {
+   "beat": 10,
+   "text": "sin?\"",
+   "start": 34.747,
+   "end": 35.033
+  },
+  {
+   "beat": 11,
+   "text": "\"As",
+   "start": 35.439,
+   "end": 35.655
+  },
+  {
+   "beat": 11,
+   "text": "a",
+   "start": 35.656,
+   "end": 35.819
+  },
+  {
+   "beat": 11,
+   "text": "child,",
+   "start": 35.82,
+   "end": 36.199
+  },
+  {
+   "beat": 11,
+   "text": "you",
+   "start": 36.2,
+   "end": 36.471
+  },
+  {
+   "beat": 11,
+   "text": "pierced",
+   "start": 36.472,
+   "end": 36.961
+  },
+  {
+   "beat": 11,
+   "text": "an",
+   "start": 36.962,
+   "end": 37.178
+  },
+  {
+   "beat": 11,
+   "text": "insect",
+   "start": 37.179,
+   "end": 37.613
+  },
+  {
+   "beat": 11,
+   "text": "with",
+   "start": 37.614,
+   "end": 37.94
+  },
+  {
+   "beat": 11,
+   "text": "a",
+   "start": 37.941,
+   "end": 38.103
+  },
+  {
+   "beat": 11,
+   "text": "blade",
+   "start": 38.104,
+   "end": 38.484
+  },
+  {
+   "beat": 11,
+   "text": "of",
+   "start": 38.485,
+   "end": 38.701
+  },
+  {
+   "beat": 11,
+   "text": "grass.\"",
+   "start": 38.702,
+   "end": 39.082
+  },
+  {
+   "beat": 12,
+   "text": "For",
+   "start": 39.532,
+   "end": 39.855
+  },
+  {
+   "beat": 12,
+   "text": "a",
+   "start": 39.856,
+   "end": 40.05
+  },
+  {
+   "beat": 12,
+   "text": "child's",
+   "start": 40.051,
+   "end": 40.569
+  },
+  {
+   "beat": 12,
+   "text": "mistake…",
+   "start": 40.57,
+   "end": 41.519
+  },
+  {
+   "beat": 12,
+   "text": "this?",
+   "start": 41.52,
+   "end": 41.908
+  },
+  {
+   "beat": 13,
+   "text": "Mandavya",
+   "start": 42.36,
+   "end": 42.91
+  },
+  {
+   "beat": 13,
+   "text": "cursed",
+   "start": 42.911,
+   "end": 43.351
+  },
+  {
+   "beat": 13,
+   "text": "the",
+   "start": 43.352,
+   "end": 43.627
+  },
+  {
+   "beat": 13,
+   "text": "god:",
+   "start": 43.628,
+   "end": 43.903
+  },
+  {
+   "beat": 13,
+   "text": "\"You",
+   "start": 43.904,
+   "end": 44.594
+  },
+  {
+   "beat": 13,
+   "text": "will",
+   "start": 44.595,
+   "end": 44.924
+  },
+  {
+   "beat": 13,
+   "text": "be",
+   "start": 44.925,
+   "end": 45.145
+  },
+  {
+   "beat": 13,
+   "text": "born",
+   "start": 45.146,
+   "end": 45.476
+  },
+  {
+   "beat": 13,
+   "text": "a",
+   "start": 45.477,
+   "end": 45.641
+  },
+  {
+   "beat": 13,
+   "text": "human,",
+   "start": 45.642,
+   "end": 46.296
+  },
+  {
+   "beat": 13,
+   "text": "a",
+   "start": 46.297,
+   "end": 46.461
+  },
+  {
+   "beat": 13,
+   "text": "servant",
+   "start": 46.462,
+   "end": 46.958
+  },
+  {
+   "beat": 13,
+   "text": "woman's",
+   "start": 46.959,
+   "end": 47.399
+  },
+  {
+   "beat": 13,
+   "text": "son.\"",
+   "start": 47.4,
+   "end": 47.674
+  },
+  {
+   "beat": 14,
+   "text": "And",
+   "start": 48.101,
+   "end": 48.386
+  },
+  {
+   "beat": 14,
+   "text": "he",
+   "start": 48.387,
+   "end": 48.614
+  },
+  {
+   "beat": 14,
+   "text": "set",
+   "start": 48.615,
+   "end": 48.899
+  },
+  {
+   "beat": 14,
+   "text": "a",
+   "start": 48.9,
+   "end": 49.07
+  },
+  {
+   "beat": 14,
+   "text": "new",
+   "start": 49.071,
+   "end": 49.356
+  },
+  {
+   "beat": 14,
+   "text": "law:",
+   "start": 49.357,
+   "end": 50.028
+  },
+  {
+   "beat": 14,
+   "text": "no",
+   "start": 50.029,
+   "end": 50.257
+  },
+  {
+   "beat": 14,
+   "text": "child",
+   "start": 50.258,
+   "end": 50.656
+  },
+  {
+   "beat": 14,
+   "text": "under",
+   "start": 50.657,
+   "end": 51.055
+  },
+  {
+   "beat": 14,
+   "text": "fourteen",
+   "start": 51.056,
+   "end": 51.626
+  },
+  {
+   "beat": 14,
+   "text": "can",
+   "start": 51.627,
+   "end": 51.911
+  },
+  {
+   "beat": 14,
+   "text": "sin.",
+   "start": 51.912,
+   "end": 52.197
+  },
+  {
+   "beat": 15,
+   "text": "And",
+   "start": 52.676,
+   "end": 52.966
+  },
+  {
+   "beat": 15,
+   "text": "so",
+   "start": 52.967,
+   "end": 53.199
+  },
+  {
+   "beat": 15,
+   "text": "the",
+   "start": 53.2,
+   "end": 53.49
+  },
+  {
+   "beat": 15,
+   "text": "god",
+   "start": 53.491,
+   "end": 53.781
+  },
+  {
+   "beat": 15,
+   "text": "of",
+   "start": 53.782,
+   "end": 54.014
+  },
+  {
+   "beat": 15,
+   "text": "justice",
+   "start": 54.015,
+   "end": 54.538
+  },
+  {
+   "beat": 15,
+   "text": "was",
+   "start": 54.539,
+   "end": 54.83
+  },
+  {
+   "beat": 15,
+   "text": "born",
+   "start": 54.831,
+   "end": 55.179
+  },
+  {
+   "beat": 15,
+   "text": "on",
+   "start": 55.18,
+   "end": 55.412
+  },
+  {
+   "beat": 15,
+   "text": "Earth…",
+   "start": 55.413,
+   "end": 56.134
+  },
+  {
+   "beat": 15,
+   "text": "as",
+   "start": 56.135,
+   "end": 56.367
+  },
+  {
+   "beat": 15,
+   "text": "Vidura.",
+   "start": 56.368,
+   "end": 56.833
+  },
+  {
+   "beat": 16,
+   "text": "And",
+   "start": 57.282,
+   "end": 57.551
+  },
+  {
+   "beat": 16,
+   "text": "soon,",
+   "start": 57.552,
+   "end": 57.875
+  },
+  {
+   "beat": 16,
+   "text": "Vidura's",
+   "start": 57.876,
+   "end": 58.574
+  },
+  {
+   "beat": 16,
+   "text": "brother",
+   "start": 58.575,
+   "end": 59.061
+  },
+  {
+   "beat": 16,
+   "text": "Pandu",
+   "start": 59.062,
+   "end": 59.439
+  },
+  {
+   "beat": 16,
+   "text": "would",
+   "start": 59.44,
+   "end": 59.818
+  },
+  {
+   "beat": 16,
+   "text": "face",
+   "start": 59.819,
+   "end": 60.142
+  },
+  {
+   "beat": 16,
+   "text": "a",
+   "start": 60.143,
+   "end": 60.304
+  },
+  {
+   "beat": 16,
+   "text": "curse",
+   "start": 60.305,
+   "end": 60.683
+  },
+  {
+   "beat": 16,
+   "text": "of",
+   "start": 60.684,
+   "end": 60.899
+  },
+  {
+   "beat": 16,
+   "text": "his",
+   "start": 60.9,
+   "end": 61.169
+  },
+  {
+   "beat": 16,
+   "text": "own.",
+   "start": 61.17,
+   "end": 61.44
+  }
+ ]
+}

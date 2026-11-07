@@ -1,0 +1,104 @@
+# Pipeline: Idea → Published Short
+
+Every new idea goes through the same 8 stages. Each stage writes a file into the episode folder, so you can always see where an episode stands and redo any stage without redoing everything.
+
+```
+0 Idea → 1 Research → 2 Script → 3 Storyboard → 4 Assets → 5 Voice → 6 Render → 7 Publish → 8 Review
+          [GATE]       [GATE]                                         [GATE]
+```
+
+**GATE** = you personally check it before moving on. Don't skip these. They are what keeps the channel accurate and makes it yours rather than mass-produced.
+
+---
+
+## Stage 0: Idea → episode folder
+**Run:** `/new-episode <idea in one line>`
+**Creates:** `episodes/<ID>-<slug>/` copied from `templates/episode/`, with `00-idea.md` filled in, plus a row in `episodes/INDEX.md`.
+**ID format:** `S01E03` (series 1, episode 3). One-off episodes use `X001`, `X002`, ...
+
+## Stage 1: Research
+**Run:** `/research <episode-id>`
+**Creates:** `01-research.md`
+- The story told in full, in order, with **the source for every key event** (text + book/parva/chapter + link).
+- A **Versions** section: where the scripture, regional retellings, and TV/pop-culture versions differ. Pop-culture details must never be presented as scripture.
+- 3 to 5 **hook candidates**: the most surprising true thing about the story.
+
+**GATE:** Open the links for the key claims and confirm them. Mark each one `[x] verified` in the file.
+
+## Stage 2: Script
+**Run:** `/script <episode-id>`
+**Creates:** `02-script.md`, the English script and a Hindi adaptation (written natively, not a word-for-word translation).
+- 45 to 60 seconds: about 130 to 150 English words, broken into numbered beats (one beat = one scene).
+- Beat 1 is the hook (first 2 seconds). The last beat links to the next episode in the series.
+
+**GATE:** Read both versions out loud and time yourself. Cut anything you stumble over.
+
+## Stage 3: Storyboard
+**Run:** `/storyboard <episode-id>`
+**Creates:** `03-scenes.json` (the scene spec Remotion renders from) and an **asset list**: the characters, backgrounds and props needed, each marked as already in the library or new.
+
+## Stage 4: Assets
+**Run:** `/characters <episode-id>`
+**Creates/reuses:** SVG characters in `assets/characters/`, backgrounds in `assets/backgrounds/`, props in `assets/props/`, overlays in `assets/overlays/`. Always reuse from the library first. Every character follows `assets/characters/SPEC.md`.
+
+How it runs (worked out on S01E01):
+1. **Brief:** Claude writes `04-asset-brief.md` with the style block, technical specs, file names and a description of every new asset, in batches.
+2. **Concept first, for anything with no approved example** (a new architecture, a new signature element, the first characters of a new domain): get 3 rough PNG variations, Claude picks one in `04-concept-brief.md`, and it becomes the SVG target.
+3. **Generate in batches** with an external tool. The first batch fixes the look; don't make the rest until it's approved.
+4. **Delivery:** zip or folder into `asset outputs/`. Claude checks safety and structure, renders the files itself, tests blink and talk swaps and silhouettes, and writes `04-asset-review.md`.
+5. **Fix:** small fixes Claude makes directly in the SVG (keeping the original in `review/`); bigger ones go back as redos.
+6. **File:** approved assets go into the library with a `character.json`, ready for every later episode.
+
+## Stage 5: Voice ✅ *(built 2026-11-07)*
+**Voice:** ElevenLabs voice `5gaEGrWSk4v20HMfIhgC`, model `eleven_v4`, for both languages (one narrator across EN and HI is part of the channel's identity).
+
+**Creates:** `audio/<lang>.mp3` plus `audio/<lang>.timestamps.json` (every script word with its beat, start and end in seconds). The renderer uses them automatically: scene timing, captions, word cues, lip-sync and the audio track all follow the voice.
+
+**Route A: ElevenLabs connection (what we use, no API key needed)**
+1. Claude generates the full narration for a language in one take (the beats as paragraphs) via the ElevenLabs connector. ~800 credits per take for a 60 s script.
+2. Claude downloads the take and imports it, from `studio/`:
+```
+npm run voice:import -- S01E01 en take.mp3 auto               free: beat boundaries from the pauses, words estimated inside each beat
+npm run voice:import -- S01E01 en take.mp3 scribe-words.json  exact: word times from an ElevenLabs Scribe transcript
+```
+   `auto` picks the pauses that best fit the expected beat lengths and prints each beat's span next to its expected length, so a bad fit is easy to spot. Scribe is more precise (for example, a cue on a single word mid-sentence), but it costs a transcription.
+
+**Route B: API script (needs `ELEVENLABS_API_KEY` in your shell)**: `npm run voice -- S01E01 en --provider elevenlabs --voice <ID>` generates beat by beat, with exact timestamps from the API, and caches each beat, so redoing one line is cheap (`--beat 9`).
+
+**Free draft:** `npm run voice -- S01E01 hi` uses the Mac's built-in voices (Rishi for EN, Lekha for HI) to check timing and length before spending credits. Drafts are marked `draft` in the timestamps file.
+
+**Length check:** the import prints where the speech ends. Aim for ≤ 60 s including the 1 s sting; S01E01 EN came out at 61.7 s.
+
+## Stage 6: Render ✅ *(built 2026-11-07, `studio/`)*
+**Run** (from `studio/`):
+```
+npm run render -- S01E01 en               preview with debug labels  → render/S01E01-en-preview.mp4
+npm run render -- S01E01 hi --final       final, no labels           → render/S01E01-hi.mp4
+npm run render -- S01E01 en --scene s09   one scene only
+npm run render -- S01E01 en --stills      one PNG per scene, for quick review
+npm run studio                            live preview in the browser (Remotion Studio)
+```
+**How it works:** `scripts/prepare.mjs` copies the asset library and every episode's `03-scenes.json` into the studio and makes blink and talk face variants. The episode then renders scene by scene: camera moves, character actions, word `cues` (effects fire on a spoken word), on-screen text, word-by-word captions and transitions. One storyboard renders both languages.
+- **No voice track yet:** word timing is *estimated* from the text (marked "est. timing" in previews). Once `audio/<lang>.timestamps.json` exists, timing comes from the voice and the audio is mixed in automatically.
+- **Missing assets** render as labelled placeholders in previews, so an episode can be checked before every asset exists.
+- **Characters** stand at `x`,`y` (where their feet are, as a fraction of the frame); `scale: 1` draws the 1600-tall canvas 1000 px tall. `speaking: true` moves the mouth during quoted lines.
+
+**GATE:** Watch both versions all the way through on your phone with the sound **on** and then **off**. Captions alone should carry the story.
+
+## Stage 7: Publish
+**Run:** `/publish-kit <episode-id>`
+**Creates:** `07-publish.md` with titles, descriptions, hashtags and pinned comments for YT Shorts and IG Reels in both languages, plus the source list for the description. You upload by hand and paste the links back into `INDEX.md`.
+
+## Stage 8: Review (7 days after upload)
+Fill in `08-review.md`: views, average % viewed, swipe-away rate, and what you'd change. Add any lasting lesson to `LEARNINGS.md`. Scripts and storyboards read that file, so the channel improves with every episode.
+
+---
+
+## Quick reference
+
+| You have... | Do this |
+|---|---|
+| A new idea | `/new-episode ...` |
+| An idea for a whole series | Add it to `series/` (copy an existing `series.md`), then `/new-episode` for each episode |
+| An episode stuck partway | Open its folder. The highest-numbered file tells you the last stage finished |
+| A finished video with bad retention | Read `08-review.md`, update `LEARNINGS.md` |

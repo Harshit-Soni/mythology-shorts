@@ -1,0 +1,25 @@
+{
+  "id": "pandu",
+  "name": {
+    "en": "Pandu",
+    "hi": "पाण्डु"
+  },
+  "role": "Vidura's half-brother; father of the Pandavas",
+  "divine": false,
+  "appearsIn": [
+    "S01E01"
+  ],
+  "look": "Prince with a visibly pale complexion, crown, archer's garments.",
+  "sourceNotes": "Pale complexion: his name means 'the pale one' (Adi Parva 106).",
+  "poses": [
+    "drawing-bow"
+  ],
+  "expressions": [
+    "focused"
+  ],
+  "files": {
+    "drawing-bow": "drawing-bow.svg"
+  },
+  "facing": "right",
+  "notes": "Only the S01E01 tease pose so far; full pose set comes in S01E02."
+}

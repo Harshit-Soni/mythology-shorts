@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+
+# Renderer build products (regenerate with: cd studio && npm install && npm run render -- <ID> <en|hi>)
+studio/node_modules/
+studio/public/assets/
+studio/public/episodes/
+studio/src/generated/
+studio/out/
+
+# Rendered videos and stills (large; rebuilt from the scene spec + assets + audio)
+episodes/*/render/
+
+# Per-beat voice clip caches (rebuilt by `npm run voice`)
+episodes/*/audio/en/
+episodes/*/audio/hi/
+
+# Raw deliveries from external asset tools (approved files are copied into assets/)
+asset outputs/
+
+# Secrets never go in the repo (ElevenLabs key is read from the shell environment)
+.env
+.env.*

@@ -1,0 +1,26 @@
+{
+  "name": "history-shorts-studio",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Remotion renderer: turns episodes/*/03-scenes.json + assets/ into Shorts (EN + HI).",
+  "type": "module",
+  "scripts": {
+    "prepare-assets": "node scripts/prepare.mjs",
+    "studio": "node scripts/prepare.mjs && remotion studio src/index.ts",
+    "render": "node scripts/render.mjs",
+    "typecheck": "tsc --noEmit",
+    "voice": "node scripts/voice.mjs",
+    "voice:import": "node scripts/voice-import.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.538",
+    "@remotion/google-fonts": "4.0.538",
+    "react": "19.2.9",
+    "react-dom": "19.2.9",
+    "remotion": "4.0.538"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

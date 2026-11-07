@@ -1,0 +1,36 @@
+{
+  "id": "dharma",
+  "name": {
+    "en": "Dharma",
+    "hi": "धर्म"
+  },
+  "role": "God of justice and righteousness",
+  "divine": true,
+  "appearsIn": [
+    "S01E01"
+  ],
+  "look": "Regal, calm, middle-aged; warm golden-brown skin; white and cream garments with gold borders; tall gold crown; gold armlets and necklace; large gold halo disc with petal rays. Deliberately not Yama's iconography (no buffalo, noose or dark skin).",
+  "sourceNotes": "The epic gives no fixed visual description of Dharma in Adi Parva 106-108; this is a design choice. Kept visually distinct from Yama on purpose.",
+  "poses": [
+    "seated-throne"
+  ],
+  "expressions": [
+    "neutral",
+    "stern",
+    "shocked"
+  ],
+  "files": {
+    "seated-throne": {
+      "neutral": "seated-throne__neutral.svg",
+      "stern": "seated-throne__stern.svg",
+      "shocked": "seated-throne__shocked.svg"
+    }
+  },
+  "facing": "front, turned slightly toward the viewer's left",
+  "palette": {
+    "skin": "#B9814F",
+    "garment": "#F3EEDF",
+    "gold": "#E8B53A"
+  },
+  "notes": "Throne is part of bg cosmic-court. Suggested placement on that court: translate(418,288) scale(0.46). shocked face fixed by Claude on 2026-11-07 (almond eyes widened instead of round 'googly' eyes); original kept at episodes/S01E01-*/review/dharma-shocked-v2-original.svg"
+}
