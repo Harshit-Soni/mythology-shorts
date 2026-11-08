@@ -9,7 +9,7 @@
   "appearsIn": [
     "S01E01"
   ],
-  "look": "Gold crown, thick moustache and beard, red and green garments, gold jewellery.",
+  "look": "Tall pointed gold crown, clear jaw, controlled thick moustache, groomed hair behind the ear; red dhoti, green-and-gold sash, gold jewellery.",
   "sourceNotes": "The king is unnamed in Adi Parva 107-108; generic design. Reusable as any generic king.",
   "poses": [
     "folded-hands",
@@ -23,6 +23,10 @@
     "folded-hands": "folded-hands.svg",
     "seated-throne-pointing": "seated-throne-pointing.svg"
   },
-  "facing": "front",
-  "notes": "Throne is part of bg king-court."
+  "facing": "per pose, see facingByPose (ear rule)",
+  "notes": "Throne is part of bg king-court. Detailed rigged version filed 2026-11-08 (S01E01 full-cast rigs v2 + v3 redos). The SVGs carry joint groups with data-pivot/data-* attributes for an optional inline-SVG rig (cast-rig.js in the delivery): don't flatten groups or strip data-* when optimising. Previous flat versions: episodes/S01E01-*/review/svg-v1-characters/. Speech/effect anchors: HEAD/HAND in studio/src/components/Character.tsx.",
+  "facingByPose": {
+    "folded-hands": "right",
+    "seated-throne-pointing": "left"
+  }
 }

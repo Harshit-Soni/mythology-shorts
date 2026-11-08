@@ -1,0 +1,30 @@
+{
+  "id": "guard",
+  "name": {
+    "en": "Royal guard",
+    "hi": "सिपाही"
+  },
+  "role": "The king's guards who arrested and punished Mandavya",
+  "divine": false,
+  "appearsIn": [
+    "S01E01"
+  ],
+  "look": "Cream turban, dark armour vest, wrapped tan dhoti, red sash, spear.",
+  "sourceNotes": "Generic soldier design. Reusable across episodes.",
+  "poses": [
+    "dragging",
+    "pointing",
+    "pulling"
+  ],
+  "expressions": [
+    "angry",
+    "strain"
+  ],
+  "files": {
+    "dragging": "dragging.svg",
+    "pointing": "pointing.svg",
+    "pulling": "pulling.svg"
+  },
+  "facing": "left",
+  "notes": "Used twice per scene via flip. guard__dragging rope reaches x=1000 on purpose; extend it in the scene."
+}

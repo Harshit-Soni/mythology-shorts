@@ -48,7 +48,7 @@ export const OnScreenText: React.FC<Props> = ({ ost, lang, sec, dur, fps, chars,
     }
     case 'speech-bubble': {
       const who = chars.find((c) => c.id === ost.anchor) ?? chars[0];
-      const head = who ? framePoint(who, pointFor(HEAD, who)) : { x: 540, y: 700 };
+      const head = ost.at ? { x: ost.at[0] * 1080, y: ost.at[1] * 1920 } : who ? framePoint(who, pointFor(HEAD, who)) : { x: 540, y: 700 };
       const sp = spring({ frame: Math.max(0, sec - 0.1) * fps, fps, config: { damping: 14 } });
       if (sec > dur * 0.62) return null; // bubble only while the line is spoken
       const bw = 560;
@@ -72,11 +72,11 @@ export const OnScreenText: React.FC<Props> = ({ ost, lang, sec, dur, fps, chars,
       return (
         <>
           {ost.source && (
-            <div style={{ position: 'absolute', top: 230, width: 1080, textAlign: 'center', font: `600 38px ${serif}`, color: '#6B4A2A', opacity: interpolate(sec, [0, 0.5], [0, 1], clamp) }}>
+            <div style={{ position: 'absolute', top: 230, width: 1080, textAlign: 'center', font: `600 38px ${serif}`, color: ost.light ? COLORS.parchment : '#6B4A2A', textShadow: ost.light ? outline : undefined, opacity: interpolate(sec, [0, 0.5], [0, 1], clamp) }}>
               {ost.source[lang]}
             </div>
           )}
-          <div style={{ position: 'absolute', top: 640, left: 140, width: 800, textAlign: 'center', font: `700 ${lang === 'hi' ? 104 : 116}px ${serif}`, color: '#3A2416', lineHeight: 1.25 }}>
+          <div style={{ position: 'absolute', top: ost.y !== undefined ? ost.y * 1920 - 130 : 640, left: 140, width: 800, textAlign: 'center', font: `700 ${lang === 'hi' ? 104 : 116}px ${serif}`, color: ost.light ? COLORS.parchment : '#3A2416', textShadow: ost.light ? outline : undefined, lineHeight: 1.25 }}>
             {shown}
           </div>
         </>

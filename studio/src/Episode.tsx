@@ -2,6 +2,7 @@ import React, { useMemo } from 'react';
 import { AbsoluteFill, Audio, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import { Captions } from './components/Captions';
 import { SceneView } from './components/SceneView';
+import { Sound } from './components/Sound';
 import { EPISODES } from './generated/data';
 import { buildTimeline } from './lib/timing';
 import type { EpisodeProps } from './lib/types';
@@ -40,6 +41,7 @@ export const Episode: React.FC<EpisodeProps> = ({ episodeId, lang, debug }) => {
         <AbsoluteFill style={{ background: '#000', opacity: interpolate(frame, [durationInFrames - 14, durationInFrames - 1], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }) }} />
       )}
       {audio && <Audio src={staticFile(audio.file)} />}
+      <Sound spec={entry.spec} tl={tl} lang={lang} fps={fps} total={durationInFrames / fps} />
     </AbsoluteFill>
   );
 };

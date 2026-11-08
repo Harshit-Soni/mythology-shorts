@@ -1,13 +1,33 @@
 {
   "id": "mandavya",
-  "name": { "en": "Mandavya (Ani-Mandavya)", "hi": "माण्डव्य (अणि-माण्डव्य)" },
+  "name": {
+    "en": "Mandavya (Ani-Mandavya)",
+    "hi": "माण्डव्य (अणि-माण्डव्य)"
+  },
   "role": "Ascetic sage, wrongly impaled; cursed Dharma to be born as Vidura",
   "divine": false,
-  "appearsIn": ["S01E01"],
+  "appearsIn": [
+    "S01E01"
+  ],
   "look": "Lean ascetic, about 50; coiled matted jata in a top knot with loose strands; long beard with grey streaks; bare chest with sacred thread; ochre/saffron wrapped dhoti with front pleats; rudraksha beads; tripundra on forehead.",
   "sourceNotes": "Vow of silence, arms raised in austerity (Adi Parva 107). Appearance details beyond that are traditional ascetic iconography, a design choice.",
-  "poses": ["meditating-arms-raised", "standing-bound", "on-stake-silhouette", "standing-calm", "walking", "standing-confront", "cursing-hand-raised"],
-  "expressions": ["eyes-closed", "calm", "determined", "defiant", "furious"],
+  "poses": [
+    "meditating-arms-raised",
+    "standing-bound",
+    "standing-bound-left",
+    "on-stake-silhouette",
+    "standing-calm",
+    "walking",
+    "standing-confront",
+    "cursing-hand-raised"
+  ],
+  "expressions": [
+    "eyes-closed",
+    "calm",
+    "determined",
+    "defiant",
+    "furious"
+  ],
   "files": {
     "meditating-arms-raised": "meditating-arms-raised.svg",
     "standing-bound": "standing-bound.svg",
@@ -15,9 +35,24 @@
     "standing-calm": "standing-calm.svg",
     "walking": "walking.svg",
     "standing-confront": "standing-confront.svg",
-    "cursing-hand-raised": "cursing-hand-raised.svg"
+    "cursing-hand-raised": "cursing-hand-raised.svg",
+    "standing-bound-left": "standing-bound-left.svg"
   },
-  "facing": "right (meditating pose faces front)",
-  "palette": { "skin": "#B9814F", "garment": "#E07A2E", "hair": "#2A1E22" },
-  "notes": "on-stake-silhouette has only 'pole' and 'sage-silhouette' groups (no face). On the cosmic court use about scale 0.42 on the lower steps. Reference for young-mandavya: same brow and eye shape."
+  "facing": "per pose, see facingByPose (ear rule)",
+  "palette": {
+    "skin": "#B9814F",
+    "garment": "#E07A2E",
+    "hair": "#2A1E22"
+  },
+  "notes": "on-stake-silhouette has only 'pole' and 'sage-silhouette' groups (no face). On the cosmic court use about scale 0.42 on the lower steps. Reference for young-mandavya: same brow and eye shape. Detailed rigged version filed 2026-11-08 (S01E01 full-cast rigs v2 + v3 redos). The SVGs carry joint groups with data-pivot/data-* attributes for an optional inline-SVG rig (cast-rig.js in the delivery): don't flatten groups or strip data-* when optimising. Previous flat versions: episodes/S01E01-*/review/svg-v1-characters/. Speech/effect anchors: HEAD/HAND in studio/src/components/Character.tsx.",
+  "facingByPose": {
+    "meditating-arms-raised": "right",
+    "standing-bound": "right",
+    "standing-bound-left": "left (mirror of standing-bound, made by Claude for s05)",
+    "on-stake-silhouette": "right",
+    "standing-calm": "right",
+    "walking": "right",
+    "standing-confront": "right",
+    "cursing-hand-raised": "right"
+  }
 }

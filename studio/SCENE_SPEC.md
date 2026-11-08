@@ -8,6 +8,9 @@ Everything the renderer understands. If a storyboard needs something not listed 
   "sourceCredit": {"en": "", "hi": ""}, "safeZone": {"bottom": 0.2, "right": 0.12}, "scenes": [ ... ], "assets": { ... } }
 ```
 
+## Sound (episode level)
+`"sound": { "music": { "id", "volume": 0.32, "duckTo": 0.12, "fadeInSec", "fadeOutSec" }, "sfxVolume": 1 }`: one music bed from `assets/music/<id>.mp3`, looped if shorter than the episode. It dips to `duckTo` while the narrator speaks (merged word spans, 0.3 s ease) and fades out at the end. One sound plan serves both languages, because word cues fire per language.
+
 ## Scene
 | Field | Meaning |
 |---|---|
@@ -26,7 +29,9 @@ Everything the renderer understands. If a storyboard needs something not listed 
 | `cues[]` | `{ onWord: {en, hi}, do, target? }`: fires on the first narration word **containing** `onWord` (each language separately, so check that both words exist) |
 | `transition` | how this scene hands over to the next (below) |
 | `fixedDurationSec` | only for scenes with no narration that aren't insert shots (the series sting) |
-| `sfx`, `notes` | for the sound pass and humans; not rendered yet |
+| `sfx[]` | sound effects: `{ id, onWord?: {en, hi}, at?, offset?, volume? }`. Plays `assets/sfx/<id>.mp3` on the first narration word containing `onWord` (each language), else `at` seconds after the scene starts; `offset` nudges it. A plain string is a note until that file exists |
+| `music` | this scene's music level, 0–1+ (default 1), eased over 0.5 s across the cut (e.g. `0.15` for a silence beat, `1.3` for a climax swell) |
+| `notes` | for humans; not rendered |
 
 ## Character
 `{ id, pose, expression?, x, y, scale, flip, action, variant?, speaking? }`

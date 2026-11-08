@@ -20,6 +20,9 @@
   "files": {
     "standing-hands-clasped": "standing-hands-clasped.svg"
   },
-  "facing": "front",
-  "notes": "Recurs across S01 and beyond. Future poses: seated, advising, older ascetic (Ashramavasika 26)."
+  "facing": "per pose, see facingByPose (ear rule)",
+  "notes": "Recurs across S01 and beyond. Future poses: seated, advising, older ascetic (Ashramavasika 26). Detailed rigged version filed 2026-11-08 (S01E01 full-cast rigs v2 + v3 redos). The SVGs carry joint groups with data-pivot/data-* attributes for an optional inline-SVG rig (cast-rig.js in the delivery): don't flatten groups or strip data-* when optimising. Previous flat versions: episodes/S01E01-*/review/svg-v1-characters/. Speech/effect anchors: HEAD/HAND in studio/src/components/Character.tsx.",
+  "facingByPose": {
+    "standing-hands-clasped": "right"
+  }
 }

@@ -18,6 +18,15 @@ Lessons from making and publishing episodes. One line per lesson, with the episo
 - Concept PNG first for anything with no approved example (architecture, the signature border). Test overlays opaque at phone size over a real scene. (S01E01)
 - Name the architecture rule explicitly (classical ancient Indian: carved pillars, chaitya arches, nagara spires; no onion domes or pointed arches). (S01E01)
 - Silhouette vultures with scalloped wings read as bats: specify straight-edged wings with "finger" feathers. (S01E01 batch 3)
+- A redraw can quietly change a pose's facing (the detailed cast turned 6 front-facing poses to a side). Check facing in a zoomed crop of the **real scene still**, not just the asset sheet: that's how the s08 king facing away was caught. (S01E01 detailed cast)
+- Detailed redraws tend to soften expressions and shrink heads; ask again for "twice as strong" faces, and check them at frame size. (S01E01 detailed cast)
+
+## Illustrated images (Nano Banana 2.1 on Higgsfield)
+- Flat SVG sheets as references pull the output toward a flat cartoon. Make ink-wash character sheets first, then use those as references. (S01E01)
+- The model ignores "turn left" on sheets; mirror the sheet instead (free) when the design is symmetrical. (S01E01)
+- With a location sheet attached, it copies the sheet's whole composition (small characters, even its blank paper strip). Say "Image N is ONLY for the look of the place; do not copy its composition or camera angle" and describe the new framing explicitly. (S01E01 sh01, sh02)
+- To change a shot's composition, don't attach the old version as a reference: the model copies it almost unchanged (sh05b v2). Attach the old image only for small edits (e.g. "paint in the bottom strip", which worked for sh03). (S01E01)
+- Soul 2.0 takes one reference and replaces our style and faces: not usable for consistent illustrated shots. (S01E01)
 
 ## Storyboard & render
 - Characters float unless their `y` sits on the background's measured ground line: measure every new background (GROUND_LINES.md). (S01E01)

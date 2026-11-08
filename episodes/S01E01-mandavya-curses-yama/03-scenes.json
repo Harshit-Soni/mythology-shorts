@@ -48,11 +48,20 @@
       },
       "cues": [],
       "sfx": [
-        "drum-hit",
-        "stamp-thud"
+        {
+          "id": "drum-hit",
+          "at": 0,
+          "volume": 0.9
+        },
+        {
+          "id": "stamp-thud",
+          "at": 0.15,
+          "volume": 0.9
+        }
       ],
       "transition": "border-wipe",
-      "notes": "Series sting, reused in every S01 episode. Border closes in, stamp lands."
+      "notes": "Series sting, reused in every S01 episode. Border closes in, stamp lands.",
+      "music": 0.6
     },
     {
       "id": "s01",
@@ -105,8 +114,14 @@
         }
       ],
       "sfx": [
-        "low-drone",
-        "gong-soft"
+        {
+          "id": "gong-soft",
+          "onWord": {
+            "en": "trial",
+            "hi": "कटघरे"
+          },
+          "volume": 0.6
+        }
       ],
       "transition": "cut",
       "notes": "HOOK: must read in 2 s with no context. Halo glows. Scales tip on 'trial'."
@@ -144,10 +159,7 @@
         "style": "name-tag"
       },
       "cues": [],
-      "sfx": [
-        "birdsong-dawn",
-        "wind-soft"
-      ],
+      "sfx": [],
       "transition": "dissolve",
       "notes": "Introduce Mandavya. Show stillness. Title tag 'Sage Mandavya' / 'ऋषि माण्डव्य' small, top-left.",
       "backgroundVariant": "dawn"
@@ -211,10 +223,7 @@
       },
       "onScreenText": null,
       "cues": [],
-      "sfx": [
-        "footsteps-running",
-        "distant-shouts"
-      ],
+      "sfx": [],
       "transition": "cut",
       "notes": "Thieves run in from the left (facing right) and vanish behind the hut (hut = background front layer). Torch far left = pursuers.",
       "backgroundVariant": "dawn",
@@ -286,10 +295,7 @@
           "notes": "duck music for 0.4 s"
         }
       ],
-      "sfx": [
-        "guard-shout",
-        "wind-soft"
-      ],
+      "sfx": [],
       "transition": "cut",
       "notes": "Contrast: loud guard, motionless sage, single leaf falling.",
       "backgroundVariant": "dawn"
@@ -323,7 +329,7 @@
         },
         {
           "id": "mandavya",
-          "pose": "standing-bound",
+          "pose": "standing-bound-left",
           "expression": "eyes-closed",
           "x": 0.6,
           "y": 0.8,
@@ -377,8 +383,14 @@
         }
       ],
       "sfx": [
-        "coins-spill",
-        "chains-rattle"
+        {
+          "id": "coins-spill",
+          "onWord": {
+            "en": "loot",
+            "hi": "माल"
+          },
+          "volume": 0.7
+        }
       ],
       "transition": "cut",
       "notes": "Procession leaves to the left: rope from the lead guard trails back to the prisoners. Loot spills on the ground.",
@@ -426,9 +438,7 @@
           "target": "s06b"
         }
       ],
-      "sfx": [
-        "gavel-drum"
-      ],
+      "sfx": [],
       "transition": "cut",
       "notes": "On 'stake', hard cut to the s06b insert (red sky + stake silhouette)."
     },
@@ -459,10 +469,20 @@
       "onScreenText": null,
       "cues": [],
       "sfx": [
-        "wind-howl"
+        {
+          "id": "drum-boom-deep",
+          "at": 0,
+          "volume": 0.9
+        },
+        {
+          "id": "wind-desolate",
+          "at": 0,
+          "volume": 0.35
+        }
       ],
       "transition": "fade-to-night",
-      "notes": "Symbolic only: empty stake silhouette, no body, no gore. Lasts until end of beat 6 audio."
+      "notes": "Symbolic only: empty stake silhouette, no body, no gore. Lasts until end of beat 6 audio.",
+      "music": 0.7
     },
     {
       "id": "s07",
@@ -515,13 +535,19 @@
         }
       ],
       "sfx": [
-        "night-crickets",
-        "heartbeat",
-        "shimmer"
+        {
+          "id": "heartbeat",
+          "onWord": {
+            "en": "die",
+            "hi": "नहीं"
+          },
+          "volume": 0.8
+        }
       ],
       "transition": "cut",
       "notes": "Silhouette only, from a distance. Birds = the rishis who came at night (research #7). Eyes snap open, glowing.",
-      "backgroundVariant": "dusk"
+      "backgroundVariant": "dusk",
+      "music": 0.7
     },
     {
       "id": "s08",
@@ -556,7 +582,7 @@
           "x": 0.76,
           "y": 0.82,
           "scale": 0.95,
-          "flip": false,
+          "flip": true,
           "action": "bow"
         }
       ],
@@ -581,10 +607,7 @@
           "target": "guard"
         }
       ],
-      "sfx": [
-        "wood-creak",
-        "strain-grunt"
-      ],
+      "sfx": [],
       "transition": "dissolve",
       "notes": "Show Mandavya standing, forgiving (calm face). Stake shown only as the part the guard grips, not in the body.",
       "backgroundVariant": "dawn"
@@ -652,10 +675,7 @@
           "do": "reveal-throne"
         }
       ],
-      "sfx": [
-        "footsteps-stone-echo",
-        "choir-pad"
-      ],
+      "sfx": [],
       "transition": "light-wipe",
       "notes": "Steps glow as he climbs. The throne comes into view at the top on 'Dharma'."
     },
@@ -703,11 +723,10 @@
       },
       "onScreenText": null,
       "cues": [],
-      "sfx": [
-        "silence-then-hit"
-      ],
+      "sfx": [],
       "transition": "cut",
-      "notes": "Over-the-shoulder style: sage large in the foreground, god on the throne behind. Keep Dharma left of x=0.88 (safe zone)."
+      "notes": "Over-the-shoulder style: sage large in the foreground, god on the throne behind. Keep Dharma left of x=0.88 (safe zone).",
+      "music": 0.15
     },
     {
       "id": "s11",
@@ -729,15 +748,15 @@
       "props": [
         {
           "id": "grass-blade",
-          "x": 0.66,
-          "y": 0.7,
+          "x": 0.584,
+          "y": 0.695,
           "scale": 0.35,
           "action": "held"
         },
         {
           "id": "insect",
-          "x": 0.715,
-          "y": 0.765,
+          "x": 0.639,
+          "y": 0.76,
           "scale": 0.1,
           "action": "pierce"
         }
@@ -766,10 +785,7 @@
           "target": "insect"
         }
       ],
-      "sfx": [
-        "echo-voice-dharma",
-        "child-hum"
-      ],
+      "sfx": [],
       "transition": "memory-ripple",
       "notes": "Dharma's voice over a flashback. Gentle, not cruel: a curious child. Sepia + folk-art frame = 'memory' look, reused for every flashback in the series.",
       "overlay": "sepia-folk-frame"
@@ -794,8 +810,8 @@
       "props": [
         {
           "id": "grass-blade",
-          "x": 0.38,
-          "y": 0.735,
+          "x": 0.364,
+          "y": 0.721,
           "scale": 0.24,
           "action": "held"
         },
@@ -833,8 +849,14 @@
         }
       ],
       "sfx": [
-        "scale-clank",
-        "low-boom"
+        {
+          "id": "scale-clank-boom",
+          "onWord": {
+            "en": "this",
+            "hi": "सज़ा"
+          },
+          "volume": 0.8
+        }
       ],
       "transition": "cut",
       "notes": "Left panel: small boy and grass. Right panel: stake silhouette. The scales above crash down on the stake side."
@@ -897,12 +919,26 @@
         }
       ],
       "sfx": [
-        "thunder-crack",
-        "glass-crack",
-        "choir-stop"
+        {
+          "id": "thunder-crack",
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "volume": 0.9
+        },
+        {
+          "id": "glass-crack",
+          "onWord": {
+            "en": "human",
+            "hi": "मनुष्य"
+          },
+          "volume": 0.7
+        }
       ],
       "transition": "flash-white",
-      "notes": "Climax. Saffron burst from his hand; Dharma's halo cracks and dims."
+      "notes": "Climax. Saffron burst from his hand; Dharma's halo cracks and dims.",
+      "music": 1.3
     },
     {
       "id": "s14",
@@ -956,12 +992,20 @@
         }
       ],
       "sfx": [
-        "quill-scratch",
-        "stamp-thud"
+        {
+          "id": "stamp-thud",
+          "onWord": {
+            "en": "sin",
+            "hi": "नहीं"
+          },
+          "offset": 0.1,
+          "volume": 0.8
+        }
       ],
       "transition": "dissolve",
       "notes": "Text writes on like ink; the seal stamps at the end. Source tag small at the top (out of the bottom 20%).",
-      "overlay": "folk-art-border"
+      "overlay": "folk-art-border",
+      "music": 0.8
     },
     {
       "id": "s15",
@@ -1020,8 +1064,14 @@
         }
       ],
       "sfx": [
-        "descending-chime",
-        "palace-ambience"
+        {
+          "id": "shimmer-descend",
+          "onWord": {
+            "en": "Earth",
+            "hi": "धरती"
+          },
+          "volume": 0.5
+        }
       ],
       "transition": "light-wipe",
       "notes": "Camera starts in the sky, light falls, tilts down to the palace and Vidura. Payoff of the hook."
@@ -1084,9 +1134,19 @@
         }
       ],
       "sfx": [
-        "bowstring-creak",
-        "forest-birds",
-        "drum-hit"
+        {
+          "id": "bowstring-creak",
+          "at": 0.2,
+          "volume": 0.6
+        },
+        {
+          "id": "drum-hit",
+          "onWord": {
+            "en": "own",
+            "hi": "वाला"
+          },
+          "volume": 0.9
+        }
       ],
       "transition": "cut-to-black",
       "notes": "Tease for S01E02. Freeze before the arrow flies; 'शाप II / CURSED II' stamp lands. Pandu is drawn only as a mid-distance figure here; he gets the full puppet in E02.",
@@ -1243,5 +1303,15 @@
     "mandavya": "poses: meditating-arms-raised, standing-bound, on-stake-silhouette, standing-calm, walking, standing-confront, cursing-hand-raised",
     "split-frame": "layout background, not art: two panels divided by a folk-art strip",
     "pandu": "only a mid-distance figure needed now; full puppet in E02"
+  },
+  "sound": {
+    "music": {
+      "id": "mythic-drone",
+      "volume": 0.32,
+      "duckTo": 0.12,
+      "fadeInSec": 0.3,
+      "fadeOutSec": 1.5
+    },
+    "sfxVolume": 1
   }
 }

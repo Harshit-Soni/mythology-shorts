@@ -1,0 +1,1247 @@
+{
+  "id": "S01E01",
+  "title": {
+    "en": "The Sage Who Put Dharma on Trial",
+    "hi": "जब एक ऋषि ने धर्मराज को दी सज़ा"
+  },
+  "format": "short",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "sourceCredit": {
+    "en": "Mahabharata, Adi Parva",
+    "hi": "महाभारत, आदि पर्व"
+  },
+  "safeZone": {
+    "bottom": 0.2,
+    "right": 0.12
+  },
+  "scenes": [
+    {
+      "id": "s00",
+      "beat": 0,
+      "type": "title-card",
+      "background": "parchment-card",
+      "characters": [],
+      "props": [
+        {
+          "id": "shaap-stamp",
+          "x": 0.44,
+          "y": 0.42,
+          "scale": 1.2,
+          "action": "stamp-in"
+        }
+      ],
+      "overlay": "folk-art-border",
+      "camera": {
+        "move": "static"
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "fixedDurationSec": 1.0,
+      "onScreenText": {
+        "en": "CURSED",
+        "hi": "शाप",
+        "style": "stamp-gold"
+      },
+      "cues": [],
+      "sfx": [
+        "drum-hit",
+        "stamp-thud"
+      ],
+      "transition": "border-wipe",
+      "notes": "Series sting, reused in every S01 episode. Border closes in, stamp lands."
+    },
+    {
+      "id": "s01",
+      "beat": 1,
+      "type": "character",
+      "background": "cosmic-court",
+      "characters": [
+        {
+          "id": "dharma",
+          "pose": "seated-throne",
+          "expression": "stern",
+          "flip": false,
+          "action": "breathe",
+          "x": 0.5,
+          "y": 0.471,
+          "scale": 0.736
+        }
+      ],
+      "props": [
+        {
+          "id": "scales-of-justice",
+          "x": 0.5,
+          "y": 0.13,
+          "scale": 0.5,
+          "action": "sway"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.14,
+        "focus": [
+          0.5,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "The god who judges every soul… was once put on trial.",
+        "hi": "जो देवता हर आत्मा का न्याय करते हैं… एक दिन उन्हीं को कटघरे में खड़ा होना पड़ा।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "trial",
+            "hi": "कटघरे"
+          },
+          "do": "scales-tip",
+          "target": "scales-of-justice"
+        }
+      ],
+      "sfx": [
+        "low-drone",
+        "gong-soft"
+      ],
+      "transition": "cut",
+      "notes": "HOOK: must read in 2 s with no context. Halo glows. Scales tip on 'trial'."
+    },
+    {
+      "id": "s02",
+      "beat": 2,
+      "type": "character",
+      "background": "hermitage",
+      "characters": [
+        {
+          "id": "mandavya",
+          "pose": "meditating-arms-raised",
+          "expression": "eyes-closed",
+          "x": 0.27,
+          "y": 0.76,
+          "scale": 1.0,
+          "flip": false,
+          "action": "breathe"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-pan-up",
+        "from": 0.0,
+        "to": 0.06
+      },
+      "narration": {
+        "en": "Sage Mandavya had taken a vow of silence.",
+        "hi": "ऋषि माण्डव्य ने मौन व्रत ले रखा था।"
+      },
+      "onScreenText": {
+        "en": "Sage Mandavya",
+        "hi": "ऋषि माण्डव्य",
+        "style": "name-tag"
+      },
+      "cues": [],
+      "sfx": [
+        "birdsong-dawn",
+        "wind-soft"
+      ],
+      "transition": "dissolve",
+      "notes": "Introduce Mandavya. Show stillness. Title tag 'Sage Mandavya' / 'ऋषि माण्डव्य' small, top-left.",
+      "backgroundVariant": "dawn"
+    },
+    {
+      "id": "s03",
+      "beat": 3,
+      "type": "character",
+      "background": "hermitage",
+      "characters": [
+        {
+          "id": "mandavya",
+          "pose": "meditating-arms-raised",
+          "expression": "eyes-closed",
+          "x": 0.27,
+          "y": 0.76,
+          "scale": 0.85,
+          "flip": false,
+          "action": "breathe"
+        },
+        {
+          "id": "thief",
+          "pose": "running",
+          "expression": "scared",
+          "x": 0.8,
+          "y": 0.72,
+          "scale": 0.6,
+          "flip": true,
+          "action": "run-in-hide",
+          "variant": "a"
+        },
+        {
+          "id": "thief",
+          "pose": "running",
+          "expression": "scared",
+          "x": 0.9,
+          "y": 0.725,
+          "scale": 0.6,
+          "flip": true,
+          "action": "run-in-hide",
+          "variant": "b"
+        }
+      ],
+      "props": [
+        {
+          "id": "torch",
+          "x": 0.1,
+          "y": 0.6,
+          "scale": 0.22,
+          "action": "flicker-distant"
+        }
+      ],
+      "camera": {
+        "move": "pan-left",
+        "from": 0.0,
+        "to": -0.05
+      },
+      "narration": {
+        "en": "Thieves, fleeing the king's guards, hid in his hermitage.",
+        "hi": "राजा के सिपाहियों से भागते चोर, उनके आश्रम में आ छिपे।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        "footsteps-running",
+        "distant-shouts"
+      ],
+      "transition": "cut",
+      "notes": "Thieves run in from the left (facing right) and vanish behind the hut (hut = background front layer). Torch far left = pursuers.",
+      "backgroundVariant": "dawn",
+      "frontLayer": true
+    },
+    {
+      "id": "s04",
+      "beat": 4,
+      "type": "character",
+      "background": "hermitage",
+      "characters": [
+        {
+          "id": "guard",
+          "pose": "pointing",
+          "expression": "angry",
+          "x": 0.66,
+          "y": 0.8,
+          "scale": 1.0,
+          "flip": false,
+          "action": "shout",
+          "speaking": true
+        },
+        {
+          "id": "mandavya",
+          "pose": "meditating-arms-raised",
+          "expression": "eyes-closed",
+          "x": 0.27,
+          "y": 0.76,
+          "scale": 1.0,
+          "flip": false,
+          "action": "idle"
+        }
+      ],
+      "props": [
+        {
+          "id": "leaf",
+          "x": 0.3,
+          "y": 0.3,
+          "scale": 0.18,
+          "action": "fall"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.28,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "\"Which way did they go?\" He said nothing.",
+        "hi": "\"चोर किधर गए?\" ऋषि ने एक शब्द नहीं कहा।"
+      },
+      "onScreenText": {
+        "en": "Which way did they go?",
+        "hi": "चोर किधर गए?",
+        "style": "speech-bubble",
+        "anchor": "guard"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "nothing",
+            "hi": "नहीं"
+          },
+          "do": "silence-beat",
+          "notes": "duck music for 0.4 s"
+        }
+      ],
+      "sfx": [
+        "guard-shout",
+        "wind-soft"
+      ],
+      "transition": "cut",
+      "notes": "Contrast: loud guard, motionless sage, single leaf falling.",
+      "backgroundVariant": "dawn"
+    },
+    {
+      "id": "s05",
+      "beat": 5,
+      "type": "character",
+      "background": "hermitage",
+      "characters": [
+        {
+          "id": "guard",
+          "pose": "dragging",
+          "expression": "angry",
+          "x": 0.17,
+          "y": 0.8,
+          "scale": 0.85,
+          "flip": false,
+          "action": "walk-left"
+        },
+        {
+          "id": "thief",
+          "pose": "captured",
+          "expression": "scared",
+          "x": 0.4,
+          "y": 0.8,
+          "scale": 0.85,
+          "flip": false,
+          "action": "walk-left",
+          "variant": "a"
+        },
+        {
+          "id": "mandavya",
+          "pose": "standing-bound",
+          "expression": "eyes-closed",
+          "x": 0.6,
+          "y": 0.8,
+          "scale": 0.85,
+          "flip": false,
+          "action": "walk-left"
+        },
+        {
+          "id": "guard",
+          "pose": "pointing",
+          "expression": "angry",
+          "x": 0.82,
+          "y": 0.81,
+          "scale": 0.85,
+          "flip": false,
+          "action": "walk-left"
+        }
+      ],
+      "props": [
+        {
+          "id": "loot-sack",
+          "x": 0.52,
+          "y": 0.87,
+          "scale": 0.3,
+          "action": "spill"
+        },
+        {
+          "id": "coins",
+          "x": 0.6,
+          "y": 0.89,
+          "scale": 0.25,
+          "action": "scatter"
+        }
+      ],
+      "camera": {
+        "move": "shake-small-then-static"
+      },
+      "narration": {
+        "en": "The guards found the loot, and arrested him too.",
+        "hi": "सिपाहियों को चोरी का माल मिला, और चोरों के साथ ऋषि भी पकड़े गए।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "loot",
+            "hi": "माल"
+          },
+          "do": "spill",
+          "target": "loot-sack"
+        }
+      ],
+      "sfx": [
+        "coins-spill",
+        "chains-rattle"
+      ],
+      "transition": "cut",
+      "notes": "Procession leaves to the left: rope from the lead guard trails back to the prisoners. Loot spills on the ground.",
+      "backgroundVariant": "dawn"
+    },
+    {
+      "id": "s06",
+      "beat": 6,
+      "type": "character",
+      "background": "king-court",
+      "characters": [
+        {
+          "id": "king",
+          "pose": "seated-throne-pointing",
+          "expression": "angry",
+          "x": 0.5,
+          "y": 0.575,
+          "scale": 0.83,
+          "flip": false,
+          "action": "point"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "fast-zoom-in",
+        "from": 1.0,
+        "to": 1.15,
+        "focus": [
+          0.5,
+          0.42
+        ]
+      },
+      "narration": {
+        "en": "His sentence: death on a stake.",
+        "hi": "सज़ा मिली: शूल पर चढ़ाकर मृत्युदंड।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "stake",
+            "hi": "शूल"
+          },
+          "do": "hard-cut-to",
+          "target": "s06b"
+        }
+      ],
+      "sfx": [
+        "gavel-drum"
+      ],
+      "transition": "cut",
+      "notes": "On 'stake', hard cut to the s06b insert (red sky + stake silhouette)."
+    },
+    {
+      "id": "s06b",
+      "beat": 6,
+      "type": "prop-hero",
+      "background": "red-sky-plain",
+      "characters": [],
+      "props": [
+        {
+          "id": "stake",
+          "x": 0.5,
+          "y": 0.45,
+          "scale": 1.2,
+          "action": "silhouette"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.1,
+        "to": 1.0
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        "wind-howl"
+      ],
+      "transition": "fade-to-night",
+      "notes": "Symbolic only: empty stake silhouette, no body, no gore. Lasts until end of beat 6 audio."
+    },
+    {
+      "id": "s07",
+      "beat": 7,
+      "type": "character",
+      "background": "red-sky-plain",
+      "characters": [
+        {
+          "id": "mandavya",
+          "pose": "on-stake-silhouette",
+          "expression": "eyes-closed",
+          "x": 0.5,
+          "y": 0.8,
+          "scale": 1.15,
+          "flip": false,
+          "action": "still"
+        }
+      ],
+      "props": [
+        {
+          "id": "vultures",
+          "x": 0.5,
+          "y": 0.18,
+          "scale": 0.8,
+          "action": "circle"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.2,
+        "focus": [
+          0.44,
+          0.35
+        ]
+      },
+      "narration": {
+        "en": "But Mandavya… didn't die.",
+        "hi": "लेकिन माण्डव्य… मरे नहीं।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "die",
+            "hi": "नहीं"
+          },
+          "do": "eyes-open-glow",
+          "target": "mandavya"
+        }
+      ],
+      "sfx": [
+        "night-crickets",
+        "heartbeat",
+        "shimmer"
+      ],
+      "transition": "cut",
+      "notes": "Silhouette only, from a distance. Birds = the rishis who came at night (research #7). Eyes snap open, glowing.",
+      "backgroundVariant": "dusk"
+    },
+    {
+      "id": "s08",
+      "beat": 8,
+      "type": "character",
+      "background": "red-sky-plain",
+      "characters": [
+        {
+          "id": "guard",
+          "pose": "pulling",
+          "expression": "strain",
+          "x": 0.2,
+          "y": 0.82,
+          "scale": 0.95,
+          "flip": false,
+          "action": "pull-fail"
+        },
+        {
+          "id": "mandavya",
+          "pose": "standing-calm",
+          "expression": "calm",
+          "x": 0.47,
+          "y": 0.8,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe"
+        },
+        {
+          "id": "king",
+          "pose": "folded-hands",
+          "expression": "ashamed",
+          "x": 0.76,
+          "y": 0.82,
+          "scale": 0.95,
+          "flip": false,
+          "action": "bow"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-pan-right",
+        "from": 0.0,
+        "to": 0.04
+      },
+      "narration": {
+        "en": "The king begged forgiveness, but the stake wouldn't come out.",
+        "hi": "राजा ने हाथ जोड़कर क्षमा माँगी, पर शूल शरीर से निकला ही नहीं।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "wouldn't",
+            "hi": "निकला"
+          },
+          "do": "pull-fail",
+          "target": "guard"
+        }
+      ],
+      "sfx": [
+        "wood-creak",
+        "strain-grunt"
+      ],
+      "transition": "dissolve",
+      "notes": "Show Mandavya standing, forgiving (calm face). Stake shown only as the part the guard grips, not in the body.",
+      "backgroundVariant": "dawn"
+    },
+    {
+      "id": "s09",
+      "beat": 9,
+      "type": "character",
+      "background": "cosmic-court",
+      "characters": [
+        {
+          "id": "dharma",
+          "pose": "seated-throne",
+          "expression": "neutral",
+          "flip": false,
+          "action": "breathe",
+          "x": 0.5,
+          "y": 0.471,
+          "scale": 0.736
+        },
+        {
+          "id": "mandavya",
+          "pose": "walking",
+          "expression": "determined",
+          "x": 0.41,
+          "y": 0.82,
+          "scale": 0.672,
+          "flip": false,
+          "action": "walk-up-steps"
+        }
+      ],
+      "props": [
+        {
+          "id": "stake-tip-glint",
+          "x": 0.435,
+          "y": 0.69,
+          "scale": 0.35,
+          "action": "walk-up-steps"
+        }
+      ],
+      "camera": {
+        "move": "crane-up",
+        "from": 0.0,
+        "to": 0.1
+      },
+      "narration": {
+        "en": "Still carrying its tip, he marched to Dharma, the god of justice.",
+        "hi": "शूल की नोक शरीर में लिए, माण्डव्य पहुँचे न्याय के देवता, धर्म के पास।"
+      },
+      "onScreenText": {
+        "en": "Ani-Mandavya",
+        "hi": "अणि-माण्डव्य",
+        "style": "name-tag",
+        "sub": {
+          "en": "‘Mandavya of the stake-tip’",
+          "hi": "‘शूल की नोक वाले माण्डव्य’"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "Dharma",
+            "hi": "धर्म"
+          },
+          "do": "reveal-throne"
+        }
+      ],
+      "sfx": [
+        "footsteps-stone-echo",
+        "choir-pad"
+      ],
+      "transition": "light-wipe",
+      "notes": "Steps glow as he climbs. The throne comes into view at the top on 'Dharma'."
+    },
+    {
+      "id": "s10",
+      "beat": 10,
+      "type": "character",
+      "background": "cosmic-court",
+      "characters": [
+        {
+          "id": "dharma",
+          "pose": "seated-throne",
+          "expression": "neutral",
+          "flip": false,
+          "action": "breathe",
+          "x": 0.5,
+          "y": 0.471,
+          "scale": 0.736
+        },
+        {
+          "id": "mandavya",
+          "pose": "standing-confront",
+          "expression": "defiant",
+          "x": 0.27,
+          "y": 1.02,
+          "scale": 1.3,
+          "flip": false,
+          "action": "step-forward",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.5,
+          0.42
+        ]
+      },
+      "narration": {
+        "en": "\"What was my sin?\"",
+        "hi": "\"मेरा पाप क्या था?\""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        "silence-then-hit"
+      ],
+      "transition": "cut",
+      "notes": "Over-the-shoulder style: sage large in the foreground, god on the throne behind. Keep Dharma left of x=0.88 (safe zone)."
+    },
+    {
+      "id": "s11",
+      "beat": 11,
+      "type": "character",
+      "background": "flashback-meadow",
+      "characters": [
+        {
+          "id": "young-mandavya",
+          "pose": "crouching-playing",
+          "expression": "curious",
+          "x": 0.42,
+          "y": 0.78,
+          "scale": 1.0,
+          "flip": false,
+          "action": "poke"
+        }
+      ],
+      "props": [
+        {
+          "id": "grass-blade",
+          "x": 0.66,
+          "y": 0.7,
+          "scale": 0.35,
+          "action": "held"
+        },
+        {
+          "id": "insect",
+          "x": 0.715,
+          "y": 0.765,
+          "scale": 0.1,
+          "action": "pierce"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.25,
+        "focus": [
+          0.56,
+          0.66
+        ]
+      },
+      "narration": {
+        "en": "\"As a child, you pierced an insect with a blade of grass.\"",
+        "hi": "\"बचपन में आपने एक कीड़े को घास के तिनके से भेदा था।\""
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "pierced",
+            "hi": "भेदा"
+          },
+          "do": "pierce",
+          "target": "insect"
+        }
+      ],
+      "sfx": [
+        "echo-voice-dharma",
+        "child-hum"
+      ],
+      "transition": "memory-ripple",
+      "notes": "Dharma's voice over a flashback. Gentle, not cruel: a curious child. Sepia + folk-art frame = 'memory' look, reused for every flashback in the series.",
+      "overlay": "sepia-folk-frame"
+    },
+    {
+      "id": "s12",
+      "beat": 12,
+      "type": "character",
+      "background": "split-frame",
+      "characters": [
+        {
+          "id": "young-mandavya",
+          "pose": "crouching-playing",
+          "expression": "curious",
+          "x": 0.25,
+          "y": 0.78,
+          "scale": 0.7,
+          "flip": false,
+          "action": "idle"
+        }
+      ],
+      "props": [
+        {
+          "id": "grass-blade",
+          "x": 0.38,
+          "y": 0.735,
+          "scale": 0.24,
+          "action": "held"
+        },
+        {
+          "id": "stake",
+          "x": 0.73,
+          "y": 0.47,
+          "scale": 0.9,
+          "action": "silhouette"
+        },
+        {
+          "id": "scales-of-justice",
+          "x": 0.5,
+          "y": 0.2,
+          "scale": 0.45,
+          "action": "tip-violent"
+        }
+      ],
+      "camera": {
+        "move": "static"
+      },
+      "narration": {
+        "en": "For a child's mistake… this?",
+        "hi": "बचपन की एक भूल… और उसकी ये सज़ा?"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "this",
+            "hi": "सज़ा"
+          },
+          "do": "scales-tip-violent",
+          "target": "scales-of-justice"
+        }
+      ],
+      "sfx": [
+        "scale-clank",
+        "low-boom"
+      ],
+      "transition": "cut",
+      "notes": "Left panel: small boy and grass. Right panel: stake silhouette. The scales above crash down on the stake side."
+    },
+    {
+      "id": "s13",
+      "beat": 13,
+      "type": "character",
+      "background": "cosmic-court",
+      "characters": [
+        {
+          "id": "dharma",
+          "pose": "seated-throne",
+          "expression": "shocked",
+          "flip": false,
+          "action": "still",
+          "x": 0.5,
+          "y": 0.471,
+          "scale": 0.736
+        },
+        {
+          "id": "mandavya",
+          "pose": "cursing-hand-raised",
+          "expression": "furious",
+          "x": 0.27,
+          "y": 0.99,
+          "scale": 1.15,
+          "flip": false,
+          "action": "raise-hand",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "shake-then-zoom",
+        "from": 1.0,
+        "to": 1.08
+      },
+      "narration": {
+        "en": "Mandavya cursed the god: \"You will be born a human, a servant woman's son.\"",
+        "hi": "माण्डव्य ने देवता को शाप दिया: \"तुम मनुष्य बनकर जन्म लोगे, एक दासी के पुत्र के रूप में।\""
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "do": "light-burst-saffron",
+          "target": "mandavya"
+        },
+        {
+          "onWord": {
+            "en": "human",
+            "hi": "मनुष्य"
+          },
+          "do": "halo-crack-dim",
+          "target": "dharma"
+        }
+      ],
+      "sfx": [
+        "thunder-crack",
+        "glass-crack",
+        "choir-stop"
+      ],
+      "transition": "flash-white",
+      "notes": "Climax. Saffron burst from his hand; Dharma's halo cracks and dims."
+    },
+    {
+      "id": "s14",
+      "beat": 14,
+      "type": "text-reveal",
+      "background": "parchment-card",
+      "characters": [],
+      "props": [
+        {
+          "id": "seal-stamp",
+          "x": 0.44,
+          "y": 0.58,
+          "scale": 0.4,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05
+      },
+      "narration": {
+        "en": "And he set a new law: no child under fourteen can sin.",
+        "hi": "और एक नया नियम बना दिया: चौदह साल से कम उम्र के बच्चे का कोई काम पाप नहीं गिना जाएगा।"
+      },
+      "onScreenText": {
+        "en": "Under 14: no sin.",
+        "hi": "14 वर्ष से कम: कोई पाप नहीं",
+        "style": "law-inscription",
+        "source": {
+          "en": "Mahabharata, Adi Parva",
+          "hi": "महाभारत, आदि पर्व"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "fourteen",
+            "hi": "चौदह"
+          },
+          "do": "write-on",
+          "target": "text"
+        },
+        {
+          "onWord": {
+            "en": "sin",
+            "hi": "नहीं"
+          },
+          "do": "stamp-next",
+          "target": "seal-stamp"
+        }
+      ],
+      "sfx": [
+        "quill-scratch",
+        "stamp-thud"
+      ],
+      "transition": "dissolve",
+      "notes": "Text writes on like ink; the seal stamps at the end. Source tag small at the top (out of the bottom 20%).",
+      "overlay": "folk-art-border"
+    },
+    {
+      "id": "s15",
+      "beat": 15,
+      "type": "character",
+      "background": "hastinapura-palace",
+      "characters": [
+        {
+          "id": "vidura",
+          "pose": "standing-hands-clasped",
+          "expression": "calm",
+          "x": 0.5,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": false,
+          "action": "breathe"
+        }
+      ],
+      "props": [
+        {
+          "id": "falling-light",
+          "x": 0.5,
+          "y": 0.25,
+          "scale": 1.0,
+          "action": "descend"
+        }
+      ],
+      "camera": {
+        "move": "tilt-down",
+        "from": -0.15,
+        "to": 0.0
+      },
+      "narration": {
+        "en": "And so the god of justice was born on Earth… as Vidura.",
+        "hi": "और इस तरह न्याय के देवता धरती पर जन्मे… विदुर बनकर।"
+      },
+      "onScreenText": {
+        "en": "VIDURA",
+        "hi": "विदुर",
+        "style": "title-serif"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "Earth",
+            "hi": "धरती"
+          },
+          "do": "light-descend"
+        },
+        {
+          "onWord": {
+            "en": "Vidura",
+            "hi": "विदुर"
+          },
+          "do": "title-in"
+        }
+      ],
+      "sfx": [
+        "descending-chime",
+        "palace-ambience"
+      ],
+      "transition": "light-wipe",
+      "notes": "Camera starts in the sky, light falls, tilts down to the palace and Vidura. Payoff of the hook."
+    },
+    {
+      "id": "s16",
+      "beat": 16,
+      "type": "character",
+      "background": "forest-hunt",
+      "characters": [
+        {
+          "id": "pandu",
+          "pose": "drawing-bow",
+          "expression": "focused",
+          "x": 0.3,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": false,
+          "action": "draw-bow"
+        }
+      ],
+      "props": [
+        {
+          "id": "deer",
+          "x": 0.73,
+          "y": 0.8,
+          "scale": 0.6,
+          "action": "graze"
+        },
+        {
+          "id": "shaap-stamp",
+          "x": 0.5,
+          "y": 0.3,
+          "scale": 0.7,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.1
+      },
+      "narration": {
+        "en": "And soon, Vidura's brother Pandu would face a curse of his own.",
+        "hi": "और जल्द ही, विदुर के भाई पाण्डु पर भी एक शाप पड़ने वाला था।"
+      },
+      "onScreenText": {
+        "en": "CURSED II",
+        "hi": "शाप II",
+        "style": "stamp-gold"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "own",
+            "hi": "वाला"
+          },
+          "do": "stamp-next",
+          "target": "shaap-stamp"
+        }
+      ],
+      "sfx": [
+        "bowstring-creak",
+        "forest-birds",
+        "drum-hit"
+      ],
+      "transition": "cut-to-black",
+      "notes": "Tease for S01E02. Freeze before the arrow flies; 'शाप II / CURSED II' stamp lands. Pandu is drawn only as a mid-distance figure here; he gets the full puppet in E02.",
+      "overlay": "folk-art-border"
+    }
+  ],
+  "assets": {
+    "characters": [
+      {
+        "id": "dharma",
+        "status": "new"
+      },
+      {
+        "id": "mandavya",
+        "status": "new"
+      },
+      {
+        "id": "young-mandavya",
+        "status": "new"
+      },
+      {
+        "id": "king",
+        "status": "new"
+      },
+      {
+        "id": "guard",
+        "status": "new"
+      },
+      {
+        "id": "thief",
+        "status": "new"
+      },
+      {
+        "id": "vidura",
+        "status": "new"
+      },
+      {
+        "id": "pandu",
+        "status": "new"
+      }
+    ],
+    "backgrounds": [
+      {
+        "id": "cosmic-court",
+        "status": "new"
+      },
+      {
+        "id": "hermitage",
+        "status": "new"
+      },
+      {
+        "id": "king-court",
+        "status": "new"
+      },
+      {
+        "id": "red-sky-plain",
+        "status": "new"
+      },
+      {
+        "id": "flashback-meadow",
+        "status": "new"
+      },
+      {
+        "id": "split-frame",
+        "status": "new"
+      },
+      {
+        "id": "parchment-card",
+        "status": "new"
+      },
+      {
+        "id": "hastinapura-palace",
+        "status": "new"
+      },
+      {
+        "id": "forest-hunt",
+        "status": "new"
+      }
+    ],
+    "props": [
+      {
+        "id": "scales-of-justice",
+        "status": "new"
+      },
+      {
+        "id": "loot-sack",
+        "status": "new"
+      },
+      {
+        "id": "coins",
+        "status": "new"
+      },
+      {
+        "id": "torch",
+        "status": "new"
+      },
+      {
+        "id": "leaf",
+        "status": "new"
+      },
+      {
+        "id": "stake",
+        "status": "new"
+      },
+      {
+        "id": "vultures",
+        "status": "new"
+      },
+      {
+        "id": "stake-tip-glint",
+        "status": "new"
+      },
+      {
+        "id": "grass-blade",
+        "status": "new"
+      },
+      {
+        "id": "insect",
+        "status": "new"
+      },
+      {
+        "id": "seal-stamp",
+        "status": "new"
+      },
+      {
+        "id": "falling-light",
+        "status": "new"
+      },
+      {
+        "id": "deer",
+        "status": "new"
+      }
+    ],
+    "overlays": [
+      {
+        "id": "folk-art-border",
+        "status": "new"
+      },
+      {
+        "id": "sepia-folk-frame",
+        "status": "new"
+      },
+      {
+        "id": "shaap-stamp",
+        "status": "new"
+      }
+    ]
+  },
+  "assetNotes": {
+    "hermitage": "variants: dawn, night",
+    "red-sky-plain": "variants: default (red), night, dawn",
+    "guard": "one puppet, used twice with flip",
+    "thief": "one puppet, variants a/b = different cloth colours",
+    "mandavya": "poses: meditating-arms-raised, standing-bound, on-stake-silhouette, standing-calm, walking, standing-confront, cursing-hand-raised",
+    "split-frame": "layout background, not art: two panels divided by a folk-art strip",
+    "pandu": "only a mid-distance figure needed now; full puppet in E02"
+  }
+}

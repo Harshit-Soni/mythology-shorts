@@ -1,0 +1,28 @@
+{
+  "id": "king",
+  "name": {
+    "en": "The king",
+    "hi": "राजा"
+  },
+  "role": "Unnamed king who sentenced Mandavya, later begged forgiveness",
+  "divine": false,
+  "appearsIn": [
+    "S01E01"
+  ],
+  "look": "Gold crown, thick moustache and beard, red and green garments, gold jewellery.",
+  "sourceNotes": "The king is unnamed in Adi Parva 107-108; generic design. Reusable as any generic king.",
+  "poses": [
+    "folded-hands",
+    "seated-throne-pointing"
+  ],
+  "expressions": [
+    "angry",
+    "ashamed"
+  ],
+  "files": {
+    "folded-hands": "folded-hands.svg",
+    "seated-throne-pointing": "seated-throne-pointing.svg"
+  },
+  "facing": "front",
+  "notes": "Throne is part of bg king-court."
+}

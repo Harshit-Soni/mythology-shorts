@@ -1,0 +1,23 @@
+{
+  "id": "mandavya",
+  "name": { "en": "Mandavya (Ani-Mandavya)", "hi": "माण्डव्य (अणि-माण्डव्य)" },
+  "role": "Ascetic sage, wrongly impaled; cursed Dharma to be born as Vidura",
+  "divine": false,
+  "appearsIn": ["S01E01"],
+  "look": "Lean ascetic, about 50; coiled matted jata in a top knot with loose strands; long beard with grey streaks; bare chest with sacred thread; ochre/saffron wrapped dhoti with front pleats; rudraksha beads; tripundra on forehead.",
+  "sourceNotes": "Vow of silence, arms raised in austerity (Adi Parva 107). Appearance details beyond that are traditional ascetic iconography, a design choice.",
+  "poses": ["meditating-arms-raised", "standing-bound", "on-stake-silhouette", "standing-calm", "walking", "standing-confront", "cursing-hand-raised"],
+  "expressions": ["eyes-closed", "calm", "determined", "defiant", "furious"],
+  "files": {
+    "meditating-arms-raised": "meditating-arms-raised.svg",
+    "standing-bound": "standing-bound.svg",
+    "on-stake-silhouette": "on-stake-silhouette.svg",
+    "standing-calm": "standing-calm.svg",
+    "walking": "walking.svg",
+    "standing-confront": "standing-confront.svg",
+    "cursing-hand-raised": "cursing-hand-raised.svg"
+  },
+  "facing": "right (meditating pose faces front)",
+  "palette": { "skin": "#B9814F", "garment": "#E07A2E", "hair": "#2A1E22" },
+  "notes": "on-stake-silhouette has only 'pole' and 'sage-silhouette' groups (no face). On the cosmic court use about scale 0.42 on the lower steps. Reference for young-mandavya: same brow and eye shape."
+}

@@ -87,6 +87,8 @@ npm run studio                            live preview in the browser (Remotion 
 - **Missing assets** render as labelled placeholders in previews, so an episode can be checked before every asset exists.
 - **Characters** stand at `x`,`y` (where their feet are, as a fraction of the frame); `scale: 1` draws the 1600-tall canvas 1000 px tall. `speaking: true` moves the mouth during quoted lines.
 
+**Illustrated version** (painted stills, `illustrated/03-shots.json`): add `--variant illustrated`, e.g. `npm run render -- S01E01 en --variant illustrated --final` → `render/S01E01-illustrated-en.mp4`. It uses the same voice, beats and captions as the cut-out version. Each shot's `image` is shown cover-fit with its `camera` move, ambient `fx` (dust, embers, sparks, stars, rays, glow, fog, flicker, leaf, birds), word `cues` (`burst`, `shake`, `dim`, `write-on`, `title-in`, `stamp-next`), `onScreenText` and `overlay`. A shot with `at` starts on that word of its beat; `kind: "scene"` reuses a cut-out scene (the sting); `kind: "split"` shows two shots' images side by side; `baseScale` zooms in to crop a painted border.
+
 **GATE:** Watch both versions all the way through on your phone with the sound **on** and then **off**. Captions alone should carry the story.
 
 ## Stage 7: Publish

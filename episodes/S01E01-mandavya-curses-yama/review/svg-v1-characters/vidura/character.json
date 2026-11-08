@@ -1,0 +1,25 @@
+{
+  "id": "vidura",
+  "name": {
+    "en": "Vidura",
+    "hi": "विदुर"
+  },
+  "role": "Dharma born on earth (Adi Parva 106); minister of the Kurus",
+  "divine": false,
+  "appearsIn": [
+    "S01E01"
+  ],
+  "look": "About 35; plain cream garments with thin gold trim, no crown; short neat beard; sandalwood tilak; serene.",
+  "sourceNotes": "Minister, not king (born to a maid, Adi 106). Visual details are design choices.",
+  "poses": [
+    "standing-hands-clasped"
+  ],
+  "expressions": [
+    "calm"
+  ],
+  "files": {
+    "standing-hands-clasped": "standing-hands-clasped.svg"
+  },
+  "facing": "front",
+  "notes": "Recurs across S01 and beyond. Future poses: seated, advising, older ascetic (Ashramavasika 26)."
+}

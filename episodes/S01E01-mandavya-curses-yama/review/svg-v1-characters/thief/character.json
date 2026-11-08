@@ -1,0 +1,28 @@
+{
+  "id": "thief",
+  "name": {
+    "en": "Thief",
+    "hi": "चोर"
+  },
+  "role": "Robbers who hid in Mandavya's hermitage",
+  "divine": false,
+  "appearsIn": [
+    "S01E01"
+  ],
+  "look": "Lean, flat-tied head cloth, rough grey-brown wrapped dhoti.",
+  "sourceNotes": "Generic design. Variant b = recolour in code.",
+  "poses": [
+    "captured",
+    "running"
+  ],
+  "expressions": [
+    "scared",
+    "defeated"
+  ],
+  "files": {
+    "captured": "captured.svg",
+    "running": "running.svg"
+  },
+  "facing": "left (running pose: head mirrored on 2026-11-07 to face the direction of travel; original in episodes/S01E01-*/review/facing-originals/)",
+  "notes": "Second colourway is made in code."
+}

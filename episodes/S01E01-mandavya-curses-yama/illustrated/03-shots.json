@@ -1,6 +1,6 @@
 {
   "episode": "S01E01",
-  "about": "Shot list for the image-based versions. 'illustrated' = one still per shot + camera move + code motion effects. 'live' = the same stills animated into short clips (Higgsfield), falling back to the still where no clip exists. Both use the same voice tracks and captions as the cut-out version. Images: images/<shot>.png|jpg, clips: clips/<shot>.mp4 (run `npm run shots:import`). Prompts: 04-image-brief.md (generated from this file by `npm run shots:brief`).",
+  "about": "Shot list for the illustrated version: one painted image per shot (images/shots/), camera moves and code motion effects, same voice tracks and captions as the cut-out version. 'image' is the approved file. Render: cd studio && npm run render -- S01E01 en --variant illustrated",
   "style": "Vertical 9:16 hand-drawn graphic-novel illustration: expressive black brush-ink linework with dry-brush hatching, coloured with loose watercolour and ink washes on textured cold-press paper. Visible paper grain, wet-in-wet blooms, granulation, soft bleeding edges, ink splatters and drips; generous areas of bare paper white. A limited palette of two or three colours chosen for the mood of the moment. Light is painted as bare paper white with a warm yellow wash and small sparks around the source. Characters are semi-stylised with very readable, exaggerated expressions; skin is one flat wash plus one shadow wash. Ancient India, classical Indian architecture only. Dignified and epic. Hand-painted look: no 3D render, no glossy cel shading, no smooth digital gradients, no text, letters, watermark or border. Keep the bottom 20% of the frame free of faces and key detail.",
   "characters": {
     "mandavya": "Sage Mandavya: lean ascetic of about 50, sun-browned skin, coiled matted grey-black hair (jata) in a top knot with loose strands, long beard with grey streaks, bare chest with a sacred thread, ochre-saffron dhoti wrapped with front pleats, rudraksha beads, three horizontal ash lines (tripundra) on the forehead, calm intense eyes.",
@@ -53,7 +53,8 @@
           "n": 40
         }
       ],
-      "transition": "cut"
+      "transition": "cut",
+      "image": "images/shots/sh01-v2.png"
     },
     {
       "id": "sh01b",
@@ -89,7 +90,8 @@
           "n": 25
         }
       ],
-      "transition": "dissolve"
+      "transition": "dissolve",
+      "image": "images/shots/sh01b-v1.png"
     },
     {
       "id": "sh02",
@@ -129,7 +131,8 @@
           "hi": "मौन व्रत"
         }
       },
-      "transition": "dissolve"
+      "transition": "dissolve",
+      "image": "images/shots/sh02-v2.png"
     },
     {
       "id": "sh03",
@@ -159,7 +162,8 @@
           "type": "flicker"
         }
       ],
-      "transition": "cut"
+      "transition": "cut",
+      "image": "images/shots/sh03-v2.png"
     },
     {
       "id": "sh03b",
@@ -188,7 +192,8 @@
           "n": 20
         }
       ],
-      "transition": "cut"
+      "transition": "cut",
+      "image": "images/shots/sh03b-v1.png"
     },
     {
       "id": "sh04",
@@ -222,11 +227,12 @@
         "hi": "चोर किधर गए?",
         "style": "speech-bubble",
         "at": [
-          0.3,
-          0.33
+          0.32,
+          0.29
         ]
       },
-      "transition": "cut"
+      "transition": "cut",
+      "image": "images/shots/sh04-v1.png"
     },
     {
       "id": "sh05",
@@ -249,7 +255,8 @@
           "color": "#FFD27A"
         }
       ],
-      "transition": "cut"
+      "transition": "cut",
+      "image": "images/shots/sh05-v1.png"
     },
     {
       "id": "sh05b",
@@ -279,7 +286,8 @@
           "n": 15
         }
       ],
-      "transition": "cut"
+      "transition": "cut",
+      "image": "images/shots/sh05b-v3.png"
     },
     {
       "id": "sh06",
@@ -304,7 +312,8 @@
           "n": 20
         }
       ],
-      "transition": "cut"
+      "transition": "cut",
+      "image": "images/shots/sh06-v1.png"
     },
     {
       "id": "sh06b",
@@ -330,7 +339,8 @@
           "color": "#8E2A20"
         }
       ],
-      "transition": "fade-to-night"
+      "transition": "fade-to-night",
+      "image": "images/shots/sh06b-v1.png"
     },
     {
       "id": "sh07",
@@ -362,7 +372,8 @@
           "n": 3
         }
       ],
-      "transition": "cut"
+      "transition": "cut",
+      "image": "images/shots/sh07-v1.png"
     },
     {
       "id": "sh07b",
@@ -377,7 +388,7 @@
       "prompt": "Extreme close-up of Sage Mandavya's face at night, lit by cold moonlight, eyes wide open and glowing faintly gold, utterly calm and alive. Matted hair and beard, ash marks on the forehead. Eyes at about 40% height.",
       "motion": "His eyes snap open and glow gold; a faint gold aura breathes around him; hair strands stir. Very slow push-in.",
       "camera": {
-        "move": "push-in-fast",
+        "move": "slow-zoom-in",
         "from": 1.0,
         "to": 1.08,
         "focus": [
@@ -395,7 +406,8 @@
           "pulse": true
         }
       ],
-      "transition": "cut"
+      "transition": "cut",
+      "image": "images/shots/sh07b-v1.png"
     },
     {
       "id": "sh08",
@@ -420,7 +432,8 @@
           "n": 15
         }
       ],
-      "transition": "cut"
+      "transition": "cut",
+      "image": "images/shots/sh08-v2.png"
     },
     {
       "id": "sh08b",
@@ -452,7 +465,8 @@
           "do": "shake"
         }
       ],
-      "transition": "dissolve"
+      "transition": "dissolve",
+      "image": "images/shots/sh08b-v2.png"
     },
     {
       "id": "sh09",
@@ -487,7 +501,8 @@
           "hi": "शूल की नोक वाले माण्डव्य"
         }
       },
-      "transition": "cut"
+      "transition": "cut",
+      "image": "images/shots/sh09-v1.png"
     },
     {
       "id": "sh09b",
@@ -523,7 +538,8 @@
           "n": 30
         }
       ],
-      "transition": "cut"
+      "transition": "cut",
+      "image": "images/shots/sh09b-v1.png"
     },
     {
       "id": "sh10",
@@ -551,7 +567,8 @@
           "color": "#E8B53A"
         }
       ],
-      "transition": "cut"
+      "transition": "cut",
+      "image": "images/shots/sh10-v1.png"
     },
     {
       "id": "sh11",
@@ -578,7 +595,8 @@
         }
       ],
       "overlay": "sepia-folk-frame",
-      "transition": "dissolve"
+      "transition": "dissolve",
+      "image": "images/shots/sh11-v1.png"
     },
     {
       "id": "sh12",
@@ -591,7 +609,16 @@
       "camera": {
         "move": "static"
       },
-      "transition": "cut"
+      "transition": "cut",
+      "cues": [
+        {
+          "onWord": {
+            "en": "this?",
+            "hi": "सज़ा?"
+          },
+          "do": "shake"
+        }
+      ]
     },
     {
       "id": "sh13",
@@ -627,7 +654,8 @@
           "y": 0.3
         }
       ],
-      "transition": "cut"
+      "transition": "cut",
+      "image": "images/shots/sh13-v1.png"
     },
     {
       "id": "sh13b",
@@ -665,7 +693,8 @@
           "do": "dim"
         }
       ],
-      "transition": "flash-white"
+      "transition": "flash-white",
+      "image": "images/shots/sh13b-v2.png"
     },
     {
       "id": "sh14",
@@ -699,7 +728,9 @@
         "source": {
           "en": "Mahabharata, Adi Parva",
           "hi": "महाभारत, आदि पर्व"
-        }
+        },
+        "y": 0.5,
+        "light": true
       },
       "cues": [
         {
@@ -710,7 +741,9 @@
           "do": "write-on"
         }
       ],
-      "transition": "dissolve"
+      "transition": "dissolve",
+      "image": "images/shots/sh14-v1.png",
+      "baseScale": 1.1
     },
     {
       "id": "sh15",
@@ -734,7 +767,8 @@
           "n": 30
         }
       ],
-      "transition": "cut"
+      "transition": "cut",
+      "image": "images/shots/sh15-v2.png"
     },
     {
       "id": "sh15b",
@@ -784,7 +818,8 @@
           "do": "title-in"
         }
       ],
-      "transition": "light-wipe"
+      "transition": "light-wipe",
+      "image": "images/shots/sh15b-v2.png"
     },
     {
       "id": "sh16",
@@ -824,7 +859,8 @@
           "do": "stamp-next"
         }
       ],
-      "transition": "cut-to-black"
+      "transition": "cut-to-black",
+      "image": "images/shots/sh16-v1.png"
     }
   ],
   "styleRef": "styles/ink-wash-graphic-novel.md"

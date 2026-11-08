@@ -24,15 +24,24 @@ export function resolvePose(ref: CharRef): { key: string; info: PoseInfo } | nul
 
 // Approximate head and hand points in canvas units, for bubbles and effects.
 export const HEAD: Record<string, [number, number]> = {
-  'dharma:seated-throne': [500, 640],
-  'mandavya:on-stake-silhouette': [500, 560],
-  'mandavya:meditating-arms-raised': [500, 760],
-  'young-mandavya:crouching-playing': [500, 1020],
-  'king:seated-throne-pointing': [480, 740],
-  default: [500, 330],
+  // Detailed cast (2026-11-08): face centres from the delivery's placement-anchors.json.
+  'dharma:seated-throne': [504, 654], // halo centre (the halo crack is drawn around it)
+  'mandavya:on-stake-silhouette': [495, 275],
+  'mandavya:meditating-arms-raised': [526, 796],
+  'mandavya:walking': [562, 312],
+  'mandavya:standing-bound-left': [474, 311],
+  'mandavya:cursing-hand-raised': [557, 314],
+  'young-mandavya:crouching-playing': [517, 986],
+  'king:seated-throne-pointing': [470, 796],
+  'king:folded-hands': [544, 323],
+  'guard:pulling': [537, 311],
+  'thief:running': [335, 351],
+  'thief:captured': [456, 323],
+  'pandu:drawing-bow': [493, 495],
+  default: [500, 312],
 };
 export const HAND: Record<string, [number, number]> = {
-  'mandavya:cursing-hand-raised': [880, 470],
+  'mandavya:cursing-hand-raised': [830, 492], // cursePalm
 };
 export const pointFor = (table: Record<string, [number, number]>, ref: CharRef) =>
   table[`${ref.id}:${ref.pose}`] ?? table.default ?? HEAD.default;

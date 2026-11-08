@@ -1,0 +1,25 @@
+{
+  "id": "young-mandavya",
+  "name": {
+    "en": "Young Mandavya",
+    "hi": "बालक माण्डव्य"
+  },
+  "role": "Mandavya as a boy of about 7 (flashback)",
+  "divine": false,
+  "appearsIn": [
+    "S01E01"
+  ],
+  "look": "Same brow and eye shape as adult Mandavya; short-cropped hair with a shikha; ochre wrapped dhoti; bare-chested; curious and innocent.",
+  "sourceNotes": "Childhood act from Adi Parva 108 (an insect pierced with a blade of grass). Age and look are design choices; the epic gives no age.",
+  "poses": [
+    "crouching-playing"
+  ],
+  "expressions": [
+    "curious"
+  ],
+  "files": {
+    "crouching-playing": "crouching-playing.svg"
+  },
+  "facing": "right (pinching hand toward the viewer's right)",
+  "notes": "Grass blade and insect are separate props."
+}

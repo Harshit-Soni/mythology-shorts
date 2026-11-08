@@ -38,6 +38,9 @@ assets/illustrated/
 |---|---|---|---|---|
 | mandavya | character | sheet.png | S01E01 (2026-11-07) | S01E01 |
 | dharma | character | sheet.png, sheet-facing-left.png | S01E01 (2026-11-07) | S01E01 |
+| king | character | sheet.png | S01E01 (2026-11-08) | S01E01 |
+| guard | character | sheet.png | S01E01 (2026-11-08) | S01E01 |
+| thief | character | sheet.png (two thieves) | S01E01 (2026-11-08) | S01E01 |
 | cosmic-court | location | sheet.png | S01E01 (2026-11-07) | S01E01 |
 | hermitage | location | sheet.png | S01E01 (2026-11-07) | S01E01 |
 | stake-hill | location | sheet.png | S01E01 (2026-11-07) | S01E01 |

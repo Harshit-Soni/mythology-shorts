@@ -53,7 +53,7 @@ const isHidden = (svg, id) =>
   new RegExp(`<g\\b[^>]*\\bid="${id}"[^>]*display\\s*:\\s*none`).test(svg);
 const hasGroup = (svg, id) => new RegExp(`<g\\b[^>]*\\bid="${id}"`).test(svg);
 
-const manifest = { characters: {}, backgrounds: {}, props: {}, overlays: {} };
+const manifest = { characters: {}, backgrounds: {}, props: {}, overlays: {}, sfx: {}, music: {} };
 
 // ---- characters ----
 const charRoot = path.join(ROOT, 'assets', 'characters');
@@ -120,6 +120,20 @@ for (const kind of ['backgrounds', 'props', 'overlays']) {
   }
 }
 
+// ---- sound library: sound effects and music beds ----
+for (const kind of ['sfx', 'music']) {
+  const dir = path.join(ROOT, 'assets', kind);
+  if (!fs.existsSync(dir)) continue;
+  const outDir = path.join(OUT_ASSETS, kind);
+  mkdir(outDir);
+  for (const f of fs.readdirSync(dir)) {
+    if (!/\.(mp3|wav)$/.test(f)) continue;
+    const out = path.join(outDir, f);
+    fs.copyFileSync(path.join(dir, f), out);
+    manifest[kind][f.replace(/\.(mp3|wav)$/, '')] = { file: rel(out), w: null, h: null };
+  }
+}
+
 // ---- episodes ----
 const episodes = {};
 const epRoot = path.join(ROOT, 'episodes');
@@ -139,7 +153,23 @@ for (const d of fs.readdirSync(epRoot)) {
       audio[lang] = { file: `episodes/${spec.id}/${lang}.mp3`, timestamps: JSON.parse(fs.readFileSync(ts, 'utf8')) };
     }
   }
-  episodes[spec.id] = { folder: d, spec, audio };
+  // illustrated version: copy each shot's approved image
+  let shots;
+  const shotsPath = path.join(epRoot, d, 'illustrated', '03-shots.json');
+  if (fs.existsSync(shotsPath)) {
+    shots = JSON.parse(fs.readFileSync(shotsPath, 'utf8'));
+    const outDir = path.join(OUT_EPISODES, spec.id, 'shots');
+    mkdir(outDir);
+    for (const sh of shots.shots) {
+      if (!sh.image) continue;
+      const src = path.join(epRoot, d, 'illustrated', sh.image);
+      if (!fs.existsSync(src)) { console.warn(`prepare: ${sh.id} image not found: ${sh.image}`); continue; }
+      const out = path.join(outDir, `${sh.id}${path.extname(src)}`);
+      fs.copyFileSync(src, out);
+      sh.file = rel(out);
+    }
+  }
+  episodes[spec.id] = { folder: d, spec, audio, ...(shots ? { shots } : {}) };
 }
 
 fs.writeFileSync(

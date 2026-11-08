@@ -9,7 +9,7 @@
   "appearsIn": [
     "S01E01"
   ],
-  "look": "Cream turban, dark armour vest, wrapped tan dhoti, red sash, spear.",
+  "look": "Cream turban, dark blue vest, wrapped tan dhoti, trimmed moustache, spear.",
   "sourceNotes": "Generic soldier design. Reusable across episodes.",
   "poses": [
     "dragging",
@@ -25,6 +25,11 @@
     "pointing": "pointing.svg",
     "pulling": "pulling.svg"
   },
-  "facing": "left",
-  "notes": "Used twice per scene via flip. guard__dragging rope reaches x=1000 on purpose; extend it in the scene."
+  "facing": "per pose, see facingByPose (ear rule)",
+  "notes": "Used twice per scene via flip. guard__dragging rope reaches x=1000 on purpose; extend it in the scene. Detailed rigged version filed 2026-11-08 (S01E01 full-cast rigs v2 + v3 redos). The SVGs carry joint groups with data-pivot/data-* attributes for an optional inline-SVG rig (cast-rig.js in the delivery): don't flatten groups or strip data-* when optimising. Previous flat versions: episodes/S01E01-*/review/svg-v1-characters/. Speech/effect anchors: HEAD/HAND in studio/src/components/Character.tsx.",
+  "facingByPose": {
+    "dragging": "left",
+    "pointing": "left",
+    "pulling": "left"
+  }
 }
