@@ -10,6 +10,7 @@ Bilingual (English + Hindi) YouTube Shorts / Instagram Reels telling lesser-know
 - `episodes/<ID>-<slug>/`: one folder per episode, files numbered by stage. `episodes/INDEX.md` tracks status.
 - `templates/episode/`: the files each new episode starts from.
 - `assets/`: the reusable library of characters (SVG puppets, see `assets/characters/SPEC.md`), backgrounds, props and overlays.
+- `assets/illustrated/`: the illustrated library of ink-wash character and location reference sheets (for image-based versions; same IDs as the SVG library). See its `README.md`; style in `styles/ink-wash-graphic-novel.md`.
 - `studio/`: the Remotion renderer (Stage 6). `npm run render -- <ID> <en|hi>`; see PIPELINE.md → Stage 6. Node comes from Homebrew (`/opt/homebrew/bin`).
 
 ## Rules

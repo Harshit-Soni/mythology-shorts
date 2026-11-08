@@ -21,3 +21,6 @@ asset outputs/
 # Secrets never go in the repo (ElevenLabs key is read from the shell environment)
 .env
 .env.*
+
+# Third-party style references (screenshots of other creators work): kept local, never published
+references/

@@ -1,0 +1,831 @@
+{
+  "episode": "S01E01",
+  "about": "Shot list for the image-based versions. 'illustrated' = one still per shot + camera move + code motion effects. 'live' = the same stills animated into short clips (Higgsfield), falling back to the still where no clip exists. Both use the same voice tracks and captions as the cut-out version. Images: images/<shot>.png|jpg, clips: clips/<shot>.mp4 (run `npm run shots:import`). Prompts: 04-image-brief.md (generated from this file by `npm run shots:brief`).",
+  "style": "Vertical 9:16 hand-drawn graphic-novel illustration: expressive black brush-ink linework with dry-brush hatching, coloured with loose watercolour and ink washes on textured cold-press paper. Visible paper grain, wet-in-wet blooms, granulation, soft bleeding edges, ink splatters and drips; generous areas of bare paper white. A limited palette of two or three colours chosen for the mood of the moment. Light is painted as bare paper white with a warm yellow wash and small sparks around the source. Characters are semi-stylised with very readable, exaggerated expressions; skin is one flat wash plus one shadow wash. Ancient India, classical Indian architecture only. Dignified and epic. Hand-painted look: no 3D render, no glossy cel shading, no smooth digital gradients, no text, letters, watermark or border. Keep the bottom 20% of the frame free of faces and key detail.",
+  "characters": {
+    "mandavya": "Sage Mandavya: lean ascetic of about 50, sun-browned skin, coiled matted grey-black hair (jata) in a top knot with loose strands, long beard with grey streaks, bare chest with a sacred thread, ochre-saffron dhoti wrapped with front pleats, rudraksha beads, three horizontal ash lines (tripundra) on the forehead, calm intense eyes.",
+    "young-mandavya": "Mandavya as a boy of about 7: same brow and big eyes as the adult, short-cropped hair with a small shikha tuft, bare-chested, small ochre wrapped dhoti, curious and innocent.",
+    "dharma": "Dharma, god of justice: regal, calm, middle-aged, warm golden-brown skin, white and cream garments with gold borders, tall gold crown, gold armlets and necklace, a large gold halo disc with petal rays behind his head. NOT Yama: no buffalo, no noose, no dark skin.",
+    "king": "The king: gold crown, thick moustache and beard, red (#8E2A20) and green (#2E6B4F) garments, gold jewellery, stern.",
+    "guard": "Royal guards: cream turbans, dark leather armour vests, tan wrapped dhotis, red sashes, spears and torches.",
+    "thief": "Thieves: lean men, flat-tied head cloths, rough grey-brown wrapped dhotis, carrying cloth sacks.",
+    "vidura": "Vidura: man of about 35, plain cream garments with thin gold trim, no crown, short neat beard, sandalwood tilak, serene and wise.",
+    "pandu": "Prince Pandu: visibly pale complexion, crown, archer's garments, bow."
+  },
+  "shots": [
+    {
+      "id": "sh00",
+      "beat": 0,
+      "kind": "scene",
+      "scene": "s00",
+      "transition": "cut"
+    },
+    {
+      "id": "sh01",
+      "beat": 1,
+      "chars": [
+        "dharma"
+      ],
+      "prompt": "Low-angle wide shot of Dharma, god of justice, seated upright on a golden throne on a high platform in a celestial court among night-purple clouds and stars, his gold halo glowing. A pair of golden scales of justice stands beside the throne. Tall ornate stone pillars at both edges. His face in the upper-middle third.",
+      "motion": "Slow push-in toward Dharma. His halo glows and slowly turns; clouds drift; tiny stars twinkle. He stays still and calm, eyes blink once. No mouth movement.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.5,
+          0.35
+        ]
+      },
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.33,
+          "color": "#E8B53A"
+        },
+        {
+          "type": "dust",
+          "n": 40
+        },
+        {
+          "type": "stars",
+          "n": 40
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh01b",
+      "beat": 1,
+      "at": {
+        "en": "was",
+        "hi": "एक"
+      },
+      "chars": [
+        "dharma"
+      ],
+      "prompt": "Close-up of large golden scales of justice in the celestial court, one pan dipping sharply. Dharma is a soft, out-of-focus silhouette behind them with his gold halo glowing. Dramatic gold rim light, night-purple background.",
+      "motion": "The scales tip slowly and sway; glints travel along the gold; background halo pulses softly. Camera holds.",
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.12,
+        "to": 1.0,
+        "focus": [
+          0.5,
+          0.45
+        ]
+      },
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.3,
+          "r": 0.35,
+          "color": "#E8B53A"
+        },
+        {
+          "type": "dust",
+          "n": 25
+        }
+      ],
+      "transition": "dissolve"
+    },
+    {
+      "id": "sh02",
+      "beat": 2,
+      "chars": [
+        "mandavya"
+      ],
+      "prompt": "Sage Mandavya sitting cross-legged under a huge banyan tree in front of a small thatched hermitage hut at dawn, both arms raised straight up, eyes closed, deeply peaceful. Soft pink-gold dawn sky, light mist over the ground, a few birds far away. Sage in the centre, head at about 35% height.",
+      "motion": "Gentle mist drifts; banyan leaves and his loose hair strands move in a light breeze; his chest rises with slow breath. He stays in meditation, eyes closed. Slow upward camera tilt.",
+      "camera": {
+        "move": "slow-pan-up",
+        "from": 0.03,
+        "to": 0
+      },
+      "fx": [
+        {
+          "type": "fog"
+        },
+        {
+          "type": "dust",
+          "n": 30,
+          "color": "#FFE7B0"
+        },
+        {
+          "type": "rays",
+          "x": 0.85,
+          "y": 0.1,
+          "color": "#FFD9A0"
+        }
+      ],
+      "onScreenText": {
+        "en": "Sage Mandavya",
+        "hi": "ऋषि माण्डव्य",
+        "style": "name-tag",
+        "sub": {
+          "en": "vow of silence",
+          "hi": "मौन व्रत"
+        }
+      },
+      "transition": "dissolve"
+    },
+    {
+      "id": "sh03",
+      "beat": 3,
+      "chars": [
+        "thief",
+        "guard"
+      ],
+      "prompt": "Two thieves running toward the viewer through a dusky forest path, clutching cloth sacks of loot, looking back over their shoulders in fear. Far behind them, orange torch lights of the king's guards between the trees. Dusk violet sky, motion and urgency.",
+      "motion": "The thieves run toward camera, their cloth flapping; distant torches bob and flicker. Handheld camera tracking backward.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.12,
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      "fx": [
+        {
+          "type": "embers",
+          "n": 25,
+          "y": 0.45
+        },
+        {
+          "type": "flicker"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh03b",
+      "beat": 3,
+      "at": {
+        "en": "hid",
+        "hi": "उनके"
+      },
+      "chars": [
+        "thief",
+        "mandavya"
+      ],
+      "prompt": "The two thieves crouching behind the thatched hermitage hut in the foreground right, hugging their sacks, peeking out. In the mid-background, Sage Mandavya still sits in meditation under the banyan, arms raised, unaware. Early night, torchlight glow in the far distance.",
+      "motion": "The thieves breathe hard and peek out nervously; the sage stays perfectly still; faint torchlight sweeps across the trees.",
+      "camera": {
+        "move": "pan-left",
+        "from": 0.03,
+        "to": -0.03
+      },
+      "fx": [
+        {
+          "type": "flicker"
+        },
+        {
+          "type": "dust",
+          "n": 20
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh04",
+      "beat": 4,
+      "chars": [
+        "guard",
+        "mandavya"
+      ],
+      "prompt": "A royal guard on the left holding a torch and a spear, leaning in and shouting angrily at Sage Mandavya, who sits on the right in meditation with eyes closed, completely still. Night at the hermitage, torchlight on their faces. The guard's head at about 30% height, left third of the frame; the sage's head lower right of centre.",
+      "motion": "The guard shouts and gestures; his torch flame dances; a single leaf drifts down between them; the sage does not move at all.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.55,
+          0.4
+        ]
+      },
+      "fx": [
+        {
+          "type": "flicker"
+        },
+        {
+          "type": "leaf",
+          "x": 0.55
+        }
+      ],
+      "onScreenText": {
+        "en": "Which way did they go?",
+        "hi": "चोर किधर गए?",
+        "style": "speech-bubble",
+        "at": [
+          0.3,
+          0.33
+        ]
+      },
+      "transition": "cut"
+    },
+    {
+      "id": "sh05",
+      "beat": 5,
+      "chars": [
+        "guard"
+      ],
+      "prompt": "Close-up on the ground of the hermitage at night: cloth sacks spilled open, gold coins, jewellery and silver vessels scattered across the earth, lit by torchlight. A guard's hand and spear tip at the edge of the frame. Objects in the middle of the frame.",
+      "motion": "Coins tumble and settle out of the sack; torchlight flickers across the gold; dust rises.",
+      "camera": {
+        "move": "shake-small-then-static"
+      },
+      "fx": [
+        {
+          "type": "flicker"
+        },
+        {
+          "type": "dust",
+          "n": 30,
+          "color": "#FFD27A"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh05b",
+      "beat": 5,
+      "at": {
+        "en": "arrested",
+        "hi": "और"
+      },
+      "chars": [
+        "guard",
+        "thief",
+        "mandavya"
+      ],
+      "prompt": "Royal guards leading the two thieves away with ropes; among them Sage Mandavya, wrists bound in front with rope, walking calmly with eyes closed and head slightly bowed. Night, torches, the hermitage behind. Side view, the group moving left to right.",
+      "motion": "The procession walks slowly left to right; torches sway; the sage keeps his eyes closed and calm.",
+      "camera": {
+        "move": "slow-pan-right",
+        "from": -0.03,
+        "to": 0.03
+      },
+      "fx": [
+        {
+          "type": "flicker"
+        },
+        {
+          "type": "embers",
+          "n": 15
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh06",
+      "beat": 6,
+      "chars": [
+        "king"
+      ],
+      "prompt": "The king seated on his ornate throne in a royal court with carved stone pillars and hanging lamps, leaning forward, pointing down sternly with his right arm, delivering a sentence. Low angle, his face in the upper third.",
+      "motion": "The king thrusts his arm forward in judgment; lamp flames flicker; quick push-in.",
+      "camera": {
+        "move": "fast-zoom-in",
+        "from": 1.0,
+        "to": 1.15,
+        "focus": [
+          0.5,
+          0.3
+        ]
+      },
+      "fx": [
+        {
+          "type": "dust",
+          "n": 20
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh06b",
+      "beat": 6,
+      "at": {
+        "en": "death",
+        "hi": "शूल"
+      },
+      "prompt": "A single tall, thin wooden stake standing alone on a barren hill, silhouetted against a blood-red and crimson sunset sky. Empty, symbolic, no person, no blood. Stake in the centre, top at about 25% height.",
+      "motion": "Red clouds drift slowly behind the stake; dust blows across the hill; the light dims toward night.",
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.12,
+        "to": 1.0,
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      "fx": [
+        {
+          "type": "fog",
+          "color": "#8E2A20"
+        }
+      ],
+      "transition": "fade-to-night"
+    },
+    {
+      "id": "sh07",
+      "beat": 7,
+      "chars": [
+        "mandavya"
+      ],
+      "prompt": "Night. Seen from far away: a small dark silhouette of the sage sitting in meditation on top of a tall thin pole on a hill (traditional depiction, not graphic, arms resting in his lap). Deep indigo sky with a large pale moon behind him; vultures circling high above with straight-edged wings and finger-like wing feathers.",
+      "motion": "Vultures circle slowly; thin clouds pass across the moon; the silhouette stays perfectly still.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.5,
+          0.35
+        ]
+      },
+      "fx": [
+        {
+          "type": "stars",
+          "n": 50
+        },
+        {
+          "type": "birds",
+          "x": 0.5,
+          "y": 0.22,
+          "r": 0.25,
+          "n": 3
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh07b",
+      "beat": 7,
+      "at": {
+        "en": "didn't",
+        "hi": "मरे"
+      },
+      "chars": [
+        "mandavya"
+      ],
+      "prompt": "Extreme close-up of Sage Mandavya's face at night, lit by cold moonlight, eyes wide open and glowing faintly gold, utterly calm and alive. Matted hair and beard, ash marks on the forehead. Eyes at about 40% height.",
+      "motion": "His eyes snap open and glow gold; a faint gold aura breathes around him; hair strands stir. Very slow push-in.",
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.4,
+          "r": 0.3,
+          "color": "#E8B53A",
+          "pulse": true
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh08",
+      "beat": 8,
+      "chars": [
+        "king",
+        "mandavya"
+      ],
+      "prompt": "The king, without his crown's pride, kneeling with palms pressed together and head bowed in shame before Sage Mandavya, who stands calm and forgiving. Night on the hill, torches, guards in the background. King lower left, sage right.",
+      "motion": "The king bows lower with folded hands; the sage looks down gently; torches flicker; slow drift right.",
+      "camera": {
+        "move": "slow-pan-right",
+        "from": -0.03,
+        "to": 0.03
+      },
+      "fx": [
+        {
+          "type": "flicker"
+        },
+        {
+          "type": "embers",
+          "n": 15
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh08b",
+      "beat": 8,
+      "at": {
+        "en": "but",
+        "hi": "पर"
+      },
+      "chars": [
+        "guard",
+        "mandavya"
+      ],
+      "prompt": "Two guards straining with all their strength, gripping a thick broken wooden shaft and pulling hard, faces contorted with effort, feet braced in the dirt. Behind them, out of focus, the sage stands serene. No blood, no wound visible. Night, torchlight.",
+      "motion": "The guards heave and strain but the shaft does not move; their arms shake; dust kicks up at their feet.",
+      "camera": {
+        "move": "static"
+      },
+      "fx": [
+        {
+          "type": "flicker"
+        }
+      ],
+      "cues": [
+        {
+          "onWord": {
+            "en": "wouldn't",
+            "hi": "निकला"
+          },
+          "do": "shake"
+        }
+      ],
+      "transition": "dissolve"
+    },
+    {
+      "id": "sh09",
+      "beat": 9,
+      "chars": [
+        "mandavya"
+      ],
+      "prompt": "Sage Mandavya walking with determination up a long staircase of glowing golden-white stone steps rising through clouds toward a distant celestial court, seen from behind and slightly to the side. A tiny bright glint at his side (the stake's tip). Night-purple sky, stars.",
+      "motion": "He climbs steadily upward; clouds drift past; the steps glow under each footfall; crane up.",
+      "camera": {
+        "move": "crane-up",
+        "from": 0.03,
+        "to": 0
+      },
+      "fx": [
+        {
+          "type": "stars",
+          "n": 40
+        },
+        {
+          "type": "dust",
+          "n": 30,
+          "color": "#FFE7B0"
+        }
+      ],
+      "onScreenText": {
+        "en": "Ani-Mandavya",
+        "hi": "अणि-माण्डव्य",
+        "style": "name-tag",
+        "sub": {
+          "en": "'Mandavya of the stake-tip'",
+          "hi": "शूल की नोक वाले माण्डव्य"
+        }
+      },
+      "transition": "cut"
+    },
+    {
+      "id": "sh09b",
+      "beat": 9,
+      "at": {
+        "en": "Dharma,",
+        "hi": "न्याय"
+      },
+      "chars": [
+        "dharma",
+        "mandavya"
+      ],
+      "prompt": "Over-the-shoulder view from behind Sage Mandavya (his shoulder and matted hair in the lower left foreground) looking up at the vast celestial court: Dharma enthroned high on a golden platform, gold halo blazing, tall pillars on both sides. Grand, awe-inspiring scale.",
+      "motion": "Camera rises over the sage's shoulder to reveal the court; Dharma's halo flares; light rays sweep.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.55,
+          0.3
+        ]
+      },
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.6,
+          "y": 0.25,
+          "color": "#E8B53A"
+        },
+        {
+          "type": "dust",
+          "n": 30
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh10",
+      "beat": 10,
+      "chars": [
+        "mandavya"
+      ],
+      "prompt": "Close-up of Sage Mandavya in the celestial court, three-quarter view facing right, chin up, eyes blazing with defiance, asking a question. Gold light from the throne on his face, night-purple background. His face at about 35% height.",
+      "motion": "He lifts his chin and narrows his eyes; gold light flickers on his face; quick push-in. Mouth moves slightly as if speaking one short line.",
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.12,
+        "focus": [
+          0.45,
+          0.35
+        ]
+      },
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.85,
+          "y": 0.3,
+          "r": 0.4,
+          "color": "#E8B53A"
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh11",
+      "beat": 11,
+      "chars": [
+        "young-mandavya"
+      ],
+      "prompt": "Gentle flashback: young Mandavya, a boy of about 7, crouching in a sunny meadow, curiously holding a thin blade of grass toward a tiny insect on a leaf. Innocent, warm and soft, not cruel. Faded warm golden-sepia light, flowers, butterflies far away. Boy in the centre, head at about 40% height.",
+      "motion": "Soft breeze through the grass; the boy tilts his head curiously; the insect twitches; dreamy slow zoom.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.5,
+          0.45
+        ]
+      },
+      "fx": [
+        {
+          "type": "dust",
+          "n": 30,
+          "color": "#FFE7B0"
+        }
+      ],
+      "overlay": "sepia-folk-frame",
+      "transition": "dissolve"
+    },
+    {
+      "id": "sh12",
+      "beat": 12,
+      "kind": "split",
+      "split": [
+        "sh11",
+        "sh06b"
+      ],
+      "camera": {
+        "move": "static"
+      },
+      "transition": "cut"
+    },
+    {
+      "id": "sh13",
+      "beat": 13,
+      "chars": [
+        "mandavya"
+      ],
+      "prompt": "Sage Mandavya in the celestial court, low angle, facing right, his right arm thrust forward and up with the palm open, delivering a curse, face furious. His hair and cloth swept back by a blazing wave of saffron light and energy from his hand. Night-purple background.",
+      "motion": "A blast of saffron light erupts from his palm; his hair and cloth whip back; embers swirl. Camera shakes then pushes in.",
+      "camera": {
+        "move": "shake-then-zoom",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.6,
+          0.35
+        ]
+      },
+      "fx": [
+        {
+          "type": "embers",
+          "n": 50
+        }
+      ],
+      "cues": [
+        {
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "do": "burst",
+          "x": 0.72,
+          "y": 0.3
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh13b",
+      "beat": 13,
+      "at": {
+        "en": "\"You",
+        "hi": "\"तुम"
+      },
+      "chars": [
+        "dharma"
+      ],
+      "prompt": "Dharma on his golden throne, his gold halo cracking with fine dark fractures and dimming, his face shocked then accepting, head bowing slightly. Gold fragments of light falling around him. Night-purple court.",
+      "motion": "Cracks spread across the halo and its light fades; gold sparks fall; he lowers his head slowly.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.35
+        ]
+      },
+      "fx": [
+        {
+          "type": "sparks",
+          "n": 40
+        }
+      ],
+      "cues": [
+        {
+          "onWord": {
+            "en": "human,",
+            "hi": "मनुष्य"
+          },
+          "do": "dim"
+        }
+      ],
+      "transition": "flash-white"
+    },
+    {
+      "id": "sh14",
+      "beat": 14,
+      "prompt": "An ancient palm-leaf manuscript (or a parchment scroll) lying open on a carved wooden reading stand, lit warmly by a small oil lamp at the side. The middle of the manuscript is blank and clean (text will be added later). Warm, sacred, quiet mood; the manuscript fills the centre of the frame from about 30% to 60% height.",
+      "motion": "The oil lamp flame flickers; dust floats in the warm light; very slow push-in. The manuscript stays blank.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.45
+        ]
+      },
+      "fx": [
+        {
+          "type": "flicker",
+          "color": "#FFB060"
+        },
+        {
+          "type": "dust",
+          "n": 30,
+          "color": "#FFE7B0"
+        }
+      ],
+      "onScreenText": {
+        "en": "Under 14: no sin.",
+        "hi": "14 वर्ष से कम: कोई पाप नहीं",
+        "style": "law-inscription",
+        "source": {
+          "en": "Mahabharata, Adi Parva",
+          "hi": "महाभारत, आदि पर्व"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "fourteen",
+            "hi": "चौदह"
+          },
+          "do": "write-on"
+        }
+      ],
+      "transition": "dissolve"
+    },
+    {
+      "id": "sh15",
+      "beat": 15,
+      "prompt": "A single beam of golden light descending from the night sky through the clouds onto a grand ancient Indian palace city (Hastinapura) on a river, nagara spires, dawn beginning on the horizon. Vast and wondrous. The beam lands at about 60% height.",
+      "motion": "The beam of light descends from the clouds and lands on the palace, which glows; clouds part; tilt down following the light.",
+      "camera": {
+        "move": "tilt-down",
+        "from": 0.0,
+        "to": 0.03
+      },
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.0,
+          "color": "#FFE7B0"
+        },
+        {
+          "type": "stars",
+          "n": 30
+        }
+      ],
+      "transition": "cut"
+    },
+    {
+      "id": "sh15b",
+      "beat": 15,
+      "at": {
+        "en": "as",
+        "hi": "विदुर"
+      },
+      "chars": [
+        "vidura"
+      ],
+      "prompt": "Vidura standing in a sunlit palace hall of Hastinapura with carved pillars, hands clasped in front, calm and wise expression, soft morning light from tall windows. Medium shot, his face at about 40% height, leaving the top 20% clear for a title.",
+      "motion": "Soft light shifts across the hall; his robe stirs slightly; he looks up calmly. Slow push-in.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      "fx": [
+        {
+          "type": "dust",
+          "n": 30,
+          "color": "#FFE7B0"
+        },
+        {
+          "type": "rays",
+          "x": 0.15,
+          "y": 0.1,
+          "color": "#FFE7B0"
+        }
+      ],
+      "onScreenText": {
+        "en": "VIDURA",
+        "hi": "विदुर",
+        "style": "title-serif"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "Vidura.",
+            "hi": "विदुर"
+          },
+          "do": "title-in"
+        }
+      ],
+      "transition": "light-wipe"
+    },
+    {
+      "id": "sh16",
+      "beat": 16,
+      "chars": [
+        "pandu"
+      ],
+      "prompt": "Prince Pandu in a dense green forest, drawing his bow taut, aiming at a deer half hidden among the trees in the distance. Dappled light, tense moment before the arrow flies. Pandu in the left half, face at about 35% height.",
+      "motion": "Pandu draws the bowstring back slowly; leaves rustle; the deer's ears twitch in the distance.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.4,
+          0.35
+        ]
+      },
+      "fx": [
+        {
+          "type": "dust",
+          "n": 25,
+          "color": "#FFE7B0"
+        }
+      ],
+      "onScreenText": {
+        "en": "CURSED II",
+        "hi": "शाप II",
+        "style": "stamp-gold"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "own.",
+            "hi": "वाला"
+          },
+          "do": "stamp-next"
+        }
+      ],
+      "transition": "cut-to-black"
+    }
+  ],
+  "styleRef": "styles/ink-wash-graphic-novel.md"
+}
