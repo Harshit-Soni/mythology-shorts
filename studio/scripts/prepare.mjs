@@ -127,10 +127,10 @@ for (const kind of ['sfx', 'music']) {
   const outDir = path.join(OUT_ASSETS, kind);
   mkdir(outDir);
   for (const f of fs.readdirSync(dir)) {
-    if (!/\.(mp3|wav)$/.test(f)) continue;
+    if (!/\.(mp3|wav|m4a)$/.test(f)) continue;
     const out = path.join(outDir, f);
     fs.copyFileSync(path.join(dir, f), out);
-    manifest[kind][f.replace(/\.(mp3|wav)$/, '')] = { file: rel(out), w: null, h: null };
+    manifest[kind][f.replace(/\.(mp3|wav|m4a)$/, '')] = { file: rel(out), w: null, h: null };
   }
 }
 

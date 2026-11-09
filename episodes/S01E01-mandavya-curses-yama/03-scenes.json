@@ -51,7 +51,7 @@
         {
           "id": "drum-hit",
           "at": 0,
-          "volume": 0.9
+          "volume": 0.7
         },
         {
           "id": "stamp-thud",
@@ -389,7 +389,7 @@
             "en": "loot",
             "hi": "माल"
           },
-          "volume": 0.7
+          "volume": 0.5
         }
       ],
       "transition": "cut",
@@ -472,12 +472,12 @@
         {
           "id": "drum-boom-deep",
           "at": 0,
-          "volume": 0.9
+          "volume": 0.5
         },
         {
           "id": "wind-desolate",
           "at": 0,
-          "volume": 0.35
+          "volume": 0.25
         }
       ],
       "transition": "fade-to-night",
@@ -541,7 +541,7 @@
             "en": "die",
             "hi": "नहीं"
           },
-          "volume": 0.8
+          "volume": 0.6
         }
       ],
       "transition": "cut",
@@ -855,7 +855,7 @@
             "en": "this",
             "hi": "सज़ा"
           },
-          "volume": 0.8
+          "volume": 0.6
         }
       ],
       "transition": "cut",
@@ -925,7 +925,7 @@
             "en": "cursed",
             "hi": "शाप"
           },
-          "volume": 0.9
+          "volume": 0.6
         },
         {
           "id": "glass-crack",
@@ -938,7 +938,7 @@
       ],
       "transition": "flash-white",
       "notes": "Climax. Saffron burst from his hand; Dharma's halo cracks and dims.",
-      "music": 1.3
+      "music": 1.1
     },
     {
       "id": "s14",
@@ -1307,11 +1307,11 @@
   "sound": {
     "music": {
       "id": "mythic-drone",
-      "volume": 0.32,
-      "duckTo": 0.12,
+      "volume": 0.7,
+      "duckTo": 0.45,
       "fadeInSec": 0.3,
       "fadeOutSec": 1.5
     },
-    "sfxVolume": 1
+    "sfxVolume": 0.8
   }
 }

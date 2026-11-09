@@ -9,7 +9,7 @@ Everything the renderer understands. If a storyboard needs something not listed 
 ```
 
 ## Sound (episode level)
-`"sound": { "music": { "id", "volume": 0.32, "duckTo": 0.12, "fadeInSec", "fadeOutSec" }, "sfxVolume": 1 }`: one music bed from `assets/music/<id>.mp3`, looped if shorter than the episode. It dips to `duckTo` while the narrator speaks (merged word spans, 0.3 s ease) and fades out at the end. One sound plan serves both languages, because word cues fire per language.
+`"sound": { "music": { "id", "volume": 0.32, "duckTo": 0.12, "fadeInSec", "fadeOutSec" }, "sfxVolume": 1 }`: one music bed from `assets/music/<id>.mp3`, looped if shorter than the episode. It dips to `duckTo` while the narrator speaks (merged word spans, 0.3 s ease) and fades out at the end. One sound plan serves both languages, because word cues fire per language. Add sounds with `npm run sound:import -- <file> <sfx|music> <id>`: it normalises effects to a −3 dBFS peak and music to about −20 dBFS average, so these volumes mean the same for every file (S01E01: volume 0.7 / duckTo 0.45 puts the music about 12 dB under the voice).
 
 ## Scene
 | Field | Meaning |

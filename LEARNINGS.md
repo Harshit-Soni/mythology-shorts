@@ -38,6 +38,10 @@ Lessons from making and publishing episodes. One line per lesson, with the episo
 - ElevenLabs free tier: the shared queue is often busy. Generate one take at a time and retry later; failed takes aren't charged. (S01E01)
 - Pause-based alignment (`voice:import ... auto`) worked well for beats separated by paragraph breaks: all pauses were accounted for in EN and HI. (S01E01)
 
+- ElevenLabs sound effects arrive at wildly different levels (peaks from 0 to −46 dBFS), and the music bed is quiet (~−27 dBFS average). Always bring them in with `npm run sound:import` (normalises them) before setting mix volumes. (S01E01)
+- Free-tier queue: send all pending sound nodes in **one** run call. Whatever gets a slot runs and the rest cost nothing; one call let all 10 effects through after many failed tries. Effects cost 7–33 credits each, not the 50 estimated; a 75 s music bed costs 1,125. (S01E01)
+- To check a mix for clipping, measure the stereo channels: a mono downmix adds the channels and shows false clips 3 dB too high. (S01E01)
+
 ## Hooks
 - *(none yet: fill in after the first published episodes)*
 

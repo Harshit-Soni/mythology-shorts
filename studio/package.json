@@ -10,7 +10,8 @@
     "render": "node scripts/render.mjs",
     "typecheck": "tsc --noEmit",
     "voice": "node scripts/voice.mjs",
-    "voice:import": "node scripts/voice-import.mjs"
+    "voice:import": "node scripts/voice-import.mjs",
+    "sound:import": "node scripts/sound-import.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.538",
