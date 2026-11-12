@@ -1,0 +1,18 @@
+{
+  "id": "barbarika",
+  "name": { "en": "Barbarika (Khatu Shyam)", "hi": "बर्बरीक (खाटू श्याम)" },
+  "role": "Ghatotkacha's son, Bhima's grandson; boasted he could end the war in one muhurta; his head watched the war; worshipped as Khatu Shyam",
+  "divine": false,
+  "appearsIn": ["X001"],
+  "look": "Young warrior, about 18-20; warm brown skin (#9A6440); thick curly black hair in a high topknot with a gold band; vertical saffron-and-red tilak; gold ear studs; yellow sash; deep-blue dhoti with a front pleat; leather forearm guards; longbow; quiver with exactly three blue-fletched arrows.",
+  "sourceNotes": "Named for his hair 'like that of a Barbara' (Skanda Purana, Kaumarika Khanda 60.62-68). Three arrows are from the Khatu folk tradition. Everything else is a design choice. Worshipped today: keep him noble and gentle.",
+  "poses": ["standing-bow", "kneeling-offering"],
+  "expressions": ["calm", "confident", "serene"],
+  "files": {
+    "standing-bow": { "calm": "standing-bow__calm.svg", "confident": "standing-bow__confident.svg" },
+    "kneeling-offering": { "serene": "kneeling-offering__serene.svg" }
+  },
+  "facing": "right",
+  "palette": { "skin": "#9A6440", "dhoti": "#2E4F8F", "sash": "#F2C230", "gold": "#E8B53A" },
+  "notes": "Drawn by Claude as hand-written SVG for X001 (no external generator). Head at translate(500 330). The sky-head prop (props/barbarika-head-sky.svg) reuses this head in translucent gold with a small crown."
+}

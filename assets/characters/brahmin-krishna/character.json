@@ -1,0 +1,15 @@
+{
+  "id": "brahmin-krishna",
+  "name": { "en": "The Brahmin (Krishna in disguise)", "hi": "ब्राह्मण (वेश बदले कृष्ण)" },
+  "role": "Krishna disguised as an old Brahmin who tests Barbarika (Khatu folk telling)",
+  "divine": true,
+  "appearsIn": ["X001"],
+  "look": "Elderly Brahmin; warm medium-brown skin (not blue: the disguise holds); long white beard; white hair in a small knot; white Vaishnava namam with a red centre line; ochre dhoti; cream angavastram; tulsi beads; wooden walking staff; bare feet.",
+  "sourceNotes": "Disguise as a Brahmin is from the Khatu folk telling (bhaktibharat katha). The namam is a design hint at who he really is.",
+  "poses": ["standing-staff-pointing"],
+  "expressions": ["serene"],
+  "files": { "standing-staff-pointing": { "serene": "standing-staff-pointing__serene.svg" } },
+  "facing": "left",
+  "palette": { "skin": "#A8754A", "dhoti": "#C9772E", "beard": "#F2EEE6" },
+  "notes": "Drawn by Claude as hand-written SVG for X001. Head at translate(484 338); eyes take the eyes-open-glow cue for the Krishna reveal. No halo by design (he is in disguise)."
+}
