@@ -7,7 +7,7 @@ Bilingual (English + Hindi) YouTube Shorts / Instagram Reels telling lesser-know
 - `STYLE_GUIDE.md`: visual, narration and caption rules.
 - `LEARNINGS.md`: lessons from published episodes. Read it before writing scripts or storyboards.
 - `series/`: series plans and episode lists.
-- `episodes/<ID>-<slug>/`: one folder per episode, files numbered by stage. `episodes/INDEX.md` tracks status.
+- `episodes/<ID>-<slug>/`: one folder per episode, files numbered by stage. Shared story files at the root; each visual version in its own subfolder (`svg/` cut-out, `illustrated/` painted stills), so the versions never collide. `episodes/INDEX.md` tracks status.
 - `templates/episode/`: the files each new episode starts from.
 - `assets/`: the reusable library of characters (SVG puppets, see `assets/characters/SPEC.md`), backgrounds, props and overlays.
 - `assets/illustrated/`: the illustrated library of ink-wash character and location reference sheets (for image-based versions; same IDs as the SVG library). See its `README.md`; style in `styles/ink-wash-graphic-novel.md`.
