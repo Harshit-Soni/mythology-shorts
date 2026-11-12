@@ -50,7 +50,21 @@
       },
       "onScreenText": null,
       "cues": [],
-      "sfx": [],
+      "sfx": [
+        {
+          "id": "wind-desolate",
+          "at": 0,
+          "volume": 0.35
+        },
+        {
+          "id": "drum-boom-deep",
+          "onWord": {
+            "en": "arrows",
+            "hi": "बाणों"
+          },
+          "volume": 0.7
+        }
+      ],
       "transition": "cut",
       "notes": "HOOK. Lone warrior on the cliff, moon behind his head, two armies with torches below."
     },
@@ -99,7 +113,16 @@
         }
       },
       "cues": [],
-      "sfx": [],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "onWord": {
+            "en": "goddess",
+            "hi": "देवी"
+          },
+          "volume": 0.6
+        }
+      ],
       "transition": "dissolve",
       "notes": "Introduce him and the gift of three unfailing arrows. The name-tag sub is the on-screen source frame (folk telling).",
       "backgroundVariant": "dawn"
@@ -137,10 +160,20 @@
       },
       "onScreenText": null,
       "cues": [],
-      "sfx": [],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "onWord": {
+            "en": "vowed",
+            "hi": "प्रण"
+          },
+          "volume": 0.7
+        }
+      ],
       "transition": "cut",
       "notes": "The vow: he looks down at both armies. Pull back to reveal both sides.",
-      "backgroundVariant": "dusk"
+      "backgroundVariant": "dusk",
+      "music": 1.15
     },
     {
       "id": "s04",
@@ -185,9 +218,16 @@
       },
       "onScreenText": null,
       "cues": [],
-      "sfx": [],
+      "sfx": [
+        {
+          "id": "night-crickets",
+          "at": 0,
+          "volume": 0.4
+        }
+      ],
       "transition": "cut",
-      "notes": "The old Brahmin (Krishna in disguise) stops him under the peepal. They face each other."
+      "notes": "The old Brahmin (Krishna in disguise) stops him under the peepal. They face each other.",
+      "music": 0.9
     },
     {
       "id": "s05",
@@ -231,7 +271,8 @@
       "cues": [],
       "sfx": [],
       "transition": "cut",
-      "notes": "Closer two-shot. The Brahmin speaks the challenge (lip-sync on the quoted line), pointing at the canopy."
+      "notes": "Closer two-shot. The Brahmin speaks the challenge (lip-sync on the quoted line), pointing at the canopy.",
+      "music": 0.8
     },
     {
       "id": "s06",
@@ -263,9 +304,16 @@
       },
       "onScreenText": null,
       "cues": [],
-      "sfx": [],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0,
+          "volume": 0.5
+        }
+      ],
       "transition": "cut",
-      "notes": "Close-up: the bare foot pressing one leaf."
+      "notes": "Close-up: the bare foot pressing one leaf.",
+      "music": 0.6
     },
     {
       "id": "s07",
@@ -307,9 +355,27 @@
       },
       "onScreenText": null,
       "cues": [],
-      "sfx": [],
+      "sfx": [
+        {
+          "id": "arrow-whoosh-magic",
+          "onWord": {
+            "en": "arrow",
+            "hi": "बाण"
+          },
+          "volume": 0.8
+        },
+        {
+          "id": "shimmer-descend",
+          "onWord": {
+            "en": "circled",
+            "hi": "घूमने"
+          },
+          "volume": 0.45
+        }
+      ],
       "transition": "cut",
-      "notes": "Every leaf marked; the arrow (silver head forward) circles the foot."
+      "notes": "Every leaf marked; the arrow (silver head forward) circles the foot.",
+      "music": 1.0
     },
     {
       "id": "s08",
@@ -353,10 +419,20 @@
           "target": "brahmin-krishna"
         }
       ],
-      "sfx": [],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "onWord": {
+            "en": "Krishna",
+            "hi": "कृष्ण"
+          },
+          "volume": 0.7
+        }
+      ],
       "transition": "cut",
       "notes": "The reveal: his eyes glow on 'Krishna'. Dignified, not sinister.",
-      "backgroundVariant": "night"
+      "backgroundVariant": "night",
+      "music": 0.9
     },
     {
       "id": "s09",
@@ -392,9 +468,24 @@
           "do": "flash"
         }
       ],
-      "sfx": [],
+      "sfx": [
+        {
+          "id": "battle-distant",
+          "at": 0,
+          "volume": 0.5
+        },
+        {
+          "id": "thunder-crack",
+          "onWord": {
+            "en": "switch",
+            "hi": "बदलना"
+          },
+          "volume": 0.6
+        }
+      ],
       "transition": "fade-to-night",
-      "notes": "Why Krishna acts: the vow would swing the war back and forth until no one was left. A flash on the switch."
+      "notes": "Why Krishna acts: the vow would swing the war back and forth until no one was left. A flash on the switch.",
+      "music": 1.2
     },
     {
       "id": "s10",
@@ -433,7 +524,8 @@
       "sfx": [],
       "transition": "cut",
       "notes": "Krishna-as-Brahmin asks the gift; lip-sync on the quoted 'Your head'. Dawn grade.",
-      "backgroundVariant": "dawn"
+      "backgroundVariant": "dawn",
+      "music": 0.4
     },
     {
       "id": "s11",
@@ -469,10 +561,20 @@
       },
       "onScreenText": null,
       "cues": [],
-      "sfx": [],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "onWord": {
+            "en": "war",
+            "hi": "युद्ध"
+          },
+          "volume": 0.45
+        }
+      ],
       "transition": "flash-white",
       "notes": "He kneels, palms open, and speaks his one wish. White flash out: the sacrifice is never shown.",
-      "backgroundVariant": "dawn"
+      "backgroundVariant": "dawn",
+      "music": 0.35
     },
     {
       "id": "s12",
@@ -507,9 +609,16 @@
       },
       "onScreenText": null,
       "cues": [],
-      "sfx": [],
+      "sfx": [
+        {
+          "id": "battle-distant",
+          "at": 0,
+          "volume": 0.3
+        }
+      ],
       "transition": "light-wipe",
-      "notes": "His serene, immortal head watches all 18 days from above. No neck, only cloud."
+      "notes": "His serene, immortal head watches all 18 days from above. No neck, only cloud.",
+      "music": 1.2
     },
     {
       "id": "s13",
@@ -533,10 +642,20 @@
       },
       "onScreenText": null,
       "cues": [],
-      "sfx": [],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "onWord": {
+            "en": "Shyam",
+            "hi": "श्याम"
+          },
+          "volume": 0.6
+        }
+      ],
       "transition": "cut",
       "notes": "Krishna's blessing heard over the shrine image.",
-      "overlay": "folk-art-border"
+      "overlay": "folk-art-border",
+      "music": 1.0
     },
     {
       "id": "s14",
@@ -568,10 +687,17 @@
           "do": "title-in"
         }
       ],
-      "sfx": [],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "at": 0,
+          "volume": 0.7
+        }
+      ],
       "transition": "cut-to-black",
       "notes": "Payoff: the warrior who could win any war is 'the support of those who lose'.",
-      "overlay": "folk-art-border"
+      "overlay": "folk-art-border",
+      "music": 1.1
     }
   ],
   "assets": {
@@ -638,5 +764,15 @@
   },
   "assetNotes": {
     "unused-from-v1": "ash-arrow, ash-mark-*, chakra, jara-silhouette, reclining-krishna-silhouette, aravan-silhouette stay in the library for a future Skanda Purana or Aravan episode."
+  },
+  "sound": {
+    "music": {
+      "id": "mythic-drone",
+      "volume": 0.7,
+      "duckTo": 0.45,
+      "fadeInSec": 0.3,
+      "fadeOutSec": 1.5
+    },
+    "sfxVolume": 0.8
   }
 }

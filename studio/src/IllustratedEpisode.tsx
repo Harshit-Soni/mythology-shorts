@@ -2,6 +2,7 @@ import React, { useMemo } from 'react';
 import { AbsoluteFill, Audio, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import { Captions } from './components/Captions';
 import { ShotView } from './components/ShotView';
+import { Sound } from './components/Sound';
 import { EPISODES } from './generated/data';
 import { buildShotTimeline } from './lib/shotTiming';
 import { buildTimeline } from './lib/timing';
@@ -16,7 +17,9 @@ export const IllustratedEpisode: React.FC<EpisodeProps> = ({ episodeId, lang, de
   const { fps, durationInFrames } = useVideoConfig();
   const frame = useCurrentFrame();
   const entry = EPISODES[episodeId];
-  const tl = useMemo(() => buildShotTimeline(entry, lang, buildTimeline(entry, lang)), [entry, lang]);
+  // the cut-out timeline (voice words, beat spans, scene sfx/music) drives both the shots and the sound pass
+  const base = useMemo(() => buildTimeline(entry, lang), [entry, lang]);
+  const tl = useMemo(() => buildShotTimeline(entry, lang, base), [entry, lang, base]);
   const byId = useMemo(() => new Map((entry.shots?.shots ?? []).map((s) => [s.id, s])), [entry]);
   const audio = entry.audio[lang];
   const last = tl.segments[tl.segments.length - 1];
@@ -42,6 +45,8 @@ export const IllustratedEpisode: React.FC<EpisodeProps> = ({ episodeId, lang, de
         <AbsoluteFill style={{ background: '#000', opacity: interpolate(frame, [durationInFrames - 14, durationInFrames - 1], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }) }} />
       )}
       {audio && <Audio src={staticFile(audio.file)} />}
+      {/* same sound plan as the cut-out version (03-scenes.json: sound, scene sfx and music levels) */}
+      <Sound spec={entry.spec} tl={base} lang={lang} fps={fps} total={durationInFrames / fps} />
     </AbsoluteFill>
   );
 };
