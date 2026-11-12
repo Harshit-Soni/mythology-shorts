@@ -1,0 +1,658 @@
+{
+  "episode": "X001",
+  "about": "Shot list for the illustrated version: one painted image per shot (images/shots/), camera moves and code motion effects, same voice and captions as the cut-out version. 'image' is the approved file. Render: cd studio && npm run render -- X001 en --variant illustrated",
+  "style": "Vertical 9:16 hand-drawn graphic-novel illustration: expressive black brush-ink linework with dry-brush hatching, coloured with loose watercolour and ink washes on textured cold-press paper. Visible paper grain, wet-in-wet blooms, granulation, soft bleeding edges, ink splatters and drips; generous areas of bare paper white. A limited palette of two or three colours chosen for the mood of the moment. Light is painted as bare paper white with a warm yellow wash and small sparks around the source. Characters are semi-stylised with very readable, exaggerated expressions; skin is one flat wash plus one shadow wash. Ancient India, classical Indian architecture only. Dignified and epic. Hand-painted look: no 3D render, no glossy cel shading, no smooth digital gradients, no text, letters, watermark or border. Painted full-bleed to all four edges (no blank paper margin). Keep the bottom 20% of the frame free of faces and key detail.",
+  "styleRef": "styles/ink-wash-graphic-novel.md",
+  "characters": {
+    "barbarika": "Barbarika: young warrior of about 18-20, strong and lean, warm brown skin; thick wild curly black hair in a high topknot tied with a thin gold band; a red-orange flame-shaped tilak on the forehead; small gold ear studs and coiled gold armlets; a bright yellow sash across the bare chest; a deep-blue dhoti with gold borders and a knotted gold waist sash; dark leather forearm guards; a tall plain wooden longbow; a leather quiver on his back with exactly three blue-feathered arrows. Calm, kind, noble face.",
+    "brahmin-krishna": "The old Brahmin (Krishna in disguise): elderly, slim, slightly stooped; warm medium-brown skin (never blue); long white hair in a small knot at the back; long flowing white beard and moustache; a white U-shaped namam with a red centre line on the forehead; tulsi-bead necklace; ochre-orange dhoti and a cream angavastram over the left shoulder; a knotted wooden walking staff; barefoot. Large kind knowing eyes, gentle half-smile."
+  },
+  "sheets": {
+    "barbarika": "assets/illustrated/characters/barbarika/sheet.png",
+    "brahmin-krishna": "assets/illustrated/characters/brahmin-krishna/sheet-facing-left.png",
+    "peepal-night": "assets/illustrated/locations/peepal-night/sheet.png"
+  },
+  "shots": [
+    {
+      "id": "sh01",
+      "beat": 1,
+      "chars": [
+        "barbarika"
+      ],
+      "prompt": "Low-angle wide shot at night: the young warrior Barbarika stands alone on the edge of a high rocky cliff, longbow in hand, hair and yellow sash streaming in the wind. A huge full moon behind his head. Far below, on a vast dark plain, two enormous armies face each other: rows of tiny torches, banners and chariots on both sides. He looks down at them, calm and serious. Figure in the upper-middle of the frame.",
+      "motion": "Slow push-in; wind in his hair and sash; torches flicker far below.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.5,
+          0.35
+        ]
+      },
+      "fx": [
+        {
+          "type": "stars",
+          "n": 40
+        },
+        {
+          "type": "embers",
+          "n": 25
+        }
+      ],
+      "transition": "cut",
+      "image": "images/shots/sh01-v1.png"
+    },
+    {
+      "id": "sh01b",
+      "beat": 1,
+      "at": {
+        "en": "with",
+        "hi": "बाणों"
+      },
+      "chars": [
+        "barbarika"
+      ],
+      "prompt": "Extreme close-up of a leather quiver on a warrior's back holding exactly three arrows, only their blue feathers visible at the top, glowing brighter and brighter with blue-white light, small sparks drifting upward. Curly black hair and a yellow sash at the edge of the frame. Dark night background.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.12,
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.38,
+          "r": 0.3,
+          "color": "#7FD4FF"
+        },
+        {
+          "type": "sparks",
+          "n": 30
+        }
+      ],
+      "transition": "cut",
+      "image": "images/shots/sh01b-v1.png"
+    },
+    {
+      "id": "sh02",
+      "beat": 2,
+      "chars": [
+        "barbarika"
+      ],
+      "prompt": "Dawn on a wide plain: Barbarika stands tall in a three-quarter view facing right, holding his longbow, a calm and confident young warrior. Pale rose and gold sky, cream mist on the ground, distant hills. Figure in the middle third.",
+      "camera": {
+        "move": "slow-pan-up",
+        "from": 0.03,
+        "to": 0
+      },
+      "fx": [
+        {
+          "type": "fog"
+        },
+        {
+          "type": "dust",
+          "n": 25,
+          "color": "#FFE7B0"
+        }
+      ],
+      "onScreenText": {
+        "en": "BARBARIKA",
+        "hi": "बर्बरीक",
+        "style": "name-tag",
+        "sub": {
+          "en": "Khatu Shyam tradition",
+          "hi": "खाटू श्याम परम्परा"
+        }
+      },
+      "transition": "dissolve",
+      "image": "images/shots/sh02-v1.png"
+    },
+    {
+      "id": "sh02b",
+      "beat": 2,
+      "at": {
+        "en": "won",
+        "hi": "देवी"
+      },
+      "chars": [
+        "barbarika"
+      ],
+      "prompt": "A radiant vision of the goddess Durga, serene and powerful, seated on a lion within a great halo of golden light, many arms holding her weapons, one hand extended in blessing. Before her, Barbarika kneels with his head bowed and both hands raised, receiving three glowing arrows that float down to him in a beam of light. Reverent, dignified, devotional.",
+      "camera": {
+        "move": "crane-up",
+        "from": 0.0,
+        "to": 0.04
+      },
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.2,
+          "color": "#E8B53A"
+        },
+        {
+          "type": "sparks",
+          "n": 25
+        }
+      ],
+      "transition": "dissolve",
+      "image": "images/shots/sh02b-v1.png"
+    },
+    {
+      "id": "sh03",
+      "beat": 3,
+      "chars": [
+        "barbarika"
+      ],
+      "prompt": "Dusk: Barbarika stands on a rise and raises his longbow high above his head with both hands, swearing a solemn vow, chin lifted, determined. Behind him a vast sky split in two: one half bright gold, one half dark violet, like two sides of a coming war. Wind in his hair and sash.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.35
+        ]
+      },
+      "fx": [
+        {
+          "type": "embers",
+          "n": 30
+        }
+      ],
+      "transition": "cut",
+      "image": "images/shots/sh03-v1.png"
+    },
+    {
+      "id": "sh04",
+      "beat": 4,
+      "chars": [
+        "barbarika",
+        "brahmin-krishna"
+      ],
+      "prompt": "Under the enormous peepal tree at night, at the edge of an empty battlefield. On the left, Barbarika (three-quarter view, facing right) has stopped in his path. On the right, an old Brahmin (three-quarter view, facing left) leans on his walking staff, blocking the way with a friendly half-smile. Moonlight through the heart-shaped leaves. Both figures full-length, standing on the ground.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      "fx": [
+        {
+          "type": "leaf",
+          "x": 0.6
+        },
+        {
+          "type": "stars",
+          "n": 25
+        }
+      ],
+      "transition": "cut",
+      "image": "images/shots/sh04-v1.png"
+    },
+    {
+      "id": "sh05",
+      "beat": 5,
+      "chars": [
+        "brahmin-krishna",
+        "barbarika"
+      ],
+      "prompt": "Closer shot under the peepal tree at night: the old Brahmin (three-quarter view, facing left), with a playful, teasing expression, points one finger up at the huge canopy of heart-shaped leaves above, mouth open as he speaks. Barbarika is partly visible at the left edge, looking up. Moonlight.",
+      "camera": {
+        "move": "slow-pan-up",
+        "from": 0.0,
+        "to": 0.05
+      },
+      "fx": [
+        {
+          "type": "leaf",
+          "x": 0.4
+        }
+      ],
+      "onScreenText": {
+        "en": "Pierce every leaf!",
+        "hi": "हर पत्ता भेदो!",
+        "style": "speech-bubble",
+        "at": [
+          0.6,
+          0.2
+        ]
+      },
+      "transition": "cut",
+      "image": "images/shots/sh05-v1.png"
+    },
+    {
+      "id": "sh06",
+      "beat": 6,
+      "chars": [
+        "brahmin-krishna"
+      ],
+      "prompt": "Ground-level close-up at night: an old man's bare foot, in an ochre dhoti hem, quietly pressing down on a single heart-shaped peepal leaf with a long pointed tip. Fallen leaves and earth around it, moonlight from above, the dark trunk of the peepal in the background. Secretive mood.",
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      "fx": [
+        {
+          "type": "dust",
+          "n": 15
+        }
+      ],
+      "transition": "cut",
+      "image": "images/shots/sh06-v1.png"
+    },
+    {
+      "id": "sh07",
+      "beat": 7,
+      "chars": [
+        "barbarika"
+      ],
+      "prompt": "Barbarika at the base of the giant peepal tree, bow fully drawn and aimed straight up. Every arrow has a sharp silver metal arrowhead at the front and blue feathers at the back. The arrow has just been released and streaks upward into the canopy, leaving a blue trail; every heart-shaped leaf it passes lights up with a small glowing blue mark, until the whole tree shimmers. Low-angle view looking up the trunk.",
+      "camera": {
+        "move": "crane-up",
+        "from": 0.0,
+        "to": 0.05
+      },
+      "fx": [
+        {
+          "type": "sparks",
+          "n": 40
+        },
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.25,
+          "r": 0.4,
+          "color": "#7FD4FF"
+        }
+      ],
+      "transition": "cut",
+      "image": "images/shots/sh07-v1.png"
+    },
+    {
+      "id": "sh07b",
+      "beat": 7,
+      "at": {
+        "en": "circled",
+        "hi": "घूमने"
+      },
+      "chars": [
+        "brahmin-krishna"
+      ],
+      "prompt": "Ground-level close-up at night: a glowing arrow (Every arrow has a sharp silver metal arrowhead at the front and blue feathers at the back.) circles slowly around an old man's bare foot that is pressing down a single peepal leaf, leaving a ring of blue light around the foot. Fallen leaves on the earth, blue light on the skin.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.6
+        ]
+      },
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.6,
+          "r": 0.25,
+          "color": "#7FD4FF"
+        },
+        {
+          "type": "sparks",
+          "n": 20
+        }
+      ],
+      "transition": "cut",
+      "image": "images/shots/sh07b-v1.png"
+    },
+    {
+      "id": "sh08",
+      "beat": 8,
+      "chars": [
+        "brahmin-krishna"
+      ],
+      "prompt": "Close-up of the old Brahmin's face under the peepal tree at night (three-quarter view, facing left). His calm eyes now glow a deep divine blue, and behind him, faint and translucent in the moonlit air, appears the divine form of Krishna: blue skin, a crown with a peacock feather, a gentle wise face. The Brahmin's expression is serious and knowing. Reverent and mysterious.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.5,
+          0.35
+        ]
+      },
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.3,
+          "r": 0.35,
+          "color": "#5FA2EE"
+        },
+        {
+          "type": "dust",
+          "n": 20
+        }
+      ],
+      "cues": [
+        {
+          "onWord": {
+            "en": "Krishna,",
+            "hi": "कृष्ण"
+          },
+          "do": "burst",
+          "x": 0.5,
+          "y": 0.3
+        }
+      ],
+      "transition": "cut",
+      "image": "images/shots/sh08-v1.png"
+    },
+    {
+      "id": "sh09",
+      "beat": 9,
+      "chars": [
+        "barbarika"
+      ],
+      "prompt": "A vast battlefield seen from above at dusk. In the sky over it, Barbarika appears as a giant translucent figure drawing his bow. On the ground, the army he stands behind surges forward and the other army falls back, a great wave of dust and banners. Dramatic, epic, no blood.",
+      "camera": {
+        "move": "pan-left",
+        "from": 0.0,
+        "to": -0.05
+      },
+      "fx": [
+        {
+          "type": "embers",
+          "n": 40
+        },
+        {
+          "type": "dust",
+          "n": 30,
+          "color": "#E07A2E"
+        }
+      ],
+      "cues": [
+        {
+          "onWord": {
+            "en": "switch,",
+            "hi": "बदलना"
+          },
+          "do": "shake"
+        }
+      ],
+      "transition": "cut",
+      "image": "images/shots/sh09-v1.png"
+    },
+    {
+      "id": "sh09b",
+      "beat": 9,
+      "at": {
+        "en": "until",
+        "hi": "जब"
+      },
+      "chars": [],
+      "prompt": "The same battlefield, now empty and silent under a dark red sky: broken chariot wheels, fallen banners and abandoned weapons, smoke drifting, not a single living soldier left on either side. Symbolic, no bodies, no blood.",
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.1,
+        "to": 1.0,
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      "fx": [
+        {
+          "type": "fog",
+          "color": "#8E2A20"
+        },
+        {
+          "type": "embers",
+          "n": 15
+        }
+      ],
+      "transition": "fade-to-night",
+      "image": "images/shots/sh09b-v1.png"
+    },
+    {
+      "id": "sh10",
+      "beat": 10,
+      "chars": [
+        "brahmin-krishna",
+        "barbarika"
+      ],
+      "prompt": "Dawn under the peepal tree. The old Brahmin (three-quarter view, facing left) stands before Barbarika and extends his open right palm toward him, asking for something; his face is gentle but serious. Barbarika, at the left edge, listens. First golden light on the horizon behind them.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.55,
+          0.4
+        ]
+      },
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.85,
+          "y": 0.2,
+          "color": "#FFD9A0"
+        },
+        {
+          "type": "dust",
+          "n": 20,
+          "color": "#FFE7B0"
+        }
+      ],
+      "transition": "cut",
+      "image": "images/shots/sh10-v1.png"
+    },
+    {
+      "id": "sh11",
+      "beat": 11,
+      "chars": [
+        "barbarika"
+      ],
+      "prompt": "Dawn under the peepal tree: Barbarika kneels on one knee, head bowed, both palms open and raised forward in offering, his longbow laid on the ground before him. His face is calm and peaceful, accepting. Soft golden light falls on him through the leaves. Tender, sacred moment. Nothing violent.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.45
+        ]
+      },
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.6,
+          "y": 0.05,
+          "color": "#FFE7B0"
+        },
+        {
+          "type": "dust",
+          "n": 25,
+          "color": "#FFE7B0"
+        }
+      ],
+      "transition": "flash-white",
+      "image": "images/shots/sh11-v1.png"
+    },
+    {
+      "id": "sh12",
+      "beat": 12,
+      "chars": [
+        "barbarika"
+      ],
+      "prompt": "A lone hilltop under a blood-red sky. In the clouds above the hill, Barbarika's enormous serene face appears, translucent and softly glowing gold, wearing a small gold crown, eyes open, calmly watching. Far below, a vast battle rages as tiny silhouettes, dust and fire. The face emerges from swirling clouds: no neck, only cloud below the chin. Divine and peaceful.",
+      "camera": {
+        "move": "slow-pan-up",
+        "from": 0.0,
+        "to": 0.05
+      },
+      "fx": [
+        {
+          "type": "embers",
+          "n": 40
+        },
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.3,
+          "r": 0.35,
+          "color": "#E8B53A"
+        }
+      ],
+      "transition": "light-wipe",
+      "image": "images/shots/sh12-v1.png"
+    },
+    {
+      "id": "sh13",
+      "beat": 13,
+      "chars": [],
+      "prompt": "Krishna in his true divine form: blue skin, a gold crown with a peacock feather, a yellow silk dhoti, a garland of forest flowers, a gentle compassionate smile, one hand raised in blessing. Golden light flows from his raised palm toward a softly glowing image of Barbarika's serene face in the clouds. Dignified, warm, divine.",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.35
+        ]
+      },
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.25,
+          "color": "#E8B53A"
+        },
+        {
+          "type": "sparks",
+          "n": 25
+        }
+      ],
+      "transition": "cut",
+      "image": "images/shots/sh13-v2.png"
+    },
+    {
+      "id": "sh14",
+      "beat": 14,
+      "chars": [],
+      "prompt": "The sanctum of a Rajasthani temple at dawn (scalloped white marble arch, carved pillars, no onion domes): inside, the sacred image of Khatu Shyam, a dark stone face with large eyes and a tilak, a gold crown with a peacock feather, heavy rose and marigold garlands, brass oil lamps glowing, rose petals on the floor. Devotional and serene, a folk-art interpretation, not a photograph of the real murti. Keep the top quarter calm for a title.",
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.1,
+        "to": 1.0
+      },
+      "fx": [
+        {
+          "type": "flicker"
+        },
+        {
+          "type": "dust",
+          "n": 25,
+          "color": "#FFE7B0"
+        }
+      ],
+      "cues": [
+        {
+          "onWord": {
+            "en": "Khatu",
+            "hi": "खाटू"
+          },
+          "do": "title-in"
+        }
+      ],
+      "onScreenText": {
+        "en": "KHATU SHYAM",
+        "hi": "खाटू श्याम",
+        "style": "title-serif"
+      },
+      "overlay": "folk-art-border",
+      "transition": "cut-to-black",
+      "image": "images/shots/sh14-v1.png"
+    }
+  ],
+  "cleanup": "Gemini images arrive at 1116x2000 with a ✦ watermark at about x995-1075, y1878-1960. Full-bleed shots are cropped to 1052x1870 (x32, y0); framed shots (paper border) to 976x1735 (x70, y70). Originals kept in images/raw/.",
+  "shotNotes": {
+    "sh01": {
+      "palette": "indigo night wash, moon white, tiny gold torch dots"
+    },
+    "sh01b": {
+      "palette": "deep indigo, glowing blue-white, a touch of gold"
+    },
+    "sh02": {
+      "palette": "pale rose and gold dawn, cream mist, his blue and yellow"
+    },
+    "sh02b": {
+      "palette": "saffron and gold light, deep red, paper white glow"
+    },
+    "sh03": {
+      "palette": "half gold, half violet sky, black ink silhouette edges"
+    },
+    "sh04": {
+      "palette": "navy night, moon white, warm skin, ochre and blue",
+      "location": "peepal-night"
+    },
+    "sh05": {
+      "palette": "navy night, moon white, ochre",
+      "location": "peepal-night"
+    },
+    "sh06": {
+      "palette": "navy, moon white, warm skin, one green leaf",
+      "location": "peepal-night"
+    },
+    "sh07": {
+      "palette": "navy night, glowing blue marks, moon white",
+      "location": "peepal-night"
+    },
+    "sh07b": {
+      "palette": "navy, glowing blue ring, warm skin",
+      "location": "peepal-night"
+    },
+    "sh08": {
+      "palette": "navy, divine blue glow, peacock green and gold accents",
+      "location": "peepal-night"
+    },
+    "sh09": {
+      "palette": "blood-orange sky, black ink silhouettes, gold dust"
+    },
+    "sh09b": {
+      "palette": "dark crimson sky, black ink, grey smoke"
+    },
+    "sh10": {
+      "palette": "first gold dawn light, cool blue shadows, ochre",
+      "location": "peepal-night"
+    },
+    "sh11": {
+      "palette": "soft gold and rose dawn, paper white light",
+      "location": "peepal-night"
+    },
+    "sh12": {
+      "palette": "blood red sky, glowing gold face, black ink silhouettes"
+    },
+    "sh13": {
+      "palette": "royal blue, peacock green, gold light, paper white",
+      "history": "v1 rejected 2026-11-12: face did not match Barbarika and Mughal-style domes; v2 approved."
+    },
+    "sh14": {
+      "palette": "warm lamp gold, marigold orange, rose red, white marble"
+    }
+  }
+}

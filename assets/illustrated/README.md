@@ -44,3 +44,6 @@ assets/illustrated/
 | cosmic-court | location | sheet.png | S01E01 (2026-11-07) | S01E01 |
 | hermitage | location | sheet.png | S01E01 (2026-11-07) | S01E01 |
 | stake-hill | location | sheet.png | S01E01 (2026-11-07) | S01E01 |
+| barbarika | character | sheet.png | X001 (2026-11-12) | X001 |
+| brahmin-krishna | character | sheet.png, sheet-facing-left.png | X001 (2026-11-12) | X001 |
+| peepal-night | location | sheet.png | X001 (2026-11-12) | X001 |
