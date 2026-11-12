@@ -1,0 +1,642 @@
+{
+  "id": "X001",
+  "title": {
+    "en": "Barbarika: The Warrior Who Gave His Head",
+    "hi": "बर्बरीक: शीश के दानी"
+  },
+  "format": "short",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "sourceCredit": {
+    "en": "Khatu Shyam tradition (cf. Skanda Purana, Kaumarika Khanda)",
+    "hi": "खाटू श्याम परम्परा (तुलना: स्कन्द पुराण, कौमारिका खण्ड)"
+  },
+  "safeZone": {
+    "bottom": 0.2,
+    "right": 0.12
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "beat": 1,
+      "type": "character",
+      "background": "cliff-night",
+      "characters": [
+        {
+          "id": "barbarika",
+          "pose": "standing-bow",
+          "x": 0.5,
+          "y": 0.8,
+          "scale": 1.0,
+          "flip": false,
+          "action": "breathe",
+          "expression": "calm"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.12,
+        "focus": [
+          0.5,
+          0.42
+        ]
+      },
+      "narration": {
+        "en": "One warrior could have ended the Mahabharata war… with three arrows.",
+        "hi": "एक योद्धा, जो तीन बाणों से महाभारत ख़त्म कर सकते थे…"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "cut",
+      "notes": "HOOK. Lone warrior on the cliff, moon behind his head, two armies with torches below."
+    },
+    {
+      "id": "s02",
+      "beat": 2,
+      "type": "character",
+      "background": "red-sky-plain",
+      "characters": [
+        {
+          "id": "barbarika",
+          "pose": "standing-bow",
+          "x": 0.36,
+          "y": 0.81,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "calm"
+        }
+      ],
+      "props": [
+        {
+          "id": "three-arrows-glow",
+          "x": 0.7,
+          "y": 0.4,
+          "scale": 0.7,
+          "action": "flicker-distant"
+        }
+      ],
+      "camera": {
+        "move": "pan-left",
+        "from": 0.0,
+        "to": -0.04
+      },
+      "narration": {
+        "en": "In the Khatu telling, Bhima's grandson Barbarika won three unfailing arrows from the goddess.",
+        "hi": "खाटू की कथा में, भीम के पोते बर्बरीक को देवी से तीन अचूक बाण मिले।"
+      },
+      "onScreenText": {
+        "en": "BARBARIKA",
+        "hi": "बर्बरीक",
+        "style": "name-tag",
+        "sub": {
+          "en": "Khatu Shyam tradition",
+          "hi": "खाटू श्याम परम्परा"
+        }
+      },
+      "cues": [],
+      "sfx": [],
+      "transition": "dissolve",
+      "notes": "Introduce him and the gift of three unfailing arrows. The name-tag sub is the on-screen source frame (folk telling).",
+      "backgroundVariant": "dawn"
+    },
+    {
+      "id": "s03",
+      "beat": 3,
+      "type": "character",
+      "background": "cliff-night",
+      "characters": [
+        {
+          "id": "barbarika",
+          "pose": "standing-bow",
+          "x": 0.5,
+          "y": 0.8,
+          "scale": 0.9,
+          "flip": false,
+          "action": "breathe",
+          "expression": "confident"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.15,
+        "to": 1.0,
+        "focus": [
+          0.5,
+          0.65
+        ]
+      },
+      "narration": {
+        "en": "And he vowed to always fight for the losing side.",
+        "hi": "और उन्होंने प्रण लिया: हमेशा हारने वाले का साथ दूँगा।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "cut",
+      "notes": "The vow: he looks down at both armies. Pull back to reveal both sides.",
+      "backgroundVariant": "dusk"
+    },
+    {
+      "id": "s04",
+      "beat": 4,
+      "type": "character",
+      "background": "peepal-night",
+      "characters": [
+        {
+          "id": "barbarika",
+          "pose": "standing-bow",
+          "x": 0.3,
+          "y": 0.82,
+          "scale": 0.85,
+          "flip": false,
+          "action": "breathe",
+          "expression": "calm"
+        },
+        {
+          "id": "brahmin-krishna",
+          "pose": "standing-staff-pointing",
+          "x": 0.68,
+          "y": 0.82,
+          "scale": 0.85,
+          "flip": false,
+          "action": "breathe",
+          "expression": "serene"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "Before the war, an old Brahmin stopped him under a peepal tree.",
+        "hi": "युद्ध से पहले, पीपल के नीचे एक बूढ़े ब्राह्मण ने उन्हें रोका।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "cut",
+      "notes": "The old Brahmin (Krishna in disguise) stops him under the peepal. They face each other."
+    },
+    {
+      "id": "s05",
+      "beat": 5,
+      "type": "character",
+      "background": "peepal-night",
+      "characters": [
+        {
+          "id": "barbarika",
+          "pose": "standing-bow",
+          "x": 0.24,
+          "y": 0.98,
+          "scale": 1.15,
+          "flip": false,
+          "action": "breathe",
+          "expression": "calm"
+        },
+        {
+          "id": "brahmin-krishna",
+          "pose": "standing-staff-pointing",
+          "x": 0.72,
+          "y": 0.98,
+          "scale": 1.15,
+          "flip": false,
+          "action": "breathe",
+          "expression": "serene",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-pan-up",
+        "from": 0.0,
+        "to": 0.04
+      },
+      "narration": {
+        "en": "\"Three arrows? Pierce every leaf of this tree.\"",
+        "hi": "\"तीन बाण? इस पेड़ का हर पत्ता भेदो।\""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "cut",
+      "notes": "Closer two-shot. The Brahmin speaks the challenge (lip-sync on the quoted line), pointing at the canopy."
+    },
+    {
+      "id": "s06",
+      "beat": 6,
+      "type": "prop-hero",
+      "background": "peepal-night",
+      "characters": [],
+      "props": [
+        {
+          "id": "foot-on-leaf",
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1.45,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.5,
+          0.75
+        ]
+      },
+      "narration": {
+        "en": "Secretly, he hid one leaf underfoot.",
+        "hi": "और चुपके से एक पत्ता पैर तले दबा लिया।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "cut",
+      "notes": "Close-up: the bare foot pressing one leaf."
+    },
+    {
+      "id": "s07",
+      "beat": 7,
+      "type": "prop-hero",
+      "background": "peepal-night",
+      "characters": [],
+      "props": [
+        {
+          "id": "leaf-glow-marks",
+          "x": 0.5,
+          "y": 0.26,
+          "scale": 1.4,
+          "action": "flicker-distant"
+        },
+        {
+          "id": "foot-on-leaf",
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1.45,
+          "action": "still"
+        },
+        {
+          "id": "glowing-arrow",
+          "x": 0.5,
+          "y": 0.8,
+          "scale": 0.6,
+          "action": "circle"
+        }
+      ],
+      "camera": {
+        "move": "slow-pan-up",
+        "from": 0.0,
+        "to": 0.05
+      },
+      "narration": {
+        "en": "One arrow marked every leaf, then circled his foot.",
+        "hi": "बाण ने हर पत्ता भेदा, फिर पैर के चारों ओर घूमने लगा।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "cut",
+      "notes": "Every leaf marked; the arrow (silver head forward) circles the foot."
+    },
+    {
+      "id": "s08",
+      "beat": 8,
+      "type": "character",
+      "background": "peepal-night",
+      "characters": [
+        {
+          "id": "brahmin-krishna",
+          "pose": "standing-staff-pointing",
+          "x": 0.5,
+          "y": 1.12,
+          "scale": 1.6,
+          "flip": false,
+          "action": "still",
+          "expression": "serene"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      "narration": {
+        "en": "The Brahmin was Krishna, and he saw the danger in that vow.",
+        "hi": "ब्राह्मण, स्वयं कृष्ण थे, और उन्हें उस प्रण में ख़तरा दिखा।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "Krishna",
+            "hi": "कृष्ण"
+          },
+          "do": "eyes-open-glow",
+          "target": "brahmin-krishna"
+        }
+      ],
+      "sfx": [],
+      "transition": "cut",
+      "notes": "The reveal: his eyes glow on 'Krishna'. Dignified, not sinister.",
+      "backgroundVariant": "night"
+    },
+    {
+      "id": "s09",
+      "beat": 9,
+      "type": "prop-hero",
+      "background": "red-sky-plain",
+      "characters": [],
+      "props": [
+        {
+          "id": "battle-silhouettes",
+          "x": 0.5,
+          "y": 0.62,
+          "scale": 1.6,
+          "action": "idle"
+        }
+      ],
+      "camera": {
+        "move": "pan-left",
+        "from": 0.0,
+        "to": -0.06
+      },
+      "narration": {
+        "en": "Any side he joined would start winning… so he'd have to switch, until both armies were gone.",
+        "hi": "जिस पक्ष में जाते, वही जीतने लगता… फिर पक्ष बदलना पड़ता, जब तक दोनों सेनाएँ न मिट जातीं।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "switch",
+            "hi": "बदलना"
+          },
+          "do": "flash"
+        }
+      ],
+      "sfx": [],
+      "transition": "fade-to-night",
+      "notes": "Why Krishna acts: the vow would swing the war back and forth until no one was left. A flash on the switch."
+    },
+    {
+      "id": "s10",
+      "beat": 10,
+      "type": "character",
+      "background": "peepal-night",
+      "characters": [
+        {
+          "id": "brahmin-krishna",
+          "pose": "standing-staff-pointing",
+          "x": 0.5,
+          "y": 1.12,
+          "scale": 1.6,
+          "flip": false,
+          "action": "still",
+          "expression": "serene",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.42
+        ]
+      },
+      "narration": {
+        "en": "So Krishna asked a gift: \"Your head.\"",
+        "hi": "तो कृष्ण ने दान माँगा: \"अपना शीश।\""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "cut",
+      "notes": "Krishna-as-Brahmin asks the gift; lip-sync on the quoted 'Your head'. Dawn grade.",
+      "backgroundVariant": "dawn"
+    },
+    {
+      "id": "s11",
+      "beat": 11,
+      "type": "character",
+      "background": "peepal-night",
+      "characters": [
+        {
+          "id": "barbarika",
+          "pose": "kneeling-offering",
+          "x": 0.6,
+          "y": 0.84,
+          "scale": 1.0,
+          "flip": false,
+          "action": "breathe",
+          "expression": "serene",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "He bowed. \"It's yours. Just let me watch the war.\"",
+        "hi": "बर्बरीक ने सिर झुकाया: \"ले लीजिए, बस युद्ध देखने दीजिए।\""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "flash-white",
+      "notes": "He kneels, palms open, and speaks his one wish. White flash out: the sacrifice is never shown.",
+      "backgroundVariant": "dawn"
+    },
+    {
+      "id": "s12",
+      "beat": 12,
+      "type": "prop-hero",
+      "background": "red-sky-plain",
+      "characters": [],
+      "props": [
+        {
+          "id": "battle-silhouettes",
+          "x": 0.5,
+          "y": 0.7,
+          "scale": 1.6,
+          "action": "idle"
+        },
+        {
+          "id": "barbarika-head-sky",
+          "x": 0.5,
+          "y": 0.3,
+          "scale": 1.3,
+          "action": "flicker-distant"
+        }
+      ],
+      "camera": {
+        "move": "slow-pan-up",
+        "from": 0.0,
+        "to": 0.06
+      },
+      "narration": {
+        "en": "From a hilltop, his head watched all eighteen days.",
+        "hi": "पहाड़ी से उनके शीश ने, अठारह दिन का युद्ध देखा।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "light-wipe",
+      "notes": "His serene, immortal head watches all 18 days from above. No neck, only cloud."
+    },
+    {
+      "id": "s13",
+      "beat": 13,
+      "type": "character",
+      "background": "khatu-shrine",
+      "characters": [],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      "narration": {
+        "en": "Krishna blessed him: \"You'll be worshipped by my name, Shyam.\"",
+        "hi": "कृष्ण का वरदान: \"कलियुग में तुम मेरे नाम, श्याम से पूजे जाओगे।\""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "cut",
+      "notes": "Krishna's blessing heard over the shrine image.",
+      "overlay": "folk-art-border"
+    },
+    {
+      "id": "s14",
+      "beat": 14,
+      "type": "character",
+      "background": "khatu-shrine",
+      "characters": [],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.1,
+        "to": 1.0
+      },
+      "narration": {
+        "en": "Today he's Khatu Shyam: the support of those who lose.",
+        "hi": "आज वही हैं खाटू श्याम, हारे का सहारा।"
+      },
+      "onScreenText": {
+        "en": "KHATU SHYAM",
+        "hi": "खाटू श्याम",
+        "style": "title-serif"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "Khatu",
+            "hi": "खाटू"
+          },
+          "do": "title-in"
+        }
+      ],
+      "sfx": [],
+      "transition": "cut-to-black",
+      "notes": "Payoff: the warrior who could win any war is 'the support of those who lose'.",
+      "overlay": "folk-art-border"
+    }
+  ],
+  "assets": {
+    "characters": [
+      {
+        "id": "barbarika",
+        "status": "library"
+      },
+      {
+        "id": "brahmin-krishna",
+        "status": "library"
+      }
+    ],
+    "backgrounds": [
+      {
+        "id": "cliff-night",
+        "status": "library"
+      },
+      {
+        "id": "red-sky-plain",
+        "status": "library"
+      },
+      {
+        "id": "peepal-night",
+        "status": "library"
+      },
+      {
+        "id": "khatu-shrine",
+        "status": "library"
+      }
+    ],
+    "props": [
+      {
+        "id": "three-arrows-glow",
+        "status": "library"
+      },
+      {
+        "id": "foot-on-leaf",
+        "status": "library"
+      },
+      {
+        "id": "leaf-glow-marks",
+        "status": "library"
+      },
+      {
+        "id": "glowing-arrow",
+        "status": "library"
+      },
+      {
+        "id": "battle-silhouettes",
+        "status": "library"
+      },
+      {
+        "id": "barbarika-head-sky",
+        "status": "library"
+      }
+    ],
+    "overlays": [
+      {
+        "id": "folk-art-border",
+        "status": "library"
+      }
+    ]
+  },
+  "assetNotes": {
+    "unused-from-v1": "ash-arrow, ash-mark-*, chakra, jara-silhouette, reclining-krishna-silhouette, aravan-silhouette stay in the library for a future Skanda Purana or Aravan episode."
+  }
+}
