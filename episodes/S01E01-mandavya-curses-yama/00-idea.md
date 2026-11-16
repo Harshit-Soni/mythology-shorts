@@ -16,7 +16,7 @@
 - [ ] 8 Reviewed (7 days after upload)
 
 ## Open items (as of 2026-11-07)
-- [ ] **Hindi length:** 73.3 s (target ≤ 60). Decide: tighten the Hindi script (beats 1, 5, 13, 14; cuts listed in 02-script.md) and regenerate (~900 credits), speed up ~15%, or keep it.
+- [x] **Hindi length:** 73.3 s (target ≤ 60). Decided 2026-11-16: keep it as is; a small overrun is acceptable.
 - [x] **Detailed cast** (2026-11-08): all 8 characters redrawn as detailed rigs, reviewed (04-asset-review.md), filed and re-rendered in EN + HI.
 - [x] **Vultures redo** (2026-11-08): v3 approved and filed, finals re-rendered.
 - [x] **Sound** (2026-11-09): music bed + 12 effects generated with ElevenLabs, mixed by the studio (`Sound.tsx`), finals re-rendered. Listen on the phone check; bowstring-creak and wind-desolate were very quiet sources (boosted 43 / 27 dB).
