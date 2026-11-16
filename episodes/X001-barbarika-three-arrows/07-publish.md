@@ -27,39 +27,41 @@ The video tells the **Khatu Shyam (folk) story**. The description names that and
 - **Hashtags (the first three show above the title):** #KhatuShyam #Mahabharata #Barbarika #IndianMythology #TheLostGyaan
 - **Playlist:** Indian Mythology · **Pinned comment:** Did you know the Skanda Purana tells this story very differently? There, Barbarika proves his power with one arrow of ash that marks every hero's death-spot, even Krishna's foot. Which version did you grow up with? 👇
 
-## YouTube Shorts: हिंदी (`@thelostgyaan`)
-- **Title:** **तीन बाणों से महाभारत ख़त्म कर सकते थे बर्बरीक** *(≈42)*
-  - Alt A: कृष्ण ने बर्बरीक से शीश क्यों माँगा? 🙏
-  - Alt B: खाटू श्याम की कथा: शीश के दानी बर्बरीक
+## YouTube Shorts: Hindi (`@thelostgyaan`)
+*All Hindi posting copy is written in Roman script (Hinglish), by the owner's choice (2026-11-16). The video itself stays in Devanagari.*
+- **Title:** **Teen Baan Se Mahabharat Khatam Kar Sakte The Barbarik** *(53)*
+  - Alt A: Krishna Ne Barbarik Se Sheesh Kyun Maanga? 🙏
+  - Alt B: Khatu Shyam Ki Katha: Sheesh Ke Daani Barbarik
 - **Description:**
-  > एक योद्धा जो तीन बाणों से महाभारत ख़त्म कर सकते थे… फिर कृष्ण ने उनसे शीश क्यों माँगा? 🏹
-  > भीम के पोते बर्बरीक, जिन्हें आज खाटू श्याम, हारे का सहारा कहते हैं। कथा वैसी, जैसी खाटू (राजस्थान) में सुनाई जाती है; स्कन्द पुराण में यह अलग है (स्रोत नीचे)।
-  > 🙏 खाटू श्याम जन्मोत्सव (देवउठनी एकादशी) पर विशेष। जय श्री श्याम!
+  > Ek yoddha jo teen baan se Mahabharat khatam kar sakte the… phir Krishna ne unse sheesh kyun maanga? 🏹
+  > Bheem ke pote Barbarik, jinhe aaj Khatu Shyam, Haare Ka Sahara kehte hain. Katha waisi, jaisi Khatu (Rajasthan) mein sunaai jaati hai; Skanda Puran mein yeh alag hai (srot neeche).
+  > 🙏 Khatu Shyam Janmotsav (Dev Uthani Ekadashi) par vishesh. Jai Shri Shyam!
   >
-  > 📜 द लॉस्ट ज्ञान: जो इतिहास भूल गया, वो हमें याद है। ऐसी और भूली हुई कथाओं के लिए फ़ॉलो करें।
+  > 📜 The Lost Gyaan: jo itihaas bhool gaya, woh humein yaad hai. Aisi aur bhooli hui kathaon ke liye follow karein.
   > Watch in English: @thelostgyaan_en
   >
-  > **स्रोत**
-  > • खाटू श्याम कथा (लोक परम्परा): https://www.bhaktibharat.com/amp/katha/khatu-shyam-katha
-  > • स्कन्द पुराण, माहेश्वर खण्ड, कौमारिका खण्ड, अध्याय 60–66 (अनु. जी. वी. तगारे), सबसे पुराना लिखित वर्णन, जिसमें कथा अलग है: https://www.wisdomlib.org/hinduism/book/the-skanda-purana/d/doc366053.html
-  > • ध्यान दें: बर्बरीक की कथा व्यास महाभारत में नहीं है; यह स्कन्द पुराण और क्षेत्रीय परम्पराओं से है।
+  > Srot (sources)
+  > • Khatu Shyam katha (lok parampara): https://www.bhaktibharat.com/amp/katha/khatu-shyam-katha
+  > • Skanda Puran, Maheshwar Khand, Kaumarika Khand, adhyay 60–66 (anuvaad: G. V. Tagare), sabse purana likhit varnan, jismein katha alag hai: https://www.wisdomlib.org/hinduism/book/the-skanda-purana/d/doc366053.html
+  > • Dhyaan dein: Barbarik ki katha Vyas Mahabharat mein nahi hai; yeh Skanda Puran aur kshetriya paramparaon se hai.
   >
-  > #खाटूश्याम #महाभारत #बर्बरीक #KhatuShyam #TheLostGyaan
-- **Hashtags:** #खाटूश्याम #महाभारत #बर्बरीक #KhatuShyam #TheLostGyaan
-- **Playlist:** भारतीय पौराणिक कथाएँ · **Pinned comment:** स्कन्द पुराण में यह कथा अलग है: वहाँ बर्बरीक राख से भरे एक बाण से हर योद्धा के मर्म पर निशान लगाते हैं, कृष्ण के तलवे पर भी। आपने कौन-सी कथा सुनी है? 👇 जय श्री श्याम 🙏
+  > #KhatuShyam #Mahabharat #Barbarik #JaiShriShyam #TheLostGyaan
+- **Hashtags:** #KhatuShyam #Mahabharat #Barbarik #JaiShriShyam #TheLostGyaan
+- **Playlist:** Pauranik Kathayein · **Pinned comment:** Skanda Puran mein yeh katha alag hai: wahan Barbarik raakh se bhare ek baan se har yoddha ke marm par nishaan lagate hain, Krishna ke talve par bhi. Aapne kaunsi katha suni hai? 👇 Jai Shri Shyam 🙏
 
-## Instagram Reel: हिंदी (`@thelostgyaan`)
+## Instagram Reel: Hindi (`@thelostgyaan`)
 - **Caption:**
-  > तीन बाणों से महाभारत ख़त्म कर सकते थे… फिर भी शीश दान कर दिया। 🏹
-  > बर्बरीक, भीम के पोते, आज के खाटू श्याम: हारे का सहारा। खाटू श्याम जन्मोत्सव पर उनकी कथा, जैसी खाटू में सुनाई जाती है।
-  > आपने कौन-सी कथा सुनी है? कमेंट में बताइए 👇
-  > ऐसी और भूली हुई कथाओं के लिए फ़ॉलो करें @thelostgyaan (English: @thelostgyaan_en)
-  > जय श्री श्याम 🙏
+  > Teen baan se Mahabharat khatam kar sakte the… phir bhi sheesh daan kar diya. 🏹
+  > Barbarik, Bheem ke pote, aaj ke Khatu Shyam: Haare Ka Sahara. Khatu Shyam Janmotsav par unki katha, jaisi Khatu mein sunaai jaati hai.
+  > Aapne kaunsi katha suni hai? Comment mein bataiye 👇
+  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan (English: @thelostgyaan_en)
+  > Jai Shri Shyam 🙏
   >
-  > #खाटूश्याम #KhatuShyam #Mahabharata #बर्बरीक #TheLostGyaan
+  > #KhatuShyam #Mahabharat #Barbarik #JaiShriShyam #TheLostGyaan
 - **Location:** Khatu Shyam Ji Temple, Khatu, Sikar (Rajasthan)
+- **Audio name:** Khatu Shyam Ki Katha · The Lost Gyaan
 - **Cover:** `render/X001-thumb-hi.png` · **Alt text:** Barbarika, a young warrior with a crown and a quiver of three blue arrows, draws his bow under a full moon.
-- **After posting:** share to Story with a poll: "क्या आपने यह कथा पहले सुनी थी? हाँ / नहीं"
+- **After posting:** share to Story with a poll: "Kya aapne yeh katha pehle suni thi? Haan / Nahi"
 
 ## Instagram Reel: English (`@thelostgyaan_en`)
 - **Caption:**
