@@ -138,7 +138,7 @@ PNG is fine too (transparent background, or flat white for Claude to remove); Cl
 - **Effects:** the light burst, the stamps, the name tags, the law-inscription card, captions and all colour grading.
 
 ## Checklist
-- [ ] Concept round: Kunti + Madri (3 variations), picked in `04-concept-brief.md` → Decisions
+- [x] Concept round: Kunti + Madri, made by Claude from the pandu rig; **C picked** (Kunti veiled, Madri with sash + braid), see `04-concept-brief.md` → Decisions
 - [ ] Batch 1 delivered: kunti ×4, madri ×4, kindama ×2 → reviewed in `04-asset-review.md`
 - [ ] Batch 2 delivered: 3 backgrounds → reviewed; ground lines measured into `assets/backgrounds/GROUND_LINES.md`
 - [x] Claude-made (2026-11-16): Pandu ×3 poses, Arjuna ×1 (placeholder), 11 props, all filed. Scripts: `svg/derive-cast.py`, `svg/make-props.py`. Design change: `removing-crown` shows the crown **held at his chest** (his arms are too short to lift it off cleanly without crossing his face)

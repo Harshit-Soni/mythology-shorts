@@ -26,5 +26,18 @@ Keep the colour keys (maroon and teal) fixed, so they stay easy to tell apart.
 3. Check that they look like they belong next to Pandu, Dharma and Mandavya.
 4. Pick one or combine, with reasons below, and point the brief's batch-1 rows at it.
 
-## Decisions
-*(to be filled in when the concepts arrive)*
+## Decisions (2026-11-16)
+**Made by Claude, not a generator** (at the owner's request): `svg/make-concepts.py` builds both women from the `pandu` rig, so they share the cast's head construction, line weight and joint pivots. The sheets are `svg/concepts/concept-{A,B,C}.svg/.png`, plus `concepts-compared.png`.
+
+| Variation | Kunti | Madri | Verdict |
+|---|---|---|---|
+| A | Ochre sash over one shoulder, low hair knot | Saffron sash, braid over the shoulder | Clean, but at phone size the two differ only by colour and hair |
+| B | Shawl over both shoulders | Same | Reads as a vest; flat and boxy at phone size. Rejected |
+| **C** | **Ochre uttariya drawn over her head as a veil** | **Saffron sash + braid** (as A) | **Chosen** |
+
+**Why C:**
+1. The veil makes Kunti read as the elder queen at a glance and gives the two women different silhouettes (veil vs braid), not just different colours. That matters in s06, s09 and s11, where they share the frame.
+2. Madri's open hair and braid keep her younger and lighter, matching the brief.
+3. Both stay modest (bodice to the waist, ankle-length antariya) with no gold, per Adi §119.
+
+**Known limits:** the faces come from Pandu's head (the jaw and nose are his). Kohl eyes, arched brows, lips, a bindi and the hair make them read as women at phone size, but a generator or a later hand-redraw could soften the jaw. Because they're built on the rig, Claude can also make their **poses** (the arms are posable) without waiting for batch 1.
