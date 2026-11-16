@@ -37,6 +37,7 @@ Lessons from making and publishing episodes. One line per lesson, with the episo
 ## Voice
 - ElevenLabs free tier: the shared queue is often busy. Generate one take at a time and retry later; failed takes aren't charged. (S01E01)
 - Pause-based alignment (`voice:import ... auto`) worked well for beats separated by paragraph breaks: all pauses were accounted for in EN and HI. (S01E01)
+- Captions must come from Scribe word times, never the `auto` pause-based import: on S01E02 the estimated words lagged the voice by up to 1.4 s (EN) and 1.7 s (HI), and the user noticed at once. *(S01E02)*
 
 - ElevenLabs sound effects arrive at wildly different levels (peaks from 0 to −46 dBFS), and the music bed is quiet (~−27 dBFS average). Always bring them in with `npm run sound:import` (normalises them) before setting mix volumes. (S01E01)
 - Free-tier queue: send all pending sound nodes in **one** run call. Whatever gets a slot runs and the rest cost nothing; one call let all 10 effects through after many failed tries. Effects cost 7–33 credits each, not the 50 estimated; a 75 s music bed costs 1,125. (S01E01)
