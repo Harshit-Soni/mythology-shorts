@@ -42,7 +42,7 @@ export const EndCard: React.FC<{ lang: Lang }> = ({ lang }) => {
         <div style={{ padding: '14px 40px', borderRadius: 60, border: `3px solid ${COLORS.gold}`, background: 'rgba(14,13,34,0.55)',
           font: `600 42px ${sansFont(lang)}`, color: COLORS.parchment, display: 'flex', gap: 16, alignItems: 'baseline' }}>
           <span>{BRAND.cta[lang]}</span>
-          <span style={{ color: COLORS.gold, fontFamily: sansFont('en') }}>{BRAND.handle}</span>
+          <span style={{ color: COLORS.gold, fontFamily: sansFont('en') }}>{BRAND.handle[lang]}</span>
         </div>
       </div>
       <Grain amount={0.1} frame={f} />
