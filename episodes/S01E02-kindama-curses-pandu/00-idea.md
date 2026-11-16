@@ -7,8 +7,8 @@
 
 ## Status
 - [x] 1 Research (verified by me)
-- [ ] 2 Script (read aloud, EN + HI)
-- [ ] 3 Storyboard
+- [x] 2 Script (read aloud, EN + HI)
+- [x] 3 Storyboard
 - [ ] 4 Assets
 - [ ] 5 Voice
 - [ ] 6 Render (watched on phone, sound on + off)
