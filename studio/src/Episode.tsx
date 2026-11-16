@@ -2,7 +2,9 @@ import React, { useMemo } from 'react';
 import { AbsoluteFill, Audio, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import { Captions } from './components/Captions';
 import { SceneView } from './components/SceneView';
+import { EndCard } from './components/EndCard';
 import { Sound } from './components/Sound';
+import { BRAND } from './lib/brand';
 import { EPISODES } from './generated/data';
 import { buildTimeline } from './lib/timing';
 import type { EpisodeProps } from './lib/types';
@@ -19,6 +21,8 @@ export const Episode: React.FC<EpisodeProps> = ({ episodeId, lang, debug }) => {
   const audio = entry.audio[lang];
   const t = frame / fps;
   const last = tl.segments[tl.segments.length - 1];
+  const storyFrames = Math.ceil(tl.total * fps) + 6;
+  const endFrames = endCardFrames(entry.spec, fps);
 
   return (
     <AbsoluteFill style={{ background: '#000' }}>
@@ -37,8 +41,13 @@ export const Episode: React.FC<EpisodeProps> = ({ episodeId, lang, debug }) => {
         );
       })}
       <Captions words={tl.words} t={t} lang={lang} />
+      {endFrames > 0 && (
+        <Sequence from={storyFrames} durationInFrames={endFrames} name="end-card">
+          <EndCard lang={lang} />
+        </Sequence>
+      )}
       {last?.scene.transition === 'cut-to-black' && (
-        <AbsoluteFill style={{ background: '#000', opacity: interpolate(frame, [durationInFrames - 14, durationInFrames - 1], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }) }} />
+        <AbsoluteFill style={{ background: '#000', opacity: interpolate(frame, [storyFrames - 14, storyFrames - 1], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }), display: frame < storyFrames ? undefined : 'none' }} />
       )}
       {audio && <Audio src={staticFile(audio.file)} />}
       <Sound spec={entry.spec} tl={tl} lang={lang} fps={fps} total={durationInFrames / fps} />
@@ -57,5 +66,8 @@ const Flash: React.FC = () => {
   return <AbsoluteFill style={{ background: '#fff', opacity: interpolate(f, [0, 8], [0.9, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }) }} />;
 };
 
+// The channel end card closes every video unless an episode sets "endCard": false.
+export const endCardFrames = (spec: { endCard?: boolean }, fps: number) => (spec.endCard === false ? 0 : Math.round(BRAND.endCardSec * fps));
+
 export const episodeDuration = (episodeId: string, lang: 'en' | 'hi', fps: number) =>
-  Math.ceil(buildTimeline(EPISODES[episodeId], lang).total * fps) + 6;
+  Math.ceil(buildTimeline(EPISODES[episodeId], lang).total * fps) + 6 + endCardFrames(EPISODES[episodeId].spec, fps);

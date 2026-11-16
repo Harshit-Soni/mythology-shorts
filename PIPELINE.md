@@ -91,6 +91,12 @@ npm run studio                            live preview in the browser (Remotion 
 
 **Illustrated version** (painted stills, `illustrated/03-shots.json`): add `--variant illustrated`, e.g. `npm run render -- S01E01 en --variant illustrated --final` → `render/S01E01-illustrated-en.mp4`. It uses the same voice, beats and captions as the cut-out version. Each shot's `image` is shown cover-fit with its `camera` move, ambient `fx` (dust, embers, sparks, stars, rays, glow, fog, flicker, leaf, birds), word `cues` (`burst`, `shake`, `dim`, `write-on`, `title-in`, `stamp-next`), `onScreenText` and `overlay`. A shot with `at` starts on that word of its beat; `kind: "scene"` reuses a cut-out scene (the sting); `kind: "split"` shows two shots' images side by side; `baseScale` zooms in to crop a painted border.
 
+**Channel end card (every video, automatic):** the last 2 seconds of every render, in both versions, are The Lost Gyaan's end card: the emblem, the name, the tagline and "Follow @thelostgyaan", in the video's language, over the end of the music. The wording lives in `studio/src/lib/brand.ts` and the emblem in `assets/brand/`. An episode turns it off only with `"endCard": false` in `03-scenes.json`.
+
+**Finish (cut-out version):** set `grade`, per-scene `light` and `fx` as in `STYLE_GUIDE.md` → Finish.
+
+**Thumbnail / cover:** add a `thumbnail` block to `03-scenes.json` (`scene`, `at` 0..1 within it, `series`, `title`, optional `titleLines` and `lift`), then run `npm run render -- X001 en --thumbnail` (and `hi`) → `render/X001-thumb-en.png`. Add `--scene s14` to try another scene as the background. The text stays inside the centre 4:5 area that Instagram's grid shows. Upload it as the YouTube Shorts thumbnail and the Instagram cover.
+
 **GATE:** Watch both versions all the way through on your phone with the sound **on** and then **off**. Captions alone should carry the story.
 
 ## Stage 7: Publish

@@ -120,6 +120,10 @@ for (const kind of ['backgrounds', 'props', 'overlays']) {
   }
 }
 
+// ---- channel brand (end card, thumbnails): copied as is ----
+const brandDir = path.join(ROOT, 'assets', 'brand');
+if (fs.existsSync(brandDir)) fs.cpSync(brandDir, path.join(OUT_ASSETS, 'brand'), { recursive: true });
+
 // ---- sound library: sound effects and music beds ----
 for (const kind of ['sfx', 'music']) {
   const dir = path.join(ROOT, 'assets', kind);

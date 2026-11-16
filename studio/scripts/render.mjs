@@ -5,6 +5,7 @@
 //   npm run render -- S01E01 en --scene s09      just one scene
 //   npm run render -- S01E01 en --stills         one PNG per scene (mid-scene) for quick review
 //   add --variant illustrated                    the painted-stills version (illustrated/03-shots.json)
+//   npm run render -- S01E01 en --thumbnail      the cover image (03-scenes.json "thumbnail"; --scene picks another scene)
 import { spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -47,7 +48,13 @@ const final = flag('final');
 const props = JSON.stringify({ episodeId: ep, lang, debug: !final });
 const rem = (a) => run('npx', ['remotion', ...a, `--props=${props}`]);
 
-if (flag('stills')) {
+if (flag('thumbnail')) {
+  if (!entry.spec.thumbnail) { console.error(`${ep}: add "thumbnail" to 03-scenes.json first`); process.exit(1); }
+  const scene = opt('scene');
+  const out = path.join(outDir, `${ep}-thumb-${lang}${scene ? `-${scene}` : ''}.png`);
+  run('npx', ['remotion', 'still', 'src/index.ts', `${ep}-thumb-${lang}`, out, `--props=${JSON.stringify({ episodeId: ep, lang, ...(scene ? { scene } : {}) })}`]);
+  console.log(`thumbnail → ${out}`);
+} else if (flag('stills')) {
   const dir = path.join(outDir, `stills${tag}-${lang}`);
   fs.mkdirSync(dir, { recursive: true });
   for (const s of tl.segments) {

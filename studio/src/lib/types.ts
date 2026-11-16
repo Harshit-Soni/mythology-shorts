@@ -68,6 +68,9 @@ export type Scene = {
   notes?: string;
 };
 
+// Thumbnail (Thumbnail.tsx): a frame from one scene plus the series label and the title.
+export type ThumbSpec = { scene: string; at?: number; lift?: number; series: L10n; title: L10n; titleLines?: { en?: string[]; hi?: string[] } };
+
 // Episode-wide finish for the cut-out version (opt-in): film grain, vignette, contact shadows.
 export type Grade = { grain?: number; vignette?: number; shadows?: boolean };
 
@@ -84,6 +87,8 @@ export type EpisodeSpec = {
   assets?: unknown;
   sound?: SoundSpec;
   grade?: Grade;
+  endCard?: boolean; // the channel end card (EndCard.tsx) closes every video unless false
+  thumbnail?: ThumbSpec;
   assetNotes?: unknown;
 };
 

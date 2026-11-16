@@ -1370,5 +1370,27 @@
     "grain": 0.12,
     "vignette": 0.45,
     "shadows": true
+  },
+  "thumbnail": {
+    "scene": "s01",
+    "at": 0.6,
+    "series": {
+      "en": "Indian Mythology",
+      "hi": "Indian Mythology"
+    },
+    "title": {
+      "en": "Khatu Shyam Ki Katha",
+      "hi": "खाटू श्याम की कथा"
+    },
+    "titleLines": {
+      "en": [
+        "Khatu Shyam",
+        "Ki Katha"
+      ],
+      "hi": [
+        "खाटू श्याम",
+        "की कथा"
+      ]
+    }
   }
 }

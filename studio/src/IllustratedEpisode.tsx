@@ -2,7 +2,9 @@ import React, { useMemo } from 'react';
 import { AbsoluteFill, Audio, interpolate, Sequence, staticFile, useCurrentFrame, useVideoConfig } from 'remotion';
 import { Captions } from './components/Captions';
 import { ShotView } from './components/ShotView';
+import { EndCard } from './components/EndCard';
 import { Sound } from './components/Sound';
+import { endCardFrames } from './Episode';
 import { EPISODES } from './generated/data';
 import { buildShotTimeline } from './lib/shotTiming';
 import { buildTimeline } from './lib/timing';
@@ -23,6 +25,8 @@ export const IllustratedEpisode: React.FC<EpisodeProps> = ({ episodeId, lang, de
   const byId = useMemo(() => new Map((entry.shots?.shots ?? []).map((s) => [s.id, s])), [entry]);
   const audio = entry.audio[lang];
   const last = tl.segments[tl.segments.length - 1];
+  const storyFrames = Math.ceil(tl.total * fps) + 6;
+  const endFrames = endCardFrames(entry.spec, fps);
 
   return (
     <AbsoluteFill style={{ background: '#000' }}>
@@ -41,8 +45,13 @@ export const IllustratedEpisode: React.FC<EpisodeProps> = ({ episodeId, lang, de
         );
       })}
       <Captions words={tl.words} t={frame / fps} lang={lang} />
+      {endFrames > 0 && (
+        <Sequence from={storyFrames} durationInFrames={endFrames} name="end-card">
+          <EndCard lang={lang} />
+        </Sequence>
+      )}
       {last?.shot.transition === 'cut-to-black' && (
-        <AbsoluteFill style={{ background: '#000', opacity: interpolate(frame, [durationInFrames - 14, durationInFrames - 1], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }) }} />
+        <AbsoluteFill style={{ background: '#000', opacity: interpolate(frame, [storyFrames - 14, storyFrames - 1], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }), display: frame < storyFrames ? undefined : 'none' }} />
       )}
       {audio && <Audio src={staticFile(audio.file)} />}
       {/* same sound plan as the cut-out version (03-scenes.json: sound, scene sfx and music levels) */}
@@ -63,4 +72,4 @@ const Flash: React.FC = () => {
 };
 
 export const illustratedDuration = (episodeId: string, lang: 'en' | 'hi', fps: number) =>
-  Math.ceil(buildShotTimeline(EPISODES[episodeId], lang, buildTimeline(EPISODES[episodeId], lang)).total * fps) + 6;
+  Math.ceil(buildShotTimeline(EPISODES[episodeId], lang, buildTimeline(EPISODES[episodeId], lang)).total * fps) + 6 + endCardFrames(EPISODES[episodeId].spec, fps);
