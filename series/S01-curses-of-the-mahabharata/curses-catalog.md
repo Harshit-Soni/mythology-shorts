@@ -9,7 +9,7 @@ Every notable *shaapa* (curse) in the Mahabharata, in the order the epic tells i
 
 **Fit** (for this pipeline): ★★★ few characters, reuses the library, one clear twist · ★★ needs new cast or a set · ★ hard (transformation, crowds, cosmic scale), or better in the illustrated version.
 
-Status: ✅ made · 📋 in the S01 plan · 💡 new candidate.
+Status: 🎬 made (see `episodes/INDEX.md` for publish state) · 📋 in the S01 plan · 💡 new candidate.
 
 ---
 
@@ -29,7 +29,7 @@ Status: ✅ made · 📋 in the S01 plan · 💡 new candidate.
 | 10 | **Yayati** → **his sons Yadu and others** | They refused to take on his old age | Their lines lose the right to rule | Yadu's descendants (Krishna's Yadavas) are never crowned emperors | Epic, Sambhava Parva | ★★ | 💡 |
 | 11 | **Brahma** → **King Mahabhisha** | In Brahma's court he stared at Ganga when her garment slipped | Be born on earth | He is born as **King Shantanu**, Bhishma's father | Epic, Sambhava Parva | ★★★ | 💡 |
 | 12 | **Vasishtha** → **the eight Vasus** | Dyu, urged by his wife, stole Vasishtha's wish-cow Nandini; the others helped | Be born as mortals | Ganga drowns seven of them at birth to free them; Dyu lives a long, childless life as **Bhishma** | Epic, Sambhava Parva | ★★★ | 💡 |
-| 13 | **Ani-Mandavya** → **Dharma** | Impaled on a stake for a theft he didn't commit, because as a child he had pierced an insect | Be born as a human, of a servant woman | Dharma is born as **Vidura** | Epic, Sambhava Parva | ★★★ | ✅ E01 |
+| 13 | **Ani-Mandavya** → **Dharma** | Impaled on a stake for a theft he didn't commit, because as a child he had pierced an insect | Be born as a human, of a servant woman | Dharma is born as **Vidura** | Epic, Sambhava Parva | ★★★ | 🎬 E01 (made, not published; HI 73 s, over length) |
 | 14 | **Kindama** (a sage in the form of a deer) → **King Pandu** | Pandu shot him while he was mating with his wife | Pandu will die the moment he lies with a woman | Pandu renounces the throne; the Pandavas are born through Kunti's mantra; Pandu dies with Madri | Epic, Sambhava Parva | ★★★ | 📋 E02 |
 | 15 | **Shakti** (Vasishtha's son) → **King Kalmashapada** | The king lashed him with a whip on a narrow path | Become a man-eating rakshasa | He eats Shakti and Vasishtha's other sons; Vasishtha later frees him | Epic (frame), Chaitraratha Parva | ★ (transformation, dark) | 💡 |
 | 16 | **A Brahmin woman** → **Kalmashapada** | As a rakshasa he ate her husband | He will die if he lies with his wife | Vasishtha fathers his heir, Ashmaka | Epic (frame), Chaitraratha Parva | ★ | 💡 |
