@@ -3,10 +3,12 @@ import { AbsoluteFill, interpolate, useCurrentFrame } from 'remotion';
 import { MANIFEST } from '../generated/data';
 import { camera, camTransform } from '../lib/motion';
 import { cueTime, type Segment } from '../lib/timing';
-import type { Lang } from '../lib/types';
+import type { Grade, Lang } from '../lib/types';
 import { Background, BackgroundFront } from './Background';
 import { Character, resolvePose } from './Character';
 import { Effects, type FiredCue } from './Effects';
+import { ContactShadows, Grain, LIGHT, Vignette } from './Grade';
+import { MotionFx } from './MotionFx';
 import { OnScreenText } from './OnScreenText';
 import { Overlay } from './Overlay';
 import { Prop } from './Prop';
@@ -14,9 +16,9 @@ import { Prop } from './Prop';
 const clamp = { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' } as const;
 const CODE_PROPS = new Set(['shaap-stamp', 'seal-stamp', 'falling-light', 'stake-tip-glint']);
 
-type Props = { seg: Segment; lang: Lang; fps: number; debug: boolean; estimated: boolean };
+type Props = { seg: Segment; lang: Lang; fps: number; debug: boolean; estimated: boolean; grade?: Grade };
 
-export const SceneView: React.FC<Props> = ({ seg, lang, fps, debug, estimated }) => {
+export const SceneView: React.FC<Props> = ({ seg, lang, fps, debug, estimated, grade }) => {
   const frame = useCurrentFrame();
   const sc = seg.scene;
   const sec = frame / fps;
@@ -50,13 +52,16 @@ export const SceneView: React.FC<Props> = ({ seg, lang, fps, debug, estimated })
   };
   const speakingNow = seg.words.some((w) => w.inQuote && abs >= w.start && abs < w.end);
 
+  // scene light (Grade.tsx), per item so a character or prop can override it
+  const lightOf = (own?: string) => { const k = own ?? sc.light; return k && k !== 'none' ? LIGHT[k] : undefined; };
+
   const cam = camera(sc.camera, p, sec);
   const sepia = sc.overlay === 'sepia-folk-frame';
 
   // draw back-to-front by baseline y
   const items = [
     ...sc.props.map((pr) => ({ y: pr.y, el: (
-      <Prop key={`p-${pr.id}-${pr.x}`} prop={pr} sec={sec} p={p} fps={fps} debug={debug}
+      <Prop key={`p-${pr.id}-${pr.x}`} prop={pr} sec={sec} p={p} fps={fps} debug={debug} filter={lightOf(pr.light)}
         hasCue={(sc.cues ?? []).some((c) => c.target === pr.id)}
         reaction={(() => {
           const f = fired.find((x) => x.target === pr.id) ?? (pr.action === 'scatter' ? fired.find((x) => x.kind === 'spill') : undefined);
@@ -65,7 +70,7 @@ export const SceneView: React.FC<Props> = ({ seg, lang, fps, debug, estimated })
     ) })),
     ...sc.characters.map((c, i) => ({ y: c.y, el: (
       <Character key={`c-${c.id}-${i}`} ref_={c} frame={frame + i * 37} sec={sec} p={p} debug={debug}
-        talking={!!c.speaking && speakingNow} filter={charFilter(c.id)} shakeX={shakeX(c.id)} />
+        talking={!!c.speaking && speakingNow} filter={[lightOf(c.light), charFilter(c.id)].filter(Boolean).join(' ') || undefined} shakeX={shakeX(c.id)} />
     ) })),
   ].sort((a, b) => a.y - b.y);
 
@@ -79,10 +84,14 @@ export const SceneView: React.FC<Props> = ({ seg, lang, fps, debug, estimated })
     <AbsoluteFill style={{ overflow: 'hidden', background: '#000' }}>
       <AbsoluteFill style={{ transform: camTransform(cam), transformOrigin: cam.origin, filter: sepia ? 'sepia(0.85) contrast(0.95) brightness(1.05)' : undefined }}>
         <Background id={sc.background} variant={sc.backgroundVariant} debug={debug} backOnly={!!sc.frontLayer} />
+        {grade?.shadows && <ContactShadows chars={sc.characters} />}
         {items.map((x) => x.el)}
         {sc.frontLayer && <BackgroundFront id={sc.background} variant={sc.backgroundVariant} />}
+        {sc.fx && <MotionFx fx={sc.fx} sec={sec} />}
         <Effects fired={fired} chars={sc.characters} />
       </AbsoluteFill>
+      {grade?.vignette ? <Vignette amount={grade.vignette} /> : null}
+      {grade?.grain ? <Grain amount={grade.grain} frame={frame} /> : null}
       {sc.overlay && <Overlay id={sc.overlay} inset={sc.id === 's00' ? interpolate(sec, [0, 0.4], [0, 1], clamp) : 1} />}
       {sc.onScreenText && (
         <OnScreenText ost={sc.onScreenText} lang={lang} sec={sec} dur={dur} fps={fps} chars={sc.characters} titleAt={titleAt} writeEndAt={writeEndAt} stampAt={stampAt} />

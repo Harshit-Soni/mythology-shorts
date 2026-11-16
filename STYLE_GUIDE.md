@@ -12,6 +12,9 @@
 - **Backgrounds:** gradient sky plus 2–3 parallax layers (far, mid, ground). No outlines on far layers.
 - **Divine figures** get a gold halo or chakra element (`#E8B53A`) with a soft glow.
 - **Motion:** slow parallax, gentle character "breathing" (1–2% scale), blinks, small gestures. Avoid fast or jittery motion; it should feel like a storybook.
+- **Detail bar for characters** (learned from the 2026-11-15 comparison with The Knowledge Stream): the S01E01 rigs are the minimum standard, with draped dhoti folds, two or three shading tones plus highlights, jewellery and named joint groups. A plain block-shaped puppet doesn't pass. For a new character, **derive from an existing rig first** (recolour by body part, swap the face, hair and marks, add props; see `episodes/X001-*/svg/derive-cast.py`). Draw from scratch only when no body fits. Crowds and armies are existing rigs in `silhouette` light, which hides repeated faces.
+- **Composition:** the subject fills 50–70% of the frame height. Use centred, temple-like tableaux for divine moments, two-shots facing each other for dialogue, and close-ups (feet, hands, a face) for story details instead of separate simplified props. No large empty sky above small figures.
+- **Finish (cut-out version):** every episode sets a top-level `grade` in `03-scenes.json` (`{"grain": 0.12, "vignette": 0.45, "shadows": true}`). Each scene sets a `light` matching its background (`night`, `moon`, `dusk`, `dawn`, `fire`, `silhouette`, `divine`), which grades the characters and adds a rim light (a character or prop can override it with its own `light`, e.g. a glowing divine figure over armies in silhouette), plus ambient `fx` (`stars`, `fog`, `rays`, `glow`, `embers`, `dust`, `sparks`, `flicker`). Keep rays for reveals and divine moments only.
 - **Chapter cards** (for longer pieces): roman numeral plus a serif title inside a folk-art border.
 
 ### Palette (draft, adjust after the pilot)

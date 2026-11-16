@@ -12,9 +12,10 @@ export type CharRef = {
   action?: string;
   variant?: string;
   speaking?: boolean; // flaps mouth during quoted narration
+  light?: string; // overrides the scene light for this character (Grade.tsx LIGHT)
 };
 
-export type PropRef = { id: string; x: number; y: number; scale: number; action?: string };
+export type PropRef = { id: string; x: number; y: number; scale: number; action?: string; light?: string };
 
 export type Cue = { onWord: L10n; do: string; target?: string; notes?: string };
 
@@ -62,8 +63,13 @@ export type Scene = {
   overlay?: string;
   fixedDurationSec?: number;
   frontLayer?: boolean; // draw the background's layer-front over the characters
+  fx?: FxSpec[]; // ambient motion (MotionFx: stars, fog, rays, glow, embers, dust...) inside the camera
+  light?: string; // scene light on characters and props: night | dusk | dawn | fire | divine (see Grade.tsx)
   notes?: string;
 };
+
+// Episode-wide finish for the cut-out version (opt-in): film grain, vignette, contact shadows.
+export type Grade = { grain?: number; vignette?: number; shadows?: boolean };
 
 export type EpisodeSpec = {
   id: string;
@@ -77,6 +83,7 @@ export type EpisodeSpec = {
   safeZone?: { bottom: number; right: number };
   assets?: unknown;
   sound?: SoundSpec;
+  grade?: Grade;
   assetNotes?: unknown;
 };
 

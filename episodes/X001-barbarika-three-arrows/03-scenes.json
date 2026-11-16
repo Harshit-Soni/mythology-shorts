@@ -25,23 +25,21 @@
       "characters": [
         {
           "id": "barbarika",
-          "pose": "standing-bow",
+          "pose": "drawing-bow",
           "x": 0.5,
-          "y": 0.8,
-          "scale": 1.0,
-          "flip": false,
-          "action": "breathe",
-          "expression": "calm"
+          "y": 0.9,
+          "scale": 1.35,
+          "action": "breathe"
         }
       ],
       "props": [],
       "camera": {
         "move": "slow-zoom-in",
         "from": 1.0,
-        "to": 1.12,
+        "to": 1.1,
         "focus": [
           0.5,
-          0.42
+          0.38
         ]
       },
       "narration": {
@@ -66,7 +64,21 @@
         }
       ],
       "transition": "cut",
-      "notes": "HOOK. Lone warrior on the cliff, moon behind his head, two armies with torches below."
+      "notes": "HOOK. Lone warrior on the cliff, moon behind his head, two armies with torches below.",
+      "light": "moon",
+      "fx": [
+        {
+          "type": "stars",
+          "n": 45
+        },
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.32,
+          "r": 0.5,
+          "color": "#BFD0FF"
+        }
+      ]
     },
     {
       "id": "s02",
@@ -76,13 +88,11 @@
       "characters": [
         {
           "id": "barbarika",
-          "pose": "standing-bow",
+          "pose": "drawing-bow",
           "x": 0.36,
-          "y": 0.81,
-          "scale": 0.95,
-          "flip": false,
-          "action": "breathe",
-          "expression": "calm"
+          "y": 0.92,
+          "scale": 1.25,
+          "action": "breathe"
         }
       ],
       "props": [
@@ -125,7 +135,28 @@
       ],
       "transition": "dissolve",
       "notes": "Introduce him and the gift of three unfailing arrows. The name-tag sub is the on-screen source frame (folk telling).",
-      "backgroundVariant": "dawn"
+      "backgroundVariant": "dawn",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.72,
+          "y": 0.36,
+          "color": "#BFD8FF"
+        },
+        {
+          "type": "glow",
+          "x": 0.72,
+          "y": 0.36,
+          "r": 0.28,
+          "color": "#8FB8FF",
+          "pulse": true
+        },
+        {
+          "type": "dust",
+          "n": 25
+        }
+      ]
     },
     {
       "id": "s03",
@@ -135,13 +166,11 @@
       "characters": [
         {
           "id": "barbarika",
-          "pose": "standing-bow",
+          "pose": "folded-hands",
           "x": 0.5,
-          "y": 0.8,
-          "scale": 0.9,
-          "flip": false,
-          "action": "breathe",
-          "expression": "confident"
+          "y": 0.92,
+          "scale": 1.35,
+          "action": "breathe"
         }
       ],
       "props": [],
@@ -173,7 +202,22 @@
       "transition": "cut",
       "notes": "The vow: he looks down at both armies. Pull back to reveal both sides.",
       "backgroundVariant": "dusk",
-      "music": 1.15
+      "music": 1.15,
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.36,
+          "r": 0.42,
+          "color": "#E07A2E",
+          "pulse": true
+        },
+        {
+          "type": "embers",
+          "n": 22
+        }
+      ]
     },
     {
       "id": "s04",
@@ -183,23 +227,20 @@
       "characters": [
         {
           "id": "barbarika",
-          "pose": "standing-bow",
+          "pose": "folded-hands",
           "x": 0.3,
-          "y": 0.82,
-          "scale": 0.85,
-          "flip": false,
-          "action": "breathe",
-          "expression": "calm"
+          "y": 0.9,
+          "scale": 1.08,
+          "action": "breathe"
         },
         {
           "id": "brahmin-krishna",
-          "pose": "standing-staff-pointing",
-          "x": 0.68,
-          "y": 0.82,
-          "scale": 0.85,
-          "flip": false,
-          "action": "breathe",
-          "expression": "serene"
+          "pose": "standing-calm",
+          "x": 0.71,
+          "y": 0.9,
+          "scale": 1.08,
+          "flip": true,
+          "action": "breathe"
         }
       ],
       "props": [],
@@ -227,7 +268,19 @@
       ],
       "transition": "cut",
       "notes": "The old Brahmin (Krishna in disguise) stops him under the peepal. They face each other.",
-      "music": 0.9
+      "music": 0.9,
+      "light": "night",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 28,
+          "color": "#E8F4B0"
+        },
+        {
+          "type": "fog",
+          "color": "#9FB3D9"
+        }
+      ]
     },
     {
       "id": "s05",
@@ -237,23 +290,20 @@
       "characters": [
         {
           "id": "barbarika",
-          "pose": "standing-bow",
+          "pose": "folded-hands",
           "x": 0.24,
-          "y": 0.98,
-          "scale": 1.15,
-          "flip": false,
-          "action": "breathe",
-          "expression": "calm"
+          "y": 1.0,
+          "scale": 1.3,
+          "action": "breathe"
         },
         {
           "id": "brahmin-krishna",
-          "pose": "standing-staff-pointing",
-          "x": 0.72,
-          "y": 0.98,
-          "scale": 1.15,
-          "flip": false,
+          "pose": "asking-hand-out",
+          "x": 0.76,
+          "y": 1.0,
+          "scale": 1.3,
+          "flip": true,
           "action": "breathe",
-          "expression": "serene",
           "speaking": true
         }
       ],
@@ -272,20 +322,37 @@
       "sfx": [],
       "transition": "cut",
       "notes": "Closer two-shot. The Brahmin speaks the challenge (lip-sync on the quoted line), pointing at the canopy.",
-      "music": 0.8
+      "music": 0.8,
+      "light": "night",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 28,
+          "color": "#E8F4B0"
+        }
+      ]
     },
     {
       "id": "s06",
       "beat": 6,
       "type": "prop-hero",
       "background": "peepal-night",
-      "characters": [],
+      "characters": [
+        {
+          "id": "brahmin-krishna",
+          "pose": "standing-calm",
+          "x": 0.252,
+          "y": 0.844,
+          "scale": 3.2,
+          "action": "still"
+        }
+      ],
       "props": [
         {
-          "id": "foot-on-leaf",
-          "x": 0.5,
-          "y": 0.5,
-          "scale": 1.45,
+          "id": "peepal-leaf-ground",
+          "x": 0.53,
+          "y": 0.835,
+          "scale": 0.75,
           "action": "still"
         }
       ],
@@ -294,8 +361,8 @@
         "from": 1.0,
         "to": 1.1,
         "focus": [
-          0.5,
-          0.75
+          0.52,
+          0.8
         ]
       },
       "narration": {
@@ -313,32 +380,49 @@
       ],
       "transition": "cut",
       "notes": "Close-up: the bare foot pressing one leaf.",
-      "music": 0.6
+      "music": 0.6,
+      "light": "night",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 20,
+          "color": "#E8F4B0"
+        }
+      ]
     },
     {
       "id": "s07",
       "beat": 7,
       "type": "prop-hero",
       "background": "peepal-night",
-      "characters": [],
+      "characters": [
+        {
+          "id": "brahmin-krishna",
+          "pose": "standing-calm",
+          "x": 0.252,
+          "y": 0.844,
+          "scale": 3.2,
+          "action": "still"
+        }
+      ],
       "props": [
         {
           "id": "leaf-glow-marks",
           "x": 0.5,
-          "y": 0.26,
-          "scale": 1.4,
+          "y": 0.2,
+          "scale": 1.2,
           "action": "flicker-distant"
         },
         {
-          "id": "foot-on-leaf",
-          "x": 0.5,
-          "y": 0.5,
-          "scale": 1.45,
+          "id": "peepal-leaf-ground",
+          "x": 0.53,
+          "y": 0.835,
+          "scale": 0.75,
           "action": "still"
         },
         {
           "id": "glowing-arrow",
-          "x": 0.5,
+          "x": 0.53,
           "y": 0.8,
           "scale": 0.6,
           "action": "circle"
@@ -375,7 +459,23 @@
       ],
       "transition": "cut",
       "notes": "Every leaf marked; the arrow (silver head forward) circles the foot.",
-      "music": 1.0
+      "music": 1.0,
+      "fx": [
+        {
+          "type": "sparks",
+          "n": 26,
+          "color": "#BFD8FF"
+        },
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.5,
+          "r": 0.35,
+          "color": "#8FB8FF",
+          "pulse": true
+        }
+      ],
+      "light": "night"
     },
     {
       "id": "s08",
@@ -385,13 +485,12 @@
       "characters": [
         {
           "id": "brahmin-krishna",
-          "pose": "standing-staff-pointing",
+          "pose": "standing-calm",
           "x": 0.5,
           "y": 1.12,
           "scale": 1.6,
-          "flip": false,
-          "action": "still",
-          "expression": "serene"
+          "flip": true,
+          "action": "still"
         }
       ],
       "props": [],
@@ -432,20 +531,232 @@
       "transition": "cut",
       "notes": "The reveal: his eyes glow on 'Krishna'. Dignified, not sinister.",
       "backgroundVariant": "night",
-      "music": 0.9
+      "music": 0.9,
+      "light": "divine",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.28,
+          "color": "#FFE7B0"
+        },
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.28,
+          "r": 0.45,
+          "color": "#E8B53A",
+          "pulse": true
+        }
+      ]
     },
     {
       "id": "s09",
       "beat": 9,
       "type": "prop-hero",
       "background": "red-sky-plain",
-      "characters": [],
+      "characters": [
+        {
+          "id": "guard",
+          "pose": "pointing",
+          "x": 0.05,
+          "y": 0.7,
+          "scale": 0.32,
+          "action": "breathe"
+        },
+        {
+          "id": "pandu",
+          "pose": "drawing-bow",
+          "x": 0.13,
+          "y": 0.7,
+          "scale": 0.32,
+          "action": "breathe"
+        },
+        {
+          "id": "guard",
+          "pose": "pulling",
+          "x": 0.21,
+          "y": 0.7,
+          "scale": 0.32,
+          "action": "breathe",
+          "variant": "b"
+        },
+        {
+          "id": "guard",
+          "pose": "dragging",
+          "x": 0.29,
+          "y": 0.7,
+          "scale": 0.32,
+          "action": "breathe"
+        },
+        {
+          "id": "guard",
+          "pose": "pointing",
+          "x": 0.37,
+          "y": 0.7,
+          "scale": 0.32,
+          "action": "breathe"
+        },
+        {
+          "id": "pandu",
+          "pose": "drawing-bow",
+          "x": 0.63,
+          "y": 0.7,
+          "scale": 0.32,
+          "action": "breathe",
+          "flip": true,
+          "variant": "b"
+        },
+        {
+          "id": "guard",
+          "pose": "pulling",
+          "x": 0.71,
+          "y": 0.7,
+          "scale": 0.32,
+          "action": "breathe",
+          "flip": true
+        },
+        {
+          "id": "guard",
+          "pose": "dragging",
+          "x": 0.79,
+          "y": 0.7,
+          "scale": 0.32,
+          "action": "breathe",
+          "flip": true
+        },
+        {
+          "id": "guard",
+          "pose": "pointing",
+          "x": 0.87,
+          "y": 0.7,
+          "scale": 0.32,
+          "action": "breathe",
+          "flip": true,
+          "variant": "b"
+        },
+        {
+          "id": "pandu",
+          "pose": "drawing-bow",
+          "x": 0.95,
+          "y": 0.7,
+          "scale": 0.32,
+          "action": "breathe",
+          "flip": true
+        },
+        {
+          "id": "guard",
+          "pose": "pulling",
+          "x": 0.03,
+          "y": 0.77,
+          "scale": 0.45,
+          "action": "breathe"
+        },
+        {
+          "id": "guard",
+          "pose": "dragging",
+          "x": 0.15,
+          "y": 0.77,
+          "scale": 0.45,
+          "action": "breathe",
+          "variant": "b"
+        },
+        {
+          "id": "guard",
+          "pose": "pointing",
+          "x": 0.27,
+          "y": 0.77,
+          "scale": 0.45,
+          "action": "breathe"
+        },
+        {
+          "id": "pandu",
+          "pose": "drawing-bow",
+          "x": 0.39,
+          "y": 0.77,
+          "scale": 0.45,
+          "action": "breathe"
+        },
+        {
+          "id": "guard",
+          "pose": "pulling",
+          "x": 0.61,
+          "y": 0.77,
+          "scale": 0.45,
+          "action": "breathe",
+          "flip": true,
+          "variant": "b"
+        },
+        {
+          "id": "guard",
+          "pose": "dragging",
+          "x": 0.73,
+          "y": 0.77,
+          "scale": 0.45,
+          "action": "breathe",
+          "flip": true
+        },
+        {
+          "id": "guard",
+          "pose": "pointing",
+          "x": 0.85,
+          "y": 0.77,
+          "scale": 0.45,
+          "action": "breathe",
+          "flip": true
+        },
+        {
+          "id": "pandu",
+          "pose": "drawing-bow",
+          "x": 0.97,
+          "y": 0.77,
+          "scale": 0.45,
+          "action": "breathe",
+          "flip": true,
+          "variant": "b"
+        },
+        {
+          "id": "guard",
+          "pose": "pulling",
+          "x": 0.09,
+          "y": 0.89,
+          "scale": 0.64,
+          "action": "breathe"
+        },
+        {
+          "id": "guard",
+          "pose": "dragging",
+          "x": 0.31,
+          "y": 0.89,
+          "scale": 0.64,
+          "action": "breathe"
+        },
+        {
+          "id": "guard",
+          "pose": "pointing",
+          "x": 0.69,
+          "y": 0.89,
+          "scale": 0.64,
+          "action": "breathe",
+          "flip": true,
+          "variant": "b"
+        },
+        {
+          "id": "pandu",
+          "pose": "drawing-bow",
+          "x": 0.91,
+          "y": 0.89,
+          "scale": 0.64,
+          "action": "breathe",
+          "flip": true
+        }
+      ],
       "props": [
         {
           "id": "battle-silhouettes",
           "x": 0.5,
-          "y": 0.62,
-          "scale": 1.6,
+          "y": 0.6,
+          "scale": 1.3,
           "action": "idle"
         }
       ],
@@ -485,7 +796,22 @@
       ],
       "transition": "fade-to-night",
       "notes": "Why Krishna acts: the vow would swing the war back and forth until no one was left. A flash on the switch.",
-      "music": 1.2
+      "music": 1.2,
+      "light": "silhouette",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 40
+        },
+        {
+          "type": "dust",
+          "n": 20,
+          "color": "#FFB070"
+        },
+        {
+          "type": "flicker"
+        }
+      ]
     },
     {
       "id": "s10",
@@ -495,13 +821,12 @@
       "characters": [
         {
           "id": "brahmin-krishna",
-          "pose": "standing-staff-pointing",
-          "x": 0.5,
+          "pose": "asking-hand-out",
+          "x": 0.58,
           "y": 1.12,
           "scale": 1.6,
-          "flip": false,
+          "flip": true,
           "action": "still",
-          "expression": "serene",
           "speaking": true
         }
       ],
@@ -525,7 +850,21 @@
       "transition": "cut",
       "notes": "Krishna-as-Brahmin asks the gift; lip-sync on the quoted 'Your head'. Dawn grade.",
       "backgroundVariant": "dawn",
-      "music": 0.4
+      "music": 0.4,
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.3,
+          "r": 0.45,
+          "color": "#E8B53A"
+        },
+        {
+          "type": "dust",
+          "n": 20
+        }
+      ]
     },
     {
       "id": "s11",
@@ -535,13 +874,11 @@
       "characters": [
         {
           "id": "barbarika",
-          "pose": "kneeling-offering",
-          "x": 0.6,
-          "y": 0.84,
-          "scale": 1.0,
-          "flip": false,
+          "pose": "folded-hands",
+          "x": 0.5,
+          "y": 0.92,
+          "scale": 1.35,
           "action": "breathe",
-          "expression": "serene",
           "speaking": true
         }
       ],
@@ -574,28 +911,239 @@
       "transition": "flash-white",
       "notes": "He kneels, palms open, and speaks his one wish. White flash out: the sacrifice is never shown.",
       "backgroundVariant": "dawn",
-      "music": 0.35
+      "music": 0.35,
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.3,
+          "r": 0.45,
+          "color": "#E8B53A",
+          "pulse": true
+        },
+        {
+          "type": "dust",
+          "n": 24
+        }
+      ]
     },
     {
       "id": "s12",
       "beat": 12,
       "type": "prop-hero",
       "background": "red-sky-plain",
-      "characters": [],
+      "characters": [
+        {
+          "id": "guard",
+          "pose": "pointing",
+          "x": 0.04,
+          "y": 0.79,
+          "scale": 0.2,
+          "action": "breathe"
+        },
+        {
+          "id": "pandu",
+          "pose": "drawing-bow",
+          "x": 0.1,
+          "y": 0.79,
+          "scale": 0.2,
+          "action": "breathe"
+        },
+        {
+          "id": "guard",
+          "pose": "pulling",
+          "x": 0.16,
+          "y": 0.79,
+          "scale": 0.2,
+          "action": "breathe",
+          "variant": "b"
+        },
+        {
+          "id": "guard",
+          "pose": "dragging",
+          "x": 0.22,
+          "y": 0.79,
+          "scale": 0.2,
+          "action": "breathe"
+        },
+        {
+          "id": "guard",
+          "pose": "pointing",
+          "x": 0.28,
+          "y": 0.79,
+          "scale": 0.2,
+          "action": "breathe"
+        },
+        {
+          "id": "pandu",
+          "pose": "drawing-bow",
+          "x": 0.34,
+          "y": 0.79,
+          "scale": 0.2,
+          "action": "breathe",
+          "variant": "b"
+        },
+        {
+          "id": "guard",
+          "pose": "pulling",
+          "x": 0.4,
+          "y": 0.79,
+          "scale": 0.2,
+          "action": "breathe"
+        },
+        {
+          "id": "guard",
+          "pose": "dragging",
+          "x": 0.6,
+          "y": 0.79,
+          "scale": 0.2,
+          "action": "breathe",
+          "flip": true
+        },
+        {
+          "id": "guard",
+          "pose": "pointing",
+          "x": 0.66,
+          "y": 0.79,
+          "scale": 0.2,
+          "action": "breathe",
+          "flip": true,
+          "variant": "b"
+        },
+        {
+          "id": "pandu",
+          "pose": "drawing-bow",
+          "x": 0.72,
+          "y": 0.79,
+          "scale": 0.2,
+          "action": "breathe",
+          "flip": true
+        },
+        {
+          "id": "guard",
+          "pose": "pulling",
+          "x": 0.78,
+          "y": 0.79,
+          "scale": 0.2,
+          "action": "breathe",
+          "flip": true
+        },
+        {
+          "id": "guard",
+          "pose": "dragging",
+          "x": 0.84,
+          "y": 0.79,
+          "scale": 0.2,
+          "action": "breathe",
+          "flip": true,
+          "variant": "b"
+        },
+        {
+          "id": "guard",
+          "pose": "pointing",
+          "x": 0.9,
+          "y": 0.79,
+          "scale": 0.2,
+          "action": "breathe",
+          "flip": true
+        },
+        {
+          "id": "pandu",
+          "pose": "drawing-bow",
+          "x": 0.96,
+          "y": 0.79,
+          "scale": 0.2,
+          "action": "breathe",
+          "flip": true
+        },
+        {
+          "id": "guard",
+          "pose": "pulling",
+          "x": 0.07,
+          "y": 0.86,
+          "scale": 0.28,
+          "action": "breathe",
+          "variant": "b"
+        },
+        {
+          "id": "guard",
+          "pose": "dragging",
+          "x": 0.17,
+          "y": 0.86,
+          "scale": 0.28,
+          "action": "breathe"
+        },
+        {
+          "id": "guard",
+          "pose": "pointing",
+          "x": 0.27,
+          "y": 0.86,
+          "scale": 0.28,
+          "action": "breathe"
+        },
+        {
+          "id": "pandu",
+          "pose": "drawing-bow",
+          "x": 0.37,
+          "y": 0.86,
+          "scale": 0.28,
+          "action": "breathe",
+          "variant": "b"
+        },
+        {
+          "id": "guard",
+          "pose": "pulling",
+          "x": 0.63,
+          "y": 0.86,
+          "scale": 0.28,
+          "action": "breathe",
+          "flip": true
+        },
+        {
+          "id": "guard",
+          "pose": "dragging",
+          "x": 0.73,
+          "y": 0.86,
+          "scale": 0.28,
+          "action": "breathe",
+          "flip": true
+        },
+        {
+          "id": "guard",
+          "pose": "pointing",
+          "x": 0.83,
+          "y": 0.86,
+          "scale": 0.28,
+          "action": "breathe",
+          "flip": true,
+          "variant": "b"
+        },
+        {
+          "id": "pandu",
+          "pose": "drawing-bow",
+          "x": 0.93,
+          "y": 0.86,
+          "scale": 0.28,
+          "action": "breathe",
+          "flip": true
+        }
+      ],
       "props": [
         {
           "id": "battle-silhouettes",
           "x": 0.5,
           "y": 0.7,
-          "scale": 1.6,
+          "scale": 1.3,
           "action": "idle"
         },
         {
           "id": "barbarika-head-sky",
           "x": 0.5,
-          "y": 0.3,
-          "scale": 1.3,
-          "action": "flicker-distant"
+          "y": 0.31,
+          "scale": 2.3,
+          "action": "flicker-distant",
+          "light": "divine"
         }
       ],
       "camera": {
@@ -618,7 +1166,22 @@
       ],
       "transition": "light-wipe",
       "notes": "His serene, immortal head watches all 18 days from above. No neck, only cloud.",
-      "music": 1.2
+      "music": 1.2,
+      "light": "silhouette",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 30
+        },
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.3,
+          "r": 0.35,
+          "color": "#E8B53A",
+          "pulse": true
+        }
+      ]
     },
     {
       "id": "s13",
@@ -655,7 +1218,22 @@
       "transition": "cut",
       "notes": "Krishna's blessing heard over the shrine image.",
       "overlay": "folk-art-border",
-      "music": 1.0
+      "music": 1.0,
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.45,
+          "r": 0.5,
+          "color": "#E8B53A",
+          "pulse": true
+        },
+        {
+          "type": "dust",
+          "n": 30,
+          "color": "#FFE7B0"
+        }
+      ]
     },
     {
       "id": "s14",
@@ -697,7 +1275,20 @@
       "transition": "cut-to-black",
       "notes": "Payoff: the warrior who could win any war is 'the support of those who lose'.",
       "overlay": "folk-art-border",
-      "music": 1.1
+      "music": 1.1,
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.42,
+          "color": "#FFE7B0"
+        },
+        {
+          "type": "dust",
+          "n": 30,
+          "color": "#FFE7B0"
+        }
+      ]
     }
   ],
   "assets": {
@@ -774,5 +1365,10 @@
       "fadeOutSec": 1.5
     },
     "sfxVolume": 0.8
+  },
+  "grade": {
+    "grain": 0.12,
+    "vignette": 0.45,
+    "shadows": true
   }
 }

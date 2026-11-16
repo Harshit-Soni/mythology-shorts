@@ -30,7 +30,7 @@ export const Episode: React.FC<EpisodeProps> = ({ episodeId, lang, debug }) => {
         return (
           <Sequence key={`${seg.scene.id}-${i}`} from={from} durationInFrames={Math.max(1, to - from + out)} name={seg.scene.id}>
             <FadeIn active={fadeIn}>
-              <SceneView seg={seg} lang={lang} fps={fps} debug={debug} estimated={tl.estimated} />
+              <SceneView seg={seg} lang={lang} fps={fps} debug={debug} estimated={tl.estimated} grade={entry.spec.grade} />
             </FadeIn>
             {i > 0 && tl.segments[i - 1].scene.transition === 'flash-white' && <Flash />}
           </Sequence>

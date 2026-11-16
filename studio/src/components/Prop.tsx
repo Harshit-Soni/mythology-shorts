@@ -14,9 +14,9 @@ const CODE_PROPS = new Set(['shaap-stamp', 'seal-stamp', 'falling-light', 'stake
 
 export type PropReaction = { kind: string; t: number } | null; // t = seconds since cue fired
 
-type Props = { prop: PropRef; sec: number; p: number; fps: number; reaction: PropReaction; hasCue: boolean; debug: boolean };
+type Props = { prop: PropRef; sec: number; p: number; fps: number; reaction: PropReaction; hasCue: boolean; debug: boolean; filter?: string };
 
-export const Prop: React.FC<Props> = ({ prop, sec, p, fps, reaction, hasCue, debug }) => {
+export const Prop: React.FC<Props> = ({ prop, sec, p, fps, reaction, hasCue, debug, filter }) => {
   const a = action(prop.action, p, sec, hash(prop.id) % 5);
   const file = MANIFEST.props[prop.id] ?? MANIFEST.overlays[prop.id];
   let rot = a.rot;
@@ -46,7 +46,7 @@ export const Prop: React.FC<Props> = ({ prop, sec, p, fps, reaction, hasCue, deb
   const cy = (prop.y + dy) * H;
   const style = (w: number, h: number): React.CSSProperties => ({
     position: 'absolute', left: cx - w / 2, top: cy - h / 2, width: w, height: h,
-    transform: `rotate(${rot}deg) scale(${scale})`, opacity,
+    transform: `rotate(${rot}deg) scale(${scale})`, opacity, filter,
   });
 
   if (file) {

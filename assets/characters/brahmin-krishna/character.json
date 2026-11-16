@@ -1,15 +1,40 @@
 {
   "id": "brahmin-krishna",
-  "name": { "en": "The Brahmin (Krishna in disguise)", "hi": "ब्राह्मण (वेश बदले कृष्ण)" },
+  "name": {
+    "en": "The Brahmin (Krishna in disguise)",
+    "hi": "ब्राह्मण (वेश बदले कृष्ण)"
+  },
   "role": "Krishna disguised as an old Brahmin who tests Barbarika (Khatu folk telling)",
   "divine": true,
-  "appearsIn": ["X001"],
-  "look": "Elderly Brahmin; warm medium-brown skin (not blue: the disguise holds); long white beard; white hair in a small knot; white Vaishnava namam with a red centre line; ochre dhoti; cream angavastram; tulsi beads; wooden walking staff; bare feet.",
+  "appearsIn": [
+    "X001"
+  ],
+  "look": "Elderly Brahmin; warm brown skin (not blue: the disguise holds); long white hair in a knot; white beard; white Vaishnava namam (urdhva pundra) with a red centre; sacred thread; cream dhoti; tulsi-wood mala; bare feet.",
   "sourceNotes": "Disguise as a Brahmin is from the Khatu folk telling (bhaktibharat katha). The namam is a design hint at who he really is.",
-  "poses": ["standing-staff-pointing"],
-  "expressions": ["serene"],
-  "files": { "standing-staff-pointing": { "serene": "standing-staff-pointing__serene.svg" } },
-  "facing": "left",
-  "palette": { "skin": "#A8754A", "dhoti": "#C9772E", "beard": "#F2EEE6" },
-  "notes": "Drawn by Claude as hand-written SVG for X001. Head at translate(484 338); eyes take the eyes-open-glow cue for the Krishna reveal. No halo by design (he is in disguise)."
+  "poses": [
+    "standing-calm",
+    "asking-hand-out"
+  ],
+  "expressions": [
+    "serene"
+  ],
+  "files": {
+    "standing-calm": {
+      "serene": "standing-calm__serene.svg"
+    },
+    "asking-hand-out": {
+      "serene": "asking-hand-out__serene.svg"
+    }
+  },
+  "facing": "per pose, see facingByPose",
+  "palette": {
+    "skin": "#CF8D55",
+    "dhoti": "#F4ECD8",
+    "hair": "#F2EEE6"
+  },
+  "notes": "Detailed rig derived (2026-11-15) from the S01E01 rigs mandavya/standing-calm and mandavya/cursing-hand-raised by episodes/X001-barbarika-three-arrows/svg/derive-cast.py: white hair and beard, cream dhoti, tulsi mala, the Shaiva tripundra swapped for a Vaishnava namam, mouth closed. Both poses face right: flip when he stands on the right. No halo by design (he is in disguise). The first hand-drawn version is in episodes/X001-barbarika-three-arrows/svg/review/v1-characters/.",
+  "facingByPose": {
+    "standing-calm": "right",
+    "asking-hand-out": "right"
+  }
 }

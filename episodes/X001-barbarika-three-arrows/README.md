@@ -21,7 +21,11 @@ X001-barbarika-three-arrows/
 ├─ svg/
 │  ├─ 04-asset-brief.md   brief for the SVG puppets, backgrounds, props (all drawn by Claude as SVG)
 │  ├─ 04-concept-brief.md concept notes (skipped: no generator)
-│  └─ 04-asset-review.md  review of every asset, fixes made
+│  ├─ 04-asset-review.md  review of every asset, fixes made
+│  ├─ derive-cast.py      v2 cast (2026-11-15): Barbarika, the Brahmin and the sky-head derived
+│  │                      from the S01E01 rigs (Pandu, the king, Mandavya), recoloured and re-marked
+│  └─ review/             v1-characters/ and v1-props/ (the first hand-drawn puppets and sky-head,
+│                         replaced by v2) and before-after-v1-v2.png
 │     library: assets/characters/{barbarika,brahmin-krishna}, assets/backgrounds, assets/props
 │
 │  VERSION 2: ILLUSTRATED (rendered: EN ≈60 s, HI ≈61 s)

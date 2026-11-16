@@ -38,6 +38,11 @@ export const HEAD: Record<string, [number, number]> = {
   'thief:running': [335, 351],
   'thief:captured': [456, 323],
   'pandu:drawing-bow': [493, 495],
+  // X001 cast, derived from the rigs above (same face positions)
+  'barbarika:drawing-bow': [493, 495],
+  'barbarika:folded-hands': [544, 323],
+  'brahmin-krishna:standing-calm': [556, 293],
+  'brahmin-krishna:asking-hand-out': [556, 293],
   default: [500, 312],
 };
 export const HAND: Record<string, [number, number]> = {

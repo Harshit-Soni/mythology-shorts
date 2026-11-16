@@ -1,18 +1,42 @@
 {
   "id": "barbarika",
-  "name": { "en": "Barbarika (Khatu Shyam)", "hi": "बर्बरीक (खाटू श्याम)" },
+  "name": {
+    "en": "Barbarika (Khatu Shyam)",
+    "hi": "बर्बरीक (खाटू श्याम)"
+  },
   "role": "Ghatotkacha's son, Bhima's grandson; boasted he could end the war in one muhurta; his head watched the war; worshipped as Khatu Shyam",
   "divine": false,
-  "appearsIn": ["X001"],
-  "look": "Young warrior, about 18-20; warm brown skin (#9A6440); thick curly black hair in a high topknot with a gold band; vertical saffron-and-red tilak; gold ear studs; yellow sash; deep-blue dhoti with a front pleat; leather forearm guards; longbow; quiver with exactly three blue-fletched arrows.",
-  "sourceNotes": "Named for his hair 'like that of a Barbara' (Skanda Purana, Kaumarika Khanda 60.62-68). Three arrows are from the Khatu folk tradition. Everything else is a design choice. Worshipped today: keep him noble and gentle.",
-  "poses": ["standing-bow", "kneeling-offering"],
-  "expressions": ["calm", "confident", "serene"],
+  "appearsIn": [
+    "X001"
+  ],
+  "look": "Young warrior-prince; deep brown skin; long black hair under a tall gold crown (Khatu Shyam's shrine iconography is crowned); gold earrings, armlets and necklace; saffron sash; Shyam-blue dhoti; longbow; quiver with exactly three blue-fletched arrows.",
+  "sourceNotes": "Named for his hair 'like that of a Barbara' (Skanda Purana, Kaumarika Khanda 60.62-68). Three arrows are from the Khatu folk tradition. Everything else is a design choice. Worshipped today: keep him noble and gentle. The crown replaces the earlier topknot: his 'Barbara-like' hair now shows only as long hair under it.",
+  "poses": [
+    "drawing-bow",
+    "folded-hands"
+  ],
+  "expressions": [
+    "focused",
+    "serene"
+  ],
   "files": {
-    "standing-bow": { "calm": "standing-bow__calm.svg", "confident": "standing-bow__confident.svg" },
-    "kneeling-offering": { "serene": "kneeling-offering__serene.svg" }
+    "drawing-bow": {
+      "focused": "drawing-bow__focused.svg"
+    },
+    "folded-hands": {
+      "serene": "folded-hands__serene.svg"
+    }
   },
-  "facing": "right",
-  "palette": { "skin": "#9A6440", "dhoti": "#2E4F8F", "sash": "#F2C230", "gold": "#E8B53A" },
-  "notes": "Drawn by Claude as hand-written SVG for X001 (no external generator). Head at translate(500 330). The sky-head prop (props/barbarika-head-sky.svg) reuses this head in translucent gold with a small crown."
+  "facing": "per pose, see facingByPose",
+  "palette": {
+    "skin": "#A86B40",
+    "dhoti": "#34589C",
+    "sash": "#E07A2E",
+    "gold": "#E8B53A"
+  },
+  "notes": "Detailed rig derived (2026-11-15) from the S01E01 rigs pandu/drawing-bow and king/folded-hands by episodes/X001-barbarika-three-arrows/svg/derive-cast.py: recoloured by body part, moustache hidden, quiver added. Keeps the source joint groups and data-pivot attributes. The first hand-drawn version is in episodes/X001-barbarika-three-arrows/svg/review/v1-characters/. The sky-head prop (props/barbarika-head-sky.svg) is made from the folded-hands rig's head by the same script; v1 is in svg/review/v1-props/.",
+  "facingByPose": {
+    "drawing-bow": "right",
+    "folded-hands": "right"
+  }
 }
