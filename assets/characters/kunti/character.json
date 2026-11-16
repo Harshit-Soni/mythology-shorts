@@ -1,0 +1,46 @@
+{
+  "id": "kunti",
+  "name": {
+    "en": "Kunti",
+    "hi": "कुन्ती"
+  },
+  "role": "Pandu's elder wife; mother of Yudhishthira, Bhima and Arjuna (and Karna)",
+  "look": "About 30, composed and strong. Warm medium-brown skin. Cream bodice and antariya with a maroon border; an ochre uttariya worn over her head as a veil. Red thread, bindi, no gold.",
+  "sourceNotes": "Born Pritha of the Yadavas, adopted by Kuntibhoja (Adi §111). The veil and colours are design choices (concept C).",
+  "poses": [
+    "standing-sad",
+    "folded-hands",
+    "holding-baby",
+    "holding-back"
+  ],
+  "expressions": [
+    "sad",
+    "hopeful",
+    "joyful",
+    "grieving"
+  ],
+  "palette": {
+    "skin": "#D29A68",
+    "garment": "#F3EEDF",
+    "border": "#8E2A20",
+    "uttariya": "#C98A2E"
+  },
+  "appearsIn": [
+    "S01E02"
+  ],
+  "divine": false,
+  "facing": "per pose, see facingByPose (ear rule)",
+  "notes": "Built from the pandu rig (same head construction and joint pivots; legs hidden under the antariya) by episodes/S01E02-kindama-curses-pandu/svg/make-women.py, concept C. All poses face right; mirror in the scene with flip. No gold: Pandu gave his wives' ornaments away (Adi §119).",
+  "files": {
+    "standing-sad": "standing-sad.svg",
+    "folded-hands": "folded-hands.svg",
+    "holding-baby": "holding-baby.svg",
+    "holding-back": "holding-back.svg"
+  },
+  "facingByPose": {
+    "standing-sad": "right",
+    "folded-hands": "right",
+    "holding-baby": "right",
+    "holding-back": "right"
+  }
+}

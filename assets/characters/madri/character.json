@@ -1,0 +1,46 @@
+{
+  "id": "madri",
+  "name": {
+    "en": "Madri",
+    "hi": "माद्री"
+  },
+  "role": "Pandu's younger wife; mother of Nakula and Sahadeva",
+  "look": "About 22, gentle but determined. Lighter warm skin. Cream bodice and antariya with a teal border; a saffron uttariya over one shoulder; a long braid. Red thread, bindi, no gold.",
+  "sourceNotes": "Princess of the Madras (Adi §124–125). The text says she resisted Pandu at his death (§125): nothing in her design suggests otherwise.",
+  "poses": [
+    "standing-sad",
+    "holding-twins",
+    "turning-away",
+    "walking"
+  ],
+  "expressions": [
+    "sad",
+    "joyful",
+    "afraid",
+    "resolute"
+  ],
+  "palette": {
+    "skin": "#E3B48A",
+    "garment": "#F3EEDF",
+    "border": "#2E6B4F",
+    "uttariya": "#E07A2E"
+  },
+  "appearsIn": [
+    "S01E02"
+  ],
+  "divine": false,
+  "facing": "per pose, see facingByPose (ear rule)",
+  "notes": "Built from the pandu rig (same head construction and joint pivots; legs hidden under the antariya) by episodes/S01E02-kindama-curses-pandu/svg/make-women.py, concept C. All poses face right; mirror in the scene with flip. No gold: Pandu gave his wives' ornaments away (Adi §119).",
+  "files": {
+    "standing-sad": "standing-sad.svg",
+    "holding-twins": "holding-twins.svg",
+    "turning-away": "turning-away.svg",
+    "walking": "walking.svg"
+  },
+  "facingByPose": {
+    "standing-sad": "right",
+    "holding-twins": "right",
+    "turning-away": "body right, head looking back left (mirrored head)",
+    "walking": "right"
+  }
+}

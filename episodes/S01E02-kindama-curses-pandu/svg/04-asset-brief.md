@@ -139,7 +139,8 @@ PNG is fine too (transparent background, or flat white for Claude to remove); Cl
 
 ## Checklist
 - [x] Concept round: Kunti + Madri, made by Claude from the pandu rig; **C picked** (Kunti veiled, Madri with sash + braid), see `04-concept-brief.md` → Decisions
-- [ ] Batch 1 delivered: kunti ×4, madri ×4, kindama ×2 → reviewed in `04-asset-review.md`
+- [x] Kunti ×4 and Madri ×4 poses: **made by Claude** from concept C (`svg/make-women.py`), filed 2026-11-16, checked in the scene stills
+- [ ] Batch 1 (generator): kindama ×2 → reviewed in `04-asset-review.md`
 - [ ] Batch 2 delivered: 3 backgrounds → reviewed; ground lines measured into `assets/backgrounds/GROUND_LINES.md`
 - [x] Claude-made (2026-11-16): Pandu ×3 poses, Arjuna ×1 (placeholder), 11 props, all filed. Scripts: `svg/derive-cast.py`, `svg/make-props.py`. Design change: `removing-crown` shows the crown **held at his chest** (his arms are too short to lift it off cleanly without crossing his face)
 - [ ] All filed into the library with `character.json` (`appearsIn: S01E02`)
