@@ -48,14 +48,14 @@ Written 2026-11-16. Treat it as a starting plan to test: after 4 weeks, let each
 
 ### YouTube Shorts
 - **Title (≤ 60 characters, the main search signal):** the hook, not a label. Name the famous person or epic in the first 3–4 words. Pattern: *[famous name] + [surprising fact or question]*. "He Could End the Mahabharata War With 3 Arrows" beats "The Story of Barbarika".
-- **Hindi titles in Devanagari** (most Hindi searches are typed or spoken in Devanagari); Roman Hinglish only as a test variant.
+- **Hindi titles in Roman script (Hinglish)**, like all Hindi posting copy (owner's choice, 2026-11-16). The video itself stays in Devanagari.
 - **Description:**
   1. Line 1 restates the hook with the main keywords (it shows in search).
   2. Lines 2–3: who it's about, which telling we follow.
   3. The series line + "Follow for the next lost story".
   4. Sources (our trust advantage; viewers notice).
   5. 3–5 hashtags at the end. **The first three appear above the title**, so put the strongest three first.
-- **Hashtag mix (3–5):** 1 big (#Mahabharata, #IndianMythology), 1–2 specific (#KhatuShyam, #Barbarika), 1 brand (#TheLostGyaan), then #Shorts. Hindi Shorts: Devanagari tags first (#महाभारत #खाटूश्याम), one Roman tag.
+- **Hashtag mix (3–5):** 1 big (#Mahabharata, #IndianMythology), 1–2 specific (#KhatuShyam, #Barbarika), 1 brand (#TheLostGyaan), then #Shorts. Hindi Shorts: Roman tags (#Mahabharat #KhatuShyam).
 - **Pinned comment:** a question that invites a version debate ("Which telling did you grow up with?"). Comments count as engagement.
 - **Add to the series playlist** at upload, and set "Related video" to the previous episode of the series.
 

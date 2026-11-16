@@ -21,7 +21,7 @@
 - [x] **Vultures redo** (2026-11-08): v3 approved and filed, finals re-rendered.
 - [x] **Sound** (2026-11-09): music bed + 12 effects generated with ElevenLabs, mixed by the studio (`Sound.tsx`), finals re-rendered. Listen on the phone check; bowstring-creak and wind-desolate were very quiet sources (boosted 43 / 27 dB).
 - [ ] **GATE 6:** watch `render/S01E01-en.mp4` and `render/S01E01-hi.mp4` on a phone, sound on and off.
-- [ ] **Stage 7:** `/publish-kit S01E01`.
+- [x] **Stage 7:** publish kit written (`07-publish.md`, 2026-11-16).
 - Optional: exact word timings via a Scribe transcript (`/voice` step 3) if any cue feels early or late.
 
 ## Production facts
