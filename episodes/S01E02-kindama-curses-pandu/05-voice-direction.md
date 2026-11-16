@@ -69,3 +69,5 @@ Pandu chose the first: Dharma, god of justice. [tenderly] Yudhishthira was born.
 |---|---|
 | EN | 2026-11-16: node `ApVOsLtz3IQQqzMKQlFp`, generation `Us8FGkXGHTz2d09OTdYc`, 958 credits. Raw 58.9 s → `audio/en.take.mp3`; `voice:import … auto`, all 13 beats found; speech ends at 60.5 s incl. the sting |
 | HI | 2026-11-16: node `g8ixQq1pzVIzEFyQGOC3`, generation `7jh7fOz0HFQu8MNTUlYP`, 861 credits. Raw 58.6 s → `audio/hi.take.mp3`; all 13 beats found; speech ends at 59.8 s. Beat 12 came out short (1.6 s vs 2.4 s expected): check its cue lands in the render |
+
+**Word timing (2026-11-16):** the first import used `auto` (pause-based, words estimated inside each beat), and captions drifted up to 1.4 s (EN) / 1.7 s (HI) from the voice. Re-imported with Scribe word times (free on Starter): transcription nodes `n2jrUJ14DaE4zAqPjXIL` (EN) and `3nycOmC2uowtLWgSYRXH` (HI) in the same flow; direction tags stripped from the transcript before import; 145/145 and 138/138 words matched, 0 interpolated. **Always import with a Scribe transcript, not `auto`.**

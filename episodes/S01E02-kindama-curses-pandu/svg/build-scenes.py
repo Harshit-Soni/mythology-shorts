@@ -22,6 +22,7 @@ def P(id, x, y, scale, action='idle'):
 
 e01 = json.load(open(f'{root}/episodes/S01E01-mandavya-curses-yama/03-scenes.json'))
 sting = next(s for s in e01['scenes'] if s['id'] == 's00')
+sting = {**sting, 'onScreenText': {**sting['onScreenText'], 'en': 'CURSED II', 'hi': 'शाप II'}}  # episode number on the stamp, as E01's tease promised
 
 scenes = [sting,
  {'id': 's01', 'beat': 1, 'type': 'character', 'background': 'forest-hunt', 'backgroundVariant': 'dusk', 'light': 'dusk',
