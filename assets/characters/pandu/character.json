@@ -7,22 +7,35 @@
   "role": "Vidura's half-brother; father of the Pandavas",
   "divine": false,
   "appearsIn": [
-    "S01E01"
+    "S01E01",
+    "S01E02"
   ],
   "look": "Prince with a visibly pale complexion, crown, archer's garments.",
   "sourceNotes": "Pale complexion: his name means 'the pale one' (Adi Parva 106).",
   "poses": [
-    "drawing-bow"
+    "drawing-bow",
+    "standing-shocked",
+    "removing-crown",
+    "reaching"
   ],
   "expressions": [
-    "focused"
+    "focused",
+    "longing",
+    "sad",
+    "shocked"
   ],
   "files": {
-    "drawing-bow": "drawing-bow.svg"
+    "drawing-bow": "drawing-bow.svg",
+    "standing-shocked": "standing-shocked.svg",
+    "removing-crown": "removing-crown.svg",
+    "reaching": "reaching.svg"
   },
   "facing": "per pose, see facingByPose (ear rule)",
-  "notes": "Only the S01E01 tease pose so far; full pose set comes in S01E02. Detailed rigged version filed 2026-11-08 (S01E01 full-cast rigs v2 + v3 redos). The SVGs carry joint groups with data-pivot/data-* attributes for an optional inline-SVG rig (cast-rig.js in the delivery): don't flatten groups or strip data-* when optimising. Previous flat versions: episodes/S01E01-*/review/svg-v1-characters/. Speech/effect anchors: HEAD/HAND in studio/src/components/Character.tsx.",
+  "notes": "Detailed rigged version filed 2026-11-08 (S01E01 full-cast rigs v2 + v3 redos). The SVGs carry joint groups with data-pivot/data-* attributes for an optional inline-SVG rig (cast-rig.js in the delivery): don't flatten groups or strip data-* when optimising. Previous flat versions: episodes/S01E01-*/review/svg-v1-characters/. Speech/effect anchors: HEAD/HAND in studio/src/components/Character.tsx. S01E02 poses (standing-shocked with the bow lowered and mouth open; removing-crown = the crown held at his chest, head bowed, no crown on his head; reaching = open palm from Mandavya's rig) are derived from drawing-bow by episodes/S01E02-kindama-curses-pandu/svg/derive-cast.py.",
   "facingByPose": {
-    "drawing-bow": "right"
+    "drawing-bow": "right",
+    "standing-shocked": "right",
+    "removing-crown": "right",
+    "reaching": "right"
   }
 }
