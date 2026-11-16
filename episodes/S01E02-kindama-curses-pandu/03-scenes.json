@@ -32,8 +32,8 @@
     "sfxVolume": 0.8
   },
   "thumbnail": {
-    "scene": "s05",
-    "at": 0.6,
+    "scene": "s06",
+    "at": 0.45,
     "series": {
       "en": "Shraap · Episode 2",
       "hi": "शाप · भाग 2"
@@ -402,6 +402,70 @@
       "beat": 5,
       "type": "character",
       "background": "forest-hunt",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 15
+        }
+      ],
+      "characters": [
+        {
+          "id": "pandu",
+          "pose": "reaching",
+          "x": 0.26,
+          "y": 0.86,
+          "scale": 1.0,
+          "flip": false,
+          "action": "breathe",
+          "expression": "pleading"
+        },
+        {
+          "id": "kindama",
+          "pose": "lying-wounded",
+          "x": 0.66,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": true,
+          "action": "still",
+          "expression": "pained"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "Pandu argued that kings may hunt deer. The sage was not moved.",
+        "hi": "पाण्डु ने कहा, राजा तो हिरण का शिकार करते ही हैं। पर ऋषि नहीं माने।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "onWord": {
+            "en": "moved",
+            "hi": "माने"
+          },
+          "volume": 0.45
+        }
+      ],
+      "transition": "cut",
+      "notes": "v2. The argument (Adi §118): Pandu, open palm, pleads that kings may hunt; the sage is unmoved. Same framing as s04 so it reads as one exchange."
+    },
+    {
+      "id": "s06",
+      "beat": 6,
+      "type": "character",
+      "background": "forest-hunt",
       "backgroundVariant": "night",
       "light": "night",
       "fx": [
@@ -456,8 +520,8 @@
         ]
       },
       "narration": {
-        "en": "\"Unite with your wife, and you will die. And she will follow you.\"",
-        "hi": "\"पत्नी के पास गए, तो उसी पल मरोगे… और वो भी साथ जाएगी।\""
+        "en": "\"Unite with your wife, and you will die. And she will follow you.\" Then the sage died.",
+        "hi": "\"पत्नी के पास गए, तो उसी पल मरोगे… और वो भी साथ जाएगी।\" और ऋषि ने प्राण त्याग दिए।"
       },
       "onScreenText": null,
       "cues": [
@@ -476,6 +540,14 @@
           },
           "do": "stamp-next",
           "target": "shaap-stamp"
+        },
+        {
+          "onWord": {
+            "en": "died",
+            "hi": "प्राण"
+          },
+          "do": "life-fade",
+          "target": "kindama"
         }
       ],
       "sfx": [
@@ -499,11 +571,11 @@
       ],
       "music": 1.1,
       "transition": "flash-white",
-      "notes": "The curse. Saffron burst from Kindama’s raised hand; the shaap stamp lands on \"die / मरोगे\". Kindama then dies (not shown)."
+      "notes": "The curse. Saffron burst from Kindama’s raised hand; the shaap stamp lands on \"die / मरोगे\". Then the sage dies: on \"died / प्राण\" his colour drains (life-fade)."
     },
     {
-      "id": "s06",
-      "beat": 6,
+      "id": "s07",
+      "beat": 7,
       "type": "character",
       "background": "forest-hunt",
       "backgroundVariant": "dawn",
@@ -557,8 +629,8 @@
         ]
       },
       "narration": {
-        "en": "Pandu gave up his throne and left for the mountains.",
-        "hi": "पाण्डु राजपाट छोड़कर पहाड़ों पर चले गए।"
+        "en": "Pandu gave up his throne. His wives, Kunti and Madri, went with him to the mountains.",
+        "hi": "पाण्डु ने राजपाट छोड़ दिया। कुन्ती और माद्री भी उनके साथ पहाड़ों पर चली गईं।"
       },
       "onScreenText": null,
       "cues": [
@@ -568,7 +640,7 @@
             "hi": "पहाड़ों"
           },
           "do": "hard-cut-to",
-          "target": "s06b"
+          "target": "s07b"
         }
       ],
       "sfx": [
@@ -582,8 +654,8 @@
       "notes": "Pandu takes off his crown between his two wives (both face him)."
     },
     {
-      "id": "s06b",
-      "beat": 6,
+      "id": "s07b",
+      "beat": 7,
       "type": "character",
       "background": "himalaya-peaks",
       "light": "dawn",
@@ -625,8 +697,79 @@
       "notes": "Insert: three small figures walk into snowy peaks toward Shatashringa."
     },
     {
-      "id": "s07",
-      "beat": 7,
+      "id": "s08",
+      "beat": 8,
+      "type": "character",
+      "background": "himalaya-peaks",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "fog",
+          "color": "#DCE6F5"
+        },
+        {
+          "type": "glow",
+          "x": 0.6,
+          "y": 0.3,
+          "r": 0.35,
+          "color": "#FFE6B0",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "pandu",
+          "pose": "standing-shocked",
+          "x": 0.28,
+          "y": 0.8,
+          "scale": 0.6,
+          "flip": false,
+          "action": "still",
+          "expression": "sad",
+          "light": "silhouette"
+        }
+      ],
+      "props": [
+        {
+          "id": "rising-lights",
+          "x": 0.6,
+          "y": 0.42,
+          "scale": 1.0,
+          "action": "ascend"
+        }
+      ],
+      "camera": {
+        "move": "crane-up",
+        "from": 0.0,
+        "to": -0.05
+      },
+      "narration": {
+        "en": "But a man without sons could not enter heaven.",
+        "hi": "पर बिना पुत्र के, स्वर्ग का द्वार नहीं खुलता।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "wind-desolate",
+          "at": 0,
+          "volume": 0.35
+        },
+        {
+          "id": "shimmer-descend",
+          "onWord": {
+            "en": "heaven",
+            "hi": "स्वर्ग"
+          },
+          "volume": 0.4
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "v2. Why he needs sons (Adi §120): the rishis leave for Brahma’s realm as rising lights; Pandu, a small silhouette on the path, cannot follow."
+    },
+    {
+      "id": "s09",
+      "beat": 9,
       "type": "character",
       "background": "hermitage",
       "backgroundVariant": "dawn",
@@ -676,10 +819,18 @@
         ]
       },
       "narration": {
-        "en": "But Kunti had a sage's mantra that could call any god.",
-        "hi": "पर कुन्ती के पास एक मंत्र था, जो किसी भी देवता को बुला ले।"
+        "en": "Then Kunti told him her secret: a mantra from the sage Durvasa, to call any god.",
+        "hi": "तब कुन्ती ने अपना राज़ बताया: ऋषि दुर्वासा का दिया मंत्र, जो किसी भी देवता को बुला ले।"
       },
-      "onScreenText": null,
+      "onScreenText": {
+        "en": "Durvasa’s mantra",
+        "hi": "दुर्वासा का मंत्र",
+        "style": "name-tag",
+        "sub": {
+          "en": "given to Kunti as a girl",
+          "hi": "बचपन में कुन्ती को मिला"
+        }
+      },
       "cues": [
         {
           "onWord": {
@@ -704,8 +855,8 @@
       "notes": "The hermitage stands in for the Shatashringa ashram. A ring of glowing Sanskrit-like script circles Kunti (no readable text needed)."
     },
     {
-      "id": "s08",
-      "beat": 8,
+      "id": "s10",
+      "beat": 10,
       "type": "character",
       "background": "cosmic-court",
       "light": "divine",
@@ -785,8 +936,98 @@
       "notes": "E01 callback: the same Dharma on his throne (library rig, halo intact here). Kunti in the foreground, over the shoulder, holding baby Yudhishthira; facing right toward the throne."
     },
     {
-      "id": "s09",
-      "beat": 9,
+      "id": "s11",
+      "beat": 11,
+      "type": "character",
+      "background": "hermitage",
+      "backgroundVariant": "dawn",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 20
+        }
+      ],
+      "characters": [
+        {
+          "id": "kunti",
+          "pose": "holding-baby",
+          "x": 0.3,
+          "y": 0.79,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "joyful"
+        }
+      ],
+      "props": [
+        {
+          "id": "wind-swirl",
+          "x": 0.3,
+          "y": 0.3,
+          "scale": 0.6,
+          "action": "stamp-in"
+        },
+        {
+          "id": "cracked-rock",
+          "x": 0.68,
+          "y": 0.7,
+          "scale": 0.9,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "Then Vayu gave Bhima, who fell from Kunti's lap as a baby and shattered a rock.",
+        "hi": "फिर वायु से भीम, जो बचपन में माँ की गोद से गिरे, तो चट्टान ही चूर हो गई।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "Vayu",
+            "hi": "वायु"
+          },
+          "do": "stamp-in",
+          "target": "wind-swirl"
+        },
+        {
+          "onWord": {
+            "en": "shattered",
+            "hi": "चूर"
+          },
+          "do": "stamp-in",
+          "target": "cracked-rock"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "onWord": {
+            "en": "Vayu",
+            "hi": "वायु"
+          },
+          "volume": 0.5
+        },
+        {
+          "id": "stamp-thud",
+          "onWord": {
+            "en": "shattered",
+            "hi": "चूर"
+          },
+          "volume": 0.8
+        }
+      ],
+      "transition": "cut",
+      "notes": "v2. Bhima (Adi §123): wind swirl for Vayu; baby Bhima in Kunti’s arms; a rock splits on \"shattered / चूर\"."
+    },
+    {
+      "id": "s12",
+      "beat": 12,
       "type": "character",
       "background": "hermitage",
       "backgroundVariant": "dawn",
@@ -821,23 +1062,23 @@
       ],
       "props": [
         {
-          "id": "wind-swirl",
-          "x": 0.25,
-          "y": 0.3,
+          "id": "vajra-flash",
+          "x": 0.3,
+          "y": 0.26,
           "scale": 0.6,
           "action": "stamp-in"
         },
         {
-          "id": "vajra-flash",
+          "id": "mantra-ring",
           "x": 0.5,
-          "y": 0.24,
-          "scale": 0.6,
-          "action": "stamp-in"
+          "y": 0.4,
+          "scale": 0.5,
+          "action": "circle"
         },
         {
           "id": "twin-stars",
-          "x": 0.74,
-          "y": 0.3,
+          "x": 0.72,
+          "y": 0.28,
           "scale": 0.6,
           "action": "stamp-in"
         }
@@ -848,19 +1089,11 @@
         "to": 1.0
       },
       "narration": {
-        "en": "Then Vayu gave Bhima. Indra, Arjuna. And for Madri, the Ashvin twins.",
-        "hi": "फिर वायु से भीम, इन्द्र से अर्जुन, अश्विनीकुमारों से नकुल-सहदेव।"
+        "en": "Indra gave Arjuna. And Kunti shared the mantra with Madri, who called the Ashvins: twins, Nakula and Sahadeva.",
+        "hi": "इन्द्र से अर्जुन। फिर कुन्ती ने माद्री को भी मंत्र दिया, और अश्विनीकुमारों से जन्मे नकुल-सहदेव।"
       },
       "onScreenText": null,
       "cues": [
-        {
-          "onWord": {
-            "en": "Vayu",
-            "hi": "वायु"
-          },
-          "do": "stamp-in",
-          "target": "wind-swirl"
-        },
         {
           "onWord": {
             "en": "Indra",
@@ -871,7 +1104,7 @@
         },
         {
           "onWord": {
-            "en": "Ashvin",
+            "en": "Ashvins",
             "hi": "अश्विनीकुमारों"
           },
           "do": "stamp-in",
@@ -879,14 +1112,6 @@
         }
       ],
       "sfx": [
-        {
-          "id": "gong-soft",
-          "onWord": {
-            "en": "Vayu",
-            "hi": "वायु"
-          },
-          "volume": 0.5
-        },
         {
           "id": "thunder-crack",
           "onWord": {
@@ -898,18 +1123,18 @@
         {
           "id": "shimmer-descend",
           "onWord": {
-            "en": "Ashvin",
+            "en": "Ashvins",
             "hi": "अश्विनीकुमारों"
           },
           "volume": 0.5
         }
       ],
       "transition": "cut",
-      "notes": "Gods as symbols only (no new god rigs): wind swirl (Vayu), vajra flash (Indra), twin stars (Ashvins), each landing on its name."
+      "notes": "Gods as symbols only (no new god rigs): vajra flash (Indra), the mantra passing between the wives (Kunti shares it with Madri), twin stars (Ashvins), each landing on its name."
     },
     {
-      "id": "s10",
-      "beat": 10,
+      "id": "s13",
+      "beat": 13,
       "type": "character",
       "background": "spring-forest",
       "light": "dusk",
@@ -956,8 +1181,8 @@
         "to": 1.06
       },
       "narration": {
-        "en": "Years later, one spring, Pandu forgot the curse… and it took him.",
-        "hi": "बरसों बाद, एक बसंत में, पाण्डु शाप भूल गए… और शाप सच हो गया।"
+        "en": "Years later, one spring, Pandu forgot the curse. Madri tried to stop him… but it took him.",
+        "hi": "बरसों बाद, एक बसंत में, पाण्डु शाप भूल गए। माद्री ने रोका… पर शाप सच हो गया।"
       },
       "onScreenText": null,
       "cues": [
@@ -967,7 +1192,7 @@
             "hi": "सच"
           },
           "do": "hard-cut-to",
-          "target": "s10b"
+          "target": "s13b"
         }
       ],
       "sfx": [
@@ -982,8 +1207,8 @@
       "notes": "Spring blossoms. Pandu reaches toward Madri; she turns away with a hand raised to stop him (the text says she resisted). Keep a clear gap between their hands: they must never read as reaching for each other. Symbolic only, no embrace."
     },
     {
-      "id": "s10b",
-      "beat": 10,
+      "id": "s13b",
+      "beat": 13,
       "type": "prop-hero",
       "background": "spring-forest",
       "light": "night",
@@ -1031,8 +1256,8 @@
       "notes": "Insert on \"took / सच\": a fallen crown in the grass, petals falling. Pandu’s death, shown only by this."
     },
     {
-      "id": "s11",
-      "beat": 11,
+      "id": "s14",
+      "beat": 14,
       "type": "character",
       "background": "red-sky-plain",
       "backgroundVariant": "dusk",
@@ -1095,8 +1320,8 @@
         "to": 0.04
       },
       "narration": {
-        "en": "Madri followed him into the fire, as the curse foretold.",
-        "hi": "माद्री भी उनके साथ चिता पर चढ़ गईं।"
+        "en": "As the curse foretold, Madri followed him into the fire, asking Kunti to raise her sons.",
+        "hi": "शाप के अनुसार, माद्री भी उनके साथ चिता पर चढ़ गईं, कुन्ती से अपने बेटों को सँभालने को कहकर।"
       },
       "onScreenText": null,
       "cues": [],
@@ -1120,8 +1345,8 @@
       "notes": "Kunti holds the five boys back (group prop behind her). Madri, in silhouette, walks toward stylised folk-art flames. No body on the pyre."
     },
     {
-      "id": "s12",
-      "beat": 12,
+      "id": "s15",
+      "beat": 15,
       "type": "text-reveal",
       "background": "parchment-card",
       "light": "divine",
@@ -1184,8 +1409,8 @@
       "notes": "Payoff of the hook. The single golden arrow above five glowing figures in a row (the brothers grown)."
     },
     {
-      "id": "s13",
-      "beat": 13,
+      "id": "s16",
+      "beat": 16,
       "type": "character",
       "background": "amaravati-court",
       "light": "divine",
@@ -1419,6 +1644,16 @@
       {
         "id": "apsara-silhouette",
         "status": "new"
+      },
+      {
+        "id": "cracked-rock",
+        "status": "new",
+        "notes": "v2"
+      },
+      {
+        "id": "rising-lights",
+        "status": "new",
+        "notes": "v2"
       }
     ],
     "overlays": [

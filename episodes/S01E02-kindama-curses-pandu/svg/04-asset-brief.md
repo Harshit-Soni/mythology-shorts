@@ -144,3 +144,8 @@ PNG is fine too (transparent background, or flat white for Claude to remove); Cl
 - [x] 3 backgrounds: **made by Claude** in code (`svg/make-backgrounds.py`), 2026-11-16; ground lines added to `assets/backgrounds/GROUND_LINES.md`
 - [x] Claude-made (2026-11-16): Pandu ×3 poses, Arjuna ×1 (placeholder), 11 props, all filed. Scripts: `svg/derive-cast.py`, `svg/make-props.py`. Design change: `removing-crown` shows the crown **held at his chest** (his arms are too short to lift it off cleanly without crossing his face)
 - [x] All filed into the library with `character.json` (`appearsIn: S01E02`); every scene checked in stills. **No external generator was needed for this episode.**
+
+## v2 additions (16-beat script, 2026-11-16)
+- [x] `cracked-rock` prop: a boulder split by glowing cracks, shards flying (baby Bhima, beat 11). Made by `make-props.py`.
+- [x] `rising-lights` prop: warm lights rising into the sky (the rishis leave for Brahma's realm, beat 8). Made by `make-props.py`; used with the new `ascend` action.
+- Renderer: new cue `life-fade` (Kindama's death, beat 6) and prop action `ascend`, documented in `studio/SCENE_SPEC.md`.

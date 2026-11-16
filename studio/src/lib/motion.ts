@@ -93,6 +93,9 @@ export function action(name: string | undefined, p: number, sec: number, seed: n
       return { ...s, opacity: 0.75 + 0.25 * Math.sin(sec * 17 + seed) };
     case 'descend':
       return { ...s, dy: interpolate(p, [0, 0.5], [-0.5, 0], { ...clamp, easing: Easing.out(Easing.cubic) }) };
+    case 'ascend':
+      // drifts upward through the whole scene and fades near the end (souls, lamps, rising light)
+      return { ...s, dy: -0.22 * smooth(p), opacity: interpolate(p, [0, 0.12, 0.8, 1], [0, 1, 1, 0.2], clamp) };
     case 'graze':
       return { ...s, rot: 1.5 * Math.sin(sec * 1.3) };
     case 'draw-bow':

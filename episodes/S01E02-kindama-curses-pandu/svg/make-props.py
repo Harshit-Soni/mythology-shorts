@@ -254,6 +254,34 @@ def apsara():
     write('apsara-silhouette', body, desc='an apsara in a classical dance pose, modest, as a silhouette with a pink rim (E03 tease).')
 
 
+# v2 (16-beat script)
+def cracked_rock():
+    # baby Bhima fell from Kunti's lap and the rock shattered (Adi §123): a boulder split by bright cracks, shards flying
+    rock = (f'<path d="M150 640 Q130 520 210 440 Q280 360 400 350 Q530 345 610 420 Q690 500 660 640 Z" fill="#8C8478" stroke="{INK}" stroke-width="7" />'
+            f'<path d="M210 600 Q230 500 300 450 Q360 420 420 418" stroke="#A79F92" stroke-width="16" />'
+            f'<path d="M660 640 Q640 560 600 520" stroke="#6E675D" stroke-width="18" />')
+    cracks = ('M400 352 L380 430 L430 470 L390 560 L420 640', 'M380 430 L300 470 L250 560', 'M430 470 L520 500 L560 590', 'M390 560 L320 610')
+    glow = ''.join(f'<path d="{d}" stroke="{GOLD_L}" stroke-width="18" opacity="0.55" />' for d in cracks)
+    lines = ''.join(f'<path d="{d}" stroke="{INK}" stroke-width="8" />' for d in cracks)
+    shards = ''.join(f'<path d="M{x} {y} l{a} {b} l{c} {d} Z" fill="#8C8478" stroke="{INK}" stroke-width="5" />'
+                     for x, y, a, b, c, d in ((300, 300, 40, -20, -10, 45), (520, 280, 35, 25, -45, 10), (170, 400, -30, -30, 45, -5), (640, 380, 40, -10, -20, 40), (420, 250, 20, -35, 20, 35)))
+    dust = ''.join(f'<circle cx="{x}" cy="{y}" r="{r}" fill="#CFC6B6" opacity="0.6" />' for x, y, r in ((200, 650, 30), (300, 670, 24), (560, 665, 28), (650, 650, 22)))
+    write('cracked-rock', glow_rings(400, 480, 280, GOLD_L, 3, 0.08) + dust + rock + glow + lines + shards,
+          desc='a boulder split by glowing cracks, shards flying (baby Bhima shatters a rock).')
+
+
+def rising_lights():
+    # the rishis set out for Brahma's realm (Adi §120): small warm lights rising into the sky, Pandu left below
+    lights = ''
+    for x, y, r in ((220, 560, 26), (330, 470, 22), (430, 380, 28), (540, 300, 20), (610, 200, 24), (300, 260, 18), (480, 140, 20)):
+        lights += glow_rings(x, y, r * 3.2, '#FFE6B0', 3, 0.12)
+        lights += f'<circle cx="{x}" cy="{y}" r="{r}" fill="{GOLD_L}" stroke="{GOLD_D}" stroke-width="3" />'
+        lights += f'<circle cx="{x - r * 0.3}" cy="{y - r * 0.3}" r="{r * 0.35}" fill="#FFFBEA" />'
+    trail = '<path d="M220 700 Q260 560 330 470 Q400 400 430 380 Q500 330 540 300 Q590 250 610 200" stroke="#FFE6B0" stroke-width="6" opacity="0.35" stroke-dasharray="4 18" />'
+    write('rising-lights', trail + lights, desc='warm points of light rising into the sky (the rishis leaving for Brahma\'s realm).')
+
+
 if __name__ == '__main__':
     stag_wounded(); mantra_ring(); wind_swirl(); vajra_flash(); twin_stars(); fallen_crown()
     pyre_flames(); three_pilgrims(); young_pandavas(); five_sons(); apsara()
+    cracked_rock(); rising_lights()

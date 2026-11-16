@@ -41,8 +41,13 @@ export const SceneView: React.FC<Props> = ({ seg, lang, fps, debug, estimated, g
 
   // character-level effects
   const charFilter = (id: string) => {
-    const f = fired.find((x) => x.kind === 'halo-crack-dim' && (x.target ?? id) === id);
+    const f = fired.find((x) => (x.kind === 'halo-crack-dim' || x.kind === 'life-fade') && (x.target ?? id) === id);
     if (!f) return undefined;
+    if (f.kind === 'life-fade') {
+      // a character dies quietly: colour drains and the figure sinks into shadow, no cracks
+      const q = interpolate(f.t, [0, 1.4], [0, 1], clamp);
+      return `brightness(${1 - 0.5 * q}) saturate(${1 - 0.85 * q})`;
+    }
     const q = interpolate(f.t, [0.2, 0.8], [0, 1], clamp);
     return `brightness(${1 - 0.22 * q}) saturate(${1 - 0.3 * q})`;
   };

@@ -1,12 +1,12 @@
 # Publish kit: S01E02
 
-Episode 2 of **S01 Shraap: Curses of the Mahabharata**. Everything in the video is from the Mahabharata itself (Adi Parva §118–125). The video runs EN 62.6 s and HI 61.9 s with the end card; its narration ends at 60.4 s and 59.7 s.
+Episode 2 of **S01 Shraap: Curses of the Mahabharata**. Everything in the video is from the Mahabharata itself (Adi Parva §118–125). **v2 (the fuller 16-beat telling):** the narration ends at 87.0 s (EN) and 86.1 s (HI), plus the end card. That's over a minute, which is fine for YouTube Shorts (up to 3 min) and Reels.
 
 **Accounts:** Hindi = `@thelostgyaan`, English = `@thelostgyaan_en`.
 **When:** within the week after E01, so E01's tease pays off quickly. E01 goes up Sun 22 / Mon 23 Nov, so post E02 on **Hindi Thu 26 Nov 7:30 PM, English Fri 27 Nov 7:30 AM IST** (the same evening/morning pattern).
 **Playlist:** add it to *Shraap: Curses of the Mahabharata* (EN) / *Shraap: Mahabharat Ke Shraap* (HI). On YouTube, set E02's **Related video** to E01, and update E01's Related video to E02.
 
-**Cover / thumbnail:** `render/S01E02-thumb-en.png` and `render/S01E02-thumb-hi.png`. They show the curse scene (s05): Kindama, wounded, raises his hand at Pandu. Titles: "The Deer Who Cursed a King" / "जब हिरण ने राजा को शाप दिया". Upload them as the YouTube thumbnail and as the Instagram cover. If you'd rather pick a frame inside Instagram, use **0:21 (EN) / 0:20 (HI)**, where the curse stamp lands on "die" / "मरोगे".
+**Cover / thumbnail:** `render/S01E02-thumb-en.png` and `render/S01E02-thumb-hi.png`. They show the curse scene (s05): Kindama, wounded, raises his hand at Pandu. Titles: "The Deer Who Cursed a King" / "जब हिरण ने राजा को शाप दिया". Upload them as the YouTube thumbnail and as the Instagram cover. If you'd rather pick a frame inside Instagram, use **0:26 (EN) / 0:25 (HI)**, where the curse stamp lands on "die" / "मरोगे".
 
 ## YouTube Shorts: English (`@thelostgyaan_en`)
 - **Title (≤60 chars):** **The Deer King Pandu Shot Was a Sage, and He Cursed Him** *(54)*
@@ -21,7 +21,8 @@ Episode 2 of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
   >
   > **Sources** (Mahabharata, Adi Parva, K. M. Ganguli tr.)
   > • The hunt and Kindama's curse: Adi Parva §118 (BORI critical edition 1.109): https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxviii
-  > • Pandu gives up the throne: §119: https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxix
+  > • Durvasa's mantra: §111: https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxi
+  > • Pandu gives up the throne: §119; no sons, no heaven: §120: https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxx
   > • Kunti's mantra and the five births: §122–124: https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxxiii
   > • Pandu's death and Madri's pyre: §125: https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxxv
   >
@@ -44,7 +45,8 @@ Episode 2 of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
   >
   > Srot (sources): Mahabharat, Adi Parv (K. M. Ganguli anuvaad)
   > • Shikaar aur Kindam ka shraap: Adi Parv §118 (BORI critical edition 1.109): https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxviii
-  > • Pandu ka raajpaat tyaag: §119: https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxix
+  > • Durvasa ka mantra: §111: https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxi
+  > • Pandu ka raajpaat tyaag: §119; bina putra swarg nahi: §120: https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxx
   > • Kunti ka mantra aur paanch putron ka janm: §122–124: https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxxiii
   > • Pandu ki mrityu aur Madri ki chita: §125: https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxxv
   >
@@ -78,7 +80,7 @@ Episode 2 of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
 - **After posting:** Story poll: "Kindama's curse: fair or too harsh?"
 
 ## Sources (paste into descriptions)
-- [Ganguli, Adi Parva §111](https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxi): Durvasa gives Kunti the mantra (comment replies)
+- [Ganguli, Adi Parva §111](https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxi): Durvasa gives Kunti the mantra
 - [Ganguli, Adi Parva §118](https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxviii): the hunt, Kindama, the curse
 - [Ganguli, Adi Parva §119](https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxix): Pandu renounces the throne
 - [Ganguli, Adi Parva §120](https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxx) to [§122](https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxxii): the sonless can't enter heaven; Kunti tells of the mantra; Pandu chooses Dharma

@@ -1,0 +1,1435 @@
+{
+  "id": "S01E02",
+  "title": {
+    "en": "The Deer Who Cursed a King",
+    "hi": "जब हिरण ने राजा को शाप दिया"
+  },
+  "format": "short",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "sourceCredit": {
+    "en": "Mahabharata, Adi Parva (Sambhava Parva)",
+    "hi": "महाभारत, आदि पर्व (सम्भव पर्व)"
+  },
+  "safeZone": {
+    "bottom": 0.2,
+    "right": 0.12
+  },
+  "grade": {
+    "grain": 0.12,
+    "vignette": 0.45,
+    "shadows": true
+  },
+  "sound": {
+    "music": {
+      "id": "mythic-drone",
+      "volume": 0.7,
+      "duckTo": 0.45,
+      "fadeInSec": 0.3,
+      "fadeOutSec": 1.5
+    },
+    "sfxVolume": 0.8
+  },
+  "thumbnail": {
+    "scene": "s05",
+    "at": 0.6,
+    "series": {
+      "en": "Shraap · Episode 2",
+      "hi": "शाप · भाग 2"
+    },
+    "title": {
+      "en": "The Deer Who Cursed a King",
+      "hi": "जब हिरण ने राजा को शाप दिया"
+    },
+    "titleLines": {
+      "en": [
+        "The Deer Who",
+        "Cursed a King"
+      ],
+      "hi": [
+        "जब हिरण ने",
+        "राजा को शाप दिया"
+      ]
+    }
+  },
+  "scenes": [
+    {
+      "id": "s00",
+      "beat": 0,
+      "type": "title-card",
+      "background": "parchment-card",
+      "characters": [],
+      "props": [
+        {
+          "id": "shaap-stamp",
+          "x": 0.44,
+          "y": 0.42,
+          "scale": 1.2,
+          "action": "stamp-in"
+        }
+      ],
+      "overlay": "folk-art-border",
+      "camera": {
+        "move": "static"
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "fixedDurationSec": 1.0,
+      "onScreenText": {
+        "en": "CURSED II",
+        "hi": "शाप II",
+        "style": "stamp-gold"
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "at": 0,
+          "volume": 0.7
+        },
+        {
+          "id": "stamp-thud",
+          "at": 0.15,
+          "volume": 0.9
+        }
+      ],
+      "transition": "border-wipe",
+      "notes": "Series sting, reused in every S01 episode. Border closes in, stamp lands.",
+      "music": 0.6
+    },
+    {
+      "id": "s01",
+      "beat": 1,
+      "type": "character",
+      "background": "forest-hunt",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "fog",
+          "color": "#9FB3D9"
+        },
+        {
+          "type": "dust",
+          "n": 20
+        }
+      ],
+      "characters": [
+        {
+          "id": "pandu",
+          "pose": "standing-shocked",
+          "x": 0.24,
+          "y": 0.86,
+          "scale": 1.0,
+          "flip": false,
+          "action": "still",
+          "expression": "shocked"
+        }
+      ],
+      "props": [
+        {
+          "id": "stag-wounded",
+          "x": 0.64,
+          "y": 0.74,
+          "scale": 1.15,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.15,
+        "focus": [
+          0.5,
+          0.66
+        ]
+      },
+      "narration": {
+        "en": "The deer King Pandu shot… cried out in a human voice.",
+        "hi": "पाण्डु ने जिस हिरण को मारा… वो इंसान की आवाज़ में चीख़ा!"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "voice",
+            "hi": "आवाज़"
+          },
+          "do": "pierce",
+          "target": "stag-wounded"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0,
+          "volume": 0.5
+        },
+        {
+          "id": "drum-boom-deep",
+          "onWord": {
+            "en": "human",
+            "hi": "इंसान"
+          },
+          "volume": 0.9
+        }
+      ],
+      "transition": "cut",
+      "notes": "Hook. The wounded stag cries out with a human voice; Pandu freezes, bow lowered. New prop stag-wounded: the library deer lying on its side, one small golden arrow, eyes open. Keep the arrow small, no blood."
+    },
+    {
+      "id": "s02",
+      "beat": 2,
+      "type": "character",
+      "background": "forest-hunt",
+      "backgroundVariant": "dawn",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.8,
+          "y": 0.2,
+          "color": "#FFE6B0"
+        },
+        {
+          "type": "dust",
+          "n": 20
+        }
+      ],
+      "characters": [
+        {
+          "id": "pandu",
+          "pose": "drawing-bow",
+          "x": 0.3,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": false,
+          "action": "draw-bow"
+        }
+      ],
+      "props": [
+        {
+          "id": "deer",
+          "x": 0.62,
+          "y": 0.8,
+          "scale": 0.6,
+          "action": "graze"
+        },
+        {
+          "id": "deer",
+          "x": 0.8,
+          "y": 0.82,
+          "scale": 0.5,
+          "action": "graze"
+        },
+        {
+          "id": "glowing-arrow",
+          "x": 0.52,
+          "y": 0.62,
+          "scale": 0.5,
+          "action": "idle"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.7
+        ]
+      },
+      "narration": {
+        "en": "Hunting in the Himalayas, Pandu shot a stag and its mate.",
+        "hi": "हिमालय के जंगल में, पाण्डु ने हिरण-हिरणी पर बाण चलाए।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "shot",
+            "hi": "बाण"
+          },
+          "do": "pierce",
+          "target": "glowing-arrow"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "bowstring-creak",
+          "at": 0.2,
+          "volume": 0.6
+        },
+        {
+          "id": "arrow-whoosh-magic",
+          "onWord": {
+            "en": "shot",
+            "hi": "बाण"
+          },
+          "volume": 0.8
+        }
+      ],
+      "transition": "cut",
+      "notes": "Flashback a moment: the shot. Two library deer side by side in the grass (stag and mate, NOT a mating pose). Five golden arrows = the arrow prop on the cue."
+    },
+    {
+      "id": "s03",
+      "beat": 3,
+      "type": "character",
+      "background": "forest-hunt",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.6,
+          "y": 0.8,
+          "r": 0.35,
+          "color": "#E8B53A",
+          "pulse": true
+        },
+        {
+          "type": "sparks",
+          "n": 18
+        }
+      ],
+      "characters": [
+        {
+          "id": "kindama",
+          "pose": "lying-wounded",
+          "x": 0.55,
+          "y": 0.92,
+          "scale": 1.1,
+          "flip": true,
+          "action": "still",
+          "expression": "pained"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.18,
+        "focus": [
+          0.5,
+          0.86
+        ]
+      },
+      "narration": {
+        "en": "But the stag was a sage, Kindama, living as a deer with his wife.",
+        "hi": "पर वो ऋषि किन्दम थे, पत्नी संग हिरण के रूप में।"
+      },
+      "onScreenText": {
+        "en": "Rishi Kindama",
+        "hi": "ऋषि किन्दम",
+        "style": "name-tag",
+        "sub": {
+          "en": "a sage in a deer’s form",
+          "hi": "हिरण के रूप में ऋषि"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "onWord": {
+            "en": "sage",
+            "hi": "ऋषि"
+          },
+          "volume": 0.6
+        }
+      ],
+      "transition": "light-wipe",
+      "notes": "Reveal: the stag becomes the sage (light-wipe in from s02). Kindama is derived from the Mandavya rig (different face/beard/colours), lying wounded, head toward the left where Pandu stands. Lying figures keep the head BELOW the caption line (~0.70): do not scale him up; the camera push enlarges him instead."
+    },
+    {
+      "id": "s04",
+      "beat": 4,
+      "type": "character",
+      "background": "forest-hunt",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 15
+        }
+      ],
+      "characters": [
+        {
+          "id": "pandu",
+          "pose": "standing-shocked",
+          "x": 0.27,
+          "y": 0.86,
+          "scale": 1.0,
+          "flip": false,
+          "action": "breathe",
+          "expression": "shocked"
+        },
+        {
+          "id": "kindama",
+          "pose": "lying-wounded",
+          "x": 0.66,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": true,
+          "action": "still",
+          "expression": "pained",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-pan-right",
+        "from": 0.0,
+        "to": 0.03
+      },
+      "narration": {
+        "en": "\"Even sinful men don't kill at such a moment,\" he gasped.",
+        "hi": "मरते ऋषि बोले, \"ऐसे पल में तो पापी भी नहीं मारते!\""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "cut",
+      "notes": "Two-shot. Pandu (faces right) looks down at Kindama (flipped, faces left). Kindama speaks."
+    },
+    {
+      "id": "s05",
+      "beat": 5,
+      "type": "character",
+      "background": "forest-hunt",
+      "backgroundVariant": "night",
+      "light": "night",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.62,
+          "y": 0.68,
+          "r": 0.3,
+          "color": "#E07A2E",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "pandu",
+          "pose": "standing-shocked",
+          "x": 0.25,
+          "y": 0.86,
+          "scale": 1.0,
+          "flip": false,
+          "action": "breathe",
+          "expression": "terrified"
+        },
+        {
+          "id": "kindama",
+          "pose": "cursing-from-ground",
+          "x": 0.64,
+          "y": 0.9,
+          "scale": 1.05,
+          "flip": true,
+          "action": "raise-hand",
+          "expression": "furious",
+          "speaking": true
+        }
+      ],
+      "props": [
+        {
+          "id": "shaap-stamp",
+          "x": 0.5,
+          "y": 0.3,
+          "scale": 0.7,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "shake-then-zoom",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "\"Unite with your wife, and you will die. And she will follow you.\"",
+        "hi": "\"पत्नी के पास गए, तो उसी पल मरोगे… और वो भी साथ जाएगी।\""
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "die",
+            "hi": "मरोगे"
+          },
+          "do": "light-burst-saffron",
+          "target": "kindama"
+        },
+        {
+          "onWord": {
+            "en": "die",
+            "hi": "मरोगे"
+          },
+          "do": "stamp-next",
+          "target": "shaap-stamp"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "thunder-crack",
+          "onWord": {
+            "en": "die",
+            "hi": "मरोगे"
+          },
+          "volume": 0.6
+        },
+        {
+          "id": "stamp-thud",
+          "onWord": {
+            "en": "die",
+            "hi": "मरोगे"
+          },
+          "offset": 0.1,
+          "volume": 0.8
+        }
+      ],
+      "music": 1.1,
+      "transition": "flash-white",
+      "notes": "The curse. Saffron burst from Kindama’s raised hand; the shaap stamp lands on \"die / मरोगे\". Kindama then dies (not shown)."
+    },
+    {
+      "id": "s06",
+      "beat": 6,
+      "type": "character",
+      "background": "forest-hunt",
+      "backgroundVariant": "dawn",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 15
+        }
+      ],
+      "characters": [
+        {
+          "id": "kunti",
+          "pose": "standing-sad",
+          "x": 0.2,
+          "y": 0.86,
+          "scale": 0.92,
+          "flip": false,
+          "action": "breathe",
+          "expression": "sad"
+        },
+        {
+          "id": "pandu",
+          "pose": "removing-crown",
+          "x": 0.5,
+          "y": 0.86,
+          "scale": 1.0,
+          "flip": false,
+          "action": "breathe",
+          "expression": "sad"
+        },
+        {
+          "id": "madri",
+          "pose": "standing-sad",
+          "x": 0.79,
+          "y": 0.86,
+          "scale": 0.92,
+          "flip": true,
+          "action": "breathe",
+          "expression": "sad"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.08,
+        "to": 1.0,
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "Pandu gave up his throne and left for the mountains.",
+        "hi": "पाण्डु राजपाट छोड़कर पहाड़ों पर चले गए।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "mountains",
+            "hi": "पहाड़ों"
+          },
+          "do": "hard-cut-to",
+          "target": "s06b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "at": 0.3,
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "Pandu takes off his crown between his two wives (both face him)."
+    },
+    {
+      "id": "s06b",
+      "beat": 6,
+      "type": "character",
+      "background": "himalaya-peaks",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "fog",
+          "color": "#DCE6F5"
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "three-pilgrims-silhouette",
+          "x": 0.5,
+          "y": 0.8,
+          "scale": 0.8,
+          "action": "walk-left"
+        }
+      ],
+      "camera": {
+        "move": "crane-up",
+        "from": 0.0,
+        "to": -0.06
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "wind-desolate",
+          "at": 0,
+          "volume": 0.35
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "Insert: three small figures walk into snowy peaks toward Shatashringa."
+    },
+    {
+      "id": "s07",
+      "beat": 7,
+      "type": "character",
+      "background": "hermitage",
+      "backgroundVariant": "dawn",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.45,
+          "r": 0.35,
+          "color": "#E8B53A",
+          "pulse": true
+        },
+        {
+          "type": "sparks",
+          "n": 14
+        }
+      ],
+      "characters": [
+        {
+          "id": "kunti",
+          "pose": "folded-hands",
+          "x": 0.5,
+          "y": 0.79,
+          "scale": 1.0,
+          "flip": false,
+          "action": "breathe",
+          "expression": "hopeful"
+        }
+      ],
+      "props": [
+        {
+          "id": "mantra-ring",
+          "x": 0.5,
+          "y": 0.42,
+          "scale": 0.9,
+          "action": "circle"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "But Kunti had a sage's mantra that could call any god.",
+        "hi": "पर कुन्ती के पास एक मंत्र था, जो किसी भी देवता को बुला ले।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "mantra",
+            "hi": "मंत्र"
+          },
+          "do": "glint",
+          "target": "mantra-ring"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "onWord": {
+            "en": "mantra",
+            "hi": "मंत्र"
+          },
+          "volume": 0.6
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "The hermitage stands in for the Shatashringa ashram. A ring of glowing Sanskrit-like script circles Kunti (no readable text needed)."
+    },
+    {
+      "id": "s08",
+      "beat": 8,
+      "type": "character",
+      "background": "cosmic-court",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.3,
+          "color": "#FFE6B0"
+        },
+        {
+          "type": "stars",
+          "n": 30
+        }
+      ],
+      "characters": [
+        {
+          "id": "dharma",
+          "pose": "seated-throne",
+          "x": 0.5,
+          "y": 0.471,
+          "scale": 0.736,
+          "flip": false,
+          "action": "still",
+          "expression": "calm"
+        },
+        {
+          "id": "kunti",
+          "pose": "holding-baby",
+          "x": 0.3,
+          "y": 0.99,
+          "scale": 1.15,
+          "flip": false,
+          "action": "breathe",
+          "expression": "joyful"
+        }
+      ],
+      "props": [
+        {
+          "id": "falling-light",
+          "x": 0.5,
+          "y": 0.25,
+          "scale": 1.0,
+          "action": "descend"
+        }
+      ],
+      "camera": {
+        "move": "tilt-down",
+        "from": -0.1,
+        "to": 0.0
+      },
+      "narration": {
+        "en": "Pandu chose the first: Dharma, god of justice. Yudhishthira was born.",
+        "hi": "पाण्डु ने पहले न्याय के देवता धर्म को चुना। जन्मे युधिष्ठिर।"
+      },
+      "onScreenText": {
+        "en": "Dharma",
+        "hi": "धर्म",
+        "style": "name-tag",
+        "sub": {
+          "en": "the god cursed in Episode 1",
+          "hi": "पहली कड़ी में शापित देवता"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "onWord": {
+            "en": "Yudhishthira",
+            "hi": "युधिष्ठिर"
+          },
+          "volume": 0.6
+        }
+      ],
+      "transition": "light-wipe",
+      "notes": "E01 callback: the same Dharma on his throne (library rig, halo intact here). Kunti in the foreground, over the shoulder, holding baby Yudhishthira; facing right toward the throne."
+    },
+    {
+      "id": "s09",
+      "beat": 9,
+      "type": "character",
+      "background": "hermitage",
+      "backgroundVariant": "dawn",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 20
+        }
+      ],
+      "characters": [
+        {
+          "id": "kunti",
+          "pose": "holding-baby",
+          "x": 0.3,
+          "y": 0.79,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "joyful"
+        },
+        {
+          "id": "madri",
+          "pose": "holding-twins",
+          "x": 0.7,
+          "y": 0.79,
+          "scale": 0.95,
+          "flip": true,
+          "action": "breathe",
+          "expression": "joyful"
+        }
+      ],
+      "props": [
+        {
+          "id": "wind-swirl",
+          "x": 0.25,
+          "y": 0.3,
+          "scale": 0.6,
+          "action": "stamp-in"
+        },
+        {
+          "id": "vajra-flash",
+          "x": 0.5,
+          "y": 0.24,
+          "scale": 0.6,
+          "action": "stamp-in"
+        },
+        {
+          "id": "twin-stars",
+          "x": 0.74,
+          "y": 0.3,
+          "scale": 0.6,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.06,
+        "to": 1.0
+      },
+      "narration": {
+        "en": "Then Vayu gave Bhima. Indra, Arjuna. And for Madri, the Ashvin twins.",
+        "hi": "फिर वायु से भीम, इन्द्र से अर्जुन, अश्विनीकुमारों से नकुल-सहदेव।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "Vayu",
+            "hi": "वायु"
+          },
+          "do": "stamp-in",
+          "target": "wind-swirl"
+        },
+        {
+          "onWord": {
+            "en": "Indra",
+            "hi": "इन्द्र"
+          },
+          "do": "stamp-in",
+          "target": "vajra-flash"
+        },
+        {
+          "onWord": {
+            "en": "Ashvin",
+            "hi": "अश्विनीकुमारों"
+          },
+          "do": "stamp-in",
+          "target": "twin-stars"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "onWord": {
+            "en": "Vayu",
+            "hi": "वायु"
+          },
+          "volume": 0.5
+        },
+        {
+          "id": "thunder-crack",
+          "onWord": {
+            "en": "Indra",
+            "hi": "इन्द्र"
+          },
+          "volume": 0.35
+        },
+        {
+          "id": "shimmer-descend",
+          "onWord": {
+            "en": "Ashvin",
+            "hi": "अश्विनीकुमारों"
+          },
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "Gods as symbols only (no new god rigs): wind swirl (Vayu), vajra flash (Indra), twin stars (Ashvins), each landing on its name."
+    },
+    {
+      "id": "s10",
+      "beat": 10,
+      "type": "character",
+      "background": "spring-forest",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 35,
+          "color": "#F6C1D0"
+        },
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.4,
+          "r": 0.5,
+          "color": "#F2A7B8"
+        }
+      ],
+      "characters": [
+        {
+          "id": "pandu",
+          "pose": "reaching",
+          "x": 0.2,
+          "y": 0.86,
+          "scale": 1.0,
+          "flip": false,
+          "action": "breathe",
+          "expression": "longing"
+        },
+        {
+          "id": "madri",
+          "pose": "turning-away",
+          "x": 0.87,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "afraid"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "Years later, one spring, Pandu forgot the curse… and it took him.",
+        "hi": "बरसों बाद, एक बसंत में, पाण्डु शाप भूल गए… और शाप सच हो गया।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "took",
+            "hi": "सच"
+          },
+          "do": "hard-cut-to",
+          "target": "s10b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0.5,
+          "volume": 0.5
+        }
+      ],
+      "music": 0.7,
+      "transition": "cut",
+      "notes": "Spring blossoms. Pandu reaches toward Madri; she turns away with a hand raised to stop him (the text says she resisted). Keep a clear gap between their hands: they must never read as reaching for each other. Symbolic only, no embrace."
+    },
+    {
+      "id": "s10b",
+      "beat": 10,
+      "type": "prop-hero",
+      "background": "spring-forest",
+      "light": "night",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 25,
+          "color": "#F6C1D0"
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "fallen-crown",
+          "x": 0.5,
+          "y": 0.73,
+          "scale": 1.0,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.12,
+        "focus": [
+          0.5,
+          0.73
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-boom-deep",
+          "at": 0,
+          "volume": 0.8
+        }
+      ],
+      "music": 0.3,
+      "transition": "fade-to-night",
+      "notes": "Insert on \"took / सच\": a fallen crown in the grass, petals falling. Pandu’s death, shown only by this."
+    },
+    {
+      "id": "s11",
+      "beat": 11,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 30
+        },
+        {
+          "type": "glow",
+          "x": 0.76,
+          "y": 0.62,
+          "r": 0.3,
+          "color": "#E07A2E",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "kunti",
+          "pose": "holding-back",
+          "x": 0.38,
+          "y": 0.82,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "grieving"
+        },
+        {
+          "id": "madri",
+          "pose": "walking",
+          "x": 0.62,
+          "y": 0.82,
+          "scale": 0.9,
+          "flip": false,
+          "action": "still",
+          "light": "silhouette"
+        }
+      ],
+      "props": [
+        {
+          "id": "young-pandavas-group",
+          "x": 0.14,
+          "y": 0.74,
+          "scale": 0.75,
+          "action": "idle"
+        },
+        {
+          "id": "pyre-flames",
+          "x": 0.8,
+          "y": 0.66,
+          "scale": 0.9,
+          "action": "flicker-distant"
+        }
+      ],
+      "camera": {
+        "move": "slow-pan-right",
+        "from": 0.0,
+        "to": 0.04
+      },
+      "narration": {
+        "en": "Madri followed him into the fire, as the curse foretold.",
+        "hi": "माद्री भी उनके साथ चिता पर चढ़ गईं।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "wind-desolate",
+          "at": 0,
+          "volume": 0.4
+        },
+        {
+          "id": "gong-soft",
+          "onWord": {
+            "en": "fire",
+            "hi": "चिता"
+          },
+          "volume": 0.5
+        }
+      ],
+      "music": 0.8,
+      "transition": "dissolve",
+      "notes": "Kunti holds the five boys back (group prop behind her). Madri, in silhouette, walks toward stylised folk-art flames. No body on the pyre."
+    },
+    {
+      "id": "s12",
+      "beat": 12,
+      "type": "text-reveal",
+      "background": "parchment-card",
+      "light": "divine",
+      "characters": [],
+      "props": [
+        {
+          "id": "glowing-arrow",
+          "x": 0.5,
+          "y": 0.3,
+          "scale": 0.6,
+          "action": "glint"
+        },
+        {
+          "id": "five-sons-silhouette",
+          "x": 0.5,
+          "y": 0.62,
+          "scale": 0.9,
+          "action": "idle"
+        }
+      ],
+      "overlay": "folk-art-border",
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05
+      },
+      "narration": {
+        "en": "One arrow… and five sons of gods.",
+        "hi": "एक बाण… और पाँच देवपुत्र।"
+      },
+      "onScreenText": {
+        "en": "One arrow. Five sons of gods.",
+        "hi": "एक बाण। पाँच देवपुत्र।",
+        "style": "law-inscription",
+        "source": {
+          "en": "Mahabharata, Adi Parva",
+          "hi": "महाभारत, आदि पर्व"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "gods",
+            "hi": "देवपुत्र"
+          },
+          "do": "write-on"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "onWord": {
+            "en": "gods",
+            "hi": "देवपुत्र"
+          },
+          "volume": 0.8
+        }
+      ],
+      "transition": "border-wipe",
+      "notes": "Payoff of the hook. The single golden arrow above five glowing figures in a row (the brothers grown)."
+    },
+    {
+      "id": "s13",
+      "beat": 13,
+      "type": "character",
+      "background": "amaravati-court",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "stars",
+          "n": 30
+        },
+        {
+          "type": "glow",
+          "x": 0.72,
+          "y": 0.4,
+          "r": 0.3,
+          "color": "#F2A7B8",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "standing-bow",
+          "x": 0.3,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "calm"
+        }
+      ],
+      "props": [
+        {
+          "id": "apsara-silhouette",
+          "x": 0.72,
+          "y": 0.62,
+          "scale": 0.7,
+          "action": "idle"
+        },
+        {
+          "id": "shaap-stamp",
+          "x": 0.5,
+          "y": 0.3,
+          "scale": 0.7,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.1
+      },
+      "narration": {
+        "en": "And one of them, Arjuna, would face a curse of his own.",
+        "hi": "और उनमें से एक, अर्जुन, पर भी शाप पड़ना अभी बाकी था।"
+      },
+      "onScreenText": {
+        "en": "CURSED III",
+        "hi": "शाप III",
+        "style": "stamp-gold"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "own",
+            "hi": "बाकी"
+          },
+          "do": "stamp-next",
+          "target": "shaap-stamp"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "onWord": {
+            "en": "own",
+            "hi": "बाकी"
+          },
+          "volume": 0.9
+        }
+      ],
+      "overlay": "folk-art-border",
+      "transition": "cut-to-black",
+      "notes": "Tease for S01E03 (Urvashi curses Arjuna). Grown Arjuna mid-distance in Indra’s court; an apsara silhouette. Both assets are needed for E03 anyway."
+    }
+  ],
+  "assets": {
+    "characters": [
+      {
+        "id": "pandu",
+        "status": "library",
+        "poses": {
+          "drawing-bow": "library",
+          "standing-shocked": "new",
+          "removing-crown": "new",
+          "reaching": "new"
+        }
+      },
+      {
+        "id": "dharma",
+        "status": "library",
+        "poses": {
+          "seated-throne": "library"
+        }
+      },
+      {
+        "id": "kindama",
+        "status": "new",
+        "poses": {
+          "lying-wounded": "new",
+          "cursing-from-ground": "new"
+        },
+        "derive": "mandavya"
+      },
+      {
+        "id": "kunti",
+        "status": "new",
+        "poses": {
+          "standing-sad": "new",
+          "folded-hands": "new",
+          "holding-baby": "new",
+          "holding-back": "new"
+        }
+      },
+      {
+        "id": "madri",
+        "status": "new",
+        "poses": {
+          "standing-sad": "new",
+          "holding-twins": "new",
+          "turning-away": "new",
+          "walking": "new"
+        }
+      },
+      {
+        "id": "arjuna",
+        "status": "new",
+        "poses": {
+          "standing-bow": "new"
+        },
+        "notes": "E03 lead; derive from pandu"
+      }
+    ],
+    "backgrounds": [
+      {
+        "id": "forest-hunt",
+        "status": "library"
+      },
+      {
+        "id": "hermitage",
+        "status": "library"
+      },
+      {
+        "id": "cosmic-court",
+        "status": "library"
+      },
+      {
+        "id": "red-sky-plain",
+        "status": "library"
+      },
+      {
+        "id": "parchment-card",
+        "status": "library"
+      },
+      {
+        "id": "himalaya-peaks",
+        "status": "new"
+      },
+      {
+        "id": "spring-forest",
+        "status": "new"
+      },
+      {
+        "id": "amaravati-court",
+        "status": "new",
+        "notes": "Indra’s court, also needed for E03"
+      }
+    ],
+    "props": [
+      {
+        "id": "deer",
+        "status": "library"
+      },
+      {
+        "id": "stag-wounded",
+        "status": "new",
+        "notes": "derive from the deer prop"
+      },
+      {
+        "id": "glowing-arrow",
+        "status": "library"
+      },
+      {
+        "id": "falling-light",
+        "status": "library"
+      },
+      {
+        "id": "mantra-ring",
+        "status": "new"
+      },
+      {
+        "id": "wind-swirl",
+        "status": "new"
+      },
+      {
+        "id": "vajra-flash",
+        "status": "new"
+      },
+      {
+        "id": "twin-stars",
+        "status": "new"
+      },
+      {
+        "id": "three-pilgrims-silhouette",
+        "status": "new"
+      },
+      {
+        "id": "fallen-crown",
+        "status": "new"
+      },
+      {
+        "id": "pyre-flames",
+        "status": "new"
+      },
+      {
+        "id": "young-pandavas-group",
+        "status": "new"
+      },
+      {
+        "id": "five-sons-silhouette",
+        "status": "new"
+      },
+      {
+        "id": "apsara-silhouette",
+        "status": "new"
+      }
+    ],
+    "overlays": [
+      {
+        "id": "folk-art-border",
+        "status": "library"
+      },
+      {
+        "id": "shaap-stamp",
+        "status": "library"
+      }
+    ]
+  }
+}

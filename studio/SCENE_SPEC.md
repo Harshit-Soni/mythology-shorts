@@ -46,7 +46,7 @@ Everything the renderer understands. If a storyboard needs something not listed 
 `static` · `slow-zoom-in` / `slow-zoom-out` (`from`→`to` scale) · `fast-zoom-in` / `push-in-fast` · `slow-pan-up` / `crane-up` (`from`→`to` as a fraction of the height) · `tilt-down` · `pan-left` / `slow-pan-right` (fraction of the width) · `shake-small-then-static` · `shake-then-zoom`. `focus` sets the zoom origin.
 
 ## Actions (characters and props)
-`idle`/`breathe` · `still` · `run-in-hide` (enters from off-screen on the side behind it) · `walk-left` · `walk-up-steps` · `step-forward` · `shout` · `bow` · `point` · `raise-hand` · `sway` · `glint` · `fall` · `circle` · `flicker-distant` · `descend` · `graze` · `draw-bow` · `stamp-in` (prop appears with a stamp bounce: at 0.15 s, or on its cue if one targets it) · `silhouette`, `held`, `spill`, `scatter`, `pierce`, `tip-violent` (react to cues)
+`idle`/`breathe` · `still` · `run-in-hide` (enters from off-screen on the side behind it) · `walk-left` · `walk-up-steps` · `step-forward` · `shout` · `bow` · `point` · `raise-hand` · `sway` · `glint` · `fall` · `circle` · `flicker-distant` · `descend` · `ascend` (drifts up and fades over the scene) · `graze` · `draw-bow` · `stamp-in` (prop appears with a stamp bounce: at 0.15 s, or on its cue if one targets it) · `silhouette`, `held`, `spill`, `scatter`, `pierce`, `tip-violent` (react to cues)
 
 ## Cue effects (`do`)
 | `do` | Effect |
@@ -57,6 +57,7 @@ Everything the renderer understands. If a storyboard needs something not listed 
 | `stamp-next` / `stamp-in` | the target stamp prop lands; a `stamp-gold` text lands with it |
 | `light-burst-saffron` | a saffron burst from the target character's hand (`HAND` table in `Character.tsx`) |
 | `halo-crack-dim` | cracks draw over the target's halo, and the character dims |
+| `life-fade` | the target character's colour drains and it darkens over ~1.4 s (a quiet death, no cracks) |
 | `eyes-open-glow` | glowing eyes on the target (for silhouettes) |
 | `pull-fail` | the target shakes |
 | `title-in` | `title-serif` text appears |

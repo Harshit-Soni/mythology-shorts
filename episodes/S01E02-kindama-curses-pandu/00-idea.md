@@ -10,7 +10,7 @@
 - [x] 2 Script (read aloud, EN + HI)
 - [x] 3 Storyboard
 - [x] 4 Assets
-- [x] 5 Voice: ElevenLabs eleven_v4 (Starter plan), EN 60.5 s, HI 59.8 s incl. sting; auto-aligned, see 05-voice-direction.md
-- [ ] 6 Render: finals + thumbnails rendered 2026-11-16 (EN 60.4 s, HI 59.7 s, sync 0 off); waiting on the phone check, sound on + off
+- [x] 5 Voice: v2 (16 beats), ElevenLabs eleven_v4, EN 87.2 s, HI 86.2 s incl. sting; exact Scribe word times. v1 (60 s) superseded: it felt rushed
+- [ ] 6 Render: v2 finals + thumbnails rendered 2026-11-16 (sync 0 off); waiting on the phone check, sound on + off
 - [ ] 7 Published (links in INDEX.md)
 - [ ] 8 Reviewed (7 days after upload)
