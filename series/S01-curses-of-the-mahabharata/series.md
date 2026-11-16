@@ -23,6 +23,9 @@
 | E07 | **Shringi curses Parikshit**: Takshaka | "A dead snake around a sage's neck killed a king." | Adi Parva | |
 | E08 | **Gandhari curses Krishna**: the end of the Yadavas | "A mother's grief cursed God himself." | Stri Parva | Series finale |
 
+## Full curse catalogue
+See `curses-catalog.md`: every curse in the epic, with source, fit and candidates for new episodes.
+
 ## Sources to use
 - Mahabharata, K. M. Ganguli translation (public domain), available at sacred-texts.com
 - BORI Critical Edition, the scholarly reference for which passages count as "core"
