@@ -8,7 +8,7 @@ Everything needed to set up the Instagram and YouTube channels. Copy and paste e
 |---|---|
 | **Name** | The Lost Gyaan |
 | **Hindi name** | द लॉस्ट ज्ञान |
-| **Handles (YouTube and Instagram)** | Hindi `@thelostgyaan` · English `@thelostgyaan.en` (decided 2026-11-16; each bio links the other, see `distribution-plan.md`) |
+| **Handles (YouTube and Instagram)** | Hindi `@thelostgyaan` · English `@thelostgyaan_en` (decided 2026-11-16; each bio links the other, see `distribution-plan.md`) |
 | **Backup handles (claim, keep empty)** | YouTube `@thelostgyan`; Instagram `@the.lost.gyaan` |
 | **What it is** | Lost and lesser-known stories from Indian mythology, Indian history, world mythology and world history, in 60 seconds, in English and Hindi |
 | **Who it's for** | Everyone from 15 to 65: young viewers who want fast, cinematic stories and older viewers who grew up on these tales |

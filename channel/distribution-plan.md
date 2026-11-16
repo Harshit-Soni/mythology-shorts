@@ -7,11 +7,11 @@ Written 2026-11-16. Treat it as a starting plan to test: after 4 weeks, let each
 | Language | YouTube | Instagram |
 |---|---|---|
 | **Hindi (main)** | `@thelostgyaan` | `@thelostgyaan` |
-| **English** | `@thelostgyaan.en` | `@thelostgyaan.en` |
+| **English** | `@thelostgyaan_en` | `@thelostgyaan_en` |
 
 - **Why split by language:** YouTube recommends Shorts by the language a viewer watches in, and on a mixed channel each language's viewers swipe away from the other's videos, which hurts retention for both. Separate accounts keep every feed in one language.
-- **Why one name:** the logo, banner, end card and thumbnails stay the same; only the handle changes. If someone drops the ".en", they land on our Hindi account, which links straight back.
-- **Cross-links:** each bio and YouTube description links the other ("Watch in English: @thelostgyaan.en" / "हिंदी में देखें: @thelostgyaan"), and so do the YouTube banner links.
+- **Why one name:** the logo, banner, end card and thumbnails stay the same; only the handle changes. If someone drops the "_en", they land on our Hindi account, which links straight back. (YouTube refused `@thelostgyaan.en`, so English uses `_en` on both platforms.)
+- **Cross-links:** each bio and YouTube description links the other ("Watch in English: @thelostgyaan_en" / "हिंदी में देखें: @thelostgyaan"), and so do the YouTube banner links.
 - **Display names:** Hindi "The Lost Gyaan | हिंदी", English "The Lost Gyaan | English" (Instagram's name field allows 30 characters).
 - **End card:** each language's video shows its own handle (`studio/src/lib/brand.ts`).
 - **Hindi gets priority** (the biggest audience for Indian mythology); English widens the reach (urban India, the diaspora, world mythology and history later).
@@ -77,7 +77,7 @@ Written 2026-11-16. Treat it as a starting plan to test: after 4 weeks, let each
 | Feb–Mar 2027 | Khatu Shyam Phalguna Mela (Phalguna Shukla Ekadashi) | repost X001, or a part 2 |
 
 ## 6. Launch checklist for X001 (going out early, on 16–17 Nov)
-- [ ] Create `@thelostgyaan.en` on YouTube and Instagram (same emblem and banner), and cross-link the bios
+- [ ] Create `@thelostgyaan_en` on YouTube and Instagram (same emblem and banner), and cross-link the bios
 - [ ] **Hindi, Mon 16 Nov:** YouTube Short 7:30 PM IST, Instagram Reel 8:00 PM IST (location Khatu Shyam Ji Temple)
 - [ ] **English, Tue 17 Nov:** YouTube Short 7:30 AM IST, Instagram Reel 12:30 PM IST
 - [ ] **Janmotsav, Fri 20 Nov:** reshare as an Instagram Story and a YouTube community post ("Jai Shri Shyam 🙏, Baba's Janmotsav today")

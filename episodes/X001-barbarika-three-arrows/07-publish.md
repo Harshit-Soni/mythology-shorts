@@ -2,11 +2,11 @@
 
 The video tells the **Khatu Shyam (folk) story**. The description names that and points to the Skanda Purana's different version. Timings come from the final ElevenLabs voice.
 
-**Release plan** (see `channel/distribution-plan.md`): Khatu Shyam Janmotsav is **Fri 20 Nov 2026** (Dev Uthani Ekadashi). Accounts: **Hindi = `@thelostgyaan`**, **English = `@thelostgyaan.en`** (YouTube and Instagram; each bio links the other). Going out early: **Hindi Mon 16 Nov** (YouTube 7:30 PM, Instagram 8:00 PM IST), **English Tue 17 Nov** (YouTube 7:30 AM, Instagram 12:30 PM IST); on Janmotsav (Fri 20 Nov) reshare as a Story and a community post. Drop the 🙏 Janmotsav lines if it's posted after that week.
+**Release plan** (see `channel/distribution-plan.md`): Khatu Shyam Janmotsav is **Fri 20 Nov 2026** (Dev Uthani Ekadashi). Accounts: **Hindi = `@thelostgyaan`**, **English = `@thelostgyaan_en`** (YouTube and Instagram; each bio links the other). Going out early: **Hindi Mon 16 Nov** (YouTube 7:30 PM, Instagram 8:00 PM IST), **English Tue 17 Nov** (YouTube 7:30 AM, Instagram 12:30 PM IST); on Janmotsav (Fri 20 Nov) reshare as a Story and a community post. Drop the 🙏 Janmotsav lines if it's posted after that week.
 
 **Thumbnail / cover:** `render/X001-thumb-en.png` and `render/X001-thumb-hi.png` (Barbarika with his bow).
 
-## YouTube Shorts: English (`@thelostgyaan.en`)
+## YouTube Shorts: English (`@thelostgyaan_en`)
 - **Title (≤60 chars):** **He Could End the Mahabharata War With 3 Arrows** *(46)*
   - Alt A: Why Krishna Asked This Warrior for His Head *(43)*
   - Alt B: Khatu Shyam: The Warrior Who Gave His Head *(43)*
@@ -37,7 +37,7 @@ The video tells the **Khatu Shyam (folk) story**. The description names that and
   > 🙏 खाटू श्याम जन्मोत्सव (देवउठनी एकादशी) पर विशेष। जय श्री श्याम!
   >
   > 📜 द लॉस्ट ज्ञान: जो इतिहास भूल गया, वो हमें याद है। ऐसी और भूली हुई कथाओं के लिए फ़ॉलो करें।
-  > Watch in English: @thelostgyaan.en
+  > Watch in English: @thelostgyaan_en
   >
   > **स्रोत**
   > • खाटू श्याम कथा (लोक परम्परा): https://www.bhaktibharat.com/amp/katha/khatu-shyam-katha
@@ -53,7 +53,7 @@ The video tells the **Khatu Shyam (folk) story**. The description names that and
   > तीन बाणों से महाभारत ख़त्म कर सकते थे… फिर भी शीश दान कर दिया। 🏹
   > बर्बरीक, भीम के पोते, आज के खाटू श्याम: हारे का सहारा। खाटू श्याम जन्मोत्सव पर उनकी कथा, जैसी खाटू में सुनाई जाती है।
   > आपने कौन-सी कथा सुनी है? कमेंट में बताइए 👇
-  > ऐसी और भूली हुई कथाओं के लिए फ़ॉलो करें @thelostgyaan (English: @thelostgyaan.en)
+  > ऐसी और भूली हुई कथाओं के लिए फ़ॉलो करें @thelostgyaan (English: @thelostgyaan_en)
   > जय श्री श्याम 🙏
   >
   > #खाटूश्याम #KhatuShyam #Mahabharata #बर्बरीक #TheLostGyaan
@@ -61,12 +61,12 @@ The video tells the **Khatu Shyam (folk) story**. The description names that and
 - **Cover:** `render/X001-thumb-hi.png` · **Alt text:** Barbarika, a young warrior with a crown and a quiver of three blue arrows, draws his bow under a full moon.
 - **After posting:** share to Story with a poll: "क्या आपने यह कथा पहले सुनी थी? हाँ / नहीं"
 
-## Instagram Reel: English (`@thelostgyaan.en`)
+## Instagram Reel: English (`@thelostgyaan_en`)
 - **Caption:**
   > He could have ended the Mahabharata war with three arrows. Instead, he gave his head. 🏹
   > Barbarika, Bhima's grandson, is worshipped today as Khatu Shyam, the support of those who lose. His birthday falls on Dev Uthani Ekadashi.
   > Which version of this story did you grow up with? 👇
-  > Follow @thelostgyaan.en for the stories history forgot. हिंदी: @thelostgyaan
+  > Follow @thelostgyaan_en for the stories history forgot. हिंदी: @thelostgyaan
   >
   > #KhatuShyam #Mahabharata #Barbarika #IndianMythology #TheLostGyaan
 - **Cover:** `render/X001-thumb-en.png` · **Location:** Khatu Shyam Ji Temple
