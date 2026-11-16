@@ -6,7 +6,7 @@
 - **Created:** 2026-11-16
 
 ## Status
-- [ ] 1 Research (verified by me)
+- [x] 1 Research (verified by me)
 - [ ] 2 Script (read aloud, EN + HI)
 - [ ] 3 Storyboard
 - [ ] 4 Assets
