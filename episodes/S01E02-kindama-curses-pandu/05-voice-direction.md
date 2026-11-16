@@ -1,7 +1,7 @@
 # Voice Direction: S01E02
 
 **Voice:** ElevenLabs `5gaEGrWSk4v20HMfIhgC`, model `eleven_v4` (PIPELINE.md Stage 5), same narrator for EN and HI. One full take per language, beats as paragraphs; delivery comes from the inline tags (v4 has no stability/style/speed settings).
-**ElevenLabs flow:** `ovH1Nx4o888Njg8xJu92` (S01E02 Kindama curses Pandu: voice).
+**ElevenLabs flow:** `NvM1H2Qyly5DBYGmdnbi` in **My Workspace** (Starter plan). An earlier flow `ovH1Nx4o888Njg8xJu92` sat in the old free workspace and never ran (queue busy ×5).
 
 **The arc:** a shock (the human cry) → wonder (the sage) → dread (the curse, the lowest and gravest line) → sorrow (the throne) → warmth and wonder (the births) → hush (spring, the pyre) → awe (one arrow, five sons) → a dark tease.
 
@@ -67,5 +67,5 @@ Pandu chose the first: Dharma, god of justice. [tenderly] Yudhishthira was born.
 ## Takes
 | Lang | Status |
 |---|---|
-| EN | 2026-11-16: free-tier queue busy, not started (nothing charged). Retry |
-| HI | not started |
+| EN | 2026-11-16: node `ApVOsLtz3IQQqzMKQlFp`, generation `Us8FGkXGHTz2d09OTdYc`, 958 credits. Raw 58.9 s → `audio/en.take.mp3`; `voice:import … auto`, all 13 beats found; speech ends at 60.5 s incl. the sting |
+| HI | 2026-11-16: node `g8ixQq1pzVIzEFyQGOC3`, generation `7jh7fOz0HFQu8MNTUlYP`, 861 credits. Raw 58.6 s → `audio/hi.take.mp3`; all 13 beats found; speech ends at 59.8 s. Beat 12 came out short (1.6 s vs 2.4 s expected): check its cue lands in the render |

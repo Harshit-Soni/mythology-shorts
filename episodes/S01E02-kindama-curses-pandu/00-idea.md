@@ -10,7 +10,7 @@
 - [x] 2 Script (read aloud, EN + HI)
 - [x] 3 Storyboard
 - [x] 4 Assets
-- [ ] 5 Voice
+- [x] 5 Voice: ElevenLabs eleven_v4 (Starter plan), EN 60.5 s, HI 59.8 s incl. sting; auto-aligned, see 05-voice-direction.md
 - [ ] 6 Render (watched on phone, sound on + off)
 - [ ] 7 Published (links in INDEX.md)
 - [ ] 8 Reviewed (7 days after upload)
