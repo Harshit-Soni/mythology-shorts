@@ -1313,5 +1313,16 @@
       "fadeOutSec": 1.5
     },
     "sfxVolume": 0.8
+  },
+  "thumbnail": {
+    "scene": "s13",
+    "at": 0.6,
+    "lift": 0,
+    "series": { "en": "Shraap · Episode 1", "hi": "शाप · भाग 1" },
+    "title": { "en": "He Cursed the God of Justice", "hi": "जब ऋषि ने धर्म को शाप दिया" },
+    "titleLines": {
+      "en": ["He Cursed", "the God of Justice"],
+      "hi": ["जब ऋषि ने", "धर्म को शाप दिया"]
+    }
   }
 }

@@ -6,7 +6,7 @@ The pilot of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
 **When:** after X001's Khatu Shyam Janmotsav week (Fri 20 Nov 2026), so the two don't compete, e.g. **Hindi Sun 22 Nov 7:30 PM, English Mon 23 Nov 7:30 AM IST** (same pattern as X001). Post E02 within the week so the tease at the end pays off quickly.
 **Playlist (create now, both channels):** EN *Shraap: Curses of the Mahabharata* · HI *Shraap: Mahabharat Ke Shraap*. Set E02's "Related video" to this one later.
 
-**Cover / thumbnail:** no `thumbnail` block yet. Best frames: **beat 13, the curse** (Mandavya points at Dharma, the halo cracks): EN **0:45**, HI **0:54**. Second choice: **beat 1**, Dharma on his throne with the scales (EN 0:03, HI 0:04). A proper cover can be rendered with `npm run render -- S01E01 <lang> --thumbnail` once a `thumbnail` block is added.
+**Cover / thumbnail:** `render/S01E01-thumb-en.png` and `render/S01E01-thumb-hi.png` (the curse scene: Mandavya points at Dharma; "He Cursed the God of Justice" / "जब ऋषि ने धर्म को शाप दिया"). Upload as the YouTube thumbnail and the Instagram cover.
 
 ## YouTube Shorts: English (`@thelostgyaan_en`)
 - **Title (≤60 chars):** **Vidura Was a God in Disguise, Cursed by a Sage** *(47)*
@@ -59,7 +59,7 @@ The pilot of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
   > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan (English: @thelostgyaan_en)
   >
   > #Mahabharat #Vidur #MahabharatKeShraap #Shraap #TheLostGyaan
-- **Cover:** frame at 0:54 (the curse) until a thumbnail is rendered · **Alt text:** A sage in saffron points at a crowned god on a golden throne, whose halo cracks as the curse lands.
+- **Cover:** `render/S01E01-thumb-hi.png` · **Alt text:** A sage in saffron points at a crowned god on a golden throne, whose halo cracks as the curse lands.
 - **Audio name:** Mandavya Ka Shraap · The Lost Gyaan
 - **After posting:** share to Story with a poll: "Mandavya ka shraap: sahi ya zyada? Sahi / Zyada"
 
@@ -71,7 +71,7 @@ The pilot of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
   > Follow @thelostgyaan_en for the stories history forgot. हिंदी: @thelostgyaan
   >
   > #Mahabharata #Vidura #MahabharataCurses #IndianMythology #TheLostGyaan
-- **Cover:** frame at 0:45 (the curse) until a thumbnail is rendered · **Alt text:** as above.
+- **Cover:** `render/S01E01-thumb-en.png` · **Alt text:** as above.
 - **After posting:** Story poll: "Mandavya's curse: fair or too harsh?"
 
 ## Sources (paste into descriptions)
