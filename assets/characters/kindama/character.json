@@ -1,0 +1,32 @@
+{
+  "id": "kindama",
+  "name": {
+    "en": "Kindama",
+    "hi": "किन्दम"
+  },
+  "role": "A sage who lived in the forest in a deer's form; cursed Pandu (Adi Parva §118)",
+  "divine": false,
+  "appearsIn": [
+    "S01E02"
+  ],
+  "look": "A younger sage (~35): black jata in a top knot, a short dark beard, tripundra, rudraksha, an ochre-brown dhoti and a spotted deerskin over his shoulder.",
+  "sourceNotes": "\"A Rishi's son of great ascetic merit\", a muni living on fruit and roots, in a deer's form out of modesty (Adi §118). No physical description in the text; the deerskin is a design nod to his deer form.",
+  "poses": [
+    "lying-wounded",
+    "cursing-from-ground"
+  ],
+  "expressions": [
+    "pained",
+    "furious"
+  ],
+  "files": {
+    "lying-wounded": "lying-wounded.svg",
+    "cursing-from-ground": "cursing-from-ground.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "lying-wounded": "right (head to the right)",
+    "cursing-from-ground": "right (head to the right)"
+  },
+  "notes": "Built from the mandavya rig (lower and upper body rotated about the hip) by episodes/S01E02-kindama-curses-pandu/svg/make-kindama.py. In S01E02 he is flipped so he faces Pandu on the left."
+}

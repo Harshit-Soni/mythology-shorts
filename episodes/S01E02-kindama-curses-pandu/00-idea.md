@@ -9,7 +9,7 @@
 - [x] 1 Research (verified by me)
 - [x] 2 Script (read aloud, EN + HI)
 - [x] 3 Storyboard
-- [ ] 4 Assets
+- [x] 4 Assets
 - [ ] 5 Voice
 - [ ] 6 Render (watched on phone, sound on + off)
 - [ ] 7 Published (links in INDEX.md)

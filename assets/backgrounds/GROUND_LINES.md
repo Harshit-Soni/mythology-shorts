@@ -12,3 +12,6 @@ Where characters' feet (`y`) go on each background, as a fraction of the 9:16 fr
 | `hastinapura-palace` | courtyard floor from ≈ 0.80; feet ≈ 0.90; open sky in the top third |
 | `forest-hunt` | ground from ≈ 0.70; feet ≈ 0.86 |
 | `parchment-card` | text card, no ground |
+| `himalaya-peaks` | rocky path from bottom-left to centre; small walkers at ≈ 0.80 (the path crosses the frame at 0.78–0.84). No standing figures planned |
+| `spring-forest` | meadow from ≈ 0.72; feet ≈ 0.86 (two figures at x ≈ 0.27 and 0.87 in S01E02 s10); lotus pool at the back ≈ 0.69 |
+| `amaravati-court` | floor from ≈ 0.76 (gold inlay at 0.78); feet ≈ 0.86; stage on the right, top ≈ 0.73–0.78 (x ≥ 0.6) |
