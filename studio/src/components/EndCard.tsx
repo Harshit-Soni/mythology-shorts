@@ -12,7 +12,9 @@ const clamp = { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' } as const;
 // The channel end card: the last BRAND.endCardSec seconds of every video (both versions).
 // Emblem, name, tagline and the handle, on the logo's indigo, with gold dust and grain.
 // Everything sits above the Shorts UI zone at the bottom.
-export const EndCard: React.FC<{ lang: Lang }> = ({ lang }) => {
+// One card for every video: always in English (the brand's look), whatever the video's language.
+export const EndCard: React.FC<{ lang: Lang }> = () => {
+  const lang = 'en' as const;
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
   const sec = f / fps;
@@ -32,13 +34,12 @@ export const EndCard: React.FC<{ lang: Lang }> = ({ lang }) => {
       </div>
       <div style={{ position: 'absolute', top: 1080, width: '100%', textAlign: 'center', ...rise(0.25) }}>
         <div style={{ font: `700 104px ${serifFont('en')}`, letterSpacing: 6, color: COLORS.gold, textShadow: '0 4px 18px rgba(0,0,0,0.6)' }}>{BRAND.name}</div>
-        {lang === 'hi' && <div style={{ font: `400 52px ${serifFont('hi')}`, color: COLORS.gold, opacity: 0.85, marginTop: -6 }}>{BRAND.nameHi}</div>}
       </div>
-      <div style={{ position: 'absolute', top: lang === 'hi' ? 1270 : 1215, width: '100%', textAlign: 'center', ...rise(0.5),
-        font: lang === 'hi' ? `400 50px ${serifFont('hi')}` : `italic 600 52px ${serifFont('en')}`, color: COLORS.parchment }}>
+      <div style={{ position: 'absolute', top: 1215, width: '100%', textAlign: 'center', ...rise(0.5),
+        font: `italic 600 52px ${serifFont('en')}`, color: COLORS.parchment }}>
         {BRAND.tagline[lang]}
       </div>
-      <div style={{ position: 'absolute', top: lang === 'hi' ? 1380 : 1330, width: '100%', display: 'flex', justifyContent: 'center', ...rise(0.75) }}>
+      <div style={{ position: 'absolute', top: 1330, width: '100%', display: 'flex', justifyContent: 'center', ...rise(0.75) }}>
         <div style={{ padding: '14px 40px', borderRadius: 60, border: `3px solid ${COLORS.gold}`, background: 'rgba(14,13,34,0.55)',
           font: `600 42px ${sansFont(lang)}`, color: COLORS.parchment, display: 'flex', gap: 16, alignItems: 'baseline' }}>
           <span>{BRAND.cta[lang]}</span>
