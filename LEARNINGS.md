@@ -13,6 +13,8 @@ Lessons from making and publishing episodes. One line per lesson, with the episo
 - Generators keep a style once batch 1 is approved: always do the main characters first, and give later batches the approved files as references. (S01E01)
 - Make expressions about twice as strong as feels natural; open mouths must show through beards; every pose must read as a silhouette; held objects must be unambiguous (a cloth read as a blade). (S01E01 batch 1)
 - Silhouettes can accidentally form religious symbols (a figure on a pole read as a cross). Check every silhouette. (S01E01)
+- A tall pointed crown on a black silhouette reads as a hood at phone size: give silhouettes broad, low crowns and light one feature (white beard, hair). (S01E03 Bhishma)
+- Folk-art icons with two dark dots in a circle read as faces (the family-vine medallions): draw full small figures instead. (S01E03)
 - Deities: shocked faces can tip into slapstick (round "googly" eyes). Keep the eye shape and widen it instead. (S01E01)
 - Facing: judge by the ear rule (the visible ear is the back of the head), and only zoomed in. Thumbnails misled us into "fixing" three poses that were correct. (S01E01)
 - Concept PNG first for anything with no approved example (architecture, the signature border). Test overlays opaque at phone size over a real scene. (S01E01)
@@ -32,6 +34,8 @@ Lessons from making and publishing episodes. One line per lesson, with the episo
 - Characters float unless their `y` sits on the background's measured ground line: measure every new background (GROUND_LINES.md). (S01E01)
 - Never mirror a character who must walk the other way: the movement follows facing. (S01E01 s05)
 - Characters hiding behind something need a `layer-front` in the background, `frontLayer: true`, and a smaller scale (they're further away). (S01E01 s03)
+- `stamp-next` on the `shaap-stamp` prop lands only a ring; the word comes from a `stamp-gold` onScreenText in the same scene. Every curse stamp needs both. (S01E03)
+- Cut to an insert on an early word of its sentence, not the last one, or it flashes by (S01E03 Hindi s13b was 1.0 s). (S01E03)
 - Insert shots share their parent's beat: they must have empty narration, or real-audio timing duplicates words and desyncs everything after. (S01E01, fixed in the studio)
 
 ## Voice

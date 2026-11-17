@@ -44,8 +44,9 @@
     },
     "titleLines": {
       "en": [
-        "The Apsara Who",
-        "Cursed Arjuna"
+        "The Apsara",
+        "Who Cursed",
+        "Arjuna"
       ],
       "hi": [
         "जब अप्सरा ने",
@@ -165,7 +166,11 @@
         "en": "Arjuna said no to the most beautiful apsara in heaven… and she cursed him for it.",
         "hi": "अर्जुन ने स्वर्ग की सबसे सुंदर अप्सरा को ठुकराया… और उसने शाप दे दिया!"
       },
-      "onScreenText": null,
+      "onScreenText": {
+        "en": "CURSED",
+        "hi": "शाप",
+        "style": "stamp-gold"
+      },
       "cues": [
         {
           "onWord": {
@@ -836,7 +841,11 @@
         "en": "Shaking with rage, she cursed him: \"You will live among women, as a dancer, without your manhood.\"",
         "hi": "क्रोध से काँपती उर्वशी ने शाप दिया: \"स्त्रियों के बीच नर्तक बनकर रहोगे, पुरुषत्व के बिना!\""
       },
-      "onScreenText": null,
+      "onScreenText": {
+        "en": "CURSED",
+        "hi": "शाप",
+        "style": "stamp-gold"
+      },
       "cues": [
         {
           "onWord": {
@@ -1066,8 +1075,8 @@
       "cues": [
         {
           "onWord": {
-            "en": "taught",
-            "hi": "सिखाने"
+            "en": "Arjuna",
+            "hi": "अर्जुन"
           },
           "do": "hard-cut-to",
           "target": "s13b"

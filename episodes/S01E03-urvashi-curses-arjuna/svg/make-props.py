@@ -216,13 +216,20 @@ def gandiva_shockwave():
 
 # 9. Bhishma (E04 tease): a tall old warrior in silhouette, white beard and hair lit
 def bhishma_silhouette():
-    body = person(400, 770, 660, rim='#E07A2E', robe=False, hair='crown')
+    """No tall pointed crown (at phone size it read as a hood): a broad, low mukuta, long white hair and beard lit."""
+    body = person(400, 770, 660, rim='#E07A2E', robe=False, hair=None)
     u = 66
     hy = 770 - 660 + u * 0.9
-    body += (f'<path d="M{400 - u * 0.5:.0f} {hy + u * 0.3:.0f} Q400 {hy + u * 2.2:.0f} {400 + u * 0.6:.0f} {hy + u * 0.3:.0f} Q400 {hy + u * 1.0:.0f} {400 - u * 0.5:.0f} {hy + u * 0.3:.0f}Z" fill="#F3EEDF" stroke="{INK}" stroke-width="3" />'
-             f'<path d="M{400 - u * 0.7:.0f} {hy - u * 0.3:.0f} Q{400 - u * 1.4:.0f} {hy + u * 0.8:.0f} {400 - u * 1.1:.0f} {hy + u * 1.6:.0f}" stroke="#F3EEDF" stroke-width="10" />'
+    body += (f'<path d="M{400 - u * 0.85:.0f} {hy - u * 0.45:.0f} L{400 - u * 0.95:.0f} {hy - u * 1.15:.0f} L{400 - u * 0.45:.0f} {hy - u * 0.85:.0f} '
+             f'L400 {hy - u * 1.35:.0f} L{400 + u * 0.45:.0f} {hy - u * 0.85:.0f} L{400 + u * 0.95:.0f} {hy - u * 1.15:.0f} L{400 + u * 0.85:.0f} {hy - u * 0.45:.0f}Z" '
+             f'fill="{SIL}" stroke="#E07A2E" stroke-width="3" />'
+             f'<path d="M{400 - u * 0.85:.0f} {hy - u * 0.5:.0f} L{400 + u * 0.85:.0f} {hy - u * 0.5:.0f}" stroke="{GOLD}" stroke-width="7" />'
+             # long white hair falling behind the shoulders, and a long white beard
+             f'<path d="M{400 - u * 0.7:.0f} {hy - u * 0.2:.0f} Q{400 - u * 1.3:.0f} {hy + u * 1.0:.0f} {400 - u * 1.2:.0f} {hy + u * 2.2:.0f} L{400 - u * 0.9:.0f} {hy + u * 2.0:.0f} Q{400 - u * 0.9:.0f} {hy + u * 0.9:.0f} {400 - u * 0.55:.0f} {hy + u * 0.2:.0f}Z" fill="#F3EEDF" stroke="{INK}" stroke-width="3" />'
+             f'<path d="M{400 - u * 0.6:.0f} {hy + u * 0.2:.0f} Q{400 - u * 0.5:.0f} {hy + u * 1.4:.0f} {400 + u * 0.05:.0f} {hy + u * 2.6:.0f} Q{400 + u * 0.5:.0f} {hy + u * 1.4:.0f} {400 + u * 0.7:.0f} {hy + u * 0.2:.0f} Q400 {hy + u * 0.9:.0f} {400 - u * 0.6:.0f} {hy + u * 0.2:.0f}Z" fill="#F3EEDF" stroke="{INK}" stroke-width="3" />'
+             f'<path d="M{400 - u * 0.2:.0f} {hy + u * 0.9:.0f} Q{400 - u * 0.05:.0f} {hy + u * 1.7:.0f} {400 + u * 0.05:.0f} {hy + u * 2.3:.0f}" stroke="#D6C7AF" stroke-width="4" />'
              f'<path d="M560 160 Q690 420 560 680" stroke="{SIL}" stroke-width="14" /><path d="M560 160 L560 680" stroke="#E07A2E" stroke-width="2" opacity="0.7" />')
-    write('bhishma-silhouette', body, 'Bhishma as a tall silhouette with a crown and bow; only his white beard and hair are lit (E04 tease).')
+    write('bhishma-silhouette', body, 'Bhishma as a tall silhouette with a broad crown and bow; his long white hair and beard are lit (E04 tease).')
 
 
 # 10. Amba (E04 tease): a tall woman's shadow, hair loose
