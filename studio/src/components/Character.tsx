@@ -47,6 +47,7 @@ export const HEAD: Record<string, [number, number]> = {
 };
 export const HAND: Record<string, [number, number]> = {
   'mandavya:cursing-hand-raised': [830, 492], // cursePalm
+  'urvashi:cursing-hand-raised': [730, 545], // S01E03, measured on the render
 };
 export const pointFor = (table: Record<string, [number, number]>, ref: CharRef) =>
   table[`${ref.id}:${ref.pose}`] ?? table.default ?? HEAD.default;

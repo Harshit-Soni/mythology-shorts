@@ -1,0 +1,42 @@
+{
+  "id": "urvashi",
+  "name": {
+    "en": "Urvashi",
+    "hi": "उर्वशी"
+  },
+  "role": "Foremost of the apsaras; wife of Pururavas, ancestress of the Kurus",
+  "divine": true,
+  "look": "Fair, rose bodice and antariya with gold borders, a violet sash, a gold tiara, necklace and bangles, jasmine in a long braid. Dignified court dress: nothing revealing (CLAUDE.md rule 2).",
+  "sourceNotes": "Vana §45–46 (vulgate), Adi §75. The colours are design choices.",
+  "poses": [
+    "dancing",
+    "walking",
+    "standing-surprised",
+    "cursing-hand-raised"
+  ],
+  "expressions": [
+    "smiling",
+    "hopeful",
+    "surprised",
+    "hurt",
+    "furious"
+  ],
+  "appearsIn": [
+    "S01E03"
+  ],
+  "files": {
+    "dancing": "dancing.svg",
+    "walking": "walking.svg",
+    "standing-surprised": "standing-surprised.svg",
+    "standing-surprised__hurt": "standing-surprised__hurt.svg",
+    "cursing-hand-raised": "cursing-hand-raised.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "dancing": "right",
+    "walking": "right",
+    "standing-surprised": "right",
+    "cursing-hand-raised": "right"
+  },
+  "notes": "Made in code by episodes/S01E03-urvashi-curses-arjuna/svg/make-cast.py from the pandu rig (the women via S01E02 make-concepts.py). All poses face right; mirror with flip."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "brihannala",
+  "name": {
+    "en": "Brihannala",
+    "hi": "बृहन्नला"
+  },
+  "role": "Arjuna in disguise during the year in hiding",
+  "divine": false,
+  "look": "Arjuna's face and build in a plum bodice and antariya with a gold sash; a long braid with a flower, large gold earrings, conch bangles over the bowstring scars.",
+  "sourceNotes": "Virata §2 (the plan: bangles, earrings, braid), §11 (arrival; dance teacher to Uttara), §38–45, §65 (the Gandiva, the battle). Dignified, never comic.",
+  "poses": [
+    "standing-graceful",
+    "dance-teaching",
+    "reaching-up",
+    "drawing-gandiva",
+    "gandiva-raised"
+  ],
+  "expressions": [
+    "calm",
+    "smiling",
+    "determined",
+    "fierce"
+  ],
+  "appearsIn": [
+    "S01E03"
+  ],
+  "files": {
+    "standing-graceful": "standing-graceful.svg",
+    "dance-teaching": "dance-teaching.svg",
+    "reaching-up": "reaching-up.svg",
+    "drawing-gandiva": "drawing-gandiva.svg",
+    "gandiva-raised": "gandiva-raised.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "standing-graceful": "right",
+    "dance-teaching": "right",
+    "reaching-up": "right",
+    "drawing-gandiva": "right",
+    "gandiva-raised": "right"
+  },
+  "notes": "Made in code by episodes/S01E03-urvashi-curses-arjuna/svg/make-cast.py from the pandu rig (the women via S01E02 make-concepts.py). All poses face right; mirror with flip."
+}

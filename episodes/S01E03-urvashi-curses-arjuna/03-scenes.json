@@ -127,7 +127,7 @@
           "pose": "kneeling-folded-hands",
           "x": 0.3,
           "y": 0.86,
-          "scale": 0.95,
+          "scale": 1.092,
           "flip": false,
           "action": "breathe",
           "expression": "eyes-closed"
@@ -137,7 +137,7 @@
           "pose": "cursing-hand-raised",
           "x": 0.68,
           "y": 0.86,
-          "scale": 1.0,
+          "scale": 1.15,
           "flip": true,
           "action": "raise-hand",
           "expression": "furious"
@@ -235,7 +235,7 @@
           "pose": "standing-bow",
           "x": 0.34,
           "y": 0.86,
-          "scale": 0.95,
+          "scale": 1.092,
           "flip": false,
           "action": "step-forward",
           "expression": "awed"
@@ -308,7 +308,7 @@
           "pose": "standing-bow",
           "x": 0.3,
           "y": 0.86,
-          "scale": 0.95,
+          "scale": 1.092,
           "flip": false,
           "action": "breathe",
           "expression": "calm"
@@ -318,7 +318,7 @@
           "pose": "standing-blessing",
           "x": 0.7,
           "y": 0.86,
-          "scale": 1.0,
+          "scale": 1.15,
           "flip": true,
           "action": "breathe",
           "expression": "proud"
@@ -397,7 +397,7 @@
           "pose": "dance-step",
           "x": 0.3,
           "y": 0.86,
-          "scale": 0.95,
+          "scale": 1.092,
           "flip": false,
           "action": "sway",
           "expression": "surprised"
@@ -407,7 +407,7 @@
           "pose": "playing-veena",
           "x": 0.7,
           "y": 0.86,
-          "scale": 0.95,
+          "scale": 1.092,
           "flip": true,
           "action": "breathe",
           "expression": "smiling"
@@ -472,7 +472,7 @@
           "pose": "standing-bow",
           "x": 0.22,
           "y": 0.88,
-          "scale": 0.9,
+          "scale": 1.035,
           "flip": false,
           "action": "still",
           "expression": "awed"
@@ -482,7 +482,7 @@
           "pose": "dancing",
           "x": 0.7,
           "y": 0.76,
-          "scale": 0.85,
+          "scale": 0.977,
           "flip": true,
           "action": "sway",
           "expression": "smiling"
@@ -552,7 +552,7 @@
           "pose": "walking",
           "x": 0.62,
           "y": 0.86,
-          "scale": 0.95,
+          "scale": 1.092,
           "flip": true,
           "action": "walk-left",
           "expression": "hopeful"
@@ -607,7 +607,7 @@
           "pose": "bowing-eyes-closed",
           "x": 0.32,
           "y": 0.86,
-          "scale": 0.95,
+          "scale": 1.092,
           "flip": false,
           "action": "bow",
           "expression": "eyes-closed"
@@ -617,7 +617,7 @@
           "pose": "standing-surprised",
           "x": 0.7,
           "y": 0.86,
-          "scale": 0.95,
+          "scale": 1.092,
           "flip": true,
           "action": "still",
           "expression": "surprised"
@@ -733,7 +733,7 @@
           "pose": "kneeling-folded-hands",
           "x": 0.3,
           "y": 0.86,
-          "scale": 0.95,
+          "scale": 1.092,
           "flip": false,
           "action": "breathe",
           "expression": "earnest",
@@ -744,7 +744,7 @@
           "pose": "standing-surprised",
           "x": 0.7,
           "y": 0.86,
-          "scale": 0.95,
+          "scale": 1.092,
           "flip": true,
           "action": "still",
           "expression": "hurt"
@@ -797,7 +797,7 @@
           "pose": "kneeling-folded-hands",
           "x": 0.3,
           "y": 0.86,
-          "scale": 0.95,
+          "scale": 1.092,
           "flip": false,
           "action": "breathe",
           "expression": "shocked"
@@ -807,7 +807,7 @@
           "pose": "cursing-hand-raised",
           "x": 0.68,
           "y": 0.86,
-          "scale": 1.0,
+          "scale": 1.15,
           "flip": true,
           "action": "raise-hand",
           "expression": "furious",
@@ -902,7 +902,7 @@
           "pose": "standing-bow",
           "x": 0.3,
           "y": 0.86,
-          "scale": 0.95,
+          "scale": 1.092,
           "flip": false,
           "action": "breathe",
           "expression": "worried"
@@ -912,7 +912,7 @@
           "pose": "standing-blessing",
           "x": 0.7,
           "y": 0.86,
-          "scale": 1.0,
+          "scale": 1.15,
           "flip": true,
           "action": "breathe",
           "expression": "smiling",
@@ -1036,16 +1036,16 @@
       "id": "s13",
       "beat": 13,
       "type": "prop-hero",
-      "background": "king-court",
-      "backgroundVariant": "dusk",
+      "background": "parchment-card",
       "light": "dusk",
+      "overlay": "sepia-folk-frame",
       "characters": [],
       "props": [
         {
           "id": "bangles-scarred-arm",
           "x": 0.5,
-          "y": 0.48,
-          "scale": 1.2,
+          "y": 0.46,
+          "scale": 1.45,
           "action": "still"
         }
       ],

@@ -1,0 +1,28 @@
+{
+  "id": "uttara",
+  "name": {
+    "en": "Uttara",
+    "hi": "उत्तरा"
+  },
+  "role": "Princess of Matsya, Virata's daughter; Brihannala's pupil, later Abhimanyu's wife",
+  "divine": false,
+  "look": "A young girl: cream antariya with a teal border, a yellow sash, a braid. Smaller than the adults.",
+  "sourceNotes": "Virata §11, §72.",
+  "poses": [
+    "dancing"
+  ],
+  "expressions": [
+    "joyful"
+  ],
+  "appearsIn": [
+    "S01E03"
+  ],
+  "files": {
+    "dancing": "dancing.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "dancing": "right"
+  },
+  "notes": "Made in code by episodes/S01E03-urvashi-curses-arjuna/svg/make-cast.py from the pandu rig (the women via S01E02 make-concepts.py). All poses face right; mirror with flip."
+}

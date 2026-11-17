@@ -6,23 +6,43 @@
   },
   "role": "Third Pandava; son of Indra and Kunti",
   "divine": false,
-  "appearsIn": [
-    "S01E02"
-  ],
-  "look": "PLACEHOLDER for the S01E02 tease: a prince with deeper brown skin, red dhoti, gold sash, crown, a longbow held lowered. Derived from the pandu rig.",
-  "sourceNotes": "Son of Indra through Kunti (Adi §123). His full design (complexion, bow Gandiva, costume) is to be researched for S01E03 before he gets a proper rig.",
+  "look": "A young prince \"of darkish hue\" (Virata §11): deep brown skin, gold crown, red dhoti, gold sash, gold armlets; the Gandiva bow.",
+  "sourceNotes": "Son of Indra (Adi §123). Complexion from Virata §11 (\"young and of darkish hue\"). The red dhoti is a design choice carried over from S01E02.",
   "poses": [
-    "standing-bow"
+    "standing-bow",
+    "bowing-eyes-closed",
+    "kneeling-folded-hands",
+    "dance-step"
   ],
   "expressions": [
-    "calm"
+    "calm",
+    "awed",
+    "worried",
+    "eyes-closed",
+    "earnest",
+    "shocked",
+    "surprised"
+  ],
+  "appearsIn": [
+    "S01E02",
+    "S01E03"
   ],
   "files": {
-    "standing-bow": "standing-bow.svg"
+    "standing-bow": "standing-bow.svg",
+    "standing-bow__awed": "standing-bow__awed.svg",
+    "standing-bow__worried": "standing-bow__worried.svg",
+    "bowing-eyes-closed": "bowing-eyes-closed.svg",
+    "kneeling-folded-hands": "kneeling-folded-hands.svg",
+    "kneeling-folded-hands__eyes-closed": "kneeling-folded-hands__eyes-closed.svg",
+    "kneeling-folded-hands__shocked": "kneeling-folded-hands__shocked.svg",
+    "dance-step": "dance-step.svg"
   },
   "facing": "per pose, see facingByPose (ear rule)",
   "facingByPose": {
-    "standing-bow": "right"
+    "standing-bow": "right",
+    "bowing-eyes-closed": "right",
+    "kneeling-folded-hands": "right",
+    "dance-step": "right"
   },
-  "notes": "Made by episodes/S01E02-kindama-curses-pandu/svg/derive-cast.py. Replace with a researched design in S01E03."
+  "notes": "Made in code by episodes/S01E03-urvashi-curses-arjuna/svg/make-cast.py from the pandu rig (the women via S01E02 make-concepts.py). All poses face right; mirror with flip."
 }

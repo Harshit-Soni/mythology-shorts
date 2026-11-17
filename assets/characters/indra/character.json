@@ -1,0 +1,30 @@
+{
+  "id": "indra",
+  "name": {
+    "en": "Indra",
+    "hi": "इन्द्र"
+  },
+  "role": "King of the gods; Arjuna's father",
+  "divine": true,
+  "look": "Golden skin, a tall gold crown, a gold halo with rays, saffron-gold dhoti, crimson sash; the far hand raised in abhaya, a small vajra in the other.",
+  "sourceNotes": "Vana §44, §46. The colours are design choices.",
+  "poses": [
+    "standing-blessing"
+  ],
+  "expressions": [
+    "proud",
+    "smiling"
+  ],
+  "appearsIn": [
+    "S01E03"
+  ],
+  "files": {
+    "standing-blessing": "standing-blessing.svg",
+    "standing-blessing__smiling": "standing-blessing__smiling.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "standing-blessing": "right"
+  },
+  "notes": "Made in code by episodes/S01E03-urvashi-curses-arjuna/svg/make-cast.py from the pandu rig (the women via S01E02 make-concepts.py). All poses face right; mirror with flip."
+}

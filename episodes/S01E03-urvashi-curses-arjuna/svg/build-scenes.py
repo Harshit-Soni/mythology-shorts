@@ -174,8 +174,8 @@ scenes = [sting,
   'transition': 'cut',
   'notes': 'Virata = the library king on the throne (seated-throne-pointing faces left, toward the newcomer: "whence comes this person?", Virata §11). Brihannala at left: tall, a long braid, large earrings, conch bangles, a woman’s dress, dignified. Floor ground line of king-court to be measured at render.'},
  # 13 bangles, then teaching Uttara
- {'id': 's13', 'beat': 13, 'type': 'prop-hero', 'background': KC, 'backgroundVariant': 'dusk', 'light': 'dusk',
-  'characters': [], 'props': [P('bangles-scarred-arm', 0.5, 0.48, 1.2, 'still')],
+ {'id': 's13', 'beat': 13, 'type': 'prop-hero', 'background': 'parchment-card', 'light': 'dusk', 'overlay': 'sepia-folk-frame',
+  'characters': [], 'props': [P('bangles-scarred-arm', 0.5, 0.46, 1.45, 'still')],
   'camera': {'move': 'slow-zoom-in', 'from': 1.0, 'to': 1.12, 'focus': [0.5, 0.48]},
   'narration': N(13), 'onScreenText': None,
   'cues': [{'onWord': W('taught', 'सिखाने'), 'do': 'hard-cut-to', 'target': 's13b'}],
@@ -236,6 +236,12 @@ scenes = [sting,
   'overlay': 'folk-art-border', 'transition': 'cut-to-black',
   'notes': 'Tease for S01E04 (Amba’s vow). Bhishma, white-bearded, in silhouette; a woman’s tall shadow rises behind him. Both silhouettes are reusable for E04.'},
 ]
+
+# the court scenes: characters ~15% larger so they fill 50–70% of the frame height (STYLE_GUIDE → Composition)
+for s in scenes:
+    if s.get('background') == AC:
+        for c in s.get('characters', []):
+            c['scale'] = round(c['scale'] * 1.15, 3)
 
 doc = {
  'id': 'S01E03', 'title': {'en': 'The Apsara Who Cursed Arjuna', 'hi': 'जब अप्सरा ने अर्जुन को शाप दिया'},

@@ -1,0 +1,28 @@
+{
+  "id": "chitrasena",
+  "name": {
+    "en": "Chitrasena",
+    "hi": "चित्रसेन"
+  },
+  "role": "King of the Gandharvas; Arjuna's teacher of music and dance",
+  "divine": true,
+  "look": "Fair, sky-blue dhoti, pink sash, a smaller crown; plays a two-gourd veena.",
+  "sourceNotes": "Vana §44. The instrument is a design choice.",
+  "poses": [
+    "playing-veena"
+  ],
+  "expressions": [
+    "smiling"
+  ],
+  "appearsIn": [
+    "S01E03"
+  ],
+  "files": {
+    "playing-veena": "playing-veena.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "playing-veena": "right"
+  },
+  "notes": "Made in code by episodes/S01E03-urvashi-curses-arjuna/svg/make-cast.py from the pandu rig (the women via S01E02 make-concepts.py). All poses face right; mirror with flip."
+}
