@@ -1,4 +1,4 @@
-# S01E03: The Goddess Who Cursed Arjuna
+# S01E03: The Apsara Who Cursed Arjuna
 
 - **Series:** S01 Shraap: Curses That Shaped the Mahabharata (episode 3)
 - **Idea (one line):** In Indra's heaven, the apsara Urvashi comes to Arjuna; he refuses her, honouring her as a mother of his line (the Kuru ancestor Pururavas' wife). Spurned, she curses him to live as a eunuch among women. Indra softens it to one year of his choosing, and Arjuna spends the Pandavas' year in hiding as Brihannala, the dance teacher in King Virata's court.

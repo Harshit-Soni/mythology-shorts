@@ -1,4 +1,4 @@
-# S01E03: The Goddess Who Cursed Arjuna
+# S01E03: The Apsara Who Cursed Arjuna
 
 One story, made in one or more visual versions. The story files, beats and voice are shared; each version keeps its own folder and never edits the other's.
 
