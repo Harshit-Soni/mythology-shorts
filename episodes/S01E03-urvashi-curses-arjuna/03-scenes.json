@@ -1,85 +1,1640 @@
 {
-  "id": "{{ID}}",
+  "id": "S01E03",
   "title": {
-    "en": "",
-    "hi": ""
+    "en": "The Apsara Who Cursed Arjuna",
+    "hi": "जब अप्सरा ने अर्जुन को शाप दिया"
   },
   "format": "short",
   "width": 1080,
   "height": 1920,
   "fps": 30,
   "sourceCredit": {
-    "en": "",
-    "hi": ""
+    "en": "Mahabharata, Vana Parva & Virata Parva",
+    "hi": "महाभारत, वन पर्व और विराट पर्व"
+  },
+  "safeZone": {
+    "bottom": 0.2,
+    "right": 0.12
   },
   "grade": {
     "grain": 0.12,
     "vignette": 0.45,
     "shadows": true
   },
+  "sound": {
+    "music": {
+      "id": "mythic-drone",
+      "volume": 0.7,
+      "duckTo": 0.45,
+      "fadeInSec": 0.3,
+      "fadeOutSec": 1.5
+    },
+    "sfxVolume": 0.8
+  },
   "thumbnail": {
-    "scene": "s01",
+    "scene": "s10",
     "at": 0.5,
     "series": {
-      "en": "Indian Mythology",
-      "hi": "Indian Mythology"
+      "en": "Shraap · Episode 3",
+      "hi": "शाप · भाग 3"
     },
     "title": {
-      "en": "{{TITLE}}",
-      "hi": "{{TITLE_HI}}"
+      "en": "The Apsara Who Cursed Arjuna",
+      "hi": "जब अप्सरा ने अर्जुन को शाप दिया"
+    },
+    "titleLines": {
+      "en": [
+        "The Apsara Who",
+        "Cursed Arjuna"
+      ],
+      "hi": [
+        "जब अप्सरा ने",
+        "अर्जुन को शाप दिया"
+      ]
     }
   },
   "scenes": [
     {
+      "id": "s00",
+      "beat": 0,
+      "type": "title-card",
+      "background": "parchment-card",
+      "characters": [],
+      "props": [
+        {
+          "id": "shaap-stamp",
+          "x": 0.44,
+          "y": 0.42,
+          "scale": 1.2,
+          "action": "stamp-in"
+        }
+      ],
+      "overlay": "folk-art-border",
+      "camera": {
+        "move": "static"
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "fixedDurationSec": 1.0,
+      "onScreenText": {
+        "en": "CURSED III",
+        "hi": "शाप III",
+        "style": "stamp-gold"
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "at": 0,
+          "volume": 0.7
+        },
+        {
+          "id": "stamp-thud",
+          "at": 0.15,
+          "volume": 0.9
+        }
+      ],
+      "transition": "border-wipe",
+      "notes": "Series sting, reused in every S01 episode. Border closes in, stamp lands.",
+      "music": 0.6
+    },
+    {
       "id": "s01",
       "beat": 1,
       "type": "character",
-      "background": "background-id",
+      "background": "amaravati-court",
+      "backgroundVariant": "night",
+      "light": "night",
+      "fx": [
+        {
+          "type": "stars",
+          "n": 30
+        },
+        {
+          "type": "glow",
+          "x": 0.68,
+          "y": 0.55,
+          "r": 0.3,
+          "color": "#E07A2E",
+          "pulse": true
+        }
+      ],
       "characters": [
         {
-          "id": "character-id",
-          "pose": "standing",
-          "expression": "neutral",
+          "id": "arjuna",
+          "pose": "kneeling-folded-hands",
+          "x": 0.3,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "eyes-closed"
+        },
+        {
+          "id": "urvashi",
+          "pose": "cursing-hand-raised",
+          "x": 0.68,
+          "y": 0.86,
+          "scale": 1.0,
+          "flip": true,
+          "action": "raise-hand",
+          "expression": "furious"
+        }
+      ],
+      "props": [
+        {
+          "id": "shaap-stamp",
+          "x": 0.5,
+          "y": 0.3,
+          "scale": 0.7,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.15,
+        "focus": [
+          0.5,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "Arjuna said no to the most beautiful apsara in heaven… and she cursed him for it.",
+        "hi": "अर्जुन ने स्वर्ग की सबसे सुंदर अप्सरा को ठुकराया… और उसने शाप दे दिया!"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "do": "light-burst-saffron",
+          "target": "urvashi"
+        },
+        {
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "do": "stamp-next",
+          "target": "shaap-stamp"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0,
+          "volume": 0.5
+        },
+        {
+          "id": "thunder-crack",
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "volume": 0.6
+        },
+        {
+          "id": "stamp-thud",
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "offset": 0.1,
+          "volume": 0.8
+        }
+      ],
+      "transition": "flash-white",
+      "notes": "Hook (flash-forward to s10). Arjuna kneels, eyes closed, palms joined; Urvashi (flipped, faces him) raises her hand; saffron burst + stamp on \"cursed / शाप\". Dignified: Urvashi in full court dress, nothing revealing."
+    },
+    {
+      "id": "s02",
+      "beat": 2,
+      "type": "character",
+      "background": "amaravati-court",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.15,
+          "color": "#FFE6B0"
+        },
+        {
+          "type": "stars",
+          "n": 25
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "standing-bow",
+          "x": 0.34,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": false,
+          "action": "step-forward",
+          "expression": "awed"
+        }
+      ],
+      "props": [
+        {
+          "id": "celestial-chariot",
+          "x": 0.66,
+          "y": 0.5,
+          "scale": 0.9,
+          "action": "descend"
+        }
+      ],
+      "camera": {
+        "move": "tilt-down",
+        "from": -0.12,
+        "to": 0.0
+      },
+      "narration": {
+        "en": "In exile, Arjuna rose to Amaravati, the city of his father, Indra.",
+        "hi": "वनवास में अर्जुन पहुँचे अमरावती, अपने पिता इन्द्र के नगर।"
+      },
+      "onScreenText": {
+        "en": "Amaravati",
+        "hi": "अमरावती",
+        "style": "name-tag",
+        "sub": {
+          "en": "Mahabharata, Vana Parva",
+          "hi": "महाभारत, वन पर्व"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "onWord": {
+            "en": "Amaravati",
+            "hi": "अमरावती"
+          },
+          "volume": 0.6
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "Indra’s charioteer Matali brought him (Vana §42–43): the golden chariot settles behind him on the clouds as the camera tilts down from the spires. Source tag on screen once."
+    },
+    {
+      "id": "s03",
+      "beat": 3,
+      "type": "character",
+      "background": "amaravati-court",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.42,
+          "r": 0.35,
+          "color": "#E8B53A",
+          "pulse": true
+        },
+        {
+          "type": "sparks",
+          "n": 18
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "standing-bow",
+          "x": 0.3,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "calm"
+        },
+        {
+          "id": "indra",
+          "pose": "standing-blessing",
+          "x": 0.7,
+          "y": 0.86,
+          "scale": 1.0,
+          "flip": true,
+          "action": "breathe",
+          "expression": "proud"
+        }
+      ],
+      "props": [
+        {
+          "id": "astra-ring",
+          "x": 0.5,
+          "y": 0.4,
+          "scale": 0.8,
+          "action": "circle"
+        },
+        {
+          "id": "vajra-flash",
+          "x": 0.5,
+          "y": 0.3,
+          "scale": 0.6,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "For five years he won the weapons of the gods. Even Indra's thunderbolt.",
+        "hi": "पाँच बरस तक उन्होंने देवताओं के दिव्य अस्त्र पाए। इन्द्र का वज्र भी।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "thunderbolt",
+            "hi": "वज्र"
+          },
+          "do": "stamp-in",
+          "target": "vajra-flash"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "thunder-crack",
+          "onWord": {
+            "en": "thunderbolt",
+            "hi": "वज्र"
+          },
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "Indra (new, gold halo, faces Arjuna) and Arjuna. A ring of glowing weapon glyphs circles between them; the vajra lands on \"thunderbolt / वज्र\"."
+    },
+    {
+      "id": "s04",
+      "beat": 4,
+      "type": "character",
+      "background": "amaravati-court",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 20,
+          "color": "#FFE6B0"
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "dance-step",
+          "x": 0.3,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": false,
+          "action": "sway",
+          "expression": "surprised"
+        },
+        {
+          "id": "chitrasena",
+          "pose": "playing-veena",
+          "x": 0.7,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": true,
+          "action": "breathe",
+          "expression": "smiling"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-pan-right",
+        "from": 0.0,
+        "to": 0.03
+      },
+      "narration": {
+        "en": "Then Indra gave him a strange order: learn to dance. The Gandharva Chitrasena taught him.",
+        "hi": "फिर इन्द्र ने एक अजीब आदेश दिया: नाचना सीखो। गन्धर्व चित्रसेन उनके गुरु बने।"
+      },
+      "onScreenText": {
+        "en": "Chitrasena",
+        "hi": "चित्रसेन",
+        "style": "name-tag",
+        "sub": {
+          "en": "king of the Gandharvas",
+          "hi": "गन्धर्वों के राजा"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "onWord": {
+            "en": "dance",
+            "hi": "नाचना"
+          },
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "A light beat: the archer, bow laid aside, tries a first dance step (one hand raised in a mudra, one foot lifted) while Chitrasena plays the veena. This is in the critical edition (Vana §44)."
+    },
+    {
+      "id": "s05",
+      "beat": 5,
+      "type": "character",
+      "background": "amaravati-court",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "stars",
+          "n": 25
+        },
+        {
+          "type": "glow",
+          "x": 0.72,
+          "y": 0.55,
+          "r": 0.3,
+          "color": "#F2A7B8",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "standing-bow",
+          "x": 0.22,
+          "y": 0.88,
+          "scale": 0.9,
+          "flip": false,
+          "action": "still",
+          "expression": "awed"
+        },
+        {
+          "id": "urvashi",
+          "pose": "dancing",
+          "x": 0.7,
+          "y": 0.76,
+          "scale": 0.85,
+          "flip": true,
+          "action": "sway",
+          "expression": "smiling"
+        }
+      ],
+      "props": [
+        {
+          "id": "apsara-silhouette",
           "x": 0.5,
           "y": 0.62,
-          "scale": 1,
+          "scale": 0.6,
+          "action": "sway"
+        },
+        {
+          "id": "apsara-silhouette",
+          "x": 0.86,
+          "y": 0.6,
+          "scale": 0.55,
+          "action": "sway"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.7,
+          0.55
+        ]
+      },
+      "narration": {
+        "en": "At Indra's court, the apsaras danced, and Arjuna could not look away from Urvashi.",
+        "hi": "इन्द्र की सभा में अप्सराएँ नाचीं, और अर्जुन की नज़र उर्वशी पर ठहर गई।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "at": 0.2,
+          "volume": 0.4
+        }
+      ],
+      "transition": "cut",
+      "notes": "Urvashi dances on the stage (feet on the stage top ≈ 0.76), lit; the other apsaras are the library silhouettes behind. Arjuna watches from the floor at left. Camera drifts toward Urvashi. Graceful classical pose, fully dressed."
+    },
+    {
+      "id": "s06",
+      "beat": 6,
+      "type": "character",
+      "background": "amaravati-court",
+      "backgroundVariant": "night",
+      "light": "moon",
+      "fx": [
+        {
+          "type": "stars",
+          "n": 40
+        },
+        {
+          "type": "fog",
+          "color": "#9FB3D9"
+        }
+      ],
+      "characters": [
+        {
+          "id": "urvashi",
+          "pose": "walking",
+          "x": 0.62,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": true,
+          "action": "walk-left",
+          "expression": "hopeful"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-pan-right",
+        "from": 0.03,
+        "to": 0.0
+      },
+      "narration": {
+        "en": "As the popular telling goes, that night, sent by Indra, Urvashi came to his palace.",
+        "hi": "प्रचलित कथा के अनुसार, उसी रात इन्द्र के कहने पर उर्वशी उनके महल आईं।"
+      },
+      "onScreenText": {
+        "en": "The popular telling",
+        "hi": "प्रचलित कथा",
+        "style": "name-tag",
+        "sub": {
+          "en": "Vana Parva §46 (vulgate)",
+          "hi": "वन पर्व §46 (प्रचलित पाठ)"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "night-crickets",
+          "at": 0,
+          "volume": 0.4
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "The honesty tag: from here to s11 is the vulgate. Moonlit court; Urvashi (flipped) walks left toward Arjuna’s door. Movement follows facing."
+    },
+    {
+      "id": "s07",
+      "beat": 7,
+      "type": "character",
+      "background": "amaravati-court",
+      "backgroundVariant": "night",
+      "light": "moon",
+      "fx": [
+        {
+          "type": "stars",
+          "n": 30
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "bowing-eyes-closed",
+          "x": 0.32,
+          "y": 0.86,
+          "scale": 0.95,
           "flip": false,
-          "action": "idle"
+          "action": "bow",
+          "expression": "eyes-closed"
+        },
+        {
+          "id": "urvashi",
+          "pose": "standing-surprised",
+          "x": 0.7,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": true,
+          "action": "still",
+          "expression": "surprised"
         }
       ],
       "props": [],
       "camera": {
         "move": "slow-zoom-in",
         "from": 1.0,
-        "to": 1.08
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      "narration": {
+        "en": "Arjuna closed his eyes and bowed to her, as to an elder.",
+        "hi": "अर्जुन ने आँखें मूँद लीं, और बड़ों की तरह उन्हें प्रणाम किया।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "onWord": {
+            "en": "bowed",
+            "hi": "प्रणाम"
+          },
+          "volume": 0.45
+        }
+      ],
+      "transition": "memory-ripple",
+      "notes": "Arjuna bows with closed eyes and joined palms, as to an elder (§46); Urvashi stops, surprised."
+    },
+    {
+      "id": "s08",
+      "beat": 8,
+      "type": "prop-hero",
+      "background": "parchment-card",
+      "light": "divine",
+      "characters": [],
+      "props": [
+        {
+          "id": "family-vine",
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1.2,
+          "action": "glint"
+        }
+      ],
+      "overlay": "sepia-folk-frame",
+      "camera": {
+        "move": "slow-pan-up",
+        "from": 0.04,
+        "to": 0.0
+      },
+      "narration": {
+        "en": "For Urvashi was once the wife of King Pururavas, Arjuna's own ancestor.",
+        "hi": "क्योंकि उर्वशी कभी राजा पुरूरवा की पत्नी थीं, अर्जुन के अपने पूर्वज की।"
+      },
+      "onScreenText": {
+        "en": "King Pururavas",
+        "hi": "राजा पुरूरवा",
+        "style": "name-tag",
+        "sub": {
+          "en": "Urvashi’s husband, Arjuna’s ancestor",
+          "hi": "उर्वशी के पति, अर्जुन के पूर्वज"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "Pururavas",
+            "hi": "पुरूरवा"
+          },
+          "do": "glint",
+          "target": "family-vine"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "onWord": {
+            "en": "Pururavas",
+            "hi": "पुरूरवा"
+          },
+          "volume": 0.5
+        }
+      ],
+      "transition": "memory-ripple",
+      "notes": "A folk-art family vine on parchment (Adi §75): a royal couple medallion at the top (Pururavas & Urvashi), a vine running down through small medallions to a bow-and-crown medallion (Arjuna) at the bottom. No readable names inside the art; the name-tag carries it."
+    },
+    {
+      "id": "s09",
+      "beat": 9,
+      "type": "character",
+      "background": "amaravati-court",
+      "backgroundVariant": "night",
+      "light": "moon",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.3,
+          "y": 0.6,
+          "r": 0.3,
+          "color": "#FFE6B0",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "kneeling-folded-hands",
+          "x": 0.3,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "earnest",
+          "speaking": true
+        },
+        {
+          "id": "urvashi",
+          "pose": "standing-surprised",
+          "x": 0.7,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": true,
+          "action": "still",
+          "expression": "hurt"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.35,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "\"As my mother Kunti is to me,\" he said, \"so are you.\"",
+        "hi": "\"जैसी मेरी माँ कुन्ती, वैसी ही आप।\""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "cut",
+      "notes": "Arjuna kneels at her feet and speaks (\"as Kunti… so are you\"); a warm glow around him. Urvashi’s face turns from surprise to hurt."
+    },
+    {
+      "id": "s10",
+      "beat": 10,
+      "type": "character",
+      "background": "amaravati-court",
+      "backgroundVariant": "night",
+      "light": "night",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.68,
+          "y": 0.55,
+          "r": 0.3,
+          "color": "#E07A2E",
+          "pulse": true
+        },
+        {
+          "type": "sparks",
+          "n": 15
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "kneeling-folded-hands",
+          "x": 0.3,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "shocked"
+        },
+        {
+          "id": "urvashi",
+          "pose": "cursing-hand-raised",
+          "x": 0.68,
+          "y": 0.86,
+          "scale": 1.0,
+          "flip": true,
+          "action": "raise-hand",
+          "expression": "furious",
+          "speaking": true
+        }
+      ],
+      "props": [
+        {
+          "id": "shaap-stamp",
+          "x": 0.5,
+          "y": 0.3,
+          "scale": 0.7,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "shake-then-zoom",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "Shaking with rage, she cursed him: \"You will live among women, as a dancer, without your manhood.\"",
+        "hi": "क्रोध से काँपती उर्वशी ने शाप दिया: \"स्त्रियों के बीच नर्तक बनकर रहोगे, पुरुषत्व के बिना!\""
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "do": "light-burst-saffron",
+          "target": "urvashi"
+        },
+        {
+          "onWord": {
+            "en": "manhood",
+            "hi": "पुरुषत्व"
+          },
+          "do": "stamp-next",
+          "target": "shaap-stamp"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "thunder-crack",
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "volume": 0.6
+        },
+        {
+          "id": "stamp-thud",
+          "onWord": {
+            "en": "manhood",
+            "hi": "पुरुषत्व"
+          },
+          "volume": 0.8
+        }
+      ],
+      "music": 1.1,
+      "transition": "flash-white",
+      "notes": "The curse (the hook pays off). Burst from her raised hand on \"cursed / शाप\"; the stamp lands on \"manhood / पुरुषत्व\". Same framing as s01 so the viewer recognises it."
+    },
+    {
+      "id": "s11",
+      "beat": 11,
+      "type": "character",
+      "background": "amaravati-court",
+      "backgroundVariant": "dawn",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.7,
+          "y": 0.2,
+          "color": "#FFE6B0"
+        },
+        {
+          "type": "sparks",
+          "n": 12
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "standing-bow",
+          "x": 0.3,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "worried"
+        },
+        {
+          "id": "indra",
+          "pose": "standing-blessing",
+          "x": 0.7,
+          "y": 0.86,
+          "scale": 1.0,
+          "flip": true,
+          "action": "breathe",
+          "expression": "smiling",
+          "speaking": true
+        }
+      ],
+      "props": [
+        {
+          "id": "year-ring",
+          "x": 0.5,
+          "y": 0.3,
+          "scale": 0.7,
+          "action": "idle"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.06,
+        "to": 1.0
+      },
+      "narration": {
+        "en": "But Indra smiled. \"This curse will serve you. It will last one year, the year you must hide.\"",
+        "hi": "पर इन्द्र मुस्कुराए। \"यह शाप तुम्हारे काम आएगा। बस एक बरस चलेगा, अज्ञातवास के बरस में।\""
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "one",
+            "hi": "एक"
+          },
+          "do": "glint",
+          "target": "year-ring"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "onWord": {
+            "en": "smiled",
+            "hi": "मुस्कुराए"
+          },
+          "volume": 0.5
+        }
+      ],
+      "transition": "light-wipe",
+      "notes": "Indra, warm and smiling, blesses Arjuna. Above them a ring of 13 segments (the exile years); on \"one / एक\" the last segment lights alone."
+    },
+    {
+      "id": "s12",
+      "beat": 12,
+      "type": "character",
+      "background": "king-court",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 15
+        }
+      ],
+      "characters": [
+        {
+          "id": "king",
+          "pose": "seated-throne-pointing",
+          "x": 0.5,
+          "y": 0.575,
+          "scale": 0.83,
+          "flip": false,
+          "action": "still",
+          "expression": "curious"
+        },
+        {
+          "id": "brihannala",
+          "pose": "standing-graceful",
+          "x": 0.24,
+          "y": 0.88,
+          "scale": 0.95,
+          "flip": false,
+          "action": "step-forward",
+          "expression": "calm"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.08,
+        "to": 1.0,
+        "focus": [
+          0.4,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "Years later, in that year of hiding, a dance teacher came to King Virata's court: Brihannala.",
+        "hi": "बरसों बाद, उसी अज्ञातवास में, राजा विराट के दरबार में आई एक नृत्य-शिक्षिका: बृहन्नला।"
+      },
+      "onScreenText": {
+        "en": "Brihannala",
+        "hi": "बृहन्नला",
+        "style": "name-tag",
+        "sub": {
+          "en": "Arjuna, in the year of hiding",
+          "hi": "अज्ञातवास में अर्जुन"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "onWord": {
+            "en": "Brihannala",
+            "hi": "बृहन्नला"
+          },
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "Virata = the library king on the throne (seated-throne-pointing faces left, toward the newcomer: \"whence comes this person?\", Virata §11). Brihannala at left: tall, a long braid, large earrings, conch bangles, a woman’s dress, dignified. Floor ground line of king-court to be measured at render."
+    },
+    {
+      "id": "s13",
+      "beat": 13,
+      "type": "prop-hero",
+      "background": "king-court",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "characters": [],
+      "props": [
+        {
+          "id": "bangles-scarred-arm",
+          "x": 0.5,
+          "y": 0.48,
+          "scale": 1.2,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.12,
+        "focus": [
+          0.5,
+          0.48
+        ]
+      },
+      "narration": {
+        "en": "Bangles hid the bowstring scars. Arjuna taught Princess Uttara to dance.",
+        "hi": "चूड़ियों के नीचे छिपे थे धनुष की डोरी के निशान। अर्जुन राजकुमारी उत्तरा को नृत्य सिखाने लगे।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "taught",
+            "hi": "सिखाने"
+          },
+          "do": "hard-cut-to",
+          "target": "s13b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "bowstring-creak",
+          "at": 0.2,
+          "volume": 0.4
+        }
+      ],
+      "transition": "cut",
+      "notes": "Close-up (Virata §2): a strong forearm with bowstring scars; gold conch bangles slide down over them. Then cut to the lesson."
+    },
+    {
+      "id": "s13b",
+      "beat": 13,
+      "type": "character",
+      "background": "king-court",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 15,
+          "color": "#FFE6B0"
+        }
+      ],
+      "characters": [
+        {
+          "id": "brihannala",
+          "pose": "dance-teaching",
+          "x": 0.3,
+          "y": 0.88,
+          "scale": 0.95,
+          "flip": false,
+          "action": "sway",
+          "expression": "smiling"
+        },
+        {
+          "id": "uttara",
+          "pose": "dancing",
+          "x": 0.7,
+          "y": 0.88,
+          "scale": 0.85,
+          "flip": true,
+          "action": "sway",
+          "expression": "joyful"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-pan-right",
+        "from": 0.0,
+        "to": 0.03
       },
       "narration": {
         "en": "",
         "hi": ""
       },
       "onScreenText": null,
-      "sfx": [],
+      "cues": [],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "at": 0.2,
+          "volume": 0.4
+        }
+      ],
       "transition": "cut",
-      "notes": ""
+      "notes": "Insert: Brihannala, one hand in a mudra, teaches; young Princess Uttara copies the step. Teacher and pupil, nothing more (she later trusts him \"as a father\", Virata §72)."
+    },
+    {
+      "id": "s14",
+      "beat": 14,
+      "type": "character",
+      "background": "forest-hunt",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 20
+        },
+        {
+          "type": "glow",
+          "x": 0.62,
+          "y": 0.45,
+          "r": 0.25,
+          "color": "#E8B53A",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "brihannala",
+          "pose": "reaching-up",
+          "x": 0.32,
+          "y": 0.86,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "determined"
+        }
+      ],
+      "props": [
+        {
+          "id": "shami-tree",
+          "x": 0.66,
+          "y": 0.6,
+          "scale": 1.3,
+          "action": "still"
+        },
+        {
+          "id": "gandiva",
+          "x": 0.6,
+          "y": 0.42,
+          "scale": 0.7,
+          "action": "idle"
+        }
+      ],
+      "camera": {
+        "move": "crane-up",
+        "from": 0.0,
+        "to": -0.05
+      },
+      "narration": {
+        "en": "Then the Kauravas raided Virata's cattle. The dance teacher took the Gandiva from a shami tree… and alone, stunned Drona, Karna and the whole Kuru army.",
+        "hi": "फिर कौरवों ने विराट की गायें लूटीं। शमी के पेड़ से गाण्डीव उठा… और अकेले अर्जुन ने द्रोण, कर्ण और पूरी कौरव सेना को अचेत कर दिया।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "Gandiva",
+            "hi": "गाण्डीव"
+          },
+          "do": "glint",
+          "target": "gandiva"
+        },
+        {
+          "onWord": {
+            "en": "alone",
+            "hi": "अकेले"
+          },
+          "do": "hard-cut-to",
+          "target": "s14b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "battle-distant",
+          "at": 0,
+          "volume": 0.35
+        },
+        {
+          "id": "bowstring-creak",
+          "onWord": {
+            "en": "Gandiva",
+            "hi": "गाण्डीव"
+          },
+          "volume": 0.6
+        }
+      ],
+      "transition": "cut",
+      "notes": "The shami tree where the Pandavas hid their weapons (Virata §38–43): Brihannala reaches up; the Gandiva, wrapped in the branches, glints on its name."
+    },
+    {
+      "id": "s14b",
+      "beat": 14,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 25
+        },
+        {
+          "type": "dust",
+          "n": 20
+        }
+      ],
+      "characters": [
+        {
+          "id": "brihannala",
+          "pose": "drawing-gandiva",
+          "x": 0.28,
+          "y": 0.82,
+          "scale": 1.0,
+          "flip": false,
+          "action": "draw-bow",
+          "expression": "fierce"
+        }
+      ],
+      "props": [
+        {
+          "id": "battle-silhouettes",
+          "x": 0.68,
+          "y": 0.7,
+          "scale": 1.1,
+          "action": "still"
+        },
+        {
+          "id": "gandiva-shockwave",
+          "x": 0.55,
+          "y": 0.6,
+          "scale": 1.0,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "shake-small-then-static"
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "arrow-whoosh-magic",
+          "at": 0.1,
+          "volume": 0.7
+        },
+        {
+          "id": "drum-boom-deep",
+          "at": 0.4,
+          "volume": 0.9
+        }
+      ],
+      "music": 1.2,
+      "transition": "cut",
+      "notes": "Insert from \"alone / अकेले\": the braid flying, Brihannala draws the Gandiva; a gold shock-ring from the bowstring rolls over the Kuru army in silhouette, which freezes (Virata §65: stunned, not killed). Bhishma is NOT singled out here."
+    },
+    {
+      "id": "s15",
+      "beat": 15,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dawn",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.2,
+          "color": "#FFE6B0"
+        },
+        {
+          "type": "dust",
+          "n": 15
+        }
+      ],
+      "characters": [
+        {
+          "id": "brihannala",
+          "pose": "gandiva-raised",
+          "x": 0.5,
+          "y": 0.82,
+          "scale": 1.05,
+          "flip": false,
+          "action": "still",
+          "expression": "calm"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.45
+        ]
+      },
+      "narration": {
+        "en": "A curse meant as punishment… became the perfect disguise.",
+        "hi": "जो शाप सज़ा बनकर आया था… वही सबसे अच्छा भेस बन गया।"
+      },
+      "onScreenText": {
+        "en": "The curse became the disguise.",
+        "hi": "शाप ही भेस बन गया।",
+        "style": "title-serif"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "disguise",
+            "hi": "भेस"
+          },
+          "do": "title-in"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "onWord": {
+            "en": "disguise",
+            "hi": "भेस"
+          },
+          "volume": 0.8
+        }
+      ],
+      "transition": "border-wipe",
+      "notes": "Hero tableau, centred: Brihannala, braid in the wind, Gandiva raised at dawn. Dignity, not a joke."
+    },
+    {
+      "id": "s16",
+      "beat": 16,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "silhouette",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 20
+        },
+        {
+          "type": "glow",
+          "x": 0.66,
+          "y": 0.45,
+          "r": 0.3,
+          "color": "#E07A2E",
+          "pulse": true
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "bhishma-silhouette",
+          "x": 0.36,
+          "y": 0.62,
+          "scale": 1.0,
+          "action": "still"
+        },
+        {
+          "id": "amba-shadow",
+          "x": 0.68,
+          "y": 0.55,
+          "scale": 1.0,
+          "action": "ascend"
+        },
+        {
+          "id": "shaap-stamp",
+          "x": 0.5,
+          "y": 0.3,
+          "scale": 0.7,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.1
+      },
+      "narration": {
+        "en": "But one woman's vow would bring down Bhishma himself.",
+        "hi": "पर एक स्त्री की प्रतिज्ञा, एक दिन भीष्म को भी गिराने वाली थी।"
+      },
+      "onScreenText": {
+        "en": "CURSED IV",
+        "hi": "शाप IV",
+        "style": "stamp-gold"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "Bhishma",
+            "hi": "भीष्म"
+          },
+          "do": "stamp-next",
+          "target": "shaap-stamp"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "onWord": {
+            "en": "Bhishma",
+            "hi": "भीष्म"
+          },
+          "volume": 0.9
+        }
+      ],
+      "overlay": "folk-art-border",
+      "transition": "cut-to-black",
+      "notes": "Tease for S01E04 (Amba’s vow). Bhishma, white-bearded, in silhouette; a woman’s tall shadow rises behind him. Both silhouettes are reusable for E04."
     }
   ],
   "assets": {
     "characters": [
       {
-        "id": "",
-        "status": "new | library"
+        "id": "arjuna",
+        "status": "library",
+        "poses": {
+          "standing-bow": "redo",
+          "kneeling-folded-hands": "new",
+          "bowing-eyes-closed": "new",
+          "dance-step": "new"
+        },
+        "notes": "Upgrade the E02 placeholder to a researched design: dark complexion (\"young and of darkish hue\", Virata §11), crown, Gandiva. All poses face right."
+      },
+      {
+        "id": "urvashi",
+        "status": "new",
+        "poses": {
+          "dancing": "new",
+          "walking": "new",
+          "standing-surprised": "new",
+          "cursing-hand-raised": "new"
+        },
+        "derive": "kunti / madri rig",
+        "notes": "Foremost apsara: celestial jewellery, a flowing veil, a soft glow, dignified court dress (no sexualisation). Faces right; flipped in scene. Expressions: smiling, hopeful, surprised, hurt, furious. Needs a HAND entry for light-burst-saffron."
+      },
+      {
+        "id": "indra",
+        "status": "new",
+        "poses": {
+          "standing-blessing": "new"
+        },
+        "derive": "king / pandu rig + gold halo",
+        "notes": "King of the gods: tall crown, gold halo, vajra at the hip. Faces right. Expressions: proud, smiling."
+      },
+      {
+        "id": "chitrasena",
+        "status": "new",
+        "poses": {
+          "playing-veena": "new"
+        },
+        "derive": "pandu rig",
+        "notes": "Gandharva king: lighter, airy colours, a veena. Faces right."
+      },
+      {
+        "id": "brihannala",
+        "status": "new",
+        "poses": {
+          "standing-graceful": "new",
+          "dance-teaching": "new",
+          "reaching-up": "new",
+          "drawing-gandiva": "new",
+          "gandiva-raised": "new"
+        },
+        "derive": "arjuna rig",
+        "notes": "Arjuna in disguise (Virata §2, §11): long braid, large earrings, gold conch bangles, a woman’s dress, same face and build as Arjuna. Dignified and strong, never comic. Faces right."
+      },
+      {
+        "id": "uttara",
+        "status": "new",
+        "poses": {
+          "dancing": "new"
+        },
+        "derive": "madri rig, younger",
+        "notes": "Princess of Matsya, a young girl. Faces right."
+      },
+      {
+        "id": "king",
+        "status": "library",
+        "poses": {
+          "seated-throne-pointing": "library"
+        },
+        "notes": "stands in for King Virata"
       }
     ],
     "backgrounds": [
       {
-        "id": "",
-        "status": "new | library"
+        "id": "amaravati-court",
+        "status": "library"
+      },
+      {
+        "id": "king-court",
+        "status": "library",
+        "notes": "Virata’s court; measure the floor ground line"
+      },
+      {
+        "id": "forest-hunt",
+        "status": "library"
+      },
+      {
+        "id": "red-sky-plain",
+        "status": "library"
+      },
+      {
+        "id": "parchment-card",
+        "status": "library"
       }
     ],
     "props": [
       {
-        "id": "",
-        "status": "new | library"
+        "id": "vajra-flash",
+        "status": "library"
+      },
+      {
+        "id": "apsara-silhouette",
+        "status": "library"
+      },
+      {
+        "id": "battle-silhouettes",
+        "status": "library"
+      },
+      {
+        "id": "celestial-chariot",
+        "status": "new",
+        "notes": "Indra’s golden chariot on curl-clouds (Matali drives it)"
+      },
+      {
+        "id": "astra-ring",
+        "status": "new",
+        "notes": "a ring of glowing weapon glyphs (bow, discus, trident, noose…)"
+      },
+      {
+        "id": "family-vine",
+        "status": "new",
+        "notes": "folk-art family vine: royal couple at top, medallions down to a bow-and-crown medallion"
+      },
+      {
+        "id": "year-ring",
+        "status": "new",
+        "notes": "13 arc segments, the last one lit"
+      },
+      {
+        "id": "bangles-scarred-arm",
+        "status": "new",
+        "notes": "close-up forearm with bowstring scars and gold conch bangles"
+      },
+      {
+        "id": "shami-tree",
+        "status": "new",
+        "notes": "the shami tree at the cremation ground, a wrapped bundle in its branches"
+      },
+      {
+        "id": "gandiva",
+        "status": "new",
+        "notes": "Arjuna’s great bow, gold-banded; reuse for the rest of the series"
+      },
+      {
+        "id": "gandiva-shockwave",
+        "status": "new",
+        "notes": "a gold sound-ring rolling outward"
+      },
+      {
+        "id": "bhishma-silhouette",
+        "status": "new",
+        "notes": "E04 tease; white beard, bow, armour"
+      },
+      {
+        "id": "amba-shadow",
+        "status": "new",
+        "notes": "E04 tease; a tall woman’s shadow, hair loose"
+      }
+    ],
+    "overlays": [
+      {
+        "id": "folk-art-border",
+        "status": "library"
+      },
+      {
+        "id": "sepia-folk-frame",
+        "status": "library"
+      },
+      {
+        "id": "shaap-stamp",
+        "status": "library"
       }
     ]
   }
