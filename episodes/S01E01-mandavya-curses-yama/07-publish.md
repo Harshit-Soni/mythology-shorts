@@ -4,7 +4,7 @@ The pilot of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
 
 **Accounts:** Hindi = `@thelostgyaan`, English = `@thelostgyaan_en`.
 **When:** after X001's Khatu Shyam Janmotsav week (Fri 20 Nov 2026), so the two don't compete, e.g. **Hindi Sun 22 Nov 7:30 PM, English Mon 23 Nov 7:30 AM IST** (same pattern as X001). Post E02 within the week so the tease at the end pays off quickly.
-**Playlist (create now, both channels):** EN *Shraap: Curses of the Mahabharata* · HI *Shraap: Mahabharat Ke Shraap*. Set E02's "Related video" to this one later.
+**Playlist (create now, both channels):** EN *Shraap: Curses of the Mahabharata* · HI *Shraap: Mahabharat Ke Shraap*. Once E02 is up (Thu 26 / Fri 27 Nov), set this video's "Related video" to E02, and E02's to this one.
 
 **Cover / thumbnail:** `render/S01E01-thumb-en.png` and `render/S01E01-thumb-hi.png` (the curse scene: Mandavya points at Dharma; "He Cursed the God of Justice" / "जब ऋषि ने धर्म को शाप दिया"). Upload as the YouTube thumbnail and the Instagram cover.
 
@@ -72,6 +72,7 @@ The pilot of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
   >
   > #Mahabharata #Vidura #MahabharataCurses #IndianMythology #TheLostGyaan
 - **Cover:** `render/S01E01-thumb-en.png` · **Alt text:** as above.
+- **Audio name:** Mandavya's Curse · The Lost Gyaan
 - **After posting:** Story poll: "Mandavya's curse: fair or too harsh?"
 
 ## Sources (paste into descriptions)
