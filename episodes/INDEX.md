@@ -4,5 +4,5 @@
 |---|---|---|---|---|---|---|---|---|
 | S01E01 | The Sage Who Put Dharma on Trial | S01 | 7 Ready to publish: EN 61.7s, HI 73.3s (kept, overrun accepted) · detailed cast filed 2026-11-08 | | | | | |
 | S01E02 | The Deer Who Cursed a King | S01 | 7 Ready to publish: videos rendered (v2, EN 87s, HI 86s, captions synced to the voice), thumbnails + publish kit done · waiting on your phone check, then post HI Thu 26 Nov / EN Fri 27 Nov | | | | | |
-| S01E03 | The Apsara Who Cursed Arjuna | S01 | 6 Rendered: finals EN 93.5s, HI 93.8s + thumbnails (sync 0 off) · waiting on your phone check · next: publish kit | | | | | |
+| S01E03 | The Apsara Who Cursed Arjuna | S01 | 7 Ready to publish (after your phone check): EN 93.5s, HI 93.8s, kit + thumbnails done · post HI Sun 29 Nov / EN Mon 30 Nov · assets all made in code | | | | | |
 | X001 | Barbarika: The Warrior Who Gave His Head | one-off | 6 Rendered, two versions (cut-out SVG + illustrated ink-wash, 18 shots), EN ≈60s, HI ≈61s · ElevenLabs v4 voice · music bed + 9 sfx · 7 kit drafted · research unverified | | | | | |
