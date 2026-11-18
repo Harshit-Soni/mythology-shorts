@@ -1,85 +1,1956 @@
 {
-  "id": "{{ID}}",
+  "id": "S01E04",
   "title": {
-    "en": "",
-    "hi": ""
+    "en": "The Woman Who Vowed to Kill Bhishma",
+    "hi": "भीष्म-वध की प्रतिज्ञा"
   },
   "format": "short",
   "width": 1080,
   "height": 1920,
   "fps": 30,
   "sourceCredit": {
-    "en": "",
-    "hi": ""
+    "en": "Mahabharata, Udyoga & Bhishma Parva",
+    "hi": "महाभारत, उद्योग और भीष्म पर्व"
+  },
+  "safeZone": {
+    "bottom": 0.2,
+    "right": 0.12
   },
   "grade": {
     "grain": 0.12,
     "vignette": 0.45,
     "shadows": true
   },
+  "sound": {
+    "music": {
+      "id": "mythic-drone",
+      "volume": 0.7,
+      "duckTo": 0.45,
+      "fadeInSec": 0.3,
+      "fadeOutSec": 1.5
+    },
+    "sfxVolume": 0.8
+  },
   "thumbnail": {
-    "scene": "s01",
+    "scene": "s13",
     "at": 0.5,
     "series": {
-      "en": "Indian Mythology",
-      "hi": "Indian Mythology"
+      "en": "Shraap · Episode 4",
+      "hi": "शाप · भाग 4"
     },
     "title": {
-      "en": "{{TITLE}}",
-      "hi": "{{TITLE_HI}}"
+      "en": "The Woman Who Vowed to Kill Bhishma",
+      "hi": "भीष्म-वध की प्रतिज्ञा"
+    },
+    "titleLines": {
+      "en": [
+        "She Vowed",
+        "to Kill",
+        "Bhishma"
+      ],
+      "hi": [
+        "भीष्म-वध की",
+        "प्रतिज्ञा"
+      ]
     }
   },
   "scenes": [
     {
+      "id": "s00",
+      "beat": 0,
+      "type": "title-card",
+      "background": "parchment-card",
+      "characters": [],
+      "props": [
+        {
+          "id": "shaap-stamp",
+          "x": 0.44,
+          "y": 0.42,
+          "scale": 1.2,
+          "action": "stamp-in"
+        }
+      ],
+      "overlay": "folk-art-border",
+      "camera": {
+        "move": "static"
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "fixedDurationSec": 1.0,
+      "onScreenText": {
+        "en": "CURSED IV",
+        "hi": "शाप IV",
+        "style": "stamp-gold"
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "at": 0,
+          "volume": 0.7
+        },
+        {
+          "id": "stamp-thud",
+          "at": 0.15,
+          "volume": 0.9
+        }
+      ],
+      "transition": "border-wipe",
+      "notes": "Series sting, reused in every S01 episode. Border closes in, stamp lands.",
+      "music": 0.6
+    },
+    {
       "id": "s01",
       "beat": 1,
       "type": "character",
-      "background": "background-id",
+      "background": "yamuna-bank",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.68,
+          "y": 0.45,
+          "r": 0.32,
+          "color": "#9FD3E6",
+          "pulse": true
+        },
+        {
+          "type": "sparks",
+          "n": 14
+        }
+      ],
       "characters": [
         {
-          "id": "character-id",
-          "pose": "standing",
-          "expression": "neutral",
-          "x": 0.5,
-          "y": 0.62,
-          "scale": 1,
+          "id": "amba",
+          "pose": "tapas-standing",
+          "x": 0.3,
+          "y": 0.84,
+          "scale": 1.0,
           "flip": false,
-          "action": "idle"
+          "action": "still",
+          "expression": "resolute"
+        },
+        {
+          "id": "ganga",
+          "pose": "cursing",
+          "x": 0.7,
+          "y": 0.84,
+          "scale": 1.05,
+          "flip": true,
+          "action": "raise-hand",
+          "expression": "stern"
+        }
+      ],
+      "props": [
+        {
+          "id": "shaap-stamp",
+          "x": 0.5,
+          "y": 0.28,
+          "scale": 0.7,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.15,
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      "narration": {
+        "en": "The woman who swore to kill Bhishma… was cursed by his own mother.",
+        "hi": "जिस स्त्री ने भीष्म को मारने की प्रतिज्ञा की… उसे शाप दिया भीष्म की अपनी माँ ने!"
+      },
+      "onScreenText": {
+        "en": "CURSED",
+        "hi": "शाप",
+        "style": "stamp-gold"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "do": "stamp-next",
+          "target": "shaap-stamp"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0,
+          "volume": 0.5
+        },
+        {
+          "id": "thunder-crack",
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "volume": 0.6
+        },
+        {
+          "id": "stamp-thud",
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "offset": 0.1,
+          "volume": 0.8
+        }
+      ],
+      "transition": "flash-white",
+      "notes": "Hook (flash-forward to s13): Ganga, rising from the river, curses Amba, who stands in tapas, unbowed."
+    },
+    {
+      "id": "s02",
+      "beat": 2,
+      "type": "character",
+      "background": "hastinapura-palace",
+      "backgroundVariant": "dawn",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.15,
+          "color": "#FFE6B0"
+        }
+      ],
+      "characters": [
+        {
+          "id": "bhishma",
+          "pose": "vow-hand-raised",
+          "x": 0.5,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": false,
+          "action": "still",
+          "expression": "solemn"
         }
       ],
       "props": [],
       "camera": {
         "move": "slow-zoom-in",
         "from": 1.0,
-        "to": 1.08
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.45
+        ]
       },
       "narration": {
-        "en": "",
-        "hi": ""
+        "en": "Bhishma had taken a vow: never to marry, never to rule.",
+        "hi": "भीष्म ने प्रतिज्ञा ली थी: न कभी विवाह करेंगे, न कभी राज करेंगे।"
+      },
+      "onScreenText": {
+        "en": "Bhishma",
+        "hi": "भीष्म",
+        "style": "name-tag",
+        "sub": {
+          "en": "his vow: never to marry, never to rule",
+          "hi": "प्रतिज्ञा: न विवाह, न राज"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "onWord": {
+            "en": "vow",
+            "hi": "प्रतिज्ञा"
+          },
+          "volume": 0.6
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "Young Bhishma (Devavrata), right hand raised in an oath. Adi §100."
+    },
+    {
+      "id": "s03",
+      "beat": 3,
+      "type": "character",
+      "background": "king-court",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 15
+        }
+      ],
+      "characters": [
+        {
+          "id": "bhishma",
+          "pose": "standing-bow",
+          "x": 0.26,
+          "y": 0.88,
+          "scale": 0.95,
+          "flip": false,
+          "action": "step-forward",
+          "expression": "stern"
+        },
+        {
+          "id": "amba",
+          "pose": "standing-sad",
+          "x": 0.6,
+          "y": 0.88,
+          "scale": 0.85,
+          "flip": true,
+          "action": "breathe",
+          "expression": "startled"
+        }
+      ],
+      "props": [
+        {
+          "id": "three-princesses",
+          "x": 0.76,
+          "y": 0.66,
+          "scale": 0.75,
+          "action": "still"
+        },
+        {
+          "id": "war-chariot",
+          "x": 0.14,
+          "y": 0.74,
+          "scale": 0.7,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-pan-right",
+        "from": 0.0,
+        "to": 0.03
+      },
+      "narration": {
+        "en": "Then, at the swayamvara of Kashi's three princesses, he came alone, in one chariot… and carried all three away for his brother.",
+        "hi": "फिर काशी की तीन राजकुमारियों के स्वयंवर में वो अकेले, एक रथ पर आए… और तीनों को अपने भाई के लिए उठा ले गए।"
+      },
+      "onScreenText": {
+        "en": "Kashi",
+        "hi": "काशी",
+        "style": "name-tag",
+        "sub": {
+          "en": "the swayamvara of three princesses",
+          "hi": "तीन राजकुमारियों का स्वयंवर"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "onWord": {
+            "en": "chariot",
+            "hi": "रथ"
+          },
+          "volume": 0.6
+        }
+      ],
+      "transition": "cut",
+      "notes": "Kashi swayamvara (king-court stands in): Bhishma arrives alone; the three princesses (Amba lit in front, her sisters as silhouettes). Adi §102."
+    },
+    {
+      "id": "s04",
+      "beat": 4,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 25
+        }
+      ],
+      "characters": [
+        {
+          "id": "bhishma",
+          "pose": "drawing-bow",
+          "x": 0.24,
+          "y": 0.82,
+          "scale": 1.0,
+          "flip": false,
+          "action": "draw-bow",
+          "expression": "fierce"
+        },
+        {
+          "id": "shalva",
+          "pose": "defeated",
+          "x": 0.56,
+          "y": 0.82,
+          "scale": 0.95,
+          "flip": true,
+          "action": "breathe",
+          "expression": "hurt"
+        },
+        {
+          "id": "amba",
+          "pose": "standing-sad",
+          "x": 0.82,
+          "y": 0.82,
+          "scale": 0.8,
+          "flip": true,
+          "action": "breathe",
+          "expression": "sad"
+        }
+      ],
+      "props": [
+        {
+          "id": "battle-silhouettes",
+          "x": 0.6,
+          "y": 0.62,
+          "scale": 0.9,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "shake-small-then-static"
+      },
+      "narration": {
+        "en": "He fought off every king there, even Shalva, the king the eldest princess, Amba, loved.",
+        "hi": "उन्होंने वहाँ हर राजा को हराया, शाल्व को भी, जिन्हें बड़ी राजकुमारी अम्बा मन ही मन चुन चुकी थीं।"
+      },
+      "onScreenText": {
+        "en": "Shalva",
+        "hi": "शाल्व",
+        "style": "name-tag",
+        "sub": {
+          "en": "king of Saubha",
+          "hi": "सौभ के राजा"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "arrow-whoosh-magic",
+          "at": 0.3,
+          "volume": 0.6
+        },
+        {
+          "id": "battle-distant",
+          "at": 0,
+          "volume": 0.35
+        }
+      ],
+      "transition": "cut",
+      "notes": "Bhishma fights off the kings; Shalva falls back; Amba looks at Shalva."
+    },
+    {
+      "id": "s05",
+      "beat": 5,
+      "type": "character",
+      "background": "hastinapura-palace",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 12,
+          "color": "#FFE6B0"
+        }
+      ],
+      "characters": [
+        {
+          "id": "amba",
+          "pose": "folded-hands",
+          "x": 0.3,
+          "y": 0.9,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "pleading",
+          "speaking": true
+        },
+        {
+          "id": "bhishma",
+          "pose": "releasing",
+          "x": 0.7,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": true,
+          "action": "breathe",
+          "expression": "kind"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "In Hastinapura, Amba told him, \"My heart already belongs to Shalva.\" Bhishma let her go.",
+        "hi": "हस्तिनापुर में अम्बा बोलीं, \"मेरा मन तो शाल्व का है।\" भीष्म ने उन्हें जाने दिया।"
+      },
+      "onScreenText": {
+        "en": "Amba",
+        "hi": "अम्बा",
+        "style": "name-tag",
+        "sub": {
+          "en": "eldest princess of Kashi",
+          "hi": "काशी की बड़ी राजकुमारी"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "onWord": {
+            "en": "go",
+            "hi": "जाने"
+          },
+          "volume": 0.4
+        }
+      ],
+      "transition": "cut",
+      "notes": "Amba tells Bhishma her heart is Shalva's; he opens his hand: go. Adi §102."
+    },
+    {
+      "id": "s06",
+      "beat": 6,
+      "type": "character",
+      "background": "king-court",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 10
+        }
+      ],
+      "characters": [
+        {
+          "id": "amba",
+          "pose": "standing-sad",
+          "x": 0.26,
+          "y": 0.88,
+          "scale": 0.9,
+          "flip": false,
+          "action": "breathe",
+          "expression": "hurt"
+        },
+        {
+          "id": "shalva",
+          "pose": "turning-away",
+          "x": 0.66,
+          "y": 0.88,
+          "scale": 1.0,
+          "flip": false,
+          "action": "breathe",
+          "expression": "cold",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05
+      },
+      "narration": {
+        "en": "But Shalva turned her away: \"Bhishma won you in front of every king. Go back to him.\"",
+        "hi": "पर शाल्व ने ठुकरा दिया: \"भीष्म तुम्हें सब राजाओं के सामने जीत ले गए। उन्हीं के पास जाओ।\""
       },
       "onScreenText": null,
-      "sfx": [],
+      "cues": [],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "onWord": {
+            "en": "Go",
+            "hi": "जाओ"
+          },
+          "volume": 0.45
+        }
+      ],
       "transition": "cut",
-      "notes": ""
+      "notes": "Shalva turns his back on her (faces right, away), a hand raised: \"go\". Udyoga §176."
+    },
+    {
+      "id": "s07",
+      "beat": 7,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "silhouette",
+      "fx": [
+        {
+          "type": "fog",
+          "color": "#C9A2B0"
+        }
+      ],
+      "characters": [
+        {
+          "id": "amba",
+          "pose": "standing-sad",
+          "x": 0.5,
+          "y": 0.82,
+          "scale": 0.85,
+          "flip": false,
+          "action": "still",
+          "expression": "sad"
+        }
+      ],
+      "props": [
+        {
+          "id": "closed-gate",
+          "x": 0.16,
+          "y": 0.6,
+          "scale": 0.8,
+          "action": "still"
+        },
+        {
+          "id": "closed-gate",
+          "x": 0.84,
+          "y": 0.6,
+          "scale": 0.8,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.08,
+        "to": 1.0
+      },
+      "narration": {
+        "en": "She couldn't go home. She couldn't go back. And Bhishma's vow meant he could never marry her.",
+        "hi": "न मायका, न हस्तिनापुर। और भीष्म की प्रतिज्ञा ऐसी, कि वो कभी विवाह नहीं कर सकते थे।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "wind-desolate",
+          "at": 0,
+          "volume": 0.4
+        }
+      ],
+      "music": 0.6,
+      "transition": "dissolve",
+      "notes": "Amba alone on a road between two closed palace gates (her father's, Hastinapura's)."
+    },
+    {
+      "id": "s08",
+      "beat": 8,
+      "type": "character",
+      "background": "hermitage",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.7,
+          "y": 0.2,
+          "color": "#FFE6B0"
+        }
+      ],
+      "characters": [
+        {
+          "id": "amba",
+          "pose": "folded-hands",
+          "x": 0.3,
+          "y": 0.79,
+          "scale": 0.9,
+          "flip": false,
+          "action": "breathe",
+          "expression": "pleading"
+        },
+        {
+          "id": "parashurama",
+          "pose": "standing-axe",
+          "x": 0.68,
+          "y": 0.79,
+          "scale": 1.0,
+          "flip": true,
+          "action": "breathe",
+          "expression": "stern"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "So she went to Bhishma's own teacher, Parashurama, and asked him to fight for her.",
+        "hi": "तब अम्बा भीष्म के ही गुरु परशुराम के पास गईं, और उनसे अपने लिए लड़ने को कहा।"
+      },
+      "onScreenText": {
+        "en": "Parashurama",
+        "hi": "परशुराम",
+        "style": "name-tag",
+        "sub": {
+          "en": "Bhishma’s own teacher",
+          "hi": "भीष्म के गुरु"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "onWord": {
+            "en": "Parashurama",
+            "hi": "परशुराम"
+          },
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "Udyoga §178–180."
+    },
+    {
+      "id": "s09",
+      "beat": 9,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 25
+        },
+        {
+          "type": "sparks",
+          "n": 15
+        }
+      ],
+      "characters": [
+        {
+          "id": "bhishma",
+          "pose": "drawing-bow",
+          "x": 0.26,
+          "y": 0.82,
+          "scale": 1.0,
+          "flip": false,
+          "action": "draw-bow",
+          "expression": "fierce"
+        },
+        {
+          "id": "parashurama",
+          "pose": "drawing-bow",
+          "x": 0.74,
+          "y": 0.82,
+          "scale": 1.0,
+          "flip": true,
+          "action": "draw-bow",
+          "expression": "fierce"
+        }
+      ],
+      "props": [
+        {
+          "id": "gandiva-shockwave",
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 0.8,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "shake-then-zoom",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "Teacher and pupil fought for twenty-three days. Neither would yield. At last, Parashurama conceded.",
+        "hi": "गुरु और शिष्य तेईस दिन लड़े। कोई झुका नहीं। आख़िर परशुराम ने हार मान ली।"
+      },
+      "onScreenText": {
+        "en": "23 days",
+        "hi": "२३ दिन",
+        "style": "name-tag",
+        "sub": {
+          "en": "Udyoga Parva §185",
+          "hi": "उद्योग पर्व §185"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "twenty-three",
+            "hi": "तेईस"
+          },
+          "do": "stamp-in",
+          "target": "gandiva-shockwave"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "arrow-whoosh-magic",
+          "at": 0.2,
+          "volume": 0.7
+        },
+        {
+          "id": "drum-boom-deep",
+          "onWord": {
+            "en": "conceded",
+            "hi": "हार"
+          },
+          "volume": 0.7
+        }
+      ],
+      "music": 1.15,
+      "transition": "cut",
+      "notes": "Teacher and pupil face to face; arrows meet in a burst of light. Udyoga §182–188."
+    },
+    {
+      "id": "s10",
+      "beat": 10,
+      "type": "character",
+      "background": "hermitage",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 10
+        }
+      ],
+      "characters": [
+        {
+          "id": "amba",
+          "pose": "resolute",
+          "x": 0.3,
+          "y": 0.79,
+          "scale": 0.9,
+          "flip": false,
+          "action": "breathe",
+          "expression": "resolute",
+          "speaking": true
+        },
+        {
+          "id": "parashurama",
+          "pose": "standing-axe",
+          "x": 0.7,
+          "y": 0.79,
+          "scale": 1.0,
+          "flip": true,
+          "action": "breathe",
+          "expression": "sad",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.3,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "\"You have no refuge left but Bhishma,\" he told her. \"Then I will kill him myself,\" she said.",
+        "hi": "\"अब भीष्म के सिवा तुम्हारा कोई सहारा नहीं,\" उन्होंने कहा। अम्बा बोलीं, \"तो मैं ख़ुद उन्हें मारूँगी।\""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "onWord": {
+            "en": "myself",
+            "hi": "ख़ुद"
+          },
+          "volume": 0.5
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "Udyoga §189. Amba, fist at her chest, eyes hard."
+    },
+    {
+      "id": "s11",
+      "beat": 11,
+      "type": "character",
+      "background": "yamuna-bank",
+      "backgroundVariant": "night",
+      "light": "moon",
+      "fx": [
+        {
+          "type": "stars",
+          "n": 40
+        },
+        {
+          "type": "fog",
+          "color": "#9FB3D9"
+        }
+      ],
+      "characters": [
+        {
+          "id": "amba",
+          "pose": "tapas-standing",
+          "x": 0.5,
+          "y": 0.84,
+          "scale": 0.95,
+          "flip": false,
+          "action": "still",
+          "expression": "eyes-closed"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "crane-up",
+        "from": 0.0,
+        "to": -0.05
+      },
+      "narration": {
+        "en": "For twelve years she did tapas: living on air, standing in the Yamuna, balanced on her toes.",
+        "hi": "बारह बरस अम्बा ने तप किया: हवा पीकर, यमुना के पानी में खड़े होकर, पैरों की उँगलियों पर टिककर।"
+      },
+      "onScreenText": {
+        "en": "12 years of tapas",
+        "hi": "बारह बरस का तप",
+        "style": "name-tag",
+        "sub": {
+          "en": "Udyoga Parva §189",
+          "hi": "उद्योग पर्व §189"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "wind-desolate",
+          "at": 0,
+          "volume": 0.35
+        }
+      ],
+      "music": 0.8,
+      "transition": "dissolve",
+      "notes": "Amba stands in the Yamuna, palms joined above her head, eyes closed."
+    },
+    {
+      "id": "s12",
+      "beat": 12,
+      "type": "character",
+      "background": "yamuna-bank",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.7,
+          "y": 0.45,
+          "r": 0.32,
+          "color": "#9FD3E6",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "amba",
+          "pose": "tapas-standing",
+          "x": 0.3,
+          "y": 0.84,
+          "scale": 0.95,
+          "flip": false,
+          "action": "still",
+          "expression": "resolute"
+        },
+        {
+          "id": "ganga",
+          "pose": "rising",
+          "x": 0.7,
+          "y": 0.84,
+          "scale": 1.05,
+          "flip": true,
+          "action": "ascend",
+          "expression": "stern",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "Then Ganga, Bhishma's mother, rose from the water. \"You are acting crookedly,\" she said.",
+        "hi": "तब भीष्म की माँ, गंगा, जल से प्रकट हुईं। \"तुम टेढ़ी राह पर हो,\" उन्होंने कहा।"
+      },
+      "onScreenText": {
+        "en": "Ganga",
+        "hi": "गंगा",
+        "style": "name-tag",
+        "sub": {
+          "en": "Bhishma’s mother",
+          "hi": "भीष्म की माँ"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "onWord": {
+            "en": "Ganga",
+            "hi": "गंगा"
+          },
+          "volume": 0.6
+        }
+      ],
+      "transition": "cut",
+      "notes": "Udyoga §189: Ganga questions her. Ganga crowned, with a small makara at her side."
+    },
+    {
+      "id": "s13",
+      "beat": 13,
+      "type": "character",
+      "background": "yamuna-bank",
+      "backgroundVariant": "night",
+      "light": "night",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.7,
+          "y": 0.45,
+          "r": 0.3,
+          "color": "#9FD3E6",
+          "pulse": true
+        },
+        {
+          "type": "sparks",
+          "n": 12
+        }
+      ],
+      "characters": [
+        {
+          "id": "amba",
+          "pose": "tapas-standing",
+          "x": 0.3,
+          "y": 0.84,
+          "scale": 1.0,
+          "flip": false,
+          "action": "still",
+          "expression": "resolute"
+        },
+        {
+          "id": "ganga",
+          "pose": "cursing",
+          "x": 0.7,
+          "y": 0.84,
+          "scale": 1.05,
+          "flip": true,
+          "action": "raise-hand",
+          "expression": "stern",
+          "speaking": true
+        }
+      ],
+      "props": [
+        {
+          "id": "shaap-stamp",
+          "x": 0.5,
+          "y": 0.28,
+          "scale": 0.7,
+          "action": "stamp-in"
+        },
+        {
+          "id": "crooked-river",
+          "x": 0.5,
+          "y": 0.7,
+          "scale": 1.2,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "shake-then-zoom",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      "narration": {
+        "en": "\"Die with this vow, and you'll become a crooked river, dry eight months a year.\" And half of Amba became that river.",
+        "hi": "\"इस प्रतिज्ञा के साथ प्राण छोड़े, तो टेढ़ी नदी बनोगी, जो साल के आठ महीने सूखी रहे।\" और अम्बा का आधा शरीर वही नदी बन गया।"
+      },
+      "onScreenText": {
+        "en": "CURSED",
+        "hi": "शाप",
+        "style": "stamp-gold"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "crooked",
+            "hi": "टेढ़ी"
+          },
+          "do": "stamp-next",
+          "target": "shaap-stamp"
+        },
+        {
+          "onWord": {
+            "en": "half",
+            "hi": "आधा"
+          },
+          "do": "stamp-in",
+          "target": "crooked-river"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "thunder-crack",
+          "onWord": {
+            "en": "crooked",
+            "hi": "टेढ़ी"
+          },
+          "volume": 0.6
+        },
+        {
+          "id": "stamp-thud",
+          "onWord": {
+            "en": "crooked",
+            "hi": "टेढ़ी"
+          },
+          "offset": 0.1,
+          "volume": 0.8
+        }
+      ],
+      "music": 1.1,
+      "transition": "flash-white",
+      "notes": "The curse (the hook pays off): the stamp on \"crooked / टेढ़ी\"; on \"half / आधा\" a dry winding riverbed glows out from Amba's feet."
+    },
+    {
+      "id": "s14",
+      "beat": 14,
+      "type": "character",
+      "background": "himalaya-peaks",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.3,
+          "color": "#FFE6B0"
+        },
+        {
+          "type": "stars",
+          "n": 25
+        }
+      ],
+      "characters": [
+        {
+          "id": "amba",
+          "pose": "folded-hands",
+          "x": 0.5,
+          "y": 0.8,
+          "scale": 0.75,
+          "flip": false,
+          "action": "still",
+          "expression": "hopeful"
+        }
+      ],
+      "props": [
+        {
+          "id": "shiva-light",
+          "x": 0.5,
+          "y": 0.34,
+          "scale": 1.0,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "tilt-down",
+        "from": -0.1,
+        "to": 0.0
+      },
+      "narration": {
+        "en": "But Shiva granted her wish: \"You will kill Bhishma, in your next life, as a man.\"",
+        "hi": "पर शिव ने वरदान दिया: \"तुम भीष्म को मारोगी, अगले जन्म में, पुरुष बनकर।\""
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "Shiva",
+            "hi": "शिव"
+          },
+          "do": "stamp-in",
+          "target": "shiva-light"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "onWord": {
+            "en": "Shiva",
+            "hi": "शिव"
+          },
+          "volume": 0.6
+        }
+      ],
+      "transition": "light-wipe",
+      "notes": "Shiva as a symbol only (trident, crescent, a column of light), above Amba. Udyoga §190."
+    },
+    {
+      "id": "s15",
+      "beat": 15,
+      "type": "prop-hero",
+      "background": "yamuna-bank",
+      "backgroundVariant": "night",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 30
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "pyre-flames",
+          "x": 0.5,
+          "y": 0.6,
+          "scale": 1.0,
+          "action": "flicker-distant"
+        },
+        {
+          "id": "rising-lights",
+          "x": 0.5,
+          "y": 0.36,
+          "scale": 0.7,
+          "action": "ascend"
+        }
+      ],
+      "camera": {
+        "move": "crane-up",
+        "from": 0.0,
+        "to": -0.06
+      },
+      "narration": {
+        "en": "By the Yamuna, Amba built her own pyre and walked into it, saying: \"For Bhishma's death.\"",
+        "hi": "यमुना किनारे अम्बा ने ख़ुद चिता सजाई, और उसमें प्रवेश किया: \"भीष्म के विनाश के लिए!\""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "at": 0.3,
+          "volume": 0.5
+        }
+      ],
+      "music": 0.5,
+      "transition": "fade-to-night",
+      "notes": "Symbolic only: folk-art flames by the river, one spark rising. No figure in the fire."
+    },
+    {
+      "id": "s16",
+      "beat": 16,
+      "type": "character",
+      "background": "hastinapura-palace",
+      "backgroundVariant": "dawn",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.15,
+          "color": "#FFE6B0"
+        }
+      ],
+      "characters": [
+        {
+          "id": "shikhandi",
+          "pose": "standing-bow",
+          "x": 0.5,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": false,
+          "action": "step-forward",
+          "expression": "resolute"
+        }
+      ],
+      "props": [
+        {
+          "id": "falling-light",
+          "x": 0.5,
+          "y": 0.25,
+          "scale": 1.0,
+          "action": "descend"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "She was reborn to King Drupada, as Shikhandi.",
+        "hi": "उनका अगला जन्म हुआ राजा द्रुपद के घर, शिखण्डी बनकर।"
+      },
+      "onScreenText": {
+        "en": "Shikhandi",
+        "hi": "शिखण्डी",
+        "style": "name-tag",
+        "sub": {
+          "en": "born to King Drupada",
+          "hi": "राजा द्रुपद की सन्तान"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "at": 0.2,
+          "volume": 0.6
+        }
+      ],
+      "transition": "cut",
+      "notes": "The spark descends; Shikhandi as a young warrior of Panchala (Udyoga §191–195)."
+    },
+    {
+      "id": "s17",
+      "beat": 17,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "night",
+      "light": "night",
+      "fx": [
+        {
+          "type": "stars",
+          "n": 30
+        },
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.6,
+          "r": 0.3,
+          "color": "#E07A2E",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "standing-bow",
+          "x": 0.28,
+          "y": 0.82,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "worried"
+        },
+        {
+          "id": "bhishma",
+          "pose": "gesturing",
+          "x": 0.7,
+          "y": 0.82,
+          "scale": 1.0,
+          "flip": true,
+          "action": "breathe",
+          "expression": "calm",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "Years later, at Kurukshetra, no one could stop Bhishma. So he told the Pandavas himself: \"I won't fight one who was born a woman. Put Shikhandi before Arjuna.\"",
+        "hi": "बरसों बाद, कुरुक्षेत्र में भीष्म को कोई रोक न सका। तब उन्होंने ख़ुद पाण्डवों को राह बताई: \"जो जन्म से स्त्री था, उससे मैं नहीं लड़ूँगा। अर्जुन के आगे शिखण्डी को रखो।\""
+      },
+      "onScreenText": {
+        "en": "Kurukshetra",
+        "hi": "कुरुक्षेत्र",
+        "style": "name-tag",
+        "sub": {
+          "en": "the ninth night",
+          "hi": "नौवीं रात"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "night-crickets",
+          "at": 0,
+          "volume": 0.35
+        }
+      ],
+      "transition": "cut",
+      "notes": "Bhishma §108: by firelight, Bhishma himself tells Arjuna (and the Pandavas) how to bring him down."
+    },
+    {
+      "id": "s18",
+      "beat": 18,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 25
+        },
+        {
+          "type": "dust",
+          "n": 20
+        }
+      ],
+      "characters": [
+        {
+          "id": "shikhandi",
+          "pose": "drawing-bow",
+          "x": 0.28,
+          "y": 0.82,
+          "scale": 1.0,
+          "flip": false,
+          "action": "draw-bow",
+          "expression": "fierce"
+        },
+        {
+          "id": "bhishma",
+          "pose": "bow-still",
+          "x": 0.72,
+          "y": 0.82,
+          "scale": 1.0,
+          "flip": true,
+          "action": "still",
+          "expression": "calm"
+        }
+      ],
+      "props": [
+        {
+          "id": "battle-silhouettes",
+          "x": 0.6,
+          "y": 0.62,
+          "scale": 0.9,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-pan-right",
+        "from": 0.0,
+        "to": 0.03
+      },
+      "narration": {
+        "en": "On the tenth day, Shikhandi's arrows struck him. Bhishma would not strike back.",
+        "hi": "दसवें दिन शिखण्डी के बाण भीष्म पर बरसे। भीष्म ने पलटकर वार नहीं किया।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "arrow-whoosh-magic",
+          "at": 0.2,
+          "volume": 0.7
+        }
+      ],
+      "transition": "cut",
+      "notes": "Bhishma §118: Shikhandi shoots; Bhishma holds his bow still and will not strike back."
+    },
+    {
+      "id": "s19",
+      "beat": 19,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 25
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "drawing-bow",
+          "x": 0.2,
+          "y": 0.8,
+          "scale": 0.9,
+          "flip": false,
+          "action": "draw-bow",
+          "expression": "fierce"
+        },
+        {
+          "id": "shikhandi",
+          "pose": "drawing-bow",
+          "x": 0.4,
+          "y": 0.82,
+          "scale": 0.95,
+          "flip": false,
+          "action": "still",
+          "expression": "fierce"
+        },
+        {
+          "id": "bhishma",
+          "pose": "bow-still",
+          "x": 0.76,
+          "y": 0.82,
+          "scale": 1.0,
+          "flip": true,
+          "action": "still",
+          "expression": "smiling",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.7,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "Then Arjuna's arrows came. Bhishma smiled: \"These are not Shikhandi's arrows. These are Arjuna's.\"",
+        "hi": "फिर अर्जुन के बाण आए। भीष्म मुस्कुराए: \"ये बाण शिखण्डी के नहीं। ये अर्जुन के हैं।\""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "arrow-whoosh-magic",
+          "at": 0.1,
+          "volume": 0.7
+        },
+        {
+          "id": "drum-hit",
+          "onWord": {
+            "en": "Arjuna",
+            "hi": "अर्जुन"
+          },
+          "volume": 0.6
+        }
+      ],
+      "transition": "cut",
+      "notes": "Bhishma §120: Arjuna behind Shikhandi with the Gandiva; Bhishma smiles: \"These are not Shikhandi's arrows.\""
+    },
+    {
+      "id": "s20",
+      "beat": 20,
+      "type": "prop-hero",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 15
+        },
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.35,
+          "color": "#FFD1A0"
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "bed-of-arrows",
+          "x": 0.5,
+          "y": 0.62,
+          "scale": 1.3,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "And the man no one could defeat fell onto a bed of arrows.",
+        "hi": "और जिसे कोई हरा न सका, वो बाणों की शय्या पर गिर पड़े।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-boom-deep",
+          "at": 0.3,
+          "volume": 0.8
+        }
+      ],
+      "music": 0.7,
+      "transition": "dissolve",
+      "notes": "Bhishma lying on a bed of arrow shafts, held above the ground (§121). No wounds shown."
+    },
+    {
+      "id": "s21",
+      "beat": 21,
+      "type": "prop-hero",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "silhouette",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 15
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "bed-of-arrows",
+          "x": 0.5,
+          "y": 0.7,
+          "scale": 0.8,
+          "action": "still"
+        },
+        {
+          "id": "amba-shadow",
+          "x": 0.5,
+          "y": 0.42,
+          "scale": 1.0,
+          "action": "ascend"
+        }
+      ],
+      "camera": {
+        "move": "crane-up",
+        "from": 0.0,
+        "to": -0.05
+      },
+      "narration": {
+        "en": "One vow, carried through death, had brought him down.",
+        "hi": "एक प्रतिज्ञा, जो मृत्यु के पार भी निभाई गई, उसने भीष्म को गिरा दिया।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "wind-desolate",
+          "at": 0,
+          "volume": 0.4
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "Amba's shadow rises over the fallen Bhishma, then fades."
+    },
+    {
+      "id": "s22",
+      "beat": 22,
+      "type": "character",
+      "background": "yamuna-bank",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.3,
+          "r": 0.3,
+          "color": "#FFE6B0",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "standing-bow",
+          "x": 0.5,
+          "y": 0.84,
+          "scale": 0.95,
+          "flip": false,
+          "action": "still",
+          "expression": "worried",
+          "light": "silhouette"
+        }
+      ],
+      "props": [
+        {
+          "id": "vasu-lights",
+          "x": 0.5,
+          "y": 0.3,
+          "scale": 1.0,
+          "action": "circle"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "But even this had a price: the Vasus cursed Arjuna… for striking from behind Shikhandi.",
+        "hi": "पर इसकी भी क़ीमत थी: वसुओं ने अर्जुन को शाप दिया… शिखण्डी की आड़ से वार करने के लिए।"
+      },
+      "onScreenText": {
+        "en": "The Vasus",
+        "hi": "वसु",
+        "style": "name-tag",
+        "sub": {
+          "en": "Ashvamedhika Parva §81",
+          "hi": "आश्वमेधिक पर्व §81"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "thunder-crack",
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "Eight Vasu lights over the Ganga; Arjuna below in shadow."
+    },
+    {
+      "id": "s23",
+      "beat": 23,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "silhouette",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 20
+        },
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.45,
+          "r": 0.3,
+          "color": "#E8B53A",
+          "pulse": true
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "karna-silhouette",
+          "x": 0.5,
+          "y": 0.6,
+          "scale": 1.0,
+          "action": "still"
+        },
+        {
+          "id": "shaap-stamp",
+          "x": 0.5,
+          "y": 0.28,
+          "scale": 0.7,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.1
+      },
+      "narration": {
+        "en": "And one warrior was already doomed by two curses before the war began: Karna.",
+        "hi": "और एक योद्धा था, जो युद्ध से पहले ही दो-दो शापों से बँधा था: कर्ण।"
+      },
+      "onScreenText": {
+        "en": "CURSED V",
+        "hi": "शाप V",
+        "style": "stamp-gold"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "Karna",
+            "hi": "कर्ण"
+          },
+          "do": "stamp-next",
+          "target": "shaap-stamp"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "onWord": {
+            "en": "Karna",
+            "hi": "कर्ण"
+          },
+          "volume": 0.9
+        }
+      ],
+      "overlay": "folk-art-border",
+      "transition": "cut-to-black",
+      "notes": "Tease for S01E05 (Karna's curses): Karna in silhouette, a glint of golden armour and earrings."
     }
   ],
   "assets": {
     "characters": [
       {
-        "id": "",
-        "status": "new | library"
+        "id": "bhishma",
+        "status": "new",
+        "poses": {
+          "vow-hand-raised": "new",
+          "standing-bow": "new",
+          "drawing-bow": "new",
+          "releasing": "new",
+          "gesturing": "new",
+          "bow-still": "new"
+        },
+        "notes": "Full rig from the pandu rig: young (s02–s05, s09) and old (s17–s19) as expression/variant? → two looks: \"young\" poses and \"old\" poses (white beard, white hair) — decide in /assets"
+      },
+      {
+        "id": "amba",
+        "status": "new",
+        "poses": {
+          "tapas-standing": "new",
+          "standing-sad": "new",
+          "folded-hands": "new",
+          "resolute": "new"
+        },
+        "derive": "S01E02 women build"
+      },
+      {
+        "id": "ganga",
+        "status": "new",
+        "poses": {
+          "rising": "new",
+          "cursing": "new"
+        },
+        "notes": "river goddess: crowned, water-blue and white, a small makara"
+      },
+      {
+        "id": "shalva",
+        "status": "new",
+        "poses": {
+          "defeated": "new",
+          "turning-away": "new"
+        },
+        "derive": "pandu/king rig"
+      },
+      {
+        "id": "parashurama",
+        "status": "new",
+        "poses": {
+          "standing-axe": "new",
+          "drawing-bow": "new"
+        },
+        "derive": "mandavya rig (sage) + axe, bow"
+      },
+      {
+        "id": "shikhandi",
+        "status": "new",
+        "poses": {
+          "standing-bow": "new",
+          "drawing-bow": "new"
+        },
+        "derive": "uttar / pandu rig"
+      },
+      {
+        "id": "arjuna",
+        "status": "library",
+        "poses": {
+          "standing-bow": "library",
+          "drawing-bow": "new"
+        }
       }
     ],
     "backgrounds": [
       {
-        "id": "",
-        "status": "new | library"
+        "id": "yamuna-bank",
+        "status": "new",
+        "notes": "river bank with reeds; water across the frame; feet ≈ 0.84"
+      },
+      {
+        "id": "hastinapura-palace",
+        "status": "library"
+      },
+      {
+        "id": "king-court",
+        "status": "library"
+      },
+      {
+        "id": "red-sky-plain",
+        "status": "library"
+      },
+      {
+        "id": "hermitage",
+        "status": "library"
+      },
+      {
+        "id": "himalaya-peaks",
+        "status": "library"
       }
     ],
     "props": [
       {
-        "id": "",
-        "status": "new | library"
+        "id": "three-princesses",
+        "status": "new",
+        "notes": "the two sisters as silhouettes behind"
+      },
+      {
+        "id": "closed-gate",
+        "status": "new"
+      },
+      {
+        "id": "crooked-river",
+        "status": "new",
+        "notes": "a dry winding riverbed, glowing"
+      },
+      {
+        "id": "shiva-light",
+        "status": "new",
+        "notes": "trident, crescent and a column of light; Shiva as a symbol only"
+      },
+      {
+        "id": "bed-of-arrows",
+        "status": "new",
+        "notes": "Bhishma lying on arrow shafts above the ground; no wounds"
+      },
+      {
+        "id": "vasu-lights",
+        "status": "new",
+        "notes": "eight lights in a ring"
+      },
+      {
+        "id": "karna-silhouette",
+        "status": "new",
+        "notes": "E05 tease; golden armour and earrings glint"
+      },
+      {
+        "id": "war-chariot",
+        "status": "library"
+      },
+      {
+        "id": "battle-silhouettes",
+        "status": "library"
+      },
+      {
+        "id": "gandiva-shockwave",
+        "status": "library"
+      },
+      {
+        "id": "pyre-flames",
+        "status": "library"
+      },
+      {
+        "id": "rising-lights",
+        "status": "library"
+      },
+      {
+        "id": "amba-shadow",
+        "status": "library"
+      }
+    ],
+    "overlays": [
+      {
+        "id": "folk-art-border",
+        "status": "library"
+      },
+      {
+        "id": "shaap-stamp",
+        "status": "library"
       }
     ]
   }
