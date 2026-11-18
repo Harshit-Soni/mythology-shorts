@@ -1,0 +1,28 @@
+{
+  "id": "shikhandi",
+  "name": {
+    "en": "Shikhandi",
+    "hi": "शिखण्डी"
+  },
+  "role": "Drupada’s child; Amba reborn",
+  "divine": false,
+  "look": "A young warrior of Panchala in ochre with a green sash and a small crown.",
+  "sourceNotes": "Udyoga §191–195; Bhishma Parva §108–121. Shown with dignity, in the text’s own terms.",
+  "poses": [
+    "standing-bow",
+    "drawing-bow"
+  ],
+  "appearsIn": [
+    "S01E04"
+  ],
+  "files": {
+    "drawing-bow": "drawing-bow.svg",
+    "standing-bow": "standing-bow.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "standing-bow": "right",
+    "drawing-bow": "right"
+  },
+  "notes": "Made in code by episodes/S01E04-amba-vow-bhishma/svg/make-cast.py. All poses face right; mirror with flip."
+}

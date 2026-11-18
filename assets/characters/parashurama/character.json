@@ -1,0 +1,28 @@
+{
+  "id": "parashurama",
+  "name": {
+    "en": "Parashurama",
+    "hi": "परशुराम"
+  },
+  "role": "The warrior-sage, Bhishma’s teacher",
+  "divine": false,
+  "look": "The sage rig (matted hair, beard, rudraksha) in a deep red-brown dhoti, with his axe (parashu) and a bow.",
+  "sourceNotes": "Udyoga §178–189.",
+  "poses": [
+    "standing-axe",
+    "drawing-bow"
+  ],
+  "appearsIn": [
+    "S01E04"
+  ],
+  "files": {
+    "drawing-bow": "drawing-bow.svg",
+    "standing-axe": "standing-axe.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "standing-axe": "right",
+    "drawing-bow": "right"
+  },
+  "notes": "Made in code by episodes/S01E04-amba-vow-bhishma/svg/make-cast.py. All poses face right; mirror with flip."
+}

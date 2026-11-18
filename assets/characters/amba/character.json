@@ -1,0 +1,35 @@
+{
+  "id": "amba",
+  "name": {
+    "en": "Amba",
+    "hi": "अम्बा"
+  },
+  "role": "Eldest princess of Kashi; reborn as Shikhandi",
+  "divine": false,
+  "look": "A princess in deep red with gold borders and a red sash, a slim gold diadem, a long braid.",
+  "sourceNotes": "Adi §102; Udyoga §175–190.",
+  "poses": [
+    "tapas-standing",
+    "standing-sad",
+    "folded-hands",
+    "resolute"
+  ],
+  "appearsIn": [
+    "S01E04"
+  ],
+  "files": {
+    "folded-hands": "folded-hands.svg",
+    "resolute": "resolute.svg",
+    "standing-sad": "standing-sad.svg",
+    "tapas-standing": "tapas-standing.svg",
+    "tapas-standing__eyes-closed": "tapas-standing__eyes-closed.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "tapas-standing": "right",
+    "standing-sad": "right",
+    "folded-hands": "right",
+    "resolute": "right"
+  },
+  "notes": "Made in code by episodes/S01E04-amba-vow-bhishma/svg/make-cast.py. All poses face right; mirror with flip."
+}

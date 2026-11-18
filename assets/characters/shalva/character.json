@@ -1,0 +1,28 @@
+{
+  "id": "shalva",
+  "name": {
+    "en": "Shalva",
+    "hi": "शाल्व"
+  },
+  "role": "King of Saubha; the king Amba loved",
+  "divine": false,
+  "look": "A king in purple with a gold sash and crown.",
+  "sourceNotes": "Adi §102; Udyoga §176.",
+  "poses": [
+    "defeated",
+    "turning-away"
+  ],
+  "appearsIn": [
+    "S01E04"
+  ],
+  "files": {
+    "defeated": "defeated.svg",
+    "turning-away": "turning-away.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "defeated": "right",
+    "turning-away": "right"
+  },
+  "notes": "Made in code by episodes/S01E04-amba-vow-bhishma/svg/make-cast.py. All poses face right; mirror with flip."
+}

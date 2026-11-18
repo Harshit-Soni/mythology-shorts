@@ -1,0 +1,28 @@
+{
+  "id": "ganga",
+  "name": {
+    "en": "Ganga",
+    "hi": "गंगा"
+  },
+  "role": "The river goddess; Bhishma’s mother",
+  "divine": true,
+  "look": "White and aqua, a gold crown, a rayed halo, waves rising at her hem.",
+  "sourceNotes": "Udyoga §189 (her curse on Amba).",
+  "poses": [
+    "rising",
+    "cursing"
+  ],
+  "appearsIn": [
+    "S01E04"
+  ],
+  "files": {
+    "cursing": "cursing.svg",
+    "rising": "rising.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "rising": "right",
+    "cursing": "right"
+  },
+  "notes": "Made in code by episodes/S01E04-amba-vow-bhishma/svg/make-cast.py. All poses face right; mirror with flip."
+}

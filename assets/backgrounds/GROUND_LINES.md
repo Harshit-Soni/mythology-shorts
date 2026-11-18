@@ -15,3 +15,4 @@ Where characters' feet (`y`) go on each background, as a fraction of the 9:16 fr
 | `himalaya-peaks` | rocky path from bottom-left to centre; small walkers at ≈ 0.80 (the path crosses the frame at 0.78–0.84). No standing figures planned |
 | `spring-forest` | meadow from ≈ 0.72; feet ≈ 0.86 (two figures at x ≈ 0.27 and 0.87 in S01E02 s10); lotus pool at the back ≈ 0.69 |
 | `amaravati-court` | floor from ≈ 0.76 (gold inlay at 0.78); feet ≈ 0.86; stage on the right, top ≈ 0.73–0.78 (x ≥ 0.6) |
+| `yamuna-bank` | river across 0.62–0.80; near bank (sand) from ≈ 0.79; feet ≈ 0.84 (S01E04) |

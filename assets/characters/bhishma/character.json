@@ -1,0 +1,41 @@
+{
+  "id": "bhishma",
+  "name": {
+    "en": "Bhishma",
+    "hi": "भीष्म"
+  },
+  "role": "Son of Ganga and Shantanu; the Kuru patriarch bound by his vow",
+  "divine": false,
+  "look": "Fair, in white (the vow) with a deep-blue uttariya and a gold crown. Young poses: dark hair. Old poses (Kurukshetra): white hair and a long white beard.",
+  "sourceNotes": "Adi §100 (the vow), §102; Udyoga §174–190; Bhishma Parva §108–121.",
+  "poses": [
+    "vow-hand-raised",
+    "standing-bow",
+    "drawing-bow",
+    "releasing",
+    "gesturing",
+    "bow-still"
+  ],
+  "appearsIn": [
+    "S01E04"
+  ],
+  "files": {
+    "bow-still": "bow-still.svg",
+    "bow-still__smiling": "bow-still__smiling.svg",
+    "drawing-bow": "drawing-bow.svg",
+    "gesturing": "gesturing.svg",
+    "releasing": "releasing.svg",
+    "standing-bow": "standing-bow.svg",
+    "vow-hand-raised": "vow-hand-raised.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "vow-hand-raised": "right",
+    "standing-bow": "right",
+    "drawing-bow": "right",
+    "releasing": "right",
+    "gesturing": "right",
+    "bow-still": "right"
+  },
+  "notes": "Made in code by episodes/S01E04-amba-vow-bhishma/svg/make-cast.py. All poses face right; mirror with flip. young: vow-hand-raised, standing-bow, drawing-bow, releasing; old: gesturing, bow-still"
+}
