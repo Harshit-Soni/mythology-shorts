@@ -1,4 +1,4 @@
-# Publish kit: S01E03 (v2, Hindi only)
+# Publish kit: S01E03 (v2)
 
 Episode 3 of **S01 Shraap: Curses of the Mahabharata**.
 
@@ -10,26 +10,64 @@ Episode 3 of **S01 Shraap: Curses of the Mahabharata**.
 - Bhishma's count
 - Uttara becoming Abhimanyu's wife
 
-**Hindi only:** from 2026-11-18 only the Hindi version is made, until the owner asks for English again. The v1 videos (EN and HI, 94 s) are kept in `render/v1/`; the v1 English copy is in git history.
+**Both languages:** made in English and Hindi. A one-day Hindi-only rule on 2026-11-18 was withdrawn the same day. The v1 videos (EN and HI, 94 s) are kept in `render/v1/`.
 
-**Length:** the narration ends at 152.2 s, plus the end card (about 2:34). That's within YouTube Shorts' 3-minute limit. Instagram Reels allows up to 3 min too.
+**Length:** the narration ends at 147.4 s (EN) and 152.2 s (HI), plus the end card (about 2:35). That's within YouTube Shorts' 3-minute limit. Instagram Reels allows up to 3 min too.
 
 **Accuracy:**
 - **Popular text only:** Urvashi's visit and curse appear only in the popular (*vulgate*) text (Ganguli, Vana §45–46). The BORI critical edition leaves them out. The video says so once ("प्रचलित कथा के अनुसार…"), and the copy below says it too.
 - **Core text:** everything from the dice terms onward is in the core text.
 
-**Account:** Hindi = `@thelostgyaan`.
+**Accounts:** Hindi = `@thelostgyaan`, English = `@thelostgyaan_en`.
 
-**When:** **Sun 29 Nov, 7:30 PM IST**, three days after E02 (Thu 26 Nov), so E02's tease pays off quickly.
+**When:** **Hindi Sun 29 Nov 7:30 PM, English Mon 30 Nov 7:30 AM IST**: the same evening/morning pattern as E01 and E02, a few days after E02, so its tease pays off quickly.
 
-**Playlist:** *Shraap: Mahabharat Ke Shraap*. On YouTube, set E03's **Related video** to E02, and E02's to E03.
+**Playlists:** *Shraap: Curses of the Mahabharata* (EN) and *Shraap: Mahabharat Ke Shraap* (HI). On YouTube, set E03's **Related video** to E02, and E02's to E03.
 
-**Cover / thumbnail:** `render/S01E03-thumb-hi.png`.
+**Cover / thumbnail:** `render/S01E03-thumb-en.png` and `render/S01E03-thumb-hi.png`.
 - It shows the curse scene: Urvashi, palm raised, over a kneeling Arjuna.
-- Title: "जब अप्सरा ने अर्जुन को शाप दिया".
-- If you pick the frame inside Instagram instead, use **0:58**, where the शाप stamp lands on "पुरुषत्व".
+- Titles: "The Apsara Who Cursed Arjuna" / "जब अप्सरा ने अर्जुन को शाप दिया".
+- If you pick the frame inside Instagram instead, use **1:01 (EN) / 0:58 (HI)**, where the CURSED / शाप stamp lands on "manhood" / "पुरुषत्व".
 
 *Hindi posting copy is in Roman script (Hinglish), by the owner's choice (2026-11-16). The video stays in Devanagari.*
+
+## YouTube Shorts: English (`@thelostgyaan_en`)
+- **Title (≤60 chars):** **Arjuna Said No to an Apsara, and She Cursed Him** *(47)*
+  - Alt A: The Dance Teacher Who Said, "I Am Arjuna" *(42)*
+  - Alt B: The Curse That Became Arjuna's Perfect Disguise *(47)*
+- **Description:**
+  > Arjuna said no to the most beautiful apsara in heaven, and she cursed him for it. 💃🏹
+  > Urvashi cursed him to live among women as a dancer. Indra smiled. In the year the Pandavas had to hide, Arjuna became Brihannala, the dance teacher of King Virata's court. Then the Kauravas raided Virata's cattle, and under a shami tree the dance teacher took down the Gandiva: "I am Arjuna."
+  >
+  > 📜 Shraap, episode 3: the curses that shaped the Mahabharata. Episode 2: the deer King Pandu shot was a sage. The Lost Gyaan: what history forgot, we remember. Follow for the next curse.
+  > हिंदी में देखें: @thelostgyaan
+  >
+  > **Sources** (Mahabharata, K. M. Ganguli tr.)
+  > • Arjuna in Indra's heaven, learning dance from Chitrasena: Vana Parva §44: https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-xliv
+  > • Urvashi's visit, the curse and Indra's promise: Vana Parva §45–46: https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-xlvi (in the popular/vulgate text; the BORI critical edition leaves this episode out)
+  > • Urvashi, wife of Pururavas: Adi Parva §75: https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-lxxv
+  > • The terms of the dice game: Sabha Parva §75: https://sacred-texts.com/book/the-mahabharata-book-2-sabha-parva/section-lxxv
+  > • Brihannala, the cattle raid, Uttar's flight: Virata Parva §2, §11, §35–38: https://sacred-texts.com/book/the-mahabharata-book-4-virata-parva/section-xxxviii
+  > • "I am Arjuna": Virata Parva §44: https://sacred-texts.com/book/the-mahabharata-book-4-virata-parva/section-xliv
+  > • The stunned army, Bhishma's count: Virata Parva §65, §52: https://sacred-texts.com/book/the-mahabharata-book-4-virata-parva/section-lii
+  > • Uttara and Abhimanyu: Virata Parva §72: https://sacred-texts.com/book/the-mahabharata-book-4-virata-parva/section-lxxii
+  >
+  > #Mahabharata #Arjuna #MahabharataCurses #IndianMythology #TheLostGyaan
+- **Hashtags (the first three show above the title):** #Mahabharata #Arjuna #MahabharataCurses #IndianMythology #TheLostGyaan
+- **Playlist:** Shraap: Curses of the Mahabharata
+- **Pinned comment:** Honest note: Urvashi's curse is in the popular text of the Mahabharata, but the scholars' critical edition leaves it out. Arjuna's dance lessons in heaven *are* there, though, and Indra says they "will be to thy benefit." 🤔 And when Uttar didn't believe him, Arjuna recited his ten names: Arjuna, Phalguna, Jishnu, Kiritin, Shvetavahana, Bibhatsu, Vijaya, Krishna, Savyasachin and Dhananjaya. How many did you know? 👇
+
+## Instagram Reel: English (`@thelostgyaan_en`)
+- **Caption:**
+  > Arjuna called a celestial apsara "mother"… and was cursed for it. 💃
+  > That curse became his disguise in the year the Pandavas had to hide: Brihannala, the dance teacher. Until, under a shami tree: "I am Arjuna." Episode 3 of Shraap: the curses that shaped the epic.
+  > Was Urvashi wrong, or was Arjuna too rigid? 👇
+  > Follow @thelostgyaan_en for the stories history forgot. हिंदी: @thelostgyaan
+  >
+  > #Mahabharata #Arjuna #MahabharataCurses #IndianMythology #TheLostGyaan
+- **Cover:** `render/S01E03-thumb-en.png` · **Alt text:** In a moonlit palace of the gods, a celestial woman in rose and gold raises her palm in anger over a kneeling prince with joined hands.
+- **Audio name:** Urvashi's Curse · The Lost Gyaan
+- **After posting:** Story poll: "Urvashi's curse: fair or unfair?"
 
 ## YouTube Shorts: Hindi (`@thelostgyaan`)
 - **Title:** **Arjun Ne Apsara Ko Thukraya, Toh Mila Shraap!** *(45)*
@@ -40,6 +78,7 @@ Episode 3 of **S01 Shraap: Curses of the Mahabharata**.
   > Shraap tha: striyon ke beech nartak bankar rahoge. Par Indra muskuraye. Agyaatvaas ke saal mein Arjun Raja Virat ke darbaar mein nritya-shikshika Brihannala bankar chhupe. Phir Kauravon ne Virat ki gaayein looti, aur shami ke ped ke neeche Brihannala ne Gandiv uthakar kaha: "Main Arjun hoon."
   >
   > 📜 Shraap, kadi 3: woh shraap jinhone Mahabharat likh di. Kadi 2: Pandu ne jis hiran ko maara, woh rishi tha. The Lost Gyaan: jo itihaas bhool gaya, woh humein yaad hai. Agle shraap ke liye follow karein.
+  > Watch in English: @thelostgyaan_en
   >
   > Srot (sources): Mahabharat (K. M. Ganguli anuvaad)
   > • Swarg mein Arjun, Chitrasen se nritya seekhna: Van Parv §44: https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-xliv
@@ -61,7 +100,7 @@ Episode 3 of **S01 Shraap: Curses of the Mahabharata**.
   > Arjun ne apsara Urvashi ko "maa" kaha… aur badle mein mila shraap. 💃
   > Wahi shraap agyaatvaas mein unka sabse bada bhes bana: Brihannala. Aur phir shami ke ped ke neeche: "Main Arjun hoon." Shraap series ki teesri kadi.
   > Urvashi sahi thi ya Arjun? Comment mein bataiye 👇
-  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan
+  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan (English: @thelostgyaan_en)
   >
   > #Mahabharat #Arjun #MahabharatKeShraap #Shraap #TheLostGyaan
 - **Cover:** `render/S01E03-thumb-hi.png` · **Alt text:** In a moonlit palace of the gods, a celestial woman in rose and gold raises her palm in anger over a kneeling prince with joined hands.

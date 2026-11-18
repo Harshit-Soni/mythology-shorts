@@ -88,10 +88,10 @@ For Urvashi was once the wife of King Pururavas, Arjuna's own ancestor.
 [ominous] पर एक स्त्री की प्रतिज्ञा, एक दिन भीष्म को भी गिराने वाली थी।
 ```
 
-## v2 (2026-11-18): Hindi only
-From 2026-11-18 only the Hindi version is made, until the owner asks for English again. The v1 takes (EN and HI) and their Scribe files are kept in `review/audio-v1/`.
+## v2 (2026-11-18)
+Both languages. The Hindi was voiced first; the same day the owner withdrew a brief Hindi-only rule, and the English was voiced with the same tags. The v1 takes (EN and HI) and their Scribe files are kept in `review/audio-v1/`.
 
-The v2 prompt is the HI v1 prompt with these direction tags added for the new beats:
+The v2 prompts are the v1 prompts (EN and HI) with these direction tags added for the new beats:
 - beat 10: `[firmly]` … `[softly]`
 - beat 13: `[gravely]`
 - beat 16: `[tense]`
@@ -107,8 +107,9 @@ The text is beat for beat from `02-script.md` (v2).
 ## Takes
 | Lang | Status |
 |---|---|
+| EN v2 | 2026-11-18: node `lMRRoquIzH9h4UmDLnFG`, generation `iaAD8VpqoOFDPa5IYKj0`, 2,436 credits. Raw 145.9 s; Scribe node `hYY2Kblnpurlk0oP6buE`, 372/372 words matched, 0 interpolated; speech ends at 147.5 s incl. the sting. Sync 0 off. **In use.** |
 | HI v2 | 2026-11-18: node `eEnbpY0dCtzOL8FTo7xq`, generation `seV2729FP6fnZuXpZOLS`, 2,325 credits. Raw 150.7 s; Scribe node `8Jph97UagHp8g63Ozfqb`, 384/384 words matched, 0 interpolated; speech ends at 152.3 s incl. the sting. Sync 0 off. **In use.** |
-| EN v1 (superseded; Hindi-only from v2) | 2026-11-17: node `DubPQWkFknaa3J9TYdV6`, generation `bD8gksU5mcMxjxIsbzYQ`, 1,521 credits. Raw 92.1 s; Scribe node `tOYzaJJhvf9BVFulZfha`, 227/227 words matched, 0 interpolated; speech ends at 93.6 s incl. the sting. Files in `review/audio-v1/`. |
+| EN v1 (superseded) | 2026-11-17: node `DubPQWkFknaa3J9TYdV6`, generation `bD8gksU5mcMxjxIsbzYQ`, 1,521 credits. Raw 92.1 s; Scribe node `tOYzaJJhvf9BVFulZfha`, 227/227 words matched, 0 interpolated; speech ends at 93.6 s incl. the sting. Files in `review/audio-v1/`. |
 | HI v1 (superseded) | 2026-11-17: node `apE4Vckwr6xX0JQONsSm`, generation `sdL8tnQwh7oFflY11qFS`, 1,421 credits. Raw 92.4 s; Scribe node `lAMmpmoRuAzreoLEBojL`, 226/226 words matched, 0 interpolated; speech ends at 94.0 s. Files in `review/audio-v1/`. |
 
 Sync check (timeline vs timestamps): 0 off-sync in both languages; every cue word found. Note: the Hindi insert s13b (Uttara's lesson) is only ~1.0 s, because "सिखाने" comes late in the beat: check it in the render.
