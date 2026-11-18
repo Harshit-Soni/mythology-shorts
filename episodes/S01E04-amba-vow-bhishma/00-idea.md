@@ -1,0 +1,23 @@
+# S01E04: The Woman Who Vowed to Kill Bhishma
+
+- **Series:** S01 Shraap: Curses That Shaped the Mahabharata (episode 4)
+- **Idea (one line):** Bhishma carries off the princess Amba from her swayamvara for his half-brother. She loves another king, Shalva, who now rejects her, and Bhishma won't marry her because of his vow. With nowhere to go, Amba vows to destroy Bhishma. Through years of tapas she draws Ganga's curse (half of her becomes a crooked river), wins Shiva's boon that she'll kill him in her next birth, and enters the fire. She is reborn as Shikhandi. In the war, Bhishma lowers his bow before Shikhandi, and Arjuna's arrows bring him down.
+- **Why it will work:**
+  - It pays off E03's tease ("one woman's vow would bring down Bhishma himself").
+  - It's the one story where the invincible patriarch, who could choose his own time of death, is undone by a wronged woman.
+  - It brings Arjuna back.
+- **Series fit (from `curses-catalog.md`):** Amba's own vow is a *vow*, not a curse. Two real curses frame it:
+  - **Ganga cursing Amba** (#22), which makes it a "Shraap" episode.
+  - **The Vasus cursing Arjuna** (#28) for killing Bhishma from behind Shikhandi, which can be the closing tease.
+- **Reuse:** Arjuna, Brihannala's rig ideas, `bhishma-silhouette`, `amba-shadow`, `red-sky-plain`, `battle-silhouettes`, the Gandiva. New: Bhishma (full rig), Amba, Shalva, Shikhandi, Ganga, Shiva (as a symbol), Kashi swayamvara hall.
+- **Created:** 2026-11-18
+
+## Status
+- [ ] 1 Research (verified by me)
+- [ ] 2 Script (read aloud, EN + HI)
+- [ ] 3 Storyboard
+- [ ] 4 Assets
+- [ ] 5 Voice
+- [ ] 6 Render (watched on phone, sound on + off)
+- [ ] 7 Published (links in INDEX.md)
+- [ ] 8 Reviewed (7 days after upload)
