@@ -36,6 +36,8 @@ Lessons from making and publishing episodes. One line per lesson, with the episo
 - Characters hiding behind something need a `layer-front` in the background, `frontLayer: true`, and a smaller scale (they're further away). (S01E01 s03)
 - `stamp-next` on the `shaap-stamp` prop lands only a ring; the word comes from a `stamp-gold` onScreenText in the same scene. Every curse stamp needs both. (S01E03)
 - Cut to an insert on an early word of its sentence, not the last one, or it flashes by (S01E03 Hindi s13b was 1.0 s). (S01E03)
+- A scene's `light: silhouette` also darkens its props (a gold ring went grey): use `dusk` and let silhouette props be black on their own. (S01E03 v2)
+- Pacing: when an action climax needs a chain of events (raid → who fights → how the hero gets there → the reveal), give each link its own beat; skipping links reads as confusing even if every line is true. (S01E03 v2, owner feedback)
 - Insert shots share their parent's beat: they must have empty narration, or real-audio timing duplicates words and desyncs everything after. (S01E01, fixed in the studio)
 
 ## Voice

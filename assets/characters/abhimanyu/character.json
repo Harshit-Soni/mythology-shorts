@@ -1,0 +1,28 @@
+{
+  "id": "abhimanyu",
+  "name": {
+    "en": "Abhimanyu",
+    "hi": "अभिमन्यु"
+  },
+  "role": "Son of Arjuna and Subhadra; marries Uttara",
+  "divine": false,
+  "look": "A youth with Arjuna's dark colouring, a small crown, a sky-blue dhoti, palms joined.",
+  "sourceNotes": "Virata §72.",
+  "poses": [
+    "folded-hands"
+  ],
+  "expressions": [
+    "calm"
+  ],
+  "appearsIn": [
+    "S01E03"
+  ],
+  "files": {
+    "folded-hands": "folded-hands.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "folded-hands": "right"
+  },
+  "notes": "Made in code by episodes/S01E03-urvashi-curses-arjuna/svg/make-cast.py from the pandu rig (the women via S01E02 make-concepts.py). All poses face right; mirror with flip."
+}

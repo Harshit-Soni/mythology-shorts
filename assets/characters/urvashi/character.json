@@ -12,7 +12,8 @@
     "dancing",
     "walking",
     "standing-surprised",
-    "cursing-hand-raised"
+    "cursing-hand-raised",
+    "arguing"
   ],
   "expressions": [
     "smiling",
@@ -29,14 +30,16 @@
     "walking": "walking.svg",
     "standing-surprised": "standing-surprised.svg",
     "standing-surprised__hurt": "standing-surprised__hurt.svg",
-    "cursing-hand-raised": "cursing-hand-raised.svg"
+    "cursing-hand-raised": "cursing-hand-raised.svg",
+    "arguing": "arguing.svg"
   },
   "facing": "per pose, see facingByPose (ear rule)",
   "facingByPose": {
     "dancing": "right",
     "walking": "right",
     "standing-surprised": "right",
-    "cursing-hand-raised": "right"
+    "cursing-hand-raised": "right",
+    "arguing": "right"
   },
   "notes": "Made in code by episodes/S01E03-urvashi-curses-arjuna/svg/make-cast.py from the pandu rig (the women via S01E02 make-concepts.py). All poses face right; mirror with flip."
 }

@@ -27,3 +27,13 @@ Renderer: `HAND['urvashi:cursing-hand-raised'] = [730, 545]` (the curse burst co
 - Fixed in review: Chitrasena's hands now on the veena; Brihannala's reaching pose (the near arm crossed the face); the family vine's medallions read as faces (redrawn as two standing figures, and a crown + bow); the close-up hand.
 - Court scenes (`amaravati-court`) scale characters ×1.15 to fill 50–70% of the frame height.
 - s13's close-up moved to a parchment detail card (on the throne room it read as a log on the throne).
+
+## v2 additions (2026-11-18)
+- **Cast** (in `make-cast.py` → `v2_poses()`, `uttar()`, `abhimanyu()`):
+  - **Prince Uttar** (from the pandu rig: fair, small crown, teal dhoti, ×0.88): boasting, fleeing, stunned.
+  - **Abhimanyu** (×0.92, Arjuna's colouring, sky-blue dhoti): folded hands.
+  - **New poses:** Arjuna blessing, Brihannala running (braid swung back), Urvashi arguing, Uttara pleading.
+- **Props** (in `make-props.py`): war-chariot, dice-board (chaupar board + pasa dice), cattle-raid (the riders have topknots, not pointed crowns, per the silhouette lesson), year-ring-complete.
+- **Fixes in review:**
+  - Bhishma's scene light changed from `silhouette` to `dusk`: the silhouette grade also greyed out the gold year ring.
+  - The dice board and the cattle were lifted out of the caption band.

@@ -1,0 +1,36 @@
+{
+  "id": "uttar",
+  "name": {
+    "en": "Uttar (Bhuminjaya)",
+    "hi": "उत्तर (भूमिंजय)"
+  },
+  "role": "Prince of Matsya, Virata's young son; Brihannala drives his chariot",
+  "divine": false,
+  "look": "A boyish prince: fair skin, a small crown, a teal dhoti with a gold sash, gold earrings. Smaller than Arjuna.",
+  "sourceNotes": "Virata §35–44: boasts, flees at the sight of the Kuru army, is caught, then learns Brihannala is Arjuna.",
+  "poses": [
+    "boasting",
+    "fleeing",
+    "stunned"
+  ],
+  "expressions": [
+    "proud",
+    "terrified",
+    "amazed"
+  ],
+  "appearsIn": [
+    "S01E03"
+  ],
+  "files": {
+    "boasting": "boasting.svg",
+    "fleeing": "fleeing.svg",
+    "stunned": "stunned.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "boasting": "right",
+    "fleeing": "right",
+    "stunned": "right"
+  },
+  "notes": "Made in code by episodes/S01E03-urvashi-curses-arjuna/svg/make-cast.py from the pandu rig (the women via S01E02 make-concepts.py). All poses face right; mirror with flip."
+}

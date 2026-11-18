@@ -32,7 +32,7 @@
     "sfxVolume": 0.8
   },
   "thumbnail": {
-    "scene": "s10",
+    "scene": "s11",
     "at": 0.5,
     "series": {
       "en": "Shraap · Episode 3",
@@ -781,6 +781,71 @@
       "type": "character",
       "background": "amaravati-court",
       "backgroundVariant": "night",
+      "light": "moon",
+      "fx": [
+        {
+          "type": "stars",
+          "n": 30
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "kneeling-folded-hands",
+          "x": 0.3,
+          "y": 0.86,
+          "scale": 1.092,
+          "flip": false,
+          "action": "breathe",
+          "expression": "eyes-closed"
+        },
+        {
+          "id": "urvashi",
+          "pose": "arguing",
+          "x": 0.7,
+          "y": 0.86,
+          "scale": 1.092,
+          "flip": true,
+          "action": "step-forward",
+          "expression": "firm",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.55,
+          0.55
+        ]
+      },
+      "narration": {
+        "en": "\"Apsaras are free to choose,\" Urvashi said. But Arjuna would not move.",
+        "hi": "\"अप्सराएँ अपनी मर्ज़ी की मालिक होती हैं,\" उर्वशी बोलीं। पर अर्जुन टस से मस नहीं हुए।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "onWord": {
+            "en": "move",
+            "hi": "मस"
+          },
+          "volume": 0.45
+        }
+      ],
+      "transition": "cut",
+      "notes": "v2. Fair to Urvashi (Vana §46): she argues that apsaras are free to choose; Arjuna stays kneeling, eyes closed."
+    },
+    {
+      "id": "s11",
+      "beat": 11,
+      "type": "character",
+      "background": "amaravati-court",
+      "backgroundVariant": "night",
       "light": "night",
       "fx": [
         {
@@ -884,11 +949,11 @@
       ],
       "music": 1.1,
       "transition": "flash-white",
-      "notes": "The curse (the hook pays off). Burst from her raised hand on \"cursed / शाप\"; the stamp lands on \"manhood / पुरुषत्व\". Same framing as s01 so the viewer recognises it."
+      "notes": "The curse (the hook pays off). Burst on \"cursed / शाप\"; the stamp lands on \"manhood / पुरुषत्व\". Same framing as s01."
     },
     {
-      "id": "s11",
-      "beat": 11,
+      "id": "s12",
+      "beat": 12,
       "type": "character",
       "background": "amaravati-court",
       "backgroundVariant": "dawn",
@@ -968,11 +1033,106 @@
         }
       ],
       "transition": "light-wipe",
-      "notes": "Indra, warm and smiling, blesses Arjuna. Above them a ring of 13 segments (the exile years); on \"one / एक\" the last segment lights alone."
+      "notes": "Indra blesses Arjuna; the 13-year ring with only the last year lit glints on \"one / एक\"."
     },
     {
-      "id": "s12",
-      "beat": 12,
+      "id": "s13",
+      "beat": 13,
+      "type": "prop-hero",
+      "background": "hastinapura-palace",
+      "backgroundVariant": "night",
+      "light": "night",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.62,
+          "r": 0.3,
+          "color": "#E07A2E",
+          "pulse": true
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "year-ring",
+          "x": 0.66,
+          "y": 0.24,
+          "scale": 0.55,
+          "action": "idle"
+        },
+        {
+          "id": "dice-board",
+          "x": 0.5,
+          "y": 0.48,
+          "scale": 1.0,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      "narration": {
+        "en": "For the Pandavas had lost a game of dice: twelve years in the forest, then one year unrecognised. If found, the exile would begin again.",
+        "hi": "क्योंकि पाण्डव जुए में हारे थे: बारह बरस वनवास, फिर एक बरस अज्ञातवास। पहचाने गए, तो फिर से वही सब।"
+      },
+      "onScreenText": {
+        "en": "The terms of the dice game",
+        "hi": "जुए की शर्त",
+        "style": "name-tag",
+        "sub": {
+          "en": "Mahabharata, Sabha Parva §75",
+          "hi": "महाभारत, सभा पर्व §75"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "dice",
+            "hi": "जुए"
+          },
+          "do": "stamp-in",
+          "target": "dice-board"
+        },
+        {
+          "onWord": {
+            "en": "one",
+            "hi": "एक"
+          },
+          "do": "glint",
+          "target": "year-ring"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "coins-spill",
+          "onWord": {
+            "en": "dice",
+            "hi": "जुए"
+          },
+          "volume": 0.5
+        },
+        {
+          "id": "drum-boom-deep",
+          "onWord": {
+            "en": "again",
+            "hi": "से"
+          },
+          "volume": 0.6
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "v2. Why hiding mattered (Sabha §75): the dice board lands in the Hastinapura hall; above it the 13-year ring, its last year glinting."
+    },
+    {
+      "id": "s14",
+      "beat": 14,
       "type": "character",
       "background": "king-court",
       "light": "dawn",
@@ -1015,8 +1175,8 @@
         ]
       },
       "narration": {
-        "en": "Years later, in that year of hiding, a dance teacher came to King Virata's court: Brihannala.",
-        "hi": "बरसों बाद, उसी अज्ञातवास में, राजा विराट के दरबार में आई एक नृत्य-शिक्षिका: बृहन्नला।"
+        "en": "So Arjuna hid in plain sight: in King Virata's court, as Brihannala, a dance teacher.",
+        "hi": "तो अर्जुन सबकी आँखों के सामने छिप गए: राजा विराट के दरबार में, बृहन्नला नाम की नृत्य-शिक्षिका बनकर।"
       },
       "onScreenText": {
         "en": "Brihannala",
@@ -1039,11 +1199,11 @@
         }
       ],
       "transition": "cut",
-      "notes": "Virata = the library king on the throne (seated-throne-pointing faces left, toward the newcomer: \"whence comes this person?\", Virata §11). Brihannala at left: tall, a long braid, large earrings, conch bangles, a woman’s dress, dignified. Floor ground line of king-court to be measured at render."
+      "notes": "Virata (library king) on the throne points at the newcomer (Virata §11). Brihannala at left, dignified."
     },
     {
-      "id": "s13",
-      "beat": 13,
+      "id": "s15",
+      "beat": 15,
       "type": "prop-hero",
       "background": "parchment-card",
       "light": "dusk",
@@ -1079,7 +1239,7 @@
             "hi": "अर्जुन"
           },
           "do": "hard-cut-to",
-          "target": "s13b"
+          "target": "s15b"
         }
       ],
       "sfx": [
@@ -1090,11 +1250,11 @@
         }
       ],
       "transition": "cut",
-      "notes": "Close-up (Virata §2): a strong forearm with bowstring scars; gold conch bangles slide down over them. Then cut to the lesson."
+      "notes": "Close-up (Virata §2): bangles over the bowstring scars; then cut to the lesson."
     },
     {
-      "id": "s13b",
-      "beat": 13,
+      "id": "s15b",
+      "beat": 15,
       "type": "character",
       "background": "king-court",
       "backgroundVariant": "dusk",
@@ -1148,11 +1308,223 @@
         }
       ],
       "transition": "cut",
-      "notes": "Insert: Brihannala, one hand in a mudra, teaches; young Princess Uttara copies the step. Teacher and pupil, nothing more (she later trusts him \"as a father\", Virata §72)."
+      "notes": "Insert: Brihannala teaches; Princess Uttara copies the step."
     },
     {
-      "id": "s14",
-      "beat": 14,
+      "id": "s16",
+      "beat": 16,
+      "type": "prop-hero",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 30
+        },
+        {
+          "type": "embers",
+          "n": 12
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "battle-silhouettes",
+          "x": 0.62,
+          "y": 0.6,
+          "scale": 1.0,
+          "action": "still"
+        },
+        {
+          "id": "cattle-raid",
+          "x": 0.5,
+          "y": 0.46,
+          "scale": 1.7,
+          "action": "walk-left"
+        }
+      ],
+      "camera": {
+        "move": "slow-pan-right",
+        "from": 0.03,
+        "to": 0.0
+      },
+      "narration": {
+        "en": "Near the end of that year, the Kauravas raided Virata's kingdom and drove off sixty thousand cows.",
+        "hi": "उस बरस के आख़िरी दिनों में, कौरवों ने विराट के राज्य पर धावा बोला, और साठ हज़ार गायें हाँक ले गए।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "battle-distant",
+          "at": 0,
+          "volume": 0.45
+        },
+        {
+          "id": "drum-boom-deep",
+          "onWord": {
+            "en": "sixty",
+            "hi": "साठ"
+          },
+          "volume": 0.7
+        }
+      ],
+      "transition": "cut",
+      "notes": "v2. Virata §26, §35: near the end of the year the Kauravas raid Matsya; sixty thousand cows driven off in dust, the Kuru host behind."
+    },
+    {
+      "id": "s17",
+      "beat": 17,
+      "type": "character",
+      "background": "king-court",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 12
+        }
+      ],
+      "characters": [
+        {
+          "id": "uttar",
+          "pose": "boasting",
+          "x": 0.2,
+          "y": 0.88,
+          "scale": 0.95,
+          "flip": false,
+          "action": "still",
+          "expression": "proud"
+        },
+        {
+          "id": "uttara",
+          "pose": "pleading",
+          "x": 0.52,
+          "y": 0.88,
+          "scale": 0.85,
+          "flip": false,
+          "action": "breathe",
+          "expression": "pleading"
+        },
+        {
+          "id": "brihannala",
+          "pose": "standing-graceful",
+          "x": 0.8,
+          "y": 0.88,
+          "scale": 0.95,
+          "flip": true,
+          "action": "breathe",
+          "expression": "calm"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-pan-right",
+        "from": 0.0,
+        "to": 0.03
+      },
+      "narration": {
+        "en": "The king was away at war. Only young Prince Uttar was left, and he needed a charioteer. His sister Uttara begged her dance teacher to drive.",
+        "hi": "राजा युद्ध में दूर थे। बचे थे बस युवा राजकुमार उत्तर, और उन्हें सारथी चाहिए था। बहन उत्तरा ने अपनी नृत्य-शिक्षिका से विनती की।"
+      },
+      "onScreenText": {
+        "en": "Prince Uttar",
+        "hi": "राजकुमार उत्तर",
+        "style": "name-tag",
+        "sub": {
+          "en": "Virata’s young son",
+          "hi": "विराट का युवा बेटा"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "onWord": {
+            "en": "charioteer",
+            "hi": "सारथी"
+          },
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "v2. Virata §36–37: Uttar boasts (fist raised); his sister Uttara, palms joined, begs her teacher; Brihannala (flipped) faces her."
+    },
+    {
+      "id": "s18",
+      "beat": 18,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 25
+        }
+      ],
+      "characters": [
+        {
+          "id": "uttar",
+          "pose": "fleeing",
+          "x": 0.3,
+          "y": 0.82,
+          "scale": 0.95,
+          "flip": true,
+          "action": "walk-left",
+          "expression": "terrified"
+        },
+        {
+          "id": "brihannala",
+          "pose": "running",
+          "x": 0.72,
+          "y": 0.82,
+          "scale": 1.0,
+          "flip": true,
+          "action": "walk-left",
+          "expression": "calm"
+        }
+      ],
+      "props": [
+        {
+          "id": "battle-silhouettes",
+          "x": 0.66,
+          "y": 0.6,
+          "scale": 1.0,
+          "action": "still"
+        },
+        {
+          "id": "war-chariot",
+          "x": 0.82,
+          "y": 0.72,
+          "scale": 0.7,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "pan-left",
+        "from": 0.0,
+        "to": -0.03
+      },
+      "narration": {
+        "en": "But when Uttar saw the Kuru army, he jumped down and ran. Brihannala ran after him, braid flying, and the soldiers laughed.",
+        "hi": "पर कौरव सेना देखते ही उत्तर रथ से कूदकर भागे। बृहन्नला उनके पीछे दौड़ीं, चोटी लहराती हुई, और सैनिक हँस पड़े।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0.2,
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "v2. Virata §38: Uttar jumps down and runs (left, away from the army); Brihannala runs after him, braid flying. Light, never mocking Brihannala."
+    },
+    {
+      "id": "s19",
+      "beat": 19,
       "type": "character",
       "background": "forest-hunt",
       "backgroundVariant": "dusk",
@@ -1173,9 +1545,19 @@
       ],
       "characters": [
         {
+          "id": "uttar",
+          "pose": "stunned",
+          "x": 0.12,
+          "y": 0.86,
+          "scale": 0.8,
+          "flip": false,
+          "action": "still",
+          "expression": "amazed"
+        },
+        {
           "id": "brihannala",
           "pose": "reaching-up",
-          "x": 0.32,
+          "x": 0.36,
           "y": 0.86,
           "scale": 0.95,
           "flip": false,
@@ -1186,14 +1568,14 @@
       "props": [
         {
           "id": "shami-tree",
-          "x": 0.66,
+          "x": 0.68,
           "y": 0.6,
           "scale": 1.3,
           "action": "still"
         },
         {
           "id": "gandiva",
-          "x": 0.6,
+          "x": 0.62,
           "y": 0.42,
           "scale": 0.7,
           "action": "idle"
@@ -1205,8 +1587,8 @@
         "to": -0.05
       },
       "narration": {
-        "en": "Then the Kauravas raided Virata's cattle. The dance teacher took the Gandiva from a shami tree… and alone, stunned Drona, Karna and the whole Kuru army.",
-        "hi": "फिर कौरवों ने विराट की गायें लूटीं। शमी के पेड़ से गाण्डीव उठा… और अकेले अर्जुन ने द्रोण, कर्ण और पूरी कौरव सेना को अचेत कर दिया।"
+        "en": "At a shami tree, where the Pandavas had hidden their weapons, the dance teacher took down the Gandiva… and said, \"I am Arjuna.\"",
+        "hi": "शमी के उस पेड़ पर, जहाँ पाण्डवों ने अस्त्र छिपाए थे, नृत्य-शिक्षिका ने गाण्डीव उतारा… और कहा, \"मैं अर्जुन हूँ।\""
       },
       "onScreenText": null,
       "cues": [
@@ -1215,24 +1597,11 @@
             "en": "Gandiva",
             "hi": "गाण्डीव"
           },
-          "do": "glint",
-          "target": "gandiva"
-        },
-        {
-          "onWord": {
-            "en": "alone",
-            "hi": "अकेले"
-          },
           "do": "hard-cut-to",
-          "target": "s14b"
+          "target": "s19b"
         }
       ],
       "sfx": [
-        {
-          "id": "battle-distant",
-          "at": 0,
-          "volume": 0.35
-        },
         {
           "id": "bowstring-creak",
           "onWord": {
@@ -1243,11 +1612,87 @@
         }
       ],
       "transition": "cut",
-      "notes": "The shami tree where the Pandavas hid their weapons (Virata §38–43): Brihannala reaches up; the Gandiva, wrapped in the branches, glints on its name."
+      "notes": "The shami tree where the weapons were hidden (Virata §38–43); cut to the reveal on \"Gandiva\"."
     },
     {
-      "id": "s14b",
-      "beat": 14,
+      "id": "s19b",
+      "beat": 19,
+      "type": "character",
+      "background": "forest-hunt",
+      "backgroundVariant": "dusk",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.4,
+          "y": 0.25,
+          "color": "#FFE6B0"
+        },
+        {
+          "type": "sparks",
+          "n": 16
+        }
+      ],
+      "characters": [
+        {
+          "id": "brihannala",
+          "pose": "gandiva-raised",
+          "x": 0.38,
+          "y": 0.86,
+          "scale": 1.05,
+          "flip": false,
+          "action": "still",
+          "expression": "calm"
+        },
+        {
+          "id": "uttar",
+          "pose": "stunned",
+          "x": 0.76,
+          "y": 0.86,
+          "scale": 0.85,
+          "flip": true,
+          "action": "still",
+          "expression": "amazed"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.4,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": {
+        "en": "Arjuna",
+        "hi": "अर्जुन",
+        "style": "name-tag",
+        "sub": {
+          "en": "Partha, Phalguna, Jishnu… (Virata §44)",
+          "hi": "पार्थ, फाल्गुन, जिष्णु… (विराट पर्व §44)"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "at": 0.1,
+          "volume": 0.7
+        }
+      ],
+      "music": 1.2,
+      "transition": "cut",
+      "notes": "v2 insert: the reveal. Brihannala raises the Gandiva in a burst of light; Uttar, stunned, faces him. \"I am Arjuna\" is spoken over this."
+    },
+    {
+      "id": "s20",
+      "beat": 20,
       "type": "character",
       "background": "red-sky-plain",
       "backgroundVariant": "dusk",
@@ -1294,11 +1739,20 @@
         "move": "shake-small-then-static"
       },
       "narration": {
-        "en": "",
-        "hi": ""
+        "en": "Alone, he stunned Drona, Karna and the whole Kuru army.",
+        "hi": "फिर अकेले अर्जुन ने द्रोण, कर्ण और पूरी कौरव सेना को अचेत कर दिया।"
       },
       "onScreenText": null,
-      "cues": [],
+      "cues": [
+        {
+          "onWord": {
+            "en": "stunned",
+            "hi": "अचेत"
+          },
+          "do": "stamp-in",
+          "target": "gandiva-shockwave"
+        }
+      ],
       "sfx": [
         {
           "id": "arrow-whoosh-magic",
@@ -1307,17 +1761,185 @@
         },
         {
           "id": "drum-boom-deep",
-          "at": 0.4,
+          "onWord": {
+            "en": "stunned",
+            "hi": "अचेत"
+          },
           "volume": 0.9
         }
       ],
       "music": 1.2,
       "transition": "cut",
-      "notes": "Insert from \"alone / अकेले\": the braid flying, Brihannala draws the Gandiva; a gold shock-ring from the bowstring rolls over the Kuru army in silhouette, which freezes (Virata §65: stunned, not killed). Bhishma is NOT singled out here."
+      "notes": "Virata §65: the Kuru army stunned, not killed; Bhishma not singled out."
     },
     {
-      "id": "s15",
-      "beat": 15,
+      "id": "s21",
+      "beat": 21,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 15
+        },
+        {
+          "type": "glow",
+          "x": 0.66,
+          "y": 0.36,
+          "r": 0.25,
+          "color": "#FFE6B0",
+          "pulse": true
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "bhishma-silhouette",
+          "x": 0.32,
+          "y": 0.62,
+          "scale": 1.0,
+          "action": "still"
+        },
+        {
+          "id": "year-ring-complete",
+          "x": 0.66,
+          "y": 0.36,
+          "scale": 0.7,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "And the Kauravas were too late: by Bhishma's own count, the year of hiding was already over.",
+        "hi": "और कौरव चूक गए थे: भीष्म की अपनी गणना से, अज्ञातवास का बरस पूरा हो चुका था।"
+      },
+      "onScreenText": {
+        "en": "Bhishma",
+        "hi": "भीष्म",
+        "style": "name-tag",
+        "sub": {
+          "en": "Virata Parva §52",
+          "hi": "विराट पर्व §52"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "over",
+            "hi": "पूरा"
+          },
+          "do": "stamp-in",
+          "target": "year-ring-complete"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "onWord": {
+            "en": "over",
+            "hi": "पूरा"
+          },
+          "volume": 0.6
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "v2. Bhishma’s calculation (Virata §52): the thirteen years were complete; the ring fills on \"over / पूरा\"."
+    },
+    {
+      "id": "s22",
+      "beat": 22,
+      "type": "character",
+      "background": "king-court",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.15,
+          "color": "#FFE6B0"
+        },
+        {
+          "type": "dust",
+          "n": 12,
+          "color": "#FFE6B0"
+        }
+      ],
+      "characters": [
+        {
+          "id": "king",
+          "pose": "seated-throne-pointing",
+          "x": 0.5,
+          "y": 0.575,
+          "scale": 0.83,
+          "flip": false,
+          "action": "still",
+          "expression": "calm"
+        },
+        {
+          "id": "arjuna",
+          "pose": "blessing",
+          "x": 0.2,
+          "y": 0.88,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "smiling"
+        },
+        {
+          "id": "uttara",
+          "pose": "pleading",
+          "x": 0.62,
+          "y": 0.88,
+          "scale": 0.85,
+          "flip": true,
+          "action": "breathe",
+          "expression": "joyful"
+        },
+        {
+          "id": "abhimanyu",
+          "pose": "folded-hands",
+          "x": 0.8,
+          "y": 0.88,
+          "scale": 0.92,
+          "flip": true,
+          "action": "breathe",
+          "expression": "calm"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.06,
+        "to": 1.0
+      },
+      "narration": {
+        "en": "King Virata offered Arjuna his daughter. He refused: she had trusted him like a father. She married his son, Abhimanyu.",
+        "hi": "राजा विराट ने अपनी बेटी का हाथ अर्जुन को देना चाहा। अर्जुन ने मना किया: उत्तरा ने उन्हें पिता माना था। वो उनके बेटे अभिमन्यु की पत्नी बनीं।"
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "onWord": {
+            "en": "Abhimanyu",
+            "hi": "अभिमन्यु"
+          },
+          "volume": 0.5
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "v2. Virata §72: Arjuna, himself again, blesses Uttara and his son Abhimanyu (palms joined, facing him) before Virata’s throne."
+    },
+    {
+      "id": "s23",
+      "beat": 23,
       "type": "character",
       "background": "red-sky-plain",
       "backgroundVariant": "dawn",
@@ -1385,11 +2007,11 @@
         }
       ],
       "transition": "border-wipe",
-      "notes": "Hero tableau, centred: Brihannala, braid in the wind, Gandiva raised at dawn. Dignity, not a joke."
+      "notes": "Hero tableau. Dignity, not a joke."
     },
     {
-      "id": "s16",
-      "beat": 16,
+      "id": "s24",
+      "beat": 24,
       "type": "character",
       "background": "red-sky-plain",
       "backgroundVariant": "dusk",
@@ -1468,7 +2090,7 @@
       ],
       "overlay": "folk-art-border",
       "transition": "cut-to-black",
-      "notes": "Tease for S01E04 (Amba’s vow). Bhishma, white-bearded, in silhouette; a woman’s tall shadow rises behind him. Both silhouettes are reusable for E04."
+      "notes": "Tease for S01E04 (Amba’s vow)."
     }
   ],
   "assets": {
@@ -1543,6 +2165,34 @@
           "seated-throne-pointing": "library"
         },
         "notes": "stands in for King Virata"
+      },
+      {
+        "id": "uttar",
+        "status": "new",
+        "poses": {
+          "boasting": "new",
+          "fleeing": "new",
+          "stunned": "new"
+        },
+        "notes": "v2"
+      },
+      {
+        "id": "abhimanyu",
+        "status": "new",
+        "poses": {
+          "folded-hands": "new"
+        },
+        "notes": "v2"
+      },
+      {
+        "id": "v2-poses",
+        "status": "new",
+        "poses": {
+          "arjuna:blessing": "new",
+          "brihannala:running": "new",
+          "urvashi:arguing": "new",
+          "uttara:pleading": "new"
+        }
       }
     ],
     "backgrounds": [
@@ -1630,6 +2280,26 @@
         "id": "amba-shadow",
         "status": "new",
         "notes": "E04 tease; a tall woman’s shadow, hair loose"
+      },
+      {
+        "id": "war-chariot",
+        "status": "new",
+        "notes": "v2"
+      },
+      {
+        "id": "dice-board",
+        "status": "new",
+        "notes": "v2"
+      },
+      {
+        "id": "cattle-raid",
+        "status": "new",
+        "notes": "v2"
+      },
+      {
+        "id": "year-ring-complete",
+        "status": "new",
+        "notes": "v2"
       }
     ],
     "overlays": [

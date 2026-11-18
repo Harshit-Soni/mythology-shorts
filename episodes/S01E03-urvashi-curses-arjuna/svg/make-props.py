@@ -241,6 +241,73 @@ def amba_shadow():
     write('amba-shadow', f'<g opacity="0.88">{hair}{fig}</g>', 'a tall woman\'s shadow with loose flowing hair, a red rim of light (E04 tease: Amba).')
 
 
+# ---------- v2 additions (2026-11-18) ----------
+# 11. an earthly war chariot (Uttar's), side view facing right, banner flying
+def war_chariot():
+    body = (f'<path d="M180 540 L600 540 L630 440 Q600 420 560 424 L230 424 Q196 460 180 540Z" fill="#8E5A36" stroke="{INK}" stroke-width="5" />'
+            f'<path d="M210 490 L600 490" stroke="{GOLD_D}" stroke-width="8" />'
+            + ''.join(f'<circle cx="{x}" cy="510" r="8" fill="{GOLD}" stroke="{INK}" stroke-width="2" />' for x in range(240, 600, 45))
+            + f'<path d="M560 424 Q640 380 720 470 L740 520" stroke="#6E4228" stroke-width="14" />'
+            f'<path d="M260 424 L260 150" stroke="#6E4228" stroke-width="10" />'
+            f'<path d="M262 160 Q330 150 380 176 Q330 196 262 210Z" fill="#2E8A8A" stroke="{INK}" stroke-width="3" />'
+            f'<circle cx="300" cy="184" r="12" fill="{GOLD}" stroke="{INK}" stroke-width="2" />'
+            + wheel(330, 560, 120)
+            + f'<ellipse cx="400" cy="690" rx="300" ry="18" fill="#3A2A20" opacity="0.35" />')
+    write('war-chariot', body, "an earthly war chariot (Prince Uttar's): wooden car with a teal banner, a gold-rimmed wheel and a yoke pole.")
+
+
+# 12. the dice game: a cross-shaped board and three long pasa dice
+def dice_board():
+    body = glow_rings(400, 420, 340, '#E07A2E', 3, 0.08)
+    arm = 'fill="#8E2A20" stroke="{INK}" stroke-width="4"'.format(INK=INK)
+    body += (f'<path d="M330 160 H470 V350 H660 V490 H470 V680 H330 V490 H140 V350 H330Z" {arm} />'
+             + ''.join(f'<path d="M{x} 160 V350 M{x} 490 V680" stroke="{GOLD_L}" stroke-width="3" />' for x in (377, 423))
+             + ''.join(f'<path d="M140 {y} H330 M470 {y} H660" stroke="{GOLD_L}" stroke-width="3" />' for y in (397, 443))
+             + f'<rect x="330" y="350" width="140" height="140" fill="{GOLD}" stroke="{INK}" stroke-width="4" />')
+    for x, y, a in ((250, 600, -20), (420, 640, 15), (560, 590, 40)):
+        dots = ''.join(f'<circle cx="{dx}" cy="0" r="6" fill="{INK}" />' for dx in (-30, 0, 30))
+        body += (f'<g transform="translate({x} {y}) rotate({a})"><rect x="-60" y="-18" width="120" height="36" rx="8" fill="#F3EEDF" stroke="{INK}" stroke-width="4" />{dots}</g>')
+    write('dice-board', body, 'the dice game: a cross-shaped chaupar board in red and gold, with three long pasa dice.')
+
+
+# 13. the cattle raid: cows driven off in a cloud of dust
+def cow(x, y, s, flip=False):
+    sx = -s if flip else s
+    return (f'<g transform="translate({x} {y}) scale({sx:.2f} {s:.2f})" fill="{SIL}">'
+            f'<path d="M-60 -40 Q0 -60 60 -40 Q74 -20 60 0 L-60 0 Q-74 -20 -60 -40Z" />'
+            f'<path d="M-52 0 L-46 40 M-30 0 L-26 40 M36 0 L40 40 M54 0 L58 40" stroke="{SIL}" stroke-width="9" />'
+            f'<path d="M-62 -42 L-92 -52 Q-104 -40 -94 -26 L-66 -22Z" />'
+            f'<path d="M-86 -54 L-96 -74 M-78 -54 L-74 -76" stroke="{SIL}" stroke-width="6" />'
+            f'<path d="M60 -36 Q78 -20 70 4" stroke="{SIL}" stroke-width="5" />'
+            f'</g>')
+
+
+def cattle_raid():
+    import random
+    random.seed(9)
+    puffs = [f'<circle cx="{random.uniform(80, 760):.0f}" cy="{random.uniform(420, 620):.0f}" r="{random.uniform(40, 90):.0f}" fill="#C9A27A" opacity="0.28" />' for _ in range(28)]
+    dust, front = ''.join(puffs), ''.join(puffs[:9])
+    herd = ''.join(cow(x, y, s) for x, y, s in ((160, 560, 0.9), (280, 600, 1.0), (400, 570, 0.85), (520, 610, 1.0), (640, 575, 0.9), (220, 650, 0.8), (460, 660, 0.85), (600, 670, 0.8)))
+    riders = ''.join(person(x, 520, 150, rim='#E07A2E', robe=False, hair='knot') for x in (720, 760))
+    write('cattle-raid', dust + herd + riders + front,
+          'the cattle raid: a herd of cows driven off to the left in a cloud of dust, two riders behind.')
+
+
+# 14. the year ring with all thirteen years complete (Bhishma's count, Virata §52)
+def year_ring_complete():
+    body = glow_rings(400, 400, 360, '#FFE6B0', 4, 0.09)
+    n, r = 13, 250
+    for i in range(n):
+        a0, a1 = math.radians(-90 + i * 360 / n + 3), math.radians(-90 + (i + 1) * 360 / n - 3)
+        p0 = (400 + r * math.cos(a0), 400 + r * math.sin(a0)); p1 = (400 + r * math.cos(a1), 400 + r * math.sin(a1))
+        d = f'M{p0[0]:.1f} {p0[1]:.1f} A{r} {r} 0 0 1 {p1[0]:.1f} {p1[1]:.1f}'
+        body += f'<path d="{d}" stroke="{INK}" stroke-width="50" /><path d="{d}" stroke="{GOLD}" stroke-width="40" />'
+    body += (f'<circle cx="400" cy="400" r="70" fill="{GOLD}" stroke="{INK}" stroke-width="5" />'
+             f'<path d="M365 400 L392 428 L440 370" stroke="{INK}" stroke-width="14" /><path d="M365 400 L392 428 L440 370" stroke="#FFF1D6" stroke-width="7" />')
+    write('year-ring-complete', body, 'the thirteen years of exile as a ring, every segment lit gold, a tick in the centre: the year of hiding is over.')
+
+
 if __name__ == '__main__':
     celestial_chariot(); astra_ring(); family_vine(); year_ring(); bangles_scarred_arm()
     shami_tree(); gandiva(); gandiva_shockwave(); bhishma_silhouette(); amba_shadow()
+    war_chariot(); dice_board(); cattle_raid(); year_ring_complete()

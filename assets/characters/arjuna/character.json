@@ -12,7 +12,8 @@
     "standing-bow",
     "bowing-eyes-closed",
     "kneeling-folded-hands",
-    "dance-step"
+    "dance-step",
+    "blessing"
   ],
   "expressions": [
     "calm",
@@ -35,14 +36,16 @@
     "kneeling-folded-hands": "kneeling-folded-hands.svg",
     "kneeling-folded-hands__eyes-closed": "kneeling-folded-hands__eyes-closed.svg",
     "kneeling-folded-hands__shocked": "kneeling-folded-hands__shocked.svg",
-    "dance-step": "dance-step.svg"
+    "dance-step": "dance-step.svg",
+    "blessing": "blessing.svg"
   },
   "facing": "per pose, see facingByPose (ear rule)",
   "facingByPose": {
     "standing-bow": "right",
     "bowing-eyes-closed": "right",
     "kneeling-folded-hands": "right",
-    "dance-step": "right"
+    "dance-step": "right",
+    "blessing": "right"
   },
   "notes": "Made in code by episodes/S01E03-urvashi-curses-arjuna/svg/make-cast.py from the pandu rig (the women via S01E02 make-concepts.py). All poses face right; mirror with flip."
 }

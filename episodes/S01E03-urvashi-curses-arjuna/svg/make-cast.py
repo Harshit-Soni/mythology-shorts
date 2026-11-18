@@ -452,19 +452,101 @@ def uttara():
     save(t, 'uttara', 'dancing', 'Princess Uttara · dancing')
 
 
+# ---------- v2 additions (2026-11-18) ----------
+def v2_poses():
+    # Arjuna, himself again after the year: blessing (abhaya), smiling
+    t, r = arjuna_base(bow=False)
+    Wm.arms(r, far=(-35, -125, -10), near=(10, -40, 0))
+    Wm.palm(r, 'hand-far', ARJ_SKIN)
+    male_brows(r, 'calm'); smile(r)
+    save(t, 'arjuna', 'blessing', 'Arjuna · blessing')
+
+    # Brihannala running after Uttar: leaning forward, arms pumping, the braid flying back
+    t, r = bri_base()
+    Wm.arms(r, far=(-70, -70, 0), near=(55, -60, 0))
+    lean(r, 10)
+    group(r, 'hair-braid').set('transform', 'rotate(35 440 300)')
+    male_brows(r, 'calm'); smile(r)
+    save(t, 'brihannala', 'running', 'Brihannala · running, braid flying')
+
+    # Urvashi arguing: one palm open toward him, the other at her chest
+    sk = C.WOMEN['urvashi']['skin']
+    t, r = urvashi_base()
+    Wm.arms(r, far=(-75, -35, -25), near=(16, -146, 40))
+    Wm.palm(r, 'hand-far', sk); Wm.palm(r, 'hand-near', sk)
+    female_brows(r, 'firm'); Wm.mouth(r, open_=True)
+    save(t, 'urvashi', 'arguing', 'Urvashi · arguing, palm open')
+
+    # Uttara pleading with her teacher: palms together, eyes lifted
+    sk = C.WOMEN['uttara']['skin']
+    t = C.build('uttara', drape_style='sash', eye_scale=1.22, head_scale=1.06, warmth=2)
+    r = t.getroot()
+    cp = group(r, 'canvas-placement')
+    cp.set('transform', 'translate(500 1550) scale(0.86) translate(-500 -1550) ' + cp.get('transform'))
+    recolor(group(r, 'dhoti'), {'#F3EEDF': '#FFF1D6'})
+    Wm.arms(r, far=(10, 117, 53), near=(-15, -116, -49))
+    Wm.palm(r, 'hand-far', sk, narrow=True); Wm.palm(r, 'hand-near', sk, narrow=True)
+    Wm.brows(r, 'up'); Wm.eyes_up(r); tilt(r, -4)
+    save(t, 'uttara', 'pleading', 'Princess Uttara · pleading, palms together')
+
+
+U_SKIN = ('#EDC79F', '#D9AC7E', '#B48256')
+U_DHOTI = {'#FFF8E9': '#4FB0A8', '#F3EEDF': '#2E8A8A', '#D6C7AF': '#1F6B6B', '#B7A68F': '#164E4E'}
+
+
+def uttar_base(skin=U_SKIN, dhoti=U_DHOTI, scale=0.88):
+    t = ET.parse(C.SRC); r = t.getroot()
+    remove(r, 'bow')
+    for g in ('dhoti-back', 'dhoti-near-wrap', 'dhoti-front-pleat', 'waist-wrap'):
+        recolor(group(r, g), dhoti)
+    recolor(group(r, 'uttariya'), A_SASH)
+    recolor(r, dict(zip(C.PANDU_SKIN, skin)))
+    group(r, 'crown').set('transform', 'translate(510 115) scale(0.72) translate(-510 -115)')
+    cp = group(r, 'canvas-placement')
+    cp.set('transform', f'translate(500 1550) scale({scale}) translate(-500 -1550) ' + cp.get('transform'))
+    return t, r
+
+
+def uttar():
+    t, r = uttar_base()
+    Wm.arms(r, far=(-160, -15, 0), near=(10, -40, 0))
+    lean(r, -4); tilt(r, -6); male_brows(r, 'up'); smile(r)
+    save(t, 'uttar', 'boasting', 'Prince Uttar · boasting, fist raised')
+
+    t, r = uttar_base()
+    Wm.arms(r, far=(-110, -50, 0), near=(70, 20, 0))
+    Wm.palm(r, 'hand-far', U_SKIN); Wm.palm(r, 'hand-near', U_SKIN)
+    lean(r, 12); male_brows(r, 'up'); mouth_open(r)
+    save(t, 'uttar', 'fleeing', 'Prince Uttar · fleeing, terrified')
+
+    t, r = uttar_base()
+    Wm.arms(r, far=(-12, -14, 45), near=(18, -150, 40))
+    Wm.palm(r, 'hand-near', U_SKIN)
+    lean(r, -4); male_brows(r, 'up'); mouth_open(r)
+    save(t, 'uttar', 'stunned', 'Prince Uttar · stunned')
+
+
+def abhimanyu():
+    sk = ('#B98058', '#9C6640', '#76482A')
+    t, r = uttar_base(skin=sk, dhoti={'#FFF8E9': '#7FB0DE', '#F3EEDF': '#5B8FC9', '#D6C7AF': '#3E6FA8', '#B7A68F': '#2A4E7E'}, scale=0.92)
+    folded_hands(r, sk)
+    male_brows(r, 'calm'); smile(r)
+    save(t, 'abhimanyu', 'folded-hands', 'Abhimanyu · palms joined')
+
+
 # ---------- character.json ----------
 def character_json():
     cast = {
         'arjuna': dict(name={'en': 'Arjuna', 'hi': 'अर्जुन'}, role='Third Pandava; son of Indra and Kunti', divine=False,
                        look='A young prince "of darkish hue" (Virata §11): deep brown skin, gold crown, red dhoti, gold sash, gold armlets; the Gandiva bow.',
                        sourceNotes='Son of Indra (Adi §123). Complexion from Virata §11 ("young and of darkish hue"). The red dhoti is a design choice carried over from S01E02.',
-                       poses=['standing-bow', 'bowing-eyes-closed', 'kneeling-folded-hands', 'dance-step'],
+                       poses=['standing-bow', 'bowing-eyes-closed', 'kneeling-folded-hands', 'dance-step', 'blessing'],
                        expressions=['calm', 'awed', 'worried', 'eyes-closed', 'earnest', 'shocked', 'surprised'],
                        appearsIn=['S01E02', 'S01E03']),
         'brihannala': dict(name={'en': 'Brihannala', 'hi': 'बृहन्नला'}, role='Arjuna in disguise during the year in hiding', divine=False,
                            look='Arjuna\'s face and build in a plum bodice and antariya with a gold sash; a long braid with a flower, large gold earrings, conch bangles over the bowstring scars.',
                            sourceNotes='Virata §2 (the plan: bangles, earrings, braid), §11 (arrival; dance teacher to Uttara), §38–45, §65 (the Gandiva, the battle). Dignified, never comic.',
-                           poses=['standing-graceful', 'dance-teaching', 'reaching-up', 'drawing-gandiva', 'gandiva-raised'],
+                           poses=['standing-graceful', 'dance-teaching', 'reaching-up', 'drawing-gandiva', 'gandiva-raised', 'running'],
                            expressions=['calm', 'smiling', 'determined', 'fierce'], appearsIn=['S01E03']),
         'indra': dict(name={'en': 'Indra', 'hi': 'इन्द्र'}, role='King of the gods; Arjuna\'s father', divine=True,
                       look='Golden skin, a tall gold crown, a gold halo with rays, saffron-gold dhoti, crimson sash; the far hand raised in abhaya, a small vajra in the other.',
@@ -477,11 +559,18 @@ def character_json():
         'urvashi': dict(name={'en': 'Urvashi', 'hi': 'उर्वशी'}, role='Foremost of the apsaras; wife of Pururavas, ancestress of the Kurus', divine=True,
                         look='Fair, rose bodice and antariya with gold borders, a violet sash, a gold tiara, necklace and bangles, jasmine in a long braid. Dignified court dress: nothing revealing (CLAUDE.md rule 2).',
                         sourceNotes='Vana §45–46 (vulgate), Adi §75. The colours are design choices.',
-                        poses=['dancing', 'walking', 'standing-surprised', 'cursing-hand-raised'],
+                        poses=['dancing', 'walking', 'standing-surprised', 'cursing-hand-raised', 'arguing'],
                         expressions=['smiling', 'hopeful', 'surprised', 'hurt', 'furious'], appearsIn=['S01E03']),
         'uttara': dict(name={'en': 'Uttara', 'hi': 'उत्तरा'}, role='Princess of Matsya, Virata\'s daughter; Brihannala\'s pupil, later Abhimanyu\'s wife', divine=False,
                        look='A young girl: cream antariya with a teal border, a yellow sash, a braid. Smaller than the adults.',
-                       sourceNotes='Virata §11, §72.', poses=['dancing'], expressions=['joyful'], appearsIn=['S01E03']),
+                       sourceNotes='Virata §11, §37, §72.', poses=['dancing', 'pleading'], expressions=['joyful', 'pleading'], appearsIn=['S01E03']),
+        'uttar': dict(name={'en': 'Uttar (Bhuminjaya)', 'hi': 'उत्तर (भूमिंजय)'}, role='Prince of Matsya, Virata\'s young son; Brihannala drives his chariot', divine=False,
+                      look='A boyish prince: fair skin, a small crown, a teal dhoti with a gold sash, gold earrings. Smaller than Arjuna.',
+                      sourceNotes='Virata §35–44: boasts, flees at the sight of the Kuru army, is caught, then learns Brihannala is Arjuna.',
+                      poses=['boasting', 'fleeing', 'stunned'], expressions=['proud', 'terrified', 'amazed'], appearsIn=['S01E03']),
+        'abhimanyu': dict(name={'en': 'Abhimanyu', 'hi': 'अभिमन्यु'}, role='Son of Arjuna and Subhadra; marries Uttara', divine=False,
+                          look='A youth with Arjuna\'s dark colouring, a small crown, a sky-blue dhoti, palms joined.',
+                          sourceNotes='Virata §72.', poses=['folded-hands'], expressions=['calm'], appearsIn=['S01E03']),
     }
     for cid, d in cast.items():
         files = {}
@@ -498,4 +587,4 @@ def character_json():
 
 
 if __name__ == '__main__':
-    arjuna(); brihannala(); indra(); chitrasena(); urvashi(); uttara(); character_json()
+    arjuna(); brihannala(); indra(); chitrasena(); urvashi(); uttara(); v2_poses(); uttar(); abhimanyu(); character_json()

@@ -13,7 +13,8 @@
     "dance-teaching",
     "reaching-up",
     "drawing-gandiva",
-    "gandiva-raised"
+    "gandiva-raised",
+    "running"
   ],
   "expressions": [
     "calm",
@@ -29,7 +30,8 @@
     "dance-teaching": "dance-teaching.svg",
     "reaching-up": "reaching-up.svg",
     "drawing-gandiva": "drawing-gandiva.svg",
-    "gandiva-raised": "gandiva-raised.svg"
+    "gandiva-raised": "gandiva-raised.svg",
+    "running": "running.svg"
   },
   "facing": "per pose, see facingByPose (ear rule)",
   "facingByPose": {
@@ -37,7 +39,8 @@
     "dance-teaching": "right",
     "reaching-up": "right",
     "drawing-gandiva": "right",
-    "gandiva-raised": "right"
+    "gandiva-raised": "right",
+    "running": "right"
   },
   "notes": "Made in code by episodes/S01E03-urvashi-curses-arjuna/svg/make-cast.py from the pandu rig (the women via S01E02 make-concepts.py). All poses face right; mirror with flip."
 }
