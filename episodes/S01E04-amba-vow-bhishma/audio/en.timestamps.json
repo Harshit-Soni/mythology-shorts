@@ -1,0 +1,1083 @@
+{
+ "episode": "S01E04",
+ "lang": "en",
+ "source": "elevenlabs-flow + scribe",
+ "matched": "179/179",
+ "total": 73.63,
+ "words": [
+  {
+   "beat": 1,
+   "text": "The",
+   "start": 1.15,
+   "end": 1.23
+  },
+  {
+   "beat": 1,
+   "text": "woman",
+   "start": 1.39,
+   "end": 1.71
+  },
+  {
+   "beat": 1,
+   "text": "who",
+   "start": 1.83,
+   "end": 1.95
+  },
+  {
+   "beat": 1,
+   "text": "vowed",
+   "start": 2.03,
+   "end": 2.35
+  },
+  {
+   "beat": 1,
+   "text": "to",
+   "start": 2.39,
+   "end": 2.43
+  },
+  {
+   "beat": 1,
+   "text": "kill",
+   "start": 2.67,
+   "end": 2.91
+  },
+  {
+   "beat": 1,
+   "text": "Bhishma…",
+   "start": 3.07,
+   "end": 3.87
+  },
+  {
+   "beat": 1,
+   "text": "was",
+   "start": 4.31,
+   "end": 4.35
+  },
+  {
+   "beat": 1,
+   "text": "cursed",
+   "start": 4.43,
+   "end": 4.83
+  },
+  {
+   "beat": 1,
+   "text": "by",
+   "start": 4.91,
+   "end": 4.99
+  },
+  {
+   "beat": 1,
+   "text": "his",
+   "start": 5.07,
+   "end": 5.31
+  },
+  {
+   "beat": 1,
+   "text": "own",
+   "start": 5.39,
+   "end": 5.55
+  },
+  {
+   "beat": 1,
+   "text": "mother.",
+   "start": 5.71,
+   "end": 6.39
+  },
+  {
+   "beat": 2,
+   "text": "It",
+   "start": 6.798,
+   "end": 6.83
+  },
+  {
+   "beat": 2,
+   "text": "began",
+   "start": 6.99,
+   "end": 7.31
+  },
+  {
+   "beat": 2,
+   "text": "at",
+   "start": 7.39,
+   "end": 7.47
+  },
+  {
+   "beat": 2,
+   "text": "a",
+   "start": 7.55,
+   "end": 7.63
+  },
+  {
+   "beat": 2,
+   "text": "swayamvara.",
+   "start": 7.71,
+   "end": 8.83
+  },
+  {
+   "beat": 2,
+   "text": "Bhishma",
+   "start": 8.91,
+   "end": 9.31
+  },
+  {
+   "beat": 2,
+   "text": "carried",
+   "start": 9.39,
+   "end": 9.71
+  },
+  {
+   "beat": 2,
+   "text": "off",
+   "start": 9.83,
+   "end": 9.95
+  },
+  {
+   "beat": 2,
+   "text": "Amba,",
+   "start": 10.03,
+   "end": 10.59
+  },
+  {
+   "beat": 2,
+   "text": "a",
+   "start": 10.67,
+   "end": 10.75
+  },
+  {
+   "beat": 2,
+   "text": "princess",
+   "start": 10.79,
+   "end": 11.15
+  },
+  {
+   "beat": 2,
+   "text": "of",
+   "start": 11.23,
+   "end": 11.31
+  },
+  {
+   "beat": 2,
+   "text": "Kashi,",
+   "start": 11.39,
+   "end": 11.95
+  },
+  {
+   "beat": 2,
+   "text": "as",
+   "start": 11.99,
+   "end": 12.03
+  },
+  {
+   "beat": 2,
+   "text": "a",
+   "start": 12.11,
+   "end": 12.19
+  },
+  {
+   "beat": 2,
+   "text": "bride",
+   "start": 12.27,
+   "end": 12.59
+  },
+  {
+   "beat": 2,
+   "text": "for",
+   "start": 12.63,
+   "end": 12.67
+  },
+  {
+   "beat": 2,
+   "text": "his",
+   "start": 12.75,
+   "end": 12.91
+  },
+  {
+   "beat": 2,
+   "text": "brother.",
+   "start": 12.99,
+   "end": 13.55
+  },
+  {
+   "beat": 3,
+   "text": "But",
+   "start": 13.87,
+   "end": 14.03
+  },
+  {
+   "beat": 3,
+   "text": "Amba",
+   "start": 14.11,
+   "end": 14.51
+  },
+  {
+   "beat": 3,
+   "text": "loved",
+   "start": 14.59,
+   "end": 14.91
+  },
+  {
+   "beat": 3,
+   "text": "King",
+   "start": 15.03,
+   "end": 15.15
+  },
+  {
+   "beat": 3,
+   "text": "Shalva.",
+   "start": 15.23,
+   "end": 16.19
+  },
+  {
+   "beat": 3,
+   "text": "So",
+   "start": 16.27,
+   "end": 16.43
+  },
+  {
+   "beat": 3,
+   "text": "Bhishma",
+   "start": 16.59,
+   "end": 16.99
+  },
+  {
+   "beat": 3,
+   "text": "let",
+   "start": 17.07,
+   "end": 17.15
+  },
+  {
+   "beat": 3,
+   "text": "her",
+   "start": 17.23,
+   "end": 17.31
+  },
+  {
+   "beat": 3,
+   "text": "go.",
+   "start": 17.47,
+   "end": 18.03
+  },
+  {
+   "beat": 4,
+   "text": "Shalva",
+   "start": 18.19,
+   "end": 18.59
+  },
+  {
+   "beat": 4,
+   "text": "turned",
+   "start": 18.67,
+   "end": 18.91
+  },
+  {
+   "beat": 4,
+   "text": "her",
+   "start": 18.99,
+   "end": 19.07
+  },
+  {
+   "beat": 4,
+   "text": "away:",
+   "start": 19.15,
+   "end": 19.95
+  },
+  {
+   "beat": 4,
+   "text": "\"Another",
+   "start": 20.083,
+   "end": 20.35
+  },
+  {
+   "beat": 4,
+   "text": "man",
+   "start": 20.47,
+   "end": 20.59
+  },
+  {
+   "beat": 4,
+   "text": "has",
+   "start": 20.71,
+   "end": 20.83
+  },
+  {
+   "beat": 4,
+   "text": "already",
+   "start": 20.91,
+   "end": 21.31
+  },
+  {
+   "beat": 4,
+   "text": "won",
+   "start": 21.39,
+   "end": 21.55
+  },
+  {
+   "beat": 4,
+   "text": "you.\"",
+   "start": 21.63,
+   "end": 22.27
+  },
+  {
+   "beat": 5,
+   "text": "And",
+   "start": 22.407,
+   "end": 22.43
+  },
+  {
+   "beat": 5,
+   "text": "Bhishma",
+   "start": 22.51,
+   "end": 22.99
+  },
+  {
+   "beat": 5,
+   "text": "had",
+   "start": 23.11,
+   "end": 23.23
+  },
+  {
+   "beat": 5,
+   "text": "sworn",
+   "start": 23.31,
+   "end": 23.71
+  },
+  {
+   "beat": 5,
+   "text": "never",
+   "start": 23.79,
+   "end": 24.03
+  },
+  {
+   "beat": 5,
+   "text": "to",
+   "start": 24.11,
+   "end": 24.19
+  },
+  {
+   "beat": 5,
+   "text": "marry.",
+   "start": 24.27,
+   "end": 25.07
+  },
+  {
+   "beat": 5,
+   "text": "Amba",
+   "start": 25.19,
+   "end": 25.47
+  },
+  {
+   "beat": 5,
+   "text": "had",
+   "start": 25.59,
+   "end": 25.71
+  },
+  {
+   "beat": 5,
+   "text": "nowhere",
+   "start": 25.79,
+   "end": 26.03
+  },
+  {
+   "beat": 5,
+   "text": "left",
+   "start": 26.11,
+   "end": 26.27
+  },
+  {
+   "beat": 5,
+   "text": "to",
+   "start": 26.31,
+   "end": 26.35
+  },
+  {
+   "beat": 5,
+   "text": "go.",
+   "start": 26.43,
+   "end": 27.07
+  },
+  {
+   "beat": 6,
+   "text": "So",
+   "start": 27.15,
+   "end": 27.31
+  },
+  {
+   "beat": 6,
+   "text": "she",
+   "start": 27.39,
+   "end": 27.55
+  },
+  {
+   "beat": 6,
+   "text": "made",
+   "start": 27.63,
+   "end": 27.71
+  },
+  {
+   "beat": 6,
+   "text": "a",
+   "start": 27.79,
+   "end": 27.87
+  },
+  {
+   "beat": 6,
+   "text": "vow",
+   "start": 27.95,
+   "end": 28.11
+  },
+  {
+   "beat": 6,
+   "text": "of",
+   "start": 28.19,
+   "end": 28.27
+  },
+  {
+   "beat": 6,
+   "text": "her",
+   "start": 28.35,
+   "end": 28.43
+  },
+  {
+   "beat": 6,
+   "text": "own:",
+   "start": 28.51,
+   "end": 29.15
+  },
+  {
+   "beat": 6,
+   "text": "\"I",
+   "start": 29.27,
+   "end": 29.39
+  },
+  {
+   "beat": 6,
+   "text": "will",
+   "start": 29.47,
+   "end": 29.71
+  },
+  {
+   "beat": 6,
+   "text": "kill",
+   "start": 29.79,
+   "end": 30.03
+  },
+  {
+   "beat": 6,
+   "text": "Bhishma.\"",
+   "start": 30.11,
+   "end": 31.07
+  },
+  {
+   "beat": 7,
+   "text": "For",
+   "start": 31.15,
+   "end": 31.31
+  },
+  {
+   "beat": 7,
+   "text": "twelve",
+   "start": 31.43,
+   "end": 31.79
+  },
+  {
+   "beat": 7,
+   "text": "years",
+   "start": 31.87,
+   "end": 32.19
+  },
+  {
+   "beat": 7,
+   "text": "she",
+   "start": 32.27,
+   "end": 32.43
+  },
+  {
+   "beat": 7,
+   "text": "did",
+   "start": 32.51,
+   "end": 32.59
+  },
+  {
+   "beat": 7,
+   "text": "tapas,",
+   "start": 32.67,
+   "end": 33.47
+  },
+  {
+   "beat": 7,
+   "text": "standing",
+   "start": 33.55,
+   "end": 33.95
+  },
+  {
+   "beat": 7,
+   "text": "in",
+   "start": 34.03,
+   "end": 34.11
+  },
+  {
+   "beat": 7,
+   "text": "the",
+   "start": 34.15,
+   "end": 34.19
+  },
+  {
+   "beat": 7,
+   "text": "Yamuna.",
+   "start": 34.23,
+   "end": 35.15
+  },
+  {
+   "beat": 8,
+   "text": "Then",
+   "start": 35.23,
+   "end": 35.47
+  },
+  {
+   "beat": 8,
+   "text": "Ganga,",
+   "start": 35.63,
+   "end": 36.35
+  },
+  {
+   "beat": 8,
+   "text": "Bhishma's",
+   "start": 36.39,
+   "end": 36.91
+  },
+  {
+   "beat": 8,
+   "text": "mother,",
+   "start": 37.07,
+   "end": 37.47
+  },
+  {
+   "beat": 8,
+   "text": "rose",
+   "start": 37.55,
+   "end": 37.87
+  },
+  {
+   "beat": 8,
+   "text": "from",
+   "start": 37.95,
+   "end": 38.03
+  },
+  {
+   "beat": 8,
+   "text": "the",
+   "start": 38.11,
+   "end": 38.19
+  },
+  {
+   "beat": 8,
+   "text": "water",
+   "start": 38.27,
+   "end": 38.59
+  },
+  {
+   "beat": 8,
+   "text": "and",
+   "start": 38.71,
+   "end": 38.83
+  },
+  {
+   "beat": 8,
+   "text": "cursed",
+   "start": 38.91,
+   "end": 39.23
+  },
+  {
+   "beat": 8,
+   "text": "her:",
+   "start": 39.35,
+   "end": 39.87
+  },
+  {
+   "beat": 8,
+   "text": "\"Keep",
+   "start": 39.939,
+   "end": 40.19
+  },
+  {
+   "beat": 8,
+   "text": "this",
+   "start": 40.31,
+   "end": 40.43
+  },
+  {
+   "beat": 8,
+   "text": "vow,",
+   "start": 40.51,
+   "end": 40.99
+  },
+  {
+   "beat": 8,
+   "text": "and",
+   "start": 41.07,
+   "end": 41.15
+  },
+  {
+   "beat": 8,
+   "text": "you'll",
+   "start": 41.19,
+   "end": 41.31
+  },
+  {
+   "beat": 8,
+   "text": "become",
+   "start": 41.39,
+   "end": 41.63
+  },
+  {
+   "beat": 8,
+   "text": "a",
+   "start": 41.71,
+   "end": 41.87
+  },
+  {
+   "beat": 8,
+   "text": "crooked",
+   "start": 41.95,
+   "end": 42.27
+  },
+  {
+   "beat": 8,
+   "text": "river,",
+   "start": 42.35,
+   "end": 42.91
+  },
+  {
+   "beat": 8,
+   "text": "dry",
+   "start": 43.15,
+   "end": 43.39
+  },
+  {
+   "beat": 8,
+   "text": "eight",
+   "start": 43.47,
+   "end": 43.63
+  },
+  {
+   "beat": 8,
+   "text": "months",
+   "start": 43.71,
+   "end": 43.95
+  },
+  {
+   "beat": 8,
+   "text": "a",
+   "start": 43.99,
+   "end": 44.03
+  },
+  {
+   "beat": 8,
+   "text": "year.\"",
+   "start": 44.11,
+   "end": 44.83
+  },
+  {
+   "beat": 9,
+   "text": "Even",
+   "start": 44.91,
+   "end": 45.15
+  },
+  {
+   "beat": 9,
+   "text": "that",
+   "start": 45.31,
+   "end": 45.55
+  },
+  {
+   "beat": 9,
+   "text": "didn't",
+   "start": 45.63,
+   "end": 45.87
+  },
+  {
+   "beat": 9,
+   "text": "stop",
+   "start": 45.99,
+   "end": 46.11
+  },
+  {
+   "beat": 9,
+   "text": "her.",
+   "start": 46.19,
+   "end": 46.75
+  },
+  {
+   "beat": 9,
+   "text": "Shiva",
+   "start": 46.91,
+   "end": 47.23
+  },
+  {
+   "beat": 9,
+   "text": "granted",
+   "start": 47.31,
+   "end": 47.71
+  },
+  {
+   "beat": 9,
+   "text": "her",
+   "start": 47.79,
+   "end": 47.95
+  },
+  {
+   "beat": 9,
+   "text": "wish:",
+   "start": 48.15,
+   "end": 48.67
+  },
+  {
+   "beat": 9,
+   "text": "\"In",
+   "start": 48.75,
+   "end": 48.83
+  },
+  {
+   "beat": 9,
+   "text": "your",
+   "start": 48.95,
+   "end": 49.07
+  },
+  {
+   "beat": 9,
+   "text": "next",
+   "start": 49.19,
+   "end": 49.31
+  },
+  {
+   "beat": 9,
+   "text": "life,",
+   "start": 49.39,
+   "end": 49.95
+  },
+  {
+   "beat": 9,
+   "text": "you",
+   "start": 50.03,
+   "end": 50.19
+  },
+  {
+   "beat": 9,
+   "text": "will",
+   "start": 50.27,
+   "end": 50.51
+  },
+  {
+   "beat": 9,
+   "text": "kill",
+   "start": 50.59,
+   "end": 50.75
+  },
+  {
+   "beat": 9,
+   "text": "him.\"",
+   "start": 50.83,
+   "end": 51.47
+  },
+  {
+   "beat": 10,
+   "text": "She",
+   "start": 51.63,
+   "end": 51.79
+  },
+  {
+   "beat": 10,
+   "text": "walked",
+   "start": 51.87,
+   "end": 52.19
+  },
+  {
+   "beat": 10,
+   "text": "into",
+   "start": 52.27,
+   "end": 52.51
+  },
+  {
+   "beat": 10,
+   "text": "the",
+   "start": 52.59,
+   "end": 52.67
+  },
+  {
+   "beat": 10,
+   "text": "fire…",
+   "start": 52.75,
+   "end": 53.481
+  },
+  {
+   "beat": 10,
+   "text": "and",
+   "start": 53.55,
+   "end": 53.63
+  },
+  {
+   "beat": 10,
+   "text": "was",
+   "start": 53.75,
+   "end": 53.87
+  },
+  {
+   "beat": 10,
+   "text": "reborn",
+   "start": 53.99,
+   "end": 54.43
+  },
+  {
+   "beat": 10,
+   "text": "as",
+   "start": 54.51,
+   "end": 54.59
+  },
+  {
+   "beat": 10,
+   "text": "Shikhandi.",
+   "start": 54.67,
+   "end": 55.63
+  },
+  {
+   "beat": 11,
+   "text": "At",
+   "start": 55.71,
+   "end": 55.87
+  },
+  {
+   "beat": 11,
+   "text": "Kurukshetra,",
+   "start": 55.923,
+   "end": 56.83
+  },
+  {
+   "beat": 11,
+   "text": "Bhishma",
+   "start": 56.87,
+   "end": 57.31
+  },
+  {
+   "beat": 11,
+   "text": "would",
+   "start": 57.43,
+   "end": 57.55
+  },
+  {
+   "beat": 11,
+   "text": "not",
+   "start": 57.63,
+   "end": 57.87
+  },
+  {
+   "beat": 11,
+   "text": "fight",
+   "start": 57.99,
+   "end": 58.11
+  },
+  {
+   "beat": 11,
+   "text": "Shikhandi,",
+   "start": 58.15,
+   "end": 58.83
+  },
+  {
+   "beat": 11,
+   "text": "who",
+   "start": 58.87,
+   "end": 58.91
+  },
+  {
+   "beat": 11,
+   "text": "was",
+   "start": 58.99,
+   "end": 59.15
+  },
+  {
+   "beat": 11,
+   "text": "born",
+   "start": 59.27,
+   "end": 59.39
+  },
+  {
+   "beat": 11,
+   "text": "a",
+   "start": 59.43,
+   "end": 59.47
+  },
+  {
+   "beat": 11,
+   "text": "woman.",
+   "start": 59.55,
+   "end": 60.243
+  },
+  {
+   "beat": 11,
+   "text": "So",
+   "start": 60.297,
+   "end": 60.35
+  },
+  {
+   "beat": 11,
+   "text": "Arjuna",
+   "start": 60.47,
+   "end": 60.99
+  },
+  {
+   "beat": 11,
+   "text": "shot",
+   "start": 61.11,
+   "end": 61.23
+  },
+  {
+   "beat": 11,
+   "text": "from",
+   "start": 61.31,
+   "end": 61.39
+  },
+  {
+   "beat": 11,
+   "text": "behind",
+   "start": 61.47,
+   "end": 61.87
+  },
+  {
+   "beat": 11,
+   "text": "Shikhandi.",
+   "start": 61.95,
+   "end": 62.83
+  },
+  {
+   "beat": 12,
+   "text": "And",
+   "start": 63.048,
+   "end": 63.07
+  },
+  {
+   "beat": 12,
+   "text": "Bhishma",
+   "start": 63.097,
+   "end": 63.71
+  },
+  {
+   "beat": 12,
+   "text": "fell",
+   "start": 63.91,
+   "end": 64.11
+  },
+  {
+   "beat": 12,
+   "text": "onto",
+   "start": 64.19,
+   "end": 64.43
+  },
+  {
+   "beat": 12,
+   "text": "a",
+   "start": 64.59,
+   "end": 64.643
+  },
+  {
+   "beat": 12,
+   "text": "bed",
+   "start": 64.697,
+   "end": 64.75
+  },
+  {
+   "beat": 12,
+   "text": "of",
+   "start": 64.83,
+   "end": 64.99
+  },
+  {
+   "beat": 12,
+   "text": "arrows.",
+   "start": 65.07,
+   "end": 65.95
+  },
+  {
+   "beat": 13,
+   "text": "One",
+   "start": 66.11,
+   "end": 66.27
+  },
+  {
+   "beat": 13,
+   "text": "vow,",
+   "start": 66.43,
+   "end": 67.15
+  },
+  {
+   "beat": 13,
+   "text": "kept",
+   "start": 67.23,
+   "end": 67.47
+  },
+  {
+   "beat": 13,
+   "text": "across",
+   "start": 67.55,
+   "end": 68.11
+  },
+  {
+   "beat": 13,
+   "text": "two",
+   "start": 68.27,
+   "end": 68.43
+  },
+  {
+   "beat": 13,
+   "text": "lives.",
+   "start": 68.47,
+   "end": 69.47
+  },
+  {
+   "beat": 13,
+   "text": "Next:",
+   "start": 69.55,
+   "end": 70.19
+  },
+  {
+   "beat": 13,
+   "text": "Karna,",
+   "start": 70.23,
+   "end": 70.91
+  },
+  {
+   "beat": 13,
+   "text": "cursed",
+   "start": 70.95,
+   "end": 71.31
+  },
+  {
+   "beat": 13,
+   "text": "twice",
+   "start": 71.39,
+   "end": 71.79
+  },
+  {
+   "beat": 13,
+   "text": "before",
+   "start": 71.95,
+   "end": 72.11
+  },
+  {
+   "beat": 13,
+   "text": "the",
+   "start": 72.15,
+   "end": 72.19
+  },
+  {
+   "beat": 13,
+   "text": "war",
+   "start": 72.27,
+   "end": 72.43
+  },
+  {
+   "beat": 13,
+   "text": "began.",
+   "start": 72.47,
+   "end": 73.23
+  }
+ ]
+}
