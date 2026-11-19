@@ -2,11 +2,14 @@
 
 Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
 
-**Length:** the narration ends at 140.0 s (EN) and 151.1 s (HI), plus the end card (2:22 / 2:33). That's within the 3-minute limit for YouTube Shorts and Reels.
+**Version:** v2, the short single-thread telling (2026-11-19). The v1 kit is in `review/07-publish-v1.md`.
+
+**Length:** the narration ends at 73.6 s (EN) and 80.0 s (HI), plus the end card (about 1:15 / 1:22).
 
 **Accuracy:**
 - The Amba story is in the critical edition (the Ambopakhyana).
-- **Ganga's curse** and the **Vasus' curse** are in Ganguli and the Gita Press text; their critical-edition status is still TBC (see research).
+- **Ganga's curse** is in Ganguli and the Gita Press text; its critical-edition status is still TBC (see research).
+- v2 leaves out Parashurama's duel and the Vasus' curse. The pinned comment and the replies below bring them in.
 - The copy keeps clear of two popular inventions:
   - the lotus garland
   - "Amba begged Bhishma to marry her"
@@ -20,7 +23,7 @@ Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
 **Cover / thumbnail:** `render/S01E04-thumb-en.png` and `render/S01E04-thumb-hi.png`.
 - It shows the curse: Ganga, risen from the Yamuna, curses Amba, who stands in tapas.
 - Titles: "She Vowed to Kill Bhishma" / "भीष्म-वध की प्रतिज्ञा".
-- If you pick the frame inside Instagram instead, use **1:17 (EN) / 1:21 (HI)**, where the CURSED / शाप stamp lands on "crooked" / "टेढ़ी".
+- If you pick the frame inside Instagram instead, use **0:40 (EN) / 0:43 (HI)**, just after the CURSED / शाप stamp lands.
 
 ## YouTube Shorts: English (`@thelostgyaan_en`)
 - **Title (≤60 chars):** **Bhishma's Own Mother Cursed the Woman Who Swore to Kill Him** *(59)*
@@ -28,7 +31,7 @@ Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
   - Alt B: Why Bhishma Would Not Fight Shikhandi *(37)*
 - **Description:**
   > The woman who swore to kill Bhishma… was cursed by his own mother. 🏹🌊
-  > Bhishma carried off Princess Amba for his brother. The king she loved rejected her, and Bhishma's vow meant he could never marry her. Even Parashurama fought Bhishma for her, for 23 days. So Amba vowed to destroy him herself. Ganga, Bhishma's mother, cursed her. Shiva blessed her. And in her next life, as Shikhandi, she stood before Bhishma at Kurukshetra.
+  > Bhishma carried off Princess Amba for his brother. The king she loved rejected her, and Bhishma had sworn never to marry. With nowhere left to go, Amba vowed to kill him herself. Ganga, Bhishma's mother, cursed her. Shiva blessed her. And in her next life, as Shikhandi, she stood before Bhishma at Kurukshetra.
   >
   > 📜 Shraap, episode 4: the curses that shaped the Mahabharata. Episode 3: the apsara who cursed Arjuna. The Lost Gyaan: what history forgot, we remember. Follow for the next curse.
   > हिंदी में देखें: @thelostgyaan
@@ -45,7 +48,7 @@ Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
   > #Mahabharata #Bhishma #MahabharataCurses #IndianMythology #TheLostGyaan
 - **Hashtags (the first three show above the title):** #Mahabharata #Bhishma #MahabharataCurses #IndianMythology #TheLostGyaan
 - **Playlist:** Shraap: Curses of the Mahabharata
-- **Pinned comment:** Did you notice? Ganga appears twice. First she curses Amba for her vow to destroy Bhishma, her son. Then, after Bhishma falls, the Vasus curse Arjuna, and Ganga agrees. A mother's grief, both times. 🌊 And Bhishma himself told the Pandavas how to defeat him. Was he right to keep his vow and let Amba suffer for it? 👇
+- **Pinned comment:** What the video skipped: before her vow, Amba went to Parashurama, Bhishma's own teacher. He fought his pupil for her for 23 days, and lost (Udyoga §185–188). Only then did she take the vow herself. 🏹 Was Bhishma right to keep his vow, even then? 👇
 
 ## Instagram Reel: English (`@thelostgyaan_en`)
 - **Caption:**
@@ -66,7 +69,7 @@ Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
   - Alt B: Bhishma Ne Shikhandi Par Baan Kyun Nahi Chalaya? *(48)*
 - **Description:**
   > Jis stree ne Bhishma ko maarne ki pratigya ki… use shraap diya Bhishma ki apni maa ne! 🏹🌊
-  > Bhishma Kashi ki rajkumari Amba ko apne bhai ke liye utha laaye. Jis Shalva ko Amba chahti thi, usne thukra diya, aur Bhishma ki pratigya ke kaaran woh vivah nahi kar sakte the. Parashuram bhi Amba ke liye 23 din lade. Tab Amba ne khud Bhishma ko maarne ki pratigya li. Ganga ne shraap diya, Shiv ne vardaan. Aur agle janm mein, Shikhandi bankar, woh Kurukshetra mein Bhishma ke saamne khadi thi.
+  > Bhishma Kashi ki rajkumari Amba ko apne bhai ke liye utha laaye. Jis Shalva ko Amba chahti thi, usne thukra diya, aur Bhishma kabhi vivah na karne ki pratigya le chuke the. Koi thikana na bacha, toh Amba ne khud Bhishma ko maarne ki pratigya li. Ganga ne shraap diya, Shiv ne vardaan. Aur agle janm mein, Shikhandi bankar, woh Kurukshetra mein Bhishma ke saamne khadi thi.
   >
   > 📜 Shraap, kadi 4: woh shraap jinhone Mahabharat likh di. Kadi 3: apsara Urvashi ka Arjun ko shraap. The Lost Gyaan: jo itihaas bhool gaya, woh humein yaad hai. Agle shraap ke liye follow karein.
   > Watch in English: @thelostgyaan_en
@@ -83,7 +86,7 @@ Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
   > #Mahabharat #Bhishma #MahabharatKeShraap #Shraap #TheLostGyaan
 - **Hashtags:** #Mahabharat #Bhishma #MahabharatKeShraap #Shraap #TheLostGyaan
 - **Playlist:** Shraap: Mahabharat Ke Shraap
-- **Pinned comment:** Kya aapne dhyan diya? Ganga do baar aati hain. Pehle woh Amba ko shraap deti hain, kyunki Amba unke bete Bhishma ko maarne ki pratigya kar chuki thi. Phir Bhishma ke girne ke baad Vasu Arjun ko shraap dete hain, aur Ganga haami bharti hain. Dono baar ek maa ka dukh. 🌊 Aur Bhishma ne khud Pandavon ko apni haar ka raasta bataya. Kya Bhishma ka apni pratigya par tike rehna sahi tha? 👇
+- **Pinned comment:** Jo video mein nahi aaya: pratigya se pehle Amba Parashuram ke paas gayi, jo Bhishma ke apne guru the. Guru apne shishya se Amba ke liye 23 din lade, aur haar gaye (Udyog Parv §185–188). Tab jaakar Amba ne khud pratigya li. 🏹 Kya Bhishma ka apni pratigya par tike rehna sahi tha? 👇
 
 ## Instagram Reel: Hindi (`@thelostgyaan`)
 - **Caption:**
