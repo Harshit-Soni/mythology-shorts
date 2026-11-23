@@ -57,7 +57,7 @@ The video tells the **Khatu Shyam (folk) story**. The description names that and
   > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan (English: @thelostgyaan_en)
   > Jai Shri Shyam 🙏
   >
-  > #KhatuShyam #Mahabharat #Barbarik #JaiShriShyam #TheLostGyaan
+  > #KhatuShyam #Mahabharat #Barbarik #JaiShriShyam #TheLostGyaaann
 - **Location:** Khatu Shyam Ji Temple, Khatu, Sikar (Rajasthan)
 - **Audio name:** Khatu Shyam Ki Katha · The Lost Gyaan
 - **Cover:** `render/X001-thumb-hi.png` · **Alt text:** Barbarika, a young warrior with a crown and a quiver of three blue arrows, draws his bow under a full moon.

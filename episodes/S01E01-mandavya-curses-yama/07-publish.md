@@ -58,7 +58,7 @@ The pilot of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
   > Aapko kya lagta hai, shraap sahi tha? Comment mein bataiye 👇
   > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan (English: @thelostgyaan_en)
   >
-  > #Mahabharat #Vidur #MahabharatKeShraap #Shraap #TheLostGyaan
+  > #Mahabharat #Vidur #MahabharatKeShraap #Shraap #TheLostGyaaann
 - **Cover:** `render/S01E01-thumb-hi.png` · **Alt text:** A sage in saffron points at a crowned god on a golden throne, whose halo cracks as the curse lands.
 - **Audio name:** Mandavya Ka Shraap · The Lost Gyaan
 - **After posting:** share to Story with a poll: "Mandavya ka shraap: sahi ya zyada? Sahi / Zyada"

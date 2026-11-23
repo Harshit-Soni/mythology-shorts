@@ -102,7 +102,7 @@ Episode 3 of **S01 Shraap: Curses of the Mahabharata**.
   > Urvashi sahi thi ya Arjun? Comment mein bataiye 👇
   > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan (English: @thelostgyaan_en)
   >
-  > #Mahabharat #Arjun #MahabharatKeShraap #Shraap #TheLostGyaan
+  > #Mahabharat #Arjun #MahabharatKeShraap #Shraap #TheLostGyaaann
 - **Cover:** `render/S01E03-thumb-hi.png` · **Alt text:** In a moonlit palace of the gods, a celestial woman in rose and gold raises her palm in anger over a kneeling prince with joined hands.
 - **Audio name:** Urvashi Ka Shraap · The Lost Gyaan
 - **After posting:** share to your Story with a poll: "Urvashi ka shraap: sahi ya galat? Sahi / Galat"

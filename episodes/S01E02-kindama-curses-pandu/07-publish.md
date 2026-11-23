@@ -62,7 +62,7 @@ Episode 2 of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
   > Anjaane mein hui galti par itna bada shraap: sahi ya galat? Comment mein bataiye 👇
   > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan (English: @thelostgyaan_en)
   >
-  > #Mahabharat #Pandu #MahabharatKeShraap #Shraap #TheLostGyaan
+  > #Mahabharat #Pandu #MahabharatKeShraap #Shraap #TheLostGyaaann
 - **Cover:** `render/S01E02-thumb-hi.png` · **Alt text:** In a dark forest, a crowned king with a bow stands over a wounded sage on the ground, who raises his hand to curse him.
 - **Audio name:** Kindam Ka Shraap · The Lost Gyaan
 - **After posting:** share to Story with a poll: "Kindam ka shraap: sahi ya zyada? Sahi / Zyada"
