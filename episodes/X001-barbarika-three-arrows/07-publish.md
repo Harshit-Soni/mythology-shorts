@@ -54,7 +54,7 @@ The video tells the **Khatu Shyam (folk) story**. The description names that and
   > Teen baan se Mahabharat khatam kar sakte the… phir bhi sheesh daan kar diya. 🏹
   > Barbarik, Bheem ke pote, aaj ke Khatu Shyam: Haare Ka Sahara. Unki katha, jaisi Khatu mein sunaai jaati hai.
   > Aapne kaunsi katha suni hai? Comment mein bataiye 👇
-  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan (English: @thelostgyaan_en)
+  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan
   > Jai Shri Shyam 🙏
   >
   > #KhatuShyam #Mahabharat #Barbarik #JaiShriShyam #TheLostGyaaann

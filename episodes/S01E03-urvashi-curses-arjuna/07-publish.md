@@ -88,7 +88,7 @@ Episode 3 of **S01 Shraap: Curses of the Mahabharata**.
   > Arjun ne apsara Urvashi ko "maa" kaha… aur badle mein mila shraap. 💃
   > Wahi shraap agyaatvaas mein unka sabse bada bhes bana: Brihannala. Aur phir shami ke ped ke neeche: "Main Arjun hoon." Shraap series ki teesri kadi.
   > Urvashi sahi thi ya Arjun? Comment mein bataiye 👇
-  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan (English: @thelostgyaan_en)
+  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan
   >
   > #Mahabharat #Arjun #MahabharatKeShraap #Shraap #TheLostGyaaann
 - **Cover:** `render/S01E03-thumb-hi.png` · **Alt text:** In a moonlit palace of the gods, a celestial woman in rose and gold raises her palm in anger over a kneeling prince with joined hands.

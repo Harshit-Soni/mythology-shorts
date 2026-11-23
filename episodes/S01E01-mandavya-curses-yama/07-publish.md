@@ -56,7 +56,7 @@ The pilot of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
   > Nyay ke devta ko hi ek rishi ne kathghare mein khada kar diya. ⚖️
   > Rishi Mandavya ke shraap se Dharm Devta dharti par janme: Mahabharat ke Vidur bankar. Shraap series ki pehli kadi.
   > Aapko kya lagta hai, shraap sahi tha? Comment mein bataiye 👇
-  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan (English: @thelostgyaan_en)
+  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan
   >
   > #Mahabharat #Vidur #MahabharatKeShraap #Shraap #TheLostGyaaann
 - **Cover:** `render/S01E01-thumb-hi.png` · **Alt text:** A sage in saffron points at a crowned god on a golden throne, whose halo cracks as the curse lands.

@@ -60,7 +60,7 @@ Episode 2 of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
   > Pandu ne jis hiran ko maara, woh insaan ki aawaz mein cheekha. 🦌
   > Rishi Kindam ke ek shraap ki wajah se Pandavon ka janm devtaon se hua. Shraap series ki doosri kadi.
   > Anjaane mein hui galti par itna bada shraap: sahi ya galat? Comment mein bataiye 👇
-  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan (English: @thelostgyaan_en)
+  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan
   >
   > #Mahabharat #Pandu #MahabharatKeShraap #Shraap #TheLostGyaaann
 - **Cover:** `render/S01E02-thumb-hi.png` · **Alt text:** In a dark forest, a crowned king with a bow stands over a wounded sage on the ground, who raises his hand to curse him.

@@ -81,7 +81,7 @@ Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
   > Bhishma ki apni maa ne us stree ko shraap diya, jisne Bhishma ko maarne ki pratigya ki thi. 🌊
   > Amba ko uthaya gaya, thukraya gaya, aur Bhishma ki pratigya ne bhi raasta band kar diya. Unhone apni pratigya mrityu ke paar nibhaayi, aur Shikhandi bankar laut aayi. Shraap series ki chauthi kadi.
   > Zyada anyaay kiske saath hua: Amba ya Bhishma? Comment mein bataiye 👇
-  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan (English: @thelostgyaan_en)
+  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan
   >
   > #Mahabharat #Bhishma #MahabharatKeShraap #Shraap #TheLostGyaan
 - **Cover:** `render/S01E04-thumb-hi.png` · **Alt text:** as above.
