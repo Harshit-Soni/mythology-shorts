@@ -12,13 +12,11 @@
 - **Hashtags:**
 - **Pinned comment:**
 
-## Instagram Reels: English
-- **Caption:**
+## Instagram Reel: Hindi (`@thelostgyaan`, the only Instagram post)
+- **Caption** (Roman script; ends with #TheLostGyaaann):
 - **Hashtags (≤5):**
-- **Cover frame (timestamp):**
-
-## Instagram Reels: हिंदी
-- **Caption:**
-- **Hashtags:**
+- **Cover:** `render/{{ID}}-thumb-hi.png` (or a frame timestamp) · **Alt text:**
+- **Audio name:**
+- **After posting:** Story poll:
 
 ## Sources (paste into descriptions)

@@ -57,18 +57,6 @@ Episode 3 of **S01 Shraap: Curses of the Mahabharata**.
 - **Playlist:** Shraap: Curses of the Mahabharata
 - **Pinned comment:** Honest note: Urvashi's curse is in the popular text of the Mahabharata, but the scholars' critical edition leaves it out. Arjuna's dance lessons in heaven *are* there, though, and Indra says they "will be to thy benefit." 🤔 And when Uttar didn't believe him, Arjuna recited his ten names: Arjuna, Phalguna, Jishnu, Kiritin, Shvetavahana, Bibhatsu, Vijaya, Krishna, Savyasachin and Dhananjaya. How many did you know? 👇
 
-## Instagram Reel: English (`@thelostgyaan_en`)
-- **Caption:**
-  > Arjuna called a celestial apsara "mother"… and was cursed for it. 💃
-  > That curse became his disguise in the year the Pandavas had to hide: Brihannala, the dance teacher. Until, under a shami tree: "I am Arjuna." Episode 3 of Shraap: the curses that shaped the epic.
-  > Was Urvashi wrong, or was Arjuna too rigid? 👇
-  > Follow @thelostgyaan_en for the stories history forgot. हिंदी: @thelostgyaan
-  >
-  > #Mahabharata #Arjuna #MahabharataCurses #IndianMythology #TheLostGyaan
-- **Cover:** `render/S01E03-thumb-en.png` · **Alt text:** In a moonlit palace of the gods, a celestial woman in rose and gold raises her palm in anger over a kneeling prince with joined hands.
-- **Audio name:** Urvashi's Curse · The Lost Gyaan
-- **After posting:** Story poll: "Urvashi's curse: fair or unfair?"
-
 ## YouTube Shorts: Hindi (`@thelostgyaan`)
 - **Title:** **Arjun Ne Apsara Ko Thukraya, Toh Mila Shraap!** *(45)*
   - Alt A: Jab Nritya-Shikshika Ne Kaha, "Main Arjun Hoon!" *(48)*

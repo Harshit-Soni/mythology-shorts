@@ -67,18 +67,6 @@ Episode 2 of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
 - **Audio name:** Kindam Ka Shraap · The Lost Gyaan
 - **After posting:** share to Story with a poll: "Kindam ka shraap: sahi ya zyada? Sahi / Zyada"
 
-## Instagram Reel: English (`@thelostgyaan_en`)
-- **Caption:**
-  > The deer King Pandu shot cried out in a human voice. 🦌
-  > One curse from the sage Kindama is why the five Pandavas were born sons of gods. Episode 2 of Shraap: the curses that shaped the epic.
-  > A king who didn't know, a curse that took everything: fair or too harsh? 👇
-  > Follow @thelostgyaan_en for the stories history forgot. हिंदी: @thelostgyaan
-  >
-  > #Mahabharata #Pandu #MahabharataCurses #IndianMythology #TheLostGyaan
-- **Cover:** `render/S01E02-thumb-en.png` · **Alt text:** as above.
-- **Audio name:** Kindama's Curse · The Lost Gyaan
-- **After posting:** Story poll: "Kindama's curse: fair or too harsh?"
-
 ## Sources (paste into descriptions)
 - [Ganguli, Adi Parva §111](https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxi): Durvasa gives Kunti the mantra
 - [Ganguli, Adi Parva §118](https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxviii): the hunt, Kindama, the curse

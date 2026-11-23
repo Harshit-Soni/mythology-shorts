@@ -50,18 +50,6 @@ Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
 - **Playlist:** Shraap: Curses of the Mahabharata
 - **Pinned comment:** What the video skipped: before her vow, Amba went to Parashurama, Bhishma's own teacher. He fought his pupil for her for 23 days, and lost (Udyoga §185–188). Only then did she take the vow herself. 🏹 Was Bhishma right to keep his vow, even then? 👇
 
-## Instagram Reel: English (`@thelostgyaan_en`)
-- **Caption:**
-  > Bhishma's own mother cursed the woman who swore to kill him. 🌊
-  > Amba was carried off, rejected by the king she loved, and refused by Bhishma's vow. She carried her vow through death, and came back as Shikhandi. Episode 4 of Shraap: the curses that shaped the epic.
-  > Who was wronged more: Amba or Bhishma? 👇
-  > Follow @thelostgyaan_en for the stories history forgot. हिंदी: @thelostgyaan
-  >
-  > #Mahabharata #Bhishma #MahabharataCurses #IndianMythology #TheLostGyaan
-- **Cover:** `render/S01E04-thumb-en.png` · **Alt text:** On a river bank at dusk, a crowned river goddess with a golden halo raises her hand over a princess in red who stands with her arms raised in prayer.
-- **Audio name:** Amba's Vow · The Lost Gyaan
-- **After posting:** Story poll: "Who was wronged more? Amba / Bhishma"
-
 ## YouTube Shorts: Hindi (`@thelostgyaan`)
 *Hindi posting copy is in Roman script (Hinglish), by the owner's choice (2026-11-16). The video stays in Devanagari.*
 - **Title:** **Bhishma Ki Apni Maa Ne Diya Amba Ko Shraap!** *(43)*

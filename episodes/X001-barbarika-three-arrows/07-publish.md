@@ -63,16 +63,6 @@ The video tells the **Khatu Shyam (folk) story**. The description names that and
 - **Cover:** `render/X001-thumb-hi.png` · **Alt text:** Barbarika, a young warrior with a crown and a quiver of three blue arrows, draws his bow under a full moon.
 - **After posting:** share to Story with a poll: "Kya aapne yeh katha pehle suni thi? Haan / Nahi"
 
-## Instagram Reel: English (`@thelostgyaan_en`)
-- **Caption:**
-  > He could have ended the Mahabharata war with three arrows. Instead, he gave his head. 🏹
-  > Barbarika, Bhima's grandson, is worshipped today as Khatu Shyam, the support of those who lose. His birthday falls on Dev Uthani Ekadashi.
-  > Which version of this story did you grow up with? 👇
-  > Follow @thelostgyaan_en for the stories history forgot. हिंदी: @thelostgyaan
-  >
-  > #KhatuShyam #Mahabharata #Barbarika #IndianMythology #TheLostGyaan
-- **Cover:** `render/X001-thumb-en.png` · **Location:** Khatu Shyam Ji Temple
-
 ## Sources (paste into descriptions)
 - Khatu Shyam katha: https://www.bhaktibharat.com/amp/katha/khatu-shyam-katha
 - Skanda Purana, Kaumarika Khanda, ch. 60, 61, 66 (Tagare tr., wisdomlib): [ch. 60](https://www.wisdomlib.org/hinduism/book/the-skanda-purana/d/doc366047.html) · [ch. 61](https://www.wisdomlib.org/hinduism/book/the-skanda-purana/d/doc366048.html) · [ch. 66](https://www.wisdomlib.org/hinduism/book/the-skanda-purana/d/doc366053.html)

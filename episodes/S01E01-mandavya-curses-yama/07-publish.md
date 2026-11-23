@@ -63,18 +63,6 @@ The pilot of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
 - **Audio name:** Mandavya Ka Shraap · The Lost Gyaan
 - **After posting:** share to Story with a poll: "Mandavya ka shraap: sahi ya zyada? Sahi / Zyada"
 
-## Instagram Reel: English (`@thelostgyaan_en`)
-- **Caption:**
-  > The god who judges every soul was once put on trial, and lost. ⚖️
-  > Sage Mandavya's curse sent Dharma, the god of justice, to be born on Earth as Vidura of the Mahabharata. Episode 1 of Shraap: the curses that shaped the epic.
-  > Was the curse fair, or too harsh? 👇
-  > Follow @thelostgyaan_en for the stories history forgot. हिंदी: @thelostgyaan
-  >
-  > #Mahabharata #Vidura #MahabharataCurses #IndianMythology #TheLostGyaan
-- **Cover:** `render/S01E01-thumb-en.png` · **Alt text:** as above.
-- **Audio name:** Mandavya's Curse · The Lost Gyaan
-- **After posting:** Story poll: "Mandavya's curse: fair or too harsh?"
-
 ## Sources (paste into descriptions)
 - [Ganguli, Adi Parva §106](https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cvi): Vidura's birth
 - [Ganguli, Adi Parva §107](https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cvii): arrest and impalement
