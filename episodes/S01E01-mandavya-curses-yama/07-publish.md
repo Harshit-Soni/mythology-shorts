@@ -2,7 +2,7 @@
 
 The pilot of **S01 Shraap: Curses of the Mahabharata**. Everything in the video is from the Mahabharata itself (Adi Parva), so the description says so plainly. The god is **Dharma**, not Yama: expect comments, and use the replies at the bottom. Timings come from the final ElevenLabs voice (EN 64.0 s, HI 75.5 s with the end card; the long Hindi cut was kept on purpose).
 
-**Accounts:** Hindi = `@thelostgyaan`, English = `@thelostgyaan_en`.
+**Accounts:** Hindi = `@thelostgyaan` (YouTube) and `@thelostgyaann` (Instagram), English = `@thelostgyaan_en` (YouTube).
 **When:** after X001's Khatu Shyam Janmotsav week (Fri 20 Nov 2026), so the two don't compete, e.g. **Hindi Sun 22 Nov 7:30 PM, English Mon 23 Nov 7:30 AM IST** (same pattern as X001). Post E02 within the week so the tease at the end pays off quickly.
 **Playlist (create now, both channels):** EN *Shraap: Curses of the Mahabharata* · HI *Shraap: Mahabharat Ke Shraap*. Once E02 is up (Thu 26 / Fri 27 Nov), set this video's "Related video" to E02, and E02's to this one.
 
@@ -49,12 +49,12 @@ The pilot of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
 - **Playlist:** Shraap: Mahabharat Ke Shraap
 - **Pinned comment:** Kya aap jaante hain Vidur ka ant kaise hua? Unki mrityu aam insaan jaisi nahi hui: van mein woh Yudhishthir mein sama gaye, jo khud Dharm ke putra the (Ashramvasik Parv §26). Aapko kya lagta hai, Mandavya ka shraap sahi tha ya zyada kathor? 👇
 
-## Instagram Reel: Hindi (`@thelostgyaan`)
+## Instagram Reel: Hindi (`@thelostgyaann`)
 - **Caption:**
   > Nyay ke devta ko hi ek rishi ne kathghare mein khada kar diya. ⚖️
   > Rishi Mandavya ke shraap se Dharm Devta dharti par janme: Mahabharat ke Vidur bankar. Shraap series ki pehli kadi.
   > Aapko kya lagta hai, shraap sahi tha? Comment mein bataiye 👇
-  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan
+  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaann
   >
   > #Mahabharat #Vidur #MahabharatKeShraap #Shraap #TheLostGyaaann
 - **Cover:** `render/S01E01-thumb-hi.png` · **Alt text:** A sage in saffron points at a crowned god on a golden throne, whose halo cracks as the curse lands.

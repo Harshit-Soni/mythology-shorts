@@ -47,12 +47,12 @@ The video tells the **Khatu Shyam (folk) story**. The description names that and
 - **Hashtags:** #KhatuShyam #Mahabharat #Barbarik #JaiShriShyam #TheLostGyaan
 - **Playlist:** Pauranik Kathayein · **Pinned comment:** Skanda Puran mein yeh katha alag hai: wahan Barbarik raakh se bhare ek baan se har yoddha ke marm par nishaan lagate hain, Krishna ke talve par bhi. Aapne kaunsi katha suni hai? 👇 Jai Shri Shyam 🙏
 
-## Instagram Reel: Hindi (`@thelostgyaan`)
+## Instagram Reel: Hindi (`@thelostgyaann`)
 - **Caption:**
   > Teen baan se Mahabharat khatam kar sakte the… phir bhi sheesh daan kar diya. 🏹
   > Barbarik, Bheem ke pote, aaj ke Khatu Shyam: Haare Ka Sahara. Unki katha, jaisi Khatu mein sunaai jaati hai.
   > Aapne kaunsi katha suni hai? Comment mein bataiye 👇
-  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan
+  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaann
   > Jai Shri Shyam 🙏
   >
   > #KhatuShyam #Mahabharat #Barbarik #JaiShriShyam #TheLostGyaaann

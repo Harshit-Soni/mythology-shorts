@@ -2,7 +2,7 @@
 
 Episode 2 of **S01 Shraap: Curses of the Mahabharata**. Everything in the video is from the Mahabharata itself (Adi Parva §118–125). **v2 (the fuller 16-beat telling):** the narration ends at 87.0 s (EN) and 86.1 s (HI), plus the end card. That's over a minute, which is fine for YouTube Shorts (up to 3 min) and Reels.
 
-**Accounts:** Hindi = `@thelostgyaan`, English = `@thelostgyaan_en`.
+**Accounts:** Hindi = `@thelostgyaan` (YouTube) and `@thelostgyaann` (Instagram), English = `@thelostgyaan_en` (YouTube).
 **When:** within the week after E01, so E01's tease pays off quickly. E01 goes up Sun 22 / Mon 23 Nov, so post E02 on **Hindi Thu 26 Nov 7:30 PM, English Fri 27 Nov 7:30 AM IST** (the same evening/morning pattern).
 **Playlist:** add it to *Shraap: Curses of the Mahabharata* (EN) / *Shraap: Mahabharat Ke Shraap* (HI). On YouTube, set E02's **Related video** to E01, and update E01's Related video to E02.
 
@@ -53,12 +53,12 @@ Episode 2 of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
 - **Playlist:** Shraap: Mahabharat Ke Shraap
 - **Pinned comment:** Kya aapne dhyan diya? Pandu ne sabse pehle **Dharm Devta** ko chuna: wahi devta jinhe pichhli kadi mein Rishi Mandavya ne Vidur bankar janm lene ka shraap diya tha. Yaani Yudhishthir ke pita aur unke chacha Vidur, ek hi devta! 🤯 Aapko kya lagta hai, anjaane mein hui galti par Kindam ka shraap sahi tha? 👇
 
-## Instagram Reel: Hindi (`@thelostgyaan`)
+## Instagram Reel: Hindi (`@thelostgyaann`)
 - **Caption:**
   > Pandu ne jis hiran ko maara, woh insaan ki aawaz mein cheekha. 🦌
   > Rishi Kindam ke ek shraap ki wajah se Pandavon ka janm devtaon se hua. Shraap series ki doosri kadi.
   > Anjaane mein hui galti par itna bada shraap: sahi ya galat? Comment mein bataiye 👇
-  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaan
+  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaann
   >
   > #Mahabharat #Pandu #MahabharatKeShraap #Shraap #TheLostGyaaann
 - **Cover:** `render/S01E02-thumb-hi.png` · **Alt text:** In a dark forest, a crowned king with a bow stands over a wounded sage on the ground, who raises his hand to curse him.
