@@ -40,7 +40,6 @@ Episode 3 of **S01 Shraap: Curses of the Mahabharata**.
   > Urvashi cursed him to live among women as a dancer. Indra smiled. In the year the Pandavas had to hide, Arjuna became Brihannala, the dance teacher of King Virata's court. Then the Kauravas raided Virata's cattle, and under a shami tree the dance teacher took down the Gandiva: "I am Arjuna."
   >
   > 📜 Shraap, episode 3: the curses that shaped the Mahabharata. Episode 2: the deer King Pandu shot was a sage. The Lost Gyaan: what history forgot, we remember. Follow for the next curse.
-  > हिंदी में देखें: @thelostgyaan
   >
   > **Sources** (Mahabharata, K. M. Ganguli tr.)
   > • Arjuna in Indra's heaven, learning dance from Chitrasena: Vana Parva §44: https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-xliv
@@ -66,7 +65,6 @@ Episode 3 of **S01 Shraap: Curses of the Mahabharata**.
   > Shraap tha: striyon ke beech nartak bankar rahoge. Par Indra muskuraye. Agyaatvaas ke saal mein Arjun Raja Virat ke darbaar mein nritya-shikshika Brihannala bankar chhupe. Phir Kauravon ne Virat ki gaayein looti, aur shami ke ped ke neeche Brihannala ne Gandiv uthakar kaha: "Main Arjun hoon."
   >
   > 📜 Shraap, kadi 3: woh shraap jinhone Mahabharat likh di. Kadi 2: Pandu ne jis hiran ko maara, woh rishi tha. The Lost Gyaan: jo itihaas bhool gaya, woh humein yaad hai. Agle shraap ke liye follow karein.
-  > Watch in English: @thelostgyaan_en
   >
   > Srot (sources): Mahabharat (K. M. Ganguli anuvaad)
   > • Swarg mein Arjun, Chitrasen se nritya seekhna: Van Parv §44: https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-xliv

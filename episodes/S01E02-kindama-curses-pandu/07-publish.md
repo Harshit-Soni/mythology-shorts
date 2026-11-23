@@ -17,7 +17,6 @@ Episode 2 of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
   > It was the sage Kindama, living in a deer's form with his wife. His dying curse cost Pandu his throne and his life, and it is the reason the five Pandavas were born sons of gods.
   >
   > 📜 Shraap, episode 2: the curses that shaped the Mahabharata. Episode 1: the god of justice cursed by a sage. The Lost Gyaan: what history forgot, we remember. Follow for the next curse.
-  > हिंदी में देखें: @thelostgyaan
   >
   > **Sources** (Mahabharata, Adi Parva, K. M. Ganguli tr.)
   > • The hunt and Kindama's curse: Adi Parva §118 (BORI critical edition 1.109): https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxviii
@@ -41,7 +40,6 @@ Episode 2 of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
   > Woh the Rishi Kindam, jo apni patni ke saath hiran ke roop mein rehte the. Unke shraap ne Pandu se raajpaat aur jeevan dono chheen liye, aur isi shraap ki wajah se paanchon Pandav devtaon ke putra bankar janme.
   >
   > 📜 Shraap, kadi 2: woh shraap jinhone Mahabharat likh di. Kadi 1: jab ek rishi ne nyay ke devta ko shraap diya. The Lost Gyaan: jo itihaas bhool gaya, woh humein yaad hai. Agle shraap ke liye follow karein.
-  > Watch in English: @thelostgyaan_en
   >
   > Srot (sources): Mahabharat, Adi Parv (K. M. Ganguli anuvaad)
   > • Shikaar aur Kindam ka shraap: Adi Parv §118 (BORI critical edition 1.109): https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cxviii

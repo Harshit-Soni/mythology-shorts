@@ -17,7 +17,6 @@ The pilot of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
   > Sage Mandavya was impaled for a crime he didn't commit. When Dharma, the god of justice, said it was for hurting an insect as a child, Mandavya cursed him to be born a human: Vidura of the Mahabharata.
   >
   > 📜 Shraap, episode 1: the curses that shaped the Mahabharata. The Lost Gyaan: what history forgot, we remember. Follow for the next curse.
-  > हिंदी में देखें: @thelostgyaan
   >
   > **Sources** (Mahabharata, Adi Parva)
   > • Arrest, stake and the trial of Dharma: K. M. Ganguli tr., Adi Parva §107–108 (BORI critical edition 1.101): https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cviii
@@ -39,7 +38,6 @@ The pilot of **S01 Shraap: Curses of the Mahabharata**. Everything in the video 
   > Rishi Mandavya ko bina kisi gunah ke shool par chadha diya gaya. Dharm Devta ne kaha, bachpan mein ek keede ko satane ki saza thi. Tab Mandavya ne unhe shraap diya: manushya bankar janm lo. Wahi bane Mahabharat ke Vidur.
   >
   > 📜 Shraap, kadi 1: woh shraap jinhone Mahabharat likh di. The Lost Gyaan: jo itihaas bhool gaya, woh humein yaad hai. Agle shraap ke liye follow karein.
-  > Watch in English: @thelostgyaan_en
   >
   > Srot (sources): Mahabharat, Adi Parv
   > • Giraftari, shool aur Dharm ka nyay: K. M. Ganguli anuvaad, Adi Parv §107–108 (BORI critical edition 1.101): https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cviii

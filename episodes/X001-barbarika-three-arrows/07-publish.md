@@ -16,7 +16,6 @@ The video tells the **Khatu Shyam (folk) story**. The description names that and
   > 🙏 A Khatu Shyam Janmotsav special (Dev Uthani Ekadashi).
   >
   > 📜 The Lost Gyaan: what history forgot, we remember. Lesser-known stories from Indian mythology, told from the sources. Follow for the next one.
-  > हिंदी में देखें: @thelostgyaan
   >
   > **Sources**
   > • The Khatu Shyam katha (folk telling): https://www.bhaktibharat.com/amp/katha/khatu-shyam-katha
@@ -38,7 +37,6 @@ The video tells the **Khatu Shyam (folk) story**. The description names that and
   > 🙏 Khatu Shyam Janmotsav (Dev Uthani Ekadashi) par vishesh. Jai Shri Shyam!
   >
   > 📜 The Lost Gyaan: jo itihaas bhool gaya, woh humein yaad hai. Aisi aur bhooli hui kathaon ke liye follow karein.
-  > Watch in English: @thelostgyaan_en
   >
   > Srot (sources)
   > • Khatu Shyam katha (lok parampara): https://www.bhaktibharat.com/amp/katha/khatu-shyam-katha

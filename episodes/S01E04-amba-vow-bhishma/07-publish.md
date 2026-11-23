@@ -34,7 +34,6 @@ Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
   > Bhishma carried off Princess Amba for his brother. The king she loved rejected her, and Bhishma had sworn never to marry. With nowhere left to go, Amba vowed to kill him herself. Ganga, Bhishma's mother, cursed her. Shiva blessed her. And in her next life, as Shikhandi, she stood before Bhishma at Kurukshetra.
   >
   > 📜 Shraap, episode 4: the curses that shaped the Mahabharata. Episode 3: the apsara who cursed Arjuna. The Lost Gyaan: what history forgot, we remember. Follow for the next curse.
-  > हिंदी में देखें: @thelostgyaan
   >
   > **Sources** (Mahabharata, K. M. Ganguli tr.)
   > • The abduction from Kashi: Adi Parva §102: https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cii
@@ -60,7 +59,6 @@ Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
   > Bhishma Kashi ki rajkumari Amba ko apne bhai ke liye utha laaye. Jis Shalva ko Amba chahti thi, usne thukra diya, aur Bhishma kabhi vivah na karne ki pratigya le chuke the. Koi thikana na bacha, toh Amba ne khud Bhishma ko maarne ki pratigya li. Ganga ne shraap diya, Shiv ne vardaan. Aur agle janm mein, Shikhandi bankar, woh Kurukshetra mein Bhishma ke saamne khadi thi.
   >
   > 📜 Shraap, kadi 4: woh shraap jinhone Mahabharat likh di. Kadi 3: apsara Urvashi ka Arjun ko shraap. The Lost Gyaan: jo itihaas bhool gaya, woh humein yaad hai. Agle shraap ke liye follow karein.
-  > Watch in English: @thelostgyaan_en
   >
   > Srot (sources): Mahabharat (K. M. Ganguli anuvaad)
   > • Kashi se haran: Adi Parv §102: https://sacred-texts.com/book/the-mahabharata-book-1-adi-parva/section-cii
