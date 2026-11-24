@@ -1,85 +1,2272 @@
 {
   "id": "S01E05",
   "title": {
-    "en": "",
-    "hi": ""
+    "en": "The Warrior Cursed Twice",
+    "hi": "दो बार शापित योद्धा"
   },
   "format": "short",
   "width": 1080,
   "height": 1920,
   "fps": 30,
   "sourceCredit": {
-    "en": "",
-    "hi": ""
+    "en": "Mahabharata, Shanti & Karna Parva",
+    "hi": "महाभारत, शान्ति और कर्ण पर्व"
+  },
+  "safeZone": {
+    "bottom": 0.2,
+    "right": 0.12
   },
   "grade": {
     "grain": 0.12,
     "vignette": 0.45,
     "shadows": true
   },
+  "sound": {
+    "music": {
+      "id": "mythic-drone",
+      "volume": 0.7,
+      "duckTo": 0.45,
+      "fadeInSec": 0.3,
+      "fadeOutSec": 1.5
+    },
+    "sfxVolume": 0.8
+  },
   "thumbnail": {
-    "scene": "s01",
+    "scene": "s01b",
     "at": 0.5,
     "series": {
-      "en": "Indian Mythology",
-      "hi": "Indian Mythology"
+      "en": "Shraap · Episode 5",
+      "hi": "शाप · भाग 5"
     },
     "title": {
-      "en": "The Warrior Cursed Twice",
-      "hi": "दो बार शापित योद्धा"
+      "en": "Why Karna's Wheel Sank",
+      "hi": "कर्ण का पहिया क्यों धँसा?"
+    },
+    "titleLines": {
+      "en": [
+        "Why Karna’s",
+        "Wheel Sank"
+      ],
+      "hi": [
+        "कर्ण का पहिया",
+        "क्यों धँसा?"
+      ]
     }
   },
   "scenes": [
     {
+      "id": "s00",
+      "beat": 0,
+      "type": "title-card",
+      "background": "parchment-card",
+      "characters": [],
+      "props": [
+        {
+          "id": "shaap-stamp",
+          "x": 0.44,
+          "y": 0.42,
+          "scale": 1.2,
+          "action": "stamp-in"
+        }
+      ],
+      "overlay": "folk-art-border",
+      "camera": {
+        "move": "static"
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "fixedDurationSec": 1.0,
+      "onScreenText": {
+        "en": "CURSED V",
+        "hi": "शाप V",
+        "style": "stamp-gold"
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "at": 0,
+          "volume": 0.7
+        },
+        {
+          "id": "stamp-thud",
+          "at": 0.15,
+          "volume": 0.9
+        }
+      ],
+      "transition": "border-wipe",
+      "notes": "Series sting, reused in every S01 episode. Border closes in, stamp lands.",
+      "music": 0.6
+    },
+    {
       "id": "s01",
       "beat": 1,
+      "type": "prop-hero",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 20
+        },
+        {
+          "type": "dust",
+          "n": 25
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "sunk-wheel",
+          "x": 0.5,
+          "y": 0.58,
+          "scale": 1.5,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "shake-then-zoom",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.5,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "Everyone knows Karna's wheel sank. Few ask why.",
+        "hi": "कर्ण का पहिया धँसा, सब जानते हैं। क्यों धँसा, कम लोग पूछते हैं।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "Few",
+            "hi": "क्यों"
+          },
+          "do": "hard-cut-to",
+          "target": "s01b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-boom-deep",
+          "at": 0,
+          "volume": 0.8
+        },
+        {
+          "id": "battle-distant",
+          "at": 0,
+          "volume": 0.3
+        }
+      ],
+      "transition": "cut",
+      "notes": "Close on a chariot wheel, half swallowed by cracked red earth."
+    },
+    {
+      "id": "s01b",
+      "beat": 1,
       "type": "character",
-      "background": "background-id",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 20
+        },
+        {
+          "type": "dust",
+          "n": 20
+        }
+      ],
       "characters": [
         {
-          "id": "character-id",
-          "pose": "standing",
-          "expression": "neutral",
+          "id": "karna",
+          "pose": "pulling-wheel",
+          "x": 0.56,
+          "y": 0.82,
+          "scale": 1.1,
+          "flip": true,
+          "action": "still",
+          "expression": "strain"
+        }
+      ],
+      "props": [
+        {
+          "id": "sunk-wheel",
+          "x": 0.34,
+          "y": 0.7,
+          "scale": 0.75,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.06,
+        "to": 1.0,
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": {
+        "en": "Karna",
+        "hi": "कर्ण",
+        "style": "name-tag"
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0,
+          "volume": 0.45
+        }
+      ],
+      "transition": "flash-white",
+      "notes": "Pull back: Karna, both hands on it, cannot lift it."
+    },
+    {
+      "id": "s02",
+      "beat": 2,
+      "type": "character",
+      "background": "mahendra-ashram",
+      "light": "dawn",
+      "fx": [],
+      "characters": [
+        {
+          "id": "karna",
+          "pose": "folded-hands",
           "x": 0.5,
-          "y": 0.62,
-          "scale": 1,
+          "y": 1.36,
+          "scale": 2.3,
           "flip": false,
-          "action": "idle"
+          "action": "still",
+          "expression": "uneasy"
         }
       ],
       "props": [],
       "camera": {
         "move": "slow-zoom-in",
         "from": 1.0,
-        "to": 1.08
+        "to": 1.05
+      },
+      "narration": {
+        "en": "It began with a lie, a cow, and an insect.",
+        "hi": "वजह थी: एक झूठ, एक गाय, और एक कीड़ा।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "cow",
+            "hi": "गाय"
+          },
+          "do": "hard-cut-to",
+          "target": "s02b"
+        },
+        {
+          "onWord": {
+            "en": "insect",
+            "hi": "कीड़ा"
+          },
+          "do": "hard-cut-to",
+          "target": "s02c"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "onWord": {
+            "en": "lie",
+            "hi": "झूठ"
+          },
+          "volume": 0.5,
+          "offset": 0
+        }
+      ],
+      "transition": "cut",
+      "notes": "Trailer 1/3, the lie: close on Karna's joined palms and a glance aside."
+    },
+    {
+      "id": "s02b",
+      "beat": 2,
+      "type": "prop-hero",
+      "background": "sea-shore",
+      "light": "dawn",
+      "fx": [],
+      "characters": [],
+      "props": [
+        {
+          "id": "homa-cow",
+          "x": 0.5,
+          "y": 0.62,
+          "scale": 1.4,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05
       },
       "narration": {
         "en": "",
         "hi": ""
       },
       "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "at": 0,
+          "volume": 0.5
+        },
+        {
+          "id": "temple-bells",
+          "at": 0,
+          "volume": 0.3
+        }
+      ],
+      "transition": "cut",
+      "notes": "Trailer 2/3: the cow, alive and garlanded, a bell at her neck."
+    },
+    {
+      "id": "s02c",
+      "beat": 2,
+      "type": "prop-hero",
+      "background": "mahendra-ashram",
+      "backgroundVariant": "night",
+      "light": "night",
+      "fx": [],
+      "characters": [],
+      "props": [
+        {
+          "id": "alarka-worm",
+          "x": 0.5,
+          "y": 0.55,
+          "scale": 1.6,
+          "action": "sway"
+        }
+      ],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "at": 0,
+          "volume": 0.6
+        }
+      ],
+      "transition": "flash-white",
+      "notes": "Trailer 3/3: the insect (Shanti 3: eight feet, fangs, needle bristles), very close."
+    },
+    {
+      "id": "s03",
+      "beat": 3,
+      "type": "character",
+      "background": "hastinapura-palace",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 12
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "drawing-bow",
+          "x": 0.64,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": false,
+          "action": "draw-bow",
+          "expression": "calm"
+        },
+        {
+          "id": "karna",
+          "pose": "watching",
+          "x": 0.22,
+          "y": 0.9,
+          "scale": 0.95,
+          "flip": false,
+          "action": "still",
+          "expression": "envious"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "To match Arjuna, Karna asked Drona for the Brahmastra. Drona refused.",
+        "hi": "अर्जुन की बराबरी के लिए कर्ण ने द्रोण से ब्रह्मास्त्र माँगा। द्रोण ने मना कर दिया।"
+      },
+      "onScreenText": {
+        "en": "Arjuna",
+        "hi": "अर्जुन",
+        "style": "name-tag"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "Karna",
+            "hi": "कर्ण"
+          },
+          "do": "hard-cut-to",
+          "target": "s03b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "bowstring-creak",
+          "at": 0.1,
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "Arjuna draws; Karna watches from behind. Shanti 2 (CE 12.2.9)."
+    },
+    {
+      "id": "s03b",
+      "beat": 3,
+      "type": "character",
+      "background": "hastinapura-palace",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 12
+        }
+      ],
+      "characters": [
+        {
+          "id": "karna",
+          "pose": "asking",
+          "x": 0.28,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": false,
+          "action": "breathe",
+          "expression": "earnest"
+        },
+        {
+          "id": "drona",
+          "pose": "refusing",
+          "x": 0.7,
+          "y": 0.9,
+          "scale": 1.0,
+          "flip": true,
+          "action": "breathe",
+          "expression": "stern"
+        }
+      ],
+      "props": [
+        {
+          "id": "astra-ring",
+          "x": 0.5,
+          "y": 0.36,
+          "scale": 0.6,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.6,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": {
+        "en": "Drona",
+        "hi": "द्रोण",
+        "style": "name-tag",
+        "sub": {
+          "en": "teacher of Arjuna and Karna",
+          "hi": "अर्जुन और कर्ण के गुरु"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "Brahmastra",
+            "hi": "ब्रह्मास्त्र"
+          },
+          "do": "stamp-in",
+          "target": "astra-ring"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "onWord": {
+            "en": "Brahmastra",
+            "hi": "ब्रह्मास्त्र"
+          },
+          "volume": 0.5,
+          "offset": 0
+        },
+        {
+          "id": "gong-soft",
+          "onWord": {
+            "en": "refused",
+            "hi": "मना"
+          },
+          "volume": 0.6,
+          "offset": 0
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "Karna asks; the weapon glows between them; Drona's palm says no. CE 12.2.9-13."
+    },
+    {
+      "id": "s04",
+      "beat": 4,
+      "type": "character",
+      "background": "mahendra-ashram",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.7,
+          "y": 0.2,
+          "color": "#FFE6B0"
+        }
+      ],
+      "characters": [
+        {
+          "id": "karna",
+          "pose": "folded-hands",
+          "x": 0.28,
+          "y": 0.84,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "calm"
+        },
+        {
+          "id": "parashurama",
+          "pose": "standing-axe",
+          "x": 0.7,
+          "y": 0.84,
+          "scale": 1.05,
+          "flip": true,
+          "action": "breathe",
+          "expression": "stern"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "So he went to Parashurama, and lied: \"I am a Brahmin.\"",
+        "hi": "तो वो परशुराम के पास गए, और झूठ बोले: \"मैं ब्राह्मण हूँ।\""
+      },
+      "onScreenText": {
+        "en": "Parashurama",
+        "hi": "परशुराम",
+        "style": "name-tag",
+        "sub": {
+          "en": "Mount Mahendra",
+          "hi": "महेन्द्र पर्वत"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "lied",
+            "hi": "झूठ"
+          },
+          "do": "hard-cut-to",
+          "target": "s04b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "onWord": {
+            "en": "Parashurama",
+            "hi": "परशुराम"
+          },
+          "volume": 0.5,
+          "offset": 0
+        }
+      ],
+      "transition": "cut",
+      "notes": "Plain student's cloth, no crown: he has come disguised. CE 12.2.14-16."
+    },
+    {
+      "id": "s04b",
+      "beat": 4,
+      "type": "character",
+      "background": "mahendra-ashram",
+      "light": "dawn",
+      "fx": [],
+      "characters": [
+        {
+          "id": "karna",
+          "pose": "folded-hands",
+          "x": 0.46,
+          "y": 1.36,
+          "scale": 2.3,
+          "flip": false,
+          "action": "still",
+          "expression": "uneasy",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0,
+          "volume": 0.5
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "Close: he says it. Lip-sync on the quote."
+    },
+    {
+      "id": "s05",
+      "beat": 5,
+      "type": "character",
+      "background": "sea-shore",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 10
+        }
+      ],
+      "characters": [
+        {
+          "id": "karna",
+          "pose": "student-bow",
+          "x": 0.2,
+          "y": 0.84,
+          "scale": 0.85,
+          "flip": false,
+          "action": "still",
+          "expression": "calm"
+        }
+      ],
+      "props": [
+        {
+          "id": "glowing-arrow",
+          "x": 0.48,
+          "y": 0.5,
+          "scale": 0.55,
+          "action": "glint"
+        },
+        {
+          "id": "homa-cow",
+          "x": 0.76,
+          "y": 0.67,
+          "scale": 0.55,
+          "action": "graze"
+        }
+      ],
+      "camera": {
+        "move": "slow-pan-right",
+        "from": 0.0,
+        "to": 0.03
+      },
+      "narration": {
+        "en": "One day he killed a Brahmin's cow by accident, and begged forgiveness.",
+        "hi": "एक दिन अनजाने में उन्होंने एक ब्राह्मण की गाय मार दी, और क्षमा माँगी।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "accident",
+            "hi": "गाय"
+          },
+          "do": "hard-cut-to",
+          "target": "s05b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "arrow-whoosh-magic",
+          "onWord": {
+            "en": "killed",
+            "hi": "अनजाने"
+          },
+          "volume": 0.6,
+          "offset": 0
+        }
+      ],
+      "transition": "cut",
+      "notes": "He practises by the sea; far off, half hidden by dunes, a cow. The arrow is in the air. No hit shown. CE 12.2.19-20 (arrow: Karna Parva 8.29.33)."
+    },
+    {
+      "id": "s05b",
+      "beat": 5,
+      "type": "character",
+      "background": "sea-shore",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [],
+      "characters": [
+        {
+          "id": "karna",
+          "pose": "kneeling-pleading",
+          "x": 0.26,
+          "y": 0.84,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "stricken"
+        },
+        {
+          "id": "homa-brahmin",
+          "pose": "standing-grief",
+          "x": 0.72,
+          "y": 0.84,
+          "scale": 1.0,
+          "flip": true,
+          "action": "breathe",
+          "expression": "stern"
+        }
+      ],
+      "props": [
+        {
+          "id": "cow-bell",
+          "x": 0.5,
+          "y": 0.82,
+          "scale": 0.5,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "at": 0,
+          "volume": 0.35
+        }
+      ],
+      "music": 0.6,
+      "transition": "cut",
+      "notes": "A bell and a broken garland on the sand between them: all we see of the death. He owns up and begs. CE 12.2.21-22."
+    },
+    {
+      "id": "s06",
+      "beat": 6,
+      "type": "character",
+      "background": "sea-shore",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "sparks",
+          "n": 14
+        }
+      ],
+      "characters": [
+        {
+          "id": "homa-brahmin",
+          "pose": "cursing",
+          "x": 0.5,
+          "y": 1.12,
+          "scale": 1.6,
+          "flip": true,
+          "action": "raise-hand",
+          "expression": "furious",
+          "speaking": true
+        }
+      ],
+      "props": [
+        {
+          "id": "shaap-stamp",
+          "x": 0.5,
+          "y": 0.26,
+          "scale": 0.7,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "shake-then-zoom",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.45
+        ]
+      },
+      "narration": {
+        "en": "But the Brahmin cursed him: \"When you face your rival, the earth will swallow your wheel. Careless, you killed her. Careless, you'll die.\"",
+        "hi": "पर ब्राह्मण ने शाप दिया: \"जिससे तेरी होड़ है, उससे लड़ते समय धरती तेरा पहिया निगलेगी। असावधानी में मारा है, असावधानी में मरेगा।\""
+      },
+      "onScreenText": {
+        "en": "CURSED",
+        "hi": "शाप",
+        "style": "stamp-gold"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "do": "stamp-next",
+          "target": "shaap-stamp"
+        },
+        {
+          "onWord": {
+            "en": "earth",
+            "hi": "धरती"
+          },
+          "do": "hard-cut-to",
+          "target": "s06b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "thunder-crack",
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "volume": 0.6,
+          "offset": 0
+        },
+        {
+          "id": "stamp-thud",
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "volume": 0.8,
+          "offset": 0.1
+        }
+      ],
+      "music": 1.1,
+      "transition": "cut",
+      "notes": "The Brahmin, waist-up. First stamp. CE 12.2.23-26."
+    },
+    {
+      "id": "s06b",
+      "beat": 6,
+      "type": "character",
+      "background": "sea-shore",
+      "backgroundVariant": "night",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.62,
+          "y": 0.62,
+          "r": 0.3,
+          "color": "#E07A2E",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "karna",
+          "pose": "kneeling-pleading",
+          "x": 0.24,
+          "y": 0.84,
+          "scale": 0.95,
+          "flip": false,
+          "action": "still",
+          "expression": "stricken"
+        }
+      ],
+      "props": [
+        {
+          "id": "wheel-light",
+          "x": 0.64,
+          "y": 0.56,
+          "scale": 1.05,
+          "action": "fall"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-boom-deep",
+          "at": 0.1,
+          "volume": 0.6
+        },
+        {
+          "id": "heartbeat",
+          "onWord": {
+            "en": "Careless",
+            "hi": "असावधानी"
+          },
+          "volume": 0.6,
+          "offset": 0
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "His words as a vision: a wheel drawn in light sinks into the sand before the kneeling Karna."
+    },
+    {
+      "id": "s07",
+      "beat": 7,
+      "type": "character",
+      "background": "mahendra-ashram",
+      "backgroundVariant": "night",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "stars",
+          "n": 35
+        },
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.4,
+          "r": 0.3,
+          "color": "#E8B53A",
+          "pulse": true
+        },
+        {
+          "type": "sparks",
+          "n": 14
+        }
+      ],
+      "characters": [
+        {
+          "id": "karna",
+          "pose": "folded-hands",
+          "x": 0.24,
+          "y": 0.84,
+          "scale": 0.95,
+          "flip": false,
+          "action": "breathe",
+          "expression": "awed"
+        },
+        {
+          "id": "parashurama",
+          "pose": "teaching",
+          "x": 0.74,
+          "y": 0.84,
+          "scale": 1.05,
+          "flip": true,
+          "action": "breathe",
+          "expression": "kind"
+        }
+      ],
+      "props": [
+        {
+          "id": "astra-ring",
+          "x": 0.5,
+          "y": 0.4,
+          "scale": 1.0,
+          "action": "circle"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.42
+        ]
+      },
+      "narration": {
+        "en": "Still, Parashurama taught him the weapon.",
+        "hi": "फिर भी परशुराम ने उन्हें ब्रह्मास्त्र सिखा दिया।"
+      },
+      "onScreenText": {
+        "en": "The Brahmastra",
+        "hi": "ब्रह्मास्त्र",
+        "style": "name-tag"
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "at": 0.1,
+          "volume": 0.6
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "The weapon as a blazing ring between guru and pupil. CE 12.3.1-3."
+    },
+    {
+      "id": "s08",
+      "beat": 8,
+      "type": "character",
+      "background": "mahendra-ashram",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 8
+        }
+      ],
+      "characters": [
+        {
+          "id": "karna",
+          "pose": "guru-on-lap",
+          "x": 0.5,
+          "y": 0.84,
+          "scale": 1.15,
+          "flip": false,
+          "action": "still",
+          "expression": "calm"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "One day his guru slept with his head in Karna's lap. An insect bored into Karna's thigh. To let him sleep, Karna didn't move.",
+        "hi": "एक दिन गुरु उनकी गोद में सिर रखकर सोए थे। एक कीड़ा कर्ण की जाँघ में घुसने लगा। गुरु न जागें, इसलिए कर्ण हिले तक नहीं।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "insect",
+            "hi": "कीड़ा"
+          },
+          "do": "hard-cut-to",
+          "target": "s08b"
+        },
+        {
+          "onWord": {
+            "en": "sleep",
+            "hi": "जागें"
+          },
+          "do": "hard-cut-to",
+          "target": "s08c"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "wind-desolate",
+          "at": 0,
+          "volume": 0.2
+        }
+      ],
+      "music": 0.6,
+      "transition": "cut",
+      "notes": "One combined drawing: Karna seated, Parashurama asleep with his head in his lap. CE 12.3.4-5."
+    },
+    {
+      "id": "s08b",
+      "beat": 8,
+      "type": "prop-hero",
+      "background": "mahendra-ashram",
+      "light": "dawn",
+      "fx": [],
+      "characters": [],
+      "props": [
+        {
+          "id": "worm-on-thigh",
+          "x": 0.5,
+          "y": 0.55,
+          "scale": 1.6,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0,
+          "volume": 0.6
+        }
+      ],
+      "music": 0.5,
+      "transition": "cut",
+      "notes": "Close: the insect on the folded cloth over his thigh, one thin red line. No wound. CE 12.3.6-7."
+    },
+    {
+      "id": "s08c",
+      "beat": 8,
+      "type": "character",
+      "background": "mahendra-ashram",
+      "light": "dawn",
+      "fx": [],
+      "characters": [
+        {
+          "id": "karna",
+          "pose": "enduring",
+          "x": 0.5,
+          "y": 1.38,
+          "scale": 2.4,
+          "flip": false,
+          "action": "still",
+          "expression": "pained"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0,
+          "volume": 0.7
+        }
+      ],
+      "music": 0.4,
+      "transition": "flash-white",
+      "notes": "Close: jaw clenched, one tear, not a tremor. CE 12.3.8-9."
+    },
+    {
+      "id": "s09",
+      "beat": 9,
+      "type": "character",
+      "background": "mahendra-ashram",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "sparks",
+          "n": 10
+        }
+      ],
+      "characters": [
+        {
+          "id": "karna",
+          "pose": "bowed",
+          "x": 0.28,
+          "y": 0.84,
+          "scale": 1.0,
+          "flip": false,
+          "action": "breathe",
+          "expression": "afraid"
+        },
+        {
+          "id": "parashurama",
+          "pose": "accusing",
+          "x": 0.7,
+          "y": 0.84,
+          "scale": 1.1,
+          "flip": true,
+          "action": "point",
+          "expression": "furious",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05
+      },
+      "narration": {
+        "en": "His blood woke him. \"No Brahmin could bear such pain. Tell me the truth!\"",
+        "hi": "ख़ून छूते ही गुरु जाग गए: \"इतना दर्द कोई ब्राह्मण नहीं सह सकता। सच बता!\""
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "Tell",
+            "hi": "सच"
+          },
+          "do": "hard-cut-to",
+          "target": "s09b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "at": 0.1,
+          "volume": 0.6
+        }
+      ],
+      "music": 1.0,
+      "transition": "cut",
+      "notes": "Parashurama is on his feet. CE 12.3.10-11, 24-25."
+    },
+    {
+      "id": "s09b",
+      "beat": 9,
+      "type": "character",
+      "background": "mahendra-ashram",
+      "light": "fire",
+      "fx": [],
+      "characters": [
+        {
+          "id": "parashurama",
+          "pose": "accusing",
+          "x": 0.56,
+          "y": 1.4,
+          "scale": 2.3,
+          "flip": true,
+          "action": "still",
+          "expression": "furious",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "thunder-crack",
+          "at": 0,
+          "volume": 0.35
+        }
+      ],
+      "transition": "cut",
+      "notes": "Close on his eyes."
+    },
+    {
+      "id": "s10",
+      "beat": 10,
+      "type": "character",
+      "background": "mahendra-ashram",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [],
+      "characters": [
+        {
+          "id": "karna",
+          "pose": "bowed",
+          "x": 0.5,
+          "y": 1.02,
+          "scale": 1.45,
+          "flip": false,
+          "action": "still",
+          "expression": "ashamed",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "\"I'm a charioteer's son.\" The second curse fell: \"You lied for this weapon. At the hour of your death, it will fail you.\"",
+        "hi": "\"मैं सूतपुत्र हूँ।\" और दूसरा शाप मिला: \"इस अस्त्र के लिए तूने झूठ बोला। मृत्यु की घड़ी में ये साथ नहीं देगा।\""
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "second",
+            "hi": "दूसरा"
+          },
+          "do": "hard-cut-to",
+          "target": "s10b"
+        }
+      ],
+      "sfx": [],
+      "music": 0.5,
+      "transition": "flash-white",
+      "notes": "Waist-up: he tells the truth. CE 12.3.26-28."
+    },
+    {
+      "id": "s10b",
+      "beat": 10,
+      "type": "character",
+      "background": "mahendra-ashram",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "sparks",
+          "n": 14
+        },
+        {
+          "type": "glow",
+          "x": 0.36,
+          "y": 0.5,
+          "r": 0.22,
+          "color": "#E8B53A",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "karna",
+          "pose": "bowed",
+          "x": 0.24,
+          "y": 0.84,
+          "scale": 0.9,
+          "flip": false,
+          "action": "still",
+          "expression": "ashamed"
+        },
+        {
+          "id": "parashurama",
+          "pose": "cursing",
+          "x": 0.72,
+          "y": 0.84,
+          "scale": 1.1,
+          "flip": true,
+          "action": "raise-hand",
+          "expression": "furious",
+          "speaking": true
+        }
+      ],
+      "props": [
+        {
+          "id": "shaap-stamp",
+          "x": 0.5,
+          "y": 0.24,
+          "scale": 0.7,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "shake-then-zoom",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": {
+        "en": "CURSED",
+        "hi": "शाप",
+        "style": "stamp-gold"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "curse",
+            "hi": "शाप"
+          },
+          "do": "stamp-next",
+          "target": "shaap-stamp"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "thunder-crack",
+          "onWord": {
+            "en": "curse",
+            "hi": "शाप"
+          },
+          "volume": 0.6,
+          "offset": 0
+        },
+        {
+          "id": "stamp-thud",
+          "onWord": {
+            "en": "curse",
+            "hi": "शाप"
+          },
+          "volume": 0.8,
+          "offset": 0.1
+        },
+        {
+          "id": "glass-crack",
+          "onWord": {
+            "en": "fail",
+            "hi": "साथ"
+          },
+          "volume": 0.5,
+          "offset": 0
+        }
+      ],
+      "music": 1.1,
+      "transition": "fade-to-night",
+      "notes": "Second stamp. CE 12.3.29-31."
+    },
+    {
+      "id": "s11",
+      "beat": 11,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 25
+        },
+        {
+          "type": "dust",
+          "n": 20
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "drawing-bow",
+          "x": 0.22,
+          "y": 0.82,
+          "scale": 0.95,
+          "flip": false,
+          "action": "draw-bow",
+          "expression": "fierce"
+        },
+        {
+          "id": "karna",
+          "pose": "drawing-bow",
+          "x": 0.76,
+          "y": 0.82,
+          "scale": 0.95,
+          "flip": true,
+          "action": "draw-bow",
+          "expression": "fierce"
+        }
+      ],
+      "props": [
+        {
+          "id": "battle-silhouettes",
+          "x": 0.5,
+          "y": 0.63,
+          "scale": 0.9,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "At Kurukshetra, facing Arjuna, both curses came due. The wheel sank. The weapon wouldn't come.",
+        "hi": "कुरुक्षेत्र में, अर्जुन के सामने, दोनों शाप साथ फले। पहिया धँस गया। अस्त्र प्रकट न हुआ।"
+      },
+      "onScreenText": {
+        "en": "Kurukshetra",
+        "hi": "कुरुक्षेत्र",
+        "style": "name-tag",
+        "sub": {
+          "en": "Karna Parva",
+          "hi": "कर्ण पर्व"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "wheel",
+            "hi": "पहिया"
+          },
+          "do": "hard-cut-to",
+          "target": "s11b"
+        },
+        {
+          "onWord": {
+            "en": "weapon",
+            "hi": "अस्त्र"
+          },
+          "do": "hard-cut-to",
+          "target": "s11c"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "battle-distant",
+          "at": 0,
+          "volume": 0.4
+        },
+        {
+          "id": "arrow-whoosh-magic",
+          "at": 0.4,
+          "volume": 0.5
+        }
+      ],
+      "music": 1.2,
+      "transition": "cut",
+      "notes": "The duel. CE 8.66."
+    },
+    {
+      "id": "s11b",
+      "beat": 11,
+      "type": "prop-hero",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 30
+        },
+        {
+          "type": "embers",
+          "n": 15
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "sunk-wheel",
+          "x": 0.5,
+          "y": 0.58,
+          "scale": 1.5,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "shake-then-zoom",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-boom-deep",
+          "at": 0,
+          "volume": 0.9
+        }
+      ],
+      "transition": "cut",
+      "notes": "Curse 1: the hook's image again. CE 8.66.42."
+    },
+    {
+      "id": "s11c",
+      "beat": 11,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 15
+        }
+      ],
+      "characters": [
+        {
+          "id": "karna",
+          "pose": "empty-hand",
+          "x": 0.5,
+          "y": 1.12,
+          "scale": 1.6,
+          "flip": true,
+          "action": "still",
+          "expression": "stricken"
+        }
+      ],
+      "props": [
+        {
+          "id": "astra-ring-dark",
+          "x": 0.4,
+          "y": 0.3,
+          "scale": 0.75,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.45
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "glass-crack",
+          "at": 0.1,
+          "volume": 0.5
+        }
+      ],
+      "music": 0.5,
+      "transition": "cut",
+      "notes": "Curse 2: he calls; the ring above his palm stays dark and cracked. CE 8.66.42."
+    },
+    {
+      "id": "s12",
+      "beat": 12,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 20
+        },
+        {
+          "type": "dust",
+          "n": 20
+        }
+      ],
+      "characters": [
+        {
+          "id": "karna",
+          "pose": "pulling-wheel",
+          "x": 0.58,
+          "y": 0.82,
+          "scale": 1.15,
+          "flip": true,
+          "action": "still",
+          "expression": "strain"
+        }
+      ],
+      "props": [
+        {
+          "id": "sunk-wheel",
+          "x": 0.35,
+          "y": 0.69,
+          "scale": 0.8,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "While the wheel held him, as the Brahmin had said, Arjuna's arrow struck.",
+        "hi": "कर्ण पहिये में उलझे थे, और जैसा ब्राह्मण ने कहा था, अर्जुन का बाण आ लगा।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "wheel",
+            "hi": "पहिये"
+          },
+          "do": "pull-fail",
+          "target": "karna"
+        },
+        {
+          "onWord": {
+            "en": "Arjuna",
+            "hi": "अर्जुन"
+          },
+          "do": "hard-cut-to",
+          "target": "s12b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0.2,
+          "volume": 0.6
+        }
+      ],
+      "music": 0.6,
+      "transition": "cut",
+      "notes": "CE 8.67.23, \"cakre visaktam\"."
+    },
+    {
+      "id": "s12b",
+      "beat": 12,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 20
+        },
+        {
+          "type": "sparks",
+          "n": 20
+        }
+      ],
+      "characters": [
+        {
+          "id": "arjuna",
+          "pose": "drawing-bow",
+          "x": 0.4,
+          "y": 1.12,
+          "scale": 1.6,
+          "flip": false,
+          "action": "still",
+          "expression": "fierce"
+        }
+      ],
+      "props": [
+        {
+          "id": "glowing-arrow",
+          "x": 0.7,
+          "y": 0.5,
+          "scale": 0.7,
+          "action": "glint"
+        }
+      ],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.6,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "arrow-whoosh-magic",
+          "at": 0.1,
+          "volume": 0.9
+        }
+      ],
+      "transition": "flash-white",
+      "notes": "We stay on Arjuna; the arrow leaves and the screen goes white. The death itself isn't shown."
+    },
+    {
+      "id": "s13",
+      "beat": 13,
+      "type": "prop-hero",
+      "background": "sea-shore",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [],
+      "characters": [],
+      "props": [
+        {
+          "id": "cow-bell",
+          "x": 0.5,
+          "y": 0.6,
+          "scale": 1.3,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05
+      },
+      "narration": {
+        "en": "A cow killed by accident took his wheel. A lie exposed by an insect took his weapon.",
+        "hi": "अनजाने में मरी गाय ने पहिया छीना। और कीड़े से खुले झूठ ने, अस्त्र।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "wheel",
+            "hi": "पहिया"
+          },
+          "do": "hard-cut-to",
+          "target": "s13b"
+        },
+        {
+          "onWord": {
+            "en": "lie",
+            "hi": "कीड़े"
+          },
+          "do": "hard-cut-to",
+          "target": "s13c"
+        },
+        {
+          "onWord": {
+            "en": "took",
+            "hi": "झूठ"
+          },
+          "do": "hard-cut-to",
+          "target": "s13d",
+          "nth": {
+            "en": 2,
+            "hi": 1
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "at": 0,
+          "volume": 0.4
+        }
+      ],
+      "music": 0.6,
+      "transition": "cut",
+      "notes": "The cow's bell on the sand."
+    },
+    {
+      "id": "s13b",
+      "beat": 13,
+      "type": "prop-hero",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 10
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "sunk-wheel",
+          "x": 0.5,
+          "y": 0.6,
+          "scale": 1.1,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.05,
+        "to": 1.0
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
       "sfx": [],
       "transition": "cut",
-      "notes": ""
+      "notes": "The wheel, alone now."
+    },
+    {
+      "id": "s13c",
+      "beat": 13,
+      "type": "prop-hero",
+      "background": "mahendra-ashram",
+      "backgroundVariant": "night",
+      "light": "night",
+      "fx": [],
+      "characters": [],
+      "props": [
+        {
+          "id": "alarka-worm",
+          "x": 0.5,
+          "y": 0.55,
+          "scale": 1.5,
+          "action": "sway"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "cut",
+      "notes": "The insect from the trailer."
+    },
+    {
+      "id": "s13d",
+      "beat": 13,
+      "type": "prop-hero",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.3,
+          "color": "#FFD1A0"
+        },
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.35,
+          "r": 0.25,
+          "color": "#E8B53A",
+          "pulse": true
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "astra-ring-dark",
+          "x": 0.5,
+          "y": 0.62,
+          "scale": 0.7,
+          "action": "still"
+        },
+        {
+          "id": "rising-lights",
+          "x": 0.5,
+          "y": 0.4,
+          "scale": 0.9,
+          "action": "ascend"
+        }
+      ],
+      "camera": {
+        "move": "crane-up",
+        "from": 0.0,
+        "to": -0.05
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "at": 0,
+          "volume": 0.5
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "The dark ring, and the light that rose from Karna (CE 8.67.27)."
+    },
+    {
+      "id": "s14",
+      "beat": 14,
+      "type": "prop-hero",
+      "background": "amaravati-court",
+      "backgroundVariant": "night",
+      "light": "silhouette",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 15
+        },
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.42,
+          "r": 0.3,
+          "color": "#E8B53A",
+          "pulse": true
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "nahusha-silhouette",
+          "x": 0.5,
+          "y": 0.6,
+          "scale": 1.1,
+          "action": "still"
+        },
+        {
+          "id": "shaap-stamp",
+          "x": 0.5,
+          "y": 0.26,
+          "scale": 0.7,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.1
+      },
+      "narration": {
+        "en": "Next: the king of heaven who became a snake.",
+        "hi": "अगली बार: स्वर्ग का वो राजा, जो साँप बन गया।"
+      },
+      "onScreenText": {
+        "en": "CURSED VI",
+        "hi": "शाप VI",
+        "style": "stamp-gold"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "snake",
+            "hi": "साँप"
+          },
+          "do": "stamp-next",
+          "target": "shaap-stamp"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "onWord": {
+            "en": "snake",
+            "hi": "साँप"
+          },
+          "volume": 0.9,
+          "offset": 0
+        }
+      ],
+      "overlay": "folk-art-border",
+      "transition": "cut-to-black",
+      "notes": "Tease for E06: a crowned king whose shadow is a serpent (Nahusha, CE 5.17.11-16)."
     }
   ],
   "assets": {
     "characters": [
       {
-        "id": "",
-        "status": "new | library"
+        "id": "karna",
+        "status": "new",
+        "poses": {
+          "pulling-wheel": "new",
+          "folded-hands": "new",
+          "watching": "new",
+          "asking": "new",
+          "student-bow": "new",
+          "kneeling-pleading": "new",
+          "guru-on-lap": "new",
+          "enduring": "new",
+          "bowed": "new",
+          "drawing-bow": "new",
+          "empty-hand": "new"
+        }
+      },
+      {
+        "id": "arjuna",
+        "status": "library",
+        "poses": {
+          "drawing-bow": "library"
+        }
+      },
+      {
+        "id": "drona",
+        "status": "new",
+        "poses": {
+          "refusing": "new"
+        }
+      },
+      {
+        "id": "parashurama",
+        "status": "new",
+        "poses": {
+          "standing-axe": "library",
+          "teaching": "new",
+          "accusing": "new",
+          "cursing": "new"
+        }
+      },
+      {
+        "id": "homa-brahmin",
+        "status": "new",
+        "poses": {
+          "standing-grief": "new",
+          "cursing": "new"
+        }
       }
     ],
     "backgrounds": [
       {
-        "id": "",
-        "status": "new | library"
+        "id": "parchment-card",
+        "status": "library"
+      },
+      {
+        "id": "red-sky-plain",
+        "status": "library"
+      },
+      {
+        "id": "mahendra-ashram",
+        "status": "new"
+      },
+      {
+        "id": "sea-shore",
+        "status": "new"
+      },
+      {
+        "id": "hastinapura-palace",
+        "status": "library"
+      },
+      {
+        "id": "amaravati-court",
+        "status": "library"
       }
     ],
     "props": [
       {
-        "id": "",
-        "status": "new | library"
+        "id": "sunk-wheel",
+        "status": "new"
+      },
+      {
+        "id": "homa-cow",
+        "status": "new"
+      },
+      {
+        "id": "alarka-worm",
+        "status": "new"
+      },
+      {
+        "id": "astra-ring",
+        "status": "library"
+      },
+      {
+        "id": "glowing-arrow",
+        "status": "library"
+      },
+      {
+        "id": "cow-bell",
+        "status": "new"
+      },
+      {
+        "id": "wheel-light",
+        "status": "new"
+      },
+      {
+        "id": "worm-on-thigh",
+        "status": "new"
+      },
+      {
+        "id": "battle-silhouettes",
+        "status": "library"
+      },
+      {
+        "id": "astra-ring-dark",
+        "status": "new"
+      },
+      {
+        "id": "rising-lights",
+        "status": "library"
+      },
+      {
+        "id": "nahusha-silhouette",
+        "status": "new"
+      }
+    ],
+    "overlays": [
+      {
+        "id": "folk-art-border",
+        "status": "library"
+      },
+      {
+        "id": "shaap-stamp",
+        "status": "library"
       }
     ]
   }

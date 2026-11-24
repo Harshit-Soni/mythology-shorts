@@ -17,7 +17,7 @@ export type CharRef = {
 
 export type PropRef = { id: string; x: number; y: number; scale: number; action?: string; light?: string };
 
-export type Cue = { onWord: L10n; do: string; target?: string; notes?: string };
+export type Cue = { onWord: L10n; nth?: { en?: number; hi?: number }; do: string; target?: string; notes?: string };
 
 // Sound pass. A plain string is a note (ignored unless assets/sfx/<id>.mp3 exists, then it plays at scene start).
 export type SfxRef = string | { id: string; onWord?: L10n; at?: number; offset?: number; volume?: number; notes?: string };

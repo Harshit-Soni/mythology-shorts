@@ -55,7 +55,7 @@ export const SceneView: React.FC<Props> = ({ seg, lang, fps, debug, estimated, g
     const f = fired.find((x) => x.kind === 'pull-fail' && (x.target ?? id) === id);
     return f && f.t < 0.9 ? 14 * Math.sin(f.t * 42) * (1 - f.t / 0.9) : 0;
   };
-  const speakingNow = seg.words.some((w) => w.inQuote && abs >= w.start && abs < w.end);
+  const speakingNow = (seg.heard ?? seg.words).some((w) => w.inQuote && abs >= w.start && abs < w.end);
 
   // scene light (Grade.tsx), per item so a character or prop can override it
   const lightOf = (own?: string) => { const k = own ?? sc.light; return k && k !== 'none' ? LIGHT[k] : undefined; };

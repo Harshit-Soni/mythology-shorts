@@ -12,7 +12,9 @@ export type Word = {
   idx: number; // index within its scene
   inQuote: boolean; // inside "..." -> spoken by an on-screen character
 };
-export type Segment = { scene: Scene; start: number; end: number; words: Word[] };
+// `heard`: on an insert shot, the words of its beat spoken while it is on screen (for cues, sfx and lip-sync).
+// They stay in the parent's `words` too, so captions and totals never count them twice.
+export type Segment = { scene: Scene; start: number; end: number; words: Word[]; heard?: Word[] };
 export type Timeline = { segments: Segment[]; words: Word[]; total: number; estimated: boolean };
 
 const RATE: Record<Lang, number> = { en: 2.6, hi: 3.0 }; // words per second (Hindi words are shorter)
@@ -96,7 +98,8 @@ function fromTimestamps(entry: EpisodeEntry, lang: Lang): Timeline | null {
 
 export function cueTime(seg: Segment, cue: Cue, lang: Lang): number {
   const target = norm(cue.onWord?.[lang] ?? '');
-  const w = target ? seg.words.find((x) => norm(x.text).includes(target)) : undefined;
+  const hits = target ? (seg.heard ?? seg.words).filter((x) => norm(x.text).includes(target)) : [];
+  const w = hits[(cue.nth?.[lang] ?? 1) - 1];
   return w ? w.start : seg.start + (seg.end - seg.start) * 0.5;
 }
 
@@ -115,15 +118,19 @@ export function buildTimeline(entry: EpisodeEntry, lang: Lang): Timeline {
     return { segments, words: segments.flatMap((s) => s.words), total: t, estimated: true };
   })();
 
-  // Hard cuts: "do": "hard-cut-to", "target": "<sceneId>" splits a beat into scene + insert shot.
+  // Hard cuts: "do": "hard-cut-to", "target": "<sceneId>" splits a beat into scene + insert shot(s).
+  // A beat may have several; they run in the order they are spoken.
   const byId = new Map(entry.spec.scenes.map((s) => [s.id, s]));
   const out: Segment[] = [];
   let shift = 0;
   for (const seg of base.segments) {
     const s = { ...seg, start: seg.start + shift, end: seg.end + shift, words: seg.words.map((w) => ({ ...w, start: w.start + shift, end: w.end + shift })) };
-    const cut = seg.scene.cues.find((c) => c.do === 'hard-cut-to' && c.target && byId.has(c.target));
-    if (!cut) { out.push(s); continue; }
-    const at = cueTime(s, cut, lang);
+    const cuts = seg.scene.cues
+      .filter((c) => c.do === 'hard-cut-to' && c.target && byId.has(c.target))
+      .map((c) => ({ cut: c, at: cueTime(s, c, lang) }))
+      .sort((a, b) => a.at - b.at);
+    if (!cuts.length) { out.push(s); continue; }
+    const { at } = cuts[cuts.length - 1];
     let insertEnd = s.end;
     if (insertEnd - at < MIN_INSERT) {
       // estimated timing: just add time. Real audio: never add time (it would desync the voice);
@@ -131,8 +138,11 @@ export function buildTimeline(entry: EpisodeEntry, lang: Lang): Timeline {
       if (base.estimated) shift += MIN_INSERT - (insertEnd - at);
       insertEnd = at + MIN_INSERT;
     }
-    out.push({ ...s, end: at });
-    out.push({ scene: byId.get(cut.target!)!, start: at, end: insertEnd, words: [] });
+    out.push({ ...s, end: cuts[0].at });
+    cuts.forEach(({ cut, at: from }, i) => {
+      const to = i + 1 < cuts.length ? cuts[i + 1].at : insertEnd;
+      out.push({ scene: byId.get(cut.target!)!, start: from, end: to, words: [], heard: s.words.filter((w) => w.start >= from - 0.001 && w.start < to) });
+    });
   }
   if (!base.estimated) for (let i = 1; i < out.length; i++) if (out[i].start < out[i - 1].end) out[i] = { ...out[i], start: out[i - 1].end };
   return { segments: out, words: out.flatMap((s) => s.words), total: base.total + shift, estimated: base.estimated };

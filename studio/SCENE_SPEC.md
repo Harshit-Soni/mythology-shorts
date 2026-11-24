@@ -26,7 +26,7 @@ Everything the renderer understands. If a storyboard needs something not listed 
 | `narration` | `{ en, hi }`: **copied verbatim from 02-script.md**. Words inside "quotes" count as spoken by a character |
 | `onScreenText` | `{ en, hi, style, anchor?, sub?, source? }` or `null` |
 | `overlay` | `folk-art-border` · `sepia-folk-frame` (screen-space, not affected by the camera) |
-| `cues[]` | `{ onWord: {en, hi}, do, target? }`: fires on the first narration word **containing** `onWord` (each language separately, so check that both words exist) |
+| `cues[]` | `{ onWord: {en, hi}, nth?: {en, hi}, do, target? }`: fires on the first narration word **containing** `onWord` (each language separately, so check that both words exist); `nth` picks a later occurrence. In an insert shot it's matched against the words spoken while that shot is up |
 | `transition` | how this scene hands over to the next (below) |
 | `fixedDurationSec` | only for scenes with no narration that aren't insert shots (the series sting) |
 | `sfx[]` | sound effects: `{ id, onWord?: {en, hi}, at?, offset?, volume? }`. Plays `assets/sfx/<id>.mp3` on the first narration word containing `onWord` (each language), else `at` seconds after the scene starts; `offset` nudges it. A plain string is a note until that file exists |
@@ -62,7 +62,7 @@ Everything the renderer understands. If a storyboard needs something not listed 
 | `pull-fail` | the target shakes |
 | `title-in` | `title-serif` text appears |
 | `write-on` | `law-inscription` text finishes writing at this word |
-| `hard-cut-to` | cut to the insert scene `target` at this word (that scene needs empty narration and the same beat) |
+| `hard-cut-to` | cut to the insert scene `target` at this word (that scene needs empty narration and the same beat). A beat can have several, all declared on its main scene; the inserts follow in spoken order. Lip-sync (`speaking`), cues and `sfx` words all work inside inserts |
 | anything else | ignored (safe to note intentions like `silence-beat`) |
 
 ## On-screen text styles

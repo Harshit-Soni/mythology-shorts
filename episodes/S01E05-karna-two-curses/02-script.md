@@ -65,7 +65,7 @@
 - **Beat 11:** CE 8.66.42 names both curses in one verse. "Would not come" / "प्रकट न हुआ" = *apratibhāti*. **Never "he forgot it"**: he invokes a Brahmastra again a few verses later (trap 1). **Likely viewer question; have the reply ready.**
 - **Beat 12:** *cakre viṣaktam*, caught up with the wheel (8.67.23). Not "unarmed", not "in the back" (trap 7). **Left out:** "Wait a moment", and Krishna's answer about Draupadi (rows 17–18), so this telling is gentler on Karna than the text. The pinned comment should carry Krishna's answer.
 - **Beat 13:** the wheel ← the cow's curse; the weapon ← the lie, which the insect exposed.
-- **Beat 14:** Nahusha, not yet researched for E06. "King of heaven" and "snake" are the series plan's outline; **check before voicing.**
+- **Beat 14:** checked 2026-11-24 in the critical edition: Nahusha, then lord of the gods, touches Agastya's head with his foot and is cursed to roam the earth as a great snake for ten thousand years ([CE 5.17.11–16](https://bombay.indology.info/mahabharata/text/UR/MBh05.txt)).
 
 ## Sensitivity
 - Karna's birth is stated once, in his own words, with no moral drawn. Drona's rule isn't in the script.
