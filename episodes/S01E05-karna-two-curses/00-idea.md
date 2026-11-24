@@ -1,0 +1,47 @@
+# S01E05: The Warrior Cursed Twice
+
+- **Series:** S01 Shraap: Curses That Shaped the Mahabharata (episode 5)
+- **Idea (one line):** To beat Arjuna, Karna lies about who he is to learn the Brahmastra from Parashurama. While he is there he earns two curses, and in his last battle with Arjuna both come due at once: the wheel sinks and the weapon won't come.
+- **Why it will work:**
+  - It pays off E04's tease ("Karna, cursed twice before the war began").
+  - Viewers already know the sunken chariot wheel. Few know it was a curse, or that a second one fell due with it. (The "start from the viewer's world" hook in `channel/research/gap-knowledge-stream-hanuman.md`.)
+  - The second curse turns on an irony: he is caught because he *endures* too much. Holding still so his guru can sleep is what gives him away.
+- **Created:** 2026-11-24
+
+## Angle (to be checked in research)
+*Nothing below is sourced yet; it's the working plan from the series notes and `curses-catalog.md` (#23, #24).*
+
+- **One spine:** he wants one weapon → he lies to get it → his time with the guru brings two curses → both are collected in the same battle.
+- **Two curses without a detour (the S01E04 lesson):** both must come out of the same quest. If the sources place the cow and the insect within his stay with Parashurama, they're two steps of one story. If they don't, keep one as the spine and cut the other to a line.
+- **Trailer line after the hook:** "a lie, a cow, and an insect": three odd, concrete things.
+- **Plant and pay off:** say the two curses so they can be recognised later, then land them one after the other in the last battle.
+- **Closing image:** end on the wheel from the hook, then tease E06 (Nahusha).
+- **Length:** about 60–75 s, roughly 13 beats.
+
+## Watch for in research
+- What Karna actually tells Parashurama about himself, and why he needs to.
+- Whose cow it is, how it dies, and the exact words of the curse.
+- The insect: what it is, where it bites, and how Parashurama realises.
+- The exact terms of the forgetting: *when* will the weapon fail him?
+- The last battle: does the text itself name both curses when the wheel sinks and the weapon fails?
+- **Bhudevi (Earth) cursing Karna** is a later/folk telling: never present it as scripture.
+- **Karna's caste:** "Suta's son" is a live, sensitive subject. Keep to the text's words, never mock his birth, and don't make a moral of it.
+
+## Shot design (from the 24 Nov gap analysis)
+- Change the picture about every 3–4 s, and show the noun being spoken (the cow, the insect, the wheel).
+- Vary shot sizes: close-ups of the wheel, the insect on the thigh and a face, not only full-body two-shots.
+
+## Reuse
+- **Characters:** Parashurama (2 poses), Arjuna, Brahmin rigs (Mandavya / Kindama).
+- **Props and sets:** `insect`, `war-chariot`, `gandiva`, `astra-ring`, `karna-silhouette`, `hermitage`, `red-sky-plain`.
+- **New:** Karna (full rig; only a silhouette exists), the cow, the sunk wheel (close-up), Parashurama asleep, and perhaps Krishna for the last battle.
+
+## Status
+- [ ] 1 Research (verified by me)
+- [ ] 2 Script (read aloud, EN + HI)
+- [ ] 3 Storyboard
+- [ ] 4 Assets
+- [ ] 5 Voice
+- [ ] 6 Render (watched on phone, sound on + off)
+- [ ] 7 Published (links in INDEX.md)
+- [ ] 8 Reviewed (7 days after upload)
