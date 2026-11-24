@@ -20,7 +20,7 @@
 
 **Opening:** the series sting (**शाप IV / CURSED IV**).
 
-**Accuracy:** every beat traces to the v1 research rows below. Ganga's curse (row 11) is Ganguli §189 and Gita Press 5.187; its critical-edition status is still TBC.
+**Accuracy:** every beat traces to the v1 research rows below. Ganga's curse (row 11) is Ganguli §189 and is in the critical edition (5.187.29–40, checked 2026-11-24).
 
 ## English
 | Beat | Narration | Visual idea | Research # |
@@ -71,6 +71,8 @@
 - **Beat 4:** shortens Shalva's "I won't take a bride another has won" (Udyoga §176).
 - **Beat 5:** "sworn never to marry" is Bhishma's own reason, "my firm vow that I cannot abandon" (§181). The script doesn't say Amba begged him (a popular detail, not in the text).
 - **Beat 6:** shortens "I will go… where I may myself slay Bhishma in battle" (§189).
+- **Beat 7: KNOWN ERROR (found 2026-11-24, recorded and rendered as is).** "For twelve years she did tapas, standing in the Yamuna" / "बारह बरस… यमुना के जल में खड़े होकर" says she stood in the river for all twelve years. The text (5.187.19–22): six months on air, **one year** standing in the Yamuna, one year on her toes; twelve years in all. **Proposed:** EN *For twelve years she did tapas, one of them standing in the Yamuna.* HI *बारह बरस उन्होंने तप किया, एक बरस यमुना के जल में खड़े रहकर।*
+- **Beat 8, place:** in the text Ganga meets her *after* the Yamuna, while she bathes at holy places in Vatsabhumi (5.187.23–29). The video keeps one riverbank; that's a visual compression, and the narration only says "rose from the water".
 - **Beat 8:** shortens Ganga's curse (§189): if she dies under this vow, she will become a river crooked in her course, dry for eight months.
 - **Beat 9:** Shiva's boon (§190), shortened.
 - **Beat 10:** the pyre (§190), shown only as a flame motif with a rising spark. Rebirth as Shikhandi: rows 15–16, in the text's own terms.

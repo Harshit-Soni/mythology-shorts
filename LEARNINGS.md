@@ -4,6 +4,8 @@ Lessons from making and publishing episodes. One line per lesson, with the episo
 
 ## Research & accuracy
 - Popular retellings often swap details: check the god, the weapon and the numbers against the primary text. S01E01: the epic says **Dharma**, not Yama; a **stake**, not a trident; the age limit is **14** in the critical edition. (S01E01)
+- Cutting a script can change its facts: "twelve years of tapas: …, standing in the Yamuna, …" became "twelve years… standing in the Yamuna" (the text: one year). After every cut, re-check each shortened line against its research row, in both languages. (S01E04 v2)
+- The BORI critical text is searchable at bombay.indology.info (`MBh<book>.txt`): check TBC items there. Ganguli's extra details (four fingers of earth, the left wheel) are often vulgate-only. (S01E05)
 - Translations can contradict themselves (Ganguli: "twelfth year" and "fourteen" in one speech): cross-check with the critical edition. (S01E01)
 
 ## Script & length

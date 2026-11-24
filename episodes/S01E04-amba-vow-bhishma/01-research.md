@@ -92,3 +92,10 @@
 | Babhruvahana, Ulupi | बभ्रुवाहन, उलूपी | Arjuna's son and wife (the curse's expiation) |
 | Kurukshetra | कुरुक्षेत्र | |
 | bed of arrows | शरशय्या | |
+
+## Critical-edition check (2026-11-24)
+Read in the BORI e-text while researching S01E05. This settles the items marked "crit. ed. TBC" above:
+- **Ganga's curse is in the critical edition:** [5.187.29–40](https://bombay.indology.info/mahabharata/text/UR/MBh05.txt) (crooked, water only in the rains; half of her becomes the river Amba in Vatsabhumi).
+- **The Vasus' curse, with Ganga's assent, is in the critical edition:** [14.82.8–19](https://bombay.indology.info/mahabharata/text/UR/MBh14.txt).
+- **Amba resolves on revenge before she meets Parashurama** (5.173.8, "by tapas or by battle"); after the duel she says she'll bring Bhishma down herself (5.187.9).
+- **Still unchecked:** Bhishma's own vow (row 0).

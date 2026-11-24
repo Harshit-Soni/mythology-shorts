@@ -8,7 +8,7 @@ Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
 
 **Accuracy:**
 - The Amba story is in the critical edition (the Ambopakhyana).
-- **Ganga's curse** is in Ganguli and the Gita Press text; its critical-edition status is still TBC (see research).
+- **Ganga's curse** is in the critical edition too (5.187.29–40, checked 2026-11-24).
 - v2 leaves out Parashurama's duel and the Vasus' curse. The pinned comment and the replies below bring them in.
 - The copy keeps clear of two popular inventions:
   - the lotus garland
@@ -47,7 +47,7 @@ Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
   > #Mahabharata #Bhishma #MahabharataCurses #IndianMythology #TheLostGyaan
 - **Hashtags (the first three show above the title):** #Mahabharata #Bhishma #MahabharataCurses #IndianMythology #TheLostGyaan
 - **Playlist:** Shraap: Curses of the Mahabharata
-- **Pinned comment:** What the video skipped: before her vow, Amba went to Parashurama, Bhishma's own teacher. He fought his pupil for her for 23 days, and lost (Udyoga §185–188). Only then did she take the vow herself. 🏹 Was Bhishma right to keep his vow, even then? 👇
+- **Pinned comment:** What the video skipped: before her tapas, Amba went to Parashurama, Bhishma's own teacher. He fought his pupil for her for 23 days, and lost (Udyoga §185–188). Only then did she say she would bring Bhishma down herself. 🏹 Was Bhishma right to keep his vow, even then? 👇
 
 ## YouTube Shorts: Hindi (`@thelostgyaan`)
 *Hindi posting copy is in Roman script (Hinglish), by the owner's choice (2026-11-16). The video stays in Devanagari.*
@@ -72,7 +72,7 @@ Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
   > #Mahabharat #Bhishma #MahabharatKeShraap #Shraap #TheLostGyaan
 - **Hashtags:** #Mahabharat #Bhishma #MahabharatKeShraap #Shraap #TheLostGyaan
 - **Playlist:** Shraap: Mahabharat Ke Shraap
-- **Pinned comment:** Jo video mein nahi aaya: pratigya se pehle Amba Parashuram ke paas gayi, jo Bhishma ke apne guru the. Guru apne shishya se Amba ke liye 23 din lade, aur haar gaye (Udyog Parv §185–188). Tab jaakar Amba ne khud pratigya li. 🏹 Kya Bhishma ka apni pratigya par tike rehna sahi tha? 👇
+- **Pinned comment:** Jo video mein nahi aaya: tap se pehle Amba Parashuram ke paas gayi, jo Bhishma ke apne guru the. Guru apne shishya se Amba ke liye 23 din lade, aur haar gaye (Udyog Parv §185–188). Tab jaakar Amba ne kaha ki Bhishma ko woh khud giraayegi. 🏹 Kya Bhishma ka apni pratigya par tike rehna sahi tha? 👇
 
 ## Instagram Reel: Hindi (`@thelostgyaaann`)
 - **Caption:**
