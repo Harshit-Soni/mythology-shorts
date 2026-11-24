@@ -18,7 +18,7 @@ Episode 3 of **S01 Shraap: Curses of the Mahabharata**.
 - **Popular text only:** Urvashi's visit and curse appear only in the popular (*vulgate*) text (Ganguli, Vana §45–46). The BORI critical edition leaves them out. The video says so once ("प्रचलित कथा के अनुसार…"), and the copy below says it too.
 - **Core text:** everything from the dice terms onward is in the core text.
 
-**Accounts:** Hindi = `@thelostgyaan` (YouTube) and `@thelostgyaann` (Instagram), English = `@thelostgyaan_en` (YouTube).
+**Accounts:** Hindi = `@thelostgyaan` (YouTube) and `@thelostgyaaann` (Instagram), English = `@thelostgyaan_en` (YouTube).
 
 **When:** **Hindi Sun 29 Nov 7:30 PM, English Mon 30 Nov 7:30 AM IST**: the same evening/morning pattern as E01 and E02, a few days after E02, so its tease pays off quickly.
 
@@ -81,12 +81,12 @@ Episode 3 of **S01 Shraap: Curses of the Mahabharata**.
 - **Playlist:** Shraap: Mahabharat Ke Shraap
 - **Pinned comment:** Ek sachchi baat: Urvashi ka shraap Mahabharat ke prachalit paath mein hai, par vidvaanon ke critical edition mein nahi. Haan, swarg mein Arjun ka nritya seekhna wahan bhi hai, aur Indra kehte hain yeh "tumhare kaam aayega." 🤔 Aur jab Uttar ko yakeen nahi hua, toh Arjun ne apne das naam ginaaye: Arjun, Phalgun, Jishnu, Kiriti, Shvetvahan, Vibhatsu, Vijay, Krishna, Savyasachi aur Dhananjay. Aapko inmein se kaunsa naam pata tha? 👇
 
-## Instagram Reel: Hindi (`@thelostgyaann`)
+## Instagram Reel: Hindi (`@thelostgyaaann`)
 - **Caption:**
   > Arjun ne apsara Urvashi ko "maa" kaha… aur badle mein mila shraap. 💃
   > Wahi shraap agyaatvaas mein unka sabse bada bhes bana: Brihannala. Aur phir shami ke ped ke neeche: "Main Arjun hoon." Shraap series ki teesri kadi.
   > Urvashi sahi thi ya Arjun? Comment mein bataiye 👇
-  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaann
+  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaaann
   >
   > #Mahabharat #Arjun #MahabharatKeShraap #Shraap #TheLostGyaaann
 - **Cover:** `render/S01E03-thumb-hi.png` · **Alt text:** In a moonlit palace of the gods, a celestial woman in rose and gold raises her palm in anger over a kneeling prince with joined hands.

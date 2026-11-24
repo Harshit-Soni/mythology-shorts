@@ -14,7 +14,7 @@ Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
   - the lotus garland
   - "Amba begged Bhishma to marry her"
 
-**Accounts:** Hindi = `@thelostgyaan` (YouTube) and `@thelostgyaann` (Instagram), English = `@thelostgyaan_en` (YouTube).
+**Accounts:** Hindi = `@thelostgyaan` (YouTube) and `@thelostgyaaann` (Instagram), English = `@thelostgyaan_en` (YouTube).
 
 **When:** E03 goes up Sun 29 / Mon 30 Nov. Post E04 on **Hindi Thu 3 Dec 7:30 PM, English Fri 4 Dec 7:30 AM IST**: the same evening/morning pattern, a few days later, so E03's tease ("one woman's vow would bring down Bhishma himself") pays off quickly.
 
@@ -74,12 +74,12 @@ Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
 - **Playlist:** Shraap: Mahabharat Ke Shraap
 - **Pinned comment:** Jo video mein nahi aaya: pratigya se pehle Amba Parashuram ke paas gayi, jo Bhishma ke apne guru the. Guru apne shishya se Amba ke liye 23 din lade, aur haar gaye (Udyog Parv §185–188). Tab jaakar Amba ne khud pratigya li. 🏹 Kya Bhishma ka apni pratigya par tike rehna sahi tha? 👇
 
-## Instagram Reel: Hindi (`@thelostgyaann`)
+## Instagram Reel: Hindi (`@thelostgyaaann`)
 - **Caption:**
   > Bhishma ki apni maa ne us stree ko shraap diya, jisne Bhishma ko maarne ki pratigya ki thi. 🌊
   > Amba ko uthaya gaya, thukraya gaya, aur Bhishma ki pratigya ne bhi raasta band kar diya. Unhone apni pratigya mrityu ke paar nibhaayi, aur Shikhandi bankar laut aayi. Shraap series ki chauthi kadi.
   > Zyada anyaay kiske saath hua: Amba ya Bhishma? Comment mein bataiye 👇
-  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaann
+  > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaaann
   >
   > #Mahabharat #Bhishma #MahabharatKeShraap #Shraap #TheLostGyaan
 - **Cover:** `render/S01E04-thumb-hi.png` · **Alt text:** as above.
