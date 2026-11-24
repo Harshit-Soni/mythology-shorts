@@ -41,6 +41,8 @@ Lessons from making and publishing episodes. One line per lesson, with the episo
 - A scene's `light: silhouette` also darkens its props (a gold ring went grey): use `dusk` and let silhouette props be black on their own. (S01E03 v2)
 - Pacing: when an action climax needs a chain of events (raid → who fights → how the hero gets there → the reveal), give each link its own beat; skipping links reads as confusing even if every line is true. (S01E03 v2, owner feedback)
 - Pacing, the other side: length doesn't fix a confusing story. Pick one spine and cut every detour (side duels, second curses, set-up beats); pay off the hook inside the story, not halfway through. Each beat should follow from the last with but / so / then. (S01E04 v2, owner feedback: v1 at 140 s still had "hiccups and shifts")
+- A hero object (an insect, a bell) drawn big over a landscape looks like a giant floating in it: put it on a parchment card. For a close-up, use scale ≈ 3 with y ≈ 1.5 so the face sits at ≈ 0.36, above the captions. (S01E05)
+- Kneeling and cross-legged bodies: draw each limb as an outlined thick stroke (`limb()` in S01E05 make-cast.py); one big path reads as a box or a cushion. (S01E05)
 - In a fight, keep each fighter on one side of the frame in every shot, and check which way a flying arrow prop points (props can't be flipped). (S01E05 storyboard)
 - Insert shots share their parent's beat: they must have empty narration, or real-audio timing duplicates words and desyncs everything after. (S01E01, fixed in the studio)
 

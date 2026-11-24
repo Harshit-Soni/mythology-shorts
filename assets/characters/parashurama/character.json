@@ -10,19 +10,32 @@
   "sourceNotes": "Udyoga §178–189.",
   "poses": [
     "standing-axe",
-    "drawing-bow"
+    "drawing-bow",
+    "teaching",
+    "accusing",
+    "cursing",
+    "sleeping"
   ],
   "appearsIn": [
-    "S01E04"
+    "S01E04",
+    "S01E05"
   ],
   "files": {
     "drawing-bow": "drawing-bow.svg",
-    "standing-axe": "standing-axe.svg"
+    "standing-axe": "standing-axe.svg",
+    "teaching": "teaching.svg",
+    "accusing": "accusing.svg",
+    "cursing": "cursing.svg",
+    "sleeping": "sleeping.svg"
   },
   "facing": "per pose, see facingByPose (ear rule)",
   "facingByPose": {
     "standing-axe": "right",
-    "drawing-bow": "right"
+    "drawing-bow": "right",
+    "teaching": "right",
+    "accusing": "right",
+    "cursing": "right",
+    "sleeping": "up (lying on his back, head at the left)"
   },
   "notes": "Made in code by episodes/S01E04-amba-vow-bhishma/svg/make-cast.py. All poses face right; mirror with flip."
 }

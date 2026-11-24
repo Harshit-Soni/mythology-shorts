@@ -1,0 +1,25 @@
+{
+  "id": "drona",
+  "name": {
+    "en": "Drona",
+    "hi": "द्रोण"
+  },
+  "role": "Teacher of arms to the Pandavas, the Kauravas and Karna",
+  "divine": false,
+  "look": "The sage rig with white hair and beard, a slate-blue dhoti and a gold sash.",
+  "sourceNotes": "Shanti §II.",
+  "poses": [
+    "refusing"
+  ],
+  "appearsIn": [
+    "S01E05"
+  ],
+  "files": {
+    "refusing": "refusing.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "refusing": "right"
+  },
+  "notes": "Made in code by episodes/S01E05-karna-two-curses/svg/make-cast.py. All poses face right; mirror with flip."
+}

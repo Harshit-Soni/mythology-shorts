@@ -18,7 +18,7 @@
 | E02 | **Kindama curses Pandu**: a deer that was really a sage | "One arrow is why the Pandavas are sons of gods." | Adi Parva | | Videos + kit ready; posting Thu 26 / Fri 27 Nov |
 | E03 | **Urvashi curses Arjuna**: a curse that turned into a gift | "Arjuna refused a goddess, and lost his manhood for it." | Vana Parva | Pays off in Virata Parva as Brihannala | v2 (EN 147 s, HI 152 s) + kit ready; posting Sun 29 / Mon 30 Nov |
 | E04 | **Amba's vow against Bhishma**: Shikhandi | "Bhishma couldn't be killed, except by her." | Udyoga Parva | Strong episode; may need two parts | v2 (EN 74 s, HI 80 s) + kit ready; posting Thu 3 / Fri 4 Dec |
-| E05 | **Karna's curses**: Parashurama and the Brahmin's cow | "Karna was doomed twice before the war even began." | Shanti Parva | The Bhudevi curse is from later retellings, so flag it as such | Storyboarded 24 Nov (research needs verify) |
+| E05 | **Karna's curses**: Parashurama and the Brahmin's cow | "Karna was doomed twice before the war even began." | Shanti Parva | The Bhudevi curse is from later retellings, so flag it as such | Assets ready (research needs verify) |
 | E06 | **Agastya curses Nahusha**: a king of the gods becomes a snake | "A human once ruled heaven, until he kicked a sage." | Udyoga / Vana Parva | | Planned |
 | E07 | **Shringi curses Parikshit**: Takshaka | "A dead snake around a sage's neck killed a king." | Adi Parva | | Planned |
 | E08 | **Gandhari curses Krishna**: the end of the Yadavas | "A mother's grief cursed God himself." | Stri Parva | Series finale | Planned |

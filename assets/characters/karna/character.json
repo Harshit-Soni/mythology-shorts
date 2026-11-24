@@ -1,0 +1,66 @@
+{
+  "id": "karna",
+  "name": {
+    "en": "Karna",
+    "hi": "कर्ण"
+  },
+  "role": "Son of Kunti and Surya, raised as a charioteer’s son; Arjuna’s rival",
+  "divine": false,
+  "look": "Golden-brown skin and large gold earrings in every pose. Warrior: gold crown, indigo dhoti, gold sash. Student (his disguise at Parashurama’s ashram): no crown, a topknot, plain unbleached cloth, no necklace or cuffs.",
+  "sourceNotes": "Shanti §II–III; Karna Parva §42, §90–91. By the last battle he has given away his natural armour and earrings (Shanti §V); the battle poses wear ordinary gold (CE 8.66.32–33 mentions his ornaments).",
+  "poses": [
+    "folded-hands",
+    "student-bow",
+    "kneeling-pleading",
+    "bowed",
+    "enduring",
+    "guru-on-lap",
+    "watching",
+    "asking",
+    "drawing-bow",
+    "empty-hand",
+    "pulling-wheel"
+  ],
+  "expressions": [
+    "calm",
+    "uneasy",
+    "awed",
+    "afraid",
+    "pained"
+  ],
+  "appearsIn": [
+    "S01E05"
+  ],
+  "files": {
+    "asking": "asking.svg",
+    "bowed": "bowed.svg",
+    "bowed__afraid": "bowed__afraid.svg",
+    "drawing-bow": "drawing-bow.svg",
+    "empty-hand": "empty-hand.svg",
+    "enduring": "enduring.svg",
+    "folded-hands": "folded-hands.svg",
+    "folded-hands__awed": "folded-hands__awed.svg",
+    "folded-hands__uneasy": "folded-hands__uneasy.svg",
+    "guru-on-lap": "guru-on-lap.svg",
+    "guru-on-lap__pained": "guru-on-lap__pained.svg",
+    "kneeling-pleading": "kneeling-pleading.svg",
+    "pulling-wheel": "pulling-wheel.svg",
+    "student-bow": "student-bow.svg",
+    "watching": "watching.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "folded-hands": "right",
+    "student-bow": "right",
+    "kneeling-pleading": "right",
+    "bowed": "right",
+    "enduring": "right",
+    "guru-on-lap": "right",
+    "watching": "right",
+    "asking": "right",
+    "drawing-bow": "right",
+    "empty-hand": "right",
+    "pulling-wheel": "right"
+  },
+  "notes": "Made in code by episodes/S01E05-karna-two-curses/svg/make-cast.py. All poses face right; mirror with flip."
+}

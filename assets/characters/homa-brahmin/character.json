@@ -1,0 +1,28 @@
+{
+  "id": "homa-brahmin",
+  "name": {
+    "en": "The Brahmin of the homa cow",
+    "hi": "होम-धेनु के ब्राह्मण"
+  },
+  "role": "The Brahmin whose cow Karna killed unknowingly",
+  "divine": false,
+  "look": "The sage rig with iron-grey hair and beard, cream and yellow cloth.",
+  "sourceNotes": "Shanti §II (unnamed in the text).",
+  "poses": [
+    "standing-grief",
+    "cursing"
+  ],
+  "appearsIn": [
+    "S01E05"
+  ],
+  "files": {
+    "cursing": "cursing.svg",
+    "standing-grief": "standing-grief.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "standing-grief": "right",
+    "cursing": "right"
+  },
+  "notes": "Made in code by episodes/S01E05-karna-two-curses/svg/make-cast.py. All poses face right; mirror with flip."
+}
