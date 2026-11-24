@@ -81,8 +81,8 @@ Episode 4 of **S01 Shraap: Curses of the Mahabharata**.
   > Zyada anyaay kiske saath hua: Amba ya Bhishma? Comment mein bataiye 👇
   > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaaann
   >
-  > #Mahabharat #Bhishma #MahabharatKeShraap #Shraap #TheLostGyaan
-- **Cover:** `render/S01E04-thumb-hi.png` · **Alt text:** as above.
+  > #Mahabharat #Bhishma #MahabharatKeShraap #Shraap #TheLostGyaaann
+- **Cover:** `render/S01E04-thumb-hi.png` · **Alt text:** By a river at dusk, a woman in red stands with raised arms in prayer as a crowned goddess in white and blue raises her palm to curse her.
 - **Audio name:** Amba Ki Pratigya · The Lost Gyaan
 - **After posting:** Story poll: "Zyada anyaay kiske saath? Amba / Bhishma"
 
