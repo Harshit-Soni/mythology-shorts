@@ -275,10 +275,13 @@
         {
           "onWord": {
             "en": "insect",
-            "hi": "कीड़ा"
+            "hi": "एक"
           },
           "do": "hard-cut-to",
-          "target": "s02c"
+          "target": "s02c",
+          "nth": {
+            "hi": 3
+          }
         }
       ],
       "sfx": [
@@ -1276,7 +1279,7 @@
         {
           "onWord": {
             "en": "Tell",
-            "hi": "सच"
+            "hi": "सह"
           },
           "do": "hard-cut-to",
           "target": "s09b"

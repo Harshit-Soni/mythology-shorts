@@ -1,0 +1,1185 @@
+{
+ "episode": "S01E05",
+ "lang": "en",
+ "source": "elevenlabs-flow + scribe",
+ "matched": "196/196",
+ "total": 79.31,
+ "words": [
+  {
+   "beat": 1,
+   "text": "Everyone",
+   "start": 1.15,
+   "end": 1.63
+  },
+  {
+   "beat": 1,
+   "text": "knows",
+   "start": 1.71,
+   "end": 2.11
+  },
+  {
+   "beat": 1,
+   "text": "Karna's",
+   "start": 2.19,
+   "end": 2.59
+  },
+  {
+   "beat": 1,
+   "text": "wheel",
+   "start": 2.67,
+   "end": 2.91
+  },
+  {
+   "beat": 1,
+   "text": "sank.",
+   "start": 3.07,
+   "end": 3.83
+  },
+  {
+   "beat": 1,
+   "text": "Few",
+   "start": 4.11,
+   "end": 4.35
+  },
+  {
+   "beat": 1,
+   "text": "ask",
+   "start": 4.43,
+   "end": 4.67
+  },
+  {
+   "beat": 1,
+   "text": "why.",
+   "start": 4.83,
+   "end": 5.33
+  },
+  {
+   "beat": 2,
+   "text": "It",
+   "start": 5.79,
+   "end": 5.87
+  },
+  {
+   "beat": 2,
+   "text": "began",
+   "start": 6.03,
+   "end": 6.35
+  },
+  {
+   "beat": 2,
+   "text": "with",
+   "start": 6.43,
+   "end": 6.51
+  },
+  {
+   "beat": 2,
+   "text": "a",
+   "start": 6.59,
+   "end": 6.67
+  },
+  {
+   "beat": 2,
+   "text": "lie,",
+   "start": 6.75,
+   "end": 7.47
+  },
+  {
+   "beat": 2,
+   "text": "a",
+   "start": 7.55,
+   "end": 7.63
+  },
+  {
+   "beat": 2,
+   "text": "cow,",
+   "start": 7.83,
+   "end": 8.35
+  },
+  {
+   "beat": 2,
+   "text": "and",
+   "start": 8.43,
+   "end": 8.51
+  },
+  {
+   "beat": 2,
+   "text": "an",
+   "start": 8.59,
+   "end": 8.67
+  },
+  {
+   "beat": 2,
+   "text": "insect.",
+   "start": 8.75,
+   "end": 9.79
+  },
+  {
+   "beat": 3,
+   "text": "To",
+   "start": 9.87,
+   "end": 9.95
+  },
+  {
+   "beat": 3,
+   "text": "match",
+   "start": 10.07,
+   "end": 10.19
+  },
+  {
+   "beat": 3,
+   "text": "Arjuna,",
+   "start": 10.27,
+   "end": 10.99
+  },
+  {
+   "beat": 3,
+   "text": "Karna",
+   "start": 11.03,
+   "end": 11.31
+  },
+  {
+   "beat": 3,
+   "text": "asked",
+   "start": 11.39,
+   "end": 11.63
+  },
+  {
+   "beat": 3,
+   "text": "Drona",
+   "start": 11.71,
+   "end": 12.11
+  },
+  {
+   "beat": 3,
+   "text": "for",
+   "start": 12.15,
+   "end": 12.19
+  },
+  {
+   "beat": 3,
+   "text": "the",
+   "start": 12.27,
+   "end": 12.35
+  },
+  {
+   "beat": 3,
+   "text": "Brahmastra.",
+   "start": 12.403,
+   "end": 13.47
+  },
+  {
+   "beat": 3,
+   "text": "Drona",
+   "start": 13.51,
+   "end": 13.79
+  },
+  {
+   "beat": 3,
+   "text": "refused.",
+   "start": 13.87,
+   "end": 14.91
+  },
+  {
+   "beat": 4,
+   "text": "So",
+   "start": 14.99,
+   "end": 15.07
+  },
+  {
+   "beat": 4,
+   "text": "he",
+   "start": 15.15,
+   "end": 15.23
+  },
+  {
+   "beat": 4,
+   "text": "went",
+   "start": 15.31,
+   "end": 15.47
+  },
+  {
+   "beat": 4,
+   "text": "to",
+   "start": 15.51,
+   "end": 15.55
+  },
+  {
+   "beat": 4,
+   "text": "Parashurama,",
+   "start": 15.63,
+   "end": 16.75
+  },
+  {
+   "beat": 4,
+   "text": "and",
+   "start": 16.83,
+   "end": 16.91
+  },
+  {
+   "beat": 4,
+   "text": "lied:",
+   "start": 16.99,
+   "end": 17.79
+  },
+  {
+   "beat": 4,
+   "text": "\"I",
+   "start": 18.064,
+   "end": 18.11
+  },
+  {
+   "beat": 4,
+   "text": "am",
+   "start": 18.19,
+   "end": 18.27
+  },
+  {
+   "beat": 4,
+   "text": "a",
+   "start": 18.35,
+   "end": 18.43
+  },
+  {
+   "beat": 4,
+   "text": "Brahmin.\"",
+   "start": 18.47,
+   "end": 19.39
+  },
+  {
+   "beat": 5,
+   "text": "One",
+   "start": 19.47,
+   "end": 19.63
+  },
+  {
+   "beat": 5,
+   "text": "day",
+   "start": 19.71,
+   "end": 19.95
+  },
+  {
+   "beat": 5,
+   "text": "he",
+   "start": 20.11,
+   "end": 20.27
+  },
+  {
+   "beat": 5,
+   "text": "killed",
+   "start": 20.31,
+   "end": 20.51
+  },
+  {
+   "beat": 5,
+   "text": "a",
+   "start": 20.55,
+   "end": 20.59
+  },
+  {
+   "beat": 5,
+   "text": "Brahmin's",
+   "start": 20.67,
+   "end": 21.07
+  },
+  {
+   "beat": 5,
+   "text": "cow",
+   "start": 21.15,
+   "end": 21.47
+  },
+  {
+   "beat": 5,
+   "text": "by",
+   "start": 21.55,
+   "end": 21.63
+  },
+  {
+   "beat": 5,
+   "text": "accident,",
+   "start": 21.75,
+   "end": 22.35
+  },
+  {
+   "beat": 5,
+   "text": "and",
+   "start": 22.47,
+   "end": 22.59
+  },
+  {
+   "beat": 5,
+   "text": "begged",
+   "start": 22.67,
+   "end": 22.83
+  },
+  {
+   "beat": 5,
+   "text": "forgiveness.",
+   "start": 22.95,
+   "end": 23.95
+  },
+  {
+   "beat": 6,
+   "text": "But",
+   "start": 24.019,
+   "end": 24.03
+  },
+  {
+   "beat": 6,
+   "text": "the",
+   "start": 24.11,
+   "end": 24.19
+  },
+  {
+   "beat": 6,
+   "text": "Brahmin",
+   "start": 24.27,
+   "end": 24.75
+  },
+  {
+   "beat": 6,
+   "text": "cursed",
+   "start": 24.83,
+   "end": 25.15
+  },
+  {
+   "beat": 6,
+   "text": "him:",
+   "start": 25.23,
+   "end": 25.87
+  },
+  {
+   "beat": 6,
+   "text": "\"When",
+   "start": 26.007,
+   "end": 26.03
+  },
+  {
+   "beat": 6,
+   "text": "you",
+   "start": 26.15,
+   "end": 26.27
+  },
+  {
+   "beat": 6,
+   "text": "face",
+   "start": 26.39,
+   "end": 26.51
+  },
+  {
+   "beat": 6,
+   "text": "your",
+   "start": 26.59,
+   "end": 26.75
+  },
+  {
+   "beat": 6,
+   "text": "rival,",
+   "start": 26.883,
+   "end": 27.39
+  },
+  {
+   "beat": 6,
+   "text": "the",
+   "start": 27.47,
+   "end": 27.55
+  },
+  {
+   "beat": 6,
+   "text": "earth",
+   "start": 27.63,
+   "end": 27.87
+  },
+  {
+   "beat": 6,
+   "text": "will",
+   "start": 27.95,
+   "end": 28.19
+  },
+  {
+   "beat": 6,
+   "text": "swallow",
+   "start": 28.27,
+   "end": 28.59
+  },
+  {
+   "beat": 6,
+   "text": "your",
+   "start": 28.71,
+   "end": 28.83
+  },
+  {
+   "beat": 6,
+   "text": "wheel.",
+   "start": 28.99,
+   "end": 29.63
+  },
+  {
+   "beat": 6,
+   "text": "Careless,",
+   "start": 29.75,
+   "end": 30.27
+  },
+  {
+   "beat": 6,
+   "text": "you",
+   "start": 30.35,
+   "end": 30.43
+  },
+  {
+   "beat": 6,
+   "text": "killed",
+   "start": 30.51,
+   "end": 30.75
+  },
+  {
+   "beat": 6,
+   "text": "her.",
+   "start": 30.87,
+   "end": 31.39
+  },
+  {
+   "beat": 6,
+   "text": "Careless,",
+   "start": 31.51,
+   "end": 32.11
+  },
+  {
+   "beat": 6,
+   "text": "you'll",
+   "start": 32.15,
+   "end": 32.35
+  },
+  {
+   "beat": 6,
+   "text": "die.\"",
+   "start": 32.43,
+   "end": 33.23
+  },
+  {
+   "beat": 7,
+   "text": "Still,",
+   "start": 33.39,
+   "end": 33.95
+  },
+  {
+   "beat": 7,
+   "text": "Parashurama",
+   "start": 34.03,
+   "end": 34.75
+  },
+  {
+   "beat": 7,
+   "text": "taught",
+   "start": 34.83,
+   "end": 34.99
+  },
+  {
+   "beat": 7,
+   "text": "him",
+   "start": 35.07,
+   "end": 35.15
+  },
+  {
+   "beat": 7,
+   "text": "the",
+   "start": 35.23,
+   "end": 35.31
+  },
+  {
+   "beat": 7,
+   "text": "weapon.",
+   "start": 35.51,
+   "end": 36.11
+  },
+  {
+   "beat": 8,
+   "text": "One",
+   "start": 36.19,
+   "end": 36.35
+  },
+  {
+   "beat": 8,
+   "text": "day",
+   "start": 36.43,
+   "end": 36.67
+  },
+  {
+   "beat": 8,
+   "text": "his",
+   "start": 36.75,
+   "end": 36.91
+  },
+  {
+   "beat": 8,
+   "text": "guru",
+   "start": 36.99,
+   "end": 37.39
+  },
+  {
+   "beat": 8,
+   "text": "slept",
+   "start": 37.47,
+   "end": 37.71
+  },
+  {
+   "beat": 8,
+   "text": "with",
+   "start": 37.79,
+   "end": 37.87
+  },
+  {
+   "beat": 8,
+   "text": "his",
+   "start": 37.99,
+   "end": 38.11
+  },
+  {
+   "beat": 8,
+   "text": "head",
+   "start": 38.23,
+   "end": 38.35
+  },
+  {
+   "beat": 8,
+   "text": "in",
+   "start": 38.43,
+   "end": 38.59
+  },
+  {
+   "beat": 8,
+   "text": "Karna's",
+   "start": 38.63,
+   "end": 38.99
+  },
+  {
+   "beat": 8,
+   "text": "lap.",
+   "start": 39.07,
+   "end": 39.79
+  },
+  {
+   "beat": 8,
+   "text": "An",
+   "start": 39.87,
+   "end": 39.95
+  },
+  {
+   "beat": 8,
+   "text": "insect",
+   "start": 40.03,
+   "end": 40.51
+  },
+  {
+   "beat": 8,
+   "text": "bored",
+   "start": 40.59,
+   "end": 40.91
+  },
+  {
+   "beat": 8,
+   "text": "into",
+   "start": 41.03,
+   "end": 41.15
+  },
+  {
+   "beat": 8,
+   "text": "Karna's",
+   "start": 41.19,
+   "end": 41.55
+  },
+  {
+   "beat": 8,
+   "text": "thigh.",
+   "start": 41.63,
+   "end": 42.35
+  },
+  {
+   "beat": 8,
+   "text": "To",
+   "start": 42.43,
+   "end": 42.51
+  },
+  {
+   "beat": 8,
+   "text": "let",
+   "start": 42.55,
+   "end": 42.59
+  },
+  {
+   "beat": 8,
+   "text": "him",
+   "start": 42.67,
+   "end": 42.83
+  },
+  {
+   "beat": 8,
+   "text": "sleep,",
+   "start": 42.91,
+   "end": 43.55
+  },
+  {
+   "beat": 8,
+   "text": "Karna",
+   "start": 43.59,
+   "end": 43.95
+  },
+  {
+   "beat": 8,
+   "text": "didn't",
+   "start": 44.03,
+   "end": 44.27
+  },
+  {
+   "beat": 8,
+   "text": "move.",
+   "start": 44.47,
+   "end": 45.07
+  },
+  {
+   "beat": 9,
+   "text": "His",
+   "start": 45.27,
+   "end": 45.31
+  },
+  {
+   "beat": 9,
+   "text": "blood",
+   "start": 45.39,
+   "end": 45.71
+  },
+  {
+   "beat": 9,
+   "text": "woke",
+   "start": 45.87,
+   "end": 46.03
+  },
+  {
+   "beat": 9,
+   "text": "him.",
+   "start": 46.11,
+   "end": 46.67
+  },
+  {
+   "beat": 9,
+   "text": "\"No",
+   "start": 46.75,
+   "end": 46.91
+  },
+  {
+   "beat": 9,
+   "text": "Brahmin",
+   "start": 46.99,
+   "end": 47.39
+  },
+  {
+   "beat": 9,
+   "text": "could",
+   "start": 47.51,
+   "end": 47.63
+  },
+  {
+   "beat": 9,
+   "text": "bear",
+   "start": 47.71,
+   "end": 47.79
+  },
+  {
+   "beat": 9,
+   "text": "such",
+   "start": 47.95,
+   "end": 48.19
+  },
+  {
+   "beat": 9,
+   "text": "pain.",
+   "start": 48.35,
+   "end": 48.75
+  },
+  {
+   "beat": 9,
+   "text": "Tell",
+   "start": 48.83,
+   "end": 48.91
+  },
+  {
+   "beat": 9,
+   "text": "me",
+   "start": 48.99,
+   "end": 49.07
+  },
+  {
+   "beat": 9,
+   "text": "the",
+   "start": 49.15,
+   "end": 49.23
+  },
+  {
+   "beat": 9,
+   "text": "truth!\"",
+   "start": 49.31,
+   "end": 50.03
+  },
+  {
+   "beat": 10,
+   "text": "\"I'm",
+   "start": 50.167,
+   "end": 50.27
+  },
+  {
+   "beat": 10,
+   "text": "a",
+   "start": 50.35,
+   "end": 50.43
+  },
+  {
+   "beat": 10,
+   "text": "charioteer's",
+   "start": 50.55,
+   "end": 51.23
+  },
+  {
+   "beat": 10,
+   "text": "son.\"",
+   "start": 51.39,
+   "end": 52.03
+  },
+  {
+   "beat": 10,
+   "text": "The",
+   "start": 52.167,
+   "end": 52.19
+  },
+  {
+   "beat": 10,
+   "text": "second",
+   "start": 52.39,
+   "end": 52.59
+  },
+  {
+   "beat": 10,
+   "text": "curse",
+   "start": 52.67,
+   "end": 52.91
+  },
+  {
+   "beat": 10,
+   "text": "fell:",
+   "start": 52.99,
+   "end": 53.63
+  },
+  {
+   "beat": 10,
+   "text": "\"You",
+   "start": 53.79,
+   "end": 53.95
+  },
+  {
+   "beat": 10,
+   "text": "lied",
+   "start": 54.03,
+   "end": 54.27
+  },
+  {
+   "beat": 10,
+   "text": "for",
+   "start": 54.35,
+   "end": 54.43
+  },
+  {
+   "beat": 10,
+   "text": "this",
+   "start": 54.51,
+   "end": 54.59
+  },
+  {
+   "beat": 10,
+   "text": "weapon.",
+   "start": 54.67,
+   "end": 55.337
+  },
+  {
+   "beat": 10,
+   "text": "At",
+   "start": 55.363,
+   "end": 55.39
+  },
+  {
+   "beat": 10,
+   "text": "the",
+   "start": 55.47,
+   "end": 55.63
+  },
+  {
+   "beat": 10,
+   "text": "hour",
+   "start": 55.71,
+   "end": 55.87
+  },
+  {
+   "beat": 10,
+   "text": "of",
+   "start": 55.95,
+   "end": 56.03
+  },
+  {
+   "beat": 10,
+   "text": "your",
+   "start": 56.15,
+   "end": 56.27
+  },
+  {
+   "beat": 10,
+   "text": "death,",
+   "start": 56.47,
+   "end": 56.697
+  },
+  {
+   "beat": 10,
+   "text": "it",
+   "start": 56.723,
+   "end": 56.75
+  },
+  {
+   "beat": 10,
+   "text": "will",
+   "start": 56.83,
+   "end": 57.07
+  },
+  {
+   "beat": 10,
+   "text": "fail",
+   "start": 57.19,
+   "end": 57.31
+  },
+  {
+   "beat": 10,
+   "text": "you.\"",
+   "start": 57.39,
+   "end": 57.95
+  },
+  {
+   "beat": 11,
+   "text": "At",
+   "start": 58.03,
+   "end": 58.19
+  },
+  {
+   "beat": 11,
+   "text": "Kurukshetra,",
+   "start": 58.243,
+   "end": 59.15
+  },
+  {
+   "beat": 11,
+   "text": "facing",
+   "start": 59.23,
+   "end": 59.55
+  },
+  {
+   "beat": 11,
+   "text": "Arjuna,",
+   "start": 59.63,
+   "end": 60.31
+  },
+  {
+   "beat": 11,
+   "text": "both",
+   "start": 60.35,
+   "end": 60.59
+  },
+  {
+   "beat": 11,
+   "text": "curses",
+   "start": 60.67,
+   "end": 61.07
+  },
+  {
+   "beat": 11,
+   "text": "came",
+   "start": 61.19,
+   "end": 61.31
+  },
+  {
+   "beat": 11,
+   "text": "due.",
+   "start": 61.39,
+   "end": 61.99
+  },
+  {
+   "beat": 11,
+   "text": "The",
+   "start": 62.03,
+   "end": 62.19
+  },
+  {
+   "beat": 11,
+   "text": "wheel",
+   "start": 62.35,
+   "end": 62.51
+  },
+  {
+   "beat": 11,
+   "text": "sank.",
+   "start": 62.59,
+   "end": 63.203
+  },
+  {
+   "beat": 11,
+   "text": "The",
+   "start": 63.257,
+   "end": 63.31
+  },
+  {
+   "beat": 11,
+   "text": "weapon",
+   "start": 63.51,
+   "end": 63.71
+  },
+  {
+   "beat": 11,
+   "text": "wouldn't",
+   "start": 63.79,
+   "end": 64.03
+  },
+  {
+   "beat": 11,
+   "text": "come.",
+   "start": 64.35,
+   "end": 64.677
+  },
+  {
+   "beat": 12,
+   "text": "While",
+   "start": 64.75,
+   "end": 64.91
+  },
+  {
+   "beat": 12,
+   "text": "the",
+   "start": 64.95,
+   "end": 64.99
+  },
+  {
+   "beat": 12,
+   "text": "wheel",
+   "start": 65.07,
+   "end": 65.39
+  },
+  {
+   "beat": 12,
+   "text": "held",
+   "start": 65.47,
+   "end": 65.63
+  },
+  {
+   "beat": 12,
+   "text": "him,",
+   "start": 65.71,
+   "end": 66.15
+  },
+  {
+   "beat": 12,
+   "text": "as",
+   "start": 66.19,
+   "end": 66.27
+  },
+  {
+   "beat": 12,
+   "text": "the",
+   "start": 66.31,
+   "end": 66.35
+  },
+  {
+   "beat": 12,
+   "text": "Brahmin",
+   "start": 66.43,
+   "end": 66.75
+  },
+  {
+   "beat": 12,
+   "text": "had",
+   "start": 66.83,
+   "end": 66.91
+  },
+  {
+   "beat": 12,
+   "text": "said,",
+   "start": 66.99,
+   "end": 67.55
+  },
+  {
+   "beat": 12,
+   "text": "Arjuna's",
+   "start": 67.63,
+   "end": 68.27
+  },
+  {
+   "beat": 12,
+   "text": "arrow",
+   "start": 68.35,
+   "end": 68.67
+  },
+  {
+   "beat": 12,
+   "text": "struck.",
+   "start": 68.83,
+   "end": 69.55
+  },
+  {
+   "beat": 13,
+   "text": "A",
+   "start": 69.63,
+   "end": 69.79
+  },
+  {
+   "beat": 13,
+   "text": "cow",
+   "start": 69.99,
+   "end": 70.19
+  },
+  {
+   "beat": 13,
+   "text": "killed",
+   "start": 70.27,
+   "end": 70.51
+  },
+  {
+   "beat": 13,
+   "text": "by",
+   "start": 70.63,
+   "end": 70.75
+  },
+  {
+   "beat": 13,
+   "text": "accident",
+   "start": 70.83,
+   "end": 71.31
+  },
+  {
+   "beat": 13,
+   "text": "took",
+   "start": 71.39,
+   "end": 71.47
+  },
+  {
+   "beat": 13,
+   "text": "his",
+   "start": 71.55,
+   "end": 71.71
+  },
+  {
+   "beat": 13,
+   "text": "wheel.",
+   "start": 71.79,
+   "end": 72.55
+  },
+  {
+   "beat": 13,
+   "text": "A",
+   "start": 72.59,
+   "end": 72.67
+  },
+  {
+   "beat": 13,
+   "text": "lie",
+   "start": 72.75,
+   "end": 73.07
+  },
+  {
+   "beat": 13,
+   "text": "exposed",
+   "start": 73.15,
+   "end": 73.63
+  },
+  {
+   "beat": 13,
+   "text": "by",
+   "start": 73.71,
+   "end": 73.79
+  },
+  {
+   "beat": 13,
+   "text": "an",
+   "start": 73.87,
+   "end": 73.95
+  },
+  {
+   "beat": 13,
+   "text": "insect",
+   "start": 74.07,
+   "end": 74.59
+  },
+  {
+   "beat": 13,
+   "text": "took",
+   "start": 74.67,
+   "end": 74.75
+  },
+  {
+   "beat": 13,
+   "text": "his",
+   "start": 74.87,
+   "end": 74.99
+  },
+  {
+   "beat": 13,
+   "text": "weapon.",
+   "start": 75.35,
+   "end": 75.73
+  },
+  {
+   "beat": 14,
+   "text": "Next:",
+   "start": 75.87,
+   "end": 76.563
+  },
+  {
+   "beat": 14,
+   "text": "the",
+   "start": 76.617,
+   "end": 76.67
+  },
+  {
+   "beat": 14,
+   "text": "king",
+   "start": 76.75,
+   "end": 76.91
+  },
+  {
+   "beat": 14,
+   "text": "of",
+   "start": 76.99,
+   "end": 77.07
+  },
+  {
+   "beat": 14,
+   "text": "heaven",
+   "start": 77.15,
+   "end": 77.55
+  },
+  {
+   "beat": 14,
+   "text": "who",
+   "start": 77.59,
+   "end": 77.63
+  },
+  {
+   "beat": 14,
+   "text": "became",
+   "start": 77.71,
+   "end": 78.11
+  },
+  {
+   "beat": 14,
+   "text": "a",
+   "start": 78.19,
+   "end": 78.27
+  },
+  {
+   "beat": 14,
+   "text": "snake.",
+   "start": 78.47,
+   "end": 78.91
+  }
+ ]
+}
