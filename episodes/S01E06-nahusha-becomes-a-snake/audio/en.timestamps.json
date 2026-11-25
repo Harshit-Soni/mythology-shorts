@@ -1,0 +1,1191 @@
+{
+ "episode": "S01E06",
+ "lang": "en",
+ "source": "elevenlabs-flow + scribe",
+ "matched": "197/197",
+ "total": 82.35,
+ "words": [
+  {
+   "beat": 1,
+   "text": "The",
+   "start": 1.15,
+   "end": 1.31
+  },
+  {
+   "beat": 1,
+   "text": "gods",
+   "start": 1.39,
+   "end": 1.79
+  },
+  {
+   "beat": 1,
+   "text": "once",
+   "start": 1.87,
+   "end": 2.03
+  },
+  {
+   "beat": 1,
+   "text": "made",
+   "start": 2.11,
+   "end": 2.27
+  },
+  {
+   "beat": 1,
+   "text": "a",
+   "start": 2.35,
+   "end": 2.43
+  },
+  {
+   "beat": 1,
+   "text": "human",
+   "start": 2.51,
+   "end": 2.83
+  },
+  {
+   "beat": 1,
+   "text": "their",
+   "start": 2.91,
+   "end": 3.15
+  },
+  {
+   "beat": 1,
+   "text": "king.",
+   "start": 3.35,
+   "end": 4.03
+  },
+  {
+   "beat": 1,
+   "text": "He",
+   "start": 4.11,
+   "end": 4.19
+  },
+  {
+   "beat": 1,
+   "text": "became",
+   "start": 4.27,
+   "end": 4.51
+  },
+  {
+   "beat": 1,
+   "text": "a",
+   "start": 4.59,
+   "end": 4.67
+  },
+  {
+   "beat": 1,
+   "text": "snake.",
+   "start": 4.75,
+   "end": 5.79
+  },
+  {
+   "beat": 2,
+   "text": "Their",
+   "start": 6.003,
+   "end": 6.03
+  },
+  {
+   "beat": 2,
+   "text": "king,",
+   "start": 6.19,
+   "end": 6.51
+  },
+  {
+   "beat": 2,
+   "text": "Indra,",
+   "start": 6.59,
+   "end": 7.03
+  },
+  {
+   "beat": 2,
+   "text": "had",
+   "start": 7.07,
+   "end": 7.23
+  },
+  {
+   "beat": 2,
+   "text": "vanished,",
+   "start": 7.31,
+   "end": 8.03
+  },
+  {
+   "beat": 2,
+   "text": "so",
+   "start": 8.11,
+   "end": 8.35
+  },
+  {
+   "beat": 2,
+   "text": "they",
+   "start": 8.43,
+   "end": 8.51
+  },
+  {
+   "beat": 2,
+   "text": "chose",
+   "start": 8.59,
+   "end": 8.83
+  },
+  {
+   "beat": 2,
+   "text": "Nahusha.",
+   "start": 8.883,
+   "end": 9.79
+  },
+  {
+   "beat": 2,
+   "text": "\"I'm",
+   "start": 9.923,
+   "end": 10.11
+  },
+  {
+   "beat": 2,
+   "text": "too",
+   "start": 10.23,
+   "end": 10.35
+  },
+  {
+   "beat": 2,
+   "text": "weak,\"",
+   "start": 10.43,
+   "end": 10.99
+  },
+  {
+   "beat": 2,
+   "text": "he",
+   "start": 11.07,
+   "end": 11.23
+  },
+  {
+   "beat": 2,
+   "text": "said.",
+   "start": 11.35,
+   "end": 11.95
+  },
+  {
+   "beat": 3,
+   "text": "So",
+   "start": 12.03,
+   "end": 12.11
+  },
+  {
+   "beat": 3,
+   "text": "they",
+   "start": 12.19,
+   "end": 12.35
+  },
+  {
+   "beat": 3,
+   "text": "gave",
+   "start": 12.39,
+   "end": 12.59
+  },
+  {
+   "beat": 3,
+   "text": "him",
+   "start": 12.67,
+   "end": 12.75
+  },
+  {
+   "beat": 3,
+   "text": "a",
+   "start": 12.83,
+   "end": 12.91
+  },
+  {
+   "beat": 3,
+   "text": "power:",
+   "start": 12.99,
+   "end": 13.87
+  },
+  {
+   "beat": 3,
+   "text": "one",
+   "start": 13.95,
+   "end": 14.11
+  },
+  {
+   "beat": 3,
+   "text": "look,",
+   "start": 14.19,
+   "end": 14.697
+  },
+  {
+   "beat": 3,
+   "text": "and",
+   "start": 14.723,
+   "end": 14.75
+  },
+  {
+   "beat": 3,
+   "text": "he",
+   "start": 14.83,
+   "end": 14.99
+  },
+  {
+   "beat": 3,
+   "text": "took",
+   "start": 15.15,
+   "end": 15.31
+  },
+  {
+   "beat": 3,
+   "text": "anyone's",
+   "start": 15.39,
+   "end": 15.87
+  },
+  {
+   "beat": 3,
+   "text": "strength.",
+   "start": 15.95,
+   "end": 16.91
+  },
+  {
+   "beat": 4,
+   "text": "Then",
+   "start": 16.99,
+   "end": 17.39
+  },
+  {
+   "beat": 4,
+   "text": "power",
+   "start": 17.47,
+   "end": 17.87
+  },
+  {
+   "beat": 4,
+   "text": "changed",
+   "start": 17.95,
+   "end": 18.35
+  },
+  {
+   "beat": 4,
+   "text": "him.",
+   "start": 18.43,
+   "end": 18.95
+  },
+  {
+   "beat": 4,
+   "text": "He",
+   "start": 18.99,
+   "end": 19.07
+  },
+  {
+   "beat": 4,
+   "text": "demanded",
+   "start": 19.19,
+   "end": 19.63
+  },
+  {
+   "beat": 4,
+   "text": "Indra's",
+   "start": 19.71,
+   "end": 20.11
+  },
+  {
+   "beat": 4,
+   "text": "queen,",
+   "start": 20.19,
+   "end": 20.67
+  },
+  {
+   "beat": 4,
+   "text": "Shachi.",
+   "start": 20.75,
+   "end": 21.63
+  },
+  {
+   "beat": 5,
+   "text": "She",
+   "start": 21.71,
+   "end": 21.87
+  },
+  {
+   "beat": 5,
+   "text": "set",
+   "start": 21.95,
+   "end": 22.03
+  },
+  {
+   "beat": 5,
+   "text": "a",
+   "start": 22.11,
+   "end": 22.19
+  },
+  {
+   "beat": 5,
+   "text": "trap",
+   "start": 22.27,
+   "end": 22.59
+  },
+  {
+   "beat": 5,
+   "text": "for",
+   "start": 22.67,
+   "end": 22.75
+  },
+  {
+   "beat": 5,
+   "text": "his",
+   "start": 22.83,
+   "end": 22.91
+  },
+  {
+   "beat": 5,
+   "text": "pride:",
+   "start": 22.99,
+   "end": 23.87
+  },
+  {
+   "beat": 5,
+   "text": "\"Come",
+   "start": 23.95,
+   "end": 24.11
+  },
+  {
+   "beat": 5,
+   "text": "to",
+   "start": 24.15,
+   "end": 24.19
+  },
+  {
+   "beat": 5,
+   "text": "me",
+   "start": 24.27,
+   "end": 24.43
+  },
+  {
+   "beat": 5,
+   "text": "carried",
+   "start": 24.51,
+   "end": 24.83
+  },
+  {
+   "beat": 5,
+   "text": "by",
+   "start": 24.95,
+   "end": 25.07
+  },
+  {
+   "beat": 5,
+   "text": "sages.",
+   "start": 25.15,
+   "end": 26.03
+  },
+  {
+   "beat": 5,
+   "text": "No",
+   "start": 26.11,
+   "end": 26.27
+  },
+  {
+   "beat": 5,
+   "text": "god",
+   "start": 26.43,
+   "end": 26.59
+  },
+  {
+   "beat": 5,
+   "text": "ever",
+   "start": 26.67,
+   "end": 26.91
+  },
+  {
+   "beat": 5,
+   "text": "has.\"",
+   "start": 27.07,
+   "end": 27.87
+  },
+  {
+   "beat": 6,
+   "text": "He",
+   "start": 28.083,
+   "end": 28.11
+  },
+  {
+   "beat": 6,
+   "text": "did.",
+   "start": 28.43,
+   "end": 28.79
+  },
+  {
+   "beat": 6,
+   "text": "And",
+   "start": 28.83,
+   "end": 28.91
+  },
+  {
+   "beat": 6,
+   "text": "when",
+   "start": 28.99,
+   "end": 29.07
+  },
+  {
+   "beat": 6,
+   "text": "the",
+   "start": 29.15,
+   "end": 29.23
+  },
+  {
+   "beat": 6,
+   "text": "sages",
+   "start": 29.27,
+   "end": 29.63
+  },
+  {
+   "beat": 6,
+   "text": "rebuked",
+   "start": 29.75,
+   "end": 30.03
+  },
+  {
+   "beat": 6,
+   "text": "him,",
+   "start": 30.11,
+   "end": 30.47
+  },
+  {
+   "beat": 6,
+   "text": "he",
+   "start": 30.51,
+   "end": 30.67
+  },
+  {
+   "beat": 6,
+   "text": "set",
+   "start": 30.75,
+   "end": 30.83
+  },
+  {
+   "beat": 6,
+   "text": "his",
+   "start": 30.95,
+   "end": 31.07
+  },
+  {
+   "beat": 6,
+   "text": "foot",
+   "start": 31.15,
+   "end": 31.31
+  },
+  {
+   "beat": 6,
+   "text": "on",
+   "start": 31.39,
+   "end": 31.47
+  },
+  {
+   "beat": 6,
+   "text": "Agastya's",
+   "start": 31.55,
+   "end": 32.11
+  },
+  {
+   "beat": 6,
+   "text": "head.",
+   "start": 32.19,
+   "end": 32.83
+  },
+  {
+   "beat": 7,
+   "text": "Agastya",
+   "start": 32.91,
+   "end": 33.47
+  },
+  {
+   "beat": 7,
+   "text": "cursed",
+   "start": 33.55,
+   "end": 33.87
+  },
+  {
+   "beat": 7,
+   "text": "him:",
+   "start": 33.95,
+   "end": 34.35
+  },
+  {
+   "beat": 7,
+   "text": "\"Fall",
+   "start": 34.43,
+   "end": 34.67
+  },
+  {
+   "beat": 7,
+   "text": "from",
+   "start": 34.75,
+   "end": 34.91
+  },
+  {
+   "beat": 7,
+   "text": "heaven.",
+   "start": 34.99,
+   "end": 35.47
+  },
+  {
+   "beat": 7,
+   "text": "Become",
+   "start": 35.63,
+   "end": 35.79
+  },
+  {
+   "beat": 7,
+   "text": "a",
+   "start": 35.87,
+   "end": 35.95
+  },
+  {
+   "beat": 7,
+   "text": "snake!\"",
+   "start": 36.03,
+   "end": 36.83
+  },
+  {
+   "beat": 8,
+   "text": "Falling,",
+   "start": 36.91,
+   "end": 37.47
+  },
+  {
+   "beat": 8,
+   "text": "Nahusha",
+   "start": 37.51,
+   "end": 38.03
+  },
+  {
+   "beat": 8,
+   "text": "begged",
+   "start": 38.11,
+   "end": 38.35
+  },
+  {
+   "beat": 8,
+   "text": "for",
+   "start": 38.43,
+   "end": 38.59
+  },
+  {
+   "beat": 8,
+   "text": "mercy.",
+   "start": 38.71,
+   "end": 39.39
+  },
+  {
+   "beat": 8,
+   "text": "Agastya",
+   "start": 39.47,
+   "end": 39.95
+  },
+  {
+   "beat": 8,
+   "text": "said:",
+   "start": 40.07,
+   "end": 40.59
+  },
+  {
+   "beat": 8,
+   "text": "\"Whoever",
+   "start": 40.704,
+   "end": 40.99
+  },
+  {
+   "beat": 8,
+   "text": "answers",
+   "start": 41.07,
+   "end": 41.39
+  },
+  {
+   "beat": 8,
+   "text": "your",
+   "start": 41.47,
+   "end": 41.63
+  },
+  {
+   "beat": 8,
+   "text": "questions",
+   "start": 41.95,
+   "end": 42.27
+  },
+  {
+   "beat": 8,
+   "text": "will",
+   "start": 42.39,
+   "end": 42.51
+  },
+  {
+   "beat": 8,
+   "text": "free",
+   "start": 42.63,
+   "end": 42.75
+  },
+  {
+   "beat": 8,
+   "text": "you.\"",
+   "start": 42.83,
+   "end": 43.39
+  },
+  {
+   "beat": 9,
+   "text": "Ages",
+   "start": 43.47,
+   "end": 43.87
+  },
+  {
+   "beat": 9,
+   "text": "later,",
+   "start": 44.15,
+   "end": 44.47
+  },
+  {
+   "beat": 9,
+   "text": "that",
+   "start": 44.51,
+   "end": 44.67
+  },
+  {
+   "beat": 9,
+   "text": "snake",
+   "start": 44.75,
+   "end": 45.07
+  },
+  {
+   "beat": 9,
+   "text": "seized",
+   "start": 45.15,
+   "end": 45.47
+  },
+  {
+   "beat": 9,
+   "text": "mighty",
+   "start": 45.55,
+   "end": 45.87
+  },
+  {
+   "beat": 9,
+   "text": "Bhima,",
+   "start": 45.95,
+   "end": 46.39
+  },
+  {
+   "beat": 9,
+   "text": "and",
+   "start": 46.43,
+   "end": 46.59
+  },
+  {
+   "beat": 9,
+   "text": "took",
+   "start": 46.67,
+   "end": 46.83
+  },
+  {
+   "beat": 9,
+   "text": "his",
+   "start": 46.91,
+   "end": 46.99
+  },
+  {
+   "beat": 9,
+   "text": "strength.",
+   "start": 47.07,
+   "end": 47.87
+  },
+  {
+   "beat": 10,
+   "text": "Yudhishthira",
+   "start": 47.937,
+   "end": 48.51
+  },
+  {
+   "beat": 10,
+   "text": "found",
+   "start": 48.59,
+   "end": 48.83
+  },
+  {
+   "beat": 10,
+   "text": "his",
+   "start": 48.91,
+   "end": 48.99
+  },
+  {
+   "beat": 10,
+   "text": "brother.",
+   "start": 49.07,
+   "end": 49.71
+  },
+  {
+   "beat": 10,
+   "text": "\"I",
+   "start": 49.79,
+   "end": 50.03
+  },
+  {
+   "beat": 10,
+   "text": "am",
+   "start": 50.11,
+   "end": 50.19
+  },
+  {
+   "beat": 10,
+   "text": "Nahusha,",
+   "start": 50.27,
+   "end": 51.15
+  },
+  {
+   "beat": 10,
+   "text": "your",
+   "start": 51.27,
+   "end": 51.39
+  },
+  {
+   "beat": 10,
+   "text": "ancestor,\"",
+   "start": 51.47,
+   "end": 52.35
+  },
+  {
+   "beat": 10,
+   "text": "said",
+   "start": 52.43,
+   "end": 52.59
+  },
+  {
+   "beat": 10,
+   "text": "the",
+   "start": 52.63,
+   "end": 52.67
+  },
+  {
+   "beat": 10,
+   "text": "snake.",
+   "start": 52.75,
+   "end": 53.47
+  },
+  {
+   "beat": 10,
+   "text": "\"Answer",
+   "start": 53.542,
+   "end": 53.87
+  },
+  {
+   "beat": 10,
+   "text": "me,",
+   "start": 53.95,
+   "end": 54.31
+  },
+  {
+   "beat": 10,
+   "text": "and",
+   "start": 54.35,
+   "end": 54.51
+  },
+  {
+   "beat": 10,
+   "text": "he",
+   "start": 54.59,
+   "end": 54.67
+  },
+  {
+   "beat": 10,
+   "text": "lives:",
+   "start": 54.75,
+   "end": 55.59
+  },
+  {
+   "beat": 10,
+   "text": "who",
+   "start": 55.63,
+   "end": 56.03
+  },
+  {
+   "beat": 10,
+   "text": "is",
+   "start": 56.11,
+   "end": 56.19
+  },
+  {
+   "beat": 10,
+   "text": "a",
+   "start": 56.23,
+   "end": 56.27
+  },
+  {
+   "beat": 10,
+   "text": "Brahmin?\"",
+   "start": 56.35,
+   "end": 57.23
+  },
+  {
+   "beat": 11,
+   "text": "Yudhishthira",
+   "start": 57.31,
+   "end": 57.87
+  },
+  {
+   "beat": 11,
+   "text": "said:",
+   "start": 57.99,
+   "end": 58.51
+  },
+  {
+   "beat": 11,
+   "text": "\"One",
+   "start": 58.71,
+   "end": 58.75
+  },
+  {
+   "beat": 11,
+   "text": "with",
+   "start": 58.87,
+   "end": 58.99
+  },
+  {
+   "beat": 11,
+   "text": "truth,",
+   "start": 59.07,
+   "end": 59.71
+  },
+  {
+   "beat": 11,
+   "text": "forgiveness",
+   "start": 59.83,
+   "end": 60.43
+  },
+  {
+   "beat": 11,
+   "text": "and",
+   "start": 60.51,
+   "end": 60.59
+  },
+  {
+   "beat": 11,
+   "text": "compassion.",
+   "start": 60.83,
+   "end": 61.59
+  },
+  {
+   "beat": 11,
+   "text": "It's",
+   "start": 61.63,
+   "end": 61.79
+  },
+  {
+   "beat": 11,
+   "text": "conduct",
+   "start": 61.87,
+   "end": 62.27
+  },
+  {
+   "beat": 11,
+   "text": "that",
+   "start": 62.35,
+   "end": 62.51
+  },
+  {
+   "beat": 11,
+   "text": "makes",
+   "start": 62.59,
+   "end": 62.83
+  },
+  {
+   "beat": 11,
+   "text": "one,",
+   "start": 62.91,
+   "end": 63.39
+  },
+  {
+   "beat": 11,
+   "text": "not",
+   "start": 63.47,
+   "end": 63.55
+  },
+  {
+   "beat": 11,
+   "text": "birth",
+   "start": 63.67,
+   "end": 63.79
+  },
+  {
+   "beat": 11,
+   "text": "alone.\"",
+   "start": 63.87,
+   "end": 64.67
+  },
+  {
+   "beat": 12,
+   "text": "Nahusha",
+   "start": 64.739,
+   "end": 65.23
+  },
+  {
+   "beat": 12,
+   "text": "had",
+   "start": 65.31,
+   "end": 65.39
+  },
+  {
+   "beat": 12,
+   "text": "lost",
+   "start": 65.47,
+   "end": 65.79
+  },
+  {
+   "beat": 12,
+   "text": "heaven",
+   "start": 65.83,
+   "end": 66.19
+  },
+  {
+   "beat": 12,
+   "text": "by",
+   "start": 66.23,
+   "end": 66.27
+  },
+  {
+   "beat": 12,
+   "text": "his",
+   "start": 66.35,
+   "end": 66.59
+  },
+  {
+   "beat": 12,
+   "text": "own",
+   "start": 66.67,
+   "end": 66.91
+  },
+  {
+   "beat": 12,
+   "text": "conduct.",
+   "start": 67.39,
+   "end": 67.877
+  },
+  {
+   "beat": 12,
+   "text": "\"Power",
+   "start": 67.95,
+   "end": 68.35
+  },
+  {
+   "beat": 12,
+   "text": "deludes",
+   "start": 68.43,
+   "end": 68.99
+  },
+  {
+   "beat": 12,
+   "text": "even",
+   "start": 69.07,
+   "end": 69.31
+  },
+  {
+   "beat": 12,
+   "text": "the",
+   "start": 69.39,
+   "end": 69.55
+  },
+  {
+   "beat": 12,
+   "text": "wise,\"",
+   "start": 69.79,
+   "end": 70.27
+  },
+  {
+   "beat": 12,
+   "text": "he",
+   "start": 70.35,
+   "end": 70.51
+  },
+  {
+   "beat": 12,
+   "text": "said.",
+   "start": 70.63,
+   "end": 71.15
+  },
+  {
+   "beat": 13,
+   "text": "He",
+   "start": 71.23,
+   "end": 71.39
+  },
+  {
+   "beat": 13,
+   "text": "let",
+   "start": 71.47,
+   "end": 71.55
+  },
+  {
+   "beat": 13,
+   "text": "Bhima",
+   "start": 71.63,
+   "end": 71.95
+  },
+  {
+   "beat": 13,
+   "text": "go,",
+   "start": 72.19,
+   "end": 72.457
+  },
+  {
+   "beat": 13,
+   "text": "and",
+   "start": 72.483,
+   "end": 72.51
+  },
+  {
+   "beat": 13,
+   "text": "the",
+   "start": 72.59,
+   "end": 72.67
+  },
+  {
+   "beat": 13,
+   "text": "curse",
+   "start": 72.75,
+   "end": 73.07
+  },
+  {
+   "beat": 13,
+   "text": "broke.",
+   "start": 73.15,
+   "end": 73.83
+  },
+  {
+   "beat": 13,
+   "text": "The",
+   "start": 73.87,
+   "end": 73.95
+  },
+  {
+   "beat": 13,
+   "text": "man",
+   "start": 74.07,
+   "end": 74.19
+  },
+  {
+   "beat": 13,
+   "text": "who'd",
+   "start": 74.23,
+   "end": 74.43
+  },
+  {
+   "beat": 13,
+   "text": "said",
+   "start": 74.63,
+   "end": 74.83
+  },
+  {
+   "beat": 13,
+   "text": "\"I'm",
+   "start": 74.87,
+   "end": 75.15
+  },
+  {
+   "beat": 13,
+   "text": "too",
+   "start": 75.27,
+   "end": 75.39
+  },
+  {
+   "beat": 13,
+   "text": "weak\"",
+   "start": 75.47,
+   "end": 76.03
+  },
+  {
+   "beat": 13,
+   "text": "rose",
+   "start": 76.11,
+   "end": 76.35
+  },
+  {
+   "beat": 13,
+   "text": "to",
+   "start": 76.43,
+   "end": 76.59
+  },
+  {
+   "beat": 13,
+   "text": "heaven",
+   "start": 76.63,
+   "end": 76.83
+  },
+  {
+   "beat": 13,
+   "text": "again.",
+   "start": 76.91,
+   "end": 77.79
+  },
+  {
+   "beat": 14,
+   "text": "Next:",
+   "start": 77.87,
+   "end": 78.43
+  },
+  {
+   "beat": 14,
+   "text": "a",
+   "start": 78.51,
+   "end": 78.59
+  },
+  {
+   "beat": 14,
+   "text": "dead",
+   "start": 78.67,
+   "end": 78.83
+  },
+  {
+   "beat": 14,
+   "text": "snake,",
+   "start": 78.91,
+   "end": 79.55
+  },
+  {
+   "beat": 14,
+   "text": "and",
+   "start": 79.59,
+   "end": 79.63
+  },
+  {
+   "beat": 14,
+   "text": "a",
+   "start": 79.71,
+   "end": 79.87
+  },
+  {
+   "beat": 14,
+   "text": "king",
+   "start": 80.03,
+   "end": 80.19
+  },
+  {
+   "beat": 14,
+   "text": "with",
+   "start": 80.27,
+   "end": 80.51
+  },
+  {
+   "beat": 14,
+   "text": "seven",
+   "start": 80.67,
+   "end": 80.83
+  },
+  {
+   "beat": 14,
+   "text": "days",
+   "start": 80.91,
+   "end": 81.15
+  },
+  {
+   "beat": 14,
+   "text": "to",
+   "start": 81.23,
+   "end": 81.31
+  },
+  {
+   "beat": 14,
+   "text": "live.",
+   "start": 81.39,
+   "end": 81.95
+  }
+ ]
+}

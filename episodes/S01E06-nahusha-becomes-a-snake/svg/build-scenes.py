@@ -122,7 +122,7 @@ scenes = [sting,
  # 10 the question
  S('s10', 10, GG, variant='dusk', light='dusk', narr=N(10), chars=[C('bhima', 'held', 0.47, 0.84, 0.8, flip=True, action='still', expression='weak'), C('yudhishthira', 'arriving', 0.8, 0.85, 0.95, flip=True, action='step-forward', expression='alarmed'), SN(0.155, 0.803, 0.9)],
    props=[P('coils-back', 0.47, 0.835, 1.0, 'still'), P('coils-front', 0.47, 0.845, 1.0, 'still')], text=tag('Yudhishthira', 'युधिष्ठिर', "Bhima's elder brother", 'भीम के बड़े भाई'),
-   cues=[cut('am', 'मैं', 's10b'), cut('Answer', 'उत्तर', 's10c'), cut('who', 'ब्राह्मण', 's10d')], sfx=[snd('gong-soft', at=0, vol=0.5)], music=0.7, notes='All three in one frame: snake, Bhima held, Yudhishthira arriving. CE 3.177.1-5.'),
+   cues=[cut('I', 'मैं', 's10b', nth={'en': 3}), cut('Answer', 'उत्तर', 's10c'), cut('who', 'ब्राह्मण', 's10d')], sfx=[snd('gong-soft', at=0, vol=0.5)], music=0.7, notes='All three in one frame: snake, Bhima held, Yudhishthira arriving. CE 3.177.1-5.'),
  S('s10b', 10, GG, variant='dusk', light='dusk', chars=[C('nahusha-snake', 'rearing', 0.44, 1.04, 1.7, action='still', expression='weary', speaking=True)], cam=zoom(1.0, 1.06, [0.5, 0.4]), sfx=[snd('heartbeat', at=0, vol=0.5)], music=0.6, transition='dissolve',
    notes='NEW character: the snake as a speaking rig, so its mouth moves when it talks. CE 3.177.6.'),
  S('s10c', 10, GG, variant='dusk', light='dusk', chars=[C('bhima', 'held', 0.72, 0.84, 0.9, flip=True, action='still', expression='weak'), C('nahusha-snake', 'rearing', 0.26, 0.76, 0.85, shadow=False, action='still', expression='weary', speaking=True)],
@@ -192,7 +192,7 @@ for s in scenes:
                 full = full[a:b]
             hits = [w for w in full if r['onWord'][l].lower().replace("'", '') in w]
             if len(hits) < r.get('nth', {}).get(l, 1): errs.append((s['id'], l, r['onWord'][l], 'not heard'))
-            elif hits[0] not in (r['onWord'][l].lower().replace("'", ''), r['onWord'][l].lower() + 's'): errs.append((s['id'], l, r['onWord'][l], f'matches inside "{hits[0]}"'))
+            elif hits[r.get('nth', {}).get(l, 1) - 1] not in (r['onWord'][l].lower().replace("'", ''), r['onWord'][l].lower() + 's'): errs.append((s['id'], l, r['onWord'][l], f'matches inside "{hits[0]}"'))
         if r.get('do') == 'hard-cut-to':
             t = next((x for x in scenes if x['id'] == r['target']), None)
             if not t or t['beat'] != s['beat'] or any(t['narration'].values()): errs.append((s['id'], 'bad insert', r['target']))

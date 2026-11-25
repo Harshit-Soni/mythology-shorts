@@ -1337,11 +1337,14 @@
       "cues": [
         {
           "onWord": {
-            "en": "am",
+            "en": "I",
             "hi": "मैं"
           },
           "do": "hard-cut-to",
-          "target": "s10b"
+          "target": "s10b",
+          "nth": {
+            "en": 3
+          }
         },
         {
           "onWord": {
