@@ -62,6 +62,9 @@ Lessons from making and publishing episodes. One line per lesson, with the episo
 - A cut to a speaker goes on the **first** word of the quote, or the close-up starts mid-sentence. (S01E06)
 - Someone held or attacked faces the attacker, and the power leaving them flows *to* whoever takes it. (S01E06)
 
+- Before voicing, read the script as someone who knows nothing: each event needs a *stated* reason, each quote a named speaker, and the ending must pay off something said earlier. E06 v1 passed every fact check and still lost the viewer after the curse. (S01E06)
+- Put the way out inside the curse, so the second half is a promise being kept. (S01E06)
+
 ## Hooks
 - *(none yet: fill in after the first published episodes)*
 
