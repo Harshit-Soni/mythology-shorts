@@ -1,17 +1,17 @@
 # Publish kit: S01E06
 
-> **Written for v1. Update it after the v2 render** (lengths, thumbnails, replies). Don't post v1.
+**Version:** v2, the clearer telling (2026-11-25). Post `render/S01E06-en.mp4` and `render/S01E06-hi.mp4`, **never the files in `render/v1/`**. The v1 kit is in `review/07-publish-v1.md`.
 
 Episode 6 of **S01 Shraap: Curses of the Mahabharata**.
 
-**Length:** EN 1:16, HI 1:19 (with the end card).
+**Length:** EN 1:24, HI 1:31 (with the end card).
 
 **Before posting:** listen to the Hindi voice (its pronunciation hasn't been checked by machine), and verify the research rows.
 
 **Accuracy:**
 - The rise, the fall and the release are all in the critical edition (5.10–17, 3.175–178).
 - Say Nahusha **"set his foot on"** Agastya's head. Never "kicked": that's a different account, with Bhrigu as the one who curses (Anushasana).
-- Leave **"ten thousand years"** out of titles and captions: it belongs to one account and the release by Yudhishthira to another.
+- Leave **"ten thousand years"** out of titles and captions: it belongs to the Udyoga account; the way out in the video ("whoever answers your questions") is from the Vana Parva.
 - **"Sarpa, sarpa!"** is from the Devi Bhagavata, not the epic passages read. Only in a reply, and named as such.
 - Call it a **great / giant snake**. Not a cobra; it has no hood.
 - "Who is a Brahmin?" stays out of titles and hooks. It's Yudhishthira's answer: quote it, don't comment on it.
@@ -33,7 +33,7 @@ Episode 6 of **S01 Shraap: Curses of the Mahabharata**.
   - Alt B: The Giant Snake That Caught Bhima Was His Own Ancestor *(54)*
 - **Description:**
   > The gods once made a human their king. He became a snake. 🐍👑
-  > With Indra gone, King Nahusha was given a throne and a terrible power. He said he was too weak for it. Then it changed him. One queen's trap, one foot on a sage's head, and he fell from heaven. Ages later, the snake he became caught Bhima, and put its questions to Yudhishthira.
+  > With Indra gone, King Nahusha was given a throne and a terrible power. He said he was too weak for it. Then power changed him. One queen's trap, one foot on a sage's head, and he fell from heaven, with a single way out: someone would have to answer his questions. Ages later, the snake he became caught Bhima. And Yudhishthira came.
   >
   > 📜 Shraap, episode 6: the curses that shaped the Mahabharata. Episode 5: why Karna's wheel sank. The Lost Gyaan: what history forgot, we remember. Follow for the next curse.
   >
@@ -41,9 +41,9 @@ Episode 6 of **S01 Shraap: Curses of the Mahabharata**.
   > • Nahusha becomes king of the gods: Udyoga Parva §11: https://sacred-texts.com/book/the-mahabharata-book-5-udyoga-parva/section-xi
   > • Shachi's request: Udyoga Parva §15: https://sacred-texts.com/book/the-mahabharata-book-5-udyoga-parva/section-xv
   > • The foot on Agastya's head, and the curse: Udyoga Parva §17: https://sacred-texts.com/book/the-mahabharata-book-5-udyoga-parva/section-xvii
-  > • The snake and Bhima: Vana Parva §178: https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-clxxviii
+  > • The snake and Bhima, and the way out: Vana Parva §178: https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-clxxviii
   > • Yudhishthira's answer: Vana Parva §179: https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-clxxix
-  > • Agastya's pity, and the release: Vana Parva §180: https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-clxxx
+  > • How he fell, and the release: Vana Parva §180: https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-clxxx
   >
   > #Mahabharata #Nahusha #MahabharataCurses #IndianMythology #TheLostGyaan
 - **Hashtags (the first three show above the title):** #Mahabharata #Nahusha #MahabharataCurses #IndianMythology #TheLostGyaan
@@ -57,7 +57,7 @@ Episode 6 of **S01 Shraap: Curses of the Mahabharata**.
   - Alt B: Bhim Ko Jakadne Wala Saanp Unka Apna Poorvaj Tha! *(49)*
 - **Description:**
   > Devtaon ne ek manushya ko raja banaya. Woh saanp ban gaya. 🐍👑
-  > Indra gaayab the, to raja Nahush ko swarg ka sinhasan aur ek bhayanak shakti mili. Unhone kaha tha, "main durbal hoon." Phir shakti ne unhe badal diya. Shachi ka ek jaal, ek rishi ke sir par pair, aur woh swarg se gir gaye. Bahut samay baad usi saanp ne Bhim ko jakda, aur Yudhishthir se prashn poochhe.
+  > Indra gaayab the, to raja Nahush ko swarg ka sinhasan aur ek bhayanak shakti mili. Unhone kaha tha, "main durbal hoon." Phir shakti ne unhe badal diya. Shachi ka ek jaal, ek rishi ke sir par pair, aur woh swarg se gir gaye. Mukti ka ek hi raasta tha: koi unke prashnon ka uttar de. Bahut samay baad usi saanp ne Bhim ko jakda. Aur Yudhishthir aaye.
   >
   > 📜 Shraap, kadi 6: woh shraap jinhone Mahabharat likh di. Kadi 5: Karna ka pahiya kyun dhansa. The Lost Gyaan: jo itihaas bhool gaya, woh humein yaad hai. Agle shraap ke liye follow karein.
   >
@@ -65,9 +65,9 @@ Episode 6 of **S01 Shraap: Curses of the Mahabharata**.
   > • Nahush devtaon ke raja bane: Udyog Parv §11: https://sacred-texts.com/book/the-mahabharata-book-5-udyoga-parva/section-xi
   > • Shachi ki maang: Udyog Parv §15: https://sacred-texts.com/book/the-mahabharata-book-5-udyoga-parva/section-xv
   > • Agastya ke sir par pair, aur shraap: Udyog Parv §17: https://sacred-texts.com/book/the-mahabharata-book-5-udyoga-parva/section-xvii
-  > • Saanp aur Bhim: Van Parv §178: https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-clxxviii
+  > • Saanp aur Bhim, aur mukti ka raasta: Van Parv §178: https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-clxxviii
   > • Yudhishthir ka uttar: Van Parv §179: https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-clxxix
-  > • Agastya ki daya, aur mukti: Van Parv §180: https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-clxxx
+  > • Patan ki wajah, aur mukti: Van Parv §180: https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-clxxx
   >
   > #Mahabharat #Nahush #MahabharatKeShraap #Shraap #TheLostGyaan
 - **Hashtags:** #Mahabharat #Nahush #MahabharatKeShraap #Shraap #TheLostGyaan
@@ -77,7 +77,7 @@ Episode 6 of **S01 Shraap: Curses of the Mahabharata**.
 ## Instagram Reel: Hindi (`@thelostgyaaann`, the only Instagram post)
 - **Caption:**
   > Devtaon ne ek manushya ko raja banaya. Woh saanp ban gaya. 🐍👑
-  > Ek sinhasan, ek palki, aur ek paheli: yahi hai Nahush ki kahani. Shraap series ki chhathi kadi.
+  > Shraap se mukti ka ek hi raasta tha: koi unke prashnon ka uttar de. Shraap series ki chhathi kadi.
   > Shakti insaan ko badalti hai, ya uska asli roop dikhati hai? Comment mein bataiye 👇
   > Aisi aur bhooli hui kathaon ke liye follow karein @thelostgyaaann
   >
@@ -90,9 +90,9 @@ Episode 6 of **S01 Shraap: Curses of the Mahabharata**.
 - [Ganguli, Udyoga Parva §11](https://sacred-texts.com/book/the-mahabharata-book-5-udyoga-parva/section-xi): the human king, "I am weak", the boon; the change
 - [Udyoga Parva §15](https://sacred-texts.com/book/the-mahabharata-book-5-udyoga-parva/section-xv): Indra's plan, Shachi's request, the sages as bearers
 - [Udyoga Parva §17](https://sacred-texts.com/book/the-mahabharata-book-5-udyoga-parva/section-xvii): the foot on Agastya's head; the curse
-- [Vana Parva §178](https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-clxxviii): the snake's boon; "your own ancestor"
+- [Vana Parva §178](https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-clxxviii): the snake's boon; "your own ancestor"; whoever answers his questions will free him
 - [Vana Parva §179](https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-clxxix): the questions, and Yudhishthira's answer
-- [Vana Parva §180](https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-clxxx): power deludes; Agastya's pity; the curse ends
+- [Vana Parva §180](https://sacred-texts.com/book/the-mahabharata-book-3-vana-parva/section-clxxx): power deludes even the wise; the foot that touched Agastya; the curse ends
 - Critical edition (BORI e-text): [MBh 5](https://bombay.indology.info/mahabharata/text/UR/MBh05.txt) (5.10–13, 5.15–17), [MBh 3](https://bombay.indology.info/mahabharata/text/UR/MBh03.txt) (3.175–178), [MBh 1](https://bombay.indology.info/mahabharata/text/UR/MBh01.txt) (1.70, 1.90: the family line), [MBh 13](https://bombay.indology.info/mahabharata/text/UR/MBh13.txt) (13.102–103: the other account)
 - [Devi Bhagavata, the chapter on Nahusha's downfall](https://www.wisdomlib.org/hinduism/book/devi-bhagavata-purana/d/doc57234.html): "Sarpa, sarpa!" (for the reply only)
 
@@ -100,7 +100,10 @@ Episode 6 of **S01 Shraap: Curses of the Mahabharata**.
 - *"He shouted 'sarpa, sarpa' and Agastya turned it into a curse!"* → That's a great detail from the Devi Bhagavata. We didn't find it in the Mahabharata chapters we used.
 - *"He kicked Agastya!"* → In the account we followed, he sets his foot on Agastya's head (Udyoga §17). The kick is in another account, in the Anushasana Parva.
 - *"It was Bhrigu who cursed him!"* → In the Anushasana Parva, yes: Bhrigu, hidden in Agastya's hair. In the Udyoga and Vana Parvas, it's Agastya.
-- *"Wasn't the curse for ten thousand years?"* → The Udyoga Parva says so. In the Vana Parva, the snake says Yudhishthira will free him. We followed the Vana Parva for the ending.
+- *"Wasn't the curse for ten thousand years?"* → The Udyoga Parva says so. In the Vana Parva, the sage tells him that whoever answers his questions will free him (Vana §178). We followed the Vana Parva for the way out.
+- *"Didn't Agastya name Yudhishthira?"* → He does, in another passage: Yudhishthira will free you (Vana §180). In §178 it's whoever answers his questions. Both come true in the same man.
+- *"Why did one answer free him?"* → In the text they talk for longer, and the snake says talking with a good man ended the curse (Vana §180). We kept the question the story turns on.
+- *"Why did the sages rebuke him?"* → They asked him about certain Vedic hymns, he rejected them, and they told him he had turned to adharma (Udyoga §17).
 - *"Agastya was short, so the others had to wait for him."* → That's from retellings. We didn't find it in the chapters we used.
 - *"Where was Indra?"* → Hiding in the waters, crushed by guilt after killing Vritra (Udyoga). The plan to have the sages carry Nahusha was his, and Shachi carried it out (Udyoga §15).
 - *"Bhima losing to a snake?"* → The snake had a boon: it took the strength of anyone it seized (Vana §178). That rhymes with the power the gods once gave Nahusha's eyes.
