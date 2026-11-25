@@ -67,6 +67,9 @@ Lessons from making and publishing episodes. One line per lesson, with the episo
 
 - A creature that speaks is a character with mouth groups, not a prop: the moving mouth tells the viewer whose line it is. A scene's `transition` plays on its way **out**. (S01E06)
 
+- The stamp's word must be spoken as it lands: no शाप / CURSED over a line that never says it. And don't say "that poison" before any poison is mentioned. (S01E07)
+- A single raised finger can look rude: hold small things between finger and thumb. (S01E07)
+
 ## Hooks
 - *(none yet: fill in after the first published episodes)*
 

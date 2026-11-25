@@ -627,23 +627,23 @@
         ]
       },
       "narration": {
-        "en": "The sage forgave him. His young son didn't: \"Takshaka, lord of snakes, will kill the king in seven days!\"",
-        "hi": "ऋषि ने क्षमा कर दिया, पर छोटे बेटे ने नहीं: \"सात दिन में नागराज तक्षक राजा को मार डालेगा!\""
+        "en": "The sage forgave him. His young son cursed him: \"Takshaka, lord of snakes, will kill the king in seven days!\"",
+        "hi": "ऋषि ने क्षमा किया, पर छोटे बेटे ने शाप दिया: \"सात दिन में नागराज तक्षक राजा को मार डालेगा!\""
       },
       "onScreenText": null,
       "cues": [
         {
           "onWord": {
-            "en": "young",
-            "hi": "छोटे"
+            "en": "His",
+            "hi": "पर"
           },
           "do": "hard-cut-to",
           "target": "s05b"
         },
         {
           "onWord": {
-            "en": "Takshaka",
-            "hi": "सात"
+            "en": "cursed",
+            "hi": "शाप"
           },
           "do": "hard-cut-to",
           "target": "s05c"
@@ -776,8 +776,8 @@
       "cues": [
         {
           "onWord": {
-            "en": "lord",
-            "hi": "नागराज"
+            "en": "cursed",
+            "hi": "शाप"
           },
           "do": "stamp-next",
           "target": "shaap-stamp"
@@ -792,8 +792,8 @@
         {
           "id": "stamp-thud",
           "onWord": {
-            "en": "lord",
-            "hi": "नागराज"
+            "en": "cursed",
+            "hi": "शाप"
           },
           "volume": 0.8,
           "offset": 0.1
@@ -1106,8 +1106,8 @@
         "to": 0.04
       },
       "narration": {
-        "en": "On the seventh day, a healer who could cure that poison set out to save him. Takshaka paid the healer to turn back.",
-        "hi": "सातवें दिन राजा को बचाने एक वैद्य निकला, जो वो ज़हर उतार सकता था। तक्षक ने धन देकर वैद्य को लौटा दिया।"
+        "en": "On the seventh day, a healer who could cure Takshaka's bite set out. Takshaka paid him to turn back.",
+        "hi": "सातवें दिन एक वैद्य निकला, जो तक्षक का ज़हर उतार सकता था। तक्षक ने धन देकर उसे लौटा दिया।"
       },
       "onScreenText": {
         "en": "Kashyapa",
@@ -1133,7 +1133,11 @@
             "hi": "तक्षक"
           },
           "do": "hard-cut-to",
-          "target": "s08c"
+          "target": "s08c",
+          "nth": {
+            "en": 2,
+            "hi": 2
+          }
         },
         {
           "onWord": {
