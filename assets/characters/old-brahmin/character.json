@@ -1,0 +1,25 @@
+{
+  "id": "old-brahmin",
+  "divine": false,
+  "name": {
+    "en": "Takshaka as an old Brahmin",
+    "hi": "वृद्ध ब्राह्मण (तक्षक)"
+  },
+  "role": "Takshaka in disguise",
+  "look": "White hair, rust cloth, ashen skin, a pouch of gold.",
+  "sourceNotes": "CE 1.38.34.",
+  "poses": [
+    "offering-gold"
+  ],
+  "appearsIn": [
+    "S01E07"
+  ],
+  "files": {
+    "offering-gold": "offering-gold.svg"
+  },
+  "facing": "right",
+  "facingByPose": {
+    "offering-gold": "right"
+  },
+  "notes": "Made in code by episodes/S01E07-parikshit-seven-days/svg/make-cast.py. Mirror with flip."
+}

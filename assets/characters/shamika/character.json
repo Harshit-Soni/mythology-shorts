@@ -1,0 +1,31 @@
+{
+  "id": "shamika",
+  "divine": false,
+  "name": {
+    "en": "Shamika",
+    "hi": "शमीक"
+  },
+  "role": "The silent sage who forgave the king",
+  "look": "The sage rig with white hair and beard, pale bark cloth. Calm in every pose.",
+  "sourceNotes": "CE 1.36–38.",
+  "poses": [
+    "seated-silent",
+    "with-snake",
+    "gentle"
+  ],
+  "appearsIn": [
+    "S01E07"
+  ],
+  "files": {
+    "gentle": "gentle.svg",
+    "seated-silent": "seated-silent.svg",
+    "with-snake": "with-snake.svg"
+  },
+  "facing": "right",
+  "facingByPose": {
+    "seated-silent": "right",
+    "with-snake": "right",
+    "gentle": "right"
+  },
+  "notes": "Made in code by episodes/S01E07-parikshit-seven-days/svg/make-cast.py. Mirror with flip."
+}

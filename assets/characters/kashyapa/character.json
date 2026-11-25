@@ -1,0 +1,28 @@
+{
+  "id": "kashyapa",
+  "divine": false,
+  "name": {
+    "en": "Kashyapa",
+    "hi": "काश्यप"
+  },
+  "role": "The healer who was paid to turn back",
+  "look": "The sage rig, brown-grey hair, blue-green cloth.",
+  "sourceNotes": "CE 1.38–39. Not the Kashyapa who fathered the snakes.",
+  "poses": [
+    "walking",
+    "reviving"
+  ],
+  "appearsIn": [
+    "S01E07"
+  ],
+  "files": {
+    "reviving": "reviving.svg",
+    "walking": "walking.svg"
+  },
+  "facing": "right",
+  "facingByPose": {
+    "walking": "right",
+    "reviving": "right"
+  },
+  "notes": "Made in code by episodes/S01E07-parikshit-seven-days/svg/make-cast.py. Mirror with flip."
+}

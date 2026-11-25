@@ -1,0 +1,49 @@
+{
+  "id": "parikshit",
+  "divine": false,
+  "name": {
+    "en": "Parikshit",
+    "hi": "परीक्षित"
+  },
+  "role": "King of Hastinapura, son of Abhimanyu, Arjuna’s grandson",
+  "look": "The pandu rig: maroon and cream, crown, a greying moustache.",
+  "sourceNotes": "CE 1.36–40; 1.45.23 (sixty years old).",
+  "poses": [
+    "waiting",
+    "hunting",
+    "asking",
+    "furious",
+    "regret",
+    "laughing",
+    "worm-raised",
+    "to-neck",
+    "shocked"
+  ],
+  "appearsIn": [
+    "S01E07"
+  ],
+  "files": {
+    "asking": "asking.svg",
+    "furious": "furious.svg",
+    "hunting": "hunting.svg",
+    "laughing": "laughing.svg",
+    "regret": "regret.svg",
+    "shocked": "shocked.svg",
+    "to-neck": "to-neck.svg",
+    "waiting": "waiting.svg",
+    "worm-raised": "worm-raised.svg"
+  },
+  "facing": "right",
+  "facingByPose": {
+    "waiting": "right",
+    "hunting": "right",
+    "asking": "right",
+    "furious": "right",
+    "regret": "right",
+    "laughing": "right",
+    "worm-raised": "right",
+    "to-neck": "right",
+    "shocked": "right"
+  },
+  "notes": "Made in code by episodes/S01E07-parikshit-seven-days/svg/make-cast.py. Mirror with flip."
+}

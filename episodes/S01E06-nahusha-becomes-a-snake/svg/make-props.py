@@ -293,14 +293,14 @@ def pleading():
     write('nahusha-pleading', b, 'Nahusha, half snake, uncrowned, palms joined, begging as he falls (CE 3.178.38-39).')
 
 
-def snake_character():
+def snake_character(cid='nahusha-snake', meta=None, crest='', poses=('rearing', 'bowed'), label='Nahusha as the great snake'):
     """The snake as a speaking rig: head, eyes and mouth groups (assets/characters/SPEC.md). The canvas is taller than 1600 so the neck runs off the frame."""
     def face(x, y, s, rot, low):
         lid = f'<path d="M42 -38 Q78 -70 114 -38 Q80 -30 42 -38Z" fill="{YEL}" stroke="{INK}" stroke-width="5" />' if low else ''
         brow = f'<path d="M34 -64 Q78 -74 124 -34" stroke="{INK}" stroke-width="9" />' if low else f'<path d="M36 -56 Q80 -76 124 -44" stroke="{INK}" stroke-width="9" />'
         up_fangs = f'<path d="M96 40 L106 78 L120 42Z M142 42 L152 74 L164 40Z" fill="#FFF8E9" stroke="{INK}" stroke-width="4" />'
         jaw = f'<path d="M-130 20 Q-20 60 96 46 Q150 60 196 34 Q190 84 120 100 Q-10 118 -120 84 Q-168 60 -130 20Z" fill="{BELLY}" stroke="{INK}" stroke-width="6" />'
-        return (f'<g id="head" transform="translate({x} {y}) rotate({rot}) scale({s})">'
+        return (f'<g id="head" transform="translate({x} {y}) rotate({rot}) scale({s})">{crest}'
                 f'<g id="mouth-open" style="display:none"><path d="M170 60 Q236 84 276 72 M276 72 l32 -14 M276 72 l34 18" stroke="#B5243A" stroke-width="9" />'
                 f'<g transform="translate(-120 40) rotate(10) translate(120 -40)">{jaw}</g><path d="M-100 22 Q40 64 190 28 Q168 110 96 128 Q0 124 -100 44Z" fill="#8E2A34" stroke="{INK}" stroke-width="4" />'
                 f'<path d="M40 98 Q100 76 150 96 Q110 122 60 116Z" fill="#C9586A" /><path d="M96 122 L106 92 L118 122Z M130 112 L138 86 L148 106Z" fill="#FFF8E9" stroke="{INK}" stroke-width="4" />{up_fangs}</g>'
@@ -311,20 +311,22 @@ def snake_character():
                 f'<g id="eyes-open"><ellipse cx="78" cy="-32" rx="33" ry="26" fill="#C92B2B" stroke="{INK}" stroke-width="6" /><ellipse cx="80" cy="-32" rx="23" ry="18" fill="#F0563A" /><ellipse cx="82" cy="-32" rx="7" ry="19" fill="{INK}" /><circle cx="72" cy="-40" r="5" fill="#FFF" />{lid}</g>'
                 f'<g id="eyes-closed" style="display:none"><ellipse cx="78" cy="-32" rx="33" ry="26" fill="{YEL_D}" stroke="{INK}" stroke-width="5" /><path d="M46 -28 Q78 -10 110 -28" stroke="{INK}" stroke-width="6" /></g>'
                 f'{brow}<ellipse cx="184" cy="-14" rx="6" ry="4" fill="{INK}" /></g>')
-    out = 'assets/characters/nahusha-snake'
+    out = f'assets/characters/{cid}'
     os.makedirs(out, exist_ok=True)
     for pose, pts, hd, title in (
             ('rearing', [(80, 2840), (150, 2340), (120, 1840), (60, 1340), (90, 900), (190, 640), (350, 500)], (450, 480, 1.5, 4, False), 'rearing, speaking, weary'),
             ('bowed', [(80, 2840), (150, 2340), (120, 1840), (60, 1340), (90, 900), (200, 640), (360, 560)], (450, 590, 1.5, 22, True), 'head lowered, remorseful')):
+        if pose not in poses:
+            continue
         pts = [(x + 80, y) for x, y in pts]
         hd = (hd[0] + 80, *hd[1:])
         body = snake(curve(pts, 26), 240, lambda t: 1.1 - .2 * t)
-        svg = (f'<svg xmlns="{SVG}" width="1000" height="2800" viewBox="0 0 1000 2800" fill="none" stroke-linecap="round" stroke-linejoin="round" data-character="nahusha-snake">'
-               f'<title>Nahusha as the great snake · {title}</title><desc>S01E06, made by episodes/S01E06-nahusha-becomes-a-snake/svg/make-props.py.</desc>{body}{face(*hd)}</svg>')
+        svg = (f'<svg xmlns="{SVG}" width="1000" height="2800" viewBox="0 0 1000 2800" fill="none" stroke-linecap="round" stroke-linejoin="round" data-character="{cid}">'
+               f'<title>{label} · {title}</title><desc>S01E06, made by episodes/S01E06-nahusha-becomes-a-snake/svg/make-props.py.</desc>{body}{face(*hd)}</svg>')
         ET.fromstring(svg)
         open(f'{out}/{pose}.svg', 'w').write(svg)
         print('wrote', f'{out}/{pose}.svg')
-    json.dump({'id': 'nahusha-snake', 'name': {'en': 'Nahusha (the great snake)', 'hi': 'नहुष (साँप)'}, 'role': 'Nahusha after the curse', 'divine': False, 'appearsIn': ['S01E06'],
+    json.dump(meta or {'id': 'nahusha-snake', 'name': {'en': 'Nahusha (the great snake)', 'hi': 'नहुष (साँप)'}, 'role': 'Nahusha after the curse', 'divine': False, 'appearsIn': ['S01E06'],
                'look': 'Huge, spotted, turmeric-yellow, red-eyed, four fangs, no hood. Weary rather than fierce.', 'sourceNotes': 'CE 3.175.13-14.', 'poses': ['rearing', 'bowed'],
                'files': {'rearing': 'rearing.svg', 'bowed': 'bowed.svg'}, 'facing': 'right',
                'notes': 'A tall canvas (1000x2800, baseline still 1550): the neck runs off the bottom of the frame. The head is about 1070 canvas units above the baseline (bowed: 960).'},

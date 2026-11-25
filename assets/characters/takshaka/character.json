@@ -1,0 +1,22 @@
+{
+  "id": "takshaka",
+  "name": {
+    "en": "Takshaka",
+    "hi": "तक्षक"
+  },
+  "role": "Lord of snakes, who carries out the curse",
+  "divine": false,
+  "appearsIn": [
+    "S01E07"
+  ],
+  "look": "S01E06’s snake rig in lotus-red with a gold jewel on the head. No hood.",
+  "sourceNotes": "CE 1.39–40 (lotus-coloured, 1.40.3). The jewel is a design choice.",
+  "poses": [
+    "rearing"
+  ],
+  "files": {
+    "rearing": "rearing.svg"
+  },
+  "facing": "right",
+  "notes": "Tall canvas (1000x2800, baseline 1550): the neck runs off the frame. shadow: false when the base is in frame."
+}

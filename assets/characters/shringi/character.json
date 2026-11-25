@@ -1,0 +1,28 @@
+{
+  "id": "shringi",
+  "divine": false,
+  "name": {
+    "en": "Shringi",
+    "hi": "शृंगी"
+  },
+  "role": "Shamika’s young son, who cursed the king",
+  "look": "A boy in ochre bark cloth, a topknot, no gold. Scale about 0.85 in scenes.",
+  "sourceNotes": "CE 1.36–37.",
+  "poses": [
+    "grief",
+    "cursing"
+  ],
+  "appearsIn": [
+    "S01E07"
+  ],
+  "files": {
+    "cursing": "cursing.svg",
+    "grief": "grief.svg"
+  },
+  "facing": "right",
+  "facingByPose": {
+    "grief": "right",
+    "cursing": "right"
+  },
+  "notes": "Made in code by episodes/S01E07-parikshit-seven-days/svg/make-cast.py. Mirror with flip."
+}

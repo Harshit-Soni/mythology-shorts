@@ -112,7 +112,7 @@
           "id": "parikshit",
           "pose": "waiting",
           "x": 0.48,
-          "y": 1.46,
+          "y": 1.35,
           "scale": 2.7,
           "flip": false,
           "action": "still",
@@ -219,7 +219,7 @@
           "id": "parikshit",
           "pose": "to-neck",
           "x": 0.48,
-          "y": 1.46,
+          "y": 1.35,
           "scale": 2.7,
           "flip": false,
           "action": "still",
@@ -336,7 +336,7 @@
           "id": "parikshit",
           "pose": "hunting",
           "x": 0.48,
-          "y": 1.44,
+          "y": 1.35,
           "scale": 2.6,
           "flip": false,
           "action": "still",
@@ -446,10 +446,11 @@
           "id": "shamika",
           "pose": "seated-silent",
           "x": 0.52,
-          "y": 1.2,
-          "scale": 2.5,
+          "y": 0.97,
+          "scale": 2.4,
           "flip": true,
           "action": "still",
+          "shadow": false,
           "expression": "calm"
         }
       ],
@@ -494,7 +495,7 @@
           "id": "parikshit",
           "pose": "furious",
           "x": 0.48,
-          "y": 1.46,
+          "y": 1.35,
           "scale": 2.7,
           "flip": false,
           "action": "still",
@@ -546,10 +547,10 @@
       "characters": [
         {
           "id": "shamika",
-          "pose": "with-snake",
-          "x": 0.66,
-          "y": 0.96,
-          "scale": 1.5,
+          "pose": "seated-silent",
+          "x": 0.68,
+          "y": 0.86,
+          "scale": 1.6,
           "flip": true,
           "action": "still",
           "expression": "calm"
@@ -558,9 +559,9 @@
       "props": [
         {
           "id": "bow-dead-snake",
-          "x": 0.24,
-          "y": 0.5,
-          "scale": 1.1,
+          "x": 0.27,
+          "y": 0.6,
+          "scale": 1.05,
           "action": "still"
         }
       ],
@@ -607,10 +608,11 @@
           "id": "shamika",
           "pose": "with-snake",
           "x": 0.5,
-          "y": 1.2,
-          "scale": 2.5,
+          "y": 0.97,
+          "scale": 2.4,
           "flip": true,
           "action": "still",
+          "shadow": false,
           "expression": "calm"
         }
       ],
@@ -813,9 +815,9 @@
         {
           "id": "shamika",
           "pose": "gentle",
-          "x": 0.5,
-          "y": 1.46,
-          "scale": 2.6,
+          "x": 0.37,
+          "y": 1.36,
+          "scale": 2.2,
           "flip": false,
           "action": "still",
           "expression": "sad",
@@ -920,7 +922,7 @@
           "id": "parikshit",
           "pose": "regret",
           "x": 0.48,
-          "y": 1.46,
+          "y": 1.35,
           "scale": 2.6,
           "flip": false,
           "action": "still",
@@ -1241,13 +1243,6 @@
       ],
       "props": [
         {
-          "id": "coins",
-          "x": 0.5,
-          "y": 0.56,
-          "scale": 0.45,
-          "action": "glint"
-        },
-        {
           "id": "snake-shadow",
           "x": 0.3,
           "y": 0.86,
@@ -1536,7 +1531,7 @@
           "id": "parikshit",
           "pose": "laughing",
           "x": 0.46,
-          "y": 1.46,
+          "y": 1.35,
           "scale": 2.6,
           "flip": false,
           "action": "still",
@@ -1576,8 +1571,8 @@
         {
           "id": "parikshit",
           "pose": "worm-raised",
-          "x": 0.44,
-          "y": 1.46,
+          "x": 0.42,
+          "y": 1.43,
           "scale": 2.6,
           "flip": false,
           "action": "still",
@@ -1629,7 +1624,7 @@
           "id": "parikshit",
           "pose": "to-neck",
           "x": 0.48,
-          "y": 1.46,
+          "y": 1.35,
           "scale": 2.7,
           "flip": false,
           "action": "still",
@@ -1702,9 +1697,9 @@
         {
           "id": "takshaka",
           "pose": "rearing",
-          "x": 0.24,
-          "y": 0.9,
-          "scale": 1.25,
+          "x": 0.17,
+          "y": 0.82,
+          "scale": 1.1,
           "flip": false,
           "action": "still",
           "shadow": false
@@ -1721,7 +1716,7 @@
         {
           "id": "takshaka-coils-front",
           "x": 0.5,
-          "y": 0.87,
+          "y": 0.895,
           "scale": 1.3,
           "action": "still"
         }
@@ -1765,8 +1760,8 @@
         {
           "id": "bow-dead-snake",
           "x": 0.5,
-          "y": 0.48,
-          "scale": 1.9,
+          "y": 0.65,
+          "scale": 1.8,
           "action": "still"
         }
       ],
@@ -1817,9 +1812,9 @@
       "props": [
         {
           "id": "worm-fingertip",
-          "x": 0.5,
-          "y": 0.48,
-          "scale": 1.9,
+          "x": 0.48,
+          "y": 0.71,
+          "scale": 1.5,
           "action": "still"
         }
       ],
@@ -1917,34 +1912,34 @@
     "characters": [
       {
         "id": "parikshit",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "waiting": "new",
-          "to-neck": "new",
-          "hunting": "new",
-          "asking": "new",
-          "furious": "new",
-          "regret": "new",
-          "laughing": "new",
-          "worm-raised": "new",
-          "shocked": "new"
+          "waiting": "library",
+          "to-neck": "library",
+          "hunting": "library",
+          "asking": "library",
+          "furious": "library",
+          "regret": "library",
+          "laughing": "library",
+          "worm-raised": "library",
+          "shocked": "library"
         }
       },
       {
         "id": "shamika",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "seated-silent": "new",
-          "with-snake": "new",
-          "gentle": "new"
+          "seated-silent": "library",
+          "with-snake": "library",
+          "gentle": "library"
         }
       },
       {
         "id": "shringi",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "grief": "new",
-          "cursing": "new"
+          "grief": "library",
+          "cursing": "library"
         }
       },
       {
@@ -1956,24 +1951,24 @@
       },
       {
         "id": "kashyapa",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "walking": "new",
-          "reviving": "new"
+          "walking": "library",
+          "reviving": "library"
         }
       },
       {
         "id": "old-brahmin",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "offering-gold": "new"
+          "offering-gold": "library"
         }
       },
       {
         "id": "takshaka",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "rearing": "new"
+          "rearing": "library"
         }
       }
     ],
@@ -1984,11 +1979,11 @@
       },
       {
         "id": "tower-room",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "pillar-tower",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "forest-hunt",
@@ -2004,7 +1999,7 @@
       },
       {
         "id": "banyan-road",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "red-sky-plain",
@@ -2018,7 +2013,7 @@
       },
       {
         "id": "bow-dead-snake",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "mantra-ring",
@@ -2030,39 +2025,35 @@
       },
       {
         "id": "banyan-reviving",
-        "status": "new"
-      },
-      {
-        "id": "coins",
         "status": "library"
       },
       {
         "id": "snake-shadow",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "fruit-worm",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "fruit-bearers",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "takshaka-coils-back",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "takshaka-coils-front",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "worm-fingertip",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "gandhari-silhouette",
-        "status": "new"
+        "status": "library"
       }
     ],
     "overlays": [
