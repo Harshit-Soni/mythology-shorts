@@ -16,6 +16,7 @@
     "regret",
     "laughing",
     "worm-raised",
+    "finding",
     "to-neck",
     "shocked"
   ],
@@ -24,6 +25,7 @@
   ],
   "files": {
     "asking": "asking.svg",
+    "finding": "finding.svg",
     "furious": "furious.svg",
     "hunting": "hunting.svg",
     "laughing": "laughing.svg",
@@ -42,6 +44,7 @@
     "regret": "right",
     "laughing": "right",
     "worm-raised": "right",
+    "finding": "right",
     "to-neck": "right",
     "shocked": "right"
   },

@@ -1,4 +1,4 @@
-"""S01E07 scene spec. Narration is parsed from 02-script.md (never retyped).
+"""S01E07 scene spec, v2 (v1: review/build-scenes-v1.py). Narration is parsed from 02-script.md (never retyped).
 Shots + the sting for 13 beats: shots inside a beat stay in one place (wide -> close), so the picture changes about every 3 s
 without the story jumping. Close-ups are the same rigs at scale 2+ with the feet below the frame (y > 1).
 Run:  python3 episodes/S01E07-parikshit-seven-days/svg/build-scenes.py <repo root>
@@ -63,66 +63,64 @@ glow = lambda x, y, r, c: {'type': 'glow', 'x': x, 'y': y, 'r': r, 'color': c, '
 card = dict(overlay='folk-art-border', type='prop-hero')
 
 scenes = [sting,
- # 1 hook: he knows; the tower; his own hand
+ # 1 hook: the danger, the tower, the way in
  S('s01', 1, TR, light='dusk', narr=N(1), chars=[C('parikshit', 'waiting', 0.48, 1.35, 2.7, action='still', expression='grave')], cam=zoom(1.0, 1.06, [0.5, 0.36]),
-   text=tag('Parikshit', 'परीक्षित', 'king of Hastinapura', 'हस्तिनापुर के राजा'), cues=[cut('He', 'हर', 's01b', nth={'en': 3}), cut('Then', 'फिर', 's01c')], sfx=[snd('heartbeat', at=0.1, vol=0.5)], notes='Close: a good king who knows the day. CE 1.37.14.'),
+   text=tag('Parikshit', 'परीक्षित', 'king of Hastinapura', 'हस्तिनापुर के राजा'), cues=[cut('snake', 'साँप', 's01a'), cut('locked', 'हर', 's01b'), cut('One', 'फिर', 's01c')], sfx=[snd('heartbeat', at=0.1, vol=0.5)], notes='Close: a king who has been told. CE 1.38.11-21.'),
+ S('s01a', 1, BR, variant='night', light='night', chars=[C('takshaka', 'rearing', 0.46, 1.04, 1.7, shadow=False, action='still')], cam=zoom(1.0, 1.08, [0.5, 0.4], 'push-in-fast'), sfx=[snd('thunder-crack', at=0, vol=0.45)], notes='The snake he is told of.'),
  S('s01b', 1, PT, variant='dusk', light='dusk', type='prop-hero', fx=[embers(10)], cam=zoom(0.0, -0.05, move='crane-up'), sfx=[snd('drum-hit', at=0, vol=0.5)], notes='The house on one pillar. CE 1.38.28.'),
- S('s01c', 1, TR, variant='dusk', light='fire', chars=[C('parikshit', 'to-neck', 0.48, 1.35, 2.7, action='still', expression='laughing')], cam=zoom(1.0, 1.1, [0.5, 0.38], 'push-in-fast'), sfx=[snd('drum-boom-deep', at=0, vol=0.6)], transition='flash-white',
-   notes='Hard cut: smiling, something tiny at his own neck. The end, shown first. CE 1.39.32.'),
+ S('s01c', 1, PC, props=[P('fruit-worm', 0.5, 0.46, 1.3, 'still')], cam=zoom(1.0, 1.1, [0.5, 0.46], 'push-in-fast'), sfx=[snd('drum-boom-deep', at=0, vol=0.6)], notes='The one that got in. CE 1.39.29.', **card),
  # 2 the deer
  S('s02', 2, FH, light='dawn', narr=N(2), fx=[dust(14)], chars=[C('parikshit', 'hunting', 0.7, 0.86, 1.0, flip=True, action='step-forward', expression='tired')], props=[P('deer', 0.28, 0.64, 0.55, 'walk-left')], cam=zoom(1.0, 1.04),
-   text=tag('Parikshit', 'परीक्षित', "Arjuna's grandson", 'अर्जुन के पौत्र'), cues=[cut('lost', 'हिरण', 's02b')], sfx=[snd('bowstring-creak', at=0.2, vol=0.35)], notes='A good hunter follows his wounded deer. CE 1.36.11-14.'),
+   text=tag('Parikshit', 'परीक्षित', "Arjuna's grandson", 'अर्जुन के पौत्र'), cues=[cut('and', 'और', 's02b')], sfx=[snd('bowstring-creak', at=0.2, vol=0.35)], notes='CE 1.36.11-14.'),
  S('s02b', 2, FH, variant='dusk', light='dusk', chars=[C('parikshit', 'hunting', 0.52, 1.35, 2.6, flip=True, action='still', expression='tired')], cam=zoom(1.0, 1.05, [0.5, 0.36]), sfx=[snd('wind-desolate', at=0, vol=0.3)], transition='dissolve', notes='Close: the deer is gone; he is spent.'),
  # 3 the silent sage
  S('s03', 3, HM, light='dawn', narr=N(3), fx=[dust(10)], chars=[C('shamika', 'seated-silent', 0.68, 0.8, 0.95, flip=True, action='still', expression='calm'), C('parikshit', 'asking', 0.25, 0.8, 0.95, expression='tired')],
-   cues=[cut('who', 'मौन', 's03b')], sfx=[snd('wind-desolate', at=0, vol=0.25)], notes='He asks for his deer (not for water). CE 1.36.15-17.'),
+   cues=[cut('Have', 'मेरा', 's03a'), cut('The', 'ऋषि', 's03b', nth={'hi': 2})], sfx=[snd('wind-desolate', at=0, vol=0.25)], notes='He comes to a sage. CE 1.36.15.'),
+ S('s03a', 3, HM, light='dawn', chars=[C('parikshit', 'asking', 0.44, 1.35, 2.6, action='still', expression='tired', speaking=True)], cam=zoom(1.0, 1.04, [0.5, 0.36]), notes='He asks for his deer (not for water). CE 1.36.16-17.'),
  S('s03b', 3, HM, light='dawn', chars=[C('shamika', 'seated-silent', 0.52, 0.97, 2.4, shadow=False, flip=True, action='still', expression='calm')], cam=zoom(1.0, 1.05, [0.5, 0.4]), text=tag('Shamika', 'शमीक', 'a vow of silence', 'मौन व्रत'), music=0.5, transition='dissolve', notes='Close: eyes open, lips closed, unmoving. CE 1.36.18.'),
  # 4 the dead snake
  S('s04', 4, HM, light='fire', narr=N(4), chars=[C('parikshit', 'furious', 0.48, 1.35, 2.7, action='still', expression='furious')], cam=zoom(1.0, 1.08, [0.5, 0.36], 'push-in-fast'),
-   cues=[cut('laid', 'ऋषि', 's04b')], sfx=[snd('drum-hit', at=0, vol=0.5)], notes='Close: the one bad moment.'),
+   cues=[cut('laid', 'एक', 's04b')], sfx=[snd('drum-hit', at=0, vol=0.5)], notes='Close: the one bad moment.'),
  S('s04b', 4, HM, light='dusk', chars=[C('shamika', 'seated-silent', 0.68, 0.86, 1.6, flip=True, action='still', expression='calm')], props=[P('bow-dead-snake', 0.2, 0.6, 1.05, 'slide-right')], cam=zoom(1.0, 1.06, [0.6, 0.45]),
-   sfx=[snd('drum-boom-deep', 'snake', 'साँप', vol=0.6)], music=0.5, transition='dissolve', notes='The tip of his bow, the limp snake, the shoulder. The sage does not move. CE 1.36.18-19.'),
+   sfx=[snd('drum-boom-deep', 'snake', 'साँप', vol=0.6)], music=0.5, transition='dissolve', notes='The tip of his bow, the limp snake, the shoulder. CE 1.36.18-19.'),
  # 5 the curse
  S('s05', 5, HM, variant='dusk', light='dusk', narr=N(5), chars=[C('shamika', 'with-snake', 0.5, 0.97, 2.4, shadow=False, flip=True, action='still', expression='calm')], cam=zoom(1.0, 1.05, [0.5, 0.4]),
-   cues=[cut('him', 'पर', 's05b'), cut('cursed', 'शाप', 's05c')], sfx=[snd('temple-bells', at=0.1, vol=0.3)], music=0.6, notes='No anger in him. CE 1.36.19, 1.38.18.'),
- S('s05b', 5, HM, variant='dusk', light='dusk', chars=[C('shamika', 'with-snake', 0.72, 0.8, 0.95, flip=True, action='still', expression='calm'), C('shringi', 'grief', 0.3, 0.8, 0.85, expression='grief')], text=tag('Shringi', 'शृंगी', 'his son', 'ऋषि के पुत्र'),
+   cues=[cut('But', 'पर', 's05b'), cut('cursed', 'शाप', 's05c'), cut('Takshaka', 'साँपों', 's05d')], sfx=[snd('temple-bells', at=0.1, vol=0.3)], music=0.6, notes='No anger in him. CE 1.36.19, 1.38.18.'),
+ S('s05b', 5, HM, variant='dusk', light='dusk', chars=[C('shamika', 'with-snake', 0.72, 0.8, 0.95, flip=True, action='still', expression='calm'), C('shringi', 'grief', 0.3, 0.8, 0.85, expression='grief')], text=tag('Shringi', 'शृंगी', "the sage's son", 'ऋषि के पुत्र'),
    sfx=[snd('heartbeat', at=0, vol=0.5)], notes='The boy sees his father. CE 1.37.16-17.'),
  S('s05c', 5, HM, variant='night', light='fire', fx=[{'type': 'sparks', 'n': 16}], chars=[C('shringi', 'cursing', 0.48, 1.24, 2.0, action='raise-hand', expression='furious', speaking=True)], props=[P('shaap-stamp', 0.5, 0.3, 0.7, 'stamp-in')], text=stamp('CURSED', 'शाप'),
    cues=[{'onWord': W('cursed', 'शाप'), 'do': 'stamp-next', 'target': 'shaap-stamp'}], cam=zoom(1.0, 1.06, [0.5, 0.45], 'shake-then-zoom'), sfx=[snd('thunder-crack', at=0, vol=0.5), snd('stamp-thud', 'cursed', 'शाप', vol=0.8, off=0.1)], music=1.1, transition='dissolve',
    notes='Water in his palm, the words out. CE 1.37.11-14.'),
- # 6 it can't be unsaid
- S('s06', 6, HM, variant='dusk', light='moon', narr=N(6), chars=[C('shamika', 'gentle', 0.37, 1.36, 2.2, action='still', expression='sad', speaking=True)], cam=zoom(1.0, 1.05, [0.5, 0.36]), text=None,
-   cues=[cut('But', 'पर', 's06b')], music=0.5, notes='He takes the king\'s side. CE 1.37.20-27.'),
- S('s06b', 6, HM, variant='night', light='moon', chars=[C('shamika', 'gentle', 0.3, 0.8, 1.0, action='still', expression='sad'), C('shringi', 'grief', 0.64, 0.8, 0.85, flip=True, expression='grief')], sfx=[snd('glass-crack', 'unsaid', 'वापस', vol=0.35)], transition='dissolve', notes='Father and son; the curse stands. CE 1.38.1-3.'),
+ S('s05d', 5, BR, variant='night', light='fire', fx=[embers(16)], chars=[C('takshaka', 'rearing', 0.46, 1.04, 1.7, shadow=False, action='still')], text=tag('Takshaka', 'तक्षक', 'king of snakes', 'साँपों का राजा'), cam=zoom(1.0, 1.08, [0.5, 0.4]), sfx=[snd('drum-boom-deep', at=0, vol=0.6)], music=1.0, transition='dissolve', notes='Who he is, as he is named. CE 1.37.13.'),
+ # 6 it can't be taken back
+ S('s06', 6, HM, variant='dusk', light='moon', narr=N(6), chars=[C('shamika', 'gentle', 0.37, 1.36, 2.2, action='still', expression='sad')], cam=zoom(1.0, 1.05, [0.5, 0.36]),
+   cues=[cut('But', 'पर', 's06b'), cut('sent', 'ख़बर', 's06c')], music=0.5, notes='CE 1.37.20-27.'),
+ S('s06b', 6, HM, variant='night', light='moon', chars=[C('shamika', 'gentle', 0.3, 0.8, 1.0, action='still', expression='sad'), C('shringi', 'grief', 0.64, 0.8, 0.85, flip=True, expression='grief')], sfx=[snd('glass-crack', 'back', 'वापस', vol=0.35)], transition='dissolve', notes='Father and son; the curse stands. CE 1.38.1-3.'),
+ S('s06c', 6, HP, light='dusk', chars=[C('parikshit', 'regret', 0.48, 1.35, 2.6, action='still', expression='grief')], cam=zoom(1.0, 1.05, [0.5, 0.36]), sfx=[snd('gong-soft', at=0, vol=0.4)], transition='dissolve', notes='The warning reaches him. CE 1.38.11-25.'),
  # 7 the tower
- S('s07', 7, HP, light='dusk', narr=N(7), chars=[C('parikshit', 'regret', 0.48, 1.35, 2.6, action='still', expression='grief')], cam=zoom(1.0, 1.05, [0.5, 0.36]), cues=[cut('shut', 'एक', 's07b'), cut('ringed', 'पहरे', 's07c')], music=0.6,
-   sfx=[snd('gong-soft', at=0, vol=0.4)], notes='He grieves more for the act than for his death. CE 1.38.22-25.'),
- S('s07b', 7, PT, light='dawn', type='prop-hero', cam=zoom(0.05, -0.04, move='crane-up'), sfx=[snd('drum-hit', at=0, vol=0.5)], notes='One pillar. CE 1.38.28.'),
- S('s07c', 7, PT, variant='night', light='night', fx=[stars(30)], chars=[C('guard', 'pointing', 0.22, 0.86, 0.75, action='still'), C('guard', 'pointing', 0.78, 0.86, 0.75, flip=True, action='still', variant='b')], props=[P('mantra-ring', 0.5, 0.36, 1.2, 'idle', light='none'), P('torch', 0.36, 0.76, 0.5, 'flicker-distant')], cam=zoom(1.0, 1.06),
-   sfx=[snd('night-crickets', at=0, vol=0.4)], notes='Guards, healers, mantras all round. CE 1.38.29.'),
- # 8 the healer and the gold
- S('s08', 8, BR, light='dawn', narr=N(8), fx=[dust(10)], chars=[C('kashyapa', 'walking', 0.3, 0.84, 1.0, action='step-forward', expression='calm')], cam=zoom(0.0, 0.04, move='slow-pan-right'), text=tag('Kashyapa', 'काश्यप', 'the healer', 'वैद्य'),
-   cues=[cut('cure', 'जो', 's08b'), cut('Takshaka', 'तक्षक', 's08c', nth={'en': 2, 'hi': 2}), cut('turn', 'उसे', 's08d')], sfx=[snd('drum-hit', 'seventh', 'सातवें', vol=0.5)], notes='The seventh day. CE 1.38.31-33.'),
- S('s08b', 8, BR, light='divine', fx=[{'type': 'sparks', 'n': 18}], chars=[C('kashyapa', 'reviving', 0.24, 0.84, 1.0, action='still', expression='calm')], props=[P('banyan-reviving', 0.62, 0.56, 1.4, 'idle')], cam=zoom(1.0, 1.05), sfx=[snd('shimmer-descend', at=0, vol=0.5)], transition='dissolve', notes='One picture of the test: the side Takshaka burnt is ash; the healer brings it back, leaf by leaf. CE 1.39.4-10.'),
- S('s08c', 8, BR, variant='dusk', light='dusk', chars=[C('old-brahmin', 'offering-gold', 0.3, 0.84, 1.0, action='still'), C('kashyapa', 'reviving', 0.72, 0.84, 1.0, flip=True, action='still', expression='calm')], props=[P('snake-shadow', 0.3, 0.86, 0.9, 'sway')], cam=zoom(1.0, 1.05),
-   sfx=[snd('coins-spill', 'paid', 'धन', vol=0.6)], notes='Takshaka as an old Brahmin; the shadow tells. CE 1.39.13-17.'),
- S('s08d', 8, BR, variant='dusk', light='dusk', chars=[C('kashyapa', 'walking', 0.3, 0.84, 0.8, flip=True, action='walk-left', expression='calm')], cam=zoom(1.0, 0.96, move='slow-zoom-out'), music=0.5, transition='fade-to-night', notes='He goes home. (He also saw the king\'s time was over: 1.39.19.)'),
- # 9 the fruit
- S('s09', 9, BR, variant='night', light='night', narr=N(9), chars=[C('takshaka', 'rearing', 0.46, 1.04, 1.7, shadow=False, action='still')], cam=zoom(1.0, 1.06, [0.5, 0.4]), cues=[cut('worm', 'कीड़ा', 's09b'), cut('sent', 'भेंट', 's09c')], sfx=[snd('wind-desolate', at=0, vol=0.4)], notes='The lord of snakes, lotus-red. CE 1.40.3.'),
- S('s09b', 9, PC, props=[P('fruit-worm', 0.5, 0.46, 1.3, 'still')], cam=zoom(1.0, 1.08, [0.5, 0.46], 'push-in-fast'), sfx=[snd('drum-hit', at=0, vol=0.5)], notes='A copper speck with black eyes, in a fruit. CE 1.39.29.', **card),
- S('s09c', 9, PT, variant='dusk', light='dusk', type='prop-hero', props=[P('fruit-bearers', 0.5, 0.72, 1.1, 'idle')], cam=zoom(1.0, 1.05), sfx=[snd('heartbeat', at=0, vol=0.4)], notes='Ascetics with fruit; their shadows are snakes. CE 1.39.23-25.'),
- # 10 the laugh
- S('s10', 10, PT, variant='dusk', light='dusk', narr=N(10), type='prop-hero', fx=[glow(0.72, 0.58, 0.25, FIRE)], cam=zoom(1.4, 1.5, [0.8, 0.6]), cues=[cut('setting', 'राजा', 's10b'), cut('Let', 'ये', 's10c')], sfx=[snd('gong-soft', at=0, vol=0.5)], music=0.6, notes='The last sunset behind the tower.'),
- S('s10b', 10, TR, variant='dusk', light='fire', chars=[C('parikshit', 'laughing', 0.46, 1.35, 2.6, action='still', expression='laughing', speaking=True)], props=[], cam=zoom(1.0, 1.06, [0.5, 0.36]), transition='dissolve', notes='Relief: he thinks he has won. CE 1.39.30.'),
- S('s10c', 10, TR, variant='dusk', light='fire', chars=[C('parikshit', 'worm-raised', 0.42, 1.43, 2.6, action='still', expression='laughing', speaking=True)], cam=zoom(1.0, 1.08, [0.55, 0.36], 'push-in-fast'), sfx=[snd('heartbeat', 'curse', 'शाप', vol=0.6)], music=0.5, transition='dissolve',
-   notes='The worm on his fingertip, at eye level. Thumbnail. CE 1.39.30-31.'),
+ S('s07', 7, PT, light='dawn', type='prop-hero', narr=N(7), cam=zoom(0.05, -0.04, move='crane-up'), text=tag('Day 1', 'पहला दिन'), cues=[cut('guards', 'चारों', 's07b')], music=0.6, sfx=[snd('drum-hit', at=0, vol=0.5)], notes='One pillar. CE 1.38.28.'),
+ S('s07b', 7, PT, variant='night', light='night', fx=[stars(30)], chars=[C('guard', 'pointing', 0.22, 0.86, 0.75, action='still'), C('guard', 'pointing', 0.78, 0.86, 0.75, flip=True, action='still', variant='b')], props=[P('mantra-ring', 0.5, 0.36, 1.2, 'idle', light='none'), P('torch', 0.36, 0.76, 0.5, 'flicker-distant')], cam=zoom(1.0, 1.06),
+   sfx=[snd('night-crickets', at=0, vol=0.4)], transition='fade-to-night', notes='Guards, healers, mantras all round. CE 1.38.29.'),
+ # 8 the worm
+ S('s08', 8, BR, variant='dusk', light='dusk', narr=N(8), chars=[C('takshaka', 'rearing', 0.46, 1.04, 1.7, shadow=False, action='still')], cam=zoom(1.0, 1.06, [0.5, 0.4]), text=tag('Day 7', 'सातवाँ दिन'), cues=[cut('tiny', 'नन्हा', 's08b'), cut('sent', 'जो', 's08c')], sfx=[snd('drum-hit', at=0, vol=0.5)], notes='The lord of snakes. CE 1.39.20.'),
+ S('s08b', 8, PC, props=[P('fruit-worm', 0.5, 0.46, 1.3, 'still')], cam=zoom(1.0, 1.08, [0.5, 0.46], 'push-in-fast'), sfx=[snd('shimmer-descend', at=0, vol=0.45)], transition='cut', notes='A copper speck with black eyes, in a fruit. CE 1.39.29.', **card),
+ S('s08c', 8, PT, variant='dusk', light='dusk', type='prop-hero', props=[P('fruit-bearers', 0.5, 0.72, 1.1, 'idle')], cam=zoom(1.0, 1.05), sfx=[snd('heartbeat', at=0, vol=0.4)], notes='Ascetics with fruit; their shadows are snakes. CE 1.39.23-25.'),
+ # 9 sunset
+ S('s09', 9, PT, variant='dusk', light='dusk', narr=N(9), type='prop-hero', fx=[glow(0.72, 0.58, 0.25, FIRE)], cam=zoom(1.4, 1.5, [0.8, 0.6]), text=tag('Day 7', 'सातवाँ दिन', 'sunset', 'सूर्यास्त'), cues=[cut('king', 'तभी', 's09b')], sfx=[snd('gong-soft', at=0, vol=0.5)], music=0.6, notes='The last sunset behind the tower. CE 1.39.30.'),
+ S('s09b', 9, TR, variant='dusk', light='fire', chars=[C('parikshit', 'finding', 0.37, 1.35, 2.5, action='still', expression='curious')], cam=zoom(1.0, 1.06, [0.5, 0.38]), transition='dissolve', sfx=[snd('heartbeat', at=0, vol=0.4)], notes='The opened fruit in his hand, the worm in it. CE 1.39.28-29.'),
+ # 10 the joke
+ S('s10', 10, TR, variant='dusk', light='fire', narr=N(10), chars=[C('parikshit', 'laughing', 0.46, 1.35, 2.6, action='still', expression='laughing', speaking=True)], cam=zoom(1.0, 1.06, [0.5, 0.36]), cues=[cut('Let', 'चलो', 's10b'), cut('And', 'और', 's10c')], music=0.6, notes='Relief: he thinks he has won. CE 1.39.30.'),
+ S('s10b', 10, TR, variant='dusk', light='fire', chars=[C('parikshit', 'worm-raised', 0.42, 1.43, 2.6, action='still', expression='laughing', speaking=True)], cam=zoom(1.0, 1.08, [0.55, 0.36], 'push-in-fast'), sfx=[snd('heartbeat', at=0, vol=0.5)], music=0.5, transition='dissolve',
+   notes='The worm between his fingers. Thumbnail. CE 1.39.30-31.'),
+ S('s10c', 10, TR, variant='dusk', light='fire', chars=[C('parikshit', 'to-neck', 0.48, 1.35, 2.7, action='still', expression='laughing')], cam=zoom(1.0, 1.06, [0.5, 0.38]), sfx=[snd('heartbeat', at=0, vol=0.6)], music=0.3, notes='As a joke. CE 1.39.32.'),
  # 11 Takshaka
- S('s11', 11, TR, variant='dusk', light='fire', narr=N(11), chars=[C('parikshit', 'to-neck', 0.48, 1.35, 2.7, action='still', expression='laughing')], cam=zoom(1.0, 1.06, [0.5, 0.38]), cues=[cut('It', 'वो', 's11b', nth={'en': 2})], sfx=[snd('heartbeat', at=0, vol=0.6)], music=0.3, notes='The hook again. CE 1.39.32.'),
+ S('s11', 11, TR, variant='night', light='fire', narr=N(11), chars=[C('parikshit', 'shocked', 0.48, 1.35, 2.6, action='still', expression='shocked')], cam=zoom(1.0, 1.1, [0.5, 0.36], 'push-in-fast'), cues=[cut('worm', 'कीड़ा', 's11b'), cut('curse', 'शाप', 's11c')], sfx=[snd('drum-boom-deep', at=0, vol=0.7)], music=0.4, transition='cut', notes='The laugh stops.'),
  S('s11b', 11, TR, variant='night', light='night', fx=[embers(16)], chars=[C('parikshit', 'shocked', 0.54, 0.98, 1.35, action='still', expression='shocked'), C('takshaka', 'rearing', 0.15, 0.8, 1.2, shadow=False, action='still')], props=[P('takshaka-coils-back', 0.54, 0.955, 1.67, 'still'), P('takshaka-coils-front', 0.54, 0.995, 1.67, 'still')], cam=zoom(1.0, 1.08, [0.5, 0.5], 'shake-then-zoom'),
-   sfx=[snd('thunder-crack', at=0, vol=0.6)], music=1.2, transition='flash-white', notes='The coils close round him. No bite shown; the burning house (1.40.4) is left out. CE 1.39.33.'),
+   sfx=[snd('thunder-crack', at=0, vol=0.6)], music=1.2, transition='flash-white', notes='The coils close round him. No bite shown. CE 1.39.33.'),
+ S('s11c', 11, PT, variant='night', light='night', type='prop-hero', fx=[embers(24)], cam=zoom(1.0, 1.06, [0.5, 0.35]), sfx=[snd('gong-soft', at=0, vol=0.6)], music=0.6, transition='dissolve', notes='The tower, dark. CE 1.40.1-4.'),
  # 12 the two snakes
- S('s12', 12, HM, variant='dusk', light='dusk', narr=N(12), type='prop-hero', props=[P('bow-dead-snake', 0.5, 0.65, 1.8, 'still')], cam=zoom(1.0, 1.06, [0.5, 0.46]), cues=[cut('living', 'ज़िंदा', 's12b')], music=0.5, sfx=[snd('temple-bells', at=0.1, vol=0.3)], notes='The same gesture, first...'),
- S('s12b', 12, TR, variant='dusk', light='fire', type='prop-hero', props=[P('worm-fingertip', 0.48, 0.71, 1.5, 'still')], cam=zoom(1.0, 1.08, [0.5, 0.46]), music=0.4, notes='...and last.'),
+ S('s12', 12, HM, variant='dusk', light='dusk', narr=N(12), chars=[C('shamika', 'with-snake', 0.5, 0.97, 2.4, shadow=False, flip=True, action='still', expression='calm')], cam=zoom(1.0, 1.05, [0.5, 0.4]), cues=[cut('Then', 'और', 's12b')], music=0.5, sfx=[snd('temple-bells', at=0.1, vol=0.3)], notes='The dead snake, on the sage...'),
+ S('s12b', 12, TR, variant='dusk', light='fire', chars=[C('parikshit', 'to-neck', 0.48, 1.35, 2.7, action='still', expression='laughing')], cam=zoom(1.0, 1.06, [0.5, 0.38]), music=0.4, notes='...and the living one, on himself.'),
  # 13 tease E08
  S('s13', 13, 'red-sky-plain', variant='dusk', light='dusk', narr=N(13), type='prop-hero', fx=[embers(16)], props=[P('gandhari-silhouette', 0.46, 0.56, 1.6, 'still'), P('shaap-stamp', 0.5, 0.29, 0.7, 'stamp-in')],
    text=stamp('CURSED VIII', 'शाप VIII'), cues=[{'onWord': W('cursed', 'शाप'), 'do': 'stamp-next', 'target': 'shaap-stamp'}], cam=zoom(1.0, 1.08), sfx=[snd('drum-hit', 'cursed', 'शाप', vol=0.8)], overlay='folk-art-border', transition='cut-to-black', notes='Tease for E08: a blindfolded queen; a peacock feather.'),
@@ -143,7 +141,7 @@ doc = {
  'format': 'short', 'width': 1080, 'height': 1920, 'fps': 30,
  'sourceCredit': {'en': 'Mahabharata, Adi Parva', 'hi': 'महाभारत, आदि पर्व'},
  'safeZone': {'bottom': 0.2, 'right': 0.12}, 'grade': {'grain': 0.12, 'vignette': 0.45, 'shadows': True}, 'sound': e03['sound'],
- 'thumbnail': {'scene': 's10c', 'at': 0.5, 'series': {'en': 'Shraap · Episode 7', 'hi': 'शाप · भाग 7'},
+ 'thumbnail': {'scene': 's10b', 'at': 0.5, 'series': {'en': 'Shraap · Episode 7', 'hi': 'शाप · भाग 7'},
    'title': {'en': 'The King With Seven Days to Live', 'hi': 'राजा, जिसके पास सात दिन थे'}, 'titleLines': {'en': ['Seven Days', 'to Live'], 'hi': ['सात दिन में', 'मौत']}},
  'scenes': scenes,
  'assets': {'characters': [{'id': i, 'status': 'library' if all(v == 'library' for v in p.values()) else 'new', 'poses': p} for i, p in poses.items()],

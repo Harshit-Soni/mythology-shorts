@@ -87,6 +87,13 @@ def pinch(r, hand, skin):
                   + f('M14 52 Q30 92 8 124', 20) + f('M-16 48 Q-40 88 -6 124', 19) + f'<path d="M-18 56 Q-34 86 -14 112" stroke="{b}" stroke-width="4" />'))
 
 
+def open_fruit(x, y, s, rot=0):
+    """The red fruit, bitten open, the worm inside (a small copy of the fruit-worm prop)."""
+    return (f'<g transform="translate({x} {y}) rotate({rot}) scale({s})"><path d="M0 -200 Q-100 -260 -190 -170 Q-290 -50 -230 110 Q-170 270 0 286 Q170 270 230 110 Q290 -50 190 -170 Q100 -260 0 -200Z" fill="#D9573A" stroke="{INK}" stroke-width="16" />'
+            f'<path d="M-168 -140 Q-244 -30 -194 100" stroke="#F09A6A" stroke-width="30" /><path d="M0 -194 Q-8 -260 30 -306" stroke="{INK}" stroke-width="30" /><path d="M24 -270 Q100 -340 200 -298 Q140 -222 24 -270Z" fill="#6FA05E" stroke="{INK}" stroke-width="13" />'
+            f'<ellipse cx="10" cy="40" rx="150" ry="122" fill="#FBE3B4" stroke="{INK}" stroke-width="13" /><ellipse cx="14" cy="50" rx="84" ry="64" fill="#4A1E18" stroke="{INK}" stroke-width="10" />{worm(20, 30, 5.4)}</g>')
+
+
 def parikshit():
     cid = 'parikshit'
     t, r = parikshit_base(); Wm.arms(r, far=(-8, 6, 0), near=(10, -20, 0)); M.male_brows(r, 'sad')
@@ -105,6 +112,9 @@ def parikshit():
     t, r = parikshit_base(); Wm.arms(r, far=(-40, -104, 0), near=(22, -64, 0)); pinch(r, 'hand-far', P_SKIN); laugh(r)
     group(r, 'hand-far').extend(frag(worm(0, 142, 1.2)))
     save(t, cid, 'worm-raised', 'Parikshit · laughing, the worm between finger and thumb')
+    t, r = parikshit_base(); Wm.arms(r, far=(-34, -98, 0), near=(16, -40, 0)); Wm.palm(r, 'hand-far', P_SKIN); M.male_brows(r, 'up'); M.tilt(r, 6)
+    group(r, 'hand-far').extend(frag(open_fruit(2, 84, 0.32, 132)))
+    save(t, cid, 'finding', 'Parikshit · finding the worm in his fruit')
     t, r = parikshit_base(); Wm.arms(r, far=(-16, -206, 0), near=(16, -40, 0)); pinch(r, 'hand-far', P_SKIN); laugh(r); M.tilt(r, -4)
     group(r, 'hand-far').extend(frag(worm(0, 140, 1.0)))
     save(t, cid, 'to-neck', 'Parikshit · laughing, putting the worm to his own neck')
@@ -202,7 +212,7 @@ def kashyapa():
 def character_json():
     cast = {
         'parikshit': dict(name={'en': 'Parikshit', 'hi': 'परीक्षित'}, role='King of Hastinapura, son of Abhimanyu, Arjuna’s grandson', look='The pandu rig: maroon and cream, crown, a greying moustache.', sourceNotes='CE 1.36–40; 1.45.23 (sixty years old).',
-                          poses=['waiting', 'hunting', 'asking', 'furious', 'regret', 'laughing', 'worm-raised', 'to-neck', 'shocked']),
+                          poses=['waiting', 'hunting', 'asking', 'furious', 'regret', 'laughing', 'worm-raised', 'finding', 'to-neck', 'shocked']),
         'shamika': dict(name={'en': 'Shamika', 'hi': 'शमीक'}, role='The silent sage who forgave the king', look='The sage rig with white hair and beard, pale bark cloth. Calm in every pose.', sourceNotes='CE 1.36–38.', poses=['seated-silent', 'with-snake', 'gentle']),
         'shringi': dict(name={'en': 'Shringi', 'hi': 'शृंगी'}, role='Shamika’s young son, who cursed the king', look='A boy in ochre bark cloth, a topknot, no gold. Scale about 0.85 in scenes.', sourceNotes='CE 1.36–37.', poses=['grief', 'cursing']),
         'kashyapa': dict(name={'en': 'Kashyapa', 'hi': 'काश्यप'}, role='The healer who was paid to turn back', look='The sage rig, brown-grey hair, blue-green cloth.', sourceNotes='CE 1.38–39. Not the Kashyapa who fathered the snakes.', poses=['walking', 'reviving']),

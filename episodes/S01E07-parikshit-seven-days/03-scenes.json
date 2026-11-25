@@ -32,7 +32,7 @@
     "sfxVolume": 0.8
   },
   "thumbnail": {
-    "scene": "s10c",
+    "scene": "s10b",
     "at": 0.5,
     "series": {
       "en": "Shraap · Episode 7",
@@ -130,8 +130,8 @@
         ]
       },
       "narration": {
-        "en": "A king knew when he'd die. He shut out every snake. Then he put one to his own neck.",
-        "hi": "एक राजा जानते थे, वो कब मरेंगे। हर साँप को बाहर रखा। फिर एक को ख़ुद अपनी गर्दन पर रख लिया।"
+        "en": "A king was told: in seven days, a snake will kill you. He locked every snake out. One still got in.",
+        "hi": "एक राजा को पता चला: सात दिन में एक साँप उन्हें मार डालेगा। उन्होंने हर साँप को बाहर रखा। फिर भी एक अंदर आ गया।"
       },
       "onScreenText": {
         "en": "Parikshit",
@@ -145,18 +145,23 @@
       "cues": [
         {
           "onWord": {
-            "en": "He",
-            "hi": "हर"
+            "en": "snake",
+            "hi": "साँप"
           },
           "do": "hard-cut-to",
-          "target": "s01b",
-          "nth": {
-            "en": 3
-          }
+          "target": "s01a"
         },
         {
           "onWord": {
-            "en": "Then",
+            "en": "locked",
+            "hi": "हर"
+          },
+          "do": "hard-cut-to",
+          "target": "s01b"
+        },
+        {
+          "onWord": {
+            "en": "One",
             "hi": "फिर"
           },
           "do": "hard-cut-to",
@@ -171,7 +176,53 @@
         }
       ],
       "transition": "cut",
-      "notes": "Close: a good king who knows the day. CE 1.37.14."
+      "notes": "Close: a king who has been told. CE 1.38.11-21."
+    },
+    {
+      "id": "s01a",
+      "beat": 1,
+      "type": "character",
+      "background": "banyan-road",
+      "backgroundVariant": "night",
+      "light": "night",
+      "fx": [],
+      "characters": [
+        {
+          "id": "takshaka",
+          "pose": "rearing",
+          "x": 0.46,
+          "y": 1.04,
+          "scale": 1.7,
+          "flip": false,
+          "action": "still",
+          "shadow": false
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "thunder-crack",
+          "at": 0,
+          "volume": 0.45
+        }
+      ],
+      "transition": "cut",
+      "notes": "The snake he is told of."
     },
     {
       "id": "s01b",
@@ -212,31 +263,26 @@
     {
       "id": "s01c",
       "beat": 1,
-      "type": "character",
-      "background": "tower-room",
-      "backgroundVariant": "dusk",
-      "light": "fire",
+      "type": "prop-hero",
+      "background": "parchment-card",
       "fx": [],
-      "characters": [
+      "characters": [],
+      "props": [
         {
-          "id": "parikshit",
-          "pose": "to-neck",
-          "x": 0.48,
-          "y": 1.35,
-          "scale": 2.7,
-          "flip": false,
-          "action": "still",
-          "expression": "laughing"
+          "id": "fruit-worm",
+          "x": 0.5,
+          "y": 0.46,
+          "scale": 1.3,
+          "action": "still"
         }
       ],
-      "props": [],
       "camera": {
         "move": "push-in-fast",
         "from": 1.0,
         "to": 1.1,
         "focus": [
           0.5,
-          0.38
+          0.46
         ]
       },
       "narration": {
@@ -252,8 +298,9 @@
           "volume": 0.6
         }
       ],
-      "transition": "flash-white",
-      "notes": "Hard cut: smiling, something tiny at his own neck. The end, shown first. CE 1.39.32."
+      "overlay": "folk-art-border",
+      "transition": "cut",
+      "notes": "The one that got in. CE 1.39.29."
     },
     {
       "id": "s02",
@@ -294,8 +341,8 @@
         "to": 1.04
       },
       "narration": {
-        "en": "In the Mahabharata, King Parikshit lost a deer he was hunting.",
-        "hi": "महाभारत में, शिकार करते राजा परीक्षित का हिरण खो गया।"
+        "en": "King Parikshit was out hunting, and lost his deer.",
+        "hi": "राजा परीक्षित शिकार पर थे, और उनका हिरण खो गया।"
       },
       "onScreenText": {
         "en": "Parikshit",
@@ -309,8 +356,8 @@
       "cues": [
         {
           "onWord": {
-            "en": "lost",
-            "hi": "हिरण"
+            "en": "and",
+            "hi": "और"
           },
           "do": "hard-cut-to",
           "target": "s02b"
@@ -324,7 +371,7 @@
         }
       ],
       "transition": "cut",
-      "notes": "A good hunter follows his wounded deer. CE 1.36.11-14."
+      "notes": "CE 1.36.11-14."
     },
     {
       "id": "s02b",
@@ -413,18 +460,29 @@
         "to": 1.06
       },
       "narration": {
-        "en": "Hungry and tired, he asked a sage, who had vowed silence and said nothing.",
-        "hi": "भूखे और थके राजा ने एक ऋषि से पूछा। पर ऋषि मौन व्रत में थे, कुछ न बोले।"
+        "en": "Tired and hungry, he asked a sage: \"Have you seen my deer?\" The sage, under a vow of silence, said nothing.",
+        "hi": "थके और भूखे, उन्होंने एक ऋषि से पूछा: \"मेरा हिरण देखा?\" ऋषि मौन व्रत में थे, कुछ नहीं बोले।"
       },
       "onScreenText": null,
       "cues": [
         {
           "onWord": {
-            "en": "who",
-            "hi": "मौन"
+            "en": "Have",
+            "hi": "मेरा"
           },
           "do": "hard-cut-to",
-          "target": "s03b"
+          "target": "s03a"
+        },
+        {
+          "onWord": {
+            "en": "The",
+            "hi": "ऋषि"
+          },
+          "do": "hard-cut-to",
+          "target": "s03b",
+          "nth": {
+            "hi": 2
+          }
         }
       ],
       "sfx": [
@@ -435,7 +493,47 @@
         }
       ],
       "transition": "cut",
-      "notes": "He asks for his deer (not for water). CE 1.36.15-17."
+      "notes": "He comes to a sage. CE 1.36.15."
+    },
+    {
+      "id": "s03a",
+      "beat": 3,
+      "type": "character",
+      "background": "hermitage",
+      "light": "dawn",
+      "fx": [],
+      "characters": [
+        {
+          "id": "parikshit",
+          "pose": "asking",
+          "x": 0.44,
+          "y": 1.35,
+          "scale": 2.6,
+          "flip": false,
+          "action": "still",
+          "expression": "tired",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.04,
+        "focus": [
+          0.5,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "cut",
+      "notes": "He asks for his deer (not for water). CE 1.36.16-17."
     },
     {
       "id": "s03b",
@@ -516,15 +614,15 @@
         ]
       },
       "narration": {
-        "en": "Furious, the king laid a dead snake on the sage's shoulder.",
-        "hi": "ग़ुस्से में राजा ने ऋषि के कंधे पर मरा साँप रख दिया।"
+        "en": "The king didn't know of the vow. Angry, he laid a dead snake on the sage's shoulder, and left.",
+        "hi": "राजा को व्रत का पता नहीं था। ग़ुस्से में उन्होंने एक मरा साँप ऋषि के कंधे पर रख दिया, और चले गए।"
       },
       "onScreenText": null,
       "cues": [
         {
           "onWord": {
             "en": "laid",
-            "hi": "ऋषि"
+            "hi": "एक"
           },
           "do": "hard-cut-to",
           "target": "s04b"
@@ -596,7 +694,7 @@
       ],
       "music": 0.5,
       "transition": "dissolve",
-      "notes": "The tip of his bow, the limp snake, the shoulder. The sage does not move. CE 1.36.18-19."
+      "notes": "The tip of his bow, the limp snake, the shoulder. CE 1.36.18-19."
     },
     {
       "id": "s05",
@@ -630,14 +728,14 @@
         ]
       },
       "narration": {
-        "en": "The sage forgave him. His young son cursed him: \"Takshaka, lord of snakes, will kill the king in seven days!\"",
-        "hi": "ऋषि ने क्षमा किया, पर छोटे बेटे ने शाप दिया: \"सात दिन में नागराज तक्षक राजा को मार डालेगा!\""
+        "en": "The sage stayed calm. But his young son cursed the king: \"In seven days, Takshaka, king of snakes, will kill him!\"",
+        "hi": "ऋषि शांत रहे। पर उनके छोटे बेटे ने राजा को शाप दिया: \"सात दिन में, साँपों का राजा तक्षक उसे मार डालेगा!\""
       },
       "onScreenText": null,
       "cues": [
         {
           "onWord": {
-            "en": "him",
+            "en": "But",
             "hi": "पर"
           },
           "do": "hard-cut-to",
@@ -650,6 +748,14 @@
           },
           "do": "hard-cut-to",
           "target": "s05c"
+        },
+        {
+          "onWord": {
+            "en": "Takshaka",
+            "hi": "साँपों"
+          },
+          "do": "hard-cut-to",
+          "target": "s05d"
         }
       ],
       "sfx": [
@@ -708,7 +814,7 @@
         "hi": "शृंगी",
         "style": "name-tag",
         "sub": {
-          "en": "his son",
+          "en": "the sage's son",
           "hi": "ऋषि के पुत्र"
         }
       },
@@ -807,6 +913,66 @@
       "notes": "Water in his palm, the words out. CE 1.37.11-14."
     },
     {
+      "id": "s05d",
+      "beat": 5,
+      "type": "character",
+      "background": "banyan-road",
+      "backgroundVariant": "night",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 16
+        }
+      ],
+      "characters": [
+        {
+          "id": "takshaka",
+          "pose": "rearing",
+          "x": 0.46,
+          "y": 1.04,
+          "scale": 1.7,
+          "flip": false,
+          "action": "still",
+          "shadow": false
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": {
+        "en": "Takshaka",
+        "hi": "तक्षक",
+        "style": "name-tag",
+        "sub": {
+          "en": "king of snakes",
+          "hi": "साँपों का राजा"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-boom-deep",
+          "at": 0,
+          "volume": 0.6
+        }
+      ],
+      "music": 1.0,
+      "transition": "dissolve",
+      "notes": "Who he is, as he is named. CE 1.37.13."
+    },
+    {
       "id": "s06",
       "beat": 6,
       "type": "character",
@@ -823,8 +989,7 @@
           "scale": 2.2,
           "flip": false,
           "action": "still",
-          "expression": "sad",
-          "speaking": true
+          "expression": "sad"
         }
       ],
       "props": [],
@@ -838,8 +1003,8 @@
         ]
       },
       "narration": {
-        "en": "\"He didn't know of my vow,\" said his father. But a curse can't be unsaid.",
-        "hi": "पिता बोले: \"उन्हें मेरे व्रत का पता नहीं था।\" पर शाप वापस नहीं होता।"
+        "en": "His father was upset. But a curse can't be taken back, so he sent the king a warning.",
+        "hi": "पिता दुखी हुए। पर शाप वापस नहीं हो सकता था, तो उन्होंने राजा को ख़बर भेज दी।"
       },
       "onScreenText": null,
       "cues": [
@@ -850,12 +1015,20 @@
           },
           "do": "hard-cut-to",
           "target": "s06b"
+        },
+        {
+          "onWord": {
+            "en": "sent",
+            "hi": "ख़बर"
+          },
+          "do": "hard-cut-to",
+          "target": "s06c"
         }
       ],
       "sfx": [],
       "music": 0.5,
       "transition": "cut",
-      "notes": "He takes the king's side. CE 1.37.20-27."
+      "notes": "CE 1.37.20-27."
     },
     {
       "id": "s06b",
@@ -903,7 +1076,7 @@
         {
           "id": "glass-crack",
           "onWord": {
-            "en": "unsaid",
+            "en": "back",
             "hi": "वापस"
           },
           "volume": 0.35,
@@ -914,8 +1087,8 @@
       "notes": "Father and son; the curse stands. CE 1.38.1-3."
     },
     {
-      "id": "s07",
-      "beat": 7,
+      "id": "s06c",
+      "beat": 6,
       "type": "character",
       "background": "hastinapura-palace",
       "light": "dusk",
@@ -943,28 +1116,11 @@
         ]
       },
       "narration": {
-        "en": "Warned by the sage, Parikshit shut himself in a tower on one pillar, ringed by guards.",
-        "hi": "ऋषि ने ख़बर भेजी। परीक्षित एक खंभे पर बने महल में, पहरे के बीच बंद हो गए।"
+        "en": "",
+        "hi": ""
       },
       "onScreenText": null,
-      "cues": [
-        {
-          "onWord": {
-            "en": "shut",
-            "hi": "एक"
-          },
-          "do": "hard-cut-to",
-          "target": "s07b"
-        },
-        {
-          "onWord": {
-            "en": "ringed",
-            "hi": "पहरे"
-          },
-          "do": "hard-cut-to",
-          "target": "s07c"
-        }
-      ],
+      "cues": [],
       "sfx": [
         {
           "id": "gong-soft",
@@ -972,12 +1128,11 @@
           "volume": 0.4
         }
       ],
-      "music": 0.6,
-      "transition": "cut",
-      "notes": "He grieves more for the act than for his death. CE 1.38.22-25."
+      "transition": "dissolve",
+      "notes": "The warning reaches him. CE 1.38.11-25."
     },
     {
-      "id": "s07b",
+      "id": "s07",
       "beat": 7,
       "type": "prop-hero",
       "background": "pillar-tower",
@@ -991,11 +1146,24 @@
         "to": -0.04
       },
       "narration": {
-        "en": "",
-        "hi": ""
+        "en": "The king shut himself in a palace on one tall pillar, with guards all around.",
+        "hi": "राजा एक ऊँचे खंभे पर बने महल में बंद हो गए। चारों तरफ़ पहरा था।"
       },
-      "onScreenText": null,
-      "cues": [],
+      "onScreenText": {
+        "en": "Day 1",
+        "hi": "पहला दिन",
+        "style": "name-tag"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "guards",
+            "hi": "चारों"
+          },
+          "do": "hard-cut-to",
+          "target": "s07b"
+        }
+      ],
       "sfx": [
         {
           "id": "drum-hit",
@@ -1003,11 +1171,12 @@
           "volume": 0.5
         }
       ],
+      "music": 0.6,
       "transition": "cut",
       "notes": "One pillar. CE 1.38.28."
     },
     {
-      "id": "s07c",
+      "id": "s07b",
       "beat": 7,
       "type": "character",
       "background": "pillar-tower",
@@ -1075,7 +1244,7 @@
           "volume": 0.4
         }
       ],
-      "transition": "cut",
+      "transition": "fade-to-night",
       "notes": "Guards, healers, mantras all round. CE 1.38.29."
     },
     {
@@ -1083,249 +1252,8 @@
       "beat": 8,
       "type": "character",
       "background": "banyan-road",
-      "light": "dawn",
-      "fx": [
-        {
-          "type": "dust",
-          "n": 10
-        }
-      ],
-      "characters": [
-        {
-          "id": "kashyapa",
-          "pose": "walking",
-          "x": 0.3,
-          "y": 0.84,
-          "scale": 1.0,
-          "flip": false,
-          "action": "step-forward",
-          "expression": "calm"
-        }
-      ],
-      "props": [],
-      "camera": {
-        "move": "slow-pan-right",
-        "from": 0.0,
-        "to": 0.04
-      },
-      "narration": {
-        "en": "On the seventh day, a healer who could cure Takshaka's bite set out. Takshaka paid him to turn back.",
-        "hi": "सातवें दिन एक वैद्य निकला, जो तक्षक का ज़हर उतार सकता था। तक्षक ने धन देकर उसे लौटा दिया।"
-      },
-      "onScreenText": {
-        "en": "Kashyapa",
-        "hi": "काश्यप",
-        "style": "name-tag",
-        "sub": {
-          "en": "the healer",
-          "hi": "वैद्य"
-        }
-      },
-      "cues": [
-        {
-          "onWord": {
-            "en": "cure",
-            "hi": "जो"
-          },
-          "do": "hard-cut-to",
-          "target": "s08b"
-        },
-        {
-          "onWord": {
-            "en": "Takshaka",
-            "hi": "तक्षक"
-          },
-          "do": "hard-cut-to",
-          "target": "s08c",
-          "nth": {
-            "en": 2,
-            "hi": 2
-          }
-        },
-        {
-          "onWord": {
-            "en": "turn",
-            "hi": "उसे"
-          },
-          "do": "hard-cut-to",
-          "target": "s08d"
-        }
-      ],
-      "sfx": [
-        {
-          "id": "drum-hit",
-          "onWord": {
-            "en": "seventh",
-            "hi": "सातवें"
-          },
-          "volume": 0.5,
-          "offset": 0
-        }
-      ],
-      "transition": "cut",
-      "notes": "The seventh day. CE 1.38.31-33."
-    },
-    {
-      "id": "s08b",
-      "beat": 8,
-      "type": "character",
-      "background": "banyan-road",
-      "light": "divine",
-      "fx": [
-        {
-          "type": "sparks",
-          "n": 18
-        }
-      ],
-      "characters": [
-        {
-          "id": "kashyapa",
-          "pose": "reviving",
-          "x": 0.24,
-          "y": 0.84,
-          "scale": 1.0,
-          "flip": false,
-          "action": "still",
-          "expression": "calm"
-        }
-      ],
-      "props": [
-        {
-          "id": "banyan-reviving",
-          "x": 0.62,
-          "y": 0.56,
-          "scale": 1.4,
-          "action": "idle"
-        }
-      ],
-      "camera": {
-        "move": "slow-zoom-in",
-        "from": 1.0,
-        "to": 1.05
-      },
-      "narration": {
-        "en": "",
-        "hi": ""
-      },
-      "onScreenText": null,
-      "cues": [],
-      "sfx": [
-        {
-          "id": "shimmer-descend",
-          "at": 0,
-          "volume": 0.5
-        }
-      ],
-      "transition": "dissolve",
-      "notes": "One picture of the test: the side Takshaka burnt is ash; the healer brings it back, leaf by leaf. CE 1.39.4-10."
-    },
-    {
-      "id": "s08c",
-      "beat": 8,
-      "type": "character",
-      "background": "banyan-road",
       "backgroundVariant": "dusk",
       "light": "dusk",
-      "fx": [],
-      "characters": [
-        {
-          "id": "old-brahmin",
-          "pose": "offering-gold",
-          "x": 0.3,
-          "y": 0.84,
-          "scale": 1.0,
-          "flip": false,
-          "action": "still"
-        },
-        {
-          "id": "kashyapa",
-          "pose": "reviving",
-          "x": 0.72,
-          "y": 0.84,
-          "scale": 1.0,
-          "flip": true,
-          "action": "still",
-          "expression": "calm"
-        }
-      ],
-      "props": [
-        {
-          "id": "snake-shadow",
-          "x": 0.3,
-          "y": 0.86,
-          "scale": 0.9,
-          "action": "sway"
-        }
-      ],
-      "camera": {
-        "move": "slow-zoom-in",
-        "from": 1.0,
-        "to": 1.05
-      },
-      "narration": {
-        "en": "",
-        "hi": ""
-      },
-      "onScreenText": null,
-      "cues": [],
-      "sfx": [
-        {
-          "id": "coins-spill",
-          "onWord": {
-            "en": "paid",
-            "hi": "धन"
-          },
-          "volume": 0.6,
-          "offset": 0
-        }
-      ],
-      "transition": "cut",
-      "notes": "Takshaka as an old Brahmin; the shadow tells. CE 1.39.13-17."
-    },
-    {
-      "id": "s08d",
-      "beat": 8,
-      "type": "character",
-      "background": "banyan-road",
-      "backgroundVariant": "dusk",
-      "light": "dusk",
-      "fx": [],
-      "characters": [
-        {
-          "id": "kashyapa",
-          "pose": "walking",
-          "x": 0.3,
-          "y": 0.84,
-          "scale": 0.8,
-          "flip": true,
-          "action": "walk-left",
-          "expression": "calm"
-        }
-      ],
-      "props": [],
-      "camera": {
-        "move": "slow-zoom-out",
-        "from": 1.0,
-        "to": 0.96
-      },
-      "narration": {
-        "en": "",
-        "hi": ""
-      },
-      "onScreenText": null,
-      "cues": [],
-      "sfx": [],
-      "music": 0.5,
-      "transition": "fade-to-night",
-      "notes": "He goes home. (He also saw the king's time was over: 1.39.19.)"
-    },
-    {
-      "id": "s09",
-      "beat": 9,
-      "type": "character",
-      "background": "banyan-road",
-      "backgroundVariant": "night",
-      "light": "night",
       "fx": [],
       "characters": [
         {
@@ -1350,41 +1278,45 @@
         ]
       },
       "narration": {
-        "en": "Then Takshaka hid as a tiny worm in a fruit, sent as a gift.",
-        "hi": "फिर तक्षक नन्हा कीड़ा बनकर, भेंट में भेजे फल में छिप गया।"
+        "en": "On the seventh day, Takshaka became a tiny worm, and hid in a fruit sent to the king.",
+        "hi": "सातवें दिन, तक्षक नन्हा कीड़ा बनकर एक फल में छिप गया, जो राजा को भेजा गया।"
       },
-      "onScreenText": null,
+      "onScreenText": {
+        "en": "Day 7",
+        "hi": "सातवाँ दिन",
+        "style": "name-tag"
+      },
       "cues": [
         {
           "onWord": {
-            "en": "worm",
-            "hi": "कीड़ा"
+            "en": "tiny",
+            "hi": "नन्हा"
           },
           "do": "hard-cut-to",
-          "target": "s09b"
+          "target": "s08b"
         },
         {
           "onWord": {
             "en": "sent",
-            "hi": "भेंट"
+            "hi": "जो"
           },
           "do": "hard-cut-to",
-          "target": "s09c"
+          "target": "s08c"
         }
       ],
       "sfx": [
         {
-          "id": "wind-desolate",
+          "id": "drum-hit",
           "at": 0,
-          "volume": 0.4
+          "volume": 0.5
         }
       ],
       "transition": "cut",
-      "notes": "The lord of snakes, lotus-red. CE 1.40.3."
+      "notes": "The lord of snakes. CE 1.39.20."
     },
     {
-      "id": "s09b",
-      "beat": 9,
+      "id": "s08b",
+      "beat": 8,
       "type": "prop-hero",
       "background": "parchment-card",
       "fx": [],
@@ -1415,9 +1347,9 @@
       "cues": [],
       "sfx": [
         {
-          "id": "drum-hit",
+          "id": "shimmer-descend",
           "at": 0,
-          "volume": 0.5
+          "volume": 0.45
         }
       ],
       "overlay": "folk-art-border",
@@ -1425,8 +1357,8 @@
       "notes": "A copper speck with black eyes, in a fruit. CE 1.39.29."
     },
     {
-      "id": "s09c",
-      "beat": 9,
+      "id": "s08c",
+      "beat": 8,
       "type": "prop-hero",
       "background": "pillar-tower",
       "backgroundVariant": "dusk",
@@ -1464,8 +1396,8 @@
       "notes": "Ascetics with fruit; their shadows are snakes. CE 1.39.23-25."
     },
     {
-      "id": "s10",
-      "beat": 10,
+      "id": "s09",
+      "beat": 9,
       "type": "prop-hero",
       "background": "pillar-tower",
       "backgroundVariant": "dusk",
@@ -1492,26 +1424,26 @@
         ]
       },
       "narration": {
-        "en": "The last sun was setting. \"I'm safe,\" laughed the king. \"Let this worm be Takshaka, and the curse come true!\"",
-        "hi": "आख़िरी दिन का सूरज डूब रहा था। राजा हँसे: \"अब डर नहीं। ये कीड़ा ही तक्षक हो, और शाप सच हो जाए!\""
+        "en": "At sunset, with the seven days almost over, the king found the worm.",
+        "hi": "सूरज डूब रहा था। सात दिन पूरे होने को थे। तभी राजा को वो कीड़ा दिखा।"
       },
-      "onScreenText": null,
+      "onScreenText": {
+        "en": "Day 7",
+        "hi": "सातवाँ दिन",
+        "style": "name-tag",
+        "sub": {
+          "en": "sunset",
+          "hi": "सूर्यास्त"
+        }
+      },
       "cues": [
         {
           "onWord": {
-            "en": "setting",
-            "hi": "राजा"
+            "en": "king",
+            "hi": "तभी"
           },
           "do": "hard-cut-to",
-          "target": "s10b"
-        },
-        {
-          "onWord": {
-            "en": "Let",
-            "hi": "ये"
-          },
-          "do": "hard-cut-to",
-          "target": "s10c"
+          "target": "s09b"
         }
       ],
       "sfx": [
@@ -1523,10 +1455,56 @@
       ],
       "music": 0.6,
       "transition": "cut",
-      "notes": "The last sunset behind the tower."
+      "notes": "The last sunset behind the tower. CE 1.39.30."
     },
     {
-      "id": "s10b",
+      "id": "s09b",
+      "beat": 9,
+      "type": "character",
+      "background": "tower-room",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [],
+      "characters": [
+        {
+          "id": "parikshit",
+          "pose": "finding",
+          "x": 0.37,
+          "y": 1.35,
+          "scale": 2.5,
+          "flip": false,
+          "action": "still",
+          "expression": "curious"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.38
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0,
+          "volume": 0.4
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "The opened fruit in his hand, the worm in it. CE 1.39.28-29."
+    },
+    {
+      "id": "s10",
       "beat": 10,
       "type": "character",
       "background": "tower-room",
@@ -1557,17 +1535,35 @@
         ]
       },
       "narration": {
-        "en": "",
-        "hi": ""
+        "en": "He laughed: \"I'm safe now. Let this worm be Takshaka!\" And as a joke, he put it on his neck.",
+        "hi": "वो हँसे: \"अब डर नहीं। चलो, यही कीड़ा तक्षक सही!\" और मज़ाक में उसे अपनी गर्दन पर रख लिया।"
       },
       "onScreenText": null,
-      "cues": [],
+      "cues": [
+        {
+          "onWord": {
+            "en": "Let",
+            "hi": "चलो"
+          },
+          "do": "hard-cut-to",
+          "target": "s10b"
+        },
+        {
+          "onWord": {
+            "en": "And",
+            "hi": "और"
+          },
+          "do": "hard-cut-to",
+          "target": "s10c"
+        }
+      ],
       "sfx": [],
-      "transition": "dissolve",
+      "music": 0.6,
+      "transition": "cut",
       "notes": "Relief: he thinks he has won. CE 1.39.30."
     },
     {
-      "id": "s10c",
+      "id": "s10b",
       "beat": 10,
       "type": "character",
       "background": "tower-room",
@@ -1606,21 +1602,17 @@
       "sfx": [
         {
           "id": "heartbeat",
-          "onWord": {
-            "en": "curse",
-            "hi": "शाप"
-          },
-          "volume": 0.6,
-          "offset": 0
+          "at": 0,
+          "volume": 0.5
         }
       ],
       "music": 0.5,
       "transition": "dissolve",
-      "notes": "The worm on his fingertip, at eye level. Thumbnail. CE 1.39.30-31."
+      "notes": "The worm between his fingers. Thumbnail. CE 1.39.30-31."
     },
     {
-      "id": "s11",
-      "beat": 11,
+      "id": "s10c",
+      "beat": 10,
       "type": "character",
       "background": "tower-room",
       "backgroundVariant": "dusk",
@@ -1649,23 +1641,11 @@
         ]
       },
       "narration": {
-        "en": "He put it on his neck. It was Takshaka.",
-        "hi": "और उसे गर्दन पर रख लिया। वो सच में तक्षक था।"
+        "en": "",
+        "hi": ""
       },
       "onScreenText": null,
-      "cues": [
-        {
-          "onWord": {
-            "en": "It",
-            "hi": "वो"
-          },
-          "do": "hard-cut-to",
-          "target": "s11b",
-          "nth": {
-            "en": 2
-          }
-        }
-      ],
+      "cues": [],
       "sfx": [
         {
           "id": "heartbeat",
@@ -1675,7 +1655,71 @@
       ],
       "music": 0.3,
       "transition": "cut",
-      "notes": "The hook again. CE 1.39.32."
+      "notes": "As a joke. CE 1.39.32."
+    },
+    {
+      "id": "s11",
+      "beat": 11,
+      "type": "character",
+      "background": "tower-room",
+      "backgroundVariant": "night",
+      "light": "fire",
+      "fx": [],
+      "characters": [
+        {
+          "id": "parikshit",
+          "pose": "shocked",
+          "x": 0.48,
+          "y": 1.35,
+          "scale": 2.6,
+          "flip": false,
+          "action": "still",
+          "expression": "shocked"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.5,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "It really was Takshaka. The worm became a giant snake, and the curse came true.",
+        "hi": "वो सच में तक्षक था। कीड़ा विशाल साँप बन गया, और शाप सच हो गया।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "worm",
+            "hi": "कीड़ा"
+          },
+          "do": "hard-cut-to",
+          "target": "s11b"
+        },
+        {
+          "onWord": {
+            "en": "curse",
+            "hi": "शाप"
+          },
+          "do": "hard-cut-to",
+          "target": "s11c"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-boom-deep",
+          "at": 0,
+          "volume": 0.7
+        }
+      ],
+      "music": 0.4,
+      "transition": "cut",
+      "notes": "The laugh stops."
     },
     {
       "id": "s11b",
@@ -1752,45 +1796,90 @@
       ],
       "music": 1.2,
       "transition": "flash-white",
-      "notes": "The coils close round him. No bite shown; the burning house (1.40.4) is left out. CE 1.39.33."
+      "notes": "The coils close round him. No bite shown. CE 1.39.33."
     },
     {
-      "id": "s12",
-      "beat": 12,
+      "id": "s11c",
+      "beat": 11,
       "type": "prop-hero",
-      "background": "hermitage",
-      "backgroundVariant": "dusk",
-      "light": "dusk",
-      "fx": [],
-      "characters": [],
-      "props": [
+      "background": "pillar-tower",
+      "backgroundVariant": "night",
+      "light": "night",
+      "fx": [
         {
-          "id": "bow-dead-snake",
-          "x": 0.5,
-          "y": 0.65,
-          "scale": 1.8,
-          "action": "still"
+          "type": "embers",
+          "n": 24
         }
       ],
+      "characters": [],
+      "props": [],
       "camera": {
         "move": "slow-zoom-in",
         "from": 1.0,
         "to": 1.06,
         "focus": [
           0.5,
-          0.46
+          0.35
         ]
       },
       "narration": {
-        "en": "A dead snake, lifted in anger. A living one, lifted in jest.",
-        "hi": "एक मरा साँप, ग़ुस्से में उठाया। एक ज़िंदा, हँसी में।"
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "at": 0,
+          "volume": 0.6
+        }
+      ],
+      "music": 0.6,
+      "transition": "dissolve",
+      "notes": "The tower, dark. CE 1.40.1-4."
+    },
+    {
+      "id": "s12",
+      "beat": 12,
+      "type": "character",
+      "background": "hermitage",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [],
+      "characters": [
+        {
+          "id": "shamika",
+          "pose": "with-snake",
+          "x": 0.5,
+          "y": 0.97,
+          "scale": 2.4,
+          "flip": true,
+          "action": "still",
+          "shadow": false,
+          "expression": "calm"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      "narration": {
+        "en": "He had put a dead snake on a sage. Then he put a living one on himself.",
+        "hi": "एक मरा साँप उन्होंने ऋषि पर रखा था। और एक ज़िंदा साँप, ख़ुद पर।"
       },
       "onScreenText": null,
       "cues": [
         {
           "onWord": {
-            "en": "living",
-            "hi": "ज़िंदा"
+            "en": "Then",
+            "hi": "और"
           },
           "do": "hard-cut-to",
           "target": "s12b"
@@ -1805,33 +1894,36 @@
       ],
       "music": 0.5,
       "transition": "cut",
-      "notes": "The same gesture, first..."
+      "notes": "The dead snake, on the sage..."
     },
     {
       "id": "s12b",
       "beat": 12,
-      "type": "prop-hero",
+      "type": "character",
       "background": "tower-room",
       "backgroundVariant": "dusk",
       "light": "fire",
       "fx": [],
-      "characters": [],
-      "props": [
+      "characters": [
         {
-          "id": "worm-fingertip",
+          "id": "parikshit",
+          "pose": "to-neck",
           "x": 0.48,
-          "y": 0.71,
-          "scale": 1.5,
-          "action": "still"
+          "y": 1.35,
+          "scale": 2.7,
+          "flip": false,
+          "action": "still",
+          "expression": "laughing"
         }
       ],
+      "props": [],
       "camera": {
         "move": "slow-zoom-in",
         "from": 1.0,
-        "to": 1.08,
+        "to": 1.06,
         "focus": [
           0.5,
-          0.46
+          0.38
         ]
       },
       "narration": {
@@ -1843,7 +1935,7 @@
       "sfx": [],
       "music": 0.4,
       "transition": "cut",
-      "notes": "...and last."
+      "notes": "...and the living one, on himself."
     },
     {
       "id": "s13",
@@ -1922,14 +2014,22 @@
         "status": "library",
         "poses": {
           "waiting": "library",
-          "to-neck": "library",
           "hunting": "library",
           "asking": "library",
           "furious": "library",
           "regret": "library",
+          "finding": "library",
           "laughing": "library",
           "worm-raised": "library",
+          "to-neck": "library",
           "shocked": "library"
+        }
+      },
+      {
+        "id": "takshaka",
+        "status": "library",
+        "poses": {
+          "rearing": "library"
         }
       },
       {
@@ -1955,28 +2055,6 @@
         "poses": {
           "pointing": "library"
         }
-      },
-      {
-        "id": "kashyapa",
-        "status": "library",
-        "poses": {
-          "walking": "library",
-          "reviving": "library"
-        }
-      },
-      {
-        "id": "old-brahmin",
-        "status": "library",
-        "poses": {
-          "offering-gold": "library"
-        }
-      },
-      {
-        "id": "takshaka",
-        "status": "library",
-        "poses": {
-          "rearing": "library"
-        }
       }
     ],
     "backgrounds": [
@@ -1986,6 +2064,10 @@
       },
       {
         "id": "tower-room",
+        "status": "library"
+      },
+      {
+        "id": "banyan-road",
         "status": "library"
       },
       {
@@ -2005,15 +2087,15 @@
         "status": "library"
       },
       {
-        "id": "banyan-road",
-        "status": "library"
-      },
-      {
         "id": "red-sky-plain",
         "status": "library"
       }
     ],
     "props": [
+      {
+        "id": "fruit-worm",
+        "status": "library"
+      },
       {
         "id": "deer",
         "status": "library"
@@ -2031,18 +2113,6 @@
         "status": "library"
       },
       {
-        "id": "banyan-reviving",
-        "status": "library"
-      },
-      {
-        "id": "snake-shadow",
-        "status": "library"
-      },
-      {
-        "id": "fruit-worm",
-        "status": "library"
-      },
-      {
         "id": "fruit-bearers",
         "status": "library"
       },
@@ -2052,10 +2122,6 @@
       },
       {
         "id": "takshaka-coils-front",
-        "status": "library"
-      },
-      {
-        "id": "worm-fingertip",
         "status": "library"
       },
       {
