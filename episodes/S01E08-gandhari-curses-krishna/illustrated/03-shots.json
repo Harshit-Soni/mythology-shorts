@@ -1,0 +1,19 @@
+{
+  "episode": "{{ID}}",
+  "about": "Shot list for the illustrated version: one painted image per shot (images/shots/), camera moves and code motion effects, same voice and captions as the cut-out version. 'image' is the approved file. Render: cd studio && npm run render -- {{ID}} en --variant illustrated",
+  "styleRef": "styles/ink-wash-graphic-novel.md",
+  "characters": {},
+  "shots": [
+    {
+      "id": "sh01",
+      "beat": 1,
+      "chars": [],
+      "prompt": "",
+      "camera": { "move": "slow-zoom-in", "from": 1.0, "to": 1.08, "focus": [0.5, 0.4] },
+      "fx": [],
+      "transition": "cut",
+      "image": "images/shots/sh01-v1.png"
+    }
+  ],
+  "shotNotes": {}
+}
