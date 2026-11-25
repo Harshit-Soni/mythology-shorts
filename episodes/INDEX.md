@@ -7,5 +7,5 @@
 | S01E03 | The Apsara Who Cursed Arjuna | S01 | 7 Ready to publish (after your phone check): v2 fuller telling, EN 147s, HI 152s, kit + thumbnails done · post HI Sun 29 Nov / EN Mon 30 Nov · v1 (94s) kept in render/v1 | | | | | |
 | S01E04 | The Woman Who Vowed to Kill Bhishma | S01 | 7 Uploaded (told 2026-11-25; links to add): v2 short single-thread telling, EN 74s, HI 80s · beat 7 wording left as is, by the owner's choice · v1 (140s) kept in render/v1 | | | | | |
 | S01E05 | The Warrior Cursed Twice | S01 | 7 Ready to publish (after your phone check, HI listen and research check): EN 81s, HI 93s, kit + thumbnails done · suggested HI Thu 3 Dec / EN Fri 4 Dec | | | | | |
-| S01E06 | The King of Heaven Who Became a Snake | S01 | 4 Assets done, all made in code (research not yet verified by you): 31 shots, EN ~69s, HI ~74s · next: voice | | | | | |
+| S01E06 | The King of Heaven Who Became a Snake | S01 | 5 Voiced: EN 74.1s, HI 77.2s (HI needs a listen; research not yet verified by you) · 31 shots · next: render | | | | | |
 | X001 | Barbarika: The Warrior Who Gave His Head | one-off | 6 Rendered, two versions (cut-out SVG + illustrated ink-wash, 18 shots), EN ≈60s, HI ≈61s · ElevenLabs v4 voice · music bed + 9 sfx · 7 kit drafted · research unverified | | | | | |
