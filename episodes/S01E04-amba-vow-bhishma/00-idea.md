@@ -19,5 +19,5 @@
 - [x] 4 Assets: all made in code (svg/make-cast.py, make-backgrounds.py, make-props.py)
 - [x] 5 Voice (v2, 2026-11-19): ElevenLabs eleven_v4, EN 73.6 s, HI 80.0 s incl. sting; Scribe word times, sync 0 off (v1: EN 140.0 s, HI 151.1 s)
 - [ ] 6 Render v2: finals EN 75.7 s + HI 82.1 s and thumbnails rendered 2026-11-19 (sync 0 off, frames reviewed in both languages); v1 videos in render/v1; waiting on the phone check
-- [ ] 7 Published (links in INDEX.md)
+- [x] 7 Published (told 2026-11-25; links to add in INDEX.md)
 - [ ] 8 Reviewed (7 days after upload)
