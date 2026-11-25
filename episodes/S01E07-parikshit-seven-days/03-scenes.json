@@ -634,7 +634,7 @@
       "cues": [
         {
           "onWord": {
-            "en": "His",
+            "en": "him",
             "hi": "पर"
           },
           "do": "hard-cut-to",
@@ -1142,7 +1142,7 @@
         {
           "onWord": {
             "en": "turn",
-            "hi": "लौटा"
+            "hi": "उसे"
           },
           "do": "hard-cut-to",
           "target": "s08d"
@@ -1496,7 +1496,7 @@
       "cues": [
         {
           "onWord": {
-            "en": "I'm",
+            "en": "setting",
             "hi": "राजा"
           },
           "do": "hard-cut-to",

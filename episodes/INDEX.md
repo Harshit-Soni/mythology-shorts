@@ -8,5 +8,5 @@
 | S01E04 | The Woman Who Vowed to Kill Bhishma | S01 | 7 Uploaded (told 2026-11-25; links to add): v2 short single-thread telling, EN 74s, HI 80s · beat 7 wording left as is, by the owner's choice · v1 (140s) kept in render/v1 | | | | | |
 | S01E05 | The Warrior Cursed Twice | S01 | 7 Ready to publish (after your phone check, HI listen and research check): EN 81s, HI 93s, kit + thumbnails done · suggested HI Thu 3 Dec / EN Fri 4 Dec | | | | | |
 | S01E06 | The King of Heaven Who Became a Snake | S01 | 7 Ready to publish (after your phone check, HI listen and research check): v2, EN 84s, HI 91s, kit + thumbnails done · v1 in render/v1, **don't post it** · suggested HI Sun 6 Dec / EN Mon 7 Dec | | | | | |
-| S01E07 | The King With Seven Days to Live | S01 | 4 Assets done: 33 shots, EN ~80s, HI ~83s (script needs read-aloud; research not yet verified by you) · next: voice | | | | | |
+| S01E07 | The King With Seven Days to Live | S01 | 5 Voiced: EN 71.7s, HI 75.2s (HI needs a listen; research not yet verified by you) · 33 shots · next: render | | | | | |
 | X001 | Barbarika: The Warrior Who Gave His Head | one-off | 6 Rendered, two versions (cut-out SVG + illustrated ink-wash, 18 shots), EN ≈60s, HI ≈61s · ElevenLabs v4 voice · music bed + 9 sfx · 7 kit drafted · research unverified | | | | | |
