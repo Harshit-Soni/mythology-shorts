@@ -58,6 +58,10 @@ Lessons from making and publishing episodes. One line per lesson, with the episo
 - Free-tier queue: send all pending sound nodes in **one** run call. Whatever gets a slot runs and the rest cost nothing; one call let all 10 effects through after many failed tries. Effects cost 7–33 credits each, not the 50 estimated; a 75 s music bed costs 1,125. (S01E01)
 - To check a mix for clipping, measure the stereo channels: a mono downmix adds the channels and shows false clips 3 dB too high. (S01E01)
 
+- A fall must keep falling: `descend` lands halfway through the scene and then hangs still; use `plunge`. (S01E06)
+- A cut to a speaker goes on the **first** word of the quote, or the close-up starts mid-sentence. (S01E06)
+- Someone held or attacked faces the attacker, and the power leaving them flows *to* whoever takes it. (S01E06)
+
 ## Hooks
 - *(none yet: fill in after the first published episodes)*
 

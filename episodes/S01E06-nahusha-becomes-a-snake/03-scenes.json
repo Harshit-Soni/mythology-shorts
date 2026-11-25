@@ -417,7 +417,7 @@
       "cues": [
         {
           "onWord": {
-            "en": "too",
+            "en": "I'm",
             "hi": "मैं"
           },
           "do": "hard-cut-to",
@@ -632,11 +632,11 @@
       "props": [],
       "camera": {
         "move": "slow-zoom-in",
-        "from": 1.0,
-        "to": 1.08,
+        "from": 1.32,
+        "to": 1.42,
         "focus": [
           0.5,
-          0.45
+          0.42
         ]
       },
       "narration": {
@@ -970,7 +970,7 @@
         {
           "id": "shaap-stamp",
           "x": 0.5,
-          "y": 0.26,
+          "y": 0.3,
           "scale": 0.7,
           "action": "stamp-in"
         }
@@ -1055,7 +1055,7 @@
           "x": 0.46,
           "y": 0.4,
           "scale": 1.8,
-          "action": "descend"
+          "action": "plunge"
         }
       ],
       "camera": {
@@ -1155,7 +1155,7 @@
           "x": 0.5,
           "y": 0.84,
           "scale": 1.0,
-          "flip": false,
+          "flip": true,
           "action": "still",
           "expression": "strain"
         }
@@ -1240,21 +1240,22 @@
         {
           "id": "bhima",
           "pose": "held",
-          "x": 0.5,
+          "x": 0.56,
           "y": 1.46,
           "scale": 2.7,
-          "flip": false,
+          "flip": true,
           "action": "still",
           "expression": "weak"
         }
       ],
       "props": [
         {
-          "id": "rising-lights",
-          "x": 0.64,
-          "y": 0.3,
-          "scale": 0.7,
-          "action": "ascend"
+          "id": "strength-stream",
+          "x": 0.27,
+          "y": 0.475,
+          "scale": 1.1,
+          "action": "idle",
+          "light": "none"
         }
       ],
       "camera": {
@@ -1857,7 +1858,7 @@
         {
           "id": "shaap-stamp",
           "x": 0.5,
-          "y": 0.24,
+          "y": 0.29,
           "scale": 0.7,
           "action": "stamp-in"
         }
@@ -2023,10 +2024,6 @@
       },
       {
         "id": "snake-head",
-        "status": "library"
-      },
-      {
-        "id": "rising-lights",
         "status": "library"
       },
       {

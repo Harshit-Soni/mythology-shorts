@@ -67,6 +67,18 @@ def rig(path, transform, only=None, drop=(), fill=None, show=()):
     return f'<g transform="{transform}" fill="none">{inner}</g>'
 
 
+def curve(ps, k=14):
+    """A smooth line through the points (Catmull-Rom)."""
+    q = [ps[0]] + list(ps) + [ps[-1]]
+    out = []
+    for i in range(1, len(q) - 2):
+        a, b, c, d = q[i - 1:i + 3]
+        for j in range(k):
+            t = j / k
+            out.append(tuple(.5 * (2 * b[m] + (c[m] - a[m]) * t + (2 * a[m] - 5 * b[m] + 4 * c[m] - d[m]) * t * t + (3 * b[m] - a[m] - 3 * c[m] + d[m]) * t ** 3) for m in (0, 1)))
+    return out + [ps[-1]]
+
+
 # ---------- the snake ----------
 def sample(fn, n=90):
     return [fn(i / (n - 1)) for i in range(n)]
@@ -265,9 +277,10 @@ def strength_stream():
 
 def falling():
     body = rig('nahusha/gaze.svg', 'translate(770 600) rotate(168) scale(0.46)', drop=('halo', 'crown', 'dhoti', 'leg-far', 'leg-near', 'rear-drape'))
-    tail = snake(sample(lambda t: (520 + 150 * math.sin(t * 5.2) * (1 - .3 * t) - 40 * t, 300 - 250 * t), 80), 118, lambda t: 1 - .85 * t)
+    tail = snake(curve([(474, 312), (466, 260), (440, 190), (448, 110), (520, 62), (610, 84), (640, 160), (590, 214), (530, 190)]), 108, lambda t: 1 - .86 * t)
+    sash = f'<g transform="translate(474 292) rotate(-11)"><path d="M-66 -26 Q0 -8 66 -26 L60 24 Q0 42 -60 24Z" fill="#5E3A9E" stroke="{INK}" stroke-width="5" /><path d="M-60 12 Q0 30 60 12" stroke="{GOLD}" stroke-width="8" /></g>'
     crown = rig('nahusha/gaze.svg', 'translate(30 420) rotate(-32) scale(0.5) translate(-300 60)', only='crown')
-    b = glow_rings(500, 430, 300, '#B5506E', 3, .06) + ''.join(f'<path d="M{x} {y} l0 -{l}" stroke="#E3D3F0" stroke-width="5" opacity="0.5" />' for x, y, l in ((140, 420, 130), (250, 250, 110), (680, 520, 150), (740, 320, 120), (90, 640, 90), (330, 700, 80))) + tail + body + crown
+    b = glow_rings(500, 430, 300, '#B5506E', 3, .06) + ''.join(f'<path d="M{x} {y} l0 -{l}" stroke="#E3D3F0" stroke-width="5" opacity="0.5" />' for x, y, l in ((140, 420, 130), (250, 250, 110), (680, 520, 150), (740, 320, 120), (90, 640, 90), (330, 700, 80))) + tail + body + sash + crown
     write('nahusha-falling', b, 'Nahusha falling head down, his legs already a snake, his crown coming off.')
 
 
@@ -283,18 +296,19 @@ def indra_lotus():
 
 
 def dead_snake_sage():
-    b = glow_rings(400, 420, 360, '#E07A2E', 3, .08)
+    b = glow_rings(290, 420, 340, '#E07A2E', 3, .08)
     fig = rig('karna/guru-on-lap.svg', 'translate(-70 -250) scale(0.66)', fill=SIL)
     rim = rig('karna/guru-on-lap.svg', 'translate(-76 -256) scale(0.66)', fill='#E8B53A')
     jata = f'<path d="M236 400 Q212 470 240 560 L268 556 Q256 470 268 410Z M310 396 Q336 470 300 520 Q276 500 276 440Z" fill="{SIL}" />'
     b += rim + fig + jata
-    pts = sample(lambda t: (40 + 480 * t, 520 - 96 * math.sin(math.pi * t) + (130 * (t - .78) / .22 if t > .78 else 0) + (120 * (.2 - t) / .2 if t < .2 else 0)), 90)
+    b += f'<ellipse cx="242" cy="712" rx="140" ry="46" fill="{SIL}" />'  # no light between the legs
+    pts = curve([(104, 664), (112, 600), (128, 532), (166, 472), (244, 432), (316, 440), (358, 500), (376, 596), (374, 650)])
     n = len(pts)
     d = 'M' + ' L'.join(f'{x:.0f} {y:.0f}' for x, y in pts)
     b += f'<path d="{d}" stroke="{INK}" stroke-width="50" /><path d="{d}" stroke="#7E9A62" stroke-width="40" /><path d="{d}" stroke="#A9C086" stroke-width="8" transform="translate(0 -11)" />'
-    b += ''.join(f'<ellipse cx="{pts[i][0]:.0f}" cy="{pts[i][1]:.0f}" rx="12" ry="9" fill="#4A5E36" />' for i in range(6, n - 6, 8))
+    b += ''.join(f'<ellipse cx="{pts[i][0]:.0f}" cy="{pts[i][1]:.0f}" rx="12" ry="9" fill="#4A5E36" />' for i in range(6, n - 6, 9))
     x, y = pts[-1]
-    b += f'<g transform="translate({x:.0f} {y:.0f}) rotate(72)"><path d="M-20 -26 Q50 -44 92 -8 Q96 12 80 20 Q30 36 -20 26Z" fill="#7E9A62" stroke="{INK}" stroke-width="5" /><path d="M32 -10 Q44 -4 56 -12" stroke="{INK}" stroke-width="5" /></g>'
+    b += f'<g transform="translate({x:.0f} {y:.0f}) rotate(94)"><path d="M-20 -26 Q50 -44 92 -8 Q96 12 80 20 Q30 36 -20 26Z" fill="#7E9A62" stroke="{INK}" stroke-width="5" /><path d="M32 -10 Q44 -4 56 -12" stroke="{INK}" stroke-width="5" /></g>'
     write('dead-snake-sage', f'<g transform="translate(110 40)">{b}</g>', 'a sage in silent meditation, a dead snake laid over his shoulders (E07 tease).')
 
 
