@@ -57,6 +57,7 @@ So the charge he set out to prevent is the charge she made, and her curse comes 
 | 33 | The hunter comes to take his prey, sees **a man in yellow, in yoga, many-armed**, knows his offence and takes his feet. **Krishna comforts him**, and rises, filling earth and sky with light. | CE 16.5.20–21; Mausala §4 | same | [ ] |
 | 34 | The gods come to meet him; he reaches his own place. | CE 16.5.22–25 | same | [ ] |
 | 35 | **Vyasa to Arjuna:** it was to be so; **Krishna looked on, though able to turn it away.** | CE 16.9.25–29; Mausala §8 | [Mausala §8](https://sacred-texts.com/book/the-mahabharata-book-16-mausala-parva/section-8) | [ ] |
+| 36 | **(Season 2 tease)** Krishna to Ashwatthama: *reap the fruit of this deed; three thousand years you'll wander this earth, alone.* Vyasa confirms it. | CE 10.16.9–17 | [CE 10](https://bombay.indology.info/mahabharata/text/UR/MBh10.txt) | [ ] |
 
 ## How each part of the curse comes true
 | The curse (11.25.40–42) | The end (16.3–5, 16.8) |

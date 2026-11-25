@@ -2,7 +2,7 @@
 
 **Spine:** *"You could have stopped this. Why did you look on?"* → her curse: the same end for your clan → he smiles; he knows → thirty-six years later he could stop it, and lets it come → the one who wounds him is comforted.
 **Opening:** the series sting (**शाप VIII / CURSED VIII**, ≈1 s).
-**Length:** EN 200 words ≈ 78 s, HI 211 words ≈ 82 s, both with the sting, at E07's measured rates (2.6 / 2.58 words/s). A little over the 75 s aim, for the finale.
+**Length:** EN 210 words ≈ 82 s, HI 226 words ≈ 89 s, both with the sting, at E07's measured rates (2.6 / 2.58 words/s). Over the 75 s aim: the finale, with a season close and a tease.
 **Source used:** the critical edition, Stri Parva 11.13–15, 11.25 and Mausala Parva 16.3–5; Ganguli agrees. **The research rows are not yet verified by the owner.** The Puranas' fish and arrowhead, Vali, and the iron body stay out.
 **Source on screen:** "Mahabharata, Stri Parva" / "महाभारत, स्त्री पर्व" (beat 4); "Mausala Parva" / "मौसल पर्व" (beat 8).
 
@@ -22,6 +22,7 @@
 | 11 | Alone in the forest, he lay down in yoga. A hunter took him for a deer, and shot. | Dusk forest; Krishna reclining under a tree; a hunter's shadow, a bow; the arrow flies | 31, 32 |
 | 12 | The hunter fell at his feet. Krishna didn't curse him. He comforted him… and rose, filling earth and sky with light. | The hunter, palms joined; Krishna's raised hand; gold light climbs from the trees to the stars | 33 |
 | 13 (close) | Eight stories of curses. The last word is mercy. | The season's faces as a ring of small medallions; the curse stamp, then a peacock feather drifts across it | series |
+| 14 (tease) | Next season on Shraap: Ashwatthama, the warrior Krishna did curse. | Night; a lone warrior's silhouette, a dark gem-mark on his brow, walking; stamp **SEASON 2** | 36 |
 
 **Ready cuts (EN):**
 - Beat 2: drop *"The war was over."* only if the picture says it (−4).
@@ -44,6 +45,7 @@
 | 11 | अकेले वन में, वो योग में लेट गए। एक शिकारी ने हिरण समझकर बाण चला दिया। | Same as EN |
 | 12 | शिकारी उनके पैरों में गिर पड़ा। कृष्ण ने उसे शाप नहीं, दिलासा दिया… और धरती-आकाश को प्रकाश से भरते हुए ऊपर उठ गए। | Same as EN |
 | 13 (close) | शाप की आठ कहानियाँ। और आख़िरी शब्द: करुणा। | Same as EN |
+| 14 (tease) | शाप के अगले सीज़न में: अश्वत्थामा, वो योद्धा जिसे कृष्ण ने ख़ुद शाप दिया। | **सीज़न 2** |
 
 **Ready cuts (HI):**
 - Beat 9: drop *"वो रोक सकते थे।"* (−4; weakens the thread).
@@ -80,6 +82,7 @@ Each quote names its speaker (3 and 4 Gandhari, 6 Gandhari, 7 Krishna). **Every 
 - **Beat 11:** 16.5.16–20. The arrow struck the sole; only the flight is shown.
 - **Beat 12:** *āśvāsayat* (comforted), *rodasī vyāpya lakṣmyā* (filling heaven and earth with splendour), 16.5.21. **"Didn't curse him"** is the narrator's contrast; true, and the text reports no curse.
 - **Beat 13:** the narrator's close. "Eight stories" = the eight episodes. "Mercy" / "करुणा" reads beat 12.
+- **Beat 14:** CE 10.16.9–12: Krishna to Ashwatthama, *reap the fruit of this deed; three thousand years you'll wander this earth*, alone. "Curse" is the tradition's word and the catalogue's; the passage has Krishna declare it and Vyasa confirm it (10.16.16–17). Say **three thousand years**, never "forever". It happens before Gandhari's curse (the same phrase, *phalam avāpnuhi / āpnuhi*, is in both), so "did curse" is the right tense.
 - **Order in time:** E07's Parikshit lives after Krishna. Nothing here says otherwise.
 
 ## Sensitivity
@@ -89,5 +92,5 @@ Each quote names its speaker (3 and 4 Gandhari, 6 Gandhari, 7 Krishna). **Every 
 - **The hunter** is an ordinary, horrified man.
 
 ## Writing notes
-- No tease: Season 2 isn't decided. The end card carries "follow"; a question goes in the pinned comment.
+- **Beat 14, the Season 2 tease** (owner's request, 2026-11-25). Ashwatthama is Claude's pick from the catalogue (#25): it answers beat 12 ("didn't curse him"), and it's the series' strongest next subject. If Season 2 opens with another story, change beat 14 **before voicing**.
 - **Season rhyme with E02** (a man shot as a deer, the archer cursed) is for the pinned comment; a newcomer wouldn't get it in the narration.

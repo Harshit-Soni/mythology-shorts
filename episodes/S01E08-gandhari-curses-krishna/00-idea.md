@@ -45,7 +45,7 @@
 ## Links inside the series
 - **E02:** again someone is shot in mistake for a deer. There the archer was cursed; here he's comforted. A strong closing rhyme.
 - **E05, E07:** a doom foretold, and how a person meets it.
-- **Season close:** decide between a short look back (the faces of the season) and a Season 2 tease. Suggested: look back in one beat, then the end card. No tease until Season 2 is decided.
+- **Season close:** decide between a short look back (the faces of the season) and a Season 2 tease. **Decided (owner, 2026-11-25):** look back in one beat, then tease the next season: Ashwatthama, cursed by Krishna (beat 14).
 
 ## Reuse
 - **Characters:** `yudhishthira`, `bhima`, `arjuna`; a Vyasa from the sage rigs if needed. **New:** `gandhari` (blindfolded), `krishna` (the library has only his Brahmin disguise), `jara` the hunter, possibly Dhritarashtra.
@@ -55,7 +55,7 @@
 ## Status
 - [ ] 1 Research (verified by me)
 - [ ] 2 Script (read aloud, EN + HI)
-- [ ] 3 Storyboard
+- [x] 3 Storyboard (38 shots, 2026-11-25)
 - [ ] 4 Assets
 - [ ] 5 Voice
 - [ ] 6 Render (watched on phone, sound on + off)
