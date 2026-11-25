@@ -1,5 +1,7 @@
 # Publish kit: S01E07
 
+> **On hold (2026-11-25): written for v1. Don't post yet.** The script is being redone as v2 (no healer); this kit will be updated after the new render.
+
 Episode 7 of **S01 Shraap: Curses of the Mahabharata**.
 
 **Length:** EN 1:13, HI 1:17 (with the end card).
