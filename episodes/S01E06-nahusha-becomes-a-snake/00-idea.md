@@ -1,0 +1,52 @@
+# S01E06: The King of Heaven Who Became a Snake
+
+- **Series:** S01 Shraap: Curses That Shaped the Mahabharata (episode 6)
+- **Idea (one line):** With Indra gone, the gods make a human king, Nahusha, lord of heaven. Power turns his head: he harnesses the sages to carry him and touches Agastya's head with his foot. Agastya curses him to fall and live as a great snake, until, ages later, one of his own descendants sets him free.
+- **Why it will work:**
+  - It pays off E05's tease ("the king of heaven who became a snake").
+  - The hook is a contradiction, and few viewers know it: the gods once chose a *human* as their king.
+  - The ending lands on people viewers know: a snake pins **Bhima**, the strongest of the Pandavas, and **Yudhishthira** frees him with answers instead of weapons.
+- **Created:** 2026-11-25
+
+## Angle (to be checked in research)
+*Only the curse itself has been read so far (critical edition, Udyoga 5.17.8–16, found while checking E05's tease): he has the sages carry him, touches Agastya's head with his foot, and is cursed to roam the earth as a great snake for ten thousand years, then regain heaven. Everything else below is the working plan.*
+
+- **One spine:** raised higher than any human → pride → the kick → the fall → freed by his own family. Every beat is a step up or down the same ladder.
+- **Trailer line after the hook:** three odd, concrete things, e.g. *a throne, a kick, and a riddle.*
+- **Plant and pay off:** plant the way out of the curse when it's spoken, and land it with Yudhishthira.
+- **Cut to a clause:** why Indra was missing (Vritra), and the plot around Shachi, unless research shows the sages carry him *because* of her. Then it needs one clear beat, or the kick makes no sense.
+- **Closing image:** back to the empty throne or the light leaving the snake, then tease E07 (Parikshit: a dead snake around a sage's neck, which links snake to snake).
+- **Length:** 60–75 s in **both** languages. Aim for ≤ 165 EN / ≤ 170 HI words: E05's Hindi ran 91 s on 214 words (about 2.4 words/s).
+
+## Watch for in research
+- **How the story is split:** Udyoga Parva (heaven, the kick, the curse) and Vana Parva (the snake, Bhima, Yudhishthira). Do the two agree on the curse and its ending?
+- **Who touches whom, and how:** "kick" or "touch with the foot". And why the sages carry him.
+- **Who told him how the curse would end,** and whose words end it.
+- **Other versions** (Anushasana Parva, Puranas) may tell the Agastya scene differently: keep them apart.
+- **The word for the snake:** *sarpa* / *ajagara*; don't say "python" or "cobra" unless the text does. E05's tease drew a cobra.
+- **Nahusha's line:** exactly how he is the Pandavas' ancestor.
+- **The riddle answers include what makes someone a Brahmin** (conduct or birth): a strong, sensitive passage. Quote it exactly or leave it out.
+
+## Sensitivity
+- **Shachi:** a queen under threat, shown with dignity and her own wit. Nothing suggestive.
+- **Agastya** isn't petty: show the insult clearly.
+- **Nahusha** is a good king ruined by power, and he is forgiven at the end.
+
+## Shot design (carried over from E05)
+- Change the picture about every 3 s, mostly by moving closer within one place; close-ups at scale ≈ 3.
+- Check motion as well as stills.
+
+## Reuse
+- **Characters:** Indra, the sage rigs (Agastya, the palanquin sages), a pandu-rig king (Nahusha). New Pandavas needed: Bhima and Yudhishthira (both missing from the library, and useful later).
+- **Sets and props:** `amaravati-court`, `forest-hunt`, `himalaya-peaks`, `parchment-card`, `nahusha-silhouette`, `celestial-chariot`.
+- **New:** the palanquin, the great snake (coiled, holding Bhima, dissolving into light), the empty throne, a foot close-up.
+
+## Status
+- [ ] 1 Research (verified by me)
+- [ ] 2 Script (read aloud, EN + HI)
+- [ ] 3 Storyboard
+- [ ] 4 Assets
+- [ ] 5 Voice (listened to, EN + HI)
+- [ ] 6 Render (watched on phone, sound on + off)
+- [ ] 7 Published (links in INDEX.md)
+- [ ] 8 Reviewed (7 days after upload)
