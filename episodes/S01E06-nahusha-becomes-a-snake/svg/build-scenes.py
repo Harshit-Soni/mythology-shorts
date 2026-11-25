@@ -95,7 +95,7 @@ scenes = [sting,
    sfx=[snd('heartbeat', at=0, vol=0.4)], transition='dissolve', notes='Close: she says it. Strategy, not flirtation.'),
  # 6 the palanquin, the rebuke, the foot
  S('s06', 6, SK, variant='dusk', light='dusk', narr=N(6), type='prop-hero', fx=[stars(30)], props=[P('palanquin-carried', 0.5, 0.52, 1.12, 'idle')], cam=zoom(0.0, 0.04, move='slow-pan-right'),
-   cues=[cut('rebuked', 'टोका', 's06b'), cut('set', 'अगस्त्य', 's06c')], sfx=[snd('drum-hit', at=0.2, vol=0.5)], music=1.1, notes='Four sages carry him along the sky road. CE 5.15.20-21, 5.17.8.'),
+   cues=[cut('sages', 'ऋषियों', 's06b'), cut('set', 'अगस्त्य', 's06c')], sfx=[snd('drum-hit', at=0.2, vol=0.5)], music=1.1, notes='Four sages carry him along the sky road. CE 5.15.20-21, 5.17.8.'),
  S('s06b', 6, SK, variant='dusk', light='dusk', chars=[C('agastya', 'rebuking', 0.46, 1.5, 2.6, flip=True, action='still', expression='stern')], cam=zoom(1.0, 1.06, [0.5, 0.36]), text=tag('Agastya', 'अगस्त्य', 'a great sage', 'महान ऋषि'),
    music=0.7, transition='dissolve', notes='Close on the sage who speaks for them: stern, not yet furious. NEW pose: turned back to the palanquin, one finger raised. CE 5.17.10.'),
  S('s06c', 6, SK, variant='dusk', light='fire', type='prop-hero', props=[P('foot-on-head', 0.5, 0.5, 1.82, 'still')], cam=zoom(1.0, 1.1, [0.5, 0.5], 'push-in-fast'),
