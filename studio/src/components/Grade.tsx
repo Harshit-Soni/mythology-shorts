@@ -25,7 +25,7 @@ export const LIGHT: Record<string, string> = {
 export const ContactShadows: React.FC<{ chars: CharRef[] }> = ({ chars }) => (
   <AbsoluteFill style={{ pointerEvents: 'none' }}>
     {chars.map((c, i) => {
-      if (c.y > 1.02) return null; // feet off-frame: no ground to shadow
+      if (c.y > 1.02 || c.shadow === false) return null; // feet off-frame: no ground to shadow
       const w = 520 * K * c.scale;
       const h = w * 0.16;
       return (

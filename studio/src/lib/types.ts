@@ -11,7 +11,8 @@ export type CharRef = {
   flip?: boolean;
   action?: string;
   variant?: string;
-  speaking?: boolean; // flaps mouth during quoted narration
+  speaking?: boolean;
+  shadow?: boolean; // false = no contact shadow (a figure whose base is out of frame) // flaps mouth during quoted narration
   light?: string; // overrides the scene light for this character (Grade.tsx LIGHT)
 };
 

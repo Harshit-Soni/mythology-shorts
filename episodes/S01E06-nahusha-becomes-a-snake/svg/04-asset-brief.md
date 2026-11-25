@@ -26,3 +26,8 @@ Huge, spotted, turmeric-yellow, a wide mouth, **four fangs**, blazing red eyes. 
 ## Checks done
 - Every asset rendered alone, then all 31 shots as stills; thumbnails EN + HI.
 - **Fixed in review:** the throne's pointed arch → round (architecture rule); necklace outlines left on the humble look; coils folding at their ends → redrawn as round strokes; a squared-off snake head; the neck ending in mid-air; the foot not touching the hair; a tiny rider; Indra's stray foot; a cartoon X eye on the dead snake; the eye, foot and fall made full frame; Shachi's close-ups raised; thumbnail moved from Bhima to the snake.
+
+## Added for v2 (script v2)
+- **`nahusha-snake`** (character: rearing, bowed): the snake as a speaking rig, so its mouth moves when it talks. Tall canvas (1000×2800, baseline 1550): the neck runs off the frame. Use `shadow: false` when its base is inside the frame. It replaces the `snake-head` prop everywhere in v2 (that prop has a visible seam at the neck).
+- **`agastya` / rebuking**: stern, one finger raised. **`nahusha-pleading`** (prop): half snake, uncrowned, palms joined.
+- Fixed in review: the neck clipped at the canvas edge; a stub of tail above the sash; Agastya's finger out of frame.

@@ -59,6 +59,7 @@ embers = lambda n=20: {'type': 'embers', 'n': n}
 stars = lambda n=30: {'type': 'stars', 'n': n}
 rays = lambda x, y, c='#FFE6B0': {'type': 'rays', 'x': x, 'y': y, 'color': c}
 glow = lambda x, y, r, c: {'type': 'glow', 'x': x, 'y': y, 'r': r, 'color': c, 'pulse': True}
+SN = lambda x, y, sc: C('nahusha-snake', 'rearing', x, y, sc, shadow=False)  # the snake, listening
 card = dict(overlay='folk-art-border', type='prop-hero')
 
 scenes = [sting,
@@ -96,7 +97,7 @@ scenes = [sting,
  # 6 the palanquin, the rebuke, the foot
  S('s06', 6, SK, variant='dusk', light='dusk', narr=N(6), type='prop-hero', fx=[stars(30)], props=[P('palanquin-carried', 0.5, 0.52, 1.12, 'idle')], cam=zoom(0.0, 0.04, move='slow-pan-right'),
    cues=[cut('sages', 'ऋषियों', 's06b'), cut('set', 'अगस्त्य', 's06c')], sfx=[snd('drum-hit', at=0.2, vol=0.5)], music=1.1, notes='Four sages carry him along the sky road. CE 5.15.20-21, 5.17.8.'),
- S('s06b', 6, SK, variant='dusk', light='dusk', chars=[C('agastya', 'rebuking', 0.46, 1.5, 2.6, flip=True, action='still', expression='stern')], cam=zoom(1.0, 1.06, [0.5, 0.36]), text=tag('Agastya', 'अगस्त्य', 'a great sage', 'महान ऋषि'),
+ S('s06b', 6, SK, variant='dusk', light='dusk', chars=[C('agastya', 'rebuking', 0.58, 1.22, 1.9, flip=True, action='still', expression='stern')], cam=zoom(1.0, 1.06, [0.5, 0.36]), text=tag('Agastya', 'अगस्त्य', 'a great sage', 'महान ऋषि'),
    music=0.7, transition='dissolve', notes='Close on the sage who speaks for them: stern, not yet furious. NEW pose: turned back to the palanquin, one finger raised. CE 5.17.10.'),
  S('s06c', 6, SK, variant='dusk', light='fire', type='prop-hero', props=[P('foot-on-head', 0.5, 0.5, 1.82, 'still')], cam=zoom(1.0, 1.1, [0.5, 0.5], 'push-in-fast'),
    sfx=[snd('drum-boom-deep', 'foot', 'पैर', vol=0.65)], music=0.5, transition='flash-white', notes='Close: a jewelled foot on that sage\'s matted hair. CE 5.17.11 (a touch, not a kick).'),
@@ -113,24 +114,24 @@ scenes = [sting,
  S('s08b', 8, SK, variant='night', light='moon', fx=[stars(30)], chars=[C('agastya', 'softening', 0.46, 1.48, 2.5, flip=True, action='still', expression='kind', speaking=True)], cam=zoom(1.0, 1.06, [0.5, 0.36]),
    sfx=[snd('temple-bells', 'free', 'मुक्त', vol=0.5)], music=0.6, transition='fade-to-night', notes='Close: his anger goes; he plants the way out. CE 3.176.19-21.'),
  # 9 Bhima
- S('s09', 9, GG, light='dawn', narr=N(9), fx=[{'type': 'fog', 'color': '#C9D6E0'}], chars=[C('bhima', 'held', 0.5, 0.84, 1.0, flip=True, action='still', expression='strain')],
-   props=[P('coils-back', 0.5, 0.835, 1.25, 'still'), P('coils-front', 0.5, 0.845, 1.25, 'still'), P('snake-head', 0.2, 0.7, 0.75, 'idle')], text=tag('Bhima', 'भीम', 'the strongest Pandava', 'सबसे बलवान पाण्डव'), cues=[cut('took', 'उनका', 's09b')],
+ S('s09', 9, GG, light='dawn', narr=N(9), fx=[{'type': 'fog', 'color': '#C9D6E0'}], chars=[C('bhima', 'held', 0.5, 0.84, 1.0, flip=True, action='still', expression='strain'), SN(0.195, 0.803, 0.9)],
+   props=[P('coils-back', 0.5, 0.835, 1.25, 'still'), P('coils-front', 0.5, 0.845, 1.25, 'still')], text=tag('Bhima', 'भीम', 'the strongest Pandava', 'सबसे बलवान पाण्डव'), cues=[cut('took', 'उनका', 's09b')],
    sfx=[snd('drum-boom-deep', 'seized', 'जकड़कर', vol=0.6)], cam=zoom(1.0, 1.06, [0.5, 0.55], 'shake-then-zoom'), notes='CE 3.175.16-21.'),
  S('s09b', 9, GG, light='dusk', chars=[C('bhima', 'held', 0.56, 1.46, 2.7, flip=True, action='still', expression='weak')], props=[P('strength-stream', 0.27, 0.475, 1.1, 'idle', light='none')], cam=zoom(1.0, 1.05, [0.5, 0.36]),
    sfx=[snd('glass-crack', at=0.1, vol=0.4)], music=0.6, transition='dissolve', notes='Close: the same light leaves him as left the god in s03b. CE 3.176.22.'),
  # 10 the question
- S('s10', 10, GG, variant='dusk', light='dusk', narr=N(10), chars=[C('bhima', 'held', 0.47, 0.84, 0.8, flip=True, action='still', expression='weak'), C('yudhishthira', 'arriving', 0.8, 0.85, 0.95, flip=True, action='step-forward', expression='alarmed')],
-   props=[P('coils-back', 0.47, 0.835, 1.0, 'still'), P('coils-front', 0.47, 0.845, 1.0, 'still'), P('snake-head', 0.16, 0.7, 0.75, 'idle')], text=tag('Yudhishthira', 'युधिष्ठिर', "Bhima's elder brother", 'भीम के बड़े भाई'),
+ S('s10', 10, GG, variant='dusk', light='dusk', narr=N(10), chars=[C('bhima', 'held', 0.47, 0.84, 0.8, flip=True, action='still', expression='weak'), C('yudhishthira', 'arriving', 0.8, 0.85, 0.95, flip=True, action='step-forward', expression='alarmed'), SN(0.155, 0.803, 0.9)],
+   props=[P('coils-back', 0.47, 0.835, 1.0, 'still'), P('coils-front', 0.47, 0.845, 1.0, 'still')], text=tag('Yudhishthira', 'युधिष्ठिर', "Bhima's elder brother", 'भीम के बड़े भाई'),
    cues=[cut('am', 'मैं', 's10b'), cut('Answer', 'उत्तर', 's10c'), cut('who', 'ब्राह्मण', 's10d')], sfx=[snd('gong-soft', at=0, vol=0.5)], music=0.7, notes='All three in one frame: snake, Bhima held, Yudhishthira arriving. CE 3.177.1-5.'),
  S('s10b', 10, GG, variant='dusk', light='dusk', chars=[C('nahusha-snake', 'rearing', 0.44, 1.04, 1.7, action='still', expression='weary', speaking=True)], cam=zoom(1.0, 1.06, [0.5, 0.4]), sfx=[snd('heartbeat', at=0, vol=0.5)], music=0.6, transition='dissolve',
    notes='NEW character: the snake as a speaking rig, so its mouth moves when it talks. CE 3.177.6.'),
- S('s10c', 10, GG, variant='dusk', light='dusk', chars=[C('bhima', 'held', 0.72, 0.84, 0.9, flip=True, action='still', expression='weak'), C('nahusha-snake', 'rearing', 0.26, 0.96, 0.85, action='still', expression='weary', speaking=True)],
+ S('s10c', 10, GG, variant='dusk', light='dusk', chars=[C('bhima', 'held', 0.72, 0.84, 0.9, flip=True, action='still', expression='weak'), C('nahusha-snake', 'rearing', 0.26, 0.76, 0.85, shadow=False, action='still', expression='weary', speaking=True)],
    props=[P('coils-back', 0.72, 0.835, 1.1, 'still'), P('coils-front', 0.72, 0.845, 1.1, 'still')], sfx=[snd('drum-hit', at=0, vol=0.4)], music=0.6, notes='The stake: Bhima, held, beside the great head. CE 3.177.12.'),
  S('s10d', 10, GG, variant='night', light='night', chars=[C('nahusha-snake', 'rearing', 0.42, 1.2, 2.3, action='still', expression='weary', speaking=True)], cam=zoom(1.0, 1.06, [0.5, 0.4]), sfx=[snd('drum-hit', at=0, vol=0.5)], music=0.5, transition='dissolve', notes='Closest: the question. CE 3.177.15.'),
  # 11 the answer
  S('s11', 11, GG, light='dawn', narr=N(11), fx=[dust(8)], chars=[C('yudhishthira', 'answering', 0.54, 1.44, 2.8, flip=True, action='still', expression='calm', speaking=True)], cam=zoom(1.0, 1.06, [0.5, 0.36]),
    cues=[cut("It's", 'ब्राह्मण', 's11b')], sfx=[snd('temple-bells', 'compassion', 'दया', vol=0.35)], music=0.6, notes='Close, quiet. CE 3.177.16.'),
- S('s11b', 11, GG, light='dawn', fx=[rays(0.7, 0.2)], chars=[C('yudhishthira', 'answering', 0.74, 0.84, 1.0, flip=True, expression='calm', speaking=True)], props=[P('snake-head', 0.26, 0.74, 1.0, 'idle')], cam=zoom(1.0, 1.05),
+ S('s11b', 11, GG, light='dawn', fx=[rays(0.7, 0.2)], chars=[C('yudhishthira', 'answering', 0.74, 0.84, 1.0, flip=True, expression='calm', speaking=True), SN(0.253, 0.877, 1.2)], cam=zoom(1.0, 1.05),
    transition='dissolve', notes='Wide: the two face each other as equals. CE 3.177.20-21.'),
  # 12 why he fell
  S('s12', 12, GG, variant='dusk', light='dusk', narr=N(12), type='prop-hero', props=[P('snake-eye-throne', 0.5, 0.5, 1.0, 'still')], cam=zoom(1.0, 1.08, [0.5, 0.46]), cues=[cut('Power', 'वैभव', 's12b')], sfx=[snd('heartbeat', at=0.1, vol=0.4)], music=0.5,

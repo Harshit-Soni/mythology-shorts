@@ -34,11 +34,12 @@ Everything the renderer understands. If a storyboard needs something not listed 
 | `notes` | for humans; not rendered |
 
 ## Character
-`{ id, pose, expression?, x, y, scale, flip, action, variant?, speaking? }`
+`{ id, pose, expression?, x, y, scale, flip, action, variant?, speaking?, shadow? }`
 - **`x`,`y` = where the feet / base touch the ground** (0–1 of the frame). `scale 1` = the 1000×1600 canvas drawn 1000 px tall (a standing adult is ~870 px).
 - Put `y` on the background's ground line. Measure it once per background with a grid render and note it in `assets/backgrounds/GROUND_LINES.md`.
 - The pose file is `assets/characters/<id>/<pose>__<expression>.svg`, falling back to `<pose>.svg`.
 - **`flip: true`** mirrors the character, and movement (`walk-left`, `run-in-hide`) then goes the way it faces. Check that the face points at whoever the character is interacting with (see the ear rule in `STYLE_GUIDE.md`).
+- `shadow: false`: no contact shadow (a figure whose base is out of frame).
 - `speaking: true`: the mouth moves during quoted words. Eyes blink automatically.
 - `variant: "b"`: a darker colourway of the same puppet (e.g. a second thief).
 

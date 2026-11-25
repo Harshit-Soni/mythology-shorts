@@ -3,6 +3,7 @@
 The snake follows the text (CE 3.175.13-14): huge, spotted, turmeric-yellow, red-eyed, four-fanged. No hood.
 Run from the repo root (after make-cast.py):  python3 episodes/S01E06-nahusha-becomes-a-snake/svg/make-props.py [out_dir]
 """
+import json
 import copy
 import importlib.util
 import math
@@ -284,6 +285,52 @@ def falling():
     write('nahusha-falling', b, 'Nahusha falling head down, his legs already a snake, his crown coming off.')
 
 
+def pleading():
+    body = rig('nahusha/humble.svg', 'translate(396 486) rotate(-20) scale(0.56) translate(-505 -800)', drop=('crown', 'dhoti', 'leg-far', 'leg-near', 'rear-drape', 'uttariya'))
+    tail = snake(curve([(400, 500), (408, 550), (404, 620), (430, 700), (520, 742), (620, 700), (644, 610), (590, 548), (530, 570)]), 124, lambda t: 1 - .95 * t)
+    sash = f'<g transform="translate(398 496) rotate(-18)"><path d="M-78 -24 Q0 -6 78 -24 L72 30 Q0 50 -72 30Z" fill="#5E3A9E" stroke="{INK}" stroke-width="5" /><path d="M-72 16 Q0 36 72 16" stroke="{GOLD}" stroke-width="8" /></g>'
+    b = glow_rings(400, 400, 340, '#B5506E', 3, .06) + ''.join(f'<path d="M{x} {y} l0 -{l}" stroke="#E3D3F0" stroke-width="5" opacity="0.5" />' for x, y, l in ((90, 300, 130), (190, 640, 110), (690, 330, 150), (740, 560, 110), (120, 720, 90), (640, 160, 100))) + tail + body + sash
+    write('nahusha-pleading', b, 'Nahusha, half snake, uncrowned, palms joined, begging as he falls (CE 3.178.38-39).')
+
+
+def snake_character():
+    """The snake as a speaking rig: head, eyes and mouth groups (assets/characters/SPEC.md). The canvas is taller than 1600 so the neck runs off the frame."""
+    def face(x, y, s, rot, low):
+        lid = f'<path d="M42 -38 Q78 -70 114 -38 Q80 -30 42 -38Z" fill="{YEL}" stroke="{INK}" stroke-width="5" />' if low else ''
+        brow = f'<path d="M34 -64 Q78 -74 124 -34" stroke="{INK}" stroke-width="9" />' if low else f'<path d="M36 -56 Q80 -76 124 -44" stroke="{INK}" stroke-width="9" />'
+        up_fangs = f'<path d="M96 40 L106 78 L120 42Z M142 42 L152 74 L164 40Z" fill="#FFF8E9" stroke="{INK}" stroke-width="4" />'
+        jaw = f'<path d="M-130 20 Q-20 60 96 46 Q150 60 196 34 Q190 84 120 100 Q-10 118 -120 84 Q-168 60 -130 20Z" fill="{BELLY}" stroke="{INK}" stroke-width="6" />'
+        return (f'<g id="head" transform="translate({x} {y}) rotate({rot}) scale({s})">'
+                f'<g id="mouth-open" style="display:none"><path d="M170 60 Q236 84 276 72 M276 72 l32 -14 M276 72 l34 18" stroke="#B5243A" stroke-width="9" />'
+                f'<g transform="translate(-120 40) rotate(10) translate(120 -40)">{jaw}</g><path d="M-100 22 Q40 64 190 28 Q168 110 96 128 Q0 124 -100 44Z" fill="#8E2A34" stroke="{INK}" stroke-width="4" />'
+                f'<path d="M40 98 Q100 76 150 96 Q110 122 60 116Z" fill="#C9586A" /><path d="M96 122 L106 92 L118 122Z M130 112 L138 86 L148 106Z" fill="#FFF8E9" stroke="{INK}" stroke-width="4" />{up_fangs}</g>'
+                f'<g id="mouth-closed"><g transform="translate(0 -22)">{jaw}</g><path d="M100 44 L106 62 L116 45Z M146 42 L152 58 L161 41Z" fill="#FFF8E9" stroke="{INK}" stroke-width="3" /></g>'
+                f'<path d="M-130 -70 Q-20 -126 110 -84 Q196 -50 210 0 Q206 34 150 34 Q20 56 -126 36 Q-196 -20 -130 -70Z" fill="{YEL}" stroke="{INK}" stroke-width="6" />'
+                f'<path d="M-130 -58 Q-20 -106 104 -70 Q170 -44 190 -8" stroke="{YEL_L}" stroke-width="10" /><path d="M-120 12 Q20 40 150 22 Q196 18 204 2" stroke="{YEL_D}" stroke-width="9" />'
+                f'<path d="M-96 -44 Q-70 -78 -40 -50 Q-66 -22 -96 -44Z M-24 -70 Q6 -96 30 -66 Q4 -46 -24 -70Z M-80 -4 Q-58 -24 -36 -4 Q-58 12 -80 -4Z" fill="{SPOT}" stroke="{INK}" stroke-width="3" />'
+                f'<g id="eyes-open"><ellipse cx="78" cy="-32" rx="33" ry="26" fill="#C92B2B" stroke="{INK}" stroke-width="6" /><ellipse cx="80" cy="-32" rx="23" ry="18" fill="#F0563A" /><ellipse cx="82" cy="-32" rx="7" ry="19" fill="{INK}" /><circle cx="72" cy="-40" r="5" fill="#FFF" />{lid}</g>'
+                f'<g id="eyes-closed" style="display:none"><ellipse cx="78" cy="-32" rx="33" ry="26" fill="{YEL_D}" stroke="{INK}" stroke-width="5" /><path d="M46 -28 Q78 -10 110 -28" stroke="{INK}" stroke-width="6" /></g>'
+                f'{brow}<ellipse cx="184" cy="-14" rx="6" ry="4" fill="{INK}" /></g>')
+    out = 'assets/characters/nahusha-snake'
+    os.makedirs(out, exist_ok=True)
+    for pose, pts, hd, title in (
+            ('rearing', [(80, 2840), (150, 2340), (120, 1840), (60, 1340), (90, 900), (190, 640), (350, 500)], (450, 480, 1.5, 4, False), 'rearing, speaking, weary'),
+            ('bowed', [(80, 2840), (150, 2340), (120, 1840), (60, 1340), (90, 900), (200, 640), (360, 560)], (450, 590, 1.5, 22, True), 'head lowered, remorseful')):
+        pts = [(x + 80, y) for x, y in pts]
+        hd = (hd[0] + 80, *hd[1:])
+        body = snake(curve(pts, 26), 240, lambda t: 1.1 - .2 * t)
+        svg = (f'<svg xmlns="{SVG}" width="1000" height="2800" viewBox="0 0 1000 2800" fill="none" stroke-linecap="round" stroke-linejoin="round" data-character="nahusha-snake">'
+               f'<title>Nahusha as the great snake · {title}</title><desc>S01E06, made by episodes/S01E06-nahusha-becomes-a-snake/svg/make-props.py.</desc>{body}{face(*hd)}</svg>')
+        ET.fromstring(svg)
+        open(f'{out}/{pose}.svg', 'w').write(svg)
+        print('wrote', f'{out}/{pose}.svg')
+    json.dump({'id': 'nahusha-snake', 'name': {'en': 'Nahusha (the great snake)', 'hi': 'नहुष (साँप)'}, 'role': 'Nahusha after the curse', 'divine': False, 'appearsIn': ['S01E06'],
+               'look': 'Huge, spotted, turmeric-yellow, red-eyed, four fangs, no hood. Weary rather than fierce.', 'sourceNotes': 'CE 3.175.13-14.', 'poses': ['rearing', 'bowed'],
+               'files': {'rearing': 'rearing.svg', 'bowed': 'bowed.svg'}, 'facing': 'right',
+               'notes': 'A tall canvas (1000x2800, baseline still 1550): the neck runs off the bottom of the frame. The head is about 1070 canvas units above the baseline (bowed: 960).'},
+              open(f'{out}/character.json', 'w'), ensure_ascii=False, indent=2)
+
+
 def indra_lotus():
     b = glow_rings(400, 360, 360, '#FFE6A8', 5, .1)
     b += f'<path d="M400 640 Q386 720 400 800" stroke="{INK}" stroke-width="26" /><path d="M400 640 Q386 720 400 800" stroke="#4E7A4E" stroke-width="16" />'
@@ -313,4 +360,4 @@ def dead_snake_sage():
 
 
 if __name__ == '__main__':
-    great_snake(); coils(); snake_head(); eye(); eye(True); throne_icon(); palanquin_icon(); palanquin_carried(); foot_on_head(); strength_stream(); falling(); indra_lotus(); dead_snake_sage()
+    great_snake(); coils(); snake_head(); eye(); eye(True); throne_icon(); palanquin_icon(); palanquin_carried(); foot_on_head(); strength_stream(); falling(); pleading(); snake_character(); indra_lotus(); dead_snake_sage()

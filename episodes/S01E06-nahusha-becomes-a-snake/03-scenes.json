@@ -770,9 +770,9 @@
         {
           "id": "agastya",
           "pose": "rebuking",
-          "x": 0.46,
-          "y": 1.5,
-          "scale": 2.6,
+          "x": 0.58,
+          "y": 1.22,
+          "scale": 1.9,
           "flip": true,
           "action": "still",
           "expression": "stern"
@@ -1131,6 +1131,16 @@
           "flip": true,
           "action": "still",
           "expression": "strain"
+        },
+        {
+          "id": "nahusha-snake",
+          "pose": "rearing",
+          "x": 0.195,
+          "y": 0.803,
+          "scale": 0.9,
+          "flip": false,
+          "action": "breathe",
+          "shadow": false
         }
       ],
       "props": [
@@ -1147,13 +1157,6 @@
           "y": 0.845,
           "scale": 1.25,
           "action": "still"
-        },
-        {
-          "id": "snake-head",
-          "x": 0.2,
-          "y": 0.7,
-          "scale": 0.75,
-          "action": "idle"
         }
       ],
       "camera": {
@@ -1285,6 +1288,16 @@
           "flip": true,
           "action": "step-forward",
           "expression": "alarmed"
+        },
+        {
+          "id": "nahusha-snake",
+          "pose": "rearing",
+          "x": 0.155,
+          "y": 0.803,
+          "scale": 0.9,
+          "flip": false,
+          "action": "breathe",
+          "shadow": false
         }
       ],
       "props": [
@@ -1301,13 +1314,6 @@
           "y": 0.845,
           "scale": 1.0,
           "action": "still"
-        },
-        {
-          "id": "snake-head",
-          "x": 0.16,
-          "y": 0.7,
-          "scale": 0.75,
-          "action": "idle"
         }
       ],
       "camera": {
@@ -1436,10 +1442,11 @@
           "id": "nahusha-snake",
           "pose": "rearing",
           "x": 0.26,
-          "y": 0.96,
+          "y": 0.76,
           "scale": 0.85,
           "flip": false,
           "action": "still",
+          "shadow": false,
           "expression": "weary",
           "speaking": true
         }
@@ -1620,17 +1627,19 @@
           "action": "breathe",
           "expression": "calm",
           "speaking": true
-        }
-      ],
-      "props": [
+        },
         {
-          "id": "snake-head",
-          "x": 0.26,
-          "y": 0.74,
-          "scale": 1.0,
-          "action": "idle"
+          "id": "nahusha-snake",
+          "pose": "rearing",
+          "x": 0.253,
+          "y": 0.877,
+          "scale": 1.2,
+          "flip": false,
+          "action": "breathe",
+          "shadow": false
         }
       ],
+      "props": [],
       "camera": {
         "move": "slow-zoom-in",
         "from": 1.0,
@@ -2052,9 +2061,9 @@
       },
       {
         "id": "agastya",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "rebuking": "new",
+          "rebuking": "library",
           "cursing": "library",
           "softening": "library"
         }
@@ -2068,19 +2077,19 @@
         }
       },
       {
+        "id": "nahusha-snake",
+        "status": "library",
+        "poses": {
+          "rearing": "library",
+          "bowed": "library"
+        }
+      },
+      {
         "id": "yudhishthira",
         "status": "library",
         "poses": {
           "arriving": "library",
           "answering": "library"
-        }
-      },
-      {
-        "id": "nahusha-snake",
-        "status": "new",
-        "poses": {
-          "rearing": "new",
-          "bowed": "new"
         }
       }
     ],
@@ -2133,7 +2142,7 @@
       },
       {
         "id": "nahusha-pleading",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "coils-back",
@@ -2141,10 +2150,6 @@
       },
       {
         "id": "coils-front",
-        "status": "library"
-      },
-      {
-        "id": "snake-head",
         "status": "library"
       },
       {

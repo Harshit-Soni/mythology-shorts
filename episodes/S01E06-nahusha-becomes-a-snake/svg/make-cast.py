@@ -155,6 +155,24 @@ def agastya():
         b.remove(ch)
     b.extend(frag('<path d="M511 163 Q533 160 557 151 L559 157 Q535 168 515 170Z" fill="#5C4A40" /><path d="M583 152 L595 158 L595 164 L584 158Z" fill="#5C4A40" />'))
     save(t, 'agastya', 'softening', 'Agastya · his anger gone, a palm raised in blessing')
+    t, r = K.sage(K.CALM, BARK, A_HAIR, A_SKIN); F.m_arms(r, far=(-34, -112, 0), near=(16, -10, 0)); pointing(r, 'hand-far', A_SKIN)
+    b = group(r, 'brows')
+    for ch in list(b):
+        b.remove(ch)
+    b.extend(frag('<path d="M509 150 Q533 154 560 170 L556 178 Q530 166 508 162Z" fill="#5C4A40" /><path d="M580 172 L598 158 L600 166 L584 179Z" fill="#5C4A40" />'))
+    save(t, 'agastya', 'rebuking', 'Agastya · rebuking the king, one finger raised, stern')
+
+
+def pointing(r, hand, skin):
+    """One finger raised: the open palm's hand redrawn as a fist with the index finger up (the hand hangs along +y)."""
+    Wm.palm(r, hand, skin)
+    h = group(r, hand)
+    for ch in list(h):
+        h.remove(ch)
+    a, b, _ = skin
+    h.extend(frag(f'<path d="M-13 60 Q-16 128 -8 140 Q2 148 8 138 Q14 110 13 60Z" fill="{a}" stroke="{INK}" stroke-width="3" />'
+                  f'<path d="M-26 -6 Q-36 40 -28 74 Q0 96 34 78 Q46 40 28 -6Z" fill="{a}" stroke="{INK}" stroke-width="3" />'
+                  f'<path d="M2 76 Q4 60 2 46 M18 76 Q22 60 18 46" stroke="{b}" stroke-width="4" /><path d="M-30 30 Q-6 26 8 44 Q-4 58 -28 52Z" fill="{a}" stroke="{INK}" stroke-width="3" />'))
 
 
 # ---------- Bhima and Yudhishthira, in exile ----------
@@ -219,7 +237,7 @@ def character_json():
         'shachi': dict(name={'en': 'Shachi (Indrani)', 'hi': 'शची (इन्द्राणी)'}, role='Indra’s queen', divine=True, look='Turquoise and gold, a gold shawl, a tiara, a halo, a braid. Composed and resolute, never alluring.',
                        sourceNotes='CE 5.11–15.', poses=['standing-firm', 'speaking']),
         'agastya': dict(name={'en': 'Agastya', 'hi': 'अगस्त्य'}, role='The sage who curses Nahusha', divine=False, look='The sage rig in leaf-green bark cloth, brown hair with grey, darker skin.',
-                        sourceNotes='CE 5.17; 3.178.37–40.', poses=['cursing', 'softening']),
+                        sourceNotes='CE 5.17; 3.178.37–40.', poses=['cursing', 'softening', 'rebuking']),
         'bhima': dict(name={'en': 'Bhima', 'hi': 'भीम'}, role='The second Pandava, strongest of men', divine=False, look='Exile dress: topknot, no crown or gold, brown bark cloth, a green sash. Broad, with a moustache.',
                       sourceNotes='CE 3.175–176.', poses=['held', 'freed'], expressions=['weak']),
         'yudhishthira': dict(name={'en': 'Yudhishthira', 'hi': 'युधिष्ठिर'}, role='The eldest Pandava, king of dharma', divine=False, look='Exile dress: topknot, no crown or gold, pale cloth, a grey-blue sash. Fair and calm.',

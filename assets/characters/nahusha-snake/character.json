@@ -1,0 +1,24 @@
+{
+  "id": "nahusha-snake",
+  "name": {
+    "en": "Nahusha (the great snake)",
+    "hi": "नहुष (साँप)"
+  },
+  "role": "Nahusha after the curse",
+  "divine": false,
+  "appearsIn": [
+    "S01E06"
+  ],
+  "look": "Huge, spotted, turmeric-yellow, red-eyed, four fangs, no hood. Weary rather than fierce.",
+  "sourceNotes": "CE 3.175.13-14.",
+  "poses": [
+    "rearing",
+    "bowed"
+  ],
+  "files": {
+    "rearing": "rearing.svg",
+    "bowed": "bowed.svg"
+  },
+  "facing": "right",
+  "notes": "A tall canvas (1000x2800, baseline still 1550): the neck runs off the bottom of the frame. The head is about 1070 canvas units above the baseline (bowed: 960)."
+}
