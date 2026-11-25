@@ -293,7 +293,7 @@
           "volume": 0.25
         }
       ],
-      "transition": "flash-white",
+      "transition": "cut",
       "notes": "The story starts: the throne stands empty; a god offers it to a plain king. CE 5.10.46-5.11.3."
     },
     {
@@ -693,7 +693,7 @@
           "volume": 0.4
         }
       ],
-      "transition": "dissolve",
+      "transition": "cut",
       "notes": "Close: she says it. Strategy, not flirtation."
     },
     {
@@ -804,7 +804,7 @@
       "cues": [],
       "sfx": [],
       "music": 0.7,
-      "transition": "dissolve",
+      "transition": "flash-white",
       "notes": "Close on the sage who speaks for them: stern, not yet furious. NEW pose: turned back to the palanquin, one finger raised. CE 5.17.10."
     },
     {
@@ -1750,7 +1750,7 @@
       "cues": [],
       "sfx": [],
       "music": 0.5,
-      "transition": "dissolve",
+      "transition": "flash-white",
       "notes": "NEW pose: the head lowered, the eye half closed. He says it himself. CE 3.178.30-31."
     },
     {
@@ -1838,7 +1838,7 @@
           "offset": 0
         }
       ],
-      "transition": "flash-white",
+      "transition": "dissolve",
       "notes": "The coils turn to light; Bhima is free. CE 3.178.44-45."
     },
     {

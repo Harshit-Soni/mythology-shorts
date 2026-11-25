@@ -65,6 +65,8 @@ Lessons from making and publishing episodes. One line per lesson, with the episo
 - Before voicing, read the script as someone who knows nothing: each event needs a *stated* reason, each quote a named speaker, and the ending must pay off something said earlier. E06 v1 passed every fact check and still lost the viewer after the curse. (S01E06)
 - Put the way out inside the curse, so the second half is a promise being kept. (S01E06)
 
+- A creature that speaks is a character with mouth groups, not a prop: the moving mouth tells the viewer whose line it is. A scene's `transition` plays on its way **out**. (S01E06)
+
 ## Hooks
 - *(none yet: fill in after the first published episodes)*
 
