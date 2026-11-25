@@ -55,7 +55,7 @@
 ## Status
 - [ ] 1 Research (verified by me)
 - [ ] 2 Script (read aloud, EN + HI)
-- [x] 3 Storyboard (38 shots, 2026-11-25)
+- [ ] 3 Storyboard (v1 in review/; redo from script v2)
 - [ ] 4 Assets
 - [ ] 5 Voice
 - [ ] 6 Render (watched on phone, sound on + off)

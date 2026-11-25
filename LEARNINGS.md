@@ -63,6 +63,7 @@ Lessons from making and publishing episodes. One line per lesson, with the episo
 - Someone held or attacked faces the attacker, and the power leaving them flows *to* whoever takes it. (S01E06)
 
 - Before voicing, read the script as someone who knows nothing: each event needs a *stated* reason, each quote a named speaker, and the ending must pay off something said earlier. E06 v1 passed every fact check and still lost the viewer after the curse. (S01E06)
+- Passing a first-time-viewer table isn't the same as being clear: E08 v1 had an answer for every row, but in cryptic, clever lines. Use plain sentences a twelve-year-old follows; say who fought whom and whose side each person is on; one blame, one curse said in plain parts, ticked off in the same order. (S01E08 v1, owner feedback)
 - Put the way out inside the curse, so the second half is a promise being kept. (S01E06)
 
 - A creature that speaks is a character with mouth groups, not a prop: the moving mouth tells the viewer whose line it is. A scene's `transition` plays on its way **out**. (S01E06)
