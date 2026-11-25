@@ -15,7 +15,7 @@ export type CharRef = {
   light?: string; // overrides the scene light for this character (Grade.tsx LIGHT)
 };
 
-export type PropRef = { id: string; x: number; y: number; scale: number; action?: string; light?: string };
+export type PropRef = { id: string; x: number; y: number; scale: number; action?: string; light?: string; ground?: number };
 
 export type Cue = { onWord: L10n; nth?: { en?: number; hi?: number }; do: string; target?: string; notes?: string };
 

@@ -62,6 +62,7 @@ def sunk_wheel():
     body += (f'<path d="M400 150 L770 122 Q800 220 776 332 L420 350Z" fill="#5E3A26" stroke="{INK}" stroke-width="6" /><path d="M404 170 L776 142 L782 176 L408 204Z" fill="{GOLD}" stroke="{INK}" stroke-width="4" />'
              + ''.join(f'<circle cx="{450 + k * 62}" cy="{262 - k * 4}" r="13" fill="{GOLD}" stroke="{INK}" stroke-width="3" />' for k in range(5)) + '</g>')
     body += wheel(390, 400, 282)
+    back, body = body, ''
     # earth: a torn lip over the bottom of the wheel, cracks running out
     edge = f'M10 {top + 96} L70 {top + 60} L130 {top + 66} L180 {top + 10} L240 {top + 30} L300 {top - 14} L352 {top + 22} L420 {top - 8} L470 {top + 24} L540 {top - 4} L600 {top + 34} L660 {top + 18} L720 {top + 68} L790 {top + 96}'
     body += f'<path d="{edge} Q700 {top + 190} 400 {top + 200} Q100 {top + 190} 10 {top + 96}Z" fill="#8E4A34" stroke="{INK}" stroke-width="6" />'
@@ -75,7 +76,9 @@ def sunk_wheel():
         body += f'<path d="{d}" stroke="#3E1C16" stroke-width="8" /><path d="{d}" stroke="#E07A2E" stroke-width="2.5" opacity="0.7" />'
     for x, y, r in ((110, top + 8, 26), (250, top - 4, 20), (640, top - 8, 24), (716, top + 14, 16), (480, top - 20, 16)):
         body += f'<path d="M{x - r} {y + r * .5:.0f} L{x - r * .6:.0f} {y - r * .7:.0f} L{x + r * .5:.0f} {y - r * .8:.0f} L{x + r} {y + r * .4:.0f} L{x} {y + r * .8:.0f}Z" fill="#B8694A" stroke="{INK}" stroke-width="4" />'
-    write('sunk-wheel', body,
+    write('sunk-wheel-back', back, 'the wheel and chariot corner alone (sinks behind sunk-wheel-earth).')
+    write('sunk-wheel-earth', body, 'the torn, cracked earth alone (in front of sunk-wheel-back).')
+    write('sunk-wheel', back + body,
           "Karna's chariot wheel, its lower part swallowed by cracked red earth.")
 
 
@@ -176,14 +179,15 @@ def worm_on_thigh():
 
 # 6. the Brahmin's words as a vision: a wheel of light, sinking
 def wheel_light():
-    b = glow_rings(400, 380, 380, '#F2A03E', 4, 0.09)
-    g = ''.join(f'<circle cx="400" cy="380" r="{r}" fill="none" stroke="{c}" stroke-width="{w}" opacity="{o}" />' for r, c, w, o in ((250, '#F2A03E', 34, .35), (250, '#FFE6A8', 12, 1), (216, '#FFE6A8', 5, .9), (52, '#FFE6A8', 10, 1)))
+    cy = 430
+    g = ''.join(f'<circle cx="400" cy="{cy}" r="{r}" fill="none" stroke="{c}" stroke-width="{w}" opacity="{o}" />' for r, c, w, o in ((250, '#F2A03E', 34, .35), (250, '#FFE6A8', 12, 1), (216, '#FFE6A8', 5, .9), (52, '#FFE6A8', 10, 1)))
     for i in range(12):
-        x1, y1 = pol(400, 380, 52, i * 30 + 6); x2, y2 = pol(400, 380, 216, i * 30 + 6)
+        x1, y1 = pol(400, cy, 52, i * 30 + 6); x2, y2 = pol(400, cy, 216, i * 30 + 6)
         g += f'<path d="M{x1:.0f} {y1:.0f} L{x2:.0f} {y2:.0f}" stroke="#F2A03E" stroke-width="20" opacity="0.3" /><path d="M{x1:.0f} {y1:.0f} L{x2:.0f} {y2:.0f}" stroke="#FFE6A8" stroke-width="7" />'
-    b += f'<defs><clipPath id="wl"><rect x="0" y="0" width="800" height="520" /></clipPath></defs><g clip-path="url(#wl)">{g}</g>'
+    write('wheel-light', g, 'the curse as a vision: a chariot wheel drawn in light (use action "sink", ground 0.65, over wheel-light-ground).')
+    b = glow_rings(400, 420, 380, '#F2A03E', 4, 0.09)
     b += '<path d="M70 524 L150 508 L220 530 L300 506 L370 526 L450 504 L530 528 L610 508 L730 526" stroke="#FFE6A8" stroke-width="10" /><path d="M200 530 l-30 60 l22 46 M400 520 l14 70 l-22 60 M600 520 l34 56 l-16 60" stroke="#F2A03E" stroke-width="7" opacity="0.9" />'
-    write('wheel-light', b, "the curse as a vision: a chariot wheel drawn in light, half sunk below a cracking line of earth.")
+    write('wheel-light-ground', b, 'the cracking line of light the wheel of light sinks into.')
 
 
 # 7. the weapon that doesn't come: the astra ring, dark and cracked

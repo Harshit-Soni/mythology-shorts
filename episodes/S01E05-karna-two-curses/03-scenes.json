@@ -120,9 +120,17 @@
       "characters": [],
       "props": [
         {
-          "id": "sunk-wheel",
+          "id": "sunk-wheel-back",
           "x": 0.5,
           "y": 0.5,
+          "scale": 1.5,
+          "action": "sink",
+          "ground": 0.89
+        },
+        {
+          "id": "sunk-wheel-earth",
+          "x": 0.5,
+          "y": 0.501,
           "scale": 1.5,
           "action": "still"
         }
@@ -155,7 +163,7 @@
         {
           "id": "drum-boom-deep",
           "at": 0,
-          "volume": 0.8
+          "volume": 0.65
         },
         {
           "id": "battle-distant",
@@ -703,10 +711,10 @@
       "props": [
         {
           "id": "glowing-arrow",
-          "x": 0.48,
+          "x": 0.4,
           "y": 0.5,
           "scale": 0.55,
-          "action": "glint"
+          "action": "fly-right"
         },
         {
           "id": "homa-cow",
@@ -727,6 +735,14 @@
       },
       "onScreenText": null,
       "cues": [
+        {
+          "onWord": {
+            "en": "killed",
+            "hi": "अनजाने"
+          },
+          "do": "fly",
+          "target": "glowing-arrow"
+        },
         {
           "onWord": {
             "en": "accident",
@@ -916,9 +932,9 @@
       "fx": [
         {
           "type": "glow",
-          "x": 0.62,
-          "y": 0.62,
-          "r": 0.3,
+          "x": 0.48,
+          "y": 0.58,
+          "r": 0.28,
           "color": "#E07A2E",
           "pulse": true
         }
@@ -926,28 +942,47 @@
       "characters": [
         {
           "id": "karna",
-          "pose": "kneeling-pleading",
-          "x": 0.25,
+          "pose": "bowed",
+          "x": 0.2,
           "y": 0.84,
-          "scale": 1.15,
+          "scale": 1.0,
           "flip": false,
           "action": "still",
-          "expression": "stricken"
+          "expression": "ashamed"
+        },
+        {
+          "id": "homa-brahmin",
+          "pose": "cursing",
+          "x": 0.8,
+          "y": 0.84,
+          "scale": 0.9,
+          "flip": true,
+          "action": "raise-hand",
+          "expression": "furious",
+          "speaking": true
         }
       ],
       "props": [
         {
+          "id": "wheel-light-ground",
+          "x": 0.48,
+          "y": 0.55,
+          "scale": 0.85,
+          "action": "idle"
+        },
+        {
           "id": "wheel-light",
-          "x": 0.64,
-          "y": 0.56,
-          "scale": 1.05,
-          "action": "fall"
+          "x": 0.48,
+          "y": 0.551,
+          "scale": 0.85,
+          "action": "sink",
+          "ground": 0.65
         }
       ],
       "camera": {
         "move": "slow-zoom-in",
         "from": 1.0,
-        "to": 1.08,
+        "to": 1.05,
         "focus": [
           0.5,
           0.55
@@ -976,7 +1011,7 @@
         }
       ],
       "transition": "dissolve",
-      "notes": "His words as a vision: a wheel drawn in light sinks into the sand before the kneeling Karna."
+      "notes": "His words as a vision between them: a wheel drawn in light sinks into the sand; the Brahmin speaks, Karna is bowed."
     },
     {
       "id": "s07",
@@ -1603,7 +1638,7 @@
           "volume": 0.5
         }
       ],
-      "music": 1.2,
+      "music": 1.0,
       "transition": "cut",
       "notes": "The duel. CE 8.66."
     },
@@ -1627,9 +1662,17 @@
       "characters": [],
       "props": [
         {
-          "id": "sunk-wheel",
+          "id": "sunk-wheel-back",
           "x": 0.5,
           "y": 0.5,
+          "scale": 1.5,
+          "action": "sink",
+          "ground": 0.89
+        },
+        {
+          "id": "sunk-wheel-earth",
+          "x": 0.5,
+          "y": 0.501,
           "scale": 1.5,
           "action": "still"
         }
@@ -1653,7 +1696,7 @@
         {
           "id": "drum-boom-deep",
           "at": 0,
-          "volume": 0.9
+          "volume": 0.65
         }
       ],
       "transition": "cut",
@@ -1832,10 +1875,10 @@
       "props": [
         {
           "id": "glowing-arrow",
-          "x": 0.7,
-          "y": 0.5,
+          "x": 0.66,
+          "y": 0.59,
           "scale": 0.7,
-          "action": "glint"
+          "action": "fly-right"
         }
       ],
       "camera": {
@@ -1852,12 +1895,30 @@
         "hi": ""
       },
       "onScreenText": null,
-      "cues": [],
+      "cues": [
+        {
+          "onWord": {
+            "en": "arrow",
+            "hi": "बाण"
+          },
+          "do": "fly",
+          "target": "glowing-arrow"
+        }
+      ],
       "sfx": [
         {
+          "id": "bowstring-creak",
+          "at": 0,
+          "volume": 0.5
+        },
+        {
           "id": "arrow-whoosh-magic",
-          "at": 0.1,
-          "volume": 0.9
+          "onWord": {
+            "en": "arrow",
+            "hi": "बाण"
+          },
+          "volume": 0.85,
+          "offset": 0
         }
       ],
       "transition": "flash-white",
@@ -2117,8 +2178,8 @@
       "cues": [
         {
           "onWord": {
-            "en": "snake",
-            "hi": "साँप"
+            "en": "heaven",
+            "hi": "राजा"
           },
           "do": "stamp-next",
           "target": "shaap-stamp"
@@ -2128,10 +2189,10 @@
         {
           "id": "drum-hit",
           "onWord": {
-            "en": "snake",
-            "hi": "साँप"
+            "en": "heaven",
+            "hi": "राजा"
           },
-          "volume": 0.9,
+          "volume": 0.8,
           "offset": 0
         }
       ],
@@ -2152,9 +2213,9 @@
           "asking": "library",
           "student-bow": "library",
           "kneeling-pleading": "library",
+          "bowed": "library",
           "guru-on-lap": "library",
           "enduring": "library",
-          "bowed": "library",
           "drawing-bow": "library",
           "empty-hand": "library"
         }
@@ -2221,6 +2282,14 @@
     ],
     "props": [
       {
+        "id": "sunk-wheel-back",
+        "status": "library"
+      },
+      {
+        "id": "sunk-wheel-earth",
+        "status": "library"
+      },
+      {
         "id": "sunk-wheel",
         "status": "library"
       },
@@ -2242,6 +2311,10 @@
       },
       {
         "id": "cow-bell",
+        "status": "library"
+      },
+      {
+        "id": "wheel-light-ground",
         "status": "library"
       },
       {

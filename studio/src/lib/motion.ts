@@ -85,6 +85,10 @@ export function action(name: string | undefined, p: number, sec: number, seed: n
       return { ...s, rot: 2.5 * Math.sin(sec * 1.6 + seed) };
     case 'glint':
       return { ...s, scale: 0.8 + 0.4 * Math.abs(Math.sin(sec * 3)), opacity: 0.6 + 0.4 * Math.abs(Math.sin(sec * 3)) };
+    case 'fly-right': { // an arrow in flight: holds for a beat, then leaves the frame to the right
+      const q = interpolate(sec, [0.2, 0.75], [0, 1], { ...clamp, easing: Easing.in(Easing.quad) });
+      return { ...s, dx: 1.25 * q };
+    }
     case 'fall':
       return { ...s, dy: 0.45 * p, dx: 0.04 * Math.sin(sec * 2.5), rot: 40 * Math.sin(sec * 2) };
     case 'circle':

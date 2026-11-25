@@ -17,7 +17,8 @@ export type PropReaction = { kind: string; t: number } | null; // t = seconds si
 type Props = { prop: PropRef; sec: number; p: number; fps: number; reaction: PropReaction; hasCue: boolean; debug: boolean; filter?: string };
 
 export const Prop: React.FC<Props> = ({ prop, sec, p, fps, reaction, hasCue, debug, filter }) => {
-  const a = action(prop.action, p, sec, hash(prop.id) % 5);
+  // an arrow with a cue waits for it; otherwise it flies at the scene's start
+  const a = action(prop.action, p, prop.action === 'fly-right' && hasCue ? (reaction?.t ?? 0) : sec, hash(prop.id) % 5);
   const file = MANIFEST.props[prop.id] ?? MANIFEST.overlays[prop.id];
   let rot = a.rot;
   let scale = a.scale;
@@ -42,11 +43,22 @@ export const Prop: React.FC<Props> = ({ prop, sec, p, fps, reaction, hasCue, deb
     if (reaction.kind === 'pierce') dy += -0.01 * Math.sin(Math.min(1, reaction.t * 4) * Math.PI);
   }
 
+  // 'sink': the prop settles from 14% of its height above its final place, hidden below `ground` (0-1 of its own height)
+  let clipPath: string | undefined;
+  if (prop.action === 'sink') {
+    const d = -0.14 * (1 - interpolate(p, [0.08, 0.85], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.inOut(Easing.quad) }));
+    const ph = (file?.h ?? 800) * P * prop.scale;
+    dy += (d * ph) / H;
+    clipPath = `inset(0 0 ${((1 - (prop.ground ?? 1) + d) * 100).toFixed(2)}% 0)`;
+    if (1 - (prop.ground ?? 1) + d < 0) clipPath = undefined;
+    rot += d * 14;
+  }
+
   const cx = (prop.x + a.dx) * W;
   const cy = (prop.y + dy) * H;
   const style = (w: number, h: number): React.CSSProperties => ({
     position: 'absolute', left: cx - w / 2, top: cy - h / 2, width: w, height: h,
-    transform: `rotate(${rot}deg) scale(${scale})`, opacity, filter,
+    transform: `rotate(${rot}deg) scale(${scale})`, opacity, filter, clipPath,
   });
 
   if (file) {
