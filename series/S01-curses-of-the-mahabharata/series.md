@@ -20,7 +20,7 @@
 | E04 | **Amba's vow against Bhishma**: Shikhandi | "Bhishma couldn't be killed, except by her." | Udyoga Parva | Strong episode; may need two parts | Uploaded (v2: EN 74 s, HI 80 s); links to add in INDEX |
 | E05 | **Karna's curses**: Parashurama and the Brahmin's cow | "Karna was doomed twice before the war even began." | Shanti Parva | The Bhudevi curse is from later retellings, so flag it as such | Videos + kit ready (EN 81 s, HI 93 s); needs phone check + research check; suggested Thu 3 / Fri 4 Dec |
 | E06 | **Agastya curses Nahusha**: a king of the gods becomes a snake | "The gods once made a human their king." (say "touched with his foot", not "kicked": see E06 research) | Udyoga / Vana Parva | | Ready to publish v2 25 Nov (don't post v1; research needs verify) |
-| E07 | **Shringi curses Parikshit**: Takshaka | "A dead snake around a sage's neck killed a king." | Adi Parva | | Planned |
+| E07 | **Shringi curses Parikshit**: Takshaka | "A dead snake around a sage's neck killed a king." | Adi Parva | | Started 25 Nov (idea) |
 | E08 | **Gandhari curses Krishna**: the end of the Yadavas | "A mother's grief cursed God himself." | Stri Parva | Series finale | Planned |
 
 ## Full curse catalogue
