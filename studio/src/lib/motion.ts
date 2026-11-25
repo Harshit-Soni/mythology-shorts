@@ -97,6 +97,8 @@ export function action(name: string | undefined, p: number, sec: number, seed: n
       return { ...s, opacity: 0.75 + 0.25 * Math.sin(sec * 17 + seed) };
     case 'descend':
       return { ...s, dy: interpolate(p, [0, 0.5], [-0.5, 0], { ...clamp, easing: Easing.out(Easing.cubic) }) };
+    case 'slide-right': // a thing carried steadily to the right through the scene
+      return { ...s, dx: 0.16 * smooth(p) };
     case 'plunge': // enters from above and keeps falling away, smaller and smaller, to the end of the scene
       return { ...s, dy: interpolate(p, [0, 0.2, 1], [-0.5, -0.14, 0.2], clamp), dx: 0.015 * Math.sin(sec * 2.2), rot: -8 + 20 * p, scale: 1 - 0.3 * p };
     case 'ascend':

@@ -145,11 +145,14 @@
       "cues": [
         {
           "onWord": {
-            "en": "shut",
+            "en": "He",
             "hi": "हर"
           },
           "do": "hard-cut-to",
-          "target": "s01b"
+          "target": "s01b",
+          "nth": {
+            "en": 3
+          }
         },
         {
           "onWord": {
@@ -268,10 +271,10 @@
         {
           "id": "parikshit",
           "pose": "hunting",
-          "x": 0.3,
+          "x": 0.7,
           "y": 0.86,
           "scale": 1.0,
-          "flip": false,
+          "flip": true,
           "action": "step-forward",
           "expression": "tired"
         }
@@ -279,16 +282,16 @@
       "props": [
         {
           "id": "deer",
-          "x": 0.76,
-          "y": 0.72,
-          "scale": 0.6,
-          "action": "idle"
+          "x": 0.28,
+          "y": 0.64,
+          "scale": 0.55,
+          "action": "walk-left"
         }
       ],
       "camera": {
-        "move": "slow-pan-right",
-        "from": 0.0,
-        "to": 0.05
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.04
       },
       "narration": {
         "en": "In the Mahabharata, King Parikshit lost a deer he was hunting.",
@@ -335,10 +338,10 @@
         {
           "id": "parikshit",
           "pose": "hunting",
-          "x": 0.48,
+          "x": 0.52,
           "y": 1.35,
           "scale": 2.6,
-          "flip": false,
+          "flip": true,
           "action": "still",
           "expression": "tired"
         }
@@ -559,10 +562,10 @@
       "props": [
         {
           "id": "bow-dead-snake",
-          "x": 0.27,
+          "x": 0.2,
           "y": 0.6,
           "scale": 1.05,
-          "action": "still"
+          "action": "slide-right"
         }
       ],
       "camera": {
@@ -1470,8 +1473,8 @@
       "fx": [
         {
           "type": "glow",
-          "x": 0.5,
-          "y": 0.62,
+          "x": 0.72,
+          "y": 0.58,
           "r": 0.25,
           "color": "#E07A2E",
           "pulse": true
@@ -1481,11 +1484,11 @@
       "props": [],
       "camera": {
         "move": "slow-zoom-in",
-        "from": 1.0,
-        "to": 1.08,
+        "from": 1.4,
+        "to": 1.5,
         "focus": [
-          0.5,
-          0.45
+          0.8,
+          0.6
         ]
       },
       "narration": {
@@ -1691,9 +1694,9 @@
         {
           "id": "parikshit",
           "pose": "shocked",
-          "x": 0.5,
-          "y": 0.88,
-          "scale": 1.05,
+          "x": 0.54,
+          "y": 0.98,
+          "scale": 1.35,
           "flip": false,
           "action": "still",
           "expression": "shocked"
@@ -1701,9 +1704,9 @@
         {
           "id": "takshaka",
           "pose": "rearing",
-          "x": 0.17,
-          "y": 0.82,
-          "scale": 1.1,
+          "x": 0.15,
+          "y": 0.8,
+          "scale": 1.2,
           "flip": false,
           "action": "still",
           "shadow": false
@@ -1712,16 +1715,16 @@
       "props": [
         {
           "id": "takshaka-coils-back",
-          "x": 0.5,
-          "y": 0.86,
-          "scale": 1.3,
+          "x": 0.54,
+          "y": 0.955,
+          "scale": 1.67,
           "action": "still"
         },
         {
           "id": "takshaka-coils-front",
-          "x": 0.5,
-          "y": 0.895,
-          "scale": 1.3,
+          "x": 0.54,
+          "y": 0.995,
+          "scale": 1.67,
           "action": "still"
         }
       ],

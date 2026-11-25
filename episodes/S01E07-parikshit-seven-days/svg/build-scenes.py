@@ -65,14 +65,14 @@ card = dict(overlay='folk-art-border', type='prop-hero')
 scenes = [sting,
  # 1 hook: he knows; the tower; his own hand
  S('s01', 1, TR, light='dusk', narr=N(1), chars=[C('parikshit', 'waiting', 0.48, 1.35, 2.7, action='still', expression='grave')], cam=zoom(1.0, 1.06, [0.5, 0.36]),
-   text=tag('Parikshit', 'परीक्षित', 'king of Hastinapura', 'हस्तिनापुर के राजा'), cues=[cut('shut', 'हर', 's01b'), cut('Then', 'फिर', 's01c')], sfx=[snd('heartbeat', at=0.1, vol=0.5)], notes='Close: a good king who knows the day. CE 1.37.14.'),
+   text=tag('Parikshit', 'परीक्षित', 'king of Hastinapura', 'हस्तिनापुर के राजा'), cues=[cut('He', 'हर', 's01b', nth={'en': 3}), cut('Then', 'फिर', 's01c')], sfx=[snd('heartbeat', at=0.1, vol=0.5)], notes='Close: a good king who knows the day. CE 1.37.14.'),
  S('s01b', 1, PT, variant='dusk', light='dusk', type='prop-hero', fx=[embers(10)], cam=zoom(0.0, -0.05, move='crane-up'), sfx=[snd('drum-hit', at=0, vol=0.5)], notes='The house on one pillar. CE 1.38.28.'),
  S('s01c', 1, TR, variant='dusk', light='fire', chars=[C('parikshit', 'to-neck', 0.48, 1.35, 2.7, action='still', expression='laughing')], cam=zoom(1.0, 1.1, [0.5, 0.38], 'push-in-fast'), sfx=[snd('drum-boom-deep', at=0, vol=0.6)], transition='flash-white',
    notes='Hard cut: smiling, something tiny at his own neck. The end, shown first. CE 1.39.32.'),
  # 2 the deer
- S('s02', 2, FH, light='dawn', narr=N(2), fx=[dust(14)], chars=[C('parikshit', 'hunting', 0.3, 0.86, 1.0, action='step-forward', expression='tired')], props=[P('deer', 0.76, 0.72, 0.6, 'idle')], cam=zoom(0.0, 0.05, move='slow-pan-right'),
+ S('s02', 2, FH, light='dawn', narr=N(2), fx=[dust(14)], chars=[C('parikshit', 'hunting', 0.7, 0.86, 1.0, flip=True, action='step-forward', expression='tired')], props=[P('deer', 0.28, 0.64, 0.55, 'walk-left')], cam=zoom(1.0, 1.04),
    text=tag('Parikshit', 'परीक्षित', "Arjuna's grandson", 'अर्जुन के पौत्र'), cues=[cut('lost', 'हिरण', 's02b')], sfx=[snd('bowstring-creak', at=0.2, vol=0.35)], notes='A good hunter follows his wounded deer. CE 1.36.11-14.'),
- S('s02b', 2, FH, variant='dusk', light='dusk', chars=[C('parikshit', 'hunting', 0.48, 1.35, 2.6, action='still', expression='tired')], cam=zoom(1.0, 1.05, [0.5, 0.36]), sfx=[snd('wind-desolate', at=0, vol=0.3)], transition='dissolve', notes='Close: the deer is gone; he is spent.'),
+ S('s02b', 2, FH, variant='dusk', light='dusk', chars=[C('parikshit', 'hunting', 0.52, 1.35, 2.6, flip=True, action='still', expression='tired')], cam=zoom(1.0, 1.05, [0.5, 0.36]), sfx=[snd('wind-desolate', at=0, vol=0.3)], transition='dissolve', notes='Close: the deer is gone; he is spent.'),
  # 3 the silent sage
  S('s03', 3, HM, light='dawn', narr=N(3), fx=[dust(10)], chars=[C('shamika', 'seated-silent', 0.68, 0.8, 0.95, flip=True, action='still', expression='calm'), C('parikshit', 'asking', 0.25, 0.8, 0.95, expression='tired')],
    cues=[cut('who', 'मौन', 's03b')], sfx=[snd('wind-desolate', at=0, vol=0.25)], notes='He asks for his deer (not for water). CE 1.36.15-17.'),
@@ -80,7 +80,7 @@ scenes = [sting,
  # 4 the dead snake
  S('s04', 4, HM, light='fire', narr=N(4), chars=[C('parikshit', 'furious', 0.48, 1.35, 2.7, action='still', expression='furious')], cam=zoom(1.0, 1.08, [0.5, 0.36], 'push-in-fast'),
    cues=[cut('laid', 'ऋषि', 's04b')], sfx=[snd('drum-hit', at=0, vol=0.5)], notes='Close: the one bad moment.'),
- S('s04b', 4, HM, light='dusk', chars=[C('shamika', 'seated-silent', 0.68, 0.86, 1.6, flip=True, action='still', expression='calm')], props=[P('bow-dead-snake', 0.27, 0.6, 1.05, 'still')], cam=zoom(1.0, 1.06, [0.6, 0.45]),
+ S('s04b', 4, HM, light='dusk', chars=[C('shamika', 'seated-silent', 0.68, 0.86, 1.6, flip=True, action='still', expression='calm')], props=[P('bow-dead-snake', 0.2, 0.6, 1.05, 'slide-right')], cam=zoom(1.0, 1.06, [0.6, 0.45]),
    sfx=[snd('drum-boom-deep', 'snake', 'साँप', vol=0.6)], music=0.5, transition='dissolve', notes='The tip of his bow, the limp snake, the shoulder. The sage does not move. CE 1.36.18-19.'),
  # 5 the curse
  S('s05', 5, HM, variant='dusk', light='dusk', narr=N(5), chars=[C('shamika', 'with-snake', 0.5, 0.97, 2.4, shadow=False, flip=True, action='still', expression='calm')], cam=zoom(1.0, 1.05, [0.5, 0.4]),
@@ -112,13 +112,13 @@ scenes = [sting,
  S('s09b', 9, PC, props=[P('fruit-worm', 0.5, 0.46, 1.3, 'still')], cam=zoom(1.0, 1.08, [0.5, 0.46], 'push-in-fast'), sfx=[snd('drum-hit', at=0, vol=0.5)], notes='A copper speck with black eyes, in a fruit. CE 1.39.29.', **card),
  S('s09c', 9, PT, variant='dusk', light='dusk', type='prop-hero', props=[P('fruit-bearers', 0.5, 0.72, 1.1, 'idle')], cam=zoom(1.0, 1.05), sfx=[snd('heartbeat', at=0, vol=0.4)], notes='Ascetics with fruit; their shadows are snakes. CE 1.39.23-25.'),
  # 10 the laugh
- S('s10', 10, PT, variant='dusk', light='dusk', narr=N(10), type='prop-hero', fx=[glow(0.5, 0.62, 0.25, FIRE)], cam=zoom(1.0, 1.08, [0.5, 0.45]), cues=[cut('setting', 'राजा', 's10b'), cut('Let', 'ये', 's10c')], sfx=[snd('gong-soft', at=0, vol=0.5)], music=0.6, notes='The last sunset behind the tower.'),
+ S('s10', 10, PT, variant='dusk', light='dusk', narr=N(10), type='prop-hero', fx=[glow(0.72, 0.58, 0.25, FIRE)], cam=zoom(1.4, 1.5, [0.8, 0.6]), cues=[cut('setting', 'राजा', 's10b'), cut('Let', 'ये', 's10c')], sfx=[snd('gong-soft', at=0, vol=0.5)], music=0.6, notes='The last sunset behind the tower.'),
  S('s10b', 10, TR, variant='dusk', light='fire', chars=[C('parikshit', 'laughing', 0.46, 1.35, 2.6, action='still', expression='laughing', speaking=True)], props=[], cam=zoom(1.0, 1.06, [0.5, 0.36]), transition='dissolve', notes='Relief: he thinks he has won. CE 1.39.30.'),
  S('s10c', 10, TR, variant='dusk', light='fire', chars=[C('parikshit', 'worm-raised', 0.42, 1.43, 2.6, action='still', expression='laughing', speaking=True)], cam=zoom(1.0, 1.08, [0.55, 0.36], 'push-in-fast'), sfx=[snd('heartbeat', 'curse', 'शाप', vol=0.6)], music=0.5, transition='dissolve',
    notes='The worm on his fingertip, at eye level. Thumbnail. CE 1.39.30-31.'),
  # 11 Takshaka
  S('s11', 11, TR, variant='dusk', light='fire', narr=N(11), chars=[C('parikshit', 'to-neck', 0.48, 1.35, 2.7, action='still', expression='laughing')], cam=zoom(1.0, 1.06, [0.5, 0.38]), cues=[cut('It', 'वो', 's11b', nth={'en': 2})], sfx=[snd('heartbeat', at=0, vol=0.6)], music=0.3, notes='The hook again. CE 1.39.32.'),
- S('s11b', 11, TR, variant='night', light='night', fx=[embers(16)], chars=[C('parikshit', 'shocked', 0.5, 0.88, 1.05, action='still', expression='shocked'), C('takshaka', 'rearing', 0.17, 0.82, 1.1, shadow=False, action='still')], props=[P('takshaka-coils-back', 0.5, 0.86, 1.3, 'still'), P('takshaka-coils-front', 0.5, 0.895, 1.3, 'still')], cam=zoom(1.0, 1.08, [0.5, 0.5], 'shake-then-zoom'),
+ S('s11b', 11, TR, variant='night', light='night', fx=[embers(16)], chars=[C('parikshit', 'shocked', 0.54, 0.98, 1.35, action='still', expression='shocked'), C('takshaka', 'rearing', 0.15, 0.8, 1.2, shadow=False, action='still')], props=[P('takshaka-coils-back', 0.54, 0.955, 1.67, 'still'), P('takshaka-coils-front', 0.54, 0.995, 1.67, 'still')], cam=zoom(1.0, 1.08, [0.5, 0.5], 'shake-then-zoom'),
    sfx=[snd('thunder-crack', at=0, vol=0.6)], music=1.2, transition='flash-white', notes='The coils close round him. No bite shown; the burning house (1.40.4) is left out. CE 1.39.33.'),
  # 12 the two snakes
  S('s12', 12, HM, variant='dusk', light='dusk', narr=N(12), type='prop-hero', props=[P('bow-dead-snake', 0.5, 0.65, 1.8, 'still')], cam=zoom(1.0, 1.06, [0.5, 0.46]), cues=[cut('living', 'ज़िंदा', 's12b')], music=0.5, sfx=[snd('temple-bells', at=0.1, vol=0.3)], notes='The same gesture, first...'),
