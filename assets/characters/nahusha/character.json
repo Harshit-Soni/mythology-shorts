@@ -1,0 +1,35 @@
+{
+  "id": "nahusha",
+  "name": {
+    "en": "Nahusha",
+    "hi": "नहुष"
+  },
+  "role": "The human king made lord of heaven; ancestor of the Pandavas",
+  "divine": false,
+  "look": "The king rig. Humble: plain cream cloth, grey sash, a small crown, no necklace. Proud: violet and gold, red sash, a tall crown, a halo (the glory he loses at the curse).",
+  "sourceNotes": "CE 5.11–17; 3.175–178.",
+  "poses": [
+    "seated-throne",
+    "humble",
+    "gaze"
+  ],
+  "expressions": [
+    "serene"
+  ],
+  "appearsIn": [
+    "S01E06"
+  ],
+  "files": {
+    "gaze": "gaze.svg",
+    "humble": "humble.svg",
+    "humble__serene": "humble__serene.svg",
+    "seated-throne": "seated-throne.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "seated-throne": "left",
+    "humble": "right",
+    "gaze": "right"
+  },
+  "notes": "Made in code by episodes/S01E06-nahusha-becomes-a-snake/svg/make-cast.py. Mirror with flip."
+}

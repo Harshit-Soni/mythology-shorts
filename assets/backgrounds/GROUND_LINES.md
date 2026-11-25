@@ -18,3 +18,6 @@ Where characters' feet (`y`) go on each background, as a fraction of the 9:16 fr
 | `yamuna-bank` | river across 0.62–0.80; near bank (sand) from ≈ 0.79; feet ≈ 0.84 (S01E04) |
 | `mahendra-ashram` | stone terrace from ≈ 0.76; fire altar at x 0.5, 0.71–0.76; feet ≈ 0.84 (seated/lying figures 0.80–0.83); hut x ≥ 0.6 at the back (S01E05) |
 | `sea-shore` | breakers ≈ 0.74–0.78; sand from ≈ 0.78; feet ≈ 0.84 (S01E05) |
+| `indra-sabha` | throne seat base: x 0.5, y 0.60, scale ≈ 0.9 (seated figure); floor from ≈ 0.78; feet ≈ 0.86 (S01E06) |
+| `heaven-sky` | no ground; cloud bank from ≈ 0.72. Figures in close-up, on the palanquin, or rising (S01E06) |
+| `himalaya-gorge` | ground from ≈ 0.76; feet ≈ 0.84; cave mouth at the left, x ≤ 0.28 (S01E06) |

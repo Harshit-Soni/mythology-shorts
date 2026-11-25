@@ -1,0 +1,28 @@
+{
+  "id": "yudhishthira",
+  "name": {
+    "en": "Yudhishthira",
+    "hi": "युधिष्ठिर"
+  },
+  "role": "The eldest Pandava, king of dharma",
+  "divine": false,
+  "look": "Exile dress: topknot, no crown or gold, pale cloth, a grey-blue sash. Fair and calm.",
+  "sourceNotes": "CE 3.177–178.",
+  "poses": [
+    "arriving",
+    "answering"
+  ],
+  "appearsIn": [
+    "S01E06"
+  ],
+  "files": {
+    "answering": "answering.svg",
+    "arriving": "arriving.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "arriving": "right",
+    "answering": "right"
+  },
+  "notes": "Made in code by episodes/S01E06-nahusha-becomes-a-snake/svg/make-cast.py. Mirror with flip."
+}

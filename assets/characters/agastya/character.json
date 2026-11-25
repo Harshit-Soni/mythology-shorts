@@ -1,0 +1,28 @@
+{
+  "id": "agastya",
+  "name": {
+    "en": "Agastya",
+    "hi": "अगस्त्य"
+  },
+  "role": "The sage who curses Nahusha",
+  "divine": false,
+  "look": "The sage rig in leaf-green bark cloth, brown hair with grey, darker skin.",
+  "sourceNotes": "CE 5.17; 3.178.37–40.",
+  "poses": [
+    "cursing",
+    "softening"
+  ],
+  "appearsIn": [
+    "S01E06"
+  ],
+  "files": {
+    "cursing": "cursing.svg",
+    "softening": "softening.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "cursing": "right",
+    "softening": "right"
+  },
+  "notes": "Made in code by episodes/S01E06-nahusha-becomes-a-snake/svg/make-cast.py. Mirror with flip."
+}

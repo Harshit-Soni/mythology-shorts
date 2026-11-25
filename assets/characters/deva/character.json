@@ -1,0 +1,28 @@
+{
+  "id": "deva",
+  "name": {
+    "en": "A god",
+    "hi": "एक देवता"
+  },
+  "role": "One of the gods of heaven (unnamed)",
+  "divine": true,
+  "look": "Fair gold skin, teal dhoti, crown, halo. Drained: greyed, halo faded.",
+  "sourceNotes": "CE 5.11.1–6.",
+  "poses": [
+    "offering",
+    "drained"
+  ],
+  "appearsIn": [
+    "S01E06"
+  ],
+  "files": {
+    "drained": "drained.svg",
+    "offering": "offering.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "offering": "right",
+    "drained": "right"
+  },
+  "notes": "Made in code by episodes/S01E06-nahusha-becomes-a-snake/svg/make-cast.py. Mirror with flip."
+}

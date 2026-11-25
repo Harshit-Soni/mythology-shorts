@@ -1,0 +1,32 @@
+{
+  "id": "bhima",
+  "name": {
+    "en": "Bhima",
+    "hi": "भीम"
+  },
+  "role": "The second Pandava, strongest of men",
+  "divine": false,
+  "look": "Exile dress: topknot, no crown or gold, brown bark cloth, a green sash. Broad, with a moustache.",
+  "sourceNotes": "CE 3.175–176.",
+  "poses": [
+    "held",
+    "freed"
+  ],
+  "expressions": [
+    "weak"
+  ],
+  "appearsIn": [
+    "S01E06"
+  ],
+  "files": {
+    "freed": "freed.svg",
+    "held": "held.svg",
+    "held__weak": "held__weak.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "held": "right",
+    "freed": "right"
+  },
+  "notes": "Made in code by episodes/S01E06-nahusha-becomes-a-snake/svg/make-cast.py. Mirror with flip."
+}

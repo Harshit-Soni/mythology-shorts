@@ -1,0 +1,28 @@
+{
+  "id": "shachi",
+  "name": {
+    "en": "Shachi (Indrani)",
+    "hi": "शची (इन्द्राणी)"
+  },
+  "role": "Indra’s queen",
+  "divine": true,
+  "look": "Turquoise and gold, a gold shawl, a tiara, a halo, a braid. Composed and resolute, never alluring.",
+  "sourceNotes": "CE 5.11–15.",
+  "poses": [
+    "standing-firm",
+    "speaking"
+  ],
+  "appearsIn": [
+    "S01E06"
+  ],
+  "files": {
+    "speaking": "speaking.svg",
+    "standing-firm": "standing-firm.svg"
+  },
+  "facing": "per pose, see facingByPose (ear rule)",
+  "facingByPose": {
+    "standing-firm": "right",
+    "speaking": "right"
+  },
+  "notes": "Made in code by episodes/S01E06-nahusha-becomes-a-snake/svg/make-cast.py. Mirror with flip."
+}
