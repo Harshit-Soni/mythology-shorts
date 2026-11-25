@@ -18,6 +18,7 @@
 - **The turn:** his answer, "as if slightly smiling" (11.25.43–45): no one but I can end the Yadavas; I know this already.
 - **The promise kept:** in the thirty-sixth year he sees the omens, remembers Gandhari's words, and "wishing to make them true" sends his people to the sea (16.3.18–21).
 - **The mirror:** her charge is *upekṣitāḥ*, "you looked on" (11.25.36–40). At Prabhasa, "knowing the turn of time", he doesn't hold them back (16.4.11) and stands leaning on the pestle as they fall (16.4.42). **But he isn't only a watcher:** he first runs in to stop it (16.4.28), and when his sons die he strikes too (16.4.35, 44).
+- **Found in research (the thread):** Krishna went as envoy so that no one could say *he was able, yet didn't stop them* (5.91.16). That is exactly Gandhari's charge (11.25.36–38), and Vyasa uses the same words at the end (16.9.26).
 - **The end:** lying in yoga, taken for a deer, hit in the sole; the hunter falls at his feet and Krishna comforts him, rising in light (16.5.19–21). A finale that ends on forgiveness.
 - **Length:** ≤ 170 words in each language (75–80 s). Fewer events, each with a stated reason.
 - **Clarity check before voicing:** who Gandhari is (blindfolded queen, mother of the hundred Kauravas), why Krishna could have stopped it, what the curse says, how each part comes true.
