@@ -3,7 +3,7 @@
 **Read on 2026-11-25:**
 - **Critical edition (CE):** the BORI Sanskrit e-text at [bombay.indology.info](https://bombay.indology.info/mahabharata/statement.html), [MBh 1](https://bombay.indology.info/mahabharata/text/UR/MBh01.txt): 1.36–40, 1.45–46, and parts of 1.1, 1.3, 1.47, 1.51, 1.53–54. The English of CE verses below is Claude's own working translation.
 - **Vulgate:** K. M. Ganguli on sacred-texts.com: Adi §40, §41, §42, §43 in full, §44 in part.
-- **Bhagavata Purana:** 1.17 (to verse 40), 1.18 (to verse 47), 1.19 (to verse 18) and the summary of 12.6, on vedabase.io; 12.6 (to verse 16) in G. V. Tagare's translation on wisdomlib. *Vedabase is a devotional (ISKCON) translation: rely on it for events, not wording.*
+- **Bhagavata Purana:** 1.17 (to verse 40), 1.18 (to verse 47), 1.19 (to verse 18) and the summary of 12.6, on vedabase.io ([1.17](https://vedabase.io/en/library/sb/1/17/), [1.18](https://vedabase.io/en/library/sb/1/18/), [1.19](https://vedabase.io/en/library/sb/1/19/)); 12.6 (to verse 16) in G. V. Tagare's translation on [wisdomlib](https://www.wisdomlib.org/hinduism/book/the-bhagavata-purana/d/doc1129010.html). *Vedabase is a devotional (ISKCON) translation: rely on it for events, not wording.*
 - **Not read:** Ganguli §45–58, the Devi Bhagavata, and any other Purana. Web searches were used only to see what people retell.
 
 **Headline:** the whole story is in the **critical edition**, and Ganguli matches it closely. But the version most viewers know, Shuka reciting the Bhagavata by the Ganga for seven days, is the **Bhagavata Purana's**, and it tells the seven days **in the opposite way**. Say "in the Mahabharata" once, early.
