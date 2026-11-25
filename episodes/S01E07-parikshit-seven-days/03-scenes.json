@@ -626,6 +626,14 @@
           },
           "do": "hard-cut-to",
           "target": "s04b"
+        },
+        {
+          "onWord": {
+            "en": "shoulder",
+            "hi": "कंधे"
+          },
+          "do": "hard-cut-to",
+          "target": "s04c"
         }
       ],
       "sfx": [
@@ -660,7 +668,7 @@
       "props": [
         {
           "id": "bow-dead-snake",
-          "x": 0.2,
+          "x": 0.27,
           "y": 0.6,
           "scale": 1.05,
           "action": "slide-right"
@@ -693,8 +701,54 @@
         }
       ],
       "music": 0.5,
-      "transition": "dissolve",
+      "transition": "cut",
       "notes": "The tip of his bow, the limp snake, the shoulder. CE 1.36.18-19."
+    },
+    {
+      "id": "s04c",
+      "beat": 4,
+      "type": "character",
+      "background": "hermitage",
+      "light": "dusk",
+      "fx": [],
+      "characters": [
+        {
+          "id": "shamika",
+          "pose": "with-snake",
+          "x": 0.68,
+          "y": 0.82,
+          "scale": 1.15,
+          "flip": true,
+          "action": "still",
+          "expression": "calm"
+        },
+        {
+          "id": "parikshit",
+          "pose": "hunting",
+          "x": 0.22,
+          "y": 0.82,
+          "scale": 1.0,
+          "flip": true,
+          "action": "walk-left",
+          "expression": "tired"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.03
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "music": 0.5,
+      "transition": "dissolve",
+      "notes": "The snake on his shoulder; the king walks away. CE 1.36.19-20."
     },
     {
       "id": "s05",
@@ -1152,9 +1206,16 @@
       "onScreenText": {
         "en": "Day 1",
         "hi": "पहला दिन",
-        "style": "name-tag"
+        "style": "plate"
       },
       "cues": [
+        {
+          "onWord": {
+            "en": "king",
+            "hi": "राजा"
+          },
+          "do": "title-in"
+        },
         {
           "onWord": {
             "en": "guards",
@@ -1284,9 +1345,16 @@
       "onScreenText": {
         "en": "Day 7",
         "hi": "सातवाँ दिन",
-        "style": "name-tag"
+        "style": "plate"
       },
       "cues": [
+        {
+          "onWord": {
+            "en": "On",
+            "hi": "सातवें"
+          },
+          "do": "title-in"
+        },
         {
           "onWord": {
             "en": "tiny",
@@ -1311,8 +1379,8 @@
           "volume": 0.5
         }
       ],
-      "transition": "cut",
-      "notes": "The lord of snakes. CE 1.39.20."
+      "transition": "flash-white",
+      "notes": "The lord of snakes becomes a worm. CE 1.39.20."
     },
     {
       "id": "s08b",
@@ -1428,15 +1496,18 @@
         "hi": "सूरज डूब रहा था। सात दिन पूरे होने को थे। तभी राजा को वो कीड़ा दिखा।"
       },
       "onScreenText": {
-        "en": "Day 7",
-        "hi": "सातवाँ दिन",
-        "style": "name-tag",
-        "sub": {
-          "en": "sunset",
-          "hi": "सूर्यास्त"
-        }
+        "en": "Day 7 · Sunset",
+        "hi": "सातवाँ दिन · सूर्यास्त",
+        "style": "plate"
       },
       "cues": [
+        {
+          "onWord": {
+            "en": "At",
+            "hi": "सूरज"
+          },
+          "do": "title-in"
+        },
         {
           "onWord": {
             "en": "king",
@@ -1500,7 +1571,7 @@
           "volume": 0.4
         }
       ],
-      "transition": "dissolve",
+      "transition": "cut",
       "notes": "The opened fruit in his hand, the worm in it. CE 1.39.28-29."
     },
     {
@@ -1607,7 +1678,7 @@
         }
       ],
       "music": 0.5,
-      "transition": "dissolve",
+      "transition": "cut",
       "notes": "The worm between his fingers. Thumbnail. CE 1.39.30-31."
     },
     {
@@ -1667,12 +1738,22 @@
       "fx": [],
       "characters": [
         {
+          "id": "takshaka",
+          "pose": "rearing",
+          "x": 0.12,
+          "y": 0.9,
+          "scale": 1.5,
+          "flip": false,
+          "action": "still",
+          "shadow": false
+        },
+        {
           "id": "parikshit",
           "pose": "shocked",
-          "x": 0.48,
-          "y": 1.35,
-          "scale": 2.6,
-          "flip": false,
+          "x": 0.72,
+          "y": 1.2,
+          "scale": 2.0,
+          "flip": true,
           "action": "still",
           "expression": "shocked"
         }
@@ -1684,7 +1765,7 @@
         "to": 1.1,
         "focus": [
           0.5,
-          0.36
+          0.4
         ]
       },
       "narration": {
@@ -1700,14 +1781,6 @@
           },
           "do": "hard-cut-to",
           "target": "s11b"
-        },
-        {
-          "onWord": {
-            "en": "curse",
-            "hi": "शाप"
-          },
-          "do": "hard-cut-to",
-          "target": "s11c"
         }
       ],
       "sfx": [
@@ -1719,7 +1792,7 @@
       ],
       "music": 0.4,
       "transition": "cut",
-      "notes": "The laugh stops."
+      "notes": "He turns: it is there. The laugh stops."
     },
     {
       "id": "s11b",
@@ -1727,11 +1800,11 @@
       "type": "character",
       "background": "tower-room",
       "backgroundVariant": "night",
-      "light": "night",
+      "light": "fire",
       "fx": [
         {
           "type": "embers",
-          "n": 16
+          "n": 20
         }
       ],
       "characters": [
@@ -1741,7 +1814,7 @@
           "x": 0.54,
           "y": 0.98,
           "scale": 1.35,
-          "flip": false,
+          "flip": true,
           "action": "still",
           "expression": "shocked"
         },
@@ -1775,7 +1848,7 @@
       "camera": {
         "move": "shake-then-zoom",
         "from": 1.0,
-        "to": 1.08,
+        "to": 1.12,
         "focus": [
           0.5,
           0.5
@@ -1792,52 +1865,20 @@
           "id": "thunder-crack",
           "at": 0,
           "volume": 0.6
+        },
+        {
+          "id": "gong-soft",
+          "onWord": {
+            "en": "curse",
+            "hi": "शाप"
+          },
+          "volume": 0.6,
+          "offset": 0
         }
       ],
       "music": 1.2,
-      "transition": "flash-white",
-      "notes": "The coils close round him. No bite shown. CE 1.39.33."
-    },
-    {
-      "id": "s11c",
-      "beat": 11,
-      "type": "prop-hero",
-      "background": "pillar-tower",
-      "backgroundVariant": "night",
-      "light": "night",
-      "fx": [
-        {
-          "type": "embers",
-          "n": 24
-        }
-      ],
-      "characters": [],
-      "props": [],
-      "camera": {
-        "move": "slow-zoom-in",
-        "from": 1.0,
-        "to": 1.06,
-        "focus": [
-          0.5,
-          0.35
-        ]
-      },
-      "narration": {
-        "en": "",
-        "hi": ""
-      },
-      "onScreenText": null,
-      "cues": [],
-      "sfx": [
-        {
-          "id": "gong-soft",
-          "at": 0,
-          "volume": 0.6
-        }
-      ],
-      "music": 0.6,
-      "transition": "dissolve",
-      "notes": "The tower, dark. CE 1.40.1-4."
+      "transition": "fade-to-night",
+      "notes": "The coils close round him, face to face. No bite shown. CE 1.39.33."
     },
     {
       "id": "s12",

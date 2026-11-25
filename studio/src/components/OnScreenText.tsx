@@ -93,6 +93,15 @@ export const OnScreenText: React.FC<Props> = ({ ost, lang, sec, dur, fps, chars,
         </div>
       );
     }
+    case 'plate': {
+      // a dark label plate (day counters, dates): readable over any background
+      const o = interpolate(sec - (titleAt ?? 0.15), [0, 0.3], [0, 1], { ...clamp, easing: Easing.out(Easing.cubic) });
+      return (
+        <div style={{ position: 'absolute', top: 150, width: 1080, textAlign: 'center', opacity: o, transform: `translateY(${(1 - o) * -24}px)` }}>
+          <span style={{ display: 'inline-block', padding: lang === 'en' ? '14px 54px 22px' : '26px 54px 18px', borderRadius: 18, background: 'rgba(34,14,12,0.86)', border: `5px solid ${COLORS.gold}`, font: `700 92px ${serif}`, color: COLORS.gold, lineHeight: 1.15 }}>{text}</span>
+        </div>
+      );
+    }
     default:
       return null;
   }
