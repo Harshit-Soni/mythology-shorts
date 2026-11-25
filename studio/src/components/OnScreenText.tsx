@@ -32,7 +32,7 @@ export const OnScreenText: React.FC<Props> = ({ ost, lang, sec, dur, fps, chars,
       const top = stampAt !== null ? 576 - 110 : 806 - 110;
       return (
         <div style={{ position: 'absolute', top, width: 1080, textAlign: 'center', transform: `rotate(-7deg) scale(${interpolate(sp, [0, 1], [2.6, 1])})`, opacity: Math.min(1, t * 8) }}>
-          <span style={{ font: `700 ${lang === 'hi' ? 190 : 150}px ${lang === 'hi' ? serif : sans}`, color: COLORS.gold, letterSpacing: lang === 'hi' ? 0 : 10, textShadow: outline }}>{text}</span>
+          <span style={{ font: `700 ${lang === 'hi' ? 190 : text.length > 9 ? Math.round(1250 / text.length) : 150}px ${lang === 'hi' ? serif : sans}`, color: COLORS.gold, letterSpacing: lang === 'hi' ? 0 : 10, textShadow: outline }}>{text}</span>
         </div>
       );
     }

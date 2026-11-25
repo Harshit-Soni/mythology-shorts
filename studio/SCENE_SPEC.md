@@ -66,7 +66,7 @@ Everything the renderer understands. If a storyboard needs something not listed 
 | anything else | ignored (safe to note intentions like `silence-beat`) |
 
 ## On-screen text styles
-`stamp-gold` (big rotated gold stamp, e.g. शाप/CURSED) · `name-tag` (top-left serif name with optional `sub`) · `speech-bubble` (above `anchor` character's head, visible for the first ~60% of the scene) · `law-inscription` (writes on, with optional `source` line) · `title-serif` (big gold title at the top). Captions are automatic, from the narration.
+`stamp-gold` (big rotated gold stamp, e.g. शाप/CURSED; English text over 9 characters shrinks to fit) · `name-tag` (top-left serif name with optional `sub`) · `speech-bubble` (above `anchor` character's head, visible for the first ~60% of the scene) · `law-inscription` (writes on, with optional `source` line) · `title-serif` (big gold title at the top). Captions are automatic, from the narration.
 
 ## Transitions
 `cut` (default) · `dissolve` · `light-wipe` · `memory-ripple` · `border-wipe` · `fade-to-night` (all crossfade into the next scene) · `flash-white` (white flash into the next) · `cut-to-black` (last scene fades to black)
