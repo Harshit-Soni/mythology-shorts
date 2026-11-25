@@ -1,0 +1,2053 @@
+{
+  "id": "S01E06",
+  "title": {
+    "en": "The King of Heaven Who Became a Snake",
+    "hi": "स्वर्ग का राजा, जो साँप बना"
+  },
+  "format": "short",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "sourceCredit": {
+    "en": "Mahabharata, Udyoga & Vana Parva",
+    "hi": "महाभारत, उद्योग और वन पर्व"
+  },
+  "safeZone": {
+    "bottom": 0.2,
+    "right": 0.12
+  },
+  "grade": {
+    "grain": 0.12,
+    "vignette": 0.45,
+    "shadows": true
+  },
+  "sound": {
+    "music": {
+      "id": "mythic-drone",
+      "volume": 0.7,
+      "duckTo": 0.45,
+      "fadeInSec": 0.3,
+      "fadeOutSec": 1.5
+    },
+    "sfxVolume": 0.8
+  },
+  "thumbnail": {
+    "scene": "s01b",
+    "at": 0.5,
+    "series": {
+      "en": "Shraap · Episode 6",
+      "hi": "शाप · भाग 6"
+    },
+    "title": {
+      "en": "The King of Heaven Who Became a Snake",
+      "hi": "स्वर्ग का राजा, जो साँप बना"
+    },
+    "titleLines": {
+      "en": [
+        "The King",
+        "Who Became",
+        "a Snake"
+      ],
+      "hi": [
+        "स्वर्ग का राजा",
+        "जो साँप बना"
+      ]
+    }
+  },
+  "scenes": [
+    {
+      "id": "s00",
+      "beat": 0,
+      "type": "title-card",
+      "background": "parchment-card",
+      "characters": [],
+      "props": [
+        {
+          "id": "shaap-stamp",
+          "x": 0.44,
+          "y": 0.42,
+          "scale": 1.2,
+          "action": "stamp-in"
+        }
+      ],
+      "overlay": "folk-art-border",
+      "camera": {
+        "move": "static"
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "fixedDurationSec": 1.0,
+      "onScreenText": {
+        "en": "CURSED VI",
+        "hi": "शाप VI",
+        "style": "stamp-gold"
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "at": 0,
+          "volume": 0.7
+        },
+        {
+          "id": "stamp-thud",
+          "at": 0.15,
+          "volume": 0.9
+        }
+      ],
+      "transition": "border-wipe",
+      "notes": "Series sting, reused in every S01 episode. Border closes in, stamp lands.",
+      "music": 0.6
+    },
+    {
+      "id": "s01",
+      "beat": 1,
+      "type": "character",
+      "background": "indra-sabha",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.25,
+          "color": "#FFE6B0"
+        },
+        {
+          "type": "sparks",
+          "n": 14
+        }
+      ],
+      "characters": [
+        {
+          "id": "nahusha",
+          "pose": "seated-throne",
+          "x": 0.5,
+          "y": 0.6,
+          "scale": 0.9,
+          "flip": false,
+          "action": "still",
+          "expression": "proud"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.5,
+          0.45
+        ]
+      },
+      "narration": {
+        "en": "The gods once made a human their king. He became a snake.",
+        "hi": "देवताओं ने एक मनुष्य को राजा बनाया। वो साँप बन गया।"
+      },
+      "onScreenText": {
+        "en": "Nahusha",
+        "hi": "नहुष",
+        "style": "name-tag",
+        "sub": {
+          "en": "a human king",
+          "hi": "एक मनुष्य राजा"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "became",
+            "hi": "वो"
+          },
+          "do": "hard-cut-to",
+          "target": "s01b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "at": 0.1,
+          "volume": 0.6
+        }
+      ],
+      "transition": "cut",
+      "notes": "A human king on the throne of heaven. CE 5.11."
+    },
+    {
+      "id": "s01b",
+      "beat": 1,
+      "type": "prop-hero",
+      "background": "himalaya-gorge",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "fog",
+          "color": "#9FB3D9"
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "great-snake",
+          "x": 0.5,
+          "y": 0.56,
+          "scale": 1.5,
+          "action": "sway"
+        }
+      ],
+      "camera": {
+        "move": "shake-then-zoom",
+        "from": 1.0,
+        "to": 1.12,
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-boom-deep",
+          "at": 0,
+          "volume": 0.65
+        }
+      ],
+      "transition": "flash-white",
+      "notes": "Hard cut: the same being as a great coiled snake (spotted, turmeric-yellow, red eyes, no hood: 3.175.13-14)."
+    },
+    {
+      "id": "s02",
+      "beat": 2,
+      "type": "prop-hero",
+      "background": "parchment-card",
+      "fx": [],
+      "characters": [],
+      "props": [
+        {
+          "id": "throne-icon",
+          "x": 0.5,
+          "y": 0.46,
+          "scale": 1.25,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05
+      },
+      "narration": {
+        "en": "A throne, a palanquin, and a riddle.",
+        "hi": "एक सिंहासन, एक पालकी, और एक पहेली।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "palanquin",
+            "hi": "पालकी"
+          },
+          "do": "hard-cut-to",
+          "target": "s02b"
+        },
+        {
+          "onWord": {
+            "en": "riddle",
+            "hi": "एक"
+          },
+          "do": "hard-cut-to",
+          "target": "s02c",
+          "nth": {
+            "hi": 3
+          }
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "at": 0.1,
+          "volume": 0.5
+        }
+      ],
+      "overlay": "folk-art-border",
+      "transition": "cut",
+      "notes": "Trailer 1/3: the throne."
+    },
+    {
+      "id": "s02b",
+      "beat": 2,
+      "type": "prop-hero",
+      "background": "parchment-card",
+      "fx": [],
+      "characters": [],
+      "props": [
+        {
+          "id": "palanquin-icon",
+          "x": 0.5,
+          "y": 0.46,
+          "scale": 1.25,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "at": 0,
+          "volume": 0.5
+        }
+      ],
+      "overlay": "folk-art-border",
+      "transition": "cut",
+      "notes": "Trailer 2/3: the empty palanquin."
+    },
+    {
+      "id": "s02c",
+      "beat": 2,
+      "type": "prop-hero",
+      "background": "parchment-card",
+      "fx": [],
+      "characters": [],
+      "props": [
+        {
+          "id": "snake-eye",
+          "x": 0.5,
+          "y": 0.46,
+          "scale": 1.3,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.46
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "at": 0,
+          "volume": 0.6
+        }
+      ],
+      "overlay": "folk-art-border",
+      "transition": "flash-white",
+      "notes": "Trailer 3/3, the riddle: a great red eye."
+    },
+    {
+      "id": "s03",
+      "beat": 3,
+      "type": "character",
+      "background": "indra-sabha",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 12
+        }
+      ],
+      "characters": [
+        {
+          "id": "nahusha",
+          "pose": "humble",
+          "x": 0.27,
+          "y": 0.86,
+          "scale": 1.05,
+          "flip": false,
+          "action": "breathe",
+          "expression": "humble",
+          "speaking": true
+        },
+        {
+          "id": "deva",
+          "pose": "offering",
+          "x": 0.74,
+          "y": 0.86,
+          "scale": 1.15,
+          "flip": true,
+          "action": "breathe",
+          "expression": "pleading"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "Indra had vanished, so they chose King Nahusha. \"I'm too weak,\" he said.",
+        "hi": "इन्द्र ग़ायब थे, तो राजा नहुष चुने गए। वो बोले: \"मैं दुर्बल हूँ।\""
+      },
+      "onScreenText": {
+        "en": "Nahusha",
+        "hi": "नहुष",
+        "style": "name-tag",
+        "sub": {
+          "en": "king on earth",
+          "hi": "धरती के राजा"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "I'm",
+            "hi": "मैं"
+          },
+          "do": "hard-cut-to",
+          "target": "s03b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "wind-desolate",
+          "at": 0,
+          "volume": 0.25
+        }
+      ],
+      "transition": "cut",
+      "notes": "The throne stands empty behind them; a god offers it to a plain king. CE 5.10.46-5.11.3."
+    },
+    {
+      "id": "s03b",
+      "beat": 3,
+      "type": "character",
+      "background": "indra-sabha",
+      "light": "dawn",
+      "fx": [],
+      "characters": [
+        {
+          "id": "nahusha",
+          "pose": "humble",
+          "x": 0.46,
+          "y": 1.5,
+          "scale": 2.9,
+          "flip": false,
+          "action": "still",
+          "expression": "humble",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "dissolve",
+      "notes": "Close: the line that returns at the end."
+    },
+    {
+      "id": "s04",
+      "beat": 4,
+      "type": "character",
+      "background": "indra-sabha",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.36,
+          "r": 0.2,
+          "color": "#E8B53A",
+          "pulse": true
+        },
+        {
+          "type": "sparks",
+          "n": 12
+        }
+      ],
+      "characters": [
+        {
+          "id": "nahusha",
+          "pose": "gaze",
+          "x": 0.46,
+          "y": 1.5,
+          "scale": 2.9,
+          "flip": false,
+          "action": "still",
+          "expression": "proud"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.52,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "So they gave him a power: one look, and he took anyone's strength.",
+        "hi": "तो उन्हें शक्ति मिली: जिसे देखें, उसका बल हर लें।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "took",
+            "hi": "उसका"
+          },
+          "do": "hard-cut-to",
+          "target": "s04b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "onWord": {
+            "en": "power",
+            "hi": "शक्ति"
+          },
+          "volume": 0.6,
+          "offset": 0
+        }
+      ],
+      "transition": "cut",
+      "notes": "Close: his eyes light up. CE 5.11.6."
+    },
+    {
+      "id": "s04b",
+      "beat": 4,
+      "type": "character",
+      "background": "indra-sabha",
+      "light": "dusk",
+      "fx": [],
+      "characters": [
+        {
+          "id": "nahusha",
+          "pose": "gaze",
+          "x": 0.24,
+          "y": 0.86,
+          "scale": 1.0,
+          "flip": false,
+          "action": "still",
+          "expression": "proud"
+        },
+        {
+          "id": "deva",
+          "pose": "drained",
+          "x": 0.74,
+          "y": 0.86,
+          "scale": 1.12,
+          "flip": true,
+          "action": "still",
+          "expression": "weak"
+        }
+      ],
+      "props": [
+        {
+          "id": "strength-stream",
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 0.95,
+          "action": "idle",
+          "light": "none"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "glass-crack",
+          "at": 0.2,
+          "volume": 0.4
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "The god sags; a stream of light runs from him to the king's eyes."
+    },
+    {
+      "id": "s05",
+      "beat": 5,
+      "type": "character",
+      "background": "indra-sabha",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 14
+        }
+      ],
+      "characters": [
+        {
+          "id": "nahusha",
+          "pose": "seated-throne",
+          "x": 0.5,
+          "y": 0.6,
+          "scale": 0.9,
+          "flip": false,
+          "action": "point",
+          "expression": "proud"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.32,
+        "to": 1.42,
+        "focus": [
+          0.5,
+          0.42
+        ]
+      },
+      "narration": {
+        "en": "Now unstoppable, he demanded Indra's queen, Shachi.",
+        "hi": "अब उन्हें कौन रोकता? वो इन्द्र की रानी शची को माँग बैठे।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "Indra",
+            "hi": "इन्द्र"
+          },
+          "do": "hard-cut-to",
+          "target": "s05b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "onWord": {
+            "en": "demanded",
+            "hi": "रोकता"
+          },
+          "volume": 0.5,
+          "offset": 0
+        }
+      ],
+      "transition": "cut",
+      "notes": "Splendid, pointing. CE 5.11.13-15."
+    },
+    {
+      "id": "s05b",
+      "beat": 5,
+      "type": "character",
+      "background": "indra-sabha",
+      "light": "dusk",
+      "fx": [],
+      "characters": [
+        {
+          "id": "shachi",
+          "pose": "standing-firm",
+          "x": 0.5,
+          "y": 1.12,
+          "scale": 2.0,
+          "flip": false,
+          "action": "still",
+          "expression": "firm"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.45
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": {
+        "en": "Shachi",
+        "hi": "शची",
+        "style": "name-tag",
+        "sub": {
+          "en": "queen of Indra",
+          "hi": "इन्द्र की रानी"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0,
+          "volume": 0.5
+        }
+      ],
+      "music": 0.7,
+      "transition": "dissolve",
+      "notes": "Composed, unafraid."
+    },
+    {
+      "id": "s06",
+      "beat": 6,
+      "type": "character",
+      "background": "indra-sabha",
+      "backgroundVariant": "night",
+      "light": "moon",
+      "fx": [
+        {
+          "type": "stars",
+          "n": 25
+        }
+      ],
+      "characters": [
+        {
+          "id": "shachi",
+          "pose": "standing-firm",
+          "x": 0.3,
+          "y": 0.86,
+          "scale": 1.0,
+          "flip": false,
+          "action": "still",
+          "expression": "firm"
+        }
+      ],
+      "props": [
+        {
+          "id": "indra-in-lotus",
+          "x": 0.72,
+          "y": 0.56,
+          "scale": 0.85,
+          "action": "idle"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "So she set a trap: \"Come to me carried by sages. No god ever has.\"",
+        "hi": "शची ने जाल बिछाया: \"ऋषियों से पालकी उठवाकर आइए। ऐसे कोई देवता नहीं आया।\""
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "Come",
+            "hi": "ऋषियों"
+          },
+          "do": "hard-cut-to",
+          "target": "s06b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "at": 0,
+          "volume": 0.35
+        }
+      ],
+      "music": 0.6,
+      "transition": "cut",
+      "notes": "Indra, hidden in a lotus stem, gives her the plan (5.15.1-4): he is only a glowing silhouette."
+    },
+    {
+      "id": "s06b",
+      "beat": 6,
+      "type": "character",
+      "background": "indra-sabha",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [],
+      "characters": [
+        {
+          "id": "shachi",
+          "pose": "speaking",
+          "x": 0.5,
+          "y": 1.28,
+          "scale": 2.6,
+          "flip": false,
+          "action": "still",
+          "expression": "calm",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0,
+          "volume": 0.4
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "Close: she says it. Strategy, not flirtation."
+    },
+    {
+      "id": "s07",
+      "beat": 7,
+      "type": "prop-hero",
+      "background": "heaven-sky",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "stars",
+          "n": 30
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "palanquin-carried",
+          "x": 0.5,
+          "y": 0.52,
+          "scale": 1.12,
+          "action": "idle"
+        }
+      ],
+      "camera": {
+        "move": "slow-pan-right",
+        "from": 0.0,
+        "to": 0.04
+      },
+      "narration": {
+        "en": "Flattered, he did, and set his foot on the sage Agastya's head.",
+        "hi": "नहुष ने यही किया, और अगस्त्य ऋषि के सिर पर पैर रख दिया।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "set",
+            "hi": "अगस्त्य"
+          },
+          "do": "hard-cut-to",
+          "target": "s07b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "at": 0.2,
+          "volume": 0.5
+        }
+      ],
+      "music": 1.1,
+      "transition": "cut",
+      "notes": "Four sages carry him along the sky road. CE 5.15.20-21, 5.17.8."
+    },
+    {
+      "id": "s07b",
+      "beat": 7,
+      "type": "prop-hero",
+      "background": "heaven-sky",
+      "backgroundVariant": "dusk",
+      "light": "fire",
+      "fx": [],
+      "characters": [],
+      "props": [
+        {
+          "id": "foot-on-head",
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1.82,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.1,
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": {
+        "en": "Agastya",
+        "hi": "अगस्त्य",
+        "style": "name-tag"
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-boom-deep",
+          "onWord": {
+            "en": "foot",
+            "hi": "पैर"
+          },
+          "volume": 0.65,
+          "offset": 0
+        }
+      ],
+      "music": 0.5,
+      "transition": "flash-white",
+      "notes": "Close: a jewelled foot on a sage's matted hair. CE 5.17.11 (a touch, not a kick)."
+    },
+    {
+      "id": "s08",
+      "beat": 8,
+      "type": "character",
+      "background": "heaven-sky",
+      "backgroundVariant": "night",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "sparks",
+          "n": 16
+        }
+      ],
+      "characters": [
+        {
+          "id": "agastya",
+          "pose": "cursing",
+          "x": 0.5,
+          "y": 1.12,
+          "scale": 1.6,
+          "flip": true,
+          "action": "raise-hand",
+          "expression": "furious",
+          "speaking": true
+        }
+      ],
+      "props": [
+        {
+          "id": "shaap-stamp",
+          "x": 0.5,
+          "y": 0.3,
+          "scale": 0.7,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "shake-then-zoom",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.45
+        ]
+      },
+      "narration": {
+        "en": "Agastya cursed him: \"Fall from heaven. Become a snake!\"",
+        "hi": "अगस्त्य ने शाप दिया: \"स्वर्ग से गिर! साँप बन जा!\""
+      },
+      "onScreenText": {
+        "en": "CURSED",
+        "hi": "शाप",
+        "style": "stamp-gold"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "do": "stamp-next",
+          "target": "shaap-stamp"
+        },
+        {
+          "onWord": {
+            "en": "Fall",
+            "hi": "स्वर्ग"
+          },
+          "do": "hard-cut-to",
+          "target": "s08b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "thunder-crack",
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "volume": 0.6,
+          "offset": 0
+        },
+        {
+          "id": "stamp-thud",
+          "onWord": {
+            "en": "cursed",
+            "hi": "शाप"
+          },
+          "volume": 0.8,
+          "offset": 0.1
+        }
+      ],
+      "music": 1.1,
+      "transition": "cut",
+      "notes": "CE 5.17.12-15."
+    },
+    {
+      "id": "s08b",
+      "beat": 8,
+      "type": "prop-hero",
+      "background": "heaven-sky",
+      "backgroundVariant": "night",
+      "light": "night",
+      "fx": [
+        {
+          "type": "stars",
+          "n": 30
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "nahusha-falling",
+          "x": 0.46,
+          "y": 0.4,
+          "scale": 1.8,
+          "action": "plunge"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "wind-desolate",
+          "at": 0,
+          "volume": 0.5
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "He falls head down, crown coming off, legs already coils (3.178.38)."
+    },
+    {
+      "id": "s09",
+      "beat": 9,
+      "type": "character",
+      "background": "heaven-sky",
+      "backgroundVariant": "night",
+      "light": "moon",
+      "fx": [
+        {
+          "type": "stars",
+          "n": 30
+        }
+      ],
+      "characters": [
+        {
+          "id": "agastya",
+          "pose": "softening",
+          "x": 0.46,
+          "y": 1.48,
+          "scale": 2.5,
+          "flip": true,
+          "action": "still",
+          "expression": "kind",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "Then he took pity: \"Yudhishthira will free you.\"",
+        "hi": "फिर उन्हें दया आई: \"युधिष्ठिर तुम्हें मुक्त करेंगे।\""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "onWord": {
+            "en": "Yudhishthira",
+            "hi": "युधिष्ठिर"
+          },
+          "volume": 0.5,
+          "offset": 0
+        }
+      ],
+      "music": 0.6,
+      "transition": "fade-to-night",
+      "notes": "Close: his anger goes. CE 3.178.39-40."
+    },
+    {
+      "id": "s10",
+      "beat": 10,
+      "type": "character",
+      "background": "himalaya-gorge",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "fog",
+          "color": "#C9D6E0"
+        }
+      ],
+      "characters": [
+        {
+          "id": "bhima",
+          "pose": "held",
+          "x": 0.5,
+          "y": 0.84,
+          "scale": 1.0,
+          "flip": true,
+          "action": "still",
+          "expression": "strain"
+        }
+      ],
+      "props": [
+        {
+          "id": "coils-back",
+          "x": 0.5,
+          "y": 0.835,
+          "scale": 1.25,
+          "action": "still"
+        },
+        {
+          "id": "coils-front",
+          "x": 0.5,
+          "y": 0.845,
+          "scale": 1.25,
+          "action": "still"
+        },
+        {
+          "id": "snake-head",
+          "x": 0.2,
+          "y": 0.7,
+          "scale": 0.75,
+          "action": "idle"
+        }
+      ],
+      "camera": {
+        "move": "shake-then-zoom",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      "narration": {
+        "en": "Ages later, a giant snake seized Bhima, and took his strength.",
+        "hi": "बहुत समय बाद, एक अजगर ने भीम को जकड़कर उनका बल हर लिया।"
+      },
+      "onScreenText": {
+        "en": "Bhima",
+        "hi": "भीम",
+        "style": "name-tag",
+        "sub": {
+          "en": "the strongest Pandava",
+          "hi": "सबसे बलवान पाण्डव"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "took",
+            "hi": "बल"
+          },
+          "do": "hard-cut-to",
+          "target": "s10b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-boom-deep",
+          "onWord": {
+            "en": "seized",
+            "hi": "जकड़कर"
+          },
+          "volume": 0.6,
+          "offset": 0
+        }
+      ],
+      "transition": "cut",
+      "notes": "CE 3.175.16-21."
+    },
+    {
+      "id": "s10b",
+      "beat": 10,
+      "type": "character",
+      "background": "himalaya-gorge",
+      "light": "dusk",
+      "fx": [],
+      "characters": [
+        {
+          "id": "bhima",
+          "pose": "held",
+          "x": 0.56,
+          "y": 1.46,
+          "scale": 2.7,
+          "flip": true,
+          "action": "still",
+          "expression": "weak"
+        }
+      ],
+      "props": [
+        {
+          "id": "strength-stream",
+          "x": 0.27,
+          "y": 0.475,
+          "scale": 1.1,
+          "action": "idle",
+          "light": "none"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "glass-crack",
+          "at": 0.1,
+          "volume": 0.4
+        }
+      ],
+      "music": 0.6,
+      "transition": "dissolve",
+      "notes": "Close: the same light leaves him as left the god in s04b. CE 3.176.22."
+    },
+    {
+      "id": "s11",
+      "beat": 11,
+      "type": "character",
+      "background": "himalaya-gorge",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [],
+      "characters": [
+        {
+          "id": "bhima",
+          "pose": "held",
+          "x": 0.72,
+          "y": 0.84,
+          "scale": 0.9,
+          "flip": true,
+          "action": "still",
+          "expression": "weak"
+        }
+      ],
+      "props": [
+        {
+          "id": "coils-back",
+          "x": 0.72,
+          "y": 0.835,
+          "scale": 1.1,
+          "action": "still"
+        },
+        {
+          "id": "coils-front",
+          "x": 0.72,
+          "y": 0.845,
+          "scale": 1.1,
+          "action": "still"
+        },
+        {
+          "id": "snake-head",
+          "x": 0.28,
+          "y": 0.72,
+          "scale": 1.0,
+          "action": "idle"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "\"I am Nahusha, your ancestor.\" Then Yudhishthira came. \"Answer me, and he lives: who is a Brahmin?\"",
+        "hi": "\"मैं नहुष हूँ, तुम्हारा पूर्वज।\" तभी युधिष्ठिर आए। \"उत्तर दो, तो ये बचेगा: ब्राह्मण कौन है?\""
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "Then",
+            "hi": "तभी"
+          },
+          "do": "hard-cut-to",
+          "target": "s11b"
+        },
+        {
+          "onWord": {
+            "en": "Answer",
+            "hi": "उत्तर"
+          },
+          "do": "hard-cut-to",
+          "target": "s11c"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0.1,
+          "volume": 0.5
+        }
+      ],
+      "music": 0.7,
+      "transition": "cut",
+      "notes": "The great head comes level with Bhima. CE 3.176.13-16."
+    },
+    {
+      "id": "s11b",
+      "beat": 11,
+      "type": "character",
+      "background": "himalaya-gorge",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [],
+      "characters": [
+        {
+          "id": "yudhishthira",
+          "pose": "arriving",
+          "x": 0.72,
+          "y": 0.84,
+          "scale": 1.0,
+          "flip": true,
+          "action": "step-forward",
+          "expression": "alarmed"
+        }
+      ],
+      "props": [
+        {
+          "id": "snake-head",
+          "x": 0.26,
+          "y": 0.74,
+          "scale": 1.0,
+          "action": "idle"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": {
+        "en": "Yudhishthira",
+        "hi": "युधिष्ठिर",
+        "style": "name-tag"
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "at": 0,
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "CE 3.176.51-3.177.5."
+    },
+    {
+      "id": "s11c",
+      "beat": 11,
+      "type": "prop-hero",
+      "background": "himalaya-gorge",
+      "backgroundVariant": "night",
+      "light": "night",
+      "fx": [],
+      "characters": [],
+      "props": [
+        {
+          "id": "snake-head",
+          "x": 0.44,
+          "y": 0.93,
+          "scale": 1.8,
+          "action": "idle"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.45
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "at": 0,
+          "volume": 0.5
+        }
+      ],
+      "music": 0.6,
+      "transition": "dissolve",
+      "notes": "Close: it asks. CE 3.177.12, 15."
+    },
+    {
+      "id": "s12",
+      "beat": 12,
+      "type": "character",
+      "background": "himalaya-gorge",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 8
+        }
+      ],
+      "characters": [
+        {
+          "id": "yudhishthira",
+          "pose": "answering",
+          "x": 0.54,
+          "y": 1.44,
+          "scale": 2.8,
+          "flip": true,
+          "action": "still",
+          "expression": "calm",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "\"One with truth, forgiveness and compassion. It's conduct, not birth alone.\"",
+        "hi": "\"जिसमें सत्य, क्षमा और दया हो। आचरण से, केवल जन्म से नहीं।\""
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "conduct",
+            "hi": "आचरण"
+          },
+          "do": "hard-cut-to",
+          "target": "s12b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "onWord": {
+            "en": "compassion",
+            "hi": "दया"
+          },
+          "volume": 0.35,
+          "offset": 0
+        }
+      ],
+      "music": 0.6,
+      "transition": "cut",
+      "notes": "Close, quiet. CE 3.177.16."
+    },
+    {
+      "id": "s12b",
+      "beat": 12,
+      "type": "character",
+      "background": "himalaya-gorge",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.7,
+          "y": 0.2,
+          "color": "#FFE6B0"
+        }
+      ],
+      "characters": [
+        {
+          "id": "yudhishthira",
+          "pose": "answering",
+          "x": 0.74,
+          "y": 0.84,
+          "scale": 1.0,
+          "flip": true,
+          "action": "breathe",
+          "expression": "calm",
+          "speaking": true
+        }
+      ],
+      "props": [
+        {
+          "id": "snake-head",
+          "x": 0.26,
+          "y": 0.74,
+          "scale": 1.0,
+          "action": "idle"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "transition": "dissolve",
+      "notes": "Wide: the two face each other as equals. CE 3.177.20-21."
+    },
+    {
+      "id": "s13",
+      "beat": 13,
+      "type": "prop-hero",
+      "background": "himalaya-gorge",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [],
+      "characters": [],
+      "props": [
+        {
+          "id": "snake-eye-throne",
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1.0,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.46
+        ]
+      },
+      "narration": {
+        "en": "\"Power deludes even the wise,\" said the snake, and the curse broke.",
+        "hi": "\"वैभव ज्ञानी को भी भटका देता है,\" साँप बोला, और शाप टूट गया।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "curse",
+            "hi": "शाप"
+          },
+          "do": "hard-cut-to",
+          "target": "s13b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0.1,
+          "volume": 0.4
+        }
+      ],
+      "music": 0.5,
+      "transition": "cut",
+      "notes": "The throne reflected in its eye. CE 3.178.30."
+    },
+    {
+      "id": "s13b",
+      "beat": 13,
+      "type": "character",
+      "background": "himalaya-gorge",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.36,
+          "y": 0.5,
+          "r": 0.3,
+          "color": "#E8B53A",
+          "pulse": true
+        },
+        {
+          "type": "sparks",
+          "n": 20
+        }
+      ],
+      "characters": [
+        {
+          "id": "bhima",
+          "pose": "freed",
+          "x": 0.74,
+          "y": 0.84,
+          "scale": 1.0,
+          "flip": true,
+          "action": "breathe",
+          "expression": "awed"
+        }
+      ],
+      "props": [
+        {
+          "id": "coils-of-light",
+          "x": 0.34,
+          "y": 0.58,
+          "scale": 1.3,
+          "action": "ascend"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "at": 0,
+          "volume": 0.6
+        },
+        {
+          "id": "glass-crack",
+          "at": 0,
+          "volume": 0.4
+        }
+      ],
+      "transition": "flash-white",
+      "notes": "The coils turn to light; Bhima is free. CE 3.178.44-45."
+    },
+    {
+      "id": "s14",
+      "beat": 14,
+      "type": "character",
+      "background": "himalaya-gorge",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.46,
+          "y": 0.2,
+          "color": "#FFE6B0"
+        },
+        {
+          "type": "sparks",
+          "n": 14
+        }
+      ],
+      "characters": [
+        {
+          "id": "nahusha",
+          "pose": "humble",
+          "x": 0.46,
+          "y": 1.5,
+          "scale": 2.9,
+          "flip": false,
+          "action": "still",
+          "expression": "serene"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.38
+        ]
+      },
+      "narration": {
+        "en": "The man who'd said \"I'm too weak\" rose to heaven again.",
+        "hi": "जो कभी बोले थे \"मैं दुर्बल हूँ,\" वो फिर स्वर्ग लौट गए।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "rose",
+            "hi": "फिर"
+          },
+          "do": "hard-cut-to",
+          "target": "s14b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "at": 0.1,
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "The plain, modest king of beat 3 again, at peace."
+    },
+    {
+      "id": "s14b",
+      "beat": 14,
+      "type": "character",
+      "background": "heaven-sky",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.2,
+          "color": "#FFE6B0"
+        },
+        {
+          "type": "stars",
+          "n": 20
+        },
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.45,
+          "r": 0.25,
+          "color": "#E8B53A",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "nahusha",
+          "pose": "humble",
+          "x": 0.5,
+          "y": 0.74,
+          "scale": 0.8,
+          "flip": false,
+          "action": "ascend",
+          "expression": "serene"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "crane-up",
+        "from": 0.0,
+        "to": -0.05
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "at": 0,
+          "volume": 0.5
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "He rises to heaven."
+    },
+    {
+      "id": "s15",
+      "beat": 15,
+      "type": "prop-hero",
+      "background": "forest-hunt",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 12
+        },
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.45,
+          "r": 0.3,
+          "color": "#E07A2E",
+          "pulse": true
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "dead-snake-sage",
+          "x": 0.46,
+          "y": 0.55,
+          "scale": 1.7,
+          "action": "still"
+        },
+        {
+          "id": "shaap-stamp",
+          "x": 0.5,
+          "y": 0.29,
+          "scale": 0.7,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08
+      },
+      "narration": {
+        "en": "Next: a dead snake, and a king with seven days to live.",
+        "hi": "अगली बार: एक मरा साँप, और एक राजा के आख़िरी सात दिन।"
+      },
+      "onScreenText": {
+        "en": "CURSED VII",
+        "hi": "शाप VII",
+        "style": "stamp-gold"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "king",
+            "hi": "राजा"
+          },
+          "do": "stamp-next",
+          "target": "shaap-stamp"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "onWord": {
+            "en": "king",
+            "hi": "राजा"
+          },
+          "volume": 0.8,
+          "offset": 0
+        }
+      ],
+      "overlay": "folk-art-border",
+      "transition": "cut-to-black",
+      "notes": "Tease for E07: a sage in silent meditation, a dead snake laid over his shoulders (CE 1.36.18)."
+    }
+  ],
+  "assets": {
+    "characters": [
+      {
+        "id": "nahusha",
+        "status": "library",
+        "poses": {
+          "seated-throne": "library",
+          "humble": "library",
+          "gaze": "library"
+        }
+      },
+      {
+        "id": "deva",
+        "status": "library",
+        "poses": {
+          "offering": "library",
+          "drained": "library"
+        }
+      },
+      {
+        "id": "shachi",
+        "status": "library",
+        "poses": {
+          "standing-firm": "library",
+          "speaking": "library"
+        }
+      },
+      {
+        "id": "agastya",
+        "status": "library",
+        "poses": {
+          "cursing": "library",
+          "softening": "library"
+        }
+      },
+      {
+        "id": "bhima",
+        "status": "library",
+        "poses": {
+          "held": "library",
+          "freed": "library"
+        }
+      },
+      {
+        "id": "yudhishthira",
+        "status": "library",
+        "poses": {
+          "arriving": "library",
+          "answering": "library"
+        }
+      }
+    ],
+    "backgrounds": [
+      {
+        "id": "parchment-card",
+        "status": "library"
+      },
+      {
+        "id": "indra-sabha",
+        "status": "library"
+      },
+      {
+        "id": "himalaya-gorge",
+        "status": "library"
+      },
+      {
+        "id": "heaven-sky",
+        "status": "library"
+      },
+      {
+        "id": "forest-hunt",
+        "status": "library"
+      }
+    ],
+    "props": [
+      {
+        "id": "great-snake",
+        "status": "library"
+      },
+      {
+        "id": "throne-icon",
+        "status": "library"
+      },
+      {
+        "id": "palanquin-icon",
+        "status": "library"
+      },
+      {
+        "id": "snake-eye",
+        "status": "library"
+      },
+      {
+        "id": "strength-stream",
+        "status": "library"
+      },
+      {
+        "id": "indra-in-lotus",
+        "status": "library"
+      },
+      {
+        "id": "palanquin-carried",
+        "status": "library"
+      },
+      {
+        "id": "foot-on-head",
+        "status": "library"
+      },
+      {
+        "id": "nahusha-falling",
+        "status": "library"
+      },
+      {
+        "id": "coils-back",
+        "status": "library"
+      },
+      {
+        "id": "coils-front",
+        "status": "library"
+      },
+      {
+        "id": "snake-head",
+        "status": "library"
+      },
+      {
+        "id": "snake-eye-throne",
+        "status": "library"
+      },
+      {
+        "id": "coils-of-light",
+        "status": "library"
+      },
+      {
+        "id": "dead-snake-sage",
+        "status": "library"
+      }
+    ],
+    "overlays": [
+      {
+        "id": "folk-art-border",
+        "status": "library"
+      },
+      {
+        "id": "shaap-stamp",
+        "status": "library"
+      }
+    ]
+  }
+}

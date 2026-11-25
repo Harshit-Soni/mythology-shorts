@@ -1,5 +1,5 @@
-"""S01E06 scene spec. Narration is parsed from 02-script.md (never retyped).
-30 shots + the sting for 15 beats: shots inside a beat stay in one place (wide -> close), so the picture changes about every 3 s
+"""S01E06 scene spec, v2 (v1: review/build-scenes-v1.py). Narration is parsed from 02-script.md (never retyped).
+Shots + the sting for 14 beats: shots inside a beat stay in one place (wide -> close), so the picture changes about every 3 s
 without the story jumping. Close-ups are the same rigs at scale 2+ with the feet below the frame (y > 1).
 Run:  python3 episodes/S01E06-nahusha-becomes-a-snake/svg/build-scenes.py <repo root>
 """
@@ -16,7 +16,7 @@ def beats(section):
     return out
 EN = beats(src.split('## English')[1].split('**Ready cuts')[0])
 HI = beats(src.split('## हिंदी')[1].split('**Ready cuts')[0])
-assert len(EN) == 15 and len(HI) == 15, (len(EN), len(HI))
+assert len(EN) == 14 and len(HI) == 14, (len(EN), len(HI))
 N = lambda b: {'en': EN[b], 'hi': HI[b]}
 E = {'en': '', 'hi': ''}
 W = lambda en, hi: {'en': en, 'hi': hi}
@@ -69,80 +69,83 @@ scenes = [sting,
    notes='A human king on the throne of heaven. CE 5.11.'),
  S('s01b', 1, GG, variant='dusk', light='dusk', type='prop-hero', fx=[{'type': 'fog', 'color': '#9FB3D9'}], props=[P('great-snake', 0.5, 0.56, 1.5, 'sway')], cam=zoom(1.0, 1.12, [0.5, 0.5], 'shake-then-zoom'),
    sfx=[snd('drum-boom-deep', at=0, vol=0.65)], transition='flash-white', notes='Hard cut: the same being as a great coiled snake (spotted, turmeric-yellow, red eyes, no hood: 3.175.13-14).'),
- # 2 trailer: three cards
- S('s02', 2, PC, narr=N(2), props=[P('throne-icon', 0.5, 0.46, 1.25, 'still')], cam=zoom(1.0, 1.05), cues=[cut('palanquin', 'पालकी', 's02b'), cut('riddle', 'एक', 's02c', nth={'hi': 3})],
-   sfx=[snd('drum-hit', at=0.1, vol=0.5)], notes='Trailer 1/3: the throne.', **card),
- S('s02b', 2, PC, props=[P('palanquin-icon', 0.5, 0.46, 1.25, 'still')], cam=zoom(1.0, 1.05), sfx=[snd('drum-hit', at=0, vol=0.5)], notes='Trailer 2/3: the empty palanquin.', **card),
- S('s02c', 2, PC, props=[P('snake-eye', 0.5, 0.46, 1.3, 'still')], cam=zoom(1.0, 1.08, [0.5, 0.46], 'push-in-fast'), sfx=[snd('drum-hit', at=0, vol=0.6)], transition='flash-white', notes='Trailer 3/3, the riddle: a great red eye.', **card),
- # 3 too weak
- S('s03', 3, SB, light='dawn', narr=N(3), fx=[dust(12)],
+ # 2 too weak
+ S('s02', 2, SB, light='dawn', narr=N(2), fx=[dust(12)],
    chars=[C('nahusha', 'humble', 0.27, 0.86, 1.05, expression='humble', speaking=True), C('deva', 'offering', 0.74, 0.86, 1.15, flip=True, expression='pleading')],
-   text=tag('Nahusha', 'नहुष', 'king on earth', 'धरती के राजा'), cues=[cut("I'm", 'मैं', 's03b')], sfx=[snd('wind-desolate', at=0, vol=0.25)],
-   notes='The throne stands empty behind them; a god offers it to a plain king. CE 5.10.46-5.11.3.'),
- S('s03b', 3, SB, light='dawn', chars=[C('nahusha', 'humble', 0.46, 1.5, 2.9, action='still', expression='humble', speaking=True)], cam=zoom(1.0, 1.05, [0.5, 0.4]),
+   text=tag('Nahusha', 'नहुष', 'king on earth', 'धरती के राजा'), cues=[cut("I'm", 'मैं', 's02b')], sfx=[snd('wind-desolate', at=0, vol=0.25)], transition='flash-white',
+   notes='The story starts: the throne stands empty; a god offers it to a plain king. CE 5.10.46-5.11.3.'),
+ S('s02b', 2, SB, light='dawn', chars=[C('nahusha', 'humble', 0.46, 1.5, 2.9, action='still', expression='humble', speaking=True)], cam=zoom(1.0, 1.05, [0.5, 0.4]),
    transition='dissolve', notes='Close: the line that returns at the end.'),
- # 4 the power
- S('s04', 4, SB, light='divine', narr=N(4), fx=[glow(0.5, 0.36, 0.2, GOLD), {'type': 'sparks', 'n': 12}],
-   chars=[C('nahusha', 'gaze', 0.46, 1.5, 2.9, action='still', expression='proud')], cam=zoom(1.0, 1.1, [0.52, 0.36], 'push-in-fast'), cues=[cut('took', 'उसका', 's04b')],
+ # 3 the power
+ S('s03', 3, SB, light='divine', narr=N(3), fx=[glow(0.5, 0.36, 0.2, GOLD), {'type': 'sparks', 'n': 12}],
+   chars=[C('nahusha', 'gaze', 0.46, 1.5, 2.9, action='still', expression='proud')], cam=zoom(1.0, 1.1, [0.52, 0.36], 'push-in-fast'), cues=[cut('took', 'उसका', 's03b')],
    sfx=[snd('shimmer-descend', 'power', 'शक्ति', vol=0.6)], notes='Close: his eyes light up. CE 5.11.6.'),
- S('s04b', 4, SB, light='dusk', chars=[C('nahusha', 'gaze', 0.24, 0.86, 1.0, action='still', expression='proud'), C('deva', 'drained', 0.74, 0.86, 1.12, flip=True, action='still', expression='weak')],
+ S('s03b', 3, SB, light='dusk', chars=[C('nahusha', 'gaze', 0.24, 0.86, 1.0, action='still', expression='proud'), C('deva', 'drained', 0.74, 0.86, 1.12, flip=True, action='still', expression='weak')],
    props=[P('strength-stream', 0.5, 0.5, 0.95, 'idle', light='none')], cam=zoom(1.0, 1.05), sfx=[snd('glass-crack', at=0.2, vol=0.4)], transition='dissolve', notes='The god sags; a stream of light runs from him to the king\'s eyes.'),
- # 5 Shachi
- S('s05', 5, SB, light='fire', narr=N(5), fx=[embers(14)], chars=[C('nahusha', 'seated-throne', 0.5, 0.6, 0.9, action='point', expression='proud')], cam=zoom(1.32, 1.42, [0.5, 0.42]),
-   cues=[cut("Indra", 'इन्द्र', 's05b')], sfx=[snd('drum-hit', 'demanded', 'रोकता', vol=0.5)], notes='Splendid, pointing. CE 5.11.13-15.'),
- S('s05b', 5, SB, light='dusk', chars=[C('shachi', 'standing-firm', 0.5, 1.12, 2.0, action='still', expression='firm')], cam=zoom(1.0, 1.05, [0.5, 0.45]), text=tag('Shachi', 'शची', 'queen of Indra', 'इन्द्र की रानी'),
+ # 4 power changed him
+ S('s04', 4, SB, light='fire', narr=N(4), fx=[embers(14)], chars=[C('nahusha', 'seated-throne', 0.5, 0.6, 0.9, action='point', expression='proud')], cam=zoom(1.32, 1.42, [0.5, 0.42]),
+   cues=[cut('Indra', 'इन्द्र', 's04b')], sfx=[snd('drum-hit', 'changed', 'बदल', vol=0.5)], notes='The plain king is gone: splendid, sprawling on Indra\'s throne. CE 5.11.8-15.'),
+ S('s04b', 4, SB, light='dusk', chars=[C('shachi', 'standing-firm', 0.5, 1.12, 2.0, action='still', expression='firm')], cam=zoom(1.0, 1.05, [0.5, 0.45]), text=tag('Shachi', 'शची', 'queen of Indra', 'इन्द्र की रानी'),
    sfx=[snd('heartbeat', at=0, vol=0.5)], music=0.7, transition='dissolve', notes='Composed, unafraid.'),
- # 6 the trap
- S('s06', 6, SB, variant='night', light='moon', narr=N(6), fx=[stars(25)], chars=[C('shachi', 'standing-firm', 0.3, 0.86, 1.0, action='still', expression='firm')],
-   props=[P('indra-in-lotus', 0.72, 0.56, 0.85, 'idle')], cues=[cut('Come', 'ऋषियों', 's06b')], sfx=[snd('shimmer-descend', at=0, vol=0.35)], music=0.6,
+ # 5 the trap
+ S('s05', 5, SB, variant='night', light='moon', narr=N(5), fx=[stars(25)], chars=[C('shachi', 'standing-firm', 0.3, 0.86, 1.0, action='still', expression='firm')],
+   props=[P('indra-in-lotus', 0.72, 0.56, 0.85, 'idle')], cues=[cut('Come', 'ऋषियों', 's05b')], sfx=[snd('shimmer-descend', at=0, vol=0.35)], music=0.6,
    notes='Indra, hidden in a lotus stem, gives her the plan (5.15.1-4): he is only a glowing silhouette.'),
- S('s06b', 6, SB, variant='dusk', light='dusk', chars=[C('shachi', 'speaking', 0.5, 1.28, 2.6, action='still', expression='calm', speaking=True)], cam=zoom(1.0, 1.06, [0.5, 0.36]),
+ S('s05b', 5, SB, variant='dusk', light='dusk', chars=[C('shachi', 'speaking', 0.5, 1.28, 2.6, action='still', expression='calm', speaking=True)], cam=zoom(1.0, 1.06, [0.5, 0.36]),
    sfx=[snd('heartbeat', at=0, vol=0.4)], transition='dissolve', notes='Close: she says it. Strategy, not flirtation.'),
- # 7 the palanquin and the foot
- S('s07', 7, SK, variant='dusk', light='dusk', narr=N(7), type='prop-hero', fx=[stars(30)], props=[P('palanquin-carried', 0.5, 0.52, 1.12, 'idle')], cam=zoom(0.0, 0.04, move='slow-pan-right'),
-   cues=[cut('set', 'अगस्त्य', 's07b')], sfx=[snd('drum-hit', at=0.2, vol=0.5)], music=1.1, notes='Four sages carry him along the sky road. CE 5.15.20-21, 5.17.8.'),
- S('s07b', 7, SK, variant='dusk', light='fire', type='prop-hero', props=[P('foot-on-head', 0.5, 0.5, 1.82, 'still')], cam=zoom(1.0, 1.1, [0.5, 0.5], 'push-in-fast'), text=tag('Agastya', 'अगस्त्य'),
-   sfx=[snd('drum-boom-deep', 'foot', 'पैर', vol=0.65)], music=0.5, transition='flash-white', notes='Close: a jewelled foot on a sage\'s matted hair. CE 5.17.11 (a touch, not a kick).'),
- # 8 the curse
- S('s08', 8, SK, variant='night', light='fire', narr=N(8), fx=[{'type': 'sparks', 'n': 16}], chars=[C('agastya', 'cursing', 0.5, 1.12, 1.6, flip=True, action='raise-hand', expression='furious', speaking=True)],
+ # 6 the palanquin, the rebuke, the foot
+ S('s06', 6, SK, variant='dusk', light='dusk', narr=N(6), type='prop-hero', fx=[stars(30)], props=[P('palanquin-carried', 0.5, 0.52, 1.12, 'idle')], cam=zoom(0.0, 0.04, move='slow-pan-right'),
+   cues=[cut('rebuked', 'टोका', 's06b'), cut('set', 'अगस्त्य', 's06c')], sfx=[snd('drum-hit', at=0.2, vol=0.5)], music=1.1, notes='Four sages carry him along the sky road. CE 5.15.20-21, 5.17.8.'),
+ S('s06b', 6, SK, variant='dusk', light='dusk', chars=[C('agastya', 'rebuking', 0.46, 1.5, 2.6, flip=True, action='still', expression='stern')], cam=zoom(1.0, 1.06, [0.5, 0.36]), text=tag('Agastya', 'अगस्त्य', 'a great sage', 'महान ऋषि'),
+   music=0.7, transition='dissolve', notes='Close on the sage who speaks for them: stern, not yet furious. NEW pose: turned back to the palanquin, one finger raised. CE 5.17.10.'),
+ S('s06c', 6, SK, variant='dusk', light='fire', type='prop-hero', props=[P('foot-on-head', 0.5, 0.5, 1.82, 'still')], cam=zoom(1.0, 1.1, [0.5, 0.5], 'push-in-fast'),
+   sfx=[snd('drum-boom-deep', 'foot', 'पैर', vol=0.65)], music=0.5, transition='flash-white', notes='Close: a jewelled foot on that sage\'s matted hair. CE 5.17.11 (a touch, not a kick).'),
+ # 7 the curse
+ S('s07', 7, SK, variant='night', light='fire', narr=N(7), fx=[{'type': 'sparks', 'n': 16}], chars=[C('agastya', 'cursing', 0.5, 1.12, 1.6, flip=True, action='raise-hand', expression='furious', speaking=True)],
    props=[P('shaap-stamp', 0.5, 0.3, 0.7, 'stamp-in')], text=stamp('CURSED', 'शाप'), cam=zoom(1.0, 1.06, [0.5, 0.45], 'shake-then-zoom'),
-   cues=[{'onWord': W('cursed', 'शाप'), 'do': 'stamp-next', 'target': 'shaap-stamp'}, cut('Fall', 'स्वर्ग', 's08b')],
+   cues=[{'onWord': W('cursed', 'शाप'), 'do': 'stamp-next', 'target': 'shaap-stamp'}, cut('Fall', 'स्वर्ग', 's07b')],
    sfx=[snd('thunder-crack', 'cursed', 'शाप', vol=0.6), snd('stamp-thud', 'cursed', 'शाप', vol=0.8, off=0.1)], music=1.1, notes='CE 5.17.12-15.'),
- S('s08b', 8, SK, variant='night', light='night', type='prop-hero', fx=[stars(30)], props=[P('nahusha-falling', 0.46, 0.4, 1.8, 'plunge')], cam=zoom(1.0, 1.05), sfx=[snd('wind-desolate', at=0, vol=0.5)],
+ S('s07b', 7, SK, variant='night', light='night', type='prop-hero', fx=[stars(30)], props=[P('nahusha-falling', 0.46, 0.4, 1.8, 'plunge')], cam=zoom(1.0, 1.05), sfx=[snd('wind-desolate', at=0, vol=0.5)],
    transition='dissolve', notes='He falls head down, crown coming off, legs already coils (3.178.38).'),
- # 9 pity
- S('s09', 9, SK, variant='night', light='moon', narr=N(9), fx=[stars(30)], chars=[C('agastya', 'softening', 0.46, 1.48, 2.5, flip=True, action='still', expression='kind', speaking=True)], cam=zoom(1.0, 1.06, [0.5, 0.36]),
-   sfx=[snd('temple-bells', 'Yudhishthira', 'युधिष्ठिर', vol=0.5)], music=0.6, transition='fade-to-night', notes='Close: his anger goes. CE 3.178.39-40.'),
- # 10 Bhima
- S('s10', 10, GG, light='dawn', narr=N(10), fx=[{'type': 'fog', 'color': '#C9D6E0'}], chars=[C('bhima', 'held', 0.5, 0.84, 1.0, flip=True, action='still', expression='strain')],
-   props=[P('coils-back', 0.5, 0.835, 1.25, 'still'), P('coils-front', 0.5, 0.845, 1.25, 'still'), P('snake-head', 0.2, 0.7, 0.75, 'idle')], text=tag('Bhima', 'भीम', 'the strongest Pandava', 'सबसे बलवान पाण्डव'), cues=[cut('took', 'बल', 's10b')],
+ # 8 the way out
+ S('s08', 8, SK, variant='night', light='night', narr=N(8), type='prop-hero', fx=[stars(30)], props=[P('nahusha-pleading', 0.48, 0.46, 1.9, 'sway')], cam=zoom(1.0, 1.08, [0.5, 0.42]),
+   cues=[cut('Agastya', 'अगस्त्य', 's08b')], sfx=[snd('wind-desolate', at=0, vol=0.4)], music=0.6, notes='NEW prop: still falling, half snake, uncrowned, palms joined, looking up. CE 3.176.18, 3.178.39.'),
+ S('s08b', 8, SK, variant='night', light='moon', fx=[stars(30)], chars=[C('agastya', 'softening', 0.46, 1.48, 2.5, flip=True, action='still', expression='kind', speaking=True)], cam=zoom(1.0, 1.06, [0.5, 0.36]),
+   sfx=[snd('temple-bells', 'free', 'मुक्त', vol=0.5)], music=0.6, transition='fade-to-night', notes='Close: his anger goes; he plants the way out. CE 3.176.19-21.'),
+ # 9 Bhima
+ S('s09', 9, GG, light='dawn', narr=N(9), fx=[{'type': 'fog', 'color': '#C9D6E0'}], chars=[C('bhima', 'held', 0.5, 0.84, 1.0, flip=True, action='still', expression='strain')],
+   props=[P('coils-back', 0.5, 0.835, 1.25, 'still'), P('coils-front', 0.5, 0.845, 1.25, 'still'), P('snake-head', 0.2, 0.7, 0.75, 'idle')], text=tag('Bhima', 'भीम', 'the strongest Pandava', 'सबसे बलवान पाण्डव'), cues=[cut('took', 'उनका', 's09b')],
    sfx=[snd('drum-boom-deep', 'seized', 'जकड़कर', vol=0.6)], cam=zoom(1.0, 1.06, [0.5, 0.55], 'shake-then-zoom'), notes='CE 3.175.16-21.'),
- S('s10b', 10, GG, light='dusk', chars=[C('bhima', 'held', 0.56, 1.46, 2.7, flip=True, action='still', expression='weak')], props=[P('strength-stream', 0.27, 0.475, 1.1, 'idle', light='none')], cam=zoom(1.0, 1.05, [0.5, 0.36]),
-   sfx=[snd('glass-crack', at=0.1, vol=0.4)], music=0.6, transition='dissolve', notes='Close: the same light leaves him as left the god in s04b. CE 3.176.22.'),
- # 11 the riddle
- S('s11', 11, GG, variant='dusk', light='dusk', narr=N(11), chars=[C('bhima', 'held', 0.72, 0.84, 0.9, flip=True, action='still', expression='weak')],
-   props=[P('coils-back', 0.72, 0.835, 1.1, 'still'), P('coils-front', 0.72, 0.845, 1.1, 'still'), P('snake-head', 0.28, 0.72, 1.0, 'idle')], cues=[cut('Then', 'तभी', 's11b'), cut('Answer', 'उत्तर', 's11c')],
-   sfx=[snd('heartbeat', at=0.1, vol=0.5)], music=0.7, notes='The great head comes level with Bhima. CE 3.176.13-16.'),
- S('s11b', 11, GG, variant='dusk', light='dusk', chars=[C('yudhishthira', 'arriving', 0.72, 0.84, 1.0, flip=True, action='step-forward', expression='alarmed')], props=[P('snake-head', 0.26, 0.74, 1.0, 'idle')],
-   text=tag('Yudhishthira', 'युधिष्ठिर'), sfx=[snd('gong-soft', at=0, vol=0.5)], notes='CE 3.176.51-3.177.5.'),
- S('s11c', 11, GG, variant='night', light='night', type='prop-hero', props=[P('snake-head', 0.44, 0.93, 1.8, 'idle')], cam=zoom(1.0, 1.06, [0.5, 0.45]), sfx=[snd('drum-hit', at=0, vol=0.5)], music=0.6, transition='dissolve', notes='Close: it asks. CE 3.177.12, 15.'),
- # 12 the answer
- S('s12', 12, GG, light='dawn', narr=N(12), fx=[dust(8)], chars=[C('yudhishthira', 'answering', 0.54, 1.44, 2.8, flip=True, action='still', expression='calm', speaking=True)], cam=zoom(1.0, 1.06, [0.5, 0.36]),
-   cues=[cut('conduct', 'आचरण', 's12b')], sfx=[snd('temple-bells', 'compassion', 'दया', vol=0.35)], music=0.6, notes='Close, quiet. CE 3.177.16.'),
- S('s12b', 12, GG, light='dawn', fx=[rays(0.7, 0.2)], chars=[C('yudhishthira', 'answering', 0.74, 0.84, 1.0, flip=True, expression='calm', speaking=True)], props=[P('snake-head', 0.26, 0.74, 1.0, 'idle')], cam=zoom(1.0, 1.05),
+ S('s09b', 9, GG, light='dusk', chars=[C('bhima', 'held', 0.56, 1.46, 2.7, flip=True, action='still', expression='weak')], props=[P('strength-stream', 0.27, 0.475, 1.1, 'idle', light='none')], cam=zoom(1.0, 1.05, [0.5, 0.36]),
+   sfx=[snd('glass-crack', at=0.1, vol=0.4)], music=0.6, transition='dissolve', notes='Close: the same light leaves him as left the god in s03b. CE 3.176.22.'),
+ # 10 the question
+ S('s10', 10, GG, variant='dusk', light='dusk', narr=N(10), chars=[C('bhima', 'held', 0.47, 0.84, 0.8, flip=True, action='still', expression='weak'), C('yudhishthira', 'arriving', 0.8, 0.85, 0.95, flip=True, action='step-forward', expression='alarmed')],
+   props=[P('coils-back', 0.47, 0.835, 1.0, 'still'), P('coils-front', 0.47, 0.845, 1.0, 'still'), P('snake-head', 0.16, 0.7, 0.75, 'idle')], text=tag('Yudhishthira', 'युधिष्ठिर', "Bhima's elder brother", 'भीम के बड़े भाई'),
+   cues=[cut('am', 'मैं', 's10b'), cut('Answer', 'उत्तर', 's10c'), cut('who', 'ब्राह्मण', 's10d')], sfx=[snd('gong-soft', at=0, vol=0.5)], music=0.7, notes='All three in one frame: snake, Bhima held, Yudhishthira arriving. CE 3.177.1-5.'),
+ S('s10b', 10, GG, variant='dusk', light='dusk', chars=[C('nahusha-snake', 'rearing', 0.44, 1.04, 1.7, action='still', expression='weary', speaking=True)], cam=zoom(1.0, 1.06, [0.5, 0.4]), sfx=[snd('heartbeat', at=0, vol=0.5)], music=0.6, transition='dissolve',
+   notes='NEW character: the snake as a speaking rig, so its mouth moves when it talks. CE 3.177.6.'),
+ S('s10c', 10, GG, variant='dusk', light='dusk', chars=[C('bhima', 'held', 0.72, 0.84, 0.9, flip=True, action='still', expression='weak'), C('nahusha-snake', 'rearing', 0.26, 0.96, 0.85, action='still', expression='weary', speaking=True)],
+   props=[P('coils-back', 0.72, 0.835, 1.1, 'still'), P('coils-front', 0.72, 0.845, 1.1, 'still')], sfx=[snd('drum-hit', at=0, vol=0.4)], music=0.6, notes='The stake: Bhima, held, beside the great head. CE 3.177.12.'),
+ S('s10d', 10, GG, variant='night', light='night', chars=[C('nahusha-snake', 'rearing', 0.42, 1.2, 2.3, action='still', expression='weary', speaking=True)], cam=zoom(1.0, 1.06, [0.5, 0.4]), sfx=[snd('drum-hit', at=0, vol=0.5)], music=0.5, transition='dissolve', notes='Closest: the question. CE 3.177.15.'),
+ # 11 the answer
+ S('s11', 11, GG, light='dawn', narr=N(11), fx=[dust(8)], chars=[C('yudhishthira', 'answering', 0.54, 1.44, 2.8, flip=True, action='still', expression='calm', speaking=True)], cam=zoom(1.0, 1.06, [0.5, 0.36]),
+   cues=[cut("It's", 'ब्राह्मण', 's11b')], sfx=[snd('temple-bells', 'compassion', 'दया', vol=0.35)], music=0.6, notes='Close, quiet. CE 3.177.16.'),
+ S('s11b', 11, GG, light='dawn', fx=[rays(0.7, 0.2)], chars=[C('yudhishthira', 'answering', 0.74, 0.84, 1.0, flip=True, expression='calm', speaking=True)], props=[P('snake-head', 0.26, 0.74, 1.0, 'idle')], cam=zoom(1.0, 1.05),
    transition='dissolve', notes='Wide: the two face each other as equals. CE 3.177.20-21.'),
- # 13 the curse breaks
- S('s13', 13, GG, variant='dusk', light='dusk', narr=N(13), type='prop-hero', props=[P('snake-eye-throne', 0.5, 0.5, 1.0, 'still')], cam=zoom(1.0, 1.08, [0.5, 0.46]), cues=[cut('curse', 'शाप', 's13b')], sfx=[snd('heartbeat', at=0.1, vol=0.4)], music=0.5,
-   notes='The throne reflected in its eye. CE 3.178.30.'),
- S('s13b', 13, GG, light='divine', fx=[glow(0.36, 0.5, 0.3, GOLD), {'type': 'sparks', 'n': 20}], chars=[C('bhima', 'freed', 0.74, 0.84, 1.0, flip=True, expression='awed')], props=[P('coils-of-light', 0.34, 0.58, 1.3, 'ascend')],
-   cam=zoom(1.0, 1.06), sfx=[snd('shimmer-descend', at=0, vol=0.6), snd('glass-crack', at=0, vol=0.4)], transition='flash-white', notes='The coils turn to light; Bhima is free. CE 3.178.44-45.'),
- # 14 loop
- S('s14', 14, GG, light='divine', narr=N(14), fx=[rays(0.46, 0.2), {'type': 'sparks', 'n': 14}], chars=[C('nahusha', 'humble', 0.46, 1.5, 2.9, action='still', expression='serene')], cam=zoom(1.0, 1.05, [0.5, 0.38]),
-   cues=[cut('rose', 'फिर', 's14b')], sfx=[snd('temple-bells', at=0.1, vol=0.5)], notes='The plain, modest king of beat 3 again, at peace.'),
- S('s14b', 14, SK, light='divine', fx=[rays(0.5, 0.2), stars(20), glow(0.5, 0.45, 0.25, GOLD)], chars=[C('nahusha', 'humble', 0.5, 0.74, 0.8, action='ascend', expression='serene')], cam=zoom(0.0, -0.05, move='crane-up'),
+ # 12 why he fell
+ S('s12', 12, GG, variant='dusk', light='dusk', narr=N(12), type='prop-hero', props=[P('snake-eye-throne', 0.5, 0.5, 1.0, 'still')], cam=zoom(1.0, 1.08, [0.5, 0.46]), cues=[cut('Power', 'वैभव', 's12b')], sfx=[snd('heartbeat', at=0.1, vol=0.4)], music=0.5,
+   notes='The lost throne reflected in its eye. CE 3.177.7-9.'),
+ S('s12b', 12, GG, variant='dusk', light='dawn', chars=[C('nahusha-snake', 'bowed', 0.44, 1.04, 1.7, action='still', expression='remorseful', speaking=True)], cam=zoom(1.0, 1.05, [0.5, 0.42]), music=0.5, transition='dissolve',
+   notes='NEW pose: the head lowered, the eye half closed. He says it himself. CE 3.178.30-31.'),
+ # 13 free
+ S('s13', 13, GG, light='divine', narr=N(13), fx=[glow(0.36, 0.5, 0.3, GOLD), {'type': 'sparks', 'n': 20}], chars=[C('bhima', 'freed', 0.74, 0.84, 1.0, flip=True, expression='awed')], props=[P('coils-of-light', 0.34, 0.58, 1.3, 'ascend')],
+   cam=zoom(1.0, 1.06), cues=[cut('man', 'जो', 's13b'), cut('rose', 'फिर', 's13c')], sfx=[snd('shimmer-descend', at=0, vol=0.5), snd('glass-crack', 'curse', 'शाप', vol=0.5)], transition='flash-white', notes='The coils turn to light; Bhima is free. CE 3.178.44-45.'),
+ S('s13b', 13, GG, light='divine', fx=[rays(0.46, 0.2), {'type': 'sparks', 'n': 14}], chars=[C('nahusha', 'humble', 0.46, 1.5, 2.9, action='still', expression='serene')], cam=zoom(1.0, 1.05, [0.5, 0.38]),
+   sfx=[snd('temple-bells', at=0.1, vol=0.5)], notes='The plain, modest king of beat 2 again, at peace.'),
+ S('s13c', 13, SK, light='divine', fx=[rays(0.5, 0.2), stars(20), glow(0.5, 0.45, 0.25, GOLD)], chars=[C('nahusha', 'humble', 0.5, 0.74, 0.8, action='ascend', expression='serene')], cam=zoom(0.0, -0.05, move='crane-up'),
    sfx=[snd('shimmer-descend', at=0, vol=0.5)], transition='dissolve', notes='He rises to heaven.'),
- # 15 tease E07
- S('s15', 15, 'forest-hunt', variant='dusk', light='dusk', narr=N(15), type='prop-hero', fx=[embers(12), glow(0.5, 0.45, 0.3, FIRE)], props=[P('dead-snake-sage', 0.46, 0.55, 1.7, 'still'), P('shaap-stamp', 0.5, 0.29, 0.7, 'stamp-in')],
+ # 14 tease E07
+ S('s14', 14, 'forest-hunt', variant='dusk', light='dusk', narr=N(14), type='prop-hero', fx=[embers(12), glow(0.5, 0.45, 0.3, FIRE)], props=[P('dead-snake-sage', 0.46, 0.55, 1.7, 'still'), P('shaap-stamp', 0.5, 0.29, 0.7, 'stamp-in')],
    text=stamp('CURSED VII', 'शाप VII'), cues=[{'onWord': W('king', 'राजा'), 'do': 'stamp-next', 'target': 'shaap-stamp'}], cam=zoom(1.0, 1.08), sfx=[snd('drum-hit', 'king', 'राजा', vol=0.8)],
    overlay='folk-art-border', transition='cut-to-black', notes='Tease for E07: a sage in silent meditation, a dead snake laid over his shoulders (CE 1.36.18).'),
 ]
@@ -172,7 +175,7 @@ doc = {
 # --- checks -----------------------------------------------------------------
 errs, ids = [], [s['id'] for s in scenes]
 assert len(ids) == len(set(ids))
-clean = lambda t: [re.sub(r"[^\wऀ-ॣ०-ॿ]", '', w).lower() for w in re.sub("[’']s\\b", '', t).split()]
+clean = lambda t: [re.sub(r"[^\wऀ-ॣ०-ॿ]", '', w).lower() for w in t.split()]
 parent = {}
 for s in scenes:
     if any(s['narration'].values()): parent[s['beat']] = s
@@ -188,7 +191,7 @@ for s in scenes:
                 full = full[a:b]
             hits = [w for w in full if r['onWord'][l].lower().replace("'", '') in w]
             if len(hits) < r.get('nth', {}).get(l, 1): errs.append((s['id'], l, r['onWord'][l], 'not heard'))
-            elif hits[0] != r['onWord'][l].lower().replace("'", ''): errs.append((s['id'], l, r['onWord'][l], f'matches inside "{hits[0]}"'))
+            elif hits[0] not in (r['onWord'][l].lower().replace("'", ''), r['onWord'][l].lower() + 's'): errs.append((s['id'], l, r['onWord'][l], f'matches inside "{hits[0]}"'))
         if r.get('do') == 'hard-cut-to':
             t = next((x for x in scenes if x['id'] == r['target']), None)
             if not t or t['beat'] != s['beat'] or any(t['narration'].values()): errs.append((s['id'], 'bad insert', r['target']))

@@ -1,6 +1,6 @@
 # Script: S01E06 v2, The King of Heaven Who Became a Snake
 
-**v2 (2026-11-25), not yet voiced.** The owner asked whether v1 was clear. Read as a first-time viewer, its second half wasn't: the foot, the question and the end of the curse had no stated reason, and the quotes didn't say who was speaking. v1 is in `review/02-script-v1.md`; **the voice, storyboard, videos and kit are still v1.**
+**v2 (2026-11-25), not yet voiced.** The owner asked whether v1 was clear. Read as a first-time viewer, its second half wasn't: the foot, the question and the end of the curse had no stated reason, and the quotes didn't say who was speaking. v1 is in `review/02-script-v1.md`; the v1 storyboard, voice, kit and videos are kept in `review/` and `render/v1/`.
 
 **Spine:** a humble king → power changes him → a trap for his pride → he insults a sage → the curse, **with its way out** → the snake asks its question → the answer (*conduct*) is also why he fell → free.
 **What each change fixes:**

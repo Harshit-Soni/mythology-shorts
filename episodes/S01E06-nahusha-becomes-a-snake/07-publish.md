@@ -1,5 +1,7 @@
 # Publish kit: S01E06
 
+> **Written for v1. Update it after the v2 render** (lengths, thumbnails, replies). Don't post v1.
+
 Episode 6 of **S01 Shraap: Curses of the Mahabharata**.
 
 **Length:** EN 1:16, HI 1:19 (with the end card).
