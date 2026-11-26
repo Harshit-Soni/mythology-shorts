@@ -11,5 +11,5 @@
 | S01E07 | The King With Seven Days to Live | S01 | 7 Ready to publish (after your phone check, HI listen and research check): v2 plain retelling, EN 81.5s, HI 87.0s, kit + thumbnails done · v1 in render/v1, **don't post it** · suggested HI Thu 10 Dec / EN Fri 11 Dec | | | | | |
 | S01E08 | The Mother Who Cursed Krishna (season finale) | S01 | 7 Ready to publish (after your phone check, HI listen and research check): season finale, EN 87.7s, HI 92.9s, kit + thumbnails done · suggested HI Sun 13 Dec / EN Mon 14 Dec | | | | | |
 | S02E01 | The Warrior Cursed to Wander (Ashwatthama; teased in S01E08) | S02 | Planned: see series/S02-shraap-season-2/series.md (no folder yet) | | | | | |
-| S03E01 | Hanuman: why he never died (Chiranjeevi series) | S03 | Planned, suggested opener: see series/S03-chiranjeevi/series.md (no folder yet) | | | | | |
+| S03E01 | The One Who Asked to Live as Long as a Story (Hanuman; Chiranjeevi opener) | S03 | 0 Idea | | | | | |
 | X001 | Barbarika: The Warrior Who Gave His Head | one-off | 6 Rendered, two versions (cut-out SVG + illustrated ink-wash, 18 shots), EN ≈60s, HI ≈61s · ElevenLabs v4 voice · music bed + 9 sfx · 7 kit drafted · research unverified | | | | | |
