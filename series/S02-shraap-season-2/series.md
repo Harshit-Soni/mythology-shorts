@@ -38,6 +38,9 @@ So **S02E01 is Ashwatthama**. If the plan changes, S01E08's beat 14 must be re-v
 2. *Everyone says Ashwatthama is immortal. The Mahabharata gives a number: three thousand years.*
 3. *He tried to kill a baby before it was born. That baby became King Parikshit.*
 
+## Related series
+`series/S03-chiranjeevi/series.md` tells the other seven long-lived ones and leaves Ashwatthama to this season (owner's choice, 2026-11-26).
+
 ## Rules carried over from Season 1 (LEARNINGS.md)
 - **One plain story.** S1's E06, E07 and E08 v1 all needed rewriting for clarity. Write so a first-time viewer follows every line: who fought whom, whose side each person is on, one reason per event, the curse said once in plain parts and paid off in the same order.
 - **Hook states the danger**, not a riddle. Cut side stories, however good.
