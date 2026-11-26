@@ -58,6 +58,7 @@
 - [x] 3 Storyboard v2 (34 shots, 2026-11-26; v1 in review/)
 - [x] 4 Assets (made in code, 2026-11-26)
 - [x] 5 Voice (EN 84.1 s, HI 89.2 s)
-- [x] 6 Render (EN 87.7 s, HI 92.9 s; phone check pending) (watched on phone, sound on + off)
+- [x] 6 Render (EN 87.7 s, HI 92.9 s; phone check pending)
+- Kit written 2026-11-26 (07-publish.md) (watched on phone, sound on + off)
 - [ ] 7 Published (links in INDEX.md)
 - [ ] 8 Reviewed (7 days after upload)
