@@ -1,85 +1,2010 @@
 {
   "id": "S03E01",
   "title": {
-    "en": "",
-    "hi": ""
+    "en": "The One Who Asked to Live as Long as a Story",
+    "hi": "जो तब तक जीएँगे, जब तक कथा रहेगी"
   },
   "format": "short",
   "width": 1080,
   "height": 1920,
   "fps": 30,
   "sourceCredit": {
-    "en": "",
-    "hi": ""
+    "en": "Valmiki Ramayana, Kishkindha & Uttara Kanda",
+    "hi": "वाल्मीकि रामायण, किष्किंधा और उत्तर कांड"
+  },
+  "safeZone": {
+    "bottom": 0.2,
+    "right": 0.12
   },
   "grade": {
     "grain": 0.12,
     "vignette": 0.45,
     "shadows": true
   },
+  "sound": {
+    "music": {
+      "id": "mythic-drone",
+      "volume": 0.7,
+      "duckTo": 0.45,
+      "fadeInSec": 0.3,
+      "fadeOutSec": 1.5
+    },
+    "sfxVolume": 0.8
+  },
   "thumbnail": {
     "scene": "s01",
     "at": 0.5,
     "series": {
-      "en": "Indian Mythology",
-      "hi": "Indian Mythology"
+      "en": "Chiranjeevi · Episode 1",
+      "hi": "चिरंजीवी · भाग 1"
     },
     "title": {
-      "en": "{{TITLE}}",
-      "hi": "{{TITLE_HI}}"
+      "en": "The One Who Asked to Live as Long as a Story",
+      "hi": "जो तब तक जीएँगे, जब तक कथा रहेगी"
+    },
+    "titleLines": {
+      "en": [
+        "Why Hanuman",
+        "Never Died"
+      ],
+      "hi": [
+        "हनुमान",
+        "क्यों नहीं मरे?"
+      ]
     }
   },
   "scenes": [
     {
+      "id": "s00",
+      "beat": 0,
+      "type": "title-card",
+      "background": "parchment-card",
+      "characters": [],
+      "props": [
+        {
+          "id": "chiranjeevi-seal",
+          "x": 0.5,
+          "y": 0.42,
+          "scale": 1.2,
+          "action": "stamp-in"
+        }
+      ],
+      "overlay": "folk-art-border",
+      "camera": {
+        "move": "static"
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "fixedDurationSec": 1.0,
+      "onScreenText": {
+        "en": "CHIRANJEEVI I",
+        "hi": "चिरंजीवी I",
+        "style": "stamp-gold"
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "at": 0,
+          "volume": 0.6
+        },
+        {
+          "id": "stamp-thud",
+          "at": 0.15,
+          "volume": 0.8
+        }
+      ],
+      "transition": "border-wipe",
+      "music": 0.6,
+      "notes": "Series sting for S03 Chiranjeevi, reused every episode: the border closes, an undying lamp lands, numbered I."
+    },
+    {
       "id": "s01",
       "beat": 1,
       "type": "character",
-      "background": "background-id",
+      "background": "sunrise-peak",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.7,
+          "y": 0.5,
+          "color": "#FFE6B0"
+        },
+        {
+          "type": "dust",
+          "n": 10
+        }
+      ],
       "characters": [
         {
-          "id": "character-id",
+          "id": "hanuman",
           "pose": "standing",
-          "expression": "neutral",
-          "x": 0.5,
-          "y": 0.62,
-          "scale": 1,
+          "x": 0.42,
+          "y": 1.4,
+          "scale": 2.6,
           "flip": false,
-          "action": "idle"
+          "action": "still",
+          "expression": "calm"
         }
       ],
       "props": [],
       "camera": {
         "move": "slow-zoom-in",
         "from": 1.0,
-        "to": 1.08
+        "to": 1.06,
+        "focus": [
+          0.45,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "A god once told Hanuman: you'll die only when you choose. He never chose. Here's why.",
+        "hi": "एक देवता ने हनुमान से कहा था: तुम्हारी मृत्यु तभी होगी, जब तुम चाहोगे। उन्होंने कभी नहीं चाहा। क्यों?"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "never",
+            "hi": "कभी"
+          },
+          "do": "hard-cut-to",
+          "target": "s01b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "at": 0,
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "Hanuman in profile against a gold dawn: strong, calm, with his mace. Thumbnail."
+    },
+    {
+      "id": "s01b",
+      "beat": 1,
+      "type": "character",
+      "background": "peepal-night",
+      "backgroundVariant": "night",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.62,
+          "y": 0.66,
+          "r": 0.25,
+          "color": "#F2A541",
+          "pulse": true
+        },
+        {
+          "type": "stars",
+          "n": 24
+        }
+      ],
+      "characters": [
+        {
+          "id": "hanuman",
+          "pose": "seated-listening",
+          "x": 0.24,
+          "y": 0.84,
+          "scale": 0.8,
+          "flip": false,
+          "action": "still",
+          "expression": "calm"
+        }
+      ],
+      "props": [
+        {
+          "id": "katha-circle",
+          "x": 0.62,
+          "y": 0.74,
+          "scale": 1.1,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.06,
+        "to": 1.0
       },
       "narration": {
         "en": "",
         "hi": ""
       },
       "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "night-crickets",
+          "at": 0,
+          "volume": 0.35
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "Where it ends: a story told by a lamp, and him listening at the edge (beat 12)."
+    },
+    {
+      "id": "s02",
+      "beat": 2,
+      "type": "character",
+      "background": "sunrise-peak",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "birds",
+          "n": 5
+        },
+        {
+          "type": "dust",
+          "n": 8
+        }
+      ],
+      "characters": [
+        {
+          "id": "hanuman",
+          "pose": "baby-reaching",
+          "x": 0.36,
+          "y": 0.84,
+          "scale": 0.7,
+          "flip": false,
+          "action": "still",
+          "expression": "wonder"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      "narration": {
+        "en": "As a baby, Hanuman saw the rising sun, thought it was a fruit, and leaped into the sky to grab it.",
+        "hi": "बचपन में हनुमान ने उगता सूरज देखा, उसे फल समझा, और पकड़ने के लिए आसमान में छलाँग लगा दी।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "leaped",
+            "hi": "छलाँग"
+          },
+          "do": "hard-cut-to",
+          "target": "s02b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "at": 0.2,
+          "volume": 0.3
+        }
+      ],
+      "transition": "cut",
+      "notes": "A small child on a peak, the red sun rising like a fruit. CE 4.65.19."
+    },
+    {
+      "id": "s02b",
+      "beat": 2,
+      "type": "character",
+      "background": "heaven-sky",
+      "backgroundVariant": "dawn",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.72,
+          "y": 0.28,
+          "color": "#FFE6B0"
+        }
+      ],
+      "characters": [
+        {
+          "id": "hanuman",
+          "pose": "baby-leaping",
+          "x": 0.4,
+          "y": 0.8,
+          "scale": 0.9,
+          "flip": false,
+          "action": "still",
+          "expression": "wonder",
+          "shadow": false
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "crane-up",
+        "from": 0.05,
+        "to": -0.08
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "at": 0,
+          "volume": 0.4
+        }
+      ],
+      "transition": "cut",
+      "notes": "Up into the sky toward the sun (top right). \"Grab\", never \"swallow\"."
+    },
+    {
+      "id": "s03",
+      "beat": 3,
+      "type": "character",
+      "background": "heaven-sky",
+      "backgroundVariant": "dawn",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "sparks",
+          "n": 12
+        }
+      ],
+      "characters": [
+        {
+          "id": "indra",
+          "pose": "hurling-vajra",
+          "x": 0.6,
+          "y": 1.2,
+          "scale": 1.9,
+          "flip": true,
+          "action": "still",
+          "expression": "stern"
+        }
+      ],
+      "props": [
+        {
+          "id": "vajra-flash",
+          "x": 0.26,
+          "y": 0.38,
+          "scale": 0.8,
+          "action": "glint"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "Indra, king of the gods, struck him with a thunderbolt. He fell and broke his jaw, his hanu. That's how he got his name.",
+        "hi": "देवराज इंद्र ने उन पर वज्र चलाया। वो गिरे, और उनका जबड़ा, यानी हनु, टूट गया। इसीलिए नाम पड़ा, हनुमान।"
+      },
+      "onScreenText": {
+        "en": "Indra",
+        "hi": "इंद्र",
+        "style": "name-tag",
+        "sub": {
+          "en": "king of the gods",
+          "hi": "देवताओं के राजा"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "fell",
+            "hi": "गिरे"
+          },
+          "do": "hard-cut-to",
+          "target": "s03b"
+        },
+        {
+          "onWord": {
+            "en": "name",
+            "hi": "नाम"
+          },
+          "do": "hard-cut-to",
+          "target": "s03c"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "thunder-crack",
+          "onWord": {
+            "en": "thunderbolt",
+            "hi": "वज्र"
+          },
+          "volume": 0.6,
+          "offset": 0
+        }
+      ],
+      "transition": "cut",
+      "notes": "Indra hurls the vajra leftward, at the child. Not a villain: \"not very angry\" (7.35.46). CE 4.65.21."
+    },
+    {
+      "id": "s03b",
+      "beat": 3,
+      "type": "character",
+      "background": "himalaya-peaks",
+      "light": "dawn",
+      "fx": [],
+      "characters": [
+        {
+          "id": "hanuman",
+          "pose": "baby-falling",
+          "x": 0.5,
+          "y": 0.62,
+          "scale": 0.8,
+          "flip": false,
+          "action": "fall",
+          "expression": "hurt",
+          "shadow": false
+        }
+      ],
+      "props": [
+        {
+          "id": "vajra-flash",
+          "x": 0.5,
+          "y": 0.4,
+          "scale": 1.0,
+          "action": "glint"
+        }
+      ],
+      "camera": {
+        "move": "shake-then-zoom",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-boom-deep",
+          "at": 0,
+          "volume": 0.6
+        }
+      ],
+      "transition": "flash-white",
+      "notes": "A flash and a fall onto the peaks; no injury close-up. CE 4.65.22, 7.35.47."
+    },
+    {
+      "id": "s03c",
+      "beat": 3,
+      "type": "prop-hero",
+      "background": "parchment-card",
+      "fx": [],
+      "characters": [
+        {
+          "id": "hanuman",
+          "pose": "baby-glowing",
+          "x": 0.5,
+          "y": 0.78,
+          "scale": 0.9,
+          "flip": false,
+          "action": "still",
+          "expression": "calm"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.5
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": {
+        "en": "Hanuman",
+        "hi": "हनुमान",
+        "style": "name-tag",
+        "sub": {
+          "en": "hanu = jaw",
+          "hi": "हनु = जबड़ा"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "at": 0,
+          "volume": 0.4
+        }
+      ],
+      "overlay": "folk-art-border",
+      "transition": "cut",
+      "notes": "The name card. CE 4.65.22, 7.36.11."
+    },
+    {
+      "id": "s04",
+      "beat": 4,
+      "type": "character",
+      "background": "himalaya-gorge",
+      "backgroundVariant": "dusk",
+      "light": "night",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 10
+        }
+      ],
+      "characters": [
+        {
+          "id": "vayu",
+          "pose": "holding-child",
+          "x": 0.46,
+          "y": 1.25,
+          "scale": 2.1,
+          "flip": false,
+          "action": "still",
+          "expression": "furious"
+        }
+      ],
+      "props": [
+        {
+          "id": "wind-swirl",
+          "x": 0.7,
+          "y": 0.36,
+          "scale": 0.9,
+          "action": "circle"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.48,
+          0.38
+        ]
+      },
+      "narration": {
+        "en": "His father, the wind god, was so angry that he stopped all the air in the world.",
+        "hi": "उनके पिता, पवनदेव, इतने क्रोधित हुए कि उन्होंने संसार की सारी हवा रोक दी।"
+      },
+      "onScreenText": {
+        "en": "Vayu",
+        "hi": "पवनदेव",
+        "style": "name-tag",
+        "sub": {
+          "en": "the wind god, his father",
+          "hi": "हवा के देवता, उनके पिता"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "stopped",
+            "hi": "रोक"
+          },
+          "do": "hard-cut-to",
+          "target": "s04b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "wind-desolate",
+          "at": 0,
+          "volume": 0.6
+        }
+      ],
+      "transition": "cut",
+      "notes": "Vayu takes the child into a cave (7.35.48-49): grief and anger."
+    },
+    {
+      "id": "s04b",
+      "beat": 4,
+      "type": "character",
+      "background": "spring-forest",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [],
+      "characters": [],
+      "props": [
+        {
+          "id": "still-world",
+          "x": 0.5,
+          "y": 0.7,
+          "scale": 1.4,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "static"
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0.2,
+          "volume": 0.5
+        }
+      ],
+      "music": 0.2,
+      "transition": "cut",
+      "notes": "No wind: leaves hang, flags droop, birds and people stopped (silhouettes). The silence is the effect. CE 4.65.23, 7.35.49."
+    },
+    {
+      "id": "s05",
+      "beat": 5,
+      "type": "character",
+      "background": "heaven-sky",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.62,
+          "r": 0.35,
+          "color": "#E8B53A",
+          "pulse": true
+        },
+        {
+          "type": "stars",
+          "n": 20
+        }
+      ],
+      "characters": [
+        {
+          "id": "deva",
+          "pose": "offering",
+          "x": 0.2,
+          "y": 0.86,
+          "scale": 0.8,
+          "flip": false,
+          "action": "still"
+        },
+        {
+          "id": "hanuman",
+          "pose": "baby-glowing",
+          "x": 0.5,
+          "y": 0.8,
+          "scale": 0.7,
+          "flip": false,
+          "action": "still",
+          "expression": "calm"
+        },
+        {
+          "id": "deva",
+          "pose": "offering",
+          "x": 0.8,
+          "y": 0.86,
+          "scale": 0.8,
+          "flip": true,
+          "action": "still",
+          "variant": "b"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "So the gods calmed him with gifts for the child. Indra's was the greatest: \"You'll die only when you choose.\"",
+        "hi": "तब देवताओं ने उन्हें मनाने के लिए बालक को वरदान दिए। सबसे बड़ा इंद्र का था: \"तुम्हारी मृत्यु तभी होगी, जब तुम चाहोगे।\""
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "Indra",
+            "hi": "इंद्र"
+          },
+          "do": "hard-cut-to",
+          "target": "s05b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "at": 0,
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "The gods around the child, in a ring of light. CE 7.36.9-24."
+    },
+    {
+      "id": "s05b",
+      "beat": 5,
+      "type": "character",
+      "background": "heaven-sky",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.5,
+          "y": 0.3,
+          "color": "#FFE6B0"
+        }
+      ],
+      "characters": [
+        {
+          "id": "indra",
+          "pose": "standing-blessing",
+          "x": 0.5,
+          "y": 1.4,
+          "scale": 2.6,
+          "flip": false,
+          "action": "still",
+          "expression": "smiling",
+          "speaking": true
+        }
+      ],
+      "props": [
+        {
+          "id": "seal-stamp",
+          "x": 0.5,
+          "y": 0.2,
+          "scale": 0.6,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": {
+        "en": "BY CHOICE",
+        "hi": "इच्छा-मृत्यु",
+        "style": "stamp-gold"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "choose",
+            "hi": "चाहोगे"
+          },
+          "do": "stamp-next",
+          "target": "seal-stamp"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "stamp-thud",
+          "onWord": {
+            "en": "choose",
+            "hi": "चाहोगे"
+          },
+          "volume": 0.8,
+          "offset": 0.1
+        }
+      ],
+      "music": 1.1,
+      "transition": "cut",
+      "notes": "Indra, now kind, gives the boon: death only by his own wish. CE 4.65.26-27."
+    },
+    {
+      "id": "s06",
+      "beat": 6,
+      "type": "character",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dawn",
+      "light": "dawn",
+      "fx": [],
+      "characters": [
+        {
+          "id": "hanuman",
+          "pose": "standing",
+          "x": 0.3,
+          "y": 0.82,
+          "scale": 0.95,
+          "flip": false,
+          "action": "still",
+          "expression": "devoted"
+        },
+        {
+          "id": "rama",
+          "pose": "standing",
+          "x": 0.68,
+          "y": 0.82,
+          "scale": 0.95,
+          "flip": true,
+          "action": "still",
+          "expression": "calm"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05
+      },
+      "narration": {
+        "en": "Hanuman grew up to be Rama's most devoted friend. He even crossed the ocean to find Rama's wife, Sita.",
+        "hi": "बड़े होकर हनुमान राम के सबसे बड़े भक्त बने। सीता को ढूँढने, वो समुद्र तक लाँघ गए।"
+      },
+      "onScreenText": {
+        "en": "Rama",
+        "hi": "राम",
+        "style": "name-tag"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "crossed",
+            "hi": "समुद्र"
+          },
+          "do": "hard-cut-to",
+          "target": "s06b"
+        },
+        {
+          "onWord": {
+            "en": "Sita",
+            "hi": "सीता"
+          },
+          "do": "hard-cut-to",
+          "target": "s06c"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "at": 0,
+          "volume": 0.35
+        }
+      ],
+      "transition": "cut",
+      "notes": "Grown: Hanuman at Rama's side, palms joined."
+    },
+    {
+      "id": "s06b",
+      "beat": 6,
+      "type": "character",
+      "background": "sea-shore",
+      "backgroundVariant": "dawn",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "birds",
+          "n": 4
+        }
+      ],
+      "characters": [
+        {
+          "id": "hanuman",
+          "pose": "leaping",
+          "x": 0.42,
+          "y": 0.5,
+          "scale": 1.1,
+          "flip": false,
+          "action": "still",
+          "expression": "intent",
+          "shadow": false
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-pan-right",
+        "from": 0.0,
+        "to": 0.06
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "wind-desolate",
+          "at": 0,
+          "volume": 0.4
+        }
+      ],
+      "transition": "cut",
+      "notes": "One great leap over the sea. MBh 3.147.34."
+    },
+    {
+      "id": "s06c",
+      "beat": 6,
+      "type": "character",
+      "background": "spring-forest",
+      "backgroundVariant": "night",
+      "light": "moon",
+      "fx": [
+        {
+          "type": "leaf",
+          "n": 8
+        }
+      ],
+      "characters": [
+        {
+          "id": "sita",
+          "pose": "seated-grove",
+          "x": 0.5,
+          "y": 0.86,
+          "scale": 1.1,
+          "flip": false,
+          "action": "still",
+          "expression": "sad"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.55
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": {
+        "en": "Sita",
+        "hi": "सीता",
+        "style": "name-tag",
+        "sub": {
+          "en": "Rama's wife",
+          "hi": "राम की पत्नी"
+        }
+      },
+      "cues": [],
+      "sfx": [],
+      "transition": "dissolve",
+      "notes": "Found in a grove: dignified, waiting. MBh 3.147.35."
+    },
+    {
+      "id": "s07",
+      "beat": 7,
+      "type": "character",
+      "background": "king-court",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "dust",
+          "n": 8
+        }
+      ],
+      "characters": [
+        {
+          "id": "rama",
+          "pose": "enthroned",
+          "x": 0.5,
+          "y": 0.575,
+          "scale": 0.83,
+          "flip": false,
+          "action": "still",
+          "expression": "calm"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.42
+        ]
+      },
+      "narration": {
+        "en": "Rama became king. As his friends said goodbye, Hanuman asked for just one thing:",
+        "hi": "राम राजा बने। मित्रों की विदाई पर, हनुमान ने बस एक चीज़ माँगी:"
+      },
+      "onScreenText": {
+        "en": "Ayodhya",
+        "hi": "अयोध्या",
+        "style": "plate"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "goodbye",
+            "hi": "विदाई"
+          },
+          "do": "hard-cut-to",
+          "target": "s07b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "at": 0,
+          "volume": 0.4
+        }
+      ],
+      "transition": "cut",
+      "notes": "King at last. CE 7.38."
+    },
+    {
+      "id": "s07b",
+      "beat": 7,
+      "type": "character",
+      "background": "king-court",
+      "light": "dawn",
+      "fx": [],
+      "characters": [
+        {
+          "id": "rama",
+          "pose": "enthroned",
+          "x": 0.5,
+          "y": 0.575,
+          "scale": 0.83,
+          "flip": false,
+          "action": "still",
+          "expression": "calm"
+        },
+        {
+          "id": "hanuman",
+          "pose": "bowing",
+          "x": 0.24,
+          "y": 0.88,
+          "scale": 0.85,
+          "flip": false,
+          "action": "still",
+          "expression": "devoted"
+        }
+      ],
+      "props": [
+        {
+          "id": "vanara-crowd",
+          "x": 0.78,
+          "y": 0.84,
+          "scale": 0.7,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.06,
+        "to": 1.0
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "at": 0,
+          "volume": 0.4
+        }
+      ],
+      "transition": "cut",
+      "notes": "Friends leaving; Hanuman bows at the foot of the throne. CE 7.39.14."
+    },
+    {
+      "id": "s08",
+      "beat": 8,
+      "type": "character",
+      "background": "king-court",
+      "light": "dawn",
+      "fx": [],
+      "characters": [
+        {
+          "id": "hanuman",
+          "pose": "asking",
+          "x": 0.44,
+          "y": 1.4,
+          "scale": 2.6,
+          "flip": false,
+          "action": "still",
+          "expression": "devoted",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.45,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "\"As long as your story is told on earth, let me live, and hear it.\"",
+        "hi": "\"जब तक धरती पर आपकी कथा कही जाए, मैं जीवित रहूँ, और उसे सुनता रहूँ।\""
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "hear",
+            "hi": "सुनता"
+          },
+          "do": "hard-cut-to",
+          "target": "s08b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0,
+          "volume": 0.35
+        }
+      ],
+      "music": 0.5,
+      "transition": "cut",
+      "notes": "Close: palms joined, eyes up to Rama. CE 7.39.15-16."
+    },
+    {
+      "id": "s08b",
+      "beat": 8,
+      "type": "character",
+      "background": "king-court",
+      "light": "divine",
+      "fx": [],
+      "characters": [
+        {
+          "id": "rama",
+          "pose": "enthroned",
+          "x": 0.52,
+          "y": 1.2,
+          "scale": 1.9,
+          "flip": false,
+          "action": "still",
+          "expression": "moved"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "music": 0.5,
+      "transition": "cut",
+      "notes": "Rama hears it: \"to hear my story\"."
+    },
+    {
+      "id": "s09",
+      "beat": 9,
+      "type": "character",
+      "background": "king-court",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.5,
+          "r": 0.35,
+          "color": "#E8B53A",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "hanuman",
+          "pose": "embraced",
+          "x": 0.42,
+          "y": 1.12,
+          "scale": 1.7,
+          "flip": false,
+          "action": "still",
+          "expression": "moved"
+        },
+        {
+          "id": "rama",
+          "pose": "embracing",
+          "x": 0.58,
+          "y": 1.12,
+          "scale": 1.7,
+          "flip": true,
+          "action": "still",
+          "expression": "smile"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      "narration": {
+        "en": "Rama rose and hugged him: \"So it will be. My story will last as long as the world, and so will you.\"",
+        "hi": "राम उठे, और उन्हें गले लगा लिया: \"ऐसा ही होगा। जब तक संसार है, मेरी कथा रहेगी, और तुम भी।\""
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "story",
+            "hi": "कथा"
+          },
+          "do": "hard-cut-to",
+          "target": "s09b"
+        },
+        {
+          "onWord": {
+            "en": "you",
+            "hi": "तुम"
+          },
+          "do": "hard-cut-to",
+          "target": "s09c"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "shimmer-descend",
+          "at": 0,
+          "volume": 0.45
+        }
+      ],
+      "music": 1.1,
+      "transition": "cut",
+      "notes": "He rises from the throne and embraces him. CE 7.39.17."
+    },
+    {
+      "id": "s09b",
+      "beat": 9,
+      "type": "character",
+      "background": "king-court",
+      "light": "divine",
+      "fx": [],
+      "characters": [
+        {
+          "id": "rama",
+          "pose": "standing",
+          "x": 0.52,
+          "y": 1.4,
+          "scale": 2.6,
+          "flip": true,
+          "action": "still",
+          "expression": "smile",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
       "sfx": [],
       "transition": "cut",
-      "notes": ""
+      "notes": "Close: \"my story will last as long as the world\". CE 7.39.18-19."
+    },
+    {
+      "id": "s09c",
+      "beat": 9,
+      "type": "character",
+      "background": "king-court",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "sparks",
+          "n": 10
+        }
+      ],
+      "characters": [
+        {
+          "id": "hanuman",
+          "pose": "standing",
+          "x": 0.44,
+          "y": 1.4,
+          "scale": 2.6,
+          "flip": false,
+          "action": "still",
+          "expression": "moved"
+        }
+      ],
+      "props": [
+        {
+          "id": "rama-necklace",
+          "x": 0.44,
+          "y": 0.52,
+          "scale": 0.5,
+          "action": "glint"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.45,
+          0.45
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "at": 0.1,
+          "volume": 0.4
+        }
+      ],
+      "transition": "dissolve",
+      "notes": "Rama's own necklace now on Hanuman's chest, a glint (shown, not said). CE 7.39.20-21."
+    },
+    {
+      "id": "s10",
+      "beat": 10,
+      "type": "character",
+      "background": "yamuna-bank",
+      "backgroundVariant": "dawn",
+      "light": "dawn",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.78,
+          "y": 0.35,
+          "color": "#FFE6B0"
+        }
+      ],
+      "characters": [
+        {
+          "id": "rama",
+          "pose": "departing",
+          "x": 0.64,
+          "y": 0.84,
+          "scale": 0.9,
+          "flip": true,
+          "action": "still",
+          "expression": "calm"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-pan-right",
+        "from": 0.0,
+        "to": 0.04
+      },
+      "narration": {
+        "en": "Years later, when Rama left the world, everyone wanted to go with him.",
+        "hi": "बरसों बाद, जब राम धरती छोड़कर जाने लगे, तो सब उनके साथ जाना चाहते थे।"
+      },
+      "onScreenText": {
+        "en": "Years later",
+        "hi": "बरसों बाद",
+        "style": "plate"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "Years",
+            "hi": "बरसों"
+          },
+          "do": "title-in"
+        },
+        {
+          "onWord": {
+            "en": "everyone",
+            "hi": "सब"
+          },
+          "do": "hard-cut-to",
+          "target": "s10b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "at": 0,
+          "volume": 0.45
+        }
+      ],
+      "transition": "cut",
+      "notes": "In white, toward the light by the river. \"Left the world\", not died. CE 7.98-99."
+    },
+    {
+      "id": "s10b",
+      "beat": 10,
+      "type": "character",
+      "background": "yamuna-bank",
+      "backgroundVariant": "dawn",
+      "light": "dawn",
+      "fx": [],
+      "characters": [
+        {
+          "id": "rama",
+          "pose": "departing",
+          "x": 0.8,
+          "y": 0.84,
+          "scale": 0.8,
+          "flip": true,
+          "action": "still",
+          "expression": "calm"
+        }
+      ],
+      "props": [
+        {
+          "id": "vanara-crowd",
+          "x": 0.42,
+          "y": 0.8,
+          "scale": 1.5,
+          "action": "slide-right"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.04
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "battle-distant",
+          "at": 0,
+          "volume": 0.25
+        }
+      ],
+      "transition": "cut",
+      "notes": "Monkeys, bears, rakshasas and people all follow him. CE 7.98.17-20."
+    },
+    {
+      "id": "s11",
+      "beat": 11,
+      "type": "character",
+      "background": "yamuna-bank",
+      "backgroundVariant": "dawn",
+      "light": "dawn",
+      "fx": [],
+      "characters": [
+        {
+          "id": "hanuman",
+          "pose": "standing",
+          "x": 0.32,
+          "y": 1.1,
+          "scale": 1.65,
+          "flip": false,
+          "action": "still",
+          "expression": "devoted"
+        },
+        {
+          "id": "rama",
+          "pose": "hand-on-shoulder",
+          "x": 0.66,
+          "y": 1.1,
+          "scale": 1.65,
+          "flip": true,
+          "action": "still",
+          "expression": "calm",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.4
+        ]
+      },
+      "narration": {
+        "en": "But he told Hanuman: \"You chose to live. Keep your promise. Stay.\"",
+        "hi": "पर उन्होंने हनुमान से कहा: \"तुमने जीना चुना है। अपना वचन निभाओ। यहीं रहो।\""
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "Stay",
+            "hi": "यहीं"
+          },
+          "do": "hard-cut-to",
+          "target": "s11b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "heartbeat",
+          "at": 0,
+          "volume": 0.35
+        }
+      ],
+      "music": 0.5,
+      "transition": "cut",
+      "notes": "Face to face; Rama's hand on his shoulder. CE 7.98.24-25."
+    },
+    {
+      "id": "s11b",
+      "beat": 11,
+      "type": "character",
+      "background": "yamuna-bank",
+      "backgroundVariant": "dawn",
+      "light": "divine",
+      "fx": [],
+      "characters": [
+        {
+          "id": "hanuman",
+          "pose": "standing",
+          "x": 0.46,
+          "y": 1.4,
+          "scale": 2.6,
+          "flip": false,
+          "action": "still",
+          "expression": "moved"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.07,
+        "focus": [
+          0.46,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [],
+      "music": 0.5,
+      "transition": "light-wipe",
+      "notes": "Close: he accepts."
+    },
+    {
+      "id": "s12",
+      "beat": 12,
+      "type": "character",
+      "background": "yamuna-bank",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
+      "fx": [
+        {
+          "type": "rays",
+          "x": 0.8,
+          "y": 0.3,
+          "color": "#FFD9A0"
+        }
+      ],
+      "characters": [
+        {
+          "id": "hanuman",
+          "pose": "standing",
+          "x": 0.4,
+          "y": 0.84,
+          "scale": 0.9,
+          "flip": false,
+          "action": "still",
+          "expression": "calm"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-out",
+        "from": 1.06,
+        "to": 1.0
+      },
+      "narration": {
+        "en": "So Hanuman stayed: a Chiranjeevi, one who never died. And it's said, wherever Rama's story is told, he's listening. Even now.",
+        "hi": "तो हनुमान यहीं रह गए: एक चिरंजीवी, जो कभी नहीं मरे। और कहते हैं, जहाँ भी राम कथा होती है, वो वहाँ बैठकर सुनते हैं। आज भी।"
+      },
+      "onScreenText": {
+        "en": "Chiranjeevi",
+        "hi": "चिरंजीवी",
+        "style": "name-tag",
+        "sub": {
+          "en": "one who never died",
+          "hi": "जो कभी नहीं मरे"
+        }
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "wherever",
+            "hi": "जहाँ"
+          },
+          "do": "hard-cut-to",
+          "target": "s12b"
+        },
+        {
+          "onWord": {
+            "en": "Even",
+            "hi": "आज"
+          },
+          "do": "hard-cut-to",
+          "target": "s12c"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "wind-desolate",
+          "at": 0,
+          "volume": 0.3
+        }
+      ],
+      "transition": "cut",
+      "notes": "The bank empty; he alone stays, looking where Rama went."
+    },
+    {
+      "id": "s12b",
+      "beat": 12,
+      "type": "character",
+      "background": "peepal-night",
+      "backgroundVariant": "night",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.62,
+          "y": 0.66,
+          "r": 0.25,
+          "color": "#F2A541",
+          "pulse": true
+        },
+        {
+          "type": "stars",
+          "n": 24
+        }
+      ],
+      "characters": [
+        {
+          "id": "hanuman",
+          "pose": "seated-listening",
+          "x": 0.24,
+          "y": 0.84,
+          "scale": 0.8,
+          "flip": false,
+          "action": "still",
+          "expression": "calm"
+        }
+      ],
+      "props": [
+        {
+          "id": "katha-circle",
+          "x": 0.62,
+          "y": 0.74,
+          "scale": 1.1,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.4,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "night-crickets",
+          "at": 0,
+          "volume": 0.35
+        }
+      ],
+      "transition": "cut",
+      "notes": "A storyteller and listeners by a lamp; at the edge of the light, Hanuman sits. Tradition, \"it's said\". MBh 3.147.39."
+    },
+    {
+      "id": "s12c",
+      "beat": 12,
+      "type": "character",
+      "background": "peepal-night",
+      "backgroundVariant": "night",
+      "light": "fire",
+      "fx": [
+        {
+          "type": "glow",
+          "x": 0.5,
+          "y": 0.5,
+          "r": 0.3,
+          "color": "#F2A541",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "hanuman",
+          "pose": "seated-listening",
+          "x": 0.48,
+          "y": 1.3,
+          "scale": 2.4,
+          "flip": false,
+          "action": "still",
+          "expression": "smile"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.48,
+          0.38
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "temple-bells",
+          "at": 0.2,
+          "volume": 0.35
+        }
+      ],
+      "music": 1.1,
+      "transition": "dissolve",
+      "notes": "Close: eyes half closed, a small smile."
+    },
+    {
+      "id": "s13",
+      "beat": 13,
+      "type": "prop-hero",
+      "background": "parchment-card",
+      "fx": [],
+      "characters": [],
+      "props": [
+        {
+          "id": "three-steps",
+          "x": 0.5,
+          "y": 0.56,
+          "scale": 1.5,
+          "action": "still"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "Next: Bali, the king who promised a dwarf three steps of land.",
+        "hi": "अगली बार: बलि, वो राजा जिसने एक बौने ब्राह्मण को तीन पग ज़मीन का वचन दिया।"
+      },
+      "onScreenText": {
+        "en": "Bali",
+        "hi": "बलि",
+        "style": "name-tag",
+        "sub": {
+          "en": "next episode",
+          "hi": "अगली कड़ी"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-boom-deep",
+          "at": 0,
+          "volume": 0.6
+        }
+      ],
+      "overlay": "folk-art-border",
+      "transition": "cut-to-black",
+      "notes": "A king's silhouette, a small figure with an umbrella, three glowing footprints. Bhagavata 8 (to research)."
     }
   ],
   "assets": {
     "characters": [
       {
-        "id": "",
-        "status": "new | library"
+        "id": "hanuman",
+        "status": "new",
+        "poses": {
+          "standing": "new",
+          "seated-listening": "new",
+          "baby-reaching": "new",
+          "baby-leaping": "new",
+          "baby-falling": "new",
+          "baby-glowing": "new",
+          "leaping": "new",
+          "bowing": "new",
+          "asking": "new",
+          "embraced": "new"
+        }
+      },
+      {
+        "id": "indra",
+        "status": "new",
+        "poses": {
+          "hurling-vajra": "new",
+          "standing-blessing": "library"
+        }
+      },
+      {
+        "id": "vayu",
+        "status": "new",
+        "poses": {
+          "holding-child": "new"
+        }
+      },
+      {
+        "id": "deva",
+        "status": "library",
+        "poses": {
+          "offering": "library"
+        }
+      },
+      {
+        "id": "rama",
+        "status": "new",
+        "poses": {
+          "standing": "new",
+          "enthroned": "new",
+          "embracing": "new",
+          "departing": "new",
+          "hand-on-shoulder": "new"
+        }
+      },
+      {
+        "id": "sita",
+        "status": "new",
+        "poses": {
+          "seated-grove": "new"
+        }
       }
     ],
     "backgrounds": [
       {
-        "id": "",
-        "status": "new | library"
+        "id": "parchment-card",
+        "status": "library"
+      },
+      {
+        "id": "sunrise-peak",
+        "status": "new"
+      },
+      {
+        "id": "peepal-night",
+        "status": "library"
+      },
+      {
+        "id": "heaven-sky",
+        "status": "library"
+      },
+      {
+        "id": "himalaya-peaks",
+        "status": "library"
+      },
+      {
+        "id": "himalaya-gorge",
+        "status": "library"
+      },
+      {
+        "id": "spring-forest",
+        "status": "library"
+      },
+      {
+        "id": "red-sky-plain",
+        "status": "library"
+      },
+      {
+        "id": "sea-shore",
+        "status": "library"
+      },
+      {
+        "id": "king-court",
+        "status": "library"
+      },
+      {
+        "id": "yamuna-bank",
+        "status": "library"
       }
     ],
     "props": [
       {
-        "id": "",
-        "status": "new | library"
+        "id": "chiranjeevi-seal",
+        "status": "new"
+      },
+      {
+        "id": "katha-circle",
+        "status": "new"
+      },
+      {
+        "id": "vajra-flash",
+        "status": "library"
+      },
+      {
+        "id": "wind-swirl",
+        "status": "library"
+      },
+      {
+        "id": "still-world",
+        "status": "new"
+      },
+      {
+        "id": "vanara-crowd",
+        "status": "new"
+      },
+      {
+        "id": "rama-necklace",
+        "status": "new"
+      },
+      {
+        "id": "three-steps",
+        "status": "new"
+      },
+      {
+        "id": "seal-stamp",
+        "status": "library"
+      }
+    ],
+    "overlays": [
+      {
+        "id": "folk-art-border",
+        "status": "library"
       }
     ]
   }

@@ -20,13 +20,18 @@ S01E08 promises "Next season on Shraap: Ashwatthama". So he is **not** an episod
 ## Episodes (order can change)
 | # | Who | Why he lives on (to verify) | Primary sources to read first | Library reuse | Status |
 |---|---|---|---|---|---|
-| E01 | **Hanuman** | A boon from Rama: to live as long as Rama's story is told on earth | Valmiki Ramayana, Uttara Kanda (valmiki.iitk.ac.in); the boons of the gods in his childhood | New: Hanuman, Rama (a new domain: concept check first) | 1 Research (`episodes/S03E01-hanuman-never-died/`) |
+| E01 | **Hanuman** | A boon from Rama: to live as long as Rama's story is told on earth | Valmiki Ramayana, Uttara Kanda (valmiki.iitk.ac.in); the boons of the gods in his childhood | New: Hanuman, Rama (a new domain: concept check first) | 3 Storyboard (`episodes/S03E01-hanuman-never-died/`) |
 | E02 | **Bali** | Vamana's three steps; Bali goes to rule Sutala, promised to be a future Indra | Bhagavata Purana, book 8; Vamana Purana (wisdomlib) | `indra`, heaven backgrounds | Planned |
 | E03 | **Vibhishana** | Ravana's brother who joined Rama; crowned king of Lanka, told to rule long | Valmiki Ramayana, Yuddha and Uttara Kanda | Rama, Hanuman from E01 | Planned |
 | E04 | **Parashurama** | The warrior-sage who lives on, doing penance on Mahendra mountain | Mahabharata (Shanti, Udyoga); Puranas | `parashurama`, `mahendra-ashram` | Planned |
 | E05 | **Markandeya** | The boy fated to die at sixteen, saved from death by Shiva | Markandeya Purana; Mahabharata (Vana, Markandeya's tales) | sage rigs | Planned |
 | E06 | **Kripa** | A survivor of the war; given a place among the future seven sages | Mahabharata; Vishnu Purana 3.2 (to check) | sage / warrior rigs | Planned |
 | E07 | **Vyasa** | The sage who composed the epic and lives on | Mahabharata; Puranas | sage rigs | Planned, finale; ends pointing to Ashwatthama |
+
+## Recurring elements
+- **Sting `s00`** (1 s): parchment card, folk-art border, an undying-lamp seal (`chiranjeevi-seal`) stamped in, **CHIRANJEEVI I / चिरंजीवी I** (numbered per episode). Built in S03E01's `svg/build-scenes.py`; copy it from there.
+- **Thumbnail series line:** "Chiranjeevi · Episode N" / "चिरंजीवी · भाग N".
+- **Closing card:** a name tag for the next one (`next episode` / `अगली कड़ी`).
 
 ## Before E01
 - **New visual domain:** Hanuman, Rama and Lanka have no approved precedent. Do a concept check (PIPELINE Stage 4, LEARNINGS → Assets) before the cast. Hanuman must be shown with dignity (CLAUDE.md rule 2).
