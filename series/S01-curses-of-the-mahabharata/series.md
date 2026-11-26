@@ -21,7 +21,7 @@
 | E05 | **Karna's curses**: Parashurama and the Brahmin's cow | "Karna was doomed twice before the war even began." | Shanti Parva | The Bhudevi curse is from later retellings, so flag it as such | Videos + kit ready (EN 81 s, HI 93 s); needs phone check + research check; suggested Thu 3 / Fri 4 Dec |
 | E06 | **Agastya curses Nahusha**: a king of the gods becomes a snake | "The gods once made a human their king." (say "touched with his foot", not "kicked": see E06 research) | Udyoga / Vana Parva | | Ready to publish v2 25 Nov (don't post v1; research needs verify) |
 | E07 | **Shringi curses Parikshit**: Takshaka | "A dead snake around a sage's neck killed a king." | Adi Parva | | Ready to publish v2 26 Nov (don't post v1) (v1 unclear, don't post it; research needs verify) |
-| E08 | **Gandhari curses Krishna**: the end of the Yadavas | "A mother's grief cursed God himself." | Stri Parva, Mausala Parva | Series finale | Voiced 26 Nov, next: render; ends on a Season 2 tease: Ashwatthama |
+| E08 | **Gandhari curses Krishna**: the end of the Yadavas | "A mother's grief cursed God himself." | Stri Parva, Mausala Parva | Series finale | Rendered 26 Nov, next: publish kit; ends on a Season 2 tease: Ashwatthama |
 
 ## Full curse catalogue
 See `curses-catalog.md`: every curse in the epic, with source, fit and candidates for new episodes.
