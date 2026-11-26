@@ -145,26 +145,18 @@
         ]
       },
       "narration": {
-        "en": "A mother cursed Krishna. He smiled… and made it come true.",
-        "hi": "एक माँ ने कृष्ण को शाप दिया। वो मुस्कुराए… और उसे सच कर दिया।"
+        "en": "A mother once cursed Krishna. Thirty-six years later, every word came true.",
+        "hi": "एक माँ ने कृष्ण को शाप दिया था। छत्तीस साल बाद, उसका हर शब्द सच हुआ।"
       },
       "onScreenText": null,
       "cues": [
         {
           "onWord": {
-            "en": "smiled",
-            "hi": "वो"
+            "en": "Thirty-six",
+            "hi": "छत्तीस"
           },
           "do": "hard-cut-to",
           "target": "s01b"
-        },
-        {
-          "onWord": {
-            "en": "made",
-            "hi": "उसे"
-          },
-          "do": "hard-cut-to",
-          "target": "s01c"
         }
       ],
       "sfx": [
@@ -185,30 +177,32 @@
       "id": "s01b",
       "beat": 1,
       "type": "character",
-      "background": "red-sky-plain",
-      "light": "dusk",
-      "fx": [],
+      "background": "forest-hunt",
+      "backgroundVariant": "night",
+      "light": "silhouette",
+      "fx": [
+        {
+          "type": "stars",
+          "n": 30
+        }
+      ],
       "characters": [
         {
           "id": "krishna",
-          "pose": "standing",
-          "x": 0.5,
-          "y": 1.4,
-          "scale": 2.7,
-          "flip": true,
-          "action": "still",
-          "expression": "smile"
+          "pose": "walking",
+          "x": 0.42,
+          "y": 0.86,
+          "scale": 0.8,
+          "flip": false,
+          "action": "step-forward",
+          "expression": "calm"
         }
       ],
       "props": [],
       "camera": {
-        "move": "push-in-fast",
-        "from": 1.0,
-        "to": 1.08,
-        "focus": [
-          0.5,
-          0.36
-        ]
+        "move": "slow-zoom-out",
+        "from": 1.06,
+        "to": 1.0
       },
       "narration": {
         "en": "",
@@ -218,69 +212,73 @@
       "cues": [],
       "sfx": [
         {
-          "id": "shimmer-descend",
+          "id": "wind-desolate",
           "at": 0,
-          "volume": 0.4
+          "volume": 0.45
         }
       ],
-      "music": 0.5,
-      "transition": "cut",
-      "notes": "The faint smile. CE 11.25.43."
+      "transition": "dissolve",
+      "notes": "Where it ends: alone, among trees."
     },
     {
-      "id": "s01c",
-      "beat": 1,
-      "type": "character",
-      "background": "sea-shore",
-      "backgroundVariant": "night",
-      "light": "silhouette",
+      "id": "s02",
+      "beat": 2,
+      "type": "prop-hero",
+      "background": "red-sky-plain",
+      "backgroundVariant": "dusk",
+      "light": "dusk",
       "fx": [
         {
-          "type": "embers",
-          "n": 14
+          "type": "dust",
+          "n": 16
         }
       ],
       "characters": [],
       "props": [
         {
-          "id": "clan-falling",
+          "id": "two-armies",
           "x": 0.5,
-          "y": 0.72,
-          "scale": 1.5,
-          "action": "still"
-        },
-        {
-          "id": "dark-moon",
-          "x": 0.5,
-          "y": 0.26,
-          "scale": 0.9,
+          "y": 0.66,
+          "scale": 1.6,
           "action": "still"
         }
       ],
       "camera": {
-        "move": "slow-zoom-in",
-        "from": 1.0,
-        "to": 1.06
+        "move": "slow-pan-right",
+        "from": 0.0,
+        "to": 0.05
       },
       "narration": {
-        "en": "",
-        "hi": ""
+        "en": "The Mahabharata war was cousins against cousins: Kauravas against Pandavas.",
+        "hi": "महाभारत का युद्ध भाइयों के बीच था: कौरव और पांडव।"
       },
-      "onScreenText": null,
-      "cues": [],
-      "sfx": [
+      "onScreenText": {
+        "en": "Kauravas vs Pandavas",
+        "hi": "कौरव बनाम पांडव",
+        "style": "plate"
+      },
+      "cues": [
         {
-          "id": "drum-boom-deep",
-          "at": 0,
-          "volume": 0.6
+          "onWord": {
+            "en": "Kauravas",
+            "hi": "कौरव"
+          },
+          "do": "title-in"
         }
       ],
-      "transition": "flash-white",
-      "notes": "It comes true: the end, shown first. CE 16.4.36-42."
+      "sfx": [
+        {
+          "id": "battle-distant",
+          "at": 0,
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "Two armies, two colours: Kaurava maroon on the left, Pandava blue on the right. CE 1.103-108."
     },
     {
-      "id": "s02",
-      "beat": 2,
+      "id": "s03",
+      "beat": 3,
       "type": "prop-hero",
       "background": "red-sky-plain",
       "backgroundVariant": "dusk",
@@ -314,18 +312,18 @@
         "to": 0.05
       },
       "narration": {
-        "en": "The war was over. All hundred sons of Queen Gandhari were dead.",
-        "hi": "युद्ध ख़त्म हो चुका था। रानी गांधारी के सौ के सौ बेटे मारे गए थे।"
+        "en": "The Kauravas lost. Their mother, Queen Gandhari, lost all hundred of her sons.",
+        "hi": "कौरव हार गए। उनकी माँ, रानी गांधारी ने अपने सौ के सौ बेटे खो दिए।"
       },
       "onScreenText": null,
       "cues": [
         {
           "onWord": {
-            "en": "All",
-            "hi": "रानी"
+            "en": "Their",
+            "hi": "उनकी"
           },
           "do": "hard-cut-to",
-          "target": "s02b"
+          "target": "s03b"
         }
       ],
       "sfx": [
@@ -340,8 +338,8 @@
       "notes": "Broken wheels, banners, no bodies."
     },
     {
-      "id": "s02b",
-      "beat": 2,
+      "id": "s03b",
+      "beat": 3,
       "type": "character",
       "background": "red-sky-plain",
       "backgroundVariant": "dusk",
@@ -391,118 +389,7 @@
         }
       ],
       "transition": "dissolve",
-      "notes": "She bound her own eyes for her blind husband (1.103.13). Hands empty."
-    },
-    {
-      "id": "s03",
-      "beat": 3,
-      "type": "character",
-      "background": "red-sky-plain",
-      "backgroundVariant": "dusk",
-      "light": "dusk",
-      "fx": [],
-      "characters": [
-        {
-          "id": "gandhari",
-          "pose": "holding-back",
-          "x": 0.24,
-          "y": 0.84,
-          "scale": 1.0,
-          "flip": false,
-          "action": "still",
-          "expression": "grief"
-        },
-        {
-          "id": "yudhishthira",
-          "pose": "kneeling-bowed",
-          "x": 0.56,
-          "y": 0.84,
-          "scale": 0.95,
-          "flip": true,
-          "action": "still"
-        },
-        {
-          "id": "arjuna",
-          "pose": "bowing-eyes-closed",
-          "x": 0.8,
-          "y": 0.8,
-          "scale": 0.85,
-          "flip": true,
-          "action": "still"
-        }
-      ],
-      "props": [],
-      "camera": {
-        "move": "slow-zoom-in",
-        "from": 1.0,
-        "to": 1.06
-      },
-      "narration": {
-        "en": "She held back from cursing the Pandavas, who killed them: \"My own son caused this.\"",
-        "hi": "मारने वाले पांडवों को उन्होंने शाप नहीं दिया। बोलीं: \"दोष मेरे ही बेटे का था।\""
-      },
-      "onScreenText": null,
-      "cues": [
-        {
-          "onWord": {
-            "en": "My",
-            "hi": "दोष"
-          },
-          "do": "hard-cut-to",
-          "target": "s03b"
-        }
-      ],
-      "sfx": [
-        {
-          "id": "heartbeat",
-          "at": 0,
-          "volume": 0.45
-        }
-      ],
-      "transition": "cut",
-      "notes": "The raised hand is held back by her own other hand. CE 11.13.2-15, 11.15.2-8."
-    },
-    {
-      "id": "s03b",
-      "beat": 3,
-      "type": "character",
-      "background": "red-sky-plain",
-      "backgroundVariant": "dusk",
-      "light": "dusk",
-      "fx": [],
-      "characters": [
-        {
-          "id": "gandhari",
-          "pose": "holding-back",
-          "x": 0.5,
-          "y": 1.4,
-          "scale": 2.6,
-          "flip": false,
-          "action": "still",
-          "expression": "grief",
-          "speaking": true
-        }
-      ],
-      "props": [],
-      "camera": {
-        "move": "slow-zoom-in",
-        "from": 1.0,
-        "to": 1.05,
-        "focus": [
-          0.5,
-          0.36
-        ]
-      },
-      "narration": {
-        "en": "",
-        "hi": ""
-      },
-      "onScreenText": null,
-      "cues": [],
-      "sfx": [],
-      "music": 0.5,
-      "transition": "cut",
-      "notes": "\"Duryodhana...\" CE 11.13.14."
+      "notes": "She bound her own eyes for her blind husband (1.103.13). CE 11.14.20."
     },
     {
       "id": "s04",
@@ -520,7 +407,7 @@
         {
           "id": "gandhari",
           "pose": "grief",
-          "x": 0.2,
+          "x": 0.22,
           "y": 0.84,
           "scale": 0.95,
           "flip": false,
@@ -535,13 +422,6 @@
           "y": 0.7,
           "scale": 1.3,
           "action": "still"
-        },
-        {
-          "id": "lamp-rows",
-          "x": 0.5,
-          "y": 0.86,
-          "scale": 1.5,
-          "action": "flicker-distant"
         }
       ],
       "camera": {
@@ -550,26 +430,34 @@
         "to": 1.05
       },
       "narration": {
-        "en": "But seeing the battlefield, she asked Krishna: \"You could have stopped this. Why did you look on?\"",
-        "hi": "पर रणभूमि देखकर वो कृष्ण से बोलीं: \"तुम ये रोक सकते थे। फिर क्यों देखते रहे?\""
+        "en": "On the battlefield, she turned to Krishna, who had helped the Pandavas win: \"You could have stopped this war. Why didn't you?\"",
+        "hi": "रणभूमि में उन्होंने कृष्ण से पूछा, जो पांडवों के साथ थे: \"तुम ये युद्ध रोक सकते थे। क्यों नहीं रोका?\""
       },
       "onScreenText": null,
       "cues": [
         {
           "onWord": {
-            "en": "asked",
-            "hi": "वो"
+            "en": "Krishna",
+            "hi": "कृष्ण"
           },
           "do": "hard-cut-to",
           "target": "s04b"
         },
         {
           "onWord": {
-            "en": "Why",
-            "hi": "फिर"
+            "en": "You",
+            "hi": "तुम"
           },
           "do": "hard-cut-to",
           "target": "s04c"
+        },
+        {
+          "onWord": {
+            "en": "Why",
+            "hi": "क्यों"
+          },
+          "do": "hard-cut-to",
+          "target": "s04d"
         }
       ],
       "sfx": [
@@ -580,10 +468,109 @@
         }
       ],
       "transition": "cut",
-      "notes": "The widows among the lamps. CE 11.16.9-19."
+      "notes": "The widows on the field. CE 11.16.9-19."
     },
     {
       "id": "s04b",
+      "beat": 4,
+      "type": "character",
+      "background": "red-sky-plain",
+      "light": "fire",
+      "fx": [],
+      "characters": [
+        {
+          "id": "krishna",
+          "pose": "standing",
+          "x": 0.52,
+          "y": 1.4,
+          "scale": 2.6,
+          "flip": true,
+          "action": "still",
+          "expression": "calm"
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": {
+        "en": "Krishna",
+        "hi": "कृष्ण",
+        "style": "name-tag",
+        "sub": {
+          "en": "on the Pandavas' side",
+          "hi": "पांडवों के साथ"
+        }
+      },
+      "cues": [],
+      "sfx": [
+        {
+          "id": "gong-soft",
+          "at": 0,
+          "volume": 0.4
+        }
+      ],
+      "transition": "cut",
+      "notes": "Who she turns to. CE 9.62.15-19."
+    },
+    {
+      "id": "s04c",
+      "beat": 4,
+      "type": "character",
+      "background": "red-sky-plain",
+      "light": "fire",
+      "fx": [],
+      "characters": [
+        {
+          "id": "gandhari",
+          "pose": "accusing",
+          "x": 0.46,
+          "y": 1.4,
+          "scale": 2.6,
+          "flip": false,
+          "action": "still",
+          "expression": "anger",
+          "speaking": true
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.08,
+        "focus": [
+          0.5,
+          0.36
+        ]
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": null,
+      "cues": [],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "at": 0,
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "Open palm, not a pointing finger. CE 11.25.36-37."
+    },
+    {
+      "id": "s04d",
       "beat": 4,
       "type": "character",
       "background": "red-sky-plain",
@@ -603,7 +590,7 @@
           "scale": 1.65,
           "flip": false,
           "action": "still",
-          "expression": "anger",
+          "expression": "grief",
           "speaking": true
         },
         {
@@ -635,52 +622,6 @@
       "cues": [],
       "sfx": [
         {
-          "id": "drum-hit",
-          "at": 0,
-          "volume": 0.5
-        }
-      ],
-      "transition": "cut",
-      "notes": "Open palm, not a pointing finger. CE 11.25.36-37."
-    },
-    {
-      "id": "s04c",
-      "beat": 4,
-      "type": "character",
-      "background": "red-sky-plain",
-      "light": "fire",
-      "fx": [],
-      "characters": [
-        {
-          "id": "gandhari",
-          "pose": "accusing",
-          "x": 0.46,
-          "y": 1.4,
-          "scale": 2.6,
-          "flip": false,
-          "action": "still",
-          "expression": "grief",
-          "speaking": true
-        }
-      ],
-      "props": [],
-      "camera": {
-        "move": "push-in-fast",
-        "from": 1.0,
-        "to": 1.08,
-        "focus": [
-          0.5,
-          0.36
-        ]
-      },
-      "narration": {
-        "en": "",
-        "hi": ""
-      },
-      "onScreenText": null,
-      "cues": [],
-      "sfx": [
-        {
           "id": "heartbeat",
           "at": 0,
           "volume": 0.6
@@ -688,7 +629,7 @@
       ],
       "music": 0.4,
       "transition": "cut",
-      "notes": "THE question of the episode: upeksitah, \"looked on\"."
+      "notes": "Face to face."
     },
     {
       "id": "s05",
@@ -726,14 +667,14 @@
         "to": 1.05
       },
       "narration": {
-        "en": "He had tried. He'd asked for peace, and her son refused.",
-        "hi": "कृष्ण ने रोकना चाहा था। वो शांति माँगने गए थे, पर गांधारी का बेटा नहीं माना।"
+        "en": "Krishna had tried. Her own son had refused peace.",
+        "hi": "कृष्ण ने कोशिश की थी। गांधारी के अपने बेटे ने ही सुलह ठुकराई थी।"
       },
       "onScreenText": null,
       "cues": [
         {
           "onWord": {
-            "en": "her",
+            "en": "Her",
             "hi": "गांधारी"
           },
           "do": "hard-cut-to",
@@ -749,8 +690,8 @@
       ],
       "overlay": "sepia-folk-frame",
       "music": 0.6,
-      "transition": "memory-ripple",
-      "notes": "Before the war: the envoy. CE 5.91, 5.93."
+      "transition": "cut",
+      "notes": "Before the war: Krishna asks for peace. CE 5.91, 5.93."
     },
     {
       "id": "s05b",
@@ -851,8 +792,8 @@
         ]
       },
       "narration": {
-        "en": "Grieving, she cursed him: \"You let my clan die. You'll destroy yours! In the thirty-sixth year, you'll lose them all, and meet your end wandering the forest!\"",
-        "hi": "शोक में गांधारी ने शाप दिया: \"तुमने मेरा कुल मिटने दिया। तुम अपना ही कुल मिटाओगे! छत्तीसवें बरस सबको खोकर, वन में भटकते अंत पाओगे!\""
+        "en": "But in her grief, she cursed him: \"My family killed each other. Yours will too! In thirty-six years, you'll lose them all, and die alone in a forest!\"",
+        "hi": "पर शोक में गांधारी ने शाप दिया: \"मेरा परिवार आपस में लड़कर मरा। तुम्हारा भी मरेगा! छत्तीस साल बाद, सबको खोकर, वन में अकेले प्राण छोड़ोगे!\""
       },
       "onScreenText": {
         "en": "CURSED",
@@ -870,26 +811,23 @@
         },
         {
           "onWord": {
-            "en": "You'll",
-            "hi": "तुम"
+            "en": "Yours",
+            "hi": "तुम्हारा"
           },
           "do": "hard-cut-to",
-          "target": "s06b",
-          "nth": {
-            "hi": 2
-          }
+          "target": "s06b"
         },
         {
           "onWord": {
-            "en": "thirty-sixth",
-            "hi": "छत्तीसवें"
+            "en": "thirty-six",
+            "hi": "छत्तीस"
           },
           "do": "hard-cut-to",
           "target": "s06c"
         },
         {
           "onWord": {
-            "en": "meet",
+            "en": "die",
             "hi": "वन"
           },
           "do": "hard-cut-to",
@@ -967,7 +905,7 @@
       ],
       "music": 1.1,
       "transition": "cut",
-      "notes": "Close: you will destroy yours."
+      "notes": "Close: yours will too."
     },
     {
       "id": "s06c",
@@ -984,13 +922,6 @@
       ],
       "characters": [],
       "props": [
-        {
-          "id": "dark-moon",
-          "x": 0.5,
-          "y": 0.26,
-          "scale": 0.9,
-          "action": "still"
-        },
         {
           "id": "clan-falling",
           "x": 0.5,
@@ -1018,7 +949,7 @@
         }
       ],
       "transition": "dissolve",
-      "notes": "What she sees: his clan. CE 11.25.41."
+      "notes": "What she says: his clan, falling. CE 11.25.41."
     },
     {
       "id": "s06d",
@@ -1093,14 +1024,14 @@
         ]
       },
       "narration": {
-        "en": "Krishna smiled faintly: \"I know. Only I can end my clan.\"",
-        "hi": "कृष्ण मुस्कुराए: \"जानता हूँ। मेरे कुल का अंत मैं ही कर सकता हूँ।\""
+        "en": "Krishna only smiled: \"I know. That is how my clan will end.\"",
+        "hi": "कृष्ण बस मुस्कुराए: \"मैं जानता हूँ। मेरे कुल का अंत ऐसे ही होगा।\""
       },
       "onScreenText": null,
       "cues": [
         {
           "onWord": {
-            "en": "Only",
+            "en": "That",
             "hi": "मेरे"
           },
           "do": "hard-cut-to",
@@ -1171,7 +1102,7 @@
         }
       ],
       "music": 0.4,
-      "transition": "cut",
+      "transition": "fade-to-night",
       "notes": "The Pandavas, stricken, behind him. CE 11.25.46."
     },
     {
@@ -1194,31 +1125,34 @@
         "to": -0.05
       },
       "narration": {
-        "en": "Thirty-six years later, the omens of war returned. Krishna remembered her words.",
-        "hi": "छत्तीस बरस बाद, युद्ध वाले अपशकुन लौट आए। कृष्ण को गांधारी के शब्द याद आए।"
+        "en": "Thirty-six years later, his clan gathered by the sea. Two of them, enemies in the war, began to argue.",
+        "hi": "छत्तीस साल बाद, उनका कुल समुद्र किनारे इकट्ठा हुआ। दो लोग, जो युद्ध में शत्रु थे, झगड़ पड़े।"
       },
       "onScreenText": {
-        "en": "Dvaraka",
-        "hi": "द्वारका",
-        "style": "name-tag",
-        "sub": {
-          "en": "Krishna's city",
-          "hi": "कृष्ण की नगरी"
-        }
+        "en": "36 years later",
+        "hi": "36 साल बाद",
+        "style": "plate"
       },
       "cues": [
         {
           "onWord": {
-            "en": "omens",
-            "hi": "वाले"
+            "en": "Thirty-six",
+            "hi": "छत्तीस"
+          },
+          "do": "title-in"
+        },
+        {
+          "onWord": {
+            "en": "gathered",
+            "hi": "समुद्र"
           },
           "do": "hard-cut-to",
           "target": "s08b"
         },
         {
           "onWord": {
-            "en": "Krishna",
-            "hi": "कृष्ण"
+            "en": "Two",
+            "hi": "दो"
           },
           "do": "hard-cut-to",
           "target": "s08c"
@@ -1232,177 +1166,11 @@
         }
       ],
       "transition": "cut",
-      "notes": "Thirty-six years of peace. CE 16.1.1."
+      "notes": "Dvaraka, Krishna's city. CE 16.1.1."
     },
     {
       "id": "s08b",
       "beat": 8,
-      "type": "prop-hero",
-      "background": "dvaraka",
-      "backgroundVariant": "night",
-      "light": "night",
-      "fx": [
-        {
-          "type": "embers",
-          "n": 10
-        }
-      ],
-      "characters": [],
-      "props": [
-        {
-          "id": "dark-moon",
-          "x": 0.5,
-          "y": 0.24,
-          "scale": 1.0,
-          "action": "still"
-        },
-        {
-          "id": "vultures",
-          "x": 0.4,
-          "y": 0.42,
-          "scale": 0.6,
-          "action": "circle"
-        }
-      ],
-      "camera": {
-        "move": "slow-zoom-in",
-        "from": 1.0,
-        "to": 1.06,
-        "focus": [
-          0.5,
-          0.3
-        ]
-      },
-      "narration": {
-        "en": "",
-        "hi": ""
-      },
-      "onScreenText": null,
-      "cues": [],
-      "sfx": [
-        {
-          "id": "thunder-crack",
-          "at": 0,
-          "volume": 0.45
-        }
-      ],
-      "transition": "dissolve",
-      "notes": "The moon gives the war's sign again. CE 16.3.16-18."
-    },
-    {
-      "id": "s08c",
-      "beat": 8,
-      "type": "character",
-      "background": "dvaraka",
-      "backgroundVariant": "night",
-      "light": "moon",
-      "fx": [],
-      "characters": [
-        {
-          "id": "krishna",
-          "pose": "standing",
-          "x": 0.6,
-          "y": 1.3,
-          "scale": 2.2,
-          "flip": true,
-          "action": "still",
-          "expression": "grave"
-        }
-      ],
-      "props": [
-        {
-          "id": "gandhari-silhouette",
-          "x": 0.22,
-          "y": 0.34,
-          "scale": 0.75,
-          "action": "still"
-        }
-      ],
-      "camera": {
-        "move": "slow-zoom-in",
-        "from": 1.0,
-        "to": 1.05,
-        "focus": [
-          0.5,
-          0.38
-        ]
-      },
-      "narration": {
-        "en": "",
-        "hi": ""
-      },
-      "onScreenText": null,
-      "cues": [],
-      "sfx": [
-        {
-          "id": "gong-soft",
-          "at": 0,
-          "volume": 0.5
-        }
-      ],
-      "music": 0.5,
-      "transition": "cut",
-      "notes": "He remembers her. CE 16.3.19."
-    },
-    {
-      "id": "s09",
-      "beat": 9,
-      "type": "character",
-      "background": "dvaraka",
-      "backgroundVariant": "dusk",
-      "light": "dusk",
-      "fx": [],
-      "characters": [
-        {
-          "id": "krishna",
-          "pose": "standing",
-          "x": 0.5,
-          "y": 1.4,
-          "scale": 2.6,
-          "flip": true,
-          "action": "still",
-          "expression": "calm"
-        }
-      ],
-      "props": [],
-      "camera": {
-        "move": "slow-zoom-in",
-        "from": 1.0,
-        "to": 1.05,
-        "focus": [
-          0.5,
-          0.36
-        ]
-      },
-      "narration": {
-        "en": "He could have stopped it. Instead, he led his clan to the seashore, to make her words true.",
-        "hi": "वो रोक सकते थे। पर उन शब्दों को सच करने, अपने कुल को समुद्र किनारे ले गए।"
-      },
-      "onScreenText": null,
-      "cues": [
-        {
-          "onWord": {
-            "en": "led",
-            "hi": "अपने"
-          },
-          "do": "hard-cut-to",
-          "target": "s09b"
-        }
-      ],
-      "sfx": [
-        {
-          "id": "heartbeat",
-          "at": 0.1,
-          "volume": 0.4
-        }
-      ],
-      "music": 0.5,
-      "transition": "cut",
-      "notes": "Able, and choosing. CE 16.9.26-27."
-    },
-    {
-      "id": "s09b",
-      "beat": 9,
       "type": "character",
       "background": "sea-shore",
       "backgroundVariant": "dusk",
@@ -1412,7 +1180,7 @@
         {
           "id": "krishna",
           "pose": "walking",
-          "x": 0.64,
+          "x": 0.66,
           "y": 0.86,
           "scale": 1.0,
           "flip": false,
@@ -1447,12 +1215,12 @@
           "volume": 0.5
         }
       ],
-      "transition": "dissolve",
-      "notes": "The pilgrimage he ordered \"to make it true\". CE 16.3.21-22."
+      "transition": "cut",
+      "notes": "The clan goes to the sea. CE 16.3.21-22, 16.4.9."
     },
     {
-      "id": "s10",
-      "beat": 10,
+      "id": "s08c",
+      "beat": 8,
       "type": "character",
       "background": "sea-shore",
       "backgroundVariant": "dusk",
@@ -1474,28 +1242,11 @@
         "to": 1.06
       },
       "narration": {
-        "en": "There, an old war quarrel set them on each other. And Krishna looked on: their hour had come.",
-        "hi": "वहाँ युद्ध के एक पुराने झगड़े पर सब आपस में लड़ मरे। कृष्ण देखते रहे। समय आ चुका था।"
+        "en": "",
+        "hi": ""
       },
       "onScreenText": null,
-      "cues": [
-        {
-          "onWord": {
-            "en": "set",
-            "hi": "आपस"
-          },
-          "do": "hard-cut-to",
-          "target": "s10b"
-        },
-        {
-          "onWord": {
-            "en": "Krishna",
-            "hi": "कृष्ण"
-          },
-          "do": "hard-cut-to",
-          "target": "s10c"
-        }
-      ],
+      "cues": [],
       "sfx": [
         {
           "id": "battle-distant",
@@ -1504,11 +1255,11 @@
         }
       ],
       "transition": "cut",
-      "notes": "Satyaki and Kritavarma: the night raid thrown in the face. CE 16.4.16-27."
+      "notes": "Two men who fought on opposite sides. CE 16.4.16-27."
     },
     {
-      "id": "s10b",
-      "beat": 10,
+      "id": "s09",
+      "beat": 9,
       "type": "character",
       "background": "sea-shore",
       "backgroundVariant": "night",
@@ -1546,11 +1297,20 @@
         ]
       },
       "narration": {
-        "en": "",
-        "hi": ""
+        "en": "Others joined in. Soon fathers and sons were killing each other, until almost no one was left.",
+        "hi": "बाक़ी भी कूद पड़े। बाप-बेटे तक एक-दूसरे को मारने लगे, और लगभग पूरा कुल मिट गया।"
       },
       "onScreenText": null,
-      "cues": [],
+      "cues": [
+        {
+          "onWord": {
+            "en": "until",
+            "hi": "लगभग"
+          },
+          "do": "hard-cut-to",
+          "target": "s09b"
+        }
+      ],
       "sfx": [
         {
           "id": "drum-boom-deep",
@@ -1559,12 +1319,12 @@
         }
       ],
       "music": 1.2,
-      "transition": "flash-white",
-      "notes": "Grass turns to iron (shown, not told). CE 16.4.34-39."
+      "transition": "cut",
+      "notes": "Grass turning to iron (shown, not told). CE 16.4.34-41."
     },
     {
-      "id": "s10c",
-      "beat": 10,
+      "id": "s09b",
+      "beat": 9,
       "type": "character",
       "background": "sea-shore",
       "backgroundVariant": "night",
@@ -1582,19 +1342,11 @@
           "expression": "grave"
         }
       ],
-      "props": [
-        {
-          "id": "clan-falling",
-          "x": 0.5,
-          "y": 0.68,
-          "scale": 0.9,
-          "action": "still"
-        }
-      ],
+      "props": [],
       "camera": {
         "move": "slow-zoom-in",
         "from": 1.0,
-        "to": 1.08,
+        "to": 1.06,
         "focus": [
           0.48,
           0.4
@@ -1608,91 +1360,82 @@
       "cues": [],
       "sfx": [
         {
-          "id": "heartbeat",
+          "id": "wind-desolate",
           "at": 0,
           "volume": 0.5
         }
       ],
-      "music": 0.4,
+      "music": 0.3,
       "transition": "cut",
-      "notes": "He stands, knowing the turn of time. CE 16.4.42. Still, sorrowful, upright."
+      "notes": "An empty shore; Krishna alone. CE 16.4.42-44."
     },
     {
-      "id": "s11",
-      "beat": 11,
+      "id": "s10",
+      "beat": 10,
       "type": "character",
-      "background": "forest-hunt",
-      "backgroundVariant": "dusk",
-      "light": "dusk",
-      "fx": [
-        {
-          "type": "dust",
-          "n": 10
-        }
-      ],
+      "background": "sea-shore",
+      "backgroundVariant": "night",
+      "light": "moon",
+      "fx": [],
       "characters": [
         {
           "id": "krishna",
-          "pose": "walking",
-          "x": 0.36,
-          "y": 0.86,
-          "scale": 0.85,
-          "flip": false,
-          "action": "step-forward",
-          "expression": "calm"
+          "pose": "standing",
+          "x": 0.6,
+          "y": 1.3,
+          "scale": 2.2,
+          "flip": true,
+          "action": "still",
+          "expression": "grave"
         }
       ],
-      "props": [],
+      "props": [
+        {
+          "id": "gandhari-silhouette",
+          "x": 0.22,
+          "y": 0.34,
+          "scale": 0.75,
+          "action": "still"
+        }
+      ],
       "camera": {
         "move": "slow-zoom-in",
         "from": 1.0,
-        "to": 1.04
+        "to": 1.05,
+        "focus": [
+          0.5,
+          0.38
+        ]
       },
       "narration": {
-        "en": "Alone in the forest, he lay down in yoga. A hunter took him for a deer, and shot.",
-        "hi": "अकेले वन में, वो योग में लेट गए। एक शिकारी ने हिरण समझकर बाण चला दिया।"
+        "en": "Krishna remembered her words, and knew his time had come. Alone, he lay down in a forest.",
+        "hi": "कृष्ण को गांधारी के शब्द याद आए। वो जान गए, समय आ गया है। वो अकेले वन में जाकर लेट गए।"
       },
       "onScreenText": null,
       "cues": [
         {
           "onWord": {
-            "en": "lay",
-            "hi": "योग"
+            "en": "Alone",
+            "hi": "अकेले"
           },
           "do": "hard-cut-to",
-          "target": "s11b"
-        },
-        {
-          "onWord": {
-            "en": "hunter",
-            "hi": "एक"
-          },
-          "do": "hard-cut-to",
-          "target": "s11c"
-        },
-        {
-          "onWord": {
-            "en": "deer",
-            "hi": "समझकर"
-          },
-          "do": "hard-cut-to",
-          "target": "s11d"
+          "target": "s10b"
         }
       ],
       "sfx": [
         {
-          "id": "night-crickets",
+          "id": "gong-soft",
           "at": 0,
-          "volume": 0.4
+          "volume": 0.5
         }
       ],
-      "music": 0.4,
+      "music": 0.5,
       "transition": "cut",
-      "notes": "The forest of E02, where Pandu took a sage for a deer. CE 16.5.16."
+      "notes": "Her words come back. CE 16.3.19, 16.5.17."
     },
     {
-      "id": "s11b",
-      "beat": 11,
+      "id": "s10b",
+      "beat": 10,
       "type": "character",
       "background": "forest-hunt",
       "backgroundVariant": "dusk",
@@ -1747,7 +1490,7 @@
       "notes": "On the bare ground, in yoga. CE 16.5.16-19."
     },
     {
-      "id": "s11c",
+      "id": "s11",
       "beat": 11,
       "type": "character",
       "background": "forest-hunt",
@@ -1777,11 +1520,20 @@
         ]
       },
       "narration": {
-        "en": "",
-        "hi": ""
+        "en": "From far off, a hunter took him for a deer, and shot.",
+        "hi": "दूर से एक शिकारी ने उन्हें हिरण समझा, और बाण चला दिया।"
       },
       "onScreenText": null,
-      "cues": [],
+      "cues": [
+        {
+          "onWord": {
+            "en": "deer",
+            "hi": "हिरण"
+          },
+          "do": "hard-cut-to",
+          "target": "s11b"
+        }
+      ],
       "sfx": [
         {
           "id": "bowstring-creak",
@@ -1793,7 +1545,7 @@
       "notes": "Close: a hunter at dusk."
     },
     {
-      "id": "s11d",
+      "id": "s11b",
       "beat": 11,
       "type": "character",
       "background": "forest-hunt",
@@ -1872,6 +1624,79 @@
       "fx": [
         {
           "type": "glow",
+          "x": 0.5,
+          "y": 0.62,
+          "r": 0.4,
+          "color": "#E8B53A",
+          "pulse": true
+        }
+      ],
+      "characters": [
+        {
+          "id": "krishna",
+          "pose": "reclining",
+          "x": 0.5,
+          "y": 0.98,
+          "scale": 2.2,
+          "flip": false,
+          "action": "still",
+          "expression": "calm",
+          "shadow": false
+        }
+      ],
+      "props": [],
+      "camera": {
+        "move": "push-in-fast",
+        "from": 1.0,
+        "to": 1.06,
+        "focus": [
+          0.5,
+          0.6
+        ]
+      },
+      "narration": {
+        "en": "When he saw it was Krishna, he fell at his feet. The curse was complete.",
+        "hi": "पास आकर देखा, तो कृष्ण थे! वो उनके पैरों में गिर पड़ा। शाप पूरा हो चुका था।"
+      },
+      "onScreenText": null,
+      "cues": [
+        {
+          "onWord": {
+            "en": "fell",
+            "hi": "पैरों"
+          },
+          "do": "hard-cut-to",
+          "target": "s12a"
+        },
+        {
+          "onWord": {
+            "en": "curse",
+            "hi": "शाप"
+          },
+          "do": "hard-cut-to",
+          "target": "s12b"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "drum-hit",
+          "at": 0,
+          "volume": 0.5
+        }
+      ],
+      "transition": "cut",
+      "notes": "What the hunter sees: a man in yellow, in yoga, glowing. CE 16.5.20."
+    },
+    {
+      "id": "s12a",
+      "beat": 12,
+      "type": "character",
+      "background": "forest-hunt",
+      "backgroundVariant": "dusk",
+      "light": "divine",
+      "fx": [
+        {
+          "type": "glow",
           "x": 0.66,
           "y": 0.6,
           "r": 0.3,
@@ -1882,7 +1707,7 @@
       "characters": [
         {
           "id": "krishna",
-          "pose": "seated-blessing",
+          "pose": "reclining",
           "x": 0.66,
           "y": 0.86,
           "scale": 1.15,
@@ -1907,41 +1732,93 @@
         "to": 1.05
       },
       "narration": {
-        "en": "The hunter fell at his feet. Krishna didn't curse him. He comforted him… and rose, filling earth and sky with light.",
-        "hi": "शिकारी उनके पैरों में गिर पड़ा। कृष्ण ने उसे शाप नहीं, दिलासा दिया… और धरती-आकाश को प्रकाश से भरते हुए ऊपर उठ गए।"
+        "en": "",
+        "hi": ""
       },
       "onScreenText": null,
-      "cues": [
-        {
-          "onWord": {
-            "en": "Krishna",
-            "hi": "कृष्ण"
-          },
-          "do": "hard-cut-to",
-          "target": "s12b"
-        },
-        {
-          "onWord": {
-            "en": "rose",
-            "hi": "और"
-          },
-          "do": "hard-cut-to",
-          "target": "s12c"
-        }
-      ],
+      "cues": [],
       "sfx": [
         {
-          "id": "drum-hit",
+          "id": "heartbeat",
           "at": 0,
           "volume": 0.4
         }
       ],
       "transition": "cut",
-      "notes": "He sees whom he has struck. CE 16.5.20-21."
+      "notes": "He falls at his feet. CE 16.5.21."
     },
     {
       "id": "s12b",
       "beat": 12,
+      "type": "prop-hero",
+      "background": "red-sky-plain",
+      "backgroundVariant": "night",
+      "light": "night",
+      "fx": [
+        {
+          "type": "embers",
+          "n": 12
+        }
+      ],
+      "characters": [],
+      "props": [
+        {
+          "id": "gandhari-silhouette",
+          "x": 0.46,
+          "y": 0.56,
+          "scale": 1.5,
+          "action": "still"
+        },
+        {
+          "id": "shaap-stamp",
+          "x": 0.5,
+          "y": 0.28,
+          "scale": 0.7,
+          "action": "stamp-in"
+        }
+      ],
+      "camera": {
+        "move": "slow-zoom-in",
+        "from": 1.0,
+        "to": 1.06
+      },
+      "narration": {
+        "en": "",
+        "hi": ""
+      },
+      "onScreenText": {
+        "en": "CURSE",
+        "hi": "शाप",
+        "style": "stamp-gold"
+      },
+      "cues": [
+        {
+          "onWord": {
+            "en": "curse",
+            "hi": "शाप"
+          },
+          "do": "stamp-next",
+          "target": "shaap-stamp"
+        }
+      ],
+      "sfx": [
+        {
+          "id": "stamp-thud",
+          "onWord": {
+            "en": "curse",
+            "hi": "शाप"
+          },
+          "volume": 0.8,
+          "offset": 0.1
+        }
+      ],
+      "music": 0.6,
+      "transition": "dissolve",
+      "notes": "Her words, complete."
+    },
+    {
+      "id": "s13",
+      "beat": 13,
       "type": "character",
       "background": "forest-hunt",
       "backgroundVariant": "dusk",
@@ -1979,11 +1856,20 @@
         ]
       },
       "narration": {
-        "en": "",
-        "hi": ""
+        "en": "But Krishna didn't punish him. He comforted him, and rose to heaven in light.",
+        "hi": "पर कृष्ण ने उसे दंड नहीं दिया। दिलासा दिया, और प्रकाश फैलाते हुए स्वर्ग लौट गए।"
       },
       "onScreenText": null,
-      "cues": [],
+      "cues": [
+        {
+          "onWord": {
+            "en": "rose",
+            "hi": "प्रकाश"
+          },
+          "do": "hard-cut-to",
+          "target": "s13b"
+        }
+      ],
       "sfx": [
         {
           "id": "shimmer-descend",
@@ -1992,12 +1878,12 @@
         }
       ],
       "music": 0.5,
-      "transition": "dissolve",
-      "notes": "Close: comfort. The same faint smile. CE 16.5.21."
+      "transition": "cut",
+      "notes": "Close: comfort, the same faint smile. CE 16.5.21."
     },
     {
-      "id": "s12c",
-      "beat": 12,
+      "id": "s13b",
+      "beat": 13,
       "type": "character",
       "background": "heaven-sky",
       "backgroundVariant": "night",
@@ -2064,130 +1950,6 @@
       "notes": "Filling earth and sky with light. CE 16.5.21-25."
     },
     {
-      "id": "s13",
-      "beat": 13,
-      "type": "prop-hero",
-      "background": "heaven-sky",
-      "backgroundVariant": "night",
-      "light": "night",
-      "fx": [
-        {
-          "type": "stars",
-          "n": 40
-        }
-      ],
-      "characters": [],
-      "props": [
-        {
-          "id": "season-ring",
-          "x": 0.5,
-          "y": 0.44,
-          "scale": 1.5,
-          "action": "still"
-        }
-      ],
-      "camera": {
-        "move": "slow-zoom-in",
-        "from": 1.0,
-        "to": 1.05,
-        "focus": [
-          0.5,
-          0.44
-        ]
-      },
-      "narration": {
-        "en": "Eight stories of curses. The last word is mercy.",
-        "hi": "शाप की आठ कहानियाँ। और आख़िरी शब्द: करुणा।"
-      },
-      "onScreenText": null,
-      "cues": [
-        {
-          "onWord": {
-            "en": "last",
-            "hi": "आख़िरी"
-          },
-          "do": "hard-cut-to",
-          "target": "s13b"
-        }
-      ],
-      "sfx": [
-        {
-          "id": "temple-bells",
-          "at": 0,
-          "volume": 0.4
-        }
-      ],
-      "overlay": "folk-art-border",
-      "music": 0.7,
-      "transition": "dissolve",
-      "notes": "Eight emblems: stake, deer, bangles, river, wheel, snake, worm, blindfold."
-    },
-    {
-      "id": "s13b",
-      "beat": 13,
-      "type": "prop-hero",
-      "background": "heaven-sky",
-      "backgroundVariant": "night",
-      "light": "night",
-      "fx": [
-        {
-          "type": "stars",
-          "n": 40
-        },
-        {
-          "type": "glow",
-          "x": 0.5,
-          "y": 0.46,
-          "r": 0.35,
-          "color": "#E8B53A",
-          "pulse": true
-        }
-      ],
-      "characters": [],
-      "props": [
-        {
-          "id": "season-ring",
-          "x": 0.5,
-          "y": 0.44,
-          "scale": 1.5,
-          "action": "still"
-        },
-        {
-          "id": "peacock-feather",
-          "x": 0.5,
-          "y": 0.44,
-          "scale": 0.9,
-          "action": "descend"
-        }
-      ],
-      "camera": {
-        "move": "slow-zoom-in",
-        "from": 1.05,
-        "to": 1.1,
-        "focus": [
-          0.5,
-          0.44
-        ]
-      },
-      "narration": {
-        "en": "",
-        "hi": ""
-      },
-      "onScreenText": null,
-      "cues": [],
-      "sfx": [
-        {
-          "id": "shimmer-descend",
-          "at": 0,
-          "volume": 0.5
-        }
-      ],
-      "overlay": "folk-art-border",
-      "music": 0.6,
-      "transition": "cut",
-      "notes": "A peacock feather settles in the middle of the curses."
-    },
-    {
       "id": "s14",
       "beat": 14,
       "type": "prop-hero",
@@ -2223,8 +1985,8 @@
         "to": 1.06
       },
       "narration": {
-        "en": "Next season on Shraap: Ashwatthama, the warrior Krishna did curse.",
-        "hi": "शाप के अगले सीज़न में: अश्वत्थामा, वो योद्धा जिसे कृष्ण ने ख़ुद शाप दिया।"
+        "en": "Next season on Shraap: Ashwatthama, the warrior Krishna himself cursed.",
+        "hi": "शाप के अगले सीज़न में: अश्वत्थामा, जिसे ख़ुद कृष्ण ने शाप दिया।"
       },
       "onScreenText": {
         "en": "SEASON 2",
@@ -2326,7 +2088,6 @@
         "poses": {
           "cursing": "new",
           "grief": "new",
-          "holding-back": "new",
           "accusing": "new"
         }
       },
@@ -2335,8 +2096,8 @@
         "status": "new",
         "poses": {
           "standing": "new",
-          "envoy": "new",
           "walking": "new",
+          "envoy": "new",
           "looking-on": "new",
           "reclining": "new",
           "seated-blessing": "new",
@@ -2344,10 +2105,10 @@
         }
       },
       {
-        "id": "yudhishthira",
+        "id": "duryodhana",
         "status": "new",
         "poses": {
-          "kneeling-bowed": "new"
+          "refusing": "new"
         }
       },
       {
@@ -2355,13 +2116,6 @@
         "status": "library",
         "poses": {
           "bowing-eyes-closed": "library"
-        }
-      },
-      {
-        "id": "duryodhana",
-        "status": "new",
-        "poses": {
-          "refusing": "new"
         }
       },
       {
@@ -2383,7 +2137,7 @@
         "status": "library"
       },
       {
-        "id": "sea-shore",
+        "id": "forest-hunt",
         "status": "library"
       },
       {
@@ -2391,7 +2145,7 @@
         "status": "library"
       },
       {
-        "id": "forest-hunt",
+        "id": "sea-shore",
         "status": "library"
       },
       {
@@ -2405,11 +2159,7 @@
     ],
     "props": [
       {
-        "id": "clan-falling",
-        "status": "new"
-      },
-      {
-        "id": "dark-moon",
+        "id": "two-armies",
         "status": "new"
       },
       {
@@ -2425,12 +2175,8 @@
         "status": "new"
       },
       {
-        "id": "lamp-rows",
+        "id": "clan-falling",
         "status": "new"
-      },
-      {
-        "id": "gandhari-silhouette",
-        "status": "library"
       },
       {
         "id": "clan-procession",
@@ -2445,6 +2191,10 @@
         "status": "new"
       },
       {
+        "id": "gandhari-silhouette",
+        "status": "library"
+      },
+      {
         "id": "deer-shape-leaves",
         "status": "new"
       },
@@ -2455,14 +2205,6 @@
       {
         "id": "rising-lights",
         "status": "library"
-      },
-      {
-        "id": "season-ring",
-        "status": "new"
-      },
-      {
-        "id": "peacock-feather",
-        "status": "new"
       },
       {
         "id": "ashwatthama-silhouette",

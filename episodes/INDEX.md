@@ -9,5 +9,5 @@
 | S01E05 | The Warrior Cursed Twice | S01 | 7 Ready to publish (after your phone check, HI listen and research check): EN 81s, HI 93s, kit + thumbnails done · suggested HI Thu 3 Dec / EN Fri 4 Dec | | | | | |
 | S01E06 | The King of Heaven Who Became a Snake | S01 | 7 Ready to publish (after your phone check, HI listen and research check): v2, EN 84s, HI 91s, kit + thumbnails done · v1 in render/v1, **don't post it** · suggested HI Sun 6 Dec / EN Mon 7 Dec | | | | | |
 | S01E07 | The King With Seven Days to Live | S01 | 7 Ready to publish (after your phone check, HI listen and research check): v2 plain retelling, EN 81.5s, HI 87.0s, kit + thumbnails done · v1 in render/v1, **don't post it** · suggested HI Thu 10 Dec / EN Fri 11 Dec | | | | | |
-| S01E08 | The Mother Who Cursed Krishna (season finale) | S01 | 2 Script v2, plain retelling after owner feedback (needs your OK; storyboard to be redone from it) | | | | | |
+| S01E08 | The Mother Who Cursed Krishna (season finale) | S01 | 3 Storyboard v2: 34 shots from the plain script; Season 2 tease (Ashwatthama) · next: assets (research needs verify) | | | | | |
 | X001 | Barbarika: The Warrior Who Gave His Head | one-off | 6 Rendered, two versions (cut-out SVG + illustrated ink-wash, 18 shots), EN ≈60s, HI ≈61s · ElevenLabs v4 voice · music bed + 9 sfx · 7 kit drafted · research unverified | | | | | |
