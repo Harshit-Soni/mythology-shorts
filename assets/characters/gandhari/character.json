@@ -1,0 +1,32 @@
+{
+  "id": "gandhari",
+  "divine": false,
+  "name": {
+    "en": "Gandhari",
+    "hi": "गांधारी"
+  },
+  "role": "Queen of Hastinapura, mother of the hundred Kauravas",
+  "look": "The women’s rig: deep plum, grey in the hair, a small crown, and the folded white cloth over her eyes. No eyes to blink.",
+  "sourceNotes": "CE 1.103.13 (the blindfold), 11.25 (the curse).",
+  "poses": [
+    "grief",
+    "accusing",
+    "cursing"
+  ],
+  "appearsIn": [
+    "S01E08"
+  ],
+  "files": {
+    "accusing": "accusing.svg",
+    "accusing__grief": "accusing__grief.svg",
+    "cursing": "cursing.svg",
+    "grief": "grief.svg"
+  },
+  "facing": "right",
+  "facingByPose": {
+    "grief": "right",
+    "accusing": "right",
+    "cursing": "right"
+  },
+  "notes": "Made in code by episodes/S01E08-gandhari-curses-krishna/svg/make-cast.py. Mirror with flip."
+}

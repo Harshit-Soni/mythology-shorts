@@ -1263,7 +1263,7 @@
       "type": "character",
       "background": "sea-shore",
       "backgroundVariant": "night",
-      "light": "silhouette",
+      "light": "night",
       "fx": [
         {
           "type": "embers",
@@ -1635,23 +1635,22 @@
         {
           "id": "krishna",
           "pose": "reclining",
-          "x": 0.5,
-          "y": 0.98,
-          "scale": 2.2,
-          "flip": false,
+          "x": 0.6,
+          "y": 0.86,
+          "scale": 1.3,
+          "flip": true,
           "action": "still",
-          "expression": "calm",
-          "shadow": false
+          "expression": "calm"
         }
       ],
       "props": [],
       "camera": {
         "move": "push-in-fast",
         "from": 1.0,
-        "to": 1.06,
+        "to": 1.08,
         "focus": [
-          0.5,
-          0.6
+          0.6,
+          0.78
         ]
       },
       "narration": {
@@ -1838,8 +1837,8 @@
           "id": "krishna",
           "pose": "seated-blessing",
           "x": 0.52,
-          "y": 1.18,
-          "scale": 2.3,
+          "y": 0.98,
+          "scale": 1.9,
           "flip": true,
           "action": "still",
           "expression": "smile"
@@ -2084,31 +2083,31 @@
     "characters": [
       {
         "id": "gandhari",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "cursing": "new",
-          "grief": "new",
-          "accusing": "new"
+          "cursing": "library",
+          "grief": "library",
+          "accusing": "library"
         }
       },
       {
         "id": "krishna",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "standing": "new",
-          "walking": "new",
-          "envoy": "new",
-          "looking-on": "new",
-          "reclining": "new",
-          "seated-blessing": "new",
-          "rising": "new"
+          "standing": "library",
+          "walking": "library",
+          "envoy": "library",
+          "looking-on": "library",
+          "reclining": "library",
+          "seated-blessing": "library",
+          "rising": "library"
         }
       },
       {
         "id": "duryodhana",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "refusing": "new"
+          "refusing": "library"
         }
       },
       {
@@ -2120,10 +2119,10 @@
       },
       {
         "id": "jara",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "drawing-bow": "new",
-          "prostrate": "new"
+          "drawing-bow": "library",
+          "prostrate": "library"
         }
       }
     ],
@@ -2150,7 +2149,7 @@
       },
       {
         "id": "dvaraka",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "heaven-sky",
@@ -2160,11 +2159,11 @@
     "props": [
       {
         "id": "two-armies",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "war-remains",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "vultures",
@@ -2172,23 +2171,23 @@
       },
       {
         "id": "mourning-women",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "clan-falling",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "clan-procession",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "quarrel",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "iron-grass",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "gandhari-silhouette",
@@ -2196,7 +2195,7 @@
       },
       {
         "id": "deer-shape-leaves",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "glowing-arrow",
@@ -2208,7 +2207,7 @@
       },
       {
         "id": "ashwatthama-silhouette",
-        "status": "new"
+        "status": "library"
       }
     ],
     "overlays": [

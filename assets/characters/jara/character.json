@@ -1,0 +1,28 @@
+{
+  "id": "jara",
+  "divine": false,
+  "name": {
+    "en": "Jara",
+    "hi": "जरा"
+  },
+  "role": "The hunter who took Krishna for a deer",
+  "look": "The exile rig: dark skin, bark-brown cloth, hair tied up.",
+  "sourceNotes": "CE 16.5.19–21. An ordinary, horrified man; forgiven.",
+  "poses": [
+    "drawing-bow",
+    "prostrate"
+  ],
+  "appearsIn": [
+    "S01E08"
+  ],
+  "files": {
+    "drawing-bow": "drawing-bow.svg",
+    "prostrate": "prostrate.svg"
+  },
+  "facing": "right",
+  "facingByPose": {
+    "drawing-bow": "right",
+    "prostrate": "right"
+  },
+  "notes": "Made in code by episodes/S01E08-gandhari-curses-krishna/svg/make-cast.py. Mirror with flip."
+}

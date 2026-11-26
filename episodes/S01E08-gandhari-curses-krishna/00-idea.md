@@ -56,7 +56,7 @@
 - [ ] 1 Research (verified by me)
 - [ ] 2 Script (read aloud, EN + HI)
 - [x] 3 Storyboard v2 (34 shots, 2026-11-26; v1 in review/)
-- [ ] 4 Assets
+- [x] 4 Assets (made in code, 2026-11-26)
 - [ ] 5 Voice
 - [ ] 6 Render (watched on phone, sound on + off)
 - [ ] 7 Published (links in INDEX.md)

@@ -44,9 +44,9 @@ function setGroupVisible(svg, id, visible) {
   if (!visible) {
     tag = /style="/.test(tag)
       ? tag.replace(/style="/, 'style="display:none;')
-      : tag.replace(/>$/, ' style="display:none">');
+      : tag.replace(/\s*(\/?)>$/, ' style="display:none"$1>');   // keeps a self-closing <g ... /> self-closing
   }
-  tag = tag.replace(/\s+>/, '>').replace(/\s{2,}/g, ' ');
+  tag = tag.replace(/\s+(\/?)>$/, '$1>').replace(/\s{2,}/g, ' ');
   return svg.replace(m[0], tag);
 }
 const isHidden = (svg, id) =>

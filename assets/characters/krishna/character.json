@@ -1,0 +1,44 @@
+{
+  "id": "krishna",
+  "divine": true,
+  "name": {
+    "en": "Krishna",
+    "hi": "कृष्ण"
+  },
+  "role": "Vasudeva Krishna of Dvaraka, the Pandavas’ friend and charioteer",
+  "look": "The pandu rig: cloud-dark blue skin, yellow silk, a peacock feather in the crown, a forest garland, a faint halo. Calm in every pose.",
+  "sourceNotes": "CE 16.9.7 (cloud-dark), 16.5.20 (yellow robe). Never shown hurt.",
+  "poses": [
+    "standing",
+    "envoy",
+    "walking",
+    "looking-on",
+    "reclining",
+    "seated-blessing",
+    "rising"
+  ],
+  "appearsIn": [
+    "S01E08"
+  ],
+  "files": {
+    "envoy": "envoy.svg",
+    "looking-on": "looking-on.svg",
+    "reclining": "reclining.svg",
+    "rising": "rising.svg",
+    "seated-blessing": "seated-blessing.svg",
+    "standing": "standing.svg",
+    "standing__smile": "standing__smile.svg",
+    "walking": "walking.svg"
+  },
+  "facing": "right",
+  "facingByPose": {
+    "standing": "right",
+    "envoy": "right",
+    "walking": "right",
+    "looking-on": "right",
+    "reclining": "right",
+    "seated-blessing": "right",
+    "rising": "right"
+  },
+  "notes": "Made in code by episodes/S01E08-gandhari-curses-krishna/svg/make-cast.py. Mirror with flip."
+}

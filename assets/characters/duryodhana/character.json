@@ -1,0 +1,25 @@
+{
+  "id": "duryodhana",
+  "divine": false,
+  "name": {
+    "en": "Duryodhana",
+    "hi": "दुर्योधन"
+  },
+  "role": "Gandhari’s eldest son, who refused peace",
+  "look": "The pandu rig: maroon and gold, crown, a black moustache.",
+  "sourceNotes": "CE 5.127.",
+  "poses": [
+    "refusing"
+  ],
+  "appearsIn": [
+    "S01E08"
+  ],
+  "files": {
+    "refusing": "refusing.svg"
+  },
+  "facing": "right",
+  "facingByPose": {
+    "refusing": "right"
+  },
+  "notes": "Made in code by episodes/S01E08-gandhari-curses-krishna/svg/make-cast.py. Mirror with flip."
+}
