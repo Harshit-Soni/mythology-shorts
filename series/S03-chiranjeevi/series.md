@@ -20,7 +20,7 @@ S01E08 promises "Next season on Shraap: Ashwatthama". So he is **not** an episod
 ## Episodes (order can change)
 | # | Who | Why he lives on (to verify) | Primary sources to read first | Library reuse | Status |
 |---|---|---|---|---|---|
-| E01 | **Hanuman** | A boon from Rama: to live as long as Rama's story is told on earth | Valmiki Ramayana, Uttara Kanda (valmiki.iitk.ac.in); the boons of the gods in his childhood | New: Hanuman, Rama (a new domain: concept check first) | 0 Idea (`episodes/S03E01-hanuman-never-died/`) |
+| E01 | **Hanuman** | A boon from Rama: to live as long as Rama's story is told on earth | Valmiki Ramayana, Uttara Kanda (valmiki.iitk.ac.in); the boons of the gods in his childhood | New: Hanuman, Rama (a new domain: concept check first) | 1 Research (`episodes/S03E01-hanuman-never-died/`) |
 | E02 | **Bali** | Vamana's three steps; Bali goes to rule Sutala, promised to be a future Indra | Bhagavata Purana, book 8; Vamana Purana (wisdomlib) | `indra`, heaven backgrounds | Planned |
 | E03 | **Vibhishana** | Ravana's brother who joined Rama; crowned king of Lanka, told to rule long | Valmiki Ramayana, Yuddha and Uttara Kanda | Rama, Hanuman from E01 | Planned |
 | E04 | **Parashurama** | The warrior-sage who lives on, doing penance on Mahendra mountain | Mahabharata (Shanti, Udyoga); Puranas | `parashurama`, `mahendra-ashram` | Planned |

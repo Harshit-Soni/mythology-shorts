@@ -16,6 +16,8 @@
   3. *Hanuman can't die until one thing ends: this story.*
 - **Possible second layer (only if it stays one plain story):** the childhood boons, after Indra's thunderbolt struck his jaw (*hanu*, the name), when the gods made him unharmed by any weapon. Probably a side story: one line at most, or keep for another episode.
 
+**Research correction (2026-11-26):** Hanuman asks for the boon at the farewell **after Rama's coronation** (CE 7.39), not as Rama leaves the world. At the departure Rama *holds him to it* (CE 7.98.24–25). And Indra had already given him death only at his own wish (CE 4.65.27). See 01-research.md.
+
 ## Watch for in research
 - **The boon's exact words and place:** believed to be Valmiki Uttara Kanda, Rama's departure (to locate the sarga; IIT Kanpur text first). Who asks, who grants (Rama; check whether Sita's boon in Sundara/Yuddha also matters).
 - **The seven-chiranjeevi verse:** where it comes from (series rule: "the traditional verse", unless a text is found).
