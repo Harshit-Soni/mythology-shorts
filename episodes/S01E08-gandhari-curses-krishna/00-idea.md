@@ -57,7 +57,7 @@
 - [ ] 2 Script (read aloud, EN + HI)
 - [x] 3 Storyboard v2 (34 shots, 2026-11-26; v1 in review/)
 - [x] 4 Assets (made in code, 2026-11-26)
-- [ ] 5 Voice
+- [x] 5 Voice (EN 84.1 s, HI 89.2 s)
 - [ ] 6 Render (watched on phone, sound on + off)
 - [ ] 7 Published (links in INDEX.md)
 - [ ] 8 Reviewed (7 days after upload)

@@ -1,0 +1,1269 @@
+{
+ "episode": "S01E08",
+ "lang": "en",
+ "source": "elevenlabs-flow + scribe",
+ "matched": "210/210",
+ "total": 85.63,
+ "words": [
+  {
+   "beat": 1,
+   "text": "A",
+   "start": 1.15,
+   "end": 1.23
+  },
+  {
+   "beat": 1,
+   "text": "mother",
+   "start": 1.39,
+   "end": 1.71
+  },
+  {
+   "beat": 1,
+   "text": "once",
+   "start": 1.87,
+   "end": 2.11
+  },
+  {
+   "beat": 1,
+   "text": "cursed",
+   "start": 2.27,
+   "end": 2.67
+  },
+  {
+   "beat": 1,
+   "text": "Krishna.",
+   "start": 2.75,
+   "end": 3.59
+  },
+  {
+   "beat": 1,
+   "text": "Thirty-six",
+   "start": 3.95,
+   "end": 4.67
+  },
+  {
+   "beat": 1,
+   "text": "years",
+   "start": 4.75,
+   "end": 4.99
+  },
+  {
+   "beat": 1,
+   "text": "later,",
+   "start": 5.07,
+   "end": 5.87
+  },
+  {
+   "beat": 1,
+   "text": "every",
+   "start": 6.03,
+   "end": 6.35
+  },
+  {
+   "beat": 1,
+   "text": "word",
+   "start": 6.51,
+   "end": 6.83
+  },
+  {
+   "beat": 1,
+   "text": "came",
+   "start": 6.91,
+   "end": 7.15
+  },
+  {
+   "beat": 1,
+   "text": "true.",
+   "start": 7.23,
+   "end": 7.91
+  },
+  {
+   "beat": 2,
+   "text": "The",
+   "start": 8.33,
+   "end": 8.35
+  },
+  {
+   "beat": 2,
+   "text": "Mahabharata",
+   "start": 8.43,
+   "end": 8.99
+  },
+  {
+   "beat": 2,
+   "text": "war",
+   "start": 9.15,
+   "end": 9.39
+  },
+  {
+   "beat": 2,
+   "text": "was",
+   "start": 9.47,
+   "end": 9.63
+  },
+  {
+   "beat": 2,
+   "text": "cousins",
+   "start": 9.71,
+   "end": 10.11
+  },
+  {
+   "beat": 2,
+   "text": "against",
+   "start": 10.19,
+   "end": 10.51
+  },
+  {
+   "beat": 2,
+   "text": "cousins:",
+   "start": 10.59,
+   "end": 11.47
+  },
+  {
+   "beat": 2,
+   "text": "Kauravas",
+   "start": 11.51,
+   "end": 12.19
+  },
+  {
+   "beat": 2,
+   "text": "against",
+   "start": 12.35,
+   "end": 12.51
+  },
+  {
+   "beat": 2,
+   "text": "Pandavas.",
+   "start": 12.67,
+   "end": 13.51
+  },
+  {
+   "beat": 3,
+   "text": "The",
+   "start": 13.857,
+   "end": 13.87
+  },
+  {
+   "beat": 3,
+   "text": "Kauravas",
+   "start": 13.95,
+   "end": 14.43
+  },
+  {
+   "beat": 3,
+   "text": "lost.",
+   "start": 14.51,
+   "end": 15.23
+  },
+  {
+   "beat": 3,
+   "text": "Their",
+   "start": 15.47,
+   "end": 15.63
+  },
+  {
+   "beat": 3,
+   "text": "mother,",
+   "start": 15.79,
+   "end": 16.19
+  },
+  {
+   "beat": 3,
+   "text": "Queen",
+   "start": 16.31,
+   "end": 16.43
+  },
+  {
+   "beat": 3,
+   "text": "Gandhari,",
+   "start": 16.51,
+   "end": 17.31
+  },
+  {
+   "beat": 3,
+   "text": "lost",
+   "start": 17.51,
+   "end": 17.71
+  },
+  {
+   "beat": 3,
+   "text": "all",
+   "start": 17.79,
+   "end": 18.03
+  },
+  {
+   "beat": 3,
+   "text": "hundred",
+   "start": 18.11,
+   "end": 18.43
+  },
+  {
+   "beat": 3,
+   "text": "of",
+   "start": 18.47,
+   "end": 18.51
+  },
+  {
+   "beat": 3,
+   "text": "her",
+   "start": 18.59,
+   "end": 18.75
+  },
+  {
+   "beat": 3,
+   "text": "sons.",
+   "start": 18.83,
+   "end": 19.47
+  },
+  {
+   "beat": 4,
+   "text": "On",
+   "start": 19.79,
+   "end": 19.87
+  },
+  {
+   "beat": 4,
+   "text": "the",
+   "start": 19.91,
+   "end": 19.95
+  },
+  {
+   "beat": 4,
+   "text": "battlefield,",
+   "start": 20.03,
+   "end": 20.83
+  },
+  {
+   "beat": 4,
+   "text": "she",
+   "start": 20.91,
+   "end": 21.07
+  },
+  {
+   "beat": 4,
+   "text": "turned",
+   "start": 21.19,
+   "end": 21.31
+  },
+  {
+   "beat": 4,
+   "text": "to",
+   "start": 21.39,
+   "end": 21.47
+  },
+  {
+   "beat": 4,
+   "text": "Krishna,",
+   "start": 21.55,
+   "end": 22.19
+  },
+  {
+   "beat": 4,
+   "text": "who",
+   "start": 22.23,
+   "end": 22.27
+  },
+  {
+   "beat": 4,
+   "text": "had",
+   "start": 22.35,
+   "end": 22.43
+  },
+  {
+   "beat": 4,
+   "text": "helped",
+   "start": 22.51,
+   "end": 22.67
+  },
+  {
+   "beat": 4,
+   "text": "the",
+   "start": 22.71,
+   "end": 22.75
+  },
+  {
+   "beat": 4,
+   "text": "Pandavas",
+   "start": 22.83,
+   "end": 23.23
+  },
+  {
+   "beat": 4,
+   "text": "win:",
+   "start": 23.31,
+   "end": 24.03
+  },
+  {
+   "beat": 4,
+   "text": "\"You",
+   "start": 24.11,
+   "end": 24.27
+  },
+  {
+   "beat": 4,
+   "text": "could",
+   "start": 24.35,
+   "end": 24.43
+  },
+  {
+   "beat": 4,
+   "text": "have",
+   "start": 24.51,
+   "end": 24.67
+  },
+  {
+   "beat": 4,
+   "text": "stopped",
+   "start": 24.83,
+   "end": 24.99
+  },
+  {
+   "beat": 4,
+   "text": "this",
+   "start": 25.07,
+   "end": 25.23
+  },
+  {
+   "beat": 4,
+   "text": "war.",
+   "start": 25.31,
+   "end": 25.87
+  },
+  {
+   "beat": 4,
+   "text": "Why",
+   "start": 25.99,
+   "end": 26.11
+  },
+  {
+   "beat": 4,
+   "text": "didn't",
+   "start": 26.19,
+   "end": 26.51
+  },
+  {
+   "beat": 4,
+   "text": "you?\"",
+   "start": 26.63,
+   "end": 27.23
+  },
+  {
+   "beat": 5,
+   "text": "Krishna",
+   "start": 27.31,
+   "end": 27.63
+  },
+  {
+   "beat": 5,
+   "text": "had",
+   "start": 27.71,
+   "end": 27.87
+  },
+  {
+   "beat": 5,
+   "text": "tried.",
+   "start": 27.95,
+   "end": 28.75
+  },
+  {
+   "beat": 5,
+   "text": "Her",
+   "start": 28.87,
+   "end": 28.99
+  },
+  {
+   "beat": 5,
+   "text": "own",
+   "start": 29.15,
+   "end": 29.31
+  },
+  {
+   "beat": 5,
+   "text": "son",
+   "start": 29.39,
+   "end": 29.63
+  },
+  {
+   "beat": 5,
+   "text": "had",
+   "start": 29.71,
+   "end": 29.79
+  },
+  {
+   "beat": 5,
+   "text": "refused",
+   "start": 29.87,
+   "end": 30.35
+  },
+  {
+   "beat": 5,
+   "text": "peace.",
+   "start": 30.43,
+   "end": 31.23
+  },
+  {
+   "beat": 6,
+   "text": "But",
+   "start": 31.363,
+   "end": 31.39
+  },
+  {
+   "beat": 6,
+   "text": "in",
+   "start": 31.47,
+   "end": 31.55
+  },
+  {
+   "beat": 6,
+   "text": "her",
+   "start": 31.63,
+   "end": 31.79
+  },
+  {
+   "beat": 6,
+   "text": "grief,",
+   "start": 31.83,
+   "end": 32.43
+  },
+  {
+   "beat": 6,
+   "text": "she",
+   "start": 32.51,
+   "end": 32.67
+  },
+  {
+   "beat": 6,
+   "text": "cursed",
+   "start": 32.75,
+   "end": 33.07
+  },
+  {
+   "beat": 6,
+   "text": "him:",
+   "start": 33.19,
+   "end": 33.71
+  },
+  {
+   "beat": 6,
+   "text": "\"My",
+   "start": 34.003,
+   "end": 34.03
+  },
+  {
+   "beat": 6,
+   "text": "family",
+   "start": 34.11,
+   "end": 34.43
+  },
+  {
+   "beat": 6,
+   "text": "killed",
+   "start": 34.59,
+   "end": 34.83
+  },
+  {
+   "beat": 6,
+   "text": "each",
+   "start": 34.91,
+   "end": 34.99
+  },
+  {
+   "beat": 6,
+   "text": "other.",
+   "start": 35.07,
+   "end": 35.63
+  },
+  {
+   "beat": 6,
+   "text": "Yours",
+   "start": 35.67,
+   "end": 35.95
+  },
+  {
+   "beat": 6,
+   "text": "will",
+   "start": 36.07,
+   "end": 36.19
+  },
+  {
+   "beat": 6,
+   "text": "too!",
+   "start": 36.27,
+   "end": 36.91
+  },
+  {
+   "beat": 6,
+   "text": "In",
+   "start": 37.03,
+   "end": 37.15
+  },
+  {
+   "beat": 6,
+   "text": "thirty-six",
+   "start": 37.19,
+   "end": 37.71
+  },
+  {
+   "beat": 6,
+   "text": "years,",
+   "start": 37.79,
+   "end": 38.19
+  },
+  {
+   "beat": 6,
+   "text": "you'll",
+   "start": 38.23,
+   "end": 38.43
+  },
+  {
+   "beat": 6,
+   "text": "lose",
+   "start": 38.51,
+   "end": 38.59
+  },
+  {
+   "beat": 6,
+   "text": "them",
+   "start": 38.67,
+   "end": 38.91
+  },
+  {
+   "beat": 6,
+   "text": "all,",
+   "start": 38.99,
+   "end": 39.39
+  },
+  {
+   "beat": 6,
+   "text": "and",
+   "start": 39.51,
+   "end": 39.63
+  },
+  {
+   "beat": 6,
+   "text": "die",
+   "start": 39.75,
+   "end": 39.87
+  },
+  {
+   "beat": 6,
+   "text": "alone",
+   "start": 40.07,
+   "end": 40.27
+  },
+  {
+   "beat": 6,
+   "text": "in",
+   "start": 40.31,
+   "end": 40.35
+  },
+  {
+   "beat": 6,
+   "text": "a",
+   "start": 40.43,
+   "end": 40.59
+  },
+  {
+   "beat": 6,
+   "text": "forest!\"",
+   "start": 40.83,
+   "end": 41.55
+  },
+  {
+   "beat": 7,
+   "text": "Krishna",
+   "start": 41.63,
+   "end": 42.03
+  },
+  {
+   "beat": 7,
+   "text": "only",
+   "start": 42.27,
+   "end": 42.51
+  },
+  {
+   "beat": 7,
+   "text": "smiled:",
+   "start": 42.59,
+   "end": 43.47
+  },
+  {
+   "beat": 7,
+   "text": "\"I",
+   "start": 43.55,
+   "end": 43.71
+  },
+  {
+   "beat": 7,
+   "text": "know.",
+   "start": 43.83,
+   "end": 44.43
+  },
+  {
+   "beat": 7,
+   "text": "That",
+   "start": 44.51,
+   "end": 44.75
+  },
+  {
+   "beat": 7,
+   "text": "is",
+   "start": 44.83,
+   "end": 44.91
+  },
+  {
+   "beat": 7,
+   "text": "how",
+   "start": 44.99,
+   "end": 45.07
+  },
+  {
+   "beat": 7,
+   "text": "my",
+   "start": 45.15,
+   "end": 45.31
+  },
+  {
+   "beat": 7,
+   "text": "clan",
+   "start": 45.39,
+   "end": 45.63
+  },
+  {
+   "beat": 7,
+   "text": "will",
+   "start": 45.71,
+   "end": 45.79
+  },
+  {
+   "beat": 7,
+   "text": "end.\"",
+   "start": 45.87,
+   "end": 46.67
+  },
+  {
+   "beat": 8,
+   "text": "Thirty-six",
+   "start": 46.75,
+   "end": 47.31
+  },
+  {
+   "beat": 8,
+   "text": "years",
+   "start": 47.43,
+   "end": 47.55
+  },
+  {
+   "beat": 8,
+   "text": "later,",
+   "start": 47.63,
+   "end": 48.11
+  },
+  {
+   "beat": 8,
+   "text": "his",
+   "start": 48.23,
+   "end": 48.35
+  },
+  {
+   "beat": 8,
+   "text": "clan",
+   "start": 48.43,
+   "end": 48.67
+  },
+  {
+   "beat": 8,
+   "text": "gathered",
+   "start": 48.83,
+   "end": 49.15
+  },
+  {
+   "beat": 8,
+   "text": "by",
+   "start": 49.23,
+   "end": 49.31
+  },
+  {
+   "beat": 8,
+   "text": "the",
+   "start": 49.35,
+   "end": 49.39
+  },
+  {
+   "beat": 8,
+   "text": "sea.",
+   "start": 49.47,
+   "end": 50.19
+  },
+  {
+   "beat": 8,
+   "text": "Two",
+   "start": 50.323,
+   "end": 50.35
+  },
+  {
+   "beat": 8,
+   "text": "of",
+   "start": 50.43,
+   "end": 50.51
+  },
+  {
+   "beat": 8,
+   "text": "them,",
+   "start": 50.59,
+   "end": 50.99
+  },
+  {
+   "beat": 8,
+   "text": "enemies",
+   "start": 51.07,
+   "end": 51.39
+  },
+  {
+   "beat": 8,
+   "text": "in",
+   "start": 51.47,
+   "end": 51.55
+  },
+  {
+   "beat": 8,
+   "text": "the",
+   "start": 51.59,
+   "end": 51.63
+  },
+  {
+   "beat": 8,
+   "text": "war,",
+   "start": 51.71,
+   "end": 52.19
+  },
+  {
+   "beat": 8,
+   "text": "began",
+   "start": 52.27,
+   "end": 52.43
+  },
+  {
+   "beat": 8,
+   "text": "to",
+   "start": 52.51,
+   "end": 52.59
+  },
+  {
+   "beat": 8,
+   "text": "argue.",
+   "start": 52.67,
+   "end": 53.39
+  },
+  {
+   "beat": 9,
+   "text": "Others",
+   "start": 53.726,
+   "end": 53.79
+  },
+  {
+   "beat": 9,
+   "text": "joined",
+   "start": 53.87,
+   "end": 54.11
+  },
+  {
+   "beat": 9,
+   "text": "in.",
+   "start": 54.19,
+   "end": 54.75
+  },
+  {
+   "beat": 9,
+   "text": "Soon",
+   "start": 54.91,
+   "end": 55.07
+  },
+  {
+   "beat": 9,
+   "text": "fathers",
+   "start": 55.23,
+   "end": 55.63
+  },
+  {
+   "beat": 9,
+   "text": "and",
+   "start": 55.71,
+   "end": 55.79
+  },
+  {
+   "beat": 9,
+   "text": "sons",
+   "start": 55.95,
+   "end": 56.19
+  },
+  {
+   "beat": 9,
+   "text": "were",
+   "start": 56.31,
+   "end": 56.43
+  },
+  {
+   "beat": 9,
+   "text": "killing",
+   "start": 56.51,
+   "end": 56.75
+  },
+  {
+   "beat": 9,
+   "text": "each",
+   "start": 56.83,
+   "end": 56.91
+  },
+  {
+   "beat": 9,
+   "text": "other,",
+   "start": 56.99,
+   "end": 57.47
+  },
+  {
+   "beat": 9,
+   "text": "until",
+   "start": 57.55,
+   "end": 57.79
+  },
+  {
+   "beat": 9,
+   "text": "almost",
+   "start": 57.87,
+   "end": 58.27
+  },
+  {
+   "beat": 9,
+   "text": "no",
+   "start": 58.43,
+   "end": 58.51
+  },
+  {
+   "beat": 9,
+   "text": "one",
+   "start": 58.59,
+   "end": 58.75
+  },
+  {
+   "beat": 9,
+   "text": "was",
+   "start": 58.83,
+   "end": 58.91
+  },
+  {
+   "beat": 9,
+   "text": "left.",
+   "start": 58.99,
+   "end": 59.79
+  },
+  {
+   "beat": 10,
+   "text": "Krishna",
+   "start": 59.87,
+   "end": 60.27
+  },
+  {
+   "beat": 10,
+   "text": "remembered",
+   "start": 60.47,
+   "end": 60.75
+  },
+  {
+   "beat": 10,
+   "text": "her",
+   "start": 60.83,
+   "end": 60.91
+  },
+  {
+   "beat": 10,
+   "text": "words,",
+   "start": 60.99,
+   "end": 61.63
+  },
+  {
+   "beat": 10,
+   "text": "and",
+   "start": 61.71,
+   "end": 61.87
+  },
+  {
+   "beat": 10,
+   "text": "knew",
+   "start": 61.95,
+   "end": 62.11
+  },
+  {
+   "beat": 10,
+   "text": "his",
+   "start": 62.23,
+   "end": 62.35
+  },
+  {
+   "beat": 10,
+   "text": "time",
+   "start": 62.47,
+   "end": 62.59
+  },
+  {
+   "beat": 10,
+   "text": "had",
+   "start": 62.67,
+   "end": 62.75
+  },
+  {
+   "beat": 10,
+   "text": "come.",
+   "start": 62.83,
+   "end": 63.55
+  },
+  {
+   "beat": 10,
+   "text": "Alone,",
+   "start": 63.63,
+   "end": 64.23
+  },
+  {
+   "beat": 10,
+   "text": "he",
+   "start": 64.27,
+   "end": 64.43
+  },
+  {
+   "beat": 10,
+   "text": "lay",
+   "start": 64.51,
+   "end": 64.59
+  },
+  {
+   "beat": 10,
+   "text": "down",
+   "start": 64.67,
+   "end": 64.91
+  },
+  {
+   "beat": 10,
+   "text": "in",
+   "start": 64.95,
+   "end": 64.99
+  },
+  {
+   "beat": 10,
+   "text": "a",
+   "start": 65.15,
+   "end": 65.19
+  },
+  {
+   "beat": 10,
+   "text": "forest.",
+   "start": 65.23,
+   "end": 66.11
+  },
+  {
+   "beat": 11,
+   "text": "From",
+   "start": 66.31,
+   "end": 66.35
+  },
+  {
+   "beat": 11,
+   "text": "far",
+   "start": 66.43,
+   "end": 66.67
+  },
+  {
+   "beat": 11,
+   "text": "off,",
+   "start": 66.75,
+   "end": 67.19
+  },
+  {
+   "beat": 11,
+   "text": "a",
+   "start": 67.23,
+   "end": 67.31
+  },
+  {
+   "beat": 11,
+   "text": "hunter",
+   "start": 67.51,
+   "end": 67.71
+  },
+  {
+   "beat": 11,
+   "text": "took",
+   "start": 67.79,
+   "end": 67.87
+  },
+  {
+   "beat": 11,
+   "text": "him",
+   "start": 67.95,
+   "end": 68.03
+  },
+  {
+   "beat": 11,
+   "text": "for",
+   "start": 68.11,
+   "end": 68.19
+  },
+  {
+   "beat": 11,
+   "text": "a",
+   "start": 68.27,
+   "end": 68.35
+  },
+  {
+   "beat": 11,
+   "text": "deer,",
+   "start": 68.63,
+   "end": 68.99
+  },
+  {
+   "beat": 11,
+   "text": "and",
+   "start": 69.07,
+   "end": 69.15
+  },
+  {
+   "beat": 11,
+   "text": "shot.",
+   "start": 69.31,
+   "end": 69.87
+  },
+  {
+   "beat": 12,
+   "text": "When",
+   "start": 70.003,
+   "end": 70.03
+  },
+  {
+   "beat": 12,
+   "text": "he",
+   "start": 70.11,
+   "end": 70.19
+  },
+  {
+   "beat": 12,
+   "text": "saw",
+   "start": 70.23,
+   "end": 70.35
+  },
+  {
+   "beat": 12,
+   "text": "it",
+   "start": 70.39,
+   "end": 70.43
+  },
+  {
+   "beat": 12,
+   "text": "was",
+   "start": 70.51,
+   "end": 70.67
+  },
+  {
+   "beat": 12,
+   "text": "Krishna,",
+   "start": 70.71,
+   "end": 71.47
+  },
+  {
+   "beat": 12,
+   "text": "he",
+   "start": 71.59,
+   "end": 71.71
+  },
+  {
+   "beat": 12,
+   "text": "fell",
+   "start": 71.83,
+   "end": 71.95
+  },
+  {
+   "beat": 12,
+   "text": "at",
+   "start": 71.99,
+   "end": 72.03
+  },
+  {
+   "beat": 12,
+   "text": "his",
+   "start": 72.11,
+   "end": 72.19
+  },
+  {
+   "beat": 12,
+   "text": "feet.",
+   "start": 72.27,
+   "end": 72.99
+  },
+  {
+   "beat": 12,
+   "text": "The",
+   "start": 73.07,
+   "end": 73.23
+  },
+  {
+   "beat": 12,
+   "text": "curse",
+   "start": 73.35,
+   "end": 73.71
+  },
+  {
+   "beat": 12,
+   "text": "was",
+   "start": 73.79,
+   "end": 73.95
+  },
+  {
+   "beat": 12,
+   "text": "complete.",
+   "start": 74.23,
+   "end": 74.91
+  },
+  {
+   "beat": 13,
+   "text": "But",
+   "start": 74.99,
+   "end": 75.07
+  },
+  {
+   "beat": 13,
+   "text": "Krishna",
+   "start": 75.15,
+   "end": 75.55
+  },
+  {
+   "beat": 13,
+   "text": "didn't",
+   "start": 75.63,
+   "end": 75.87
+  },
+  {
+   "beat": 13,
+   "text": "punish",
+   "start": 75.95,
+   "end": 76.19
+  },
+  {
+   "beat": 13,
+   "text": "him.",
+   "start": 76.31,
+   "end": 76.75
+  },
+  {
+   "beat": 13,
+   "text": "He",
+   "start": 76.83,
+   "end": 76.91
+  },
+  {
+   "beat": 13,
+   "text": "comforted",
+   "start": 76.99,
+   "end": 77.47
+  },
+  {
+   "beat": 13,
+   "text": "him,",
+   "start": 77.59,
+   "end": 77.95
+  },
+  {
+   "beat": 13,
+   "text": "and",
+   "start": 78.03,
+   "end": 78.19
+  },
+  {
+   "beat": 13,
+   "text": "rose",
+   "start": 78.35,
+   "end": 78.51
+  },
+  {
+   "beat": 13,
+   "text": "to",
+   "start": 78.59,
+   "end": 78.67
+  },
+  {
+   "beat": 13,
+   "text": "heaven",
+   "start": 78.75,
+   "end": 79.15
+  },
+  {
+   "beat": 13,
+   "text": "in",
+   "start": 79.23,
+   "end": 79.31
+  },
+  {
+   "beat": 13,
+   "text": "light.",
+   "start": 79.39,
+   "end": 80.19
+  },
+  {
+   "beat": 14,
+   "text": "Next",
+   "start": 80.27,
+   "end": 80.51
+  },
+  {
+   "beat": 14,
+   "text": "season",
+   "start": 80.67,
+   "end": 80.83
+  },
+  {
+   "beat": 14,
+   "text": "on",
+   "start": 80.91,
+   "end": 80.99
+  },
+  {
+   "beat": 14,
+   "text": "Shraap:",
+   "start": 81.07,
+   "end": 81.71
+  },
+  {
+   "beat": 14,
+   "text": "Ashwatthama,",
+   "start": 81.83,
+   "end": 82.75
+  },
+  {
+   "beat": 14,
+   "text": "the",
+   "start": 82.83,
+   "end": 82.91
+  },
+  {
+   "beat": 14,
+   "text": "warrior",
+   "start": 82.99,
+   "end": 83.39
+  },
+  {
+   "beat": 14,
+   "text": "Krishna",
+   "start": 83.47,
+   "end": 83.87
+  },
+  {
+   "beat": 14,
+   "text": "himself",
+   "start": 84.03,
+   "end": 84.51
+  },
+  {
+   "beat": 14,
+   "text": "cursed.",
+   "start": 84.59,
+   "end": 85.23
+  }
+ ]
+}
