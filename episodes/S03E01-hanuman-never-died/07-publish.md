@@ -35,9 +35,9 @@ Episode 1 of **S03 Chiranjeevi: the ones who never died**, the series opener. It
 - If you pick the frame in the app instead, use **0:02** (both languages), the same shot.
 
 ## YouTube Shorts: English (`@thelostgyaan_en`)
-- **Title (≤60 chars):** **Why Hanuman Never Died: He Asked for One Thing** *(46)*
-  - Alt A: Hanuman Could Choose When to Die. He Never Did. *(47)*
-  - Alt B: The Boon That Keeps Hanuman Alive *(33)*
+- **Title (≤60 chars):** **Hanuman's One Wish to Rama** *(26)* (owner's pick, 2026-11-27)
+  - Alt A: Hanuman Could Die Anytime. He Chose Not To. *(43)*
+  - Alt B: Why Hanuman Never Died: He Asked for One Thing *(46)*
 - **Description:**
   > A god told Hanuman he would die only when he chose. He never chose. Here's why. 🙏
   > As a baby he leaped at the rising sun, thinking it a fruit, and Indra's thunderbolt broke his jaw, his hanu. Years later, when Rama became king, Hanuman asked for one thing: to live as long as Rama's story is told on earth, and to hear it.
@@ -58,8 +58,8 @@ Episode 1 of **S03 Chiranjeevi: the ones who never died**, the series opener. It
 
 ## YouTube Shorts: Hindi (`@thelostgyaan`)
 *Hindi posting copy is in Roman script (Hinglish). The video stays in Devanagari.*
-- **Title:** **Hanuman Kyun Nahi Mare? Unhone Ek Cheez Maangi** *(46)*
-  - Alt A: Hanuman Ko Mila Tha Ichchha-Mrityu Ka Vardaan *(45)*
+- **Title:** **Hanuman Ne Ram Se Kya Maanga Tha?** *(33)* (owner's pick, 2026-11-27)
+  - Alt A: Kya Hanuman Aaj Bhi Zinda Hain? Ramayan Ka Jawab *(48)*
   - Alt B: Jab Tak Ram Katha Hai, Tab Tak Hanuman Hain *(43)*
 - **Description:**
   > Ek devta ne Hanuman se kaha tha: tumhari mrityu tabhi hogi, jab tum chahoge. Unhone kabhi nahi chaha. Kyun? 🙏
@@ -88,7 +88,7 @@ Episode 1 of **S03 Chiranjeevi: the ones who never died**, the series opener. It
   >
   > #Hanuman #Ramayan #Chiranjeevi #IndianMythology #TheLostGyaaann
 - **Cover:** `render/S03E01-thumb-hi.png` · **Alt text:** Hanuman, saffron-bodied with a gold crown and a gold mace, his tail curled behind him, stands calm before a huge red sun rising over misty mountains.
-- **Audio name:** Hanuman Kyun Nahi Mare · The Lost Gyaan
+- **Audio name:** Hanuman Ne Ram Se Kya Maanga · The Lost Gyaan
 - **After posting:** Story poll: "Hanuman ji ki katha sabse pehle? Ghar mein / TV par". A second Story: "Agla Chiranjeevi: Bali. Aap kiski katha sunna chahenge?" (question sticker).
 
 ## Sources
