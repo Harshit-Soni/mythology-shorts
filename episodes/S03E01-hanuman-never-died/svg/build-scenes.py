@@ -164,7 +164,7 @@ doc = {
  'sourceCredit': {'en': 'Valmiki Ramayana, Kishkindha & Uttara Kanda', 'hi': 'वाल्मीकि रामायण, किष्किंधा और उत्तर कांड'},
  'safeZone': {'bottom': 0.2, 'right': 0.12}, 'grade': {'grain': 0.12, 'vignette': 0.45, 'shadows': True}, 'sound': e03['sound'],
  'thumbnail': {'scene': 's01', 'at': 0.5, 'series': {'en': 'Chiranjeevi · Episode 1', 'hi': 'चिरंजीवी · भाग 1'},
-   'title': TITLE, 'titleLines': {'en': ['Why Hanuman', 'Never Died'], 'hi': ['हनुमान', 'क्यों नहीं मरे?']}},
+   'title': TITLE, 'titleLines': {'en': ["Hanuman's", 'One Wish'], 'hi': ['हनुमान ने राम से', 'क्या माँगा?']}},
  'scenes': scenes,
  'assets': {'characters': [{'id': i, 'status': 'library' if all(v == 'library' for v in p.values()) else 'new', 'poses': p} for i, p in poses.items()],
             'backgrounds': [st('backgrounds', i) for i in bgs], 'props': [st('props', i) for i in prs] + [{'id': 'seal-stamp', 'status': 'library'}],

@@ -31,7 +31,7 @@ Episode 1 of **S03 Chiranjeevi: the ones who never died**, the series opener. It
 
 **Cover / thumbnail:** `render/S03E01-thumb-en.png` and `render/S03E01-thumb-hi.png`.
 - It shows Hanuman with his mace before a huge red sunrise.
-- Titles: "Why Hanuman / Never Died" / "हनुमान / क्यों नहीं मरे?".
+- Titles: "Hanuman's / One Wish" / "हनुमान ने राम से / क्या माँगा?", matching the video titles.
 - If you pick the frame in the app instead, use **0:02** (both languages), the same shot.
 
 ## YouTube Shorts: English (`@thelostgyaan_en`)
