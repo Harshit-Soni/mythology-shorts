@@ -1008,7 +1008,7 @@
           "x": 0.5,
           "y": 0.575,
           "scale": 0.83,
-          "flip": false,
+          "flip": true,
           "action": "still",
           "expression": "calm"
         }
@@ -1066,7 +1066,7 @@
           "x": 0.5,
           "y": 0.575,
           "scale": 0.83,
-          "flip": false,
+          "flip": true,
           "action": "still",
           "expression": "calm"
         },
@@ -1181,7 +1181,7 @@
           "x": 0.5,
           "y": 0.78,
           "scale": 2.4,
-          "flip": false,
+          "flip": true,
           "action": "still",
           "expression": "moved"
         }
@@ -1401,7 +1401,7 @@
           "x": 0.64,
           "y": 0.84,
           "scale": 0.9,
-          "flip": true,
+          "flip": false,
           "action": "still",
           "expression": "calm"
         }
@@ -1463,7 +1463,7 @@
           "x": 0.8,
           "y": 0.84,
           "scale": 0.8,
-          "flip": true,
+          "flip": false,
           "action": "still",
           "expression": "calm"
         }
