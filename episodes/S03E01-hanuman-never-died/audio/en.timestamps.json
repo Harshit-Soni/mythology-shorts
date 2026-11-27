@@ -1,0 +1,1365 @@
+{
+ "episode": "S03E01",
+ "lang": "en",
+ "source": "elevenlabs-flow + scribe",
+ "matched": "226/226",
+ "total": 87.07,
+ "words": [
+  {
+   "beat": 1,
+   "text": "A",
+   "start": 1.15,
+   "end": 1.23
+  },
+  {
+   "beat": 1,
+   "text": "god",
+   "start": 1.31,
+   "end": 1.63
+  },
+  {
+   "beat": 1,
+   "text": "once",
+   "start": 1.71,
+   "end": 1.95
+  },
+  {
+   "beat": 1,
+   "text": "told",
+   "start": 1.99,
+   "end": 2.19
+  },
+  {
+   "beat": 1,
+   "text": "Hanuman:",
+   "start": 2.27,
+   "end": 3.07
+  },
+  {
+   "beat": 1,
+   "text": "you'll",
+   "start": 3.31,
+   "end": 3.55
+  },
+  {
+   "beat": 1,
+   "text": "die",
+   "start": 3.63,
+   "end": 4.03
+  },
+  {
+   "beat": 1,
+   "text": "only",
+   "start": 4.19,
+   "end": 4.51
+  },
+  {
+   "beat": 1,
+   "text": "when",
+   "start": 4.59,
+   "end": 4.75
+  },
+  {
+   "beat": 1,
+   "text": "you",
+   "start": 4.87,
+   "end": 4.99
+  },
+  {
+   "beat": 1,
+   "text": "choose.",
+   "start": 5.27,
+   "end": 5.83
+  },
+  {
+   "beat": 1,
+   "text": "He",
+   "start": 6.19,
+   "end": 6.43
+  },
+  {
+   "beat": 1,
+   "text": "never",
+   "start": 6.51,
+   "end": 6.83
+  },
+  {
+   "beat": 1,
+   "text": "chose.",
+   "start": 6.91,
+   "end": 7.95
+  },
+  {
+   "beat": 1,
+   "text": "Here's",
+   "start": 8.03,
+   "end": 8.35
+  },
+  {
+   "beat": 1,
+   "text": "why.",
+   "start": 8.43,
+   "end": 9.23
+  },
+  {
+   "beat": 2,
+   "text": "As",
+   "start": 9.31,
+   "end": 9.39
+  },
+  {
+   "beat": 2,
+   "text": "a",
+   "start": 9.47,
+   "end": 9.55
+  },
+  {
+   "beat": 2,
+   "text": "baby,",
+   "start": 9.75,
+   "end": 10.19
+  },
+  {
+   "beat": 2,
+   "text": "Hanuman",
+   "start": 10.27,
+   "end": 10.75
+  },
+  {
+   "beat": 2,
+   "text": "saw",
+   "start": 10.79,
+   "end": 10.99
+  },
+  {
+   "beat": 2,
+   "text": "the",
+   "start": 11.07,
+   "end": 11.15
+  },
+  {
+   "beat": 2,
+   "text": "rising",
+   "start": 11.23,
+   "end": 11.63
+  },
+  {
+   "beat": 2,
+   "text": "sun,",
+   "start": 11.71,
+   "end": 12.27
+  },
+  {
+   "beat": 2,
+   "text": "thought",
+   "start": 12.35,
+   "end": 12.51
+  },
+  {
+   "beat": 2,
+   "text": "it",
+   "start": 12.55,
+   "end": 12.59
+  },
+  {
+   "beat": 2,
+   "text": "was",
+   "start": 12.63,
+   "end": 12.67
+  },
+  {
+   "beat": 2,
+   "text": "a",
+   "start": 12.83,
+   "end": 12.87
+  },
+  {
+   "beat": 2,
+   "text": "fruit,",
+   "start": 12.91,
+   "end": 13.39
+  },
+  {
+   "beat": 2,
+   "text": "and",
+   "start": 13.47,
+   "end": 13.71
+  },
+  {
+   "beat": 2,
+   "text": "leaped",
+   "start": 13.79,
+   "end": 14.03
+  },
+  {
+   "beat": 2,
+   "text": "into",
+   "start": 14.15,
+   "end": 14.27
+  },
+  {
+   "beat": 2,
+   "text": "the",
+   "start": 14.35,
+   "end": 14.43
+  },
+  {
+   "beat": 2,
+   "text": "sky",
+   "start": 14.59,
+   "end": 14.75
+  },
+  {
+   "beat": 2,
+   "text": "to",
+   "start": 14.83,
+   "end": 14.91
+  },
+  {
+   "beat": 2,
+   "text": "grab",
+   "start": 15.07,
+   "end": 15.23
+  },
+  {
+   "beat": 2,
+   "text": "it.",
+   "start": 15.31,
+   "end": 15.87
+  },
+  {
+   "beat": 3,
+   "text": "Indra,",
+   "start": 15.95,
+   "end": 16.59
+  },
+  {
+   "beat": 3,
+   "text": "king",
+   "start": 16.71,
+   "end": 16.83
+  },
+  {
+   "beat": 3,
+   "text": "of",
+   "start": 16.87,
+   "end": 16.91
+  },
+  {
+   "beat": 3,
+   "text": "the",
+   "start": 16.99,
+   "end": 17.07
+  },
+  {
+   "beat": 3,
+   "text": "gods,",
+   "start": 17.11,
+   "end": 17.71
+  },
+  {
+   "beat": 3,
+   "text": "struck",
+   "start": 17.79,
+   "end": 18.11
+  },
+  {
+   "beat": 3,
+   "text": "him",
+   "start": 18.19,
+   "end": 18.27
+  },
+  {
+   "beat": 3,
+   "text": "with",
+   "start": 18.35,
+   "end": 18.43
+  },
+  {
+   "beat": 3,
+   "text": "a",
+   "start": 18.51,
+   "end": 18.59
+  },
+  {
+   "beat": 3,
+   "text": "thunderbolt.",
+   "start": 18.63,
+   "end": 19.63
+  },
+  {
+   "beat": 3,
+   "text": "He",
+   "start": 19.71,
+   "end": 19.87
+  },
+  {
+   "beat": 3,
+   "text": "fell",
+   "start": 19.95,
+   "end": 20.35
+  },
+  {
+   "beat": 3,
+   "text": "and",
+   "start": 20.43,
+   "end": 20.51
+  },
+  {
+   "beat": 3,
+   "text": "broke",
+   "start": 20.55,
+   "end": 20.75
+  },
+  {
+   "beat": 3,
+   "text": "his",
+   "start": 20.87,
+   "end": 20.99
+  },
+  {
+   "beat": 3,
+   "text": "jaw,",
+   "start": 21.15,
+   "end": 21.71
+  },
+  {
+   "beat": 3,
+   "text": "his",
+   "start": 21.79,
+   "end": 21.87
+  },
+  {
+   "beat": 3,
+   "text": "hanu.",
+   "start": 21.95,
+   "end": 22.67
+  },
+  {
+   "beat": 3,
+   "text": "That's",
+   "start": 22.883,
+   "end": 22.99
+  },
+  {
+   "beat": 3,
+   "text": "how",
+   "start": 23.07,
+   "end": 23.15
+  },
+  {
+   "beat": 3,
+   "text": "he",
+   "start": 23.19,
+   "end": 23.23
+  },
+  {
+   "beat": 3,
+   "text": "got",
+   "start": 23.31,
+   "end": 23.39
+  },
+  {
+   "beat": 3,
+   "text": "his",
+   "start": 23.47,
+   "end": 23.55
+  },
+  {
+   "beat": 3,
+   "text": "name.",
+   "start": 23.63,
+   "end": 24.43
+  },
+  {
+   "beat": 4,
+   "text": "His",
+   "start": 24.51,
+   "end": 24.67
+  },
+  {
+   "beat": 4,
+   "text": "father,",
+   "start": 24.75,
+   "end": 25.23
+  },
+  {
+   "beat": 4,
+   "text": "the",
+   "start": 25.31,
+   "end": 25.39
+  },
+  {
+   "beat": 4,
+   "text": "wind",
+   "start": 25.51,
+   "end": 25.63
+  },
+  {
+   "beat": 4,
+   "text": "god,",
+   "start": 25.71,
+   "end": 26.11
+  },
+  {
+   "beat": 4,
+   "text": "was",
+   "start": 26.23,
+   "end": 26.35
+  },
+  {
+   "beat": 4,
+   "text": "so",
+   "start": 26.43,
+   "end": 26.67
+  },
+  {
+   "beat": 4,
+   "text": "angry",
+   "start": 26.75,
+   "end": 27.15
+  },
+  {
+   "beat": 4,
+   "text": "that",
+   "start": 27.23,
+   "end": 27.31
+  },
+  {
+   "beat": 4,
+   "text": "he",
+   "start": 27.39,
+   "end": 27.47
+  },
+  {
+   "beat": 4,
+   "text": "stopped",
+   "start": 27.55,
+   "end": 27.87
+  },
+  {
+   "beat": 4,
+   "text": "all",
+   "start": 27.95,
+   "end": 28.11
+  },
+  {
+   "beat": 4,
+   "text": "the",
+   "start": 28.19,
+   "end": 28.35
+  },
+  {
+   "beat": 4,
+   "text": "air",
+   "start": 28.47,
+   "end": 28.59
+  },
+  {
+   "beat": 4,
+   "text": "in",
+   "start": 28.63,
+   "end": 28.67
+  },
+  {
+   "beat": 4,
+   "text": "the",
+   "start": 28.75,
+   "end": 28.83
+  },
+  {
+   "beat": 4,
+   "text": "world.",
+   "start": 28.91,
+   "end": 29.71
+  },
+  {
+   "beat": 5,
+   "text": "So",
+   "start": 29.79,
+   "end": 29.87
+  },
+  {
+   "beat": 5,
+   "text": "the",
+   "start": 29.95,
+   "end": 30.03
+  },
+  {
+   "beat": 5,
+   "text": "gods",
+   "start": 30.07,
+   "end": 30.43
+  },
+  {
+   "beat": 5,
+   "text": "calmed",
+   "start": 30.51,
+   "end": 30.75
+  },
+  {
+   "beat": 5,
+   "text": "him",
+   "start": 30.83,
+   "end": 30.99
+  },
+  {
+   "beat": 5,
+   "text": "with",
+   "start": 31.07,
+   "end": 31.15
+  },
+  {
+   "beat": 5,
+   "text": "gifts",
+   "start": 31.23,
+   "end": 31.47
+  },
+  {
+   "beat": 5,
+   "text": "for",
+   "start": 31.55,
+   "end": 31.63
+  },
+  {
+   "beat": 5,
+   "text": "the",
+   "start": 31.67,
+   "end": 31.71
+  },
+  {
+   "beat": 5,
+   "text": "child.",
+   "start": 31.79,
+   "end": 32.59
+  },
+  {
+   "beat": 5,
+   "text": "Indra's",
+   "start": 32.67,
+   "end": 33.23
+  },
+  {
+   "beat": 5,
+   "text": "was",
+   "start": 33.31,
+   "end": 33.39
+  },
+  {
+   "beat": 5,
+   "text": "the",
+   "start": 33.47,
+   "end": 33.55
+  },
+  {
+   "beat": 5,
+   "text": "greatest:",
+   "start": 33.59,
+   "end": 34.51
+  },
+  {
+   "beat": 5,
+   "text": "\"You'll",
+   "start": 34.654,
+   "end": 34.75
+  },
+  {
+   "beat": 5,
+   "text": "die",
+   "start": 34.83,
+   "end": 35.15
+  },
+  {
+   "beat": 5,
+   "text": "only",
+   "start": 35.39,
+   "end": 35.71
+  },
+  {
+   "beat": 5,
+   "text": "when",
+   "start": 35.79,
+   "end": 35.95
+  },
+  {
+   "beat": 5,
+   "text": "you",
+   "start": 36.03,
+   "end": 36.11
+  },
+  {
+   "beat": 5,
+   "text": "choose.\"",
+   "start": 36.19,
+   "end": 37.23
+  },
+  {
+   "beat": 6,
+   "text": "Hanuman",
+   "start": 37.31,
+   "end": 37.71
+  },
+  {
+   "beat": 6,
+   "text": "grew",
+   "start": 37.79,
+   "end": 37.95
+  },
+  {
+   "beat": 6,
+   "text": "up",
+   "start": 38.03,
+   "end": 38.19
+  },
+  {
+   "beat": 6,
+   "text": "to",
+   "start": 38.23,
+   "end": 38.27
+  },
+  {
+   "beat": 6,
+   "text": "be",
+   "start": 38.35,
+   "end": 38.43
+  },
+  {
+   "beat": 6,
+   "text": "Rama's",
+   "start": 38.51,
+   "end": 38.91
+  },
+  {
+   "beat": 6,
+   "text": "most",
+   "start": 39.03,
+   "end": 39.15
+  },
+  {
+   "beat": 6,
+   "text": "devoted",
+   "start": 39.31,
+   "end": 39.71
+  },
+  {
+   "beat": 6,
+   "text": "friend.",
+   "start": 39.79,
+   "end": 40.51
+  },
+  {
+   "beat": 6,
+   "text": "He",
+   "start": 40.59,
+   "end": 40.67
+  },
+  {
+   "beat": 6,
+   "text": "even",
+   "start": 40.79,
+   "end": 40.91
+  },
+  {
+   "beat": 6,
+   "text": "crossed",
+   "start": 40.99,
+   "end": 41.27
+  },
+  {
+   "beat": 6,
+   "text": "the",
+   "start": 41.31,
+   "end": 41.39
+  },
+  {
+   "beat": 6,
+   "text": "ocean",
+   "start": 41.47,
+   "end": 41.71
+  },
+  {
+   "beat": 6,
+   "text": "to",
+   "start": 41.79,
+   "end": 41.87
+  },
+  {
+   "beat": 6,
+   "text": "find",
+   "start": 41.95,
+   "end": 42.11
+  },
+  {
+   "beat": 6,
+   "text": "Rama's",
+   "start": 42.19,
+   "end": 42.51
+  },
+  {
+   "beat": 6,
+   "text": "wife,",
+   "start": 42.59,
+   "end": 42.99
+  },
+  {
+   "beat": 6,
+   "text": "Sita.",
+   "start": 43.07,
+   "end": 43.87
+  },
+  {
+   "beat": 7,
+   "text": "Rama",
+   "start": 43.95,
+   "end": 44.27
+  },
+  {
+   "beat": 7,
+   "text": "became",
+   "start": 44.35,
+   "end": 44.75
+  },
+  {
+   "beat": 7,
+   "text": "king.",
+   "start": 44.83,
+   "end": 45.63
+  },
+  {
+   "beat": 7,
+   "text": "As",
+   "start": 45.71,
+   "end": 45.79
+  },
+  {
+   "beat": 7,
+   "text": "his",
+   "start": 45.87,
+   "end": 45.95
+  },
+  {
+   "beat": 7,
+   "text": "friends",
+   "start": 46.03,
+   "end": 46.27
+  },
+  {
+   "beat": 7,
+   "text": "said",
+   "start": 46.35,
+   "end": 46.51
+  },
+  {
+   "beat": 7,
+   "text": "goodbye,",
+   "start": 46.59,
+   "end": 47.39
+  },
+  {
+   "beat": 7,
+   "text": "Hanuman",
+   "start": 47.47,
+   "end": 47.87
+  },
+  {
+   "beat": 7,
+   "text": "asked",
+   "start": 47.95,
+   "end": 48.27
+  },
+  {
+   "beat": 7,
+   "text": "for",
+   "start": 48.39,
+   "end": 48.51
+  },
+  {
+   "beat": 7,
+   "text": "just",
+   "start": 48.59,
+   "end": 48.83
+  },
+  {
+   "beat": 7,
+   "text": "one",
+   "start": 48.99,
+   "end": 49.23
+  },
+  {
+   "beat": 7,
+   "text": "thing:",
+   "start": 49.31,
+   "end": 50.03
+  },
+  {
+   "beat": 8,
+   "text": "\"As",
+   "start": 50.248,
+   "end": 50.27
+  },
+  {
+   "beat": 8,
+   "text": "long",
+   "start": 50.35,
+   "end": 50.43
+  },
+  {
+   "beat": 8,
+   "text": "as",
+   "start": 50.51,
+   "end": 50.59
+  },
+  {
+   "beat": 8,
+   "text": "your",
+   "start": 50.67,
+   "end": 50.83
+  },
+  {
+   "beat": 8,
+   "text": "story",
+   "start": 50.91,
+   "end": 51.15
+  },
+  {
+   "beat": 8,
+   "text": "is",
+   "start": 51.23,
+   "end": 51.39
+  },
+  {
+   "beat": 8,
+   "text": "told",
+   "start": 51.43,
+   "end": 51.63
+  },
+  {
+   "beat": 8,
+   "text": "on",
+   "start": 51.71,
+   "end": 51.79
+  },
+  {
+   "beat": 8,
+   "text": "earth,",
+   "start": 51.87,
+   "end": 52.43
+  },
+  {
+   "beat": 8,
+   "text": "let",
+   "start": 52.51,
+   "end": 52.59
+  },
+  {
+   "beat": 8,
+   "text": "me",
+   "start": 52.67,
+   "end": 52.83
+  },
+  {
+   "beat": 8,
+   "text": "live,",
+   "start": 53.15,
+   "end": 53.523
+  },
+  {
+   "beat": 8,
+   "text": "and",
+   "start": 53.577,
+   "end": 53.63
+  },
+  {
+   "beat": 8,
+   "text": "hear",
+   "start": 53.71,
+   "end": 53.87
+  },
+  {
+   "beat": 8,
+   "text": "it.\"",
+   "start": 53.95,
+   "end": 54.51
+  },
+  {
+   "beat": 9,
+   "text": "Rama",
+   "start": 54.59,
+   "end": 54.99
+  },
+  {
+   "beat": 9,
+   "text": "rose",
+   "start": 55.19,
+   "end": 55.39
+  },
+  {
+   "beat": 9,
+   "text": "and",
+   "start": 55.47,
+   "end": 55.63
+  },
+  {
+   "beat": 9,
+   "text": "hugged",
+   "start": 55.71,
+   "end": 55.95
+  },
+  {
+   "beat": 9,
+   "text": "him:",
+   "start": 56.03,
+   "end": 56.59
+  },
+  {
+   "beat": 9,
+   "text": "\"So",
+   "start": 56.75,
+   "end": 56.91
+  },
+  {
+   "beat": 9,
+   "text": "it",
+   "start": 56.99,
+   "end": 57.07
+  },
+  {
+   "beat": 9,
+   "text": "will",
+   "start": 57.15,
+   "end": 57.23
+  },
+  {
+   "beat": 9,
+   "text": "be.",
+   "start": 57.31,
+   "end": 57.91
+  },
+  {
+   "beat": 9,
+   "text": "My",
+   "start": 57.95,
+   "end": 58.11
+  },
+  {
+   "beat": 9,
+   "text": "story",
+   "start": 58.19,
+   "end": 58.51
+  },
+  {
+   "beat": 9,
+   "text": "will",
+   "start": 58.59,
+   "end": 58.67
+  },
+  {
+   "beat": 9,
+   "text": "last",
+   "start": 58.75,
+   "end": 58.99
+  },
+  {
+   "beat": 9,
+   "text": "as",
+   "start": 59.07,
+   "end": 59.23
+  },
+  {
+   "beat": 9,
+   "text": "long",
+   "start": 59.31,
+   "end": 59.47
+  },
+  {
+   "beat": 9,
+   "text": "as",
+   "start": 59.55,
+   "end": 59.63
+  },
+  {
+   "beat": 9,
+   "text": "the",
+   "start": 59.71,
+   "end": 59.79
+  },
+  {
+   "beat": 9,
+   "text": "world,",
+   "start": 59.87,
+   "end": 60.59
+  },
+  {
+   "beat": 9,
+   "text": "and",
+   "start": 60.67,
+   "end": 60.75
+  },
+  {
+   "beat": 9,
+   "text": "so",
+   "start": 60.83,
+   "end": 60.99
+  },
+  {
+   "beat": 9,
+   "text": "will",
+   "start": 61.07,
+   "end": 61.15
+  },
+  {
+   "beat": 9,
+   "text": "you.\"",
+   "start": 61.23,
+   "end": 61.95
+  },
+  {
+   "beat": 10,
+   "text": "Years",
+   "start": 62.03,
+   "end": 62.27
+  },
+  {
+   "beat": 10,
+   "text": "later,",
+   "start": 62.35,
+   "end": 62.963
+  },
+  {
+   "beat": 10,
+   "text": "when",
+   "start": 63.017,
+   "end": 63.07
+  },
+  {
+   "beat": 10,
+   "text": "Rama",
+   "start": 63.15,
+   "end": 63.47
+  },
+  {
+   "beat": 10,
+   "text": "left",
+   "start": 63.59,
+   "end": 63.71
+  },
+  {
+   "beat": 10,
+   "text": "the",
+   "start": 63.75,
+   "end": 63.79
+  },
+  {
+   "beat": 10,
+   "text": "world,",
+   "start": 63.87,
+   "end": 64.51
+  },
+  {
+   "beat": 10,
+   "text": "everyone",
+   "start": 64.59,
+   "end": 64.99
+  },
+  {
+   "beat": 10,
+   "text": "wanted",
+   "start": 65.07,
+   "end": 65.23
+  },
+  {
+   "beat": 10,
+   "text": "to",
+   "start": 65.31,
+   "end": 65.39
+  },
+  {
+   "beat": 10,
+   "text": "go",
+   "start": 65.47,
+   "end": 65.55
+  },
+  {
+   "beat": 10,
+   "text": "with",
+   "start": 65.63,
+   "end": 65.71
+  },
+  {
+   "beat": 10,
+   "text": "him.",
+   "start": 65.79,
+   "end": 66.373
+  },
+  {
+   "beat": 11,
+   "text": "But",
+   "start": 66.487,
+   "end": 66.51
+  },
+  {
+   "beat": 11,
+   "text": "he",
+   "start": 66.59,
+   "end": 66.67
+  },
+  {
+   "beat": 11,
+   "text": "told",
+   "start": 66.71,
+   "end": 66.91
+  },
+  {
+   "beat": 11,
+   "text": "Hanuman:",
+   "start": 66.99,
+   "end": 67.87
+  },
+  {
+   "beat": 11,
+   "text": "\"You",
+   "start": 67.95,
+   "end": 68.19
+  },
+  {
+   "beat": 11,
+   "text": "chose",
+   "start": 68.31,
+   "end": 68.59
+  },
+  {
+   "beat": 11,
+   "text": "to",
+   "start": 68.67,
+   "end": 68.75
+  },
+  {
+   "beat": 11,
+   "text": "live.",
+   "start": 69.11,
+   "end": 69.51
+  },
+  {
+   "beat": 11,
+   "text": "Keep",
+   "start": 69.55,
+   "end": 69.71
+  },
+  {
+   "beat": 11,
+   "text": "your",
+   "start": 69.79,
+   "end": 69.87
+  },
+  {
+   "beat": 11,
+   "text": "promise.",
+   "start": 69.95,
+   "end": 70.79
+  },
+  {
+   "beat": 11,
+   "text": "Stay.\"",
+   "start": 70.83,
+   "end": 71.63
+  },
+  {
+   "beat": 12,
+   "text": "So",
+   "start": 71.79,
+   "end": 72.03
+  },
+  {
+   "beat": 12,
+   "text": "Hanuman",
+   "start": 72.19,
+   "end": 72.59
+  },
+  {
+   "beat": 12,
+   "text": "stayed:",
+   "start": 72.67,
+   "end": 73.39
+  },
+  {
+   "beat": 12,
+   "text": "a",
+   "start": 73.47,
+   "end": 73.55
+  },
+  {
+   "beat": 12,
+   "text": "Chiranjeevi,",
+   "start": 73.63,
+   "end": 74.67
+  },
+  {
+   "beat": 12,
+   "text": "one",
+   "start": 74.75,
+   "end": 74.99
+  },
+  {
+   "beat": 12,
+   "text": "who",
+   "start": 75.07,
+   "end": 75.31
+  },
+  {
+   "beat": 12,
+   "text": "never",
+   "start": 75.47,
+   "end": 75.63
+  },
+  {
+   "beat": 12,
+   "text": "died.",
+   "start": 75.67,
+   "end": 76.39
+  },
+  {
+   "beat": 12,
+   "text": "And",
+   "start": 76.501,
+   "end": 76.51
+  },
+  {
+   "beat": 12,
+   "text": "it's",
+   "start": 76.59,
+   "end": 76.75
+  },
+  {
+   "beat": 12,
+   "text": "said,",
+   "start": 76.83,
+   "end": 77.39
+  },
+  {
+   "beat": 12,
+   "text": "wherever",
+   "start": 77.55,
+   "end": 77.87
+  },
+  {
+   "beat": 12,
+   "text": "Rama's",
+   "start": 77.95,
+   "end": 78.27
+  },
+  {
+   "beat": 12,
+   "text": "story",
+   "start": 78.35,
+   "end": 78.67
+  },
+  {
+   "beat": 12,
+   "text": "is",
+   "start": 78.75,
+   "end": 78.83
+  },
+  {
+   "beat": 12,
+   "text": "told,",
+   "start": 78.87,
+   "end": 79.55
+  },
+  {
+   "beat": 12,
+   "text": "he's",
+   "start": 79.63,
+   "end": 79.79
+  },
+  {
+   "beat": 12,
+   "text": "listening.",
+   "start": 79.87,
+   "end": 80.67
+  },
+  {
+   "beat": 12,
+   "text": "Even",
+   "start": 80.75,
+   "end": 80.99
+  },
+  {
+   "beat": 12,
+   "text": "now.",
+   "start": 81.07,
+   "end": 81.87
+  },
+  {
+   "beat": 13,
+   "text": "Next:",
+   "start": 81.95,
+   "end": 82.67
+  },
+  {
+   "beat": 13,
+   "text": "Bali,",
+   "start": 82.71,
+   "end": 83.31
+  },
+  {
+   "beat": 13,
+   "text": "the",
+   "start": 83.39,
+   "end": 83.47
+  },
+  {
+   "beat": 13,
+   "text": "king",
+   "start": 83.55,
+   "end": 83.79
+  },
+  {
+   "beat": 13,
+   "text": "who",
+   "start": 83.87,
+   "end": 83.95
+  },
+  {
+   "beat": 13,
+   "text": "promised",
+   "start": 84.03,
+   "end": 84.35
+  },
+  {
+   "beat": 13,
+   "text": "a",
+   "start": 84.43,
+   "end": 84.51
+  },
+  {
+   "beat": 13,
+   "text": "dwarf",
+   "start": 84.55,
+   "end": 84.99
+  },
+  {
+   "beat": 13,
+   "text": "three",
+   "start": 85.15,
+   "end": 85.39
+  },
+  {
+   "beat": 13,
+   "text": "steps",
+   "start": 85.55,
+   "end": 85.79
+  },
+  {
+   "beat": 13,
+   "text": "of",
+   "start": 85.87,
+   "end": 85.95
+  },
+  {
+   "beat": 13,
+   "text": "land.",
+   "start": 86.03,
+   "end": 86.67
+  }
+ ]
+}

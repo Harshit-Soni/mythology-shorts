@@ -29,7 +29,8 @@
 - **New visual domain:** Hanuman, Rama, Ayodhya have no approved precedent. Concept check (Stage 4) before the cast. Hanuman is shown with dignity: no cartoon monkey, a strong devotee with a gada (CLAUDE.md rule 2).
 
 ## Status
-- [ ] 1 Research (verified by me)
+- [ ] 1 Research (verified by me)  
+  *(Claude: research, script, storyboard, assets and voice done 2026-11-26/27; EN 87.0 s, HI 101.1 s)*
 - [ ] 2 Script (read aloud, EN + HI)
 - [ ] 3 Storyboard
 - [ ] 4 Assets
