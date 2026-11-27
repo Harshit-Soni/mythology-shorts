@@ -25,3 +25,4 @@ Where characters' feet (`y`) go on each background, as a fraction of the 9:16 fr
 | `tower-room` | floor from ≈ 0.75; feet ≈ 0.86–0.88; window x 0.22–0.78, 0.12–0.56 (S01E07) |
 | `banyan-road` | road 0.78–0.86; feet ≈ 0.84; nothing in the middle (S01E07) |
 | `dvaraka` | terrace floor from ≈ 0.83; feet ≈ 0.86; the city and sea behind the balustrade (0.62–0.80); spires up to ≈ 0.27 (S01E08) |
+| `sunrise-peak` | rock shelf from ≈ 0.80 (left to x ≈ 0.70, then a cliff); feet ≈ 0.84; the sun at x 0.68, y 0.55 (S03E01) |

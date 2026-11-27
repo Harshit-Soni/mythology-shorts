@@ -9,22 +9,26 @@
   "look": "Golden skin, a tall gold crown, a gold halo with rays, saffron-gold dhoti, crimson sash; the far hand raised in abhaya, a small vajra in the other.",
   "sourceNotes": "Vana §44, §46. The colours are design choices.",
   "poses": [
-    "standing-blessing"
+    "standing-blessing",
+    "hurling-vajra"
   ],
   "expressions": [
     "proud",
     "smiling"
   ],
   "appearsIn": [
-    "S01E03"
+    "S01E03",
+    "S03E01"
   ],
   "files": {
     "standing-blessing": "standing-blessing.svg",
-    "standing-blessing__smiling": "standing-blessing__smiling.svg"
+    "standing-blessing__smiling": "standing-blessing__smiling.svg",
+    "hurling-vajra": "hurling-vajra.svg"
   },
   "facing": "per pose, see facingByPose (ear rule)",
   "facingByPose": {
-    "standing-blessing": "right"
+    "standing-blessing": "right",
+    "hurling-vajra": "right"
   },
   "notes": "Made in code by episodes/S01E03-urvashi-curses-arjuna/svg/make-cast.py from the pandu rig (the women via S01E02 make-concepts.py). All poses face right; mirror with flip."
 }

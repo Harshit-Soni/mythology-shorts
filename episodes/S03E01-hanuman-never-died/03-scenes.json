@@ -250,7 +250,7 @@
           "pose": "baby-reaching",
           "x": 0.36,
           "y": 0.84,
-          "scale": 0.7,
+          "scale": 1.0,
           "flip": false,
           "action": "still",
           "expression": "wonder"
@@ -494,8 +494,8 @@
           "id": "hanuman",
           "pose": "baby-glowing",
           "x": 0.5,
-          "y": 0.78,
-          "scale": 0.9,
+          "y": 0.8,
+          "scale": 1.7,
           "flip": false,
           "action": "still",
           "expression": "calm"
@@ -554,7 +554,7 @@
           "id": "vayu",
           "pose": "holding-child",
           "x": 0.46,
-          "y": 1.25,
+          "y": 1.1,
           "scale": 2.1,
           "flip": false,
           "action": "still",
@@ -684,8 +684,8 @@
           "id": "hanuman",
           "pose": "baby-glowing",
           "x": 0.5,
-          "y": 0.8,
-          "scale": 0.7,
+          "y": 0.84,
+          "scale": 1.25,
           "flip": false,
           "action": "still",
           "expression": "calm"
@@ -952,10 +952,10 @@
       "characters": [
         {
           "id": "sita",
-          "pose": "seated-grove",
+          "pose": "waiting",
           "x": 0.5,
           "y": 0.86,
-          "scale": 1.1,
+          "scale": 0.95,
           "flip": false,
           "action": "still",
           "expression": "sad"
@@ -1123,7 +1123,7 @@
           "id": "hanuman",
           "pose": "asking",
           "x": 0.44,
-          "y": 1.4,
+          "y": 0.8,
           "scale": 2.6,
           "flip": false,
           "action": "still",
@@ -1178,9 +1178,9 @@
         {
           "id": "rama",
           "pose": "enthroned",
-          "x": 0.52,
-          "y": 1.2,
-          "scale": 1.9,
+          "x": 0.5,
+          "y": 0.78,
+          "scale": 2.4,
           "flip": false,
           "action": "still",
           "expression": "moved"
@@ -1350,18 +1350,10 @@
           "scale": 2.6,
           "flip": false,
           "action": "still",
-          "expression": "moved"
+          "expression": "necklace"
         }
       ],
-      "props": [
-        {
-          "id": "rama-necklace",
-          "x": 0.44,
-          "y": 0.52,
-          "scale": 0.5,
-          "action": "glint"
-        }
-      ],
+      "props": [],
       "camera": {
         "move": "slow-zoom-in",
         "from": 1.0,
@@ -1777,7 +1769,7 @@
           "id": "hanuman",
           "pose": "seated-listening",
           "x": 0.48,
-          "y": 1.3,
+          "y": 0.74,
           "scale": 2.4,
           "flip": false,
           "action": "still",
@@ -1862,33 +1854,33 @@
     "characters": [
       {
         "id": "hanuman",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "standing": "new",
-          "seated-listening": "new",
-          "baby-reaching": "new",
-          "baby-leaping": "new",
-          "baby-falling": "new",
-          "baby-glowing": "new",
-          "leaping": "new",
-          "bowing": "new",
-          "asking": "new",
-          "embraced": "new"
+          "standing": "library",
+          "seated-listening": "library",
+          "baby-reaching": "library",
+          "baby-leaping": "library",
+          "baby-falling": "library",
+          "baby-glowing": "library",
+          "leaping": "library",
+          "bowing": "library",
+          "asking": "library",
+          "embraced": "library"
         }
       },
       {
         "id": "indra",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "hurling-vajra": "new",
+          "hurling-vajra": "library",
           "standing-blessing": "library"
         }
       },
       {
         "id": "vayu",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "holding-child": "new"
+          "holding-child": "library"
         }
       },
       {
@@ -1900,20 +1892,20 @@
       },
       {
         "id": "rama",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "standing": "new",
-          "enthroned": "new",
-          "embracing": "new",
-          "departing": "new",
-          "hand-on-shoulder": "new"
+          "standing": "library",
+          "enthroned": "library",
+          "embracing": "library",
+          "departing": "library",
+          "hand-on-shoulder": "library"
         }
       },
       {
         "id": "sita",
-        "status": "new",
+        "status": "library",
         "poses": {
-          "seated-grove": "new"
+          "waiting": "library"
         }
       }
     ],
@@ -1924,7 +1916,7 @@
       },
       {
         "id": "sunrise-peak",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "peepal-night",
@@ -1966,11 +1958,11 @@
     "props": [
       {
         "id": "chiranjeevi-seal",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "katha-circle",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "vajra-flash",
@@ -1982,19 +1974,15 @@
       },
       {
         "id": "still-world",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "vanara-crowd",
-        "status": "new"
-      },
-      {
-        "id": "rama-necklace",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "three-steps",
-        "status": "new"
+        "status": "library"
       },
       {
         "id": "seal-stamp",

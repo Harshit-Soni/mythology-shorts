@@ -19,7 +19,7 @@ The first figures of the Ramayana on the channel, so no approved look exists yet
 | **B** | **Golden fur:** a tawny-gold body, cream muzzle, saffron dhoti, red sash | **Deep indigo:** very close to Krishna's blue |
 | **C** | **Earth-brown:** a brown body, tan muzzle, yellow dhoti, red sash | **Blue-grey:** dusky, a bit drab at phone size |
 
-## Recommendation (Claude's pick, waiting for the owner)
+## Recommendation (Claude's pick)
 - **Hanuman A (saffron).** It's the most recognisable at phone size and in a thumbnail, and it's the colour of his temple images. It also stands apart from both Rama and the sky backgrounds. B is a close second.
 - **Rama A (durva green).** It's the only one that can't be mistaken for Krishna side by side. B and C fall into Krishna's blue.
 
@@ -30,5 +30,5 @@ The first figures of the Ramayana on the channel, so no approved look exists yet
 - Rama's five poses: standing, enthroned, embracing, departing (in white), and a hand on the shoulder.
 - Sita, Vayu, and Indra hurling the vajra: these follow the approved S01 looks (the women's rig, the pandu rig, the library Indra), so they don't need their own concept check.
 
-## Decisions
-*(to fill in after the owner picks)*
+## Decisions (owner, 2026-11-27)
+- **Hanuman A (saffron)** and **Rama A (durva green)**, as recommended. `make-cast.py` builds the cast from these looks (the muzzle, tail and colours come from `make-concepts.py`).

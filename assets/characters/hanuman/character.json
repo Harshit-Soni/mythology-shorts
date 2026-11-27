@@ -1,0 +1,56 @@
+{
+  "id": "hanuman",
+  "divine": true,
+  "name": {
+    "en": "Hanuman",
+    "hi": "हनुमान"
+  },
+  "role": "Son of Vayu; Rama's devoted friend; a Chiranjeevi",
+  "look": "Concept A: sindoor-orange body, a pale vanara muzzle (the hanu), a long tail curling up, gold crown and mace, red dhoti. Baby poses: child size, no crown.",
+  "sourceNotes": "Valmiki CE 4.65, 7.35-36, 7.39, 7.98. Colours are a design choice (svg/04-concept-brief.md). Shown with dignity: no cartoon snout.",
+  "poses": [
+    "standing",
+    "seated-listening",
+    "bowing",
+    "asking",
+    "embraced",
+    "leaping",
+    "baby-reaching",
+    "baby-leaping",
+    "baby-falling",
+    "baby-glowing"
+  ],
+  "appearsIn": [
+    "S03E01"
+  ],
+  "files": {
+    "asking": "asking.svg",
+    "baby-falling": "baby-falling.svg",
+    "baby-glowing": "baby-glowing.svg",
+    "baby-leaping": "baby-leaping.svg",
+    "baby-reaching": "baby-reaching.svg",
+    "bowing": "bowing.svg",
+    "embraced": "embraced.svg",
+    "leaping": "leaping.svg",
+    "seated-listening": "seated-listening.svg",
+    "seated-listening__smile": "seated-listening__smile.svg",
+    "standing": "standing.svg",
+    "standing__devoted": "standing__devoted.svg",
+    "standing__moved": "standing__moved.svg",
+    "standing__necklace": "standing__necklace.svg"
+  },
+  "facing": "right",
+  "facingByPose": {
+    "standing": "right",
+    "seated-listening": "right",
+    "bowing": "right",
+    "asking": "right",
+    "embraced": "right",
+    "leaping": "right",
+    "baby-reaching": "right",
+    "baby-leaping": "right",
+    "baby-falling": "right",
+    "baby-glowing": "right"
+  },
+  "notes": "Made in code by episodes/S03E01-hanuman-never-died/svg/make-cast.py. Mirror with flip."
+}

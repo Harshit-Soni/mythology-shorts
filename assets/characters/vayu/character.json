@@ -1,0 +1,25 @@
+{
+  "id": "vayu",
+  "divine": true,
+  "name": {
+    "en": "Vayu",
+    "hi": "वायु"
+  },
+  "role": "The wind god, Hanuman's father",
+  "look": "The pandu rig: pale sky-grey, silver-white hair streaming, white cloth, a blue sash, halo.",
+  "sourceNotes": "Valmiki CE 4.65.23, 7.35.48-49. Colours are a design choice.",
+  "poses": [
+    "holding-child"
+  ],
+  "appearsIn": [
+    "S03E01"
+  ],
+  "files": {
+    "holding-child": "holding-child.svg"
+  },
+  "facing": "right",
+  "facingByPose": {
+    "holding-child": "right"
+  },
+  "notes": "Made in code by episodes/S03E01-hanuman-never-died/svg/make-cast.py. Mirror with flip."
+}

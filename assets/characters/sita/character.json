@@ -1,0 +1,25 @@
+{
+  "id": "sita",
+  "divine": true,
+  "name": {
+    "en": "Sita",
+    "hi": "सीता"
+  },
+  "role": "Rama's wife",
+  "look": "The women's rig: a plain ochre sari, no jewels (in the grove).",
+  "sourceNotes": "MBh 3.147.35 (found by Hanuman).",
+  "poses": [
+    "waiting"
+  ],
+  "appearsIn": [
+    "S03E01"
+  ],
+  "files": {
+    "waiting": "waiting.svg"
+  },
+  "facing": "right",
+  "facingByPose": {
+    "waiting": "right"
+  },
+  "notes": "Made in code by episodes/S03E01-hanuman-never-died/svg/make-cast.py. Mirror with flip."
+}

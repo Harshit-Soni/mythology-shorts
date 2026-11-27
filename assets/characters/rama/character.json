@@ -1,0 +1,39 @@
+{
+  "id": "rama",
+  "divine": true,
+  "name": {
+    "en": "Rama",
+    "hi": "राम"
+  },
+  "role": "King of Ayodhya",
+  "look": "Concept A: durva-green skin (shyama), yellow silk, red sash, crown, halo; bow and quiver when standing; white when departing.",
+  "sourceNotes": "Valmiki. Not to be mistaken for Krishna: no peacock feather, a different skin.",
+  "poses": [
+    "standing",
+    "enthroned",
+    "embracing",
+    "departing",
+    "hand-on-shoulder"
+  ],
+  "appearsIn": [
+    "S03E01"
+  ],
+  "files": {
+    "departing": "departing.svg",
+    "embracing": "embracing.svg",
+    "enthroned": "enthroned.svg",
+    "enthroned__moved": "enthroned__moved.svg",
+    "hand-on-shoulder": "hand-on-shoulder.svg",
+    "standing": "standing.svg",
+    "standing__smile": "standing__smile.svg"
+  },
+  "facing": "right",
+  "facingByPose": {
+    "standing": "right",
+    "enthroned": "right",
+    "embracing": "right",
+    "departing": "right",
+    "hand-on-shoulder": "right"
+  },
+  "notes": "Made in code by episodes/S03E01-hanuman-never-died/svg/make-cast.py. Mirror with flip."
+}
